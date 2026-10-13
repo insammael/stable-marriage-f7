@@ -265,6 +265,10 @@ theorem r21_delta_six_ideal_count_le_85_of_equality_exclusion
 
 end F7Manuscript
 
+-- The original construction is a separate module. Reset only Lean's local
+-- auxiliary-lemma cache so finite numeral proofs keep their original names.
+run_cmd Lean.modifyEnv fun env => Lean.Meta.auxLemmasExt.setState env {}
+
 namespace F7Manuscript.Construction
 open ConditionalUL NeutralCore
 
@@ -421,6 +425,8 @@ end F7Manuscript.Construction
 
 namespace F6SmallBlockTokenCapacity
 
+variable {B W : Type*} [Fintype B] [Fintype W] {q : ℕ}
+
 structure TokenRun (B W : Type*) [Fintype B] [Fintype W] (q : ℕ) where
   support : Fin q → Finset B
   state : Fin (q + 1) → (B ≃ W)
@@ -431,7 +437,6 @@ structure TokenRun (B W : Type*) [Fintype B] [Fintype W] (q : ℕ) where
     rank b (state i.castSucc b) < rank b (state i.succ b)
 
 namespace TokenRun
-variable {B W : Type*} [Fintype B] [Fintype W] {q : ℕ}
 variable (R : TokenRun B W q)
 
 noncomputable def participationSteps (b : B) : Finset (Fin q) := by
