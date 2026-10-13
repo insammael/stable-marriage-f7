@@ -3,7 +3,6 @@ module
 public import F7Manuscript.Lower85
 public import F7Manuscript.ConstructionCount
 public import F7Manuscript.TokenIncidence
-public import F7Manuscript.GraphBudget
 
 #check @F7Manuscript.Lower85.maleRankTable_bijective
 #print axioms F7Manuscript.Lower85.maleRankTable_bijective
@@ -73,7 +72,3 @@ public import F7Manuscript.GraphBudget
 #print axioms F7Manuscript.saturated_participation_is_six
 #check @F7Manuscript.incidence_surplus_identity
 #print axioms F7Manuscript.incidence_surplus_identity
-#check @F7Manuscript.decreasing_budget_path_bound
-#print axioms F7Manuscript.decreasing_budget_path_bound
-#check @F7Manuscript.simulated_graph_budget_bound
-#print axioms F7Manuscript.simulated_graph_budget_bound

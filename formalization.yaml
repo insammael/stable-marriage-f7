@@ -9,8 +9,7 @@ project:
     with its order identified as successive-participation closure. They also
     prove finite-poset pair and deficit bounds under explicit forbidden-pattern
     hypotheses, ideal-antichain counting and selected size-dependent ideal
-    bounds, fixed-token run capacities and seven-site saturation, and graph
-    budget soundness under explicit simulation completeness. The universal
+    bounds, fixed-token run capacities and seven-site saturation. The universal
     actual-profile upper bound is not assembled in Lean; no unconditional
     end-to-end Lean proof of f(7)=85 is claimed.
   authors: ["Myunglae Jo"]
@@ -72,9 +71,9 @@ related_formalizations:
 
 status:
   scope: >-
-    The 36 declarations selected by comparator.json are the registration
+    The 34 declarations selected by comparator.json are the registration
     claims. Actual lower85 and the fixed event-poset count are unconditional.
-    Poset, token-run, and graph results have their displayed hypotheses.
+    Poset and token-run results have their displayed hypotheses.
     The size21/delta3=6 ideal bound assumes equality exclusion. Additional
     modules provide supporting results but are not individually compared.
     The full actual-profile upper85 and hence unconditional f(7)=85 are
@@ -108,7 +107,7 @@ review:
   notes: "Prior agent-assisted statement and reproduction checks; no independent human peer review is claimed. Palomar's automated editorial review is separate."
 
 alignment:
-  namespace: "F7Manuscript; NeutralCore; ConditionalUL; F6SmallBlockTokenCapacity; F7ProofInterfaces"
+  namespace: "F7Manuscript; NeutralCore; ConditionalUL; F6SmallBlockTokenCapacity"
   notes: "README.md gives the mathematical account and known boundaries for every selected result family; Challenge.lean and comparator.json specify the exact declarations."
 
 acknowledgements: "Lean, Mathlib, their contributors, and OpenAI Codex for material AI assistance."

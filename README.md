@@ -10,14 +10,14 @@ development and an independent statement module for the selected results.
 
 ## Exact registration scope
 
-`comparator.json` selects 36 theorems. `Challenge.lean` gives their statements
+`comparator.json` selects 34 theorems. `Challenge.lean` gives their statements
 and complete mathematical definitions using Mathlib alone. `Solution.lean`
 imports the proof development and exposes the corresponding declarations.
 The Challenge's deliberate theorem holes are statement placeholders. There
 are no definition holes; the comparison must check the mathematical definitions
 as well as the theorem types. Proofs in the Solution contain no deliberate holes.
 
-The selected results have five related parts:
+The selected results have four related parts:
 
 1. **Actual stable matchings.** Each participant's ranking is a permutation
    of the seven partners, a perfect matching is a bijection, and a blocking
@@ -56,12 +56,6 @@ The selected results have five related parts:
    The incidence-surplus identity records the cost of larger supports.
    Extracting this model from actual rotation elimination is an additional
    semantic obligation, not a premise discharged by the comparison.
-5. **Graph budgets.** `Steps` is the ordinary length-indexed path relation.
-   A nonnegative budget decreasing by at least one along every edge bounds
-   path length plus the final budget. The simulation theorem transfers the
-   bound to original paths **assuming** that every original step has a graph
-   successor with the corresponding semantic state. It does not instantiate
-   the saved numerical graphs or prove their cover completeness.
 
 These formal certificates are useful to researchers studying extremal stable
 matchings, rotation posets, and forbidden-pattern posets: the statement
@@ -94,16 +88,15 @@ lake build Challenge
 lake env lean Solution.lean
 ```
 
-The proof library contains the 96 existing R2 source modules needed by the
-selected theorem import closure. The full 218-module companion remains in
-the fixed Zenodo release. Module visibility is ported to `module`, public
+The proof library retains 96 existing R2 source modules. The selected theorem
+import closure is built by `lake build Solution`. The full 218-module companion
+remains in the fixed Zenodo release. Module visibility is ported to `module`, public
 imports, and exposed public definitions, with minor Mathlib API and finite
 numeral simplification adjustments that preserve theorem statements.
 The Lakefile retains legacy elaboration transparency through
 `backward.isDefEq.respectTransparency=false`; this affects proof elaboration,
 not Lean's kernel acceptance criterion or the permitted axioms.
 `R2_SOURCE_MAP.json` binds every retained proof source to its R2 input.
-The selected proof import closure is built by `lake build Solution`.
 
 The GitHub workflow `palomar-preflight.yml` invokes Palomar's complete reusable
 workflow at a fixed pipeline commit, with `mode: full` and

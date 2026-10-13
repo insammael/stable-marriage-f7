@@ -35,9 +35,7 @@
     "F7Manuscript.seven_site_length",
     "F7Manuscript.saturated_supports_are_binary",
     "F7Manuscript.saturated_participation_is_six",
-    "F7Manuscript.incidence_surplus_identity",
-    "F7Manuscript.decreasing_budget_path_bound",
-    "F7Manuscript.simulated_graph_budget_bound"
+    "F7Manuscript.incidence_surplus_identity"
   ],
   "definition_names": [],
   "permitted_axioms": [
