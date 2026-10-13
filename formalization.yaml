@@ -1,0 +1,114 @@
+version: v0.4
+
+project:
+  name: "Order-seven stable matchings: lower bound 85 and supporting poset certificates"
+  description: >-
+    A companion formalization of Myunglae Jo's R2 stable-marriage preprint.
+    The selected results prove the unconditional actual-profile lower bound
+    f(7) >= 85 and the 85-ideal count of the displayed twenty-event order,
+    with its order identified as successive-participation closure. They also
+    prove finite-poset pair and deficit bounds under explicit forbidden-pattern
+    hypotheses, ideal-antichain counting and selected size-dependent ideal
+    bounds, fixed-token run capacities and seven-site saturation, and graph
+    budget soundness under explicit simulation completeness. The universal
+    actual-profile upper bound is not assembled in Lean; no unconditional
+    end-to-end Lean proof of f(7)=85 is claimed.
+  authors: ["Myunglae Jo"]
+  responsible_maintainers: ["Myunglae Jo"]
+  license: CC-BY-4.0
+
+classification:
+  arxiv: [math.CO]
+  msc2020: [05C70, 06A07]
+
+sources:
+  - title: "A computer-assisted proof that the maximum number of stable matchings of order seven is 85"
+    authors: ["Myunglae Jo"]
+    id: "doi:10.5281/zenodo.23329599"
+    location: "https://doi.org/10.5281/zenodo.23329599"
+    type: paper
+    relationship: formalizes
+    license: CC-BY-4.0
+    author_endorsement: participated
+    note: >-
+      R2, 13 October 2026. This repository adapts the existing companion
+      formalization to the submitted toolchain and module system. The
+      compared lower bound, fixed construction and abstract supporting
+      claims are specified in Challenge.lean. The full manuscript upper
+      proof retains human and computational connections not assembled here.
+  - title: "Small Rotation Blocks and the Order-Six Stable Marriage Problem"
+    authors: ["Myunglae Jo"]
+    type: paper
+    relationship: background
+    location: "https://zenodo.org/records/22909380"
+    author_endorsement: participated
+    note: >-
+      The predecessor fixed-token and convex-block mathematics is background
+      to the token-capacity results. The identified version 09 manuscript
+      and supplement are preserved in supplementary note S19 of the R2
+      order-seven distribution.
+  - title: "College admissions and the stability of marriage"
+    authors: ["David Gale", "Lloyd S. Shapley"]
+    id: "doi:10.1080/00029890.1962.11989827"
+    type: paper
+    relationship: background
+    author_endorsement: not-contacted
+    note: "American Mathematical Monthly 69 (1962), 9–15; the ordinary stability model, not the claimed order-seven bound."
+  - title: "An efficient algorithm for the optimal stable marriage"
+    authors: ["Robert W. Irving", "Paul Leather", "Dan Gusfield"]
+    id: "doi:10.1145/28869.28871"
+    type: paper
+    relationship: background
+    author_endorsement: not-contacted
+    note: "Journal of the ACM 34 (1987), 532–543; rotation-poset context. The actual-profile rotation-ideal correspondence is not formalized by this submission."
+
+related_formalizations:
+  - id: "https://zenodo.org/records/23329599"
+    relationship: adapts
+    note: "The source-only R2 Lean companion is the direct source; its published bytes remain unchanged."
+  - id: "PALOMAR-2026-09-20-000010"
+    relationship: other
+    note: "The author's separate order-six finite-poset registration is prior context, not evidence of a formal order-seven universal upper bound."
+
+status:
+  scope: >-
+    The 36 declarations selected by comparator.json are the registration
+    claims. Actual lower85 and the fixed event-poset count are unconditional.
+    Poset, token-run, and graph results have their displayed hypotheses.
+    The size21/delta3=6 ideal bound assumes equality exclusion. Additional
+    modules provide supporting results but are not individually compared.
+    The full actual-profile upper85 and hence unconditional f(7)=85 are
+    not assembled in Lean.
+  sorry_count: 0
+  sorry_in_definitions: 0
+  axioms: [propext, Quot.sound, Classical.choice]
+  notes: "Counts concern Solution and the proof development; Challenge contains deliberate theorem statement holes. All mathematical definition values are specified."
+
+automation:
+  methods:
+    - method: agent
+      models: []
+      framework: "OpenAI Codex"
+      tool_setup: "Material AI assistance in proof-source development, checking, and the Palomar module/toolchain adaptation; exact historical model identifiers not reconstructed."
+    - method: manual
+      models: []
+      tool_setup: "Human research direction, review of the manuscript and release decisions by the responsible author."
+  notes: "No reconstruction of historical prompt logs, spend, or person-hours is claimed. AI assistance is credited as production assistance, not human authorship."
+
+fidelity:
+  divergences: >-
+    This registration covers a companion subset, not the full f(7)=85
+    manuscript conclusion. Semantic extraction of actual rotations and
+    charts, the general triple ledger, equality exclusion, and complete
+    actual finite-cover embeddings remain formal gaps. Conditional premises
+    are retained, not replaced by axiom declarations or opaque certificates.
+
+review:
+  status: agent-reviewed
+  notes: "Prior agent-assisted statement and reproduction checks; no independent human peer review is claimed. Palomar's automated editorial review is separate."
+
+alignment:
+  namespace: "F7Manuscript; NeutralCore; ConditionalUL; F6SmallBlockTokenCapacity; F7ProofInterfaces"
+  notes: "README.md gives the mathematical account and known boundaries for every selected result family; Challenge.lean and comparator.json specify the exact declarations."
+
+acknowledgements: "Lean, Mathlib, their contributors, and OpenAI Codex for material AI assistance."

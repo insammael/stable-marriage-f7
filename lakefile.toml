@@ -1,0 +1,120 @@
+name = "f7_palomar_companion"
+defaultTargets = ["Solution"]
+
+[leanOptions]
+backward.isDefEq.respectTransparency = false
+maxRecDepth = 32768
+maxHeartbeats = 16000000
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+git = "https://github.com/leanprover-community/mathlib4"
+rev = "065356127b1dc0016f66b7283ce0ce2c4055aa55"
+
+[[lean_lib]]
+name = "F7Manuscript"
+globs = [
+  "ActualClassification",
+  "ActualExtremalPeeling",
+  "ActualLeafGraph",
+  "ActualOverlapGraph",
+  "ActualPathCover",
+  "BacktrackFreeColors",
+  "BoundaryCoordinates",
+  "ComponentDirection",
+  "CoordinateInterface",
+  "CoreCertificates",
+  "CoreModels",
+  "DeficitBounds",
+  "DualDeficits",
+  "DualPathCover",
+  "ExceptionalDeficits",
+  "ExtremalPathCover",
+  "F6SmallBlockTokenCapacity",
+  "F7Manuscript.ConstructionCount",
+  "F7Manuscript.Definitions",
+  "F7Manuscript.GraphBudget",
+  "F7Manuscript.IdealLedger",
+  "F7Manuscript.Lower85",
+  "F7Manuscript.TokenIncidence",
+  "F7ProofInterfaces",
+  "FiniteDeficits",
+  "FinitePatternChecks",
+  "FiveCoreTheorem",
+  "GeneralDeficitTransfer",
+  "GoodExtremum",
+  "HereditaryPairBound",
+  "InducedDeficitTransport",
+  "IntervalTrianglePaths",
+  "LeafComponentPreservation",
+  "MatchingEquality",
+  "MatrixPresentation",
+  "MaximumExtension",
+  "ModelIsomorphism",
+  "NeutralBoundaries",
+  "NeutralBoundaryFibers",
+  "NeutralSignature",
+  "NeutralityRestoration",
+  "OneInputClassification",
+  "OrderInvariants",
+  "OriginalDefinitions",
+  "OriginalSupportSeparation",
+  "OverlapDecomposition",
+  "PairDeletion",
+  "PairParity",
+  "PeriodicFrontier",
+  "PeriodicObstruction",
+  "PeriodicRenaming",
+  "R19HumanBoundary",
+  "R20DeficitBranch",
+  "RawPathSaturation",
+  "ReducedBoundaryMatching",
+  "ReducedCompleteBoundary",
+  "SULConnection",
+  "SemanticIsomorphism",
+  "SmallExtensionCertificates",
+  "SmallSeedCertificates",
+  "SmallSeedMatrices",
+  "SmallSeedShapes",
+  "SparseFivePointBound",
+  "TerminalSupportSeparation",
+  "ThreeInputClassification",
+  "ThreeMaximumFibers",
+  "TripleDeletion",
+  "TwoInputClassification",
+  "ULActualInterface",
+  "ULBoundaryFibers",
+  "ULCentralBudgetTheorem",
+  "ULCentralCutCounting",
+  "ULCentralHalfBudget",
+  "ULCentralOutsider",
+  "ULChainEnumeration",
+  "ULFiberChecks",
+  "ULFiniteFiberBounds",
+  "ULFiniteIncidence",
+  "ULInterfaceBridge",
+  "ULMatchingBudget",
+  "ULNeutralBoundaryExtraction",
+  "ULNeutralCoverage",
+  "ULNeutralDoubleSupport",
+  "ULNeutralShortPaths",
+  "ULOutsiderCentrality",
+  "ULPathEndpoints",
+  "ULPathSupportBudget",
+  "ULPrimitiveChecks",
+  "ULRawNeutralShortPaths",
+  "ULRawPathLedger",
+  "ULRawPathRemainder",
+  "UnconditionalFiveCore",
+  "UniversalDeficitDifference",
+  "UnorderedPairCount",
+  "UpperPathRestoration",
+  "WidthThreeIdealCount"
+]
+
+[[lean_lib]]
+name = "Challenge"
+
+[[lean_lib]]
+name = "Solution"

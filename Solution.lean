@@ -1,0 +1,79 @@
+module
+
+public import F7Manuscript.Lower85
+public import F7Manuscript.ConstructionCount
+public import F7Manuscript.TokenIncidence
+public import F7Manuscript.GraphBudget
+
+#check @F7Manuscript.Lower85.maleRankTable_bijective
+#print axioms F7Manuscript.Lower85.maleRankTable_bijective
+#check @F7Manuscript.Lower85.femaleRankTable_bijective
+#print axioms F7Manuscript.Lower85.femaleRankTable_bijective
+#check @F7Manuscript.Lower85.profile_has_at_least_85
+#print axioms F7Manuscript.Lower85.profile_has_at_least_85
+#check @F7Manuscript.Lower85.exists_profile_with_at_least_85
+#print axioms F7Manuscript.Lower85.exists_profile_with_at_least_85
+#check @F7Manuscript.Lower85.f7_at_least_85
+#print axioms F7Manuscript.Lower85.f7_at_least_85
+#check @NeutralCore.pairClass_unordered_pair_bound
+#print axioms NeutralCore.pairClass_unordered_pair_bound
+#check @NeutralCore.pairClass_deficit_nonnegative
+#print axioms NeutralCore.pairClass_deficit_nonnegative
+#check @NeutralCore.general_bad_card_le_nine
+#print axioms NeutralCore.general_bad_card_le_nine
+#check @NeutralCore.pairClass_deficit_transfer
+#print axioms NeutralCore.pairClass_deficit_transfer
+#check @NeutralCore.universal_difference_le_two_univ
+#print axioms NeutralCore.universal_difference_le_two_univ
+#check @NeutralCore.IdealCounting.ideal_count_eq_antichain_count
+#print axioms NeutralCore.IdealCounting.ideal_count_eq_antichain_count
+#check @NeutralCore.IdealCounting.ideal_count_width_three
+#print axioms NeutralCore.IdealCounting.ideal_count_width_three
+#check @F7Manuscript.ideal_deficit_accounting
+#print axioms F7Manuscript.ideal_deficit_accounting
+#check @F7Manuscript.small_poset_ideal_count_le_sixteen
+#print axioms F7Manuscript.small_poset_ideal_count_le_sixteen
+#check @F7Manuscript.five_to_eighteen_ideal_count_le_eighty_one
+#print axioms F7Manuscript.five_to_eighteen_ideal_count_le_eighty_one
+#check @F7Manuscript.r20_high_triple_ideal_count_le_85
+#print axioms F7Manuscript.r20_high_triple_ideal_count_le_85
+#check @F7Manuscript.r21_high_triple_ideal_count_le_84
+#print axioms F7Manuscript.r21_high_triple_ideal_count_le_84
+#check @F7Manuscript.r21_delta_six_ideal_count_le_85_of_equality_exclusion
+#print axioms F7Manuscript.r21_delta_six_ideal_count_le_85_of_equality_exclusion
+#check @F7Manuscript.Construction.table_refl
+#print axioms F7Manuscript.Construction.table_refl
+#check @F7Manuscript.Construction.table_trans
+#print axioms F7Manuscript.Construction.table_trans
+#check @F7Manuscript.Construction.table_antisymm
+#print axioms F7Manuscript.Construction.table_antisymm
+#check @F7Manuscript.Construction.parents_are_successive_participations
+#print axioms F7Manuscript.Construction.parents_are_successive_participations
+#check @F7Manuscript.Construction.order_is_generated_by_participations
+#print axioms F7Manuscript.Construction.order_is_generated_by_participations
+#check @F7Manuscript.Construction.width_three
+#print axioms F7Manuscript.Construction.width_three
+#check @F7Manuscript.Construction.event_card
+#print axioms F7Manuscript.Construction.event_card
+#check @F7Manuscript.Construction.pair_count
+#print axioms F7Manuscript.Construction.pair_count
+#check @F7Manuscript.Construction.triple_count
+#print axioms F7Manuscript.Construction.triple_count
+#check @F7Manuscript.Construction.event_poset_has_85_ideals
+#print axioms F7Manuscript.Construction.event_poset_has_85_ideals
+#check @F6SmallBlockTokenCapacity.TokenRun.TWO_SITE_CAPACITY
+#print axioms F6SmallBlockTokenCapacity.TokenRun.TWO_SITE_CAPACITY
+#check @F6SmallBlockTokenCapacity.TokenRun.THREE_SITE_CAPACITY
+#print axioms F6SmallBlockTokenCapacity.TokenRun.THREE_SITE_CAPACITY
+#check @F7Manuscript.seven_site_length
+#print axioms F7Manuscript.seven_site_length
+#check @F7Manuscript.saturated_supports_are_binary
+#print axioms F7Manuscript.saturated_supports_are_binary
+#check @F7Manuscript.saturated_participation_is_six
+#print axioms F7Manuscript.saturated_participation_is_six
+#check @F7Manuscript.incidence_surplus_identity
+#print axioms F7Manuscript.incidence_surplus_identity
+#check @F7Manuscript.decreasing_budget_path_bound
+#print axioms F7Manuscript.decreasing_budget_path_bound
+#check @F7Manuscript.simulated_graph_budget_bound
+#print axioms F7Manuscript.simulated_graph_budget_bound
