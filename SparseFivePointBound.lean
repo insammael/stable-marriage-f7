@@ -3,6 +3,7 @@ module
 public import PairDeletion
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 namespace NeutralCore
 open ConditionalUL
@@ -132,7 +133,7 @@ theorem five_points_three_comparisons (P : Finset V) (hP : P.card=5)
     have h := star_comparisons_card_le_four P hv hwidth (by
       intro a ha b hb hab
       have hm : (a,b)∈strictPairs P := mem_strictPairs.mpr ⟨ha,hb,hab⟩
-      simpa [hEmpty] using hm)
+      simpa [hEmpty] using! hm)
     omega
   by_cases hOne : (strictPairs P).card=1
   · obtain ⟨p,hEq⟩ := Finset.card_eq_one.mp hOne
@@ -140,7 +141,7 @@ theorem five_points_three_comparisons (P : Finset V) (hP : P.card=5)
     have h := star_comparisons_card_le_four P (mem_strictPairs.mp hp).1 hwidth (by
       intro a ha b hb hab
       have hm : (a,b)∈strictPairs P := mem_strictPairs.mpr ⟨ha,hb,hab⟩
-      have heq : (a,b)=p := by simpa [hEq] using hm
+      have heq : (a,b)=p := by simpa [hEq] using! hm
       exact Or.inl (congrArg Prod.fst heq))
     omega
   have hTwo : (strictPairs P).card=2 := by omega
@@ -155,7 +156,7 @@ theorem five_points_three_comparisons (P : Finset V) (hP : P.card=5)
       (a=x ∧ b=y) ∨ (a=z ∧ b=w) := by
     intro a ha b hb hab
     have hm : (a,b)∈strictPairs P := mem_strictPairs.mpr ⟨ha,hb,hab⟩
-    simpa [hEq] using hm
+    simpa [hEq] using! hm
   have hNoCommon : x≠z ∧ x≠w ∧ y≠z ∧ y≠w := by
     have hContr : ∀ v∈P, (x=v ∨ y=v) → (z=v ∨ w=v) → False := by
       intro v hv hpv hqv

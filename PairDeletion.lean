@@ -3,6 +3,7 @@ module
 public import PairParity
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 namespace NeutralCore
 open ConditionalUL
@@ -23,8 +24,8 @@ theorem ordered_pair_deletion (P : Finset V) {x : V} (hx : x∈P) :
   have hZero : crossEdges ({x} : Finset V) {x}=∅ := by
     exact self_edges_empty_of_chain (by
       intro a ha b hb
-      have ha' : a=x := by simpa using ha
-      have hb' : b=x := by simpa using hb
+      have ha' : a=x := by simpa using! ha
+      have hb' : b=x := by simpa using! hb
       subst a; subst b
       exact Or.inl le_rfl)
   have hRow : crossEdges (P.erase x) {x}=

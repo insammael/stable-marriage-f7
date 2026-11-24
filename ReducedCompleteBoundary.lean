@@ -3,6 +3,7 @@ module
 public import ReducedBoundaryMatching
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 namespace NeutralCore
 namespace Peeling
@@ -214,7 +215,7 @@ theorem reduced_three_deletion {P : Finset V} (G : ThreeMaxBoundary P)
   have he0 : e P (G.root 0)=1 := by
     have hc := incident_triples_count P (G.root 0) h0P
     rw [hT0] at hc
-    simpa using hc.symm
+    simpa using! hc.symm
   have he1 : e (P.erase (G.root 0)) (G.root 1)=0 := by
     rw [←incident_triples_count _ _ h1P]
     apply Finset.card_eq_zero.mpr

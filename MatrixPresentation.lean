@@ -3,6 +3,7 @@ module
 public import SmallSeedMatrices
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 namespace NeutralCore.SmallSeed
 open ConditionalUL
@@ -24,7 +25,7 @@ theorem linear_label_exists (P : Finset V) {n : ℕ} (hc : P.card=n) :
   letI : Fintype (LinearExtension P) := inferInstanceAs (Fintype P)
   have hcard : Fintype.card (LinearExtension P)=n := by
     change Fintype.card P=n
-    simpa using hc
+    simpa using! hc
   let E := monoEquivOfFin (LinearExtension P) hcard
   let f : Fin n→V := fun i => (E i : P).val
   refine ⟨f,fun i => (E i : P).property,?_,?_,?_⟩
@@ -109,7 +110,7 @@ theorem Presentation.pair_card (E : Presentation P n) :
     obtain ⟨j,hj⟩ := E.surjective _ hq
     refine ⟨(i,j),Finset.mem_filter.mpr ⟨Finset.mem_univ _,(E.inc_iff _ _).mpr ?_⟩,
       Prod.ext hi hj⟩
-    simpa [hi,hj] using hI
+    simpa [hi,hj] using! hI
 
 theorem Presentation.anti_image (E : Presentation P n) (T : Finset (Fin n)) :
     AntichainOn (T.image E.lab : Set V) ↔ ∀i∈T,∀j∈T,i≠j → inc E.edges i j := by
@@ -193,9 +194,9 @@ theorem Presentation.npairs (E : Presentation P n) (v : Fin n) :
     obtain ⟨j,hlj⟩ := E.surjective _ hq
     refine ⟨(i,j),Finset.mem_filter.mpr ⟨Finset.mem_univ _,
       (E.inc_iff _ _).mpr ?_,(E.inc_iff _ _).mpr ?_,(E.inc_iff _ _).mpr ?_⟩,Prod.ext hli hlj⟩
-    · simpa [hli] using hi
-    · simpa [hlj] using hj
-    · simpa [hli,hlj] using hI
+    · simpa [hli] using! hi
+    · simpa [hlj] using! hj
+    · simpa [hli,hlj] using! hI
 
 #print axioms presentation
 #print axioms Presentation.triple_card

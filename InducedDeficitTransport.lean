@@ -3,6 +3,7 @@ module
 public import UnconditionalFiveCore
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 namespace NeutralCore
 open ConditionalUL
@@ -49,7 +50,7 @@ theorem pairs_image_card (S : Finset P) :
     refine ⟨(x,y),Finset.mem_filter.mpr ⟨Finset.mem_product.mpr ⟨hx,hy⟩,?_⟩,
       Prod.ext hxval hyval⟩
     change Inc x.val y.val
-    simpa only [hxval,hyval] using hI
+    simpa only [hxval,hyval] using! hI
 
 theorem A2_eq : A2 (V:=P)=(pairs P).card/2 := by
   unfold A2
@@ -140,16 +141,16 @@ theorem neutral_of_neutralOn (h : NeutralOn P) : Neutral (V:=P) := by
   have hn := h v.val (hv.elim
     (fun hv => Or.inl ((minimal_iff P v).mp hv))
     (fun hv => Or.inr ((maximal_iff P v).mp hv)))
-  simpa only [neutralAt,d_eq,e_eq] using hn
+  simpa only [neutralAt,d_eq,e_eq] using! hn
 
 theorem badNeutral_of_regular (hClass : PairClass (V:=V))
     (h : Peeling.Regular P) : BadNeutral (V:=P) := by
   obtain ⟨⟨hn,ha0,ha2,hD⟩,hNeutral⟩ := h
   refine ⟨?_,pairClass P hClass,?_,?_,?_,neutral_of_neutralOn P hNeutral⟩
-  · simpa only [Fintype.card_coe] using hn
-  · simpa only [a_eq] using ha0
-  · simpa only [a_eq] using ha2
-  · simpa only [D_eq] using hD
+  · simpa only [Fintype.card_coe] using! hn
+  · simpa only [a_eq] using! ha0
+  · simpa only [a_eq] using! ha2
+  · simpa only [D_eq] using! hD
 
 end Induced
 
@@ -158,7 +159,7 @@ neutrality transport proved from the original definitions. -/
 theorem regular_card_le_eight (hClass : PairClass (V:=V)) (P : Finset V)
     (h : Peeling.Regular P) : P.card≤8 := by
   have hn := bad_neutral_card_le_eight (Induced.badNeutral_of_regular P hClass h)
-  simpa only [Fintype.card_coe] using hn
+  simpa only [Fintype.card_coe] using! hn
 
 #print axioms regular_card_le_eight
 #check regular_card_le_eight

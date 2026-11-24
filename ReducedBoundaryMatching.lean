@@ -3,6 +3,7 @@ module
 public import ActualExtremalPeeling
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 namespace NeutralCore
 namespace Peeling
@@ -59,7 +60,7 @@ noncomputable def reindexBoundary {P : Finset V} (G : ThreeMaxBoundary P)
   anti i j hij := G.anti (σ i) (σ j) (fun h => hij (σ.injective h))
   source x hx := by
     obtain ⟨i,hi⟩ := G.source x hx
-    exact ⟨σ.symm i,by simpa using hi⟩
+    exact ⟨σ.symm i,by simpa using! hi⟩
 
 /-- Finite index algebra only: a 3-by-3 missing-comparison matching can be
 reindexed as the first k diagonal entries. This does not enumerate posets. -/
@@ -108,7 +109,7 @@ theorem normalized_boundaries {P : Finset V} (hClass : PairClass (V:=V)) (h : Re
   obtain ⟨σ,τ,k,hNorm⟩ := normalize_three_matching B hRow hCol
   refine ⟨reindexBoundary L σ,reindexBoundary U τ,k,?_⟩
   intro i j
-  simpa [B,reindexBoundary] using hNorm i j
+  simpa [B,reindexBoundary] using! hNorm i j
 
 /-- Any double fiber is disjoint from the maxima. -/
 theorem double_not_maximal {P : Finset V} (G : ThreeMaxBoundary P) {i : Fin 3} {x : V}

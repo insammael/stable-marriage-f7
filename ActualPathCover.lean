@@ -4,6 +4,7 @@ public import IntervalTrianglePaths
 public import ActualOverlapGraph
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 namespace NeutralCore.PathExtraction
 open ConditionalUL ActualOverlap
@@ -53,7 +54,7 @@ theorem ActualPathCover.end_of_maxima {P : Finset V} (H : ActualPathCover P)
     obtain ⟨y,hy,hxy⟩ := (H.path C).up j hjlt x hx
     have hyP : y∈P := ((mem_triples_on P _).mp (H.mem C (j+1) (by omega))).1 hy
     have heq : y=x := (hMax x hx).2 hyP hxy
-    simpa only [heq] using hy
+    simpa only [heq] using! hy
   have hCard := (H.path C).three (j+1) (by omega)
   have hEq : (H.path C).triangles j=(H.path C).triangles (j+1) :=
     Finset.eq_of_subset_of_card_le hs (by rw [(H.path C).three j (by omega),hCard])

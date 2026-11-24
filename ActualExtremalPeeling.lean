@@ -4,6 +4,7 @@ public import NeutralBoundaryFibers
 public import ActualOverlapGraph
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 namespace NeutralCore
 namespace Peeling
@@ -157,11 +158,11 @@ theorem doubled_maximum_only_triple {P : Finset V} (G : ThreeMaxBoundary P)
   have hc : ((triples P).filter (fun T => G.root i∈T)).card=1 := by
     rw [incident_triples_count P _ (G.maximal i).1,he]
   obtain ⟨R,hR⟩ := Finset.card_eq_one.mp hc
-  have hTR : T=R := by simpa [hR] using (Finset.mem_filter.mpr ⟨hT,hiT⟩ : T∈(triples P).filter (fun T => G.root i∈T))
+  have hTR : T=R := by simpa [hR] using! (Finset.mem_filter.mpr ⟨hT,hiT⟩ : T∈(triples P).filter (fun T => G.root i∈T))
   have hu := (regular_boundaries hClass h).2.1
   have hY := (boundary_triples P (regular_boundaries hClass h).1 hu).2
   have hYR : globalMaxima P=R := by
-    simpa [hR] using (Finset.mem_filter.mpr ⟨hY,mem_globalMaxima.mpr (G.maximal i)⟩ : globalMaxima P∈(triples P).filter (fun T => G.root i∈T))
+    simpa [hR] using! (Finset.mem_filter.mpr ⟨hY,mem_globalMaxima.mpr (G.maximal i)⟩ : globalMaxima P∈(triples P).filter (fun T => G.root i∈T))
   exact hTR.trans hYR.symm
 
 /-- The ACTUAL maxima after deletion replace the peeled maximum by its predecessor. -/
@@ -184,7 +185,7 @@ theorem maxima_replaced {P : Finset V} (G : ThreeMaxBoundary P)
         (inc_ne (G.anti l i hli))).1 (hwx.trans hxl))
     have hxF : x∈upperFiber P (G.root i) := Finset.mem_filter.mpr ⟨hxSingle.1,hxSingle⟩
     rw [hFiber] at hxF
-    exact (Finset.mem_insert.mp hxF).resolve_right (by simpa using (Finset.mem_erase.mp hx).1)
+    exact (Finset.mem_insert.mp hxF).resolve_right (by simpa using! (Finset.mem_erase.mp hx).1)
   have hSub : insert w ((globalMaxima P).erase (G.root i))⊆globalMaxima (P.erase (G.root i)) := by
     intro x hx
     rcases Finset.mem_insert.mp hx with rfl | hx

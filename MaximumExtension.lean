@@ -3,6 +3,7 @@ module
 public import MatrixPresentation
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 namespace NeutralCore.SmallSeed
 open ConditionalUL
@@ -43,22 +44,22 @@ noncomputable def Presentation.addMaximum (E : Presentation (P.erase v) n)
   refine ⟨f,?_,?_,?_,extend E.edges (downSet E),?_,?_⟩
   · intro i
     refine Fin.lastCases ?_ (fun j => ?_) i
-    · simpa [f] using hv.1
-    · simpa [f] using (Finset.mem_erase.mp (E.mem_lab j)).2
+    · simpa [f] using! hv.1
+    · simpa [f] using! (Finset.mem_erase.mp (E.mem_lab j)).2
   · intro i j
     refine Fin.lastCases ?_ (fun a => ?_) i
     · refine Fin.lastCases ?_ (fun b => ?_) j
       · intro _; rfl
-      · intro h; exact (hOldNe b (by simpa [f] using h.symm)).elim
+      · intro h; exact (hOldNe b (by simpa [f] using! h.symm)).elim
     · refine Fin.lastCases ?_ (fun b => ?_) j
-      · intro h; exact (hOldNe a (by simpa [f] using h)).elim
+      · intro h; exact (hOldNe a (by simpa [f] using! h)).elim
       · intro h
-        exact congrArg Fin.castSucc (E.injective (by simpa [f] using h))
+        exact congrArg Fin.castSucc (E.injective (by simpa [f] using! h))
   · intro x hx
     by_cases he : x=v
-    · exact ⟨Fin.last n,by simpa [f] using he.symm⟩
+    · exact ⟨Fin.last n,by simpa [f] using! he.symm⟩
     · obtain ⟨i,hi⟩ := E.surjective x (Finset.mem_erase.mpr ⟨he,hx⟩)
-      exact ⟨i.castSucc,by simpa [f] using hi⟩
+      exact ⟨i.castSucc,by simpa [f] using! hi⟩
   · intro i j
     refine Fin.lastCases ?_ (fun a => ?_) i
     · refine Fin.lastCases ?_ (fun b => ?_) j
@@ -67,12 +68,12 @@ noncomputable def Presentation.addMaximum (E : Presentation (P.erase v) n)
         exact iff_of_false (rel_extend_last_old _ _ _) (hNo b)
     · refine Fin.lastCases ?_ (fun b => ?_) j
       · simp [f,downSet]
-      · simpa [f] using E.exact_order a b
+      · simpa [f] using! E.exact_order a b
   · intro p hp
     rcases Finset.mem_union.mp hp with hOld | hNew
     · obtain ⟨q,hq,rfl⟩ := Finset.mem_image.mp hOld
       have hqLt := (Finset.mem_filter.mp (E.upper hq)).2
-      exact Finset.mem_filter.mpr ⟨Finset.mem_univ _,by simpa using hqLt⟩
+      exact Finset.mem_filter.mpr ⟨Finset.mem_univ _,by simpa using! hqLt⟩
     · obtain ⟨i,_,rfl⟩ := Finset.mem_image.mp hNew
       exact Finset.mem_filter.mpr ⟨Finset.mem_univ _,Fin.castSucc_lt_last i⟩
 

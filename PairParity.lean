@@ -3,6 +3,7 @@ module
 public import OriginalDefinitions
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 namespace NeutralCore
 
@@ -24,7 +25,7 @@ theorem oriented_pair_split (P : Finset V) (r : V ≃ Fin (Fintype.card V)) :
     simp only [L,R,Finset.mem_union,Finset.mem_filter]
     constructor
     · intro hp
-      have hp' : p∈crossEdges P P := by simpa only [E,pairs_eq_crossEdges] using hp
+      have hp' : p∈crossEdges P P := by simpa only [E,pairs_eq_crossEdges] using! hp
       have hInc : Inc p.1 p.2 := (mem_crossEdges.mp hp').2.2
       have hne : r p.1≠r p.2 := fun h => inc_ne hInc (r.injective h)
       rcases lt_or_gt_of_ne hne with h | h
@@ -42,7 +43,7 @@ theorem oriented_pair_split (P : Finset V) (r : V ≃ Fin (Fintype.card V)) :
       obtain ⟨q,hq,hqp⟩ := Finset.mem_image.mp hp
       subst p
       obtain ⟨hqE,hqLt⟩ := Finset.mem_filter.mp hq
-      have hqE' : q∈crossEdges P P := by simpa only [E,pairs_eq_crossEdges] using hqE
+      have hqE' : q∈crossEdges P P := by simpa only [E,pairs_eq_crossEdges] using! hqE
       have hqI := mem_crossEdges.mp hqE'
       apply Finset.mem_filter.mpr
       refine ⟨?_,hqLt⟩
@@ -50,7 +51,7 @@ theorem oriented_pair_split (P : Finset V) (r : V ≃ Fin (Fintype.card V)) :
       exact ⟨hqI.2.1,hqI.1,inc_symm hqI.2.2⟩
     · intro hp
       obtain ⟨hpE,hpLt⟩ := Finset.mem_filter.mp hp
-      have hpE' : p∈crossEdges P P := by simpa only [E,pairs_eq_crossEdges] using hpE
+      have hpE' : p∈crossEdges P P := by simpa only [E,pairs_eq_crossEdges] using! hpE
       have hpI := mem_crossEdges.mp hpE'
       apply Finset.mem_image.mpr
       refine ⟨p.swap,Finset.mem_filter.mpr ⟨?_,hpLt⟩,Prod.swap_swap p⟩

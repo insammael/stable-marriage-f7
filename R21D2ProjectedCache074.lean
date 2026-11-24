@@ -1,0 +1,49 @@
+module
+
+public import R21D2ProjectedCache074Part00
+public import R21D2ProjectedCache074Part01
+public import R21D2ProjectedCache074Part02
+public import R21D2ProjectedCache074Part03
+public import R21D2ProjectedCache074Part04
+public import R21D2ProjectedCache074Part05
+public import R21D2ProjectedCache074Part06
+public import R21D2ProjectedCache074Part07
+
+@[expose] public section
+set_option backward.isDefEq.respectTransparency false
+namespace F7Manuscript.R21NormalEndpoint.Projection.Snapshots.PhysicalD2.Projected
+theorem projected074_ok : projectionOKBy d6 projected074 projected074_calc=true := by
+ have node_llll := projectionOKBy_of_children projected074_head_llll projected074_leaf_lllll projected074_leaf_llllr
+ have node_lllr := projectionOKBy_of_children projected074_head_lllr projected074_leaf_lllrl projected074_leaf_lllrr
+ have node_llrl := projectionOKBy_of_children projected074_head_llrl projected074_leaf_llrll projected074_leaf_llrlr
+ have node_llrr := projectionOKBy_of_children projected074_head_llrr projected074_leaf_llrrl projected074_leaf_llrrr
+ have node_lrll := projectionOKBy_of_children projected074_head_lrll projected074_leaf_lrlll projected074_leaf_lrllr
+ have node_lrlr := projectionOKBy_of_children projected074_head_lrlr projected074_leaf_lrlrl projected074_leaf_lrlrr
+ have node_lrrl := projectionOKBy_of_children projected074_head_lrrl projected074_leaf_lrrll projected074_leaf_lrrlr
+ have node_lrrr := projectionOKBy_of_children projected074_head_lrrr projected074_leaf_lrrrl projected074_leaf_lrrrr
+ have node_rlll := projectionOKBy_of_children projected074_head_rlll projected074_leaf_rllll projected074_leaf_rlllr
+ have node_rllr := projectionOKBy_of_children projected074_head_rllr projected074_leaf_rllrl projected074_leaf_rllrr
+ have node_rlrl := projectionOKBy_of_children projected074_head_rlrl projected074_leaf_rlrll projected074_leaf_rlrlr
+ have node_rlrr := projectionOKBy_of_children projected074_head_rlrr projected074_leaf_rlrrl projected074_leaf_rlrrr
+ have node_rrll := projectionOKBy_of_children projected074_head_rrll projected074_leaf_rrlll projected074_leaf_rrllr
+ have node_rrlr := projectionOKBy_of_children projected074_head_rrlr projected074_leaf_rrlrl projected074_leaf_rrlrr
+ have node_rrrl := projectionOKBy_of_children projected074_head_rrrl projected074_leaf_rrrll projected074_leaf_rrrlr
+ have node_rrrr := projectionOKBy_of_children projected074_head_rrrr projected074_leaf_rrrrl projected074_leaf_rrrrr
+ have node_lll := projectionOKBy_of_children projected074_head_lll node_llll node_lllr
+ have node_llr := projectionOKBy_of_children projected074_head_llr node_llrl node_llrr
+ have node_lrl := projectionOKBy_of_children projected074_head_lrl node_lrll node_lrlr
+ have node_lrr := projectionOKBy_of_children projected074_head_lrr node_lrrl node_lrrr
+ have node_rll := projectionOKBy_of_children projected074_head_rll node_rlll node_rllr
+ have node_rlr := projectionOKBy_of_children projected074_head_rlr node_rlrl node_rlrr
+ have node_rrl := projectionOKBy_of_children projected074_head_rrl node_rrll node_rrlr
+ have node_rrr := projectionOKBy_of_children projected074_head_rrr node_rrrl node_rrrr
+ have node_ll := projectionOKBy_of_children projected074_head_ll node_lll node_llr
+ have node_lr := projectionOKBy_of_children projected074_head_lr node_lrl node_lrr
+ have node_rl := projectionOKBy_of_children projected074_head_rl node_rll node_rlr
+ have node_rr := projectionOKBy_of_children projected074_head_rr node_rrl node_rrr
+ have node_l := projectionOKBy_of_children projected074_head_l node_ll node_lr
+ have node_r := projectionOKBy_of_children projected074_head_r node_rl node_rr
+ have node_root := projectionOKBy_of_children projected074_head_root node_l node_r
+ exact node_root
+theorem projected074_correct : ProjectionCorrect d6 projected074 1748348592153784389262282133578952800049623747267231933534314736 := projection_correct_by_of_check projected074_calc_correct projected074_ok
+end F7Manuscript.R21NormalEndpoint.Projection.Snapshots.PhysicalD2.Projected

@@ -4,6 +4,7 @@ public import SemanticIsomorphism
 public import UnorderedPairCount
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 /-!
 PUBLIC ENTRY POINT. This is a connected, conditional full classification,

@@ -1,0 +1,18 @@
+module
+
+public import R21OneOutsiderEndObstruction
+public import R21NormalOutsiderOriginalData
+public import F7Manuscript.ActualR21PositiveDeltaLeaves
+
+@[expose] public section
+set_option backward.isDefEq.respectTransparency false
+
+namespace F7Manuscript.ActualPositiveDeficitCoverAssembly
+noncomputable section
+open StableLattice StableIdeals NeutralCore ConditionalUL ConvexExecution
+open TripleCoordinateLattice R21NormalEndpoint
+open scoped Classical
+attribute [local instance] eventDecEq eventDecLe
+
+end
+end F7Manuscript.ActualPositiveDeficitCoverAssembly

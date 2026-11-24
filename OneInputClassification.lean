@@ -4,6 +4,7 @@ public import OriginalSupportSeparation
 public import TwoInputClassification
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 namespace NeutralCore
 open ConditionalUL ActualOverlap

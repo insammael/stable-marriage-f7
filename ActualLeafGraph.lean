@@ -4,6 +4,7 @@ public import ActualExtremalPeeling
 public import LeafComponentPreservation
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 namespace NeutralCore
 namespace ActualOverlap
@@ -177,7 +178,7 @@ theorem actual_support_membership (P : Finset V) (p : V) (d z : Triple P)
     · rintro ⟨T,hT,hxT⟩
       refine ⟨I T,?_,hxT⟩
       apply I.symm.connectedComponentEquiv.injective
-      simpa [SimpleGraph.Iso.connectedComponentEquiv] using hT
+      simpa [SimpleGraph.Iso.connectedComponentEquiv] using! hT
     · rintro ⟨T,hT,hxT⟩
       refine ⟨I.symm T,?_,hxT⟩
       change (graph (P.erase p)).connectedComponentMk (I.symm T)=_

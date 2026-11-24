@@ -4,6 +4,9 @@ public import CoreModels
 public import ULRawNeutralShortPaths
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
+set_option backward.privateInPublic true
+set_option backward.privateInPublic.warn false
 
 namespace NeutralCore
 
@@ -111,10 +114,10 @@ theorem boundary_coordinates_some {A : Finset V} (G : ThreeMaxBoundary A)
     have hv := congrArg Subtype.val hpq
     cases hp : isExtra p <;> cases hq : isExtra q
     · apply same_point
-      · exact boundary_root_injective G (by simpa [pick,hp,hq] using hv)
+      · exact boundary_root_injective G (by simpa [pick,hp,hq] using! hv)
       · exact hp.trans hq.symm
-    · exact (hwNe (index p) (by simpa [pick,hp,hq] using hv.symm)).elim
-    · exact (hwNe (index q) (by simpa [pick,hp,hq] using hv)).elim
+    · exact (hwNe (index p) (by simpa [pick,hp,hq] using! hv.symm)).elim
+    · exact (hwNe (index q) (by simpa [pick,hp,hq] using! hv)).elim
     · apply same_point ((extra_index p hp).trans (extra_index q hq).symm)
       exact hp.trans hq.symm
   have hsurj : Function.Surjective pick := by
@@ -122,17 +125,17 @@ theorem boundary_coordinates_some {A : Finset V} (G : ThreeMaxBoundary A)
     have hx : x.val∈insert w (boundaryRootSet G) := hAll.symm ▸ x.property
     rcases Finset.mem_insert.mp hx with hx | hx
     · refine ⟨extra (some i) i rfl,Subtype.ext ?_⟩
-      simpa [pick,extra,isExtra] using hx.symm
+      simpa [pick,extra,isExtra] using! hx.symm
     · obtain ⟨j,_hj,hjx⟩ := Finset.mem_image.mp hx
       refine ⟨root (some i) j,Subtype.ext ?_⟩
-      simpa [pick,root,isExtra,index] using hjx
+      simpa [pick,root,isExtra,index] using! hjx
   let e := Equiv.ofBijective pick ⟨hinj,hsurj⟩
   have hFiber : ∀ p, SingleUpper (A : Set V) (G.root (index p)) (e p).val := by
     intro p
     by_cases hp : isExtra p=true
     · have hi := extra_index p hp
-      simpa [e,pick,hp,hi] using hw
-    · simpa [e,pick,hp] using maximal_single_upper (G.maximal (index p))
+      simpa [e,pick,hp,hi] using! hw
+    · simpa [e,pick,hp] using! maximal_single_upper (G.maximal (index p))
   refine ⟨{equiv:=e, roots:=?_,fiber:=hFiber,order:=?_}⟩
   · intro j
     simp [e,pick,root,isExtra,index]
@@ -144,7 +147,7 @@ theorem boundary_coordinates_some {A : Finset V} (G : ThreeMaxBoundary A)
         have hnot : ¬G.root i≤w := not_le_of_gt hwi
         simp [e,pick,hp,hq,hij,hi,hnot]
       · have hi : index p=i := extra_index p hp
-        have hle : w≤G.root (index q) := by simpa [←hij,hi] using hwi.le
+        have hle : w≤G.root (index q) := by simpa [←hij,hi] using! hwi.le
         simp [e,pick,hp,hq,hij,hle]
       · simp [e,pick,hp,hq,hij]
     · have hinc := distinct_single_upper_inc (hFiber p) (hFiber q)
@@ -157,9 +160,9 @@ theorem boundary_coordinates {A : Finset V} (G : ThreeMaxBoundary A) (f : Flag)
     (hSome : ∀ i, f=some i → (upperFiber A (G.root i)).card=2) :
     Nonempty (BoundaryCoordinates A G f) := by
   cases f with
-  | none => exact boundary_coordinates_none G (by simpa [flagCost] using hcard)
+  | none => exact boundary_coordinates_none G (by simpa [flagCost] using! hcard)
   | some i =>
-    exact boundary_coordinates_some G i (by simpa [flagCost] using hcard) (hSome i rfl)
+    exact boundary_coordinates_some G i (by simpa [flagCost] using! hcard) (hSome i rfl)
 
 #print axioms boundary_coordinates
 

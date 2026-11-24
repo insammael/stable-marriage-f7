@@ -3,6 +3,9 @@ module
 public import CoreModels
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
+set_option backward.privateInPublic true
+set_option backward.privateInPublic.warn false
 
 namespace NeutralCore
 
@@ -21,8 +24,8 @@ def renameFiber (e : Equiv.Perm (Fin 3)) (f : Flag) :
         cases f with
         | none => simp at h
         | some i =>
-          have hi : e i=e p.1 := by simpa using h
-          simpa using e.injective hi)
+          have hi : e i=e p.1 := by simpa using! h
+          simpa using! e.injective hi)
 
 @[simp] theorem index_rename (e : Equiv.Perm (Fin 3)) (f : Flag) (p : FiberPoint f) :
     index (renameFiber e f p)=e (index p) := rfl

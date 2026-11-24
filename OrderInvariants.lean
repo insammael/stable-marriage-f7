@@ -4,6 +4,7 @@ public import CoreCertificates
 public import SULConnection
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 namespace NeutralCore
 
@@ -26,7 +27,7 @@ theorem neighbors_iso_image (E : V ≃o W) (x : V) :
   · rintro ⟨a,ha,rfl⟩
     exact (iso_inc E a x).mpr ha
   · intro h
-    exact ⟨E.symm y,(iso_inc E (E.symm y) x).mp (by simpa using h),by simp⟩
+    exact ⟨E.symm y,(iso_inc E (E.symm y) x).mp (by simpa using! h),by simp⟩
 
 theorem degree_iso (E : V ≃o W) (x : V) : d Finset.univ (E x)=d Finset.univ x := by
   unfold d
@@ -46,10 +47,10 @@ theorem maximal_iso (E : V ≃o W) (x : V) :
     intro y _hy hxy
     have hxe : x≤E.symm y := by
       have hh := E.symm.le_iff_le.mpr hxy
-      simpa using hh
+      simpa using! hh
     have hyx : E.symm y=x := h.2 (Set.mem_univ _) hxe
     apply E.symm.injective
-    simpa using hyx
+    simpa using! hyx
 
 theorem minimal_iso (E : V ≃o W) (x : V) :
     MinimalIn (Set.univ : Set W) (E x) ↔ MinimalIn (Set.univ : Set V) x := by
@@ -64,10 +65,10 @@ theorem minimal_iso (E : V ≃o W) (x : V) :
     intro y _hy hyx
     have hex : E.symm y≤x := by
       have hh := E.symm.le_iff_le.mpr hyx
-      simpa using hh
+      simpa using! hh
     have hyx' : E.symm y=x := h.2 (Set.mem_univ _) hex
     apply E.symm.injective
-    simpa using hyx'
+    simpa using! hyx'
 
 theorem small_minima_iso_image (E : V ≃o W) :
     (smallMinima (V := V)).image E=smallMinima (V := W) := by
@@ -75,13 +76,13 @@ theorem small_minima_iso_image (E : V ≃o W) :
   simp only [Finset.mem_image,smallMinima,Finset.mem_filter,Finset.mem_univ,true_and]
   constructor
   · rintro ⟨x,⟨hm,hd⟩,rfl⟩
-    exact ⟨(minimal_iso E x).mpr hm,by simpa only [degree_iso] using hd⟩
+    exact ⟨(minimal_iso E x).mpr hm,by simpa only [degree_iso] using! hd⟩
   · rintro ⟨hm,hd⟩
     refine ⟨E.symm y,⟨?_,?_⟩,by simp⟩
-    · exact (minimal_iso E (E.symm y)).mp (by simpa using hm)
+    · exact (minimal_iso E (E.symm y)).mp (by simpa using! hm)
     · have hh := degree_iso E (E.symm y)
       rw [E.apply_symm_apply] at hh
-      simpa only [hh] using hd
+      simpa only [hh] using! hd
 
 theorem small_maxima_iso_image (E : V ≃o W) :
     (smallMaxima (V := V)).image E=smallMaxima (V := W) := by
@@ -89,13 +90,13 @@ theorem small_maxima_iso_image (E : V ≃o W) :
   simp only [Finset.mem_image,smallMaxima,Finset.mem_filter,Finset.mem_univ,true_and]
   constructor
   · rintro ⟨x,⟨hm,hd⟩,rfl⟩
-    exact ⟨(maximal_iso E x).mpr hm,by simpa only [degree_iso] using hd⟩
+    exact ⟨(maximal_iso E x).mpr hm,by simpa only [degree_iso] using! hd⟩
   · rintro ⟨hm,hd⟩
     refine ⟨E.symm y,⟨?_,?_⟩,by simp⟩
-    · exact (maximal_iso E (E.symm y)).mp (by simpa using hm)
+    · exact (maximal_iso E (E.symm y)).mp (by simpa using! hm)
     · have hh := degree_iso E (E.symm y)
       rw [E.apply_symm_apply] at hh
-      simpa only [hh] using hd
+      simpa only [hh] using! hd
 
 theorem four_chain_iso (E : V ≃o W) : FourChain V ↔ FourChain W := by
   constructor

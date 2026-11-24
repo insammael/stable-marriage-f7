@@ -3,6 +3,7 @@ module
 public import PeriodicFrontier
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 namespace F7Periodic
 
@@ -13,9 +14,9 @@ theorem three_color_exhaustion (a b c : Color) (hab : a≠b) (hac : a≠c) (hbc 
     (d : Color) : d=a ∨ d=b ∨ d=c := by
   have hc : ({a,b,c} : Finset Color).card=3 := by simp [hab,hac,hbc]
   have heq : ({a,b,c} : Finset Color)=Finset.univ :=
-    Finset.eq_of_subset_of_card_le (Finset.subset_univ _) (by simpa using hc.ge)
+    Finset.eq_of_subset_of_card_le (Finset.subset_univ _) (by simpa using! hc.ge)
   have hm : d∈({a,b,c} : Finset Color) := heq.symm ▸ Finset.mem_univ d
-  simpa using hm
+  simpa using! hm
 
 theorem word_period_three {w : Nat → Color} {m : Nat} (h : BacktrackFree w m)
     (n : Nat) (hn : n+3<m) : w (n+3)=w n := by
@@ -23,8 +24,8 @@ theorem word_period_three {w : Nat → Color} {m : Nat} (h : BacktrackFree w m)
       (h.1 n (by omega)).symm (h.2 n (by omega)).symm
       (h.1 (n+1) (by omega)).symm (w (n+3)) with he | he | he
   · exact he
-  · exact (h.2 (n+1) (by omega) (by simpa [Nat.add_assoc] using he)).elim
-  · exact (h.1 (n+2) (by omega) (by simpa [Nat.add_assoc] using he)).elim
+  · exact (h.2 (n+1) (by omega) (by simpa [Nat.add_assoc] using! he)).elim
+  · exact (h.1 (n+2) (by omega) (by simpa [Nat.add_assoc] using! he)).elim
 
 theorem color_period (n : Nat) : color (n+3)=color n := by
   apply Fin.ext

@@ -3,6 +3,7 @@ module
 public import CoreModels
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 set_option synthInstance.maxSize 1024
 

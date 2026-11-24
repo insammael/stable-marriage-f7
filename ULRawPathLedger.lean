@@ -3,6 +3,7 @@ module
 public import ULNeutralShortPaths
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 /-!
 Raw antichain-path incidence ledgers. The hypotheses describe consecutive
@@ -80,7 +81,7 @@ theorem overlapping_antichains_no_extra_edges {T S : Finset V}
         · exact Finset.mem_union_left _ (mem_crossEdges.mpr ⟨haT,hbT,hinc⟩)
         · by_cases hbS : p.2∈S
           · exact Finset.mem_union_right _ (mem_crossEdges.mpr ⟨haS,hbS,hinc⟩)
-          · have hcommon' : 1<(S∩T).card := by simpa [Finset.inter_comm] using hcommon
+          · have hcommon' : 1<(S∩T).card := by simpa [Finset.inter_comm] using! hcommon
             exact (overlapping_antichain_new_points_not_inc hwidth hS hT hcommon'
               haS haT hbT hbS hinc).elim
       · exact Finset.mem_union_right _ (mem_crossEdges.mpr ⟨haS,hbS,hinc⟩)
@@ -98,7 +99,7 @@ theorem raw_path_support_card (T : ℕ → Finset V) (s : ℕ)
     (hTwo : ∀ j, 0<j → j≤s → (T j∩(Finset.range j).biUnion T).card=2) :
     ((Finset.range (s+1)).biUnion T).card=s+3 := by
   induction s with
-  | zero => simpa using hThree 0 (by omega)
+  | zero => simpa using! hThree 0 (by omega)
   | succ s ih =>
     have hPrev := ih (fun j hj => hThree j (by omega))
       (fun j hj0 hj => hTwo j hj0 (by omega))

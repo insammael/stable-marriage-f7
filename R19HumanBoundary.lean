@@ -5,6 +5,7 @@ public import BacktrackFreeColors
 public import WidthThreeIdealCount
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 namespace F7Periodic
 
@@ -20,7 +21,7 @@ theorem no_ABA_of_count_zero {w : Nat → Color} {m : Nat} (h : backtrackCount w
   intro n hn hEq
   have hm : n∈backtrackIndices w m :=
     Finset.mem_filter.mpr ⟨Finset.mem_range.mpr (by omega),hEq⟩
-  simpa only [he,Finset.notMem_empty] using hm
+  simpa only [he,Finset.notMem_empty] using! hm
 
 /-- Structural normal-chart data from the already-human normal-form and
 binary-support/rotation-semantics inputs. No history list, obstruction,
@@ -71,7 +72,7 @@ theorem r19_human_total_deficit_ge_one (hClass : PairClass (V:=V)) (hn : Fintype
       Nonempty (NormalFrontierChart (Fintype.card V) (a (V:=V)))) :
     1≤a (V:=V)+delta3 (V:=V) := by
   have ha0 : 0≤a (V:=V) := by
-    simpa only [aOn_univ] using aOn_nonnegative hClass (Finset.univ : Finset V) (by simp [hn])
+    simpa only [aOn_univ] using! aOn_nonnegative hClass (Finset.univ : Finset V) (by simp [hn])
   by_cases hz : delta3 (V:=V)=0
   · by_cases ha : a (V:=V)=0
     · obtain ⟨C⟩ := hChart hz ha

@@ -4,6 +4,7 @@ public import HereditaryPairBound
 public import FiveCoreTheorem
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 /-! Public entry after discharging pairBound from the original PairClass.
 Three human input groups remain. This file does not claim the raw-overlap

@@ -3,6 +3,7 @@ module
 public import ULBoundaryFibers
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 /-!
 The cover-interface inequality I for actual finite poset subsets. Root
@@ -118,7 +119,7 @@ theorem actual_full_channel_alone {A B : Finset V}
   have h4prod : 4≤S.card*R.card := by
     have h := Finset.card_le_card hSub
     rw [hEcard] at h
-    simpa using h
+    simpa using! h
   have hSr : S.card*R.card≤S.card*2 := Nat.mul_le_mul_left S.card hr2
   have hRs : S.card*R.card≤2*R.card := Nat.mul_le_mul_right R.card hs2
   have hsEq : S.card=2 := by omega
@@ -198,7 +199,7 @@ theorem actual_cover_interface_budget {A B : Finset V}
     intro i _hi
     have hc := Finset.card_le_card (channel_subset_fiber_product GA GB rho hAssign i)
     have hc' : W i≤(upperFiber A (GA.root i.1)).card*
-        (upperFiber (V := OrderDual V) B (GB.root i.2)).card := by simpa using hc
+        (upperFiber (V := OrderDual V) B (GB.root i.2)).card := by simpa using! hc
     exact hc'.trans (Nat.mul_le_mul (hCapA i.1) (hCapB i.2))
   have hFull : ∀ i∈F, W i=4 → F⊆{i} := by
     intro i hi hw

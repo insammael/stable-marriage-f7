@@ -3,6 +3,7 @@ module
 public import DualDeficits
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 namespace NeutralCore
 open ConditionalUL
@@ -36,11 +37,11 @@ theorem two_anti_of_inc (P : Finset V) {x y : V} (hx : x∈P) (hy : y∈P) (hi :
   apply Finset.mem_filter.mpr
   refine ⟨Finset.mem_powerset.mpr ?_,by simp [inc_ne hi],?_⟩
   · intro z hz
-    have hz' : z=x ∨ z=y := by simpa using hz
+    have hz' : z=x ∨ z=y := by simpa using! hz
     exact hz'.elim (fun h => h ▸ hx) (fun h => h ▸ hy)
   · intro u hu v hv hne
-    have hu' : u=x ∨ u=y := by simpa using hu
-    have hv' : v=x ∨ v=y := by simpa using hv
+    have hu' : u=x ∨ u=y := by simpa using! hu
+    have hv' : v=x ∨ v=y := by simpa using! hv
     rcases hu' with rfl | rfl <;> rcases hv' with rfl | rfl
     · exact (hne rfl).elim
     · exact hi
@@ -68,11 +69,11 @@ theorem isolated_neighbor_pairs (P : Finset V) (v p : V)
   have hNe : ({p,b} : Finset V)≠{p,c} := by
     intro heq
     have hbmem : b∈({p,c} : Finset V) := heq ▸ (by simp)
-    have hb' : b=p ∨ b=c := by simpa using hbmem
+    have hb' : b=p ∨ b=c := by simpa using! hbmem
     exact hb'.elim hbp hbc
   have hCount := Finset.card_le_card (show ({({p,b} : Finset V),{p,c}} : Finset (Finset V))⊆twoAntichains N from by
     intro T hT
-    have hT' : T={p,b} ∨ T={p,c} := by simpa using hT
+    have hT' : T={p,b} ∨ T={p,c} := by simpa using! hT
     exact hT'.elim (fun h => h ▸ hNb) (fun h => h ▸ hNc))
   have hTwo : ({({p,b} : Finset V),{p,c}} : Finset (Finset V)).card=2 := by simp [hNe]
   rw [hTwo] at hCount

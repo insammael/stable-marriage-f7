@@ -3,6 +3,7 @@ module
 public import NeutralSignature
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 namespace NeutralCore
 open ConditionalUL
@@ -127,8 +128,8 @@ theorem bad_neutral_internal_deletion_restoration (h : BadNeutral (V:=V)) (v : V
   have hSeven : 7≤(Finset.univ : Finset V).card := by omega
   have hRestore := neutral_deletion_restoration h.2.1 Finset.univ (badNeutral_badOn h)
     (Finset.mem_univ v) hSeven hd he hlQ huQ hDisQ
-  exact ⟨by simpa [aOn_univ] using hRestore.1,
-    by simpa [DOn_univ] using hRestore.2.1,hRestore.2.2,hMinEq,hMaxEq⟩
+  exact ⟨by simpa [aOn_univ] using! hRestore.1,
+    by simpa [DOn_univ] using! hRestore.2.1,hRestore.2.2,hMinEq,hMaxEq⟩
 
 #print axioms three_boundaries_automatic_neutrality
 #print axioms neutral_deletion_restoration

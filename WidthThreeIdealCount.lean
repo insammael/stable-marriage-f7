@@ -3,6 +3,7 @@ module
 public import R20DeficitBranch
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 namespace NeutralCore
 open ConditionalUL
@@ -123,7 +124,7 @@ theorem byCard_one : (byCard (V:=V) 1).card=Fintype.card V := by
   rw [heq,Finset.card_image_of_injective]
   · exact Finset.card_univ
   · intro x y heq
-    simpa only [Finset.singleton_inj] using heq
+    simpa only [Finset.singleton_inj] using! heq
 
 theorem byCard_two : (byCard (V:=V) 2).card=A2 (V:=V) := by
   have heq : byCard (V:=V) 2=twoAntichains (Finset.univ : Finset V) := by

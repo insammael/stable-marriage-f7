@@ -5,6 +5,7 @@ public import MaximumExtension
 public import SmallExtensionCertificates
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 namespace NeutralCore
 open ConditionalUL SmallSeed
@@ -33,15 +34,15 @@ theorem bad_zero_small (hClass : PairClass (V:=V)) (P : Finset V)
     let E := presentation (P.erase m) hQfive
     have hs := five_zero_seed hClass _ hQfive hQ hQa E
     have hQvals := zero_seed_values _ hs
-    have hQD : DOn (P.erase m)=1 := by simpa [E.dval] using hQvals.2
+    have hQD : DOn (P.erase m)=1 := by simpa [E.dval] using! hQvals.2
     have hd3 : d P m=3 := by omega
     have he1 : e P m=1 := by omega
     let F := E.addMaximum hm
     have hv := F.valid hClass
     have hfd : degree (extend E.edges (downSet E)) (Fin.last 5)=3 := by
-      simpa [F] using (F.degree (Fin.last 5)).trans hd3
+      simpa [F] using! (F.degree (Fin.last 5)).trans hd3
     have hfe : npairs (extend E.edges (downSet E)) (Fin.last 5)=1 := by
-      simpa [F] using (F.npairs (Fin.last 5)).trans he1
+      simpa [F] using! (F.npairs (Fin.last 5)).trans he1
     exact (zero_no_neutral_extension _ hs (downSet E)
       (Finset.mem_powerset.mpr (Finset.subset_univ _)) hfd hfe hv).elim
 
@@ -60,7 +61,7 @@ theorem bad_two_invariant (hClass : PairClass (V:=V)) (P : Finset V)
       have hs := five_two_seed hClass P ⟨hn,ha0,ha2,hD⟩ hD2 E
       have hv := two_seed_values _ hs
       refine ⟨by omega,?_,fun h6 => (by omega : False).elim⟩
-      simpa [E.triple_card] using hv.2.2
+      simpa [E.triple_card] using! hv.2.2
     have hn6 : 6≤P.card := by omega
     obtain ⟨m,hm,hd,he⟩ := good_maximum_exists P
       (Finset.card_pos.mp (by omega)) hClass.1 hClass.2.1 hClass.2.2.1 hClass.2.2.2
@@ -91,18 +92,18 @@ theorem bad_two_invariant (hClass : PairClass (V:=V)) (P : Finset V)
         (Finset.mem_powerset.mpr (Finset.subset_univ _)) hDegree hCharge (F.valid hClass)
       have hv := six_seed_values _ hFs
       refine ⟨by omega,?_,fun _ => ⟨F,hFs⟩⟩
-      simpa [F.triple_card] using hv.2.2
+      simpa [F.triple_card] using! hv.2.2
     · have hQsix : (P.erase m).card=6 := by have hh := hQ.1; have hh' := hQI.1; omega
       obtain ⟨E,hs⟩ := hQI.2.2 hQsix
       have hv := six_seed_values _ hs
-      have hQa2 : aOn (P.erase m)=2 := by simpa [E.aval] using hv.1
+      have hQa2 : aOn (P.erase m)=2 := by simpa [E.aval] using! hv.1
       have hd3 : d P m=3 := by omega
       have he1 : e P m=1 := by omega
       let F := E.addMaximum hm
       have hfd : degree (extend E.edges (downSet E)) (Fin.last 6)=3 := by
-        simpa [F] using (F.degree (Fin.last 6)).trans hd3
+        simpa [F] using! (F.degree (Fin.last 6)).trans hd3
       have hfe : npairs (extend E.edges (downSet E)) (Fin.last 6)=1 := by
-        simpa [F] using (F.npairs (Fin.last 6)).trans he1
+        simpa [F] using! (F.npairs (Fin.last 6)).trans he1
       exact (six_no_neutral_extension _ hs (downSet E)
         (Finset.mem_powerset.mpr (Finset.subset_univ _)) hfd hfe (F.valid hClass)).elim
 
@@ -117,7 +118,7 @@ theorem bad_two_six_a (hClass : PairClass (V:=V)) (P : Finset V)
   obtain ⟨_,_,hSix⟩ := bad_two_invariant hClass P hP hD2
   obtain ⟨E,hs⟩ := hSix hn
   have h := (six_seed_values _ hs).1
-  simpa [E.aval] using h
+  simpa [E.aval] using! h
 
 theorem bad_R_zero_small (hClass : PairClass (V:=V)) (P : Finset V)
     (hP : BadOn P) (hR : aOn P+1-DOn P=0) : P.card≤5 := by

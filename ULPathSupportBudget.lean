@@ -3,6 +3,7 @@ module
 public import ULNeutralCoverage
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 /-!
 Uniform long-support charge for L. No upper bound on path length is an

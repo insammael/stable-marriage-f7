@@ -3,6 +3,7 @@ module
 public import ULActualInterface
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 /-!
 Equality in the matching bound forces a perfect matching and determines
@@ -70,7 +71,7 @@ theorem perfect_matching_permutation (F : Finset (Fin 3 × Fin 3))
     exact hcard
   have hImage : F.image Prod.fst=Finset.univ :=
     Finset.eq_of_subset_of_card_le (Finset.subset_univ _)
-      (by simpa using hImageCard.ge)
+      (by simpa using! hImageCard.ge)
   have hex : ∀ i : Fin 3, ∃ j, (i,j)∈F := by
     intro i
     have hi : i∈F.image Prod.fst := by rw [hImage]; simp

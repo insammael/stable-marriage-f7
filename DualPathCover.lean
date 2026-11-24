@@ -4,6 +4,7 @@ public import ActualPathCover
 public import TerminalSupportSeparation
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 namespace NeutralCore.PathExtraction
 open ConditionalUL ActualOverlap Peeling
@@ -11,8 +12,8 @@ variable {V : Type*} [Fintype V] [PartialOrder V] [DecidableEq V] [DecidableLE V
 
 noncomputable def dualGraphIso (P : Finset V) :
     graph (V:=OrderDual V) P ≃g graph (V:=V) P where
-  toFun T := ⟨T.val,by simpa only [triples_orderDual] using T.property⟩
-  invFun T := ⟨T.val,by simpa only [triples_orderDual] using T.property⟩
+  toFun T := ⟨T.val,by simpa only [triples_orderDual] using! T.property⟩
+  invFun T := ⟨T.val,by simpa only [triples_orderDual] using! T.property⟩
   left_inv := by intro T; rfl
   right_inv := by intro T; rfl
   map_rel_iff' := by intro T R; rfl
@@ -30,7 +31,7 @@ noncomputable def ActualPathCover.reverse {P : Finset V}
     exhaustive := ?_ }
   · intro C j hj
     change (H.path (E C)).triangles ((H.path (E C)).last-j)∈triples (V:=V) P
-    simpa only [triples_orderDual] using H.mem (E C) _ (by omega)
+    simpa only [triples_orderDual] using! H.mem (E C) _ (by omega)
   · intro C j hj
     apply E.injective
     change (graph (V:=OrderDual V) P).connectedComponentMk

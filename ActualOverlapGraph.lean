@@ -4,6 +4,7 @@ public import TripleDeletion
 public import Mathlib.Combinatorics.SimpleGraph.Connectivity.Connected
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 /-! The graph of ALL actual three-antichains of an induced finite subset.
 No path extraction, support separation, neutral-core model, or size bound is
@@ -17,7 +18,7 @@ abbrev Triple (P : Finset V) := {T : Finset V // T∈triples P}
 
 def graph (P : Finset V) : SimpleGraph (Triple P) where
   Adj T R := (T.val∩R.val).card=2
-  symm := ⟨by intro T R h; simpa [Finset.inter_comm] using h⟩
+  symm := ⟨by intro T R h; simpa [Finset.inter_comm] using! h⟩
   loopless := by
     constructor
     intro T h

@@ -3,6 +3,7 @@ module
 public import FiniteDeficits
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 namespace NeutralCore
 open ConditionalUL

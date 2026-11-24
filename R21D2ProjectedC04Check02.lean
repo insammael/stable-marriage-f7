@@ -1,0 +1,67 @@
+module
+
+public import R21D2ProjectedC04Check02Part00
+public import R21D2ProjectedC04Check02Part01
+public import R21D2ProjectedC04Check02Part02
+public import R21D2ProjectedC04Check02Part03
+public import R21D2ProjectedC04Check02Part04
+public import R21D2ProjectedC04Check02Part05
+public import R21D2ProjectedC04Check02Part06
+public import R21D2ProjectedC04Check02Part07
+public import R21D2ProjectedC04Check02Part08
+
+@[expose] public section
+set_option backward.isDefEq.respectTransparency false
+set_option maxRecDepth 200000
+set_option maxHeartbeats 64000000
+namespace F7Manuscript.R21NormalEndpoint.Projection.Snapshots.PhysicalD2.Projected
+open F7Manuscript.R21NormalEndpoint.Projection.Snapshots.PhysicalD2.TreeLive
+theorem projected4s5_peer : peerProjected dict04_000 projected015 dict04_012=true := by decide +kernel
+theorem projected4s5_keep : keepProjected d10 projected122 dict04_013 dict04_012=true := by decide +kernel
+theorem projected4s5_mask : (incidence board 10 &&& incidence board 1)=5942981350752239600645457557592372125203249104641 := by rw [incidence10,incidence1]; rfl
+theorem projected4s6_peer : peerProjected dict04_000 projected019 dict04_014=true := by decide +kernel
+theorem projected4s6_keep : keepProjected dict04_009 projected027 dict04_015 dict04_014=true := by decide +kernel
+theorem projected4s6_mask : (incidence board 2 &&& incidence board 1)=23401153169606918209831656755093926759744025919488 := by rw [incidence2,incidence1]; rfl
+theorem projected4s7_peer : peerProjected dict04_011 projected054 dict04_016=true := by decide +kernel
+theorem projected4s7_mask : (incidence board 13 &&& incidence board 4)=10340698248401701863031460786587318440311936571192452385668595712 := by rw [incidence13,incidence4]; rfl
+theorem projected4s8_peer : peerProjected dict04_017 projected158 dict04_018=true := by decide +kernel
+theorem projected4s8_mask : (incidence board 7 &&& incidence board 13)=3350473926132479649322815246347392491397437710496114511678799872 := by rw [incidence7,incidence13]; rfl
+theorem projected4s7_keep : keepProjected dict04_003 projected160 dict04_017 dict04_016=true := by
+ change allKeys projected4s7_keep_predicate dict04_003=true
+ have projected4s7_keep_node_root := allKeys_of_children projected4s7_keep_head_root projected4s7_keep_leaf_l projected4s7_keep_leaf_r
+ exact projected4s7_keep_node_root
+theorem projected4s8_keep : keepProjected d7 projected087 dict04_019 dict04_018=true := by
+ change allKeys projected4s8_keep_predicate d7=true
+ have projected4s8_keep_node_llll := allKeys_of_children projected4s8_keep_head_llll projected4s8_keep_leaf_lllll projected4s8_keep_leaf_llllr
+ have projected4s8_keep_node_lllr := allKeys_of_children projected4s8_keep_head_lllr projected4s8_keep_leaf_lllrl projected4s8_keep_leaf_lllrr
+ have projected4s8_keep_node_llrl := allKeys_of_children projected4s8_keep_head_llrl projected4s8_keep_leaf_llrll projected4s8_keep_leaf_llrlr
+ have projected4s8_keep_node_llrr := allKeys_of_children projected4s8_keep_head_llrr projected4s8_keep_leaf_llrrl projected4s8_keep_leaf_llrrr
+ have projected4s8_keep_node_lrll := allKeys_of_children projected4s8_keep_head_lrll projected4s8_keep_leaf_lrlll projected4s8_keep_leaf_lrllr
+ have projected4s8_keep_node_lrlr := allKeys_of_children projected4s8_keep_head_lrlr projected4s8_keep_leaf_lrlrl projected4s8_keep_leaf_lrlrr
+ have projected4s8_keep_node_lrrl := allKeys_of_children projected4s8_keep_head_lrrl projected4s8_keep_leaf_lrrll projected4s8_keep_leaf_lrrlr
+ have projected4s8_keep_node_lrrr := allKeys_of_children projected4s8_keep_head_lrrr projected4s8_keep_leaf_lrrrl projected4s8_keep_leaf_lrrrr
+ have projected4s8_keep_node_rlll := allKeys_of_children projected4s8_keep_head_rlll projected4s8_keep_leaf_rllll projected4s8_keep_leaf_rlllr
+ have projected4s8_keep_node_rllr := allKeys_of_children projected4s8_keep_head_rllr projected4s8_keep_leaf_rllrl projected4s8_keep_leaf_rllrr
+ have projected4s8_keep_node_rlrl := allKeys_of_children projected4s8_keep_head_rlrl projected4s8_keep_leaf_rlrll projected4s8_keep_leaf_rlrlr
+ have projected4s8_keep_node_rlrr := allKeys_of_children projected4s8_keep_head_rlrr projected4s8_keep_leaf_rlrrl projected4s8_keep_leaf_rlrrr
+ have projected4s8_keep_node_rrll := allKeys_of_children projected4s8_keep_head_rrll projected4s8_keep_leaf_rrlll projected4s8_keep_leaf_rrllr
+ have projected4s8_keep_node_rrlr := allKeys_of_children projected4s8_keep_head_rrlr projected4s8_keep_leaf_rrlrl projected4s8_keep_leaf_rrlrr
+ have projected4s8_keep_node_rrrl := allKeys_of_children projected4s8_keep_head_rrrl projected4s8_keep_leaf_rrrll projected4s8_keep_leaf_rrrlr
+ have projected4s8_keep_node_rrrr := allKeys_of_children projected4s8_keep_head_rrrr projected4s8_keep_leaf_rrrrl projected4s8_keep_leaf_rrrrr
+ have projected4s8_keep_node_lll := allKeys_of_children projected4s8_keep_head_lll projected4s8_keep_node_llll projected4s8_keep_node_lllr
+ have projected4s8_keep_node_llr := allKeys_of_children projected4s8_keep_head_llr projected4s8_keep_node_llrl projected4s8_keep_node_llrr
+ have projected4s8_keep_node_lrl := allKeys_of_children projected4s8_keep_head_lrl projected4s8_keep_node_lrll projected4s8_keep_node_lrlr
+ have projected4s8_keep_node_lrr := allKeys_of_children projected4s8_keep_head_lrr projected4s8_keep_node_lrrl projected4s8_keep_node_lrrr
+ have projected4s8_keep_node_rll := allKeys_of_children projected4s8_keep_head_rll projected4s8_keep_node_rlll projected4s8_keep_node_rllr
+ have projected4s8_keep_node_rlr := allKeys_of_children projected4s8_keep_head_rlr projected4s8_keep_node_rlrl projected4s8_keep_node_rlrr
+ have projected4s8_keep_node_rrl := allKeys_of_children projected4s8_keep_head_rrl projected4s8_keep_node_rrll projected4s8_keep_node_rrlr
+ have projected4s8_keep_node_rrr := allKeys_of_children projected4s8_keep_head_rrr projected4s8_keep_node_rrrl projected4s8_keep_node_rrrr
+ have projected4s8_keep_node_ll := allKeys_of_children projected4s8_keep_head_ll projected4s8_keep_node_lll projected4s8_keep_node_llr
+ have projected4s8_keep_node_lr := allKeys_of_children projected4s8_keep_head_lr projected4s8_keep_node_lrl projected4s8_keep_node_lrr
+ have projected4s8_keep_node_rl := allKeys_of_children projected4s8_keep_head_rl projected4s8_keep_node_rll projected4s8_keep_node_rlr
+ have projected4s8_keep_node_rr := allKeys_of_children projected4s8_keep_head_rr projected4s8_keep_node_rrl projected4s8_keep_node_rrr
+ have projected4s8_keep_node_l := allKeys_of_children projected4s8_keep_head_l projected4s8_keep_node_ll projected4s8_keep_node_lr
+ have projected4s8_keep_node_r := allKeys_of_children projected4s8_keep_head_r projected4s8_keep_node_rl projected4s8_keep_node_rr
+ have projected4s8_keep_node_root := allKeys_of_children projected4s8_keep_head_root projected4s8_keep_node_l projected4s8_keep_node_r
+ exact projected4s8_keep_node_root
+end F7Manuscript.R21NormalEndpoint.Projection.Snapshots.PhysicalD2.Projected

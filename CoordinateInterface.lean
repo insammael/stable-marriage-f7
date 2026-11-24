@@ -3,6 +3,9 @@ module
 public import RawPathSaturation
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
+set_option backward.privateInPublic true
+set_option backward.privateInPublic.warn false
 
 namespace NeutralCore
 
@@ -117,9 +120,9 @@ theorem saturated_square {A B : Finset V}
       have hp : index pq.1=i := (Finset.mem_filter.mp hm.1).2
       have hq : index pq.2=j := (Finset.mem_filter.mp hm.2).2
       have hA : (CA.equiv lo).val≤(CA.equiv pq.1).val :=
-        (CA.order lo pq.1).mpr ⟨by simpa [lo,extra,index] using hp.symm,Or.inl rfl⟩
+        (CA.order lo pq.1).mpr ⟨by simpa [lo,extra,index] using! hp.symm,Or.inl rfl⟩
       have hB : @LE.le V inferInstance (CB.equiv pq.2).val (CB.equiv hi).val :=
-        (CB.order hi pq.2).mpr ⟨by simpa [hi,extra,index] using hq.symm,Or.inl rfl⟩
+        (CB.order hi pq.2).mpr ⟨by simpa [hi,extra,index] using! hq.symm,Or.inl rfl⟩
       have hInc : Inc (V := V) (CA.equiv pq.1).val (CB.equiv pq.2).val :=
         ⟨fun h => hCorner.1 (hA.trans (h.trans hB)),
           hdir _ (CA.equiv pq.1).property _ (CB.equiv pq.2).property⟩
@@ -145,14 +148,14 @@ theorem saturated_square {A B : Finset V}
   have hLo : p=lo ↔ isExtra p=true := by
     constructor
     · intro h; subst p; rfl
-    · intro h; exact same_point (by simpa [lo,extra,index] using hp) h
+    · intro h; exact same_point (by simpa [lo,extra,index] using! hp) h
   have hHi : q=hi ↔ isExtra q=true := by
     constructor
     · intro h; subst q; rfl
-    · intro h; exact same_point (by simpa [hi,extra,index] using hq) h
+    · intro h; exact same_point (by simpa [hi,extra,index] using! hq) h
   have hm := coordinate_channel_mem CA CB i j p q
   rw [hEq] at hm
-  simpa [Finset.mem_erase,hMem,hp,hq,Prod.ext_iff,hLo,hHi] using hm.symm
+  simpa [Finset.mem_erase,hMem,hp,hq,Prod.ext_iff,hLo,hHi] using! hm.symm
 
 #print axioms saturated_square
 

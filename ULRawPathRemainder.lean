@@ -3,6 +3,7 @@ module
 public import ULRawPathLedger
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 /-!
 The remainder is an actual finite set difference of ordered incomparable
@@ -62,7 +63,7 @@ theorem raw_path_small_remainder_zero (T : ℕ → Finset V) (s : ℕ)
     have hE : rawTriangleEdges T 1=crossEdges (T 0) (T 0)∪crossEdges (T 1) (T 1) := by
       simp [rawTriangleEdges,Finset.range_add_one,Finset.union_comm]
     have hcommon : (T 0∩T 1).card=2 := by
-      simpa [Finset.inter_comm] using hTwo 1 (by omega) (by omega)
+      simpa [Finset.inter_comm] using! hTwo 1 (by omega) (by omega)
     have hEq : crossEdges (rawSupport T 1) (rawSupport T 1)=rawTriangleEdges T 1 := by
       rw [hS,hE]
       exact overlapping_antichains_no_extra_edges hwidth

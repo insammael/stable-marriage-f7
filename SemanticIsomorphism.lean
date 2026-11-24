@@ -3,6 +3,9 @@ module
 public import OrderInvariants
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
+set_option backward.privateInPublic true
+set_option backward.privateInPublic.warn false
 
 namespace NeutralCore
 
@@ -134,8 +137,8 @@ theorem neutral_iso (E : V ≃o W) (h : Neutral (V := V)) : Neutral (V := W) := 
   have hx : MinimalIn (Set.univ : Set V) (E.symm y) ∨
       MaximalIn (Set.univ : Set V) (E.symm y) := by
     rcases hy with hmin | hmax
-    · exact Or.inl ((minimal_iso E (E.symm y)).mp (by simpa using hmin))
-    · exact Or.inr ((maximal_iso E (E.symm y)).mp (by simpa using hmax))
+    · exact Or.inl ((minimal_iso E (E.symm y)).mp (by simpa using! hmin))
+    · exact Or.inr ((maximal_iso E (E.symm y)).mp (by simpa using! hmax))
   have hn := h (E.symm y) hx
   have hd := degree_iso E (E.symm y)
   have he := neighbor_pairs_iso E (E.symm y)

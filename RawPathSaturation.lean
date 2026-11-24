@@ -4,6 +4,7 @@ public import BoundaryCoordinates
 public import MatchingEquality
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 namespace NeutralCore
 
@@ -143,8 +144,8 @@ theorem raw_paths_saturated (PA PB : RawIncreasingTrianglePath V)
   rw [hWB] at hEB
   refine ⟨GA,GB,saturate_short_boundaries PA.support PB.support hAB GA GB
     hwidth h311 h221 h33 hdir hmixA hmixB hA4 hB4 ?_ ?_ hDeficit⟩
-  · simpa [RawIncreasingTrianglePath.support] using hEA
-  · simpa [RawIncreasingTrianglePath.support] using hEB
+  · simpa [RawIncreasingTrianglePath.support] using! hEA
+  · simpa [RawIncreasingTrianglePath.support] using! hEB
 
 #print axioms raw_paths_saturated
 

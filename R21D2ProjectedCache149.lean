@@ -1,0 +1,49 @@
+module
+
+public import R21D2ProjectedCache149Part00
+public import R21D2ProjectedCache149Part01
+public import R21D2ProjectedCache149Part02
+public import R21D2ProjectedCache149Part03
+public import R21D2ProjectedCache149Part04
+public import R21D2ProjectedCache149Part05
+public import R21D2ProjectedCache149Part06
+public import R21D2ProjectedCache149Part07
+
+@[expose] public section
+set_option backward.isDefEq.respectTransparency false
+namespace F7Manuscript.R21NormalEndpoint.Projection.Snapshots.PhysicalD2.Projected
+theorem projected149_ok : projectionOKBy d13 projected149 projected149_calc=true := by
+ have node_llll := projectionOKBy_of_children projected149_head_llll projected149_leaf_lllll projected149_leaf_llllr
+ have node_lllr := projectionOKBy_of_children projected149_head_lllr projected149_leaf_lllrl projected149_leaf_lllrr
+ have node_llrl := projectionOKBy_of_children projected149_head_llrl projected149_leaf_llrll projected149_leaf_llrlr
+ have node_llrr := projectionOKBy_of_children projected149_head_llrr projected149_leaf_llrrl projected149_leaf_llrrr
+ have node_lrll := projectionOKBy_of_children projected149_head_lrll projected149_leaf_lrlll projected149_leaf_lrllr
+ have node_lrlr := projectionOKBy_of_children projected149_head_lrlr projected149_leaf_lrlrl projected149_leaf_lrlrr
+ have node_lrrl := projectionOKBy_of_children projected149_head_lrrl projected149_leaf_lrrll projected149_leaf_lrrlr
+ have node_lrrr := projectionOKBy_of_children projected149_head_lrrr projected149_leaf_lrrrl projected149_leaf_lrrrr
+ have node_rlll := projectionOKBy_of_children projected149_head_rlll projected149_leaf_rllll projected149_leaf_rlllr
+ have node_rllr := projectionOKBy_of_children projected149_head_rllr projected149_leaf_rllrl projected149_leaf_rllrr
+ have node_rlrl := projectionOKBy_of_children projected149_head_rlrl projected149_leaf_rlrll projected149_leaf_rlrlr
+ have node_rlrr := projectionOKBy_of_children projected149_head_rlrr projected149_leaf_rlrrl projected149_leaf_rlrrr
+ have node_rrll := projectionOKBy_of_children projected149_head_rrll projected149_leaf_rrlll projected149_leaf_rrllr
+ have node_rrlr := projectionOKBy_of_children projected149_head_rrlr projected149_leaf_rrlrl projected149_leaf_rrlrr
+ have node_rrrl := projectionOKBy_of_children projected149_head_rrrl projected149_leaf_rrrll projected149_leaf_rrrlr
+ have node_rrrr := projectionOKBy_of_children projected149_head_rrrr projected149_leaf_rrrrl projected149_leaf_rrrrr
+ have node_lll := projectionOKBy_of_children projected149_head_lll node_llll node_lllr
+ have node_llr := projectionOKBy_of_children projected149_head_llr node_llrl node_llrr
+ have node_lrl := projectionOKBy_of_children projected149_head_lrl node_lrll node_lrlr
+ have node_lrr := projectionOKBy_of_children projected149_head_lrr node_lrrl node_lrrr
+ have node_rll := projectionOKBy_of_children projected149_head_rll node_rlll node_rllr
+ have node_rlr := projectionOKBy_of_children projected149_head_rlr node_rlrl node_rlrr
+ have node_rrl := projectionOKBy_of_children projected149_head_rrl node_rrll node_rrlr
+ have node_rrr := projectionOKBy_of_children projected149_head_rrr node_rrrl node_rrrr
+ have node_ll := projectionOKBy_of_children projected149_head_ll node_lll node_llr
+ have node_lr := projectionOKBy_of_children projected149_head_lr node_lrl node_lrr
+ have node_rl := projectionOKBy_of_children projected149_head_rl node_rll node_rlr
+ have node_rr := projectionOKBy_of_children projected149_head_rr node_rrl node_rrr
+ have node_l := projectionOKBy_of_children projected149_head_l node_ll node_lr
+ have node_r := projectionOKBy_of_children projected149_head_r node_rl node_rr
+ have node_root := projectionOKBy_of_children projected149_head_root node_l node_r
+ exact node_root
+theorem projected149_correct : ProjectionCorrect d13 projected149 273871952584573059262337381302272 := projection_correct_by_of_check projected149_calc_correct projected149_ok
+end F7Manuscript.R21NormalEndpoint.Projection.Snapshots.PhysicalD2.Projected

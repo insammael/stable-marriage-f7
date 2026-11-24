@@ -4,6 +4,7 @@ public import ActualClassification
 public import OverlapDecomposition
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 namespace NeutralCore
 
@@ -41,9 +42,9 @@ theorem classify_bad_neutral_with_explicit_frontend
     have hc : e c=0 ∨ e c=1 := (show ∀ i : Fin 2, i=0 ∨ i=1 by decide) (e c)
     rcases hc with hc | hc
     · left
-      simpa [c0] using congrArg e.symm hc
+      simpa [c0] using! congrArg e.symm hc
     · right
-      simpa [c1] using congrArg e.symm hc
+      simpa [c1] using! congrArg e.symm hc
   have hCover : PA.support∪PB.support=Finset.univ := by
     ext x
     simp only [Finset.mem_univ,iff_true]
@@ -51,10 +52,10 @@ theorem classify_bad_neutral_with_explicit_frontend
     rcases hAll c with h0 | h1
     · apply Finset.mem_union_left
       change x∈(O.path c0).support
-      simpa only [h0] using hc
+      simpa only [h0] using! hc
     · apply Finset.mem_union_right
       change x∈(O.path c1).support
-      simpa only [h1] using hc
+      simpa only [h1] using! hc
   have hMixA : NoMixedAAB (PA.support : Set V) (PB.support : Set V) :=
     separated_no_mixed O hS c0 c1 h01
   have hMixB : NoMixedAAB (PB.support : Set V) (PA.support : Set V) :=
@@ -74,9 +75,9 @@ theorem classify_bad_neutral_with_explicit_frontend
       have hlt : a<b := lt_of_le_not_ge hab (fun hba => hNe (le_antisymm hab hba))
       exact hNoAB ⟨a,ha,b,hb,hlt⟩
     apply classify_raw_two_paths PB PA hAB.symm
-      (by simpa [Finset.union_comm] using hCover) hbudget hwidth h311 h221 h33
+      (by simpa [Finset.union_comm] using! hCover) hbudget hwidth h311 h221 h33
       hDir hMixB hMixA
-    simpa [Finset.union_comm] using hDef
+    simpa [Finset.union_comm] using! hDef
   · have hDir : CrossDirected (PA.support : Set V) (PB.support : Set V) := by
       intro a ha b hb hba
       have hNe : b≠a := by

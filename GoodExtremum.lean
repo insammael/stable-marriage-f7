@@ -3,6 +3,7 @@ module
 public import ThreeMaximumFibers
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 namespace NeutralCore
 open ConditionalUL
@@ -53,7 +54,7 @@ theorem good_maximum_exists (P : Finset V) (hP : P.Nonempty)
       intro b hb
       have hB := mem_incNeighbors.mp hb
       obtain ⟨r,hr,hbr⟩ := global_maxima_source P b hB.1
-      have hry : r=y := by simpa [hY] using hr
+      have hry : r=y := by simpa [hY] using! hr
       exact hB.2.1 (hry ▸ hbr)
     have hD : d P y=0 := by rw [d_eq_degree]; simp [degree,hEmpty]
     exact ⟨y,hmy,by omega,by omega⟩
@@ -64,7 +65,7 @@ theorem good_maximum_exists (P : Finset V) (hP : P.Nonempty)
     have hSource : ∀ b∈P, b≤y ∨ b≤z := by
       intro b hb
       obtain ⟨r,hr,hbr⟩ := global_maxima_source P b hb
-      have hrs : r=y ∨ r=z := by simpa [hYZ] using hr
+      have hrs : r=y ∨ r=z := by simpa [hYZ] using! hr
       rcases hrs with hry | hrz
       · exact Or.inl (hry ▸ hbr)
       · exact Or.inr (hrz ▸ hbr)

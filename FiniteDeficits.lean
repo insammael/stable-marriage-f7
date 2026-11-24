@@ -3,6 +3,7 @@ module
 public import TripleDeletion
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 namespace NeutralCore
 open ConditionalUL
@@ -16,8 +17,8 @@ theorem aOn_univ : aOn (Finset.univ : Finset V)=a (V := V) := by simp [aOn,a,A2]
 theorem DOn_univ : DOn (Finset.univ : Finset V)=D (V := V) := by simp [DOn,D,A3,aOn_univ]
 theorem badNeutral_badOn (h : BadNeutral (V := V)) : BadOn (Finset.univ : Finset V) := by
   obtain ⟨hn,_,ha0,ha2,hD,_⟩ := h
-  exact ⟨by simpa using hn,by simpa [aOn_univ] using ha0,
-    by simpa [aOn_univ] using ha2,by simpa [DOn_univ] using hD⟩
+  exact ⟨by simpa using! hn,by simpa [aOn_univ] using! ha0,
+    by simpa [aOn_univ] using! ha2,by simpa [DOn_univ] using! hD⟩
 
 theorem aOn_deletion (P : Finset V) {v : V} (hv : v∈P) :
     aOn (P.erase v)=aOn P+(d P v : ℤ)-3 := by

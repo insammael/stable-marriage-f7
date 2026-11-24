@@ -1,0 +1,111 @@
+module
+
+public import R21Mass17OrientedLower
+public import F7Manuscript.ActualR21PositiveDeltaLeaves
+public import F7Manuscript.ActualNormalOutsiderRawGeometry
+public import F7Manuscript.ActualNormalCoreSize
+
+@[expose] public section
+set_option backward.isDefEq.respectTransparency false
+set_option backward.privateInPublic true
+set_option backward.privateInPublic.warn false
+
+set_option maxHeartbeats 500000
+namespace F7Manuscript.R21Mass17Original
+noncomputable section
+open ConditionalUL NeutralCore StableLattice StableIdeals ConvexExecution
+open TripleCoordinateLattice F6SmallBlockTokenCapacity ReturnCertificate
+open NormalSkeleton NormalBlockBudgetFive NormalBlockBudgetFiveSoundness
+open scoped Classical
+
+private theorem rowCap {u v w : Nat} {c : Int} (hr : (u,v,w,c) ∈ normalOutsiderBudgetCases) :
+    c ≤ (if u=1 then 8 else 6) := by
+  simp only [normalOutsiderBudgetCases, List.mem_cons, List.not_mem_nil, or_false,
+    Prod.mk.injEq] at hr
+  rcases hr with h|h|h|h|h|h|h|h|h|h|h <;>
+    rcases h with ⟨rfl,rfl,rfl,rfl⟩ <;> decide
+
+private def originalEventDecEq (I : Profile 7) : DecidableEq (Event I) := inferInstance
+private def originalEventDecLe (I : Profile 7) : DecidableLE (Event I) := inferInstance
+
+private theorem convex_for_decisions {I : Profile 7} [Nonempty (StableMatching I)]
+    (dEq : DecidableEq (Event I)) (dLe : DecidableLE (Event I)) :
+    letI : DecidableEq (Event I) := dEq
+    letI : DecidableLE (Event I) := dLe
+    ∀ (C : Partition (V := Event I)) [Nonempty (Triple C)],
+      Fintype.card (Event I) = 21 → NoInduced221 (V := Event I) → NoInduced311 (V := Event I) →
+      (isolatedDouble C).card = 0 → (byLabel C 3).card = 0 → SupportBridge.OrderConvex (tripleVertices C) := by
+  have heq : dEq = originalEventDecEq I := Subsingleton.elim _ _
+  have hle : dLe = originalEventDecLe I := Subsingleton.elim _ _
+  subst dEq
+  subst dLe
+  dsimp -failIfUnchanged only [originalEventDecEq,originalEventDecLe]
+  exact actual_normal_triple_core_convex
+
+variable {I : Profile 7} [Nonempty (StableMatching I)]
+local instance orientedLeafDecEq : DecidableEq (Event I) := Classical.decEq _
+local instance orientedLeafDecLe : DecidableLE (Event I) := Classical.decRel _
+
+/-- Mass seventeen only in the orientation used by the manuscript: the
+one outside transposition is at actual date zero, to the left of the window. -/
+def Mass17LeftOutsiderLowerBound : Prop :=
+  ∀ {length : Nat} (S : Chart)
+    (A : ActualNormalMixedRun (Agent 7) length S.m S.naturalWord S.naturalLevels)
+    (R : TokenRun Site (Agent 7) 21) (bound : 1+length ≤ 21),
+    length=20 →
+    (∀ t : Fin length, R.support ⟨1+t.val,by omega⟩=A.run.support t) →
+    (∀ t : Fin 21, (R.support t).card=2) → 9 ≤ S.q+S.s
+
+/-- Original-profile application with actual dual/forward direction selected
+on the same core before using the cost bound. No reverse-route provider remains. -/
+theorem original_mass17_low_deficit_impossible_oriented (lower : Mass17LeftOutsiderLowerBound)
+    (C : Partition (V := Event I)) [Nonempty (Triple C)]
+    (h221 : NoInduced221 (V := Event I)) (h311 : NoInduced311 (V := Event I))
+    (hn : Fintype.card (Event I) = 21) (hδ : delta3 (V := Event I) ≤ 5)
+    (hD : totalDeficit (V := Event I) ≤ 10)
+    (hu : (outsideTripleVertices C).card = 1)
+    (hG : (isolatedDouble C).card = 0) (hT : (byLabel C 3).card = 0) : False := by
+  let S := normalCoreSkeleton C h221 h311 hG hT
+  have parts := vertex_partition_card C
+  rw [hu,hn] at parts
+  have cardCore : (tripleVertices C).card = 20 := by omega
+  obtain ⟨X⟩ := actual_normal_outsider_raw_shape C h221 h311 hG hT hn hδ hD (by omega)
+  have cap : S.q+S.s ≤ 8 := by
+    have upper := rowCap X.budgetRow
+    rw [← X.cap_eq, X.outsiders_eq_actual, hu] at upper
+    have cost := X.cost_le
+    rw [X.q_eq_chart, X.s_eq_chart] at cost
+    change ((S.q+S.s : Nat) : Int) ≤ X.coreCap at cost
+    simp -failIfUnchanged only [↓reduceIte] at upper
+    omega
+  letI : Nonempty (Triple (corePartition C)) := coreTripleNonempty C
+  have hq := convex_for_decisions (I := I) inferInstance inferInstance C hn h221 h311 hG hT
+  have h9 : 9 ≤ Fintype.card (Core C) := by rw [core_card]; omega
+  have hm := @normal_core_at_least_two_blocks _ _ C _ (corePartition C)
+    (by convert coreTripleNonempty C)
+    (by convert core_no_induced221 C h221 using 2)
+    (by convert core_no_induced311 C h311 using 2)
+    (by convert core_delta_zero_of_normal C h221 h311 hG hT using 2) h9
+  have lb := actual_normal_core_cost_ge_nine_oriented lower
+    (tripleVertices C) hq (corePartition C) (core_no_induced221 C h221)
+    (core_no_induced311 C h311) (core_delta_zero_of_normal C h221 h311 hG hT) hn hm cardCore
+  change 9 ≤ S.q+S.s at lb
+  omega
+
+/-- Same type as the original (1,0,0) declaration. Only the oriented physical
+mass-seventeen lower bound remains an explicit unsupplied input. -/
+theorem r21_one_outsider_no_macro_original_of_left_mass17
+    (lower : Mass17LeftOutsiderLowerBound) (I : Profile 7) [Nonempty (StableMatching I)] :
+    ActualPositiveDeficitCoverAssembly.R21LeafObligation I 1 0 0 := by
+  intro C _ h221 h311 hn hδ hu hG hT
+  by_cases hD : totalDeficit (V := Event I) ≤ 10
+  · exact False.elim (original_mass17_low_deficit_impossible_oriented lower C h221 h311 hn hδ hD hu hG hT)
+  · have account := ideal_deficit_accounting (actual_pairClass I).1
+    rw [hn] at account
+    rw [stableCount_eq_idealCount I]
+    omega
+
+#print axioms original_mass17_low_deficit_impossible_oriented
+#print axioms r21_one_outsider_no_macro_original_of_left_mass17
+end
+end F7Manuscript.R21Mass17Original

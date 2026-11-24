@@ -1,0 +1,28 @@
+module
+
+public import F7Manuscript.NormalQ0WindowData38
+public import F7Manuscript.NormalQ0WindowTreeCore
+
+@[expose] public section
+
+namespace F7Manuscript.NormalQ0WindowTrees
+
+open F7Manuscript.PartnerGraph.NormalQ0
+open F7Manuscript.PartnerGraph.NormalQ0.Windows
+open F7Manuscript.WindowControlCertificate
+open F7Manuscript.BinaryChoice
+open F7Local
+
+def plan38 : List Move := [Move.center (Fin.ofNat 3 1), Move.center (Fin.ofNat 3 2), Move.center (Fin.ofNat 3 1), Move.center (Fin.ofNat 3 0), Move.center (Fin.ofNat 3 2), Move.center (Fin.ofNat 3 0), Move.center (Fin.ofNat 3 2), Move.center (Fin.ofNat 3 0), Move.center (Fin.ofNat 3 2), Move.center (Fin.ofNat 3 0)]
+
+def budget38 : Nat := 0
+
+def tree38 : BinaryChoice.Tree (WindowControlCertificate.Leaf 453) := BinaryChoice.Tree.branch (BinaryChoice.Tree.branch (BinaryChoice.Tree.branch (BinaryChoice.Tree.branch (BinaryChoice.Tree.branch (BinaryChoice.Tree.leaf (toControl Windows.leaf38_0)) (BinaryChoice.Tree.branch (BinaryChoice.Tree.leaf (toControl Windows.leaf38_1)) (BinaryChoice.Tree.branch (BinaryChoice.Tree.leaf (toControl Windows.leaf38_2)) (BinaryChoice.Tree.branch (BinaryChoice.Tree.leaf (toControl Windows.leaf38_3)) (BinaryChoice.Tree.branch (BinaryChoice.Tree.leaf (toControl Windows.leaf38_4)) (BinaryChoice.Tree.leaf (toControl Windows.leaf38_5))))))) (BinaryChoice.Tree.branch (BinaryChoice.Tree.branch (BinaryChoice.Tree.leaf (toControl Windows.leaf38_6)) (BinaryChoice.Tree.leaf (toControl Windows.leaf38_7))) (BinaryChoice.Tree.branch (BinaryChoice.Tree.leaf (toControl Windows.leaf38_8)) (BinaryChoice.Tree.branch (BinaryChoice.Tree.leaf (toControl Windows.leaf38_9)) (BinaryChoice.Tree.branch (BinaryChoice.Tree.leaf (toControl Windows.leaf38_10)) (BinaryChoice.Tree.branch (BinaryChoice.Tree.leaf (toControl Windows.leaf38_11)) (BinaryChoice.Tree.leaf (toControl Windows.leaf38_12)))))))) (BinaryChoice.Tree.leaf (toControl Windows.leaf38_13))) (BinaryChoice.Tree.branch (BinaryChoice.Tree.leaf (toControl Windows.leaf38_14)) (BinaryChoice.Tree.branch (BinaryChoice.Tree.branch (BinaryChoice.Tree.branch (BinaryChoice.Tree.branch (BinaryChoice.Tree.branch (BinaryChoice.Tree.branch (BinaryChoice.Tree.leaf (toControl Windows.leaf38_15)) (BinaryChoice.Tree.leaf (toControl Windows.leaf38_16))) (BinaryChoice.Tree.leaf (toControl Windows.leaf38_17))) (BinaryChoice.Tree.leaf (toControl Windows.leaf38_18))) (BinaryChoice.Tree.leaf (toControl Windows.leaf38_19))) (BinaryChoice.Tree.branch (BinaryChoice.Tree.leaf (toControl Windows.leaf38_20)) (BinaryChoice.Tree.leaf (toControl Windows.leaf38_21)))) (BinaryChoice.Tree.branch (BinaryChoice.Tree.branch (BinaryChoice.Tree.branch (BinaryChoice.Tree.branch (BinaryChoice.Tree.branch (BinaryChoice.Tree.leaf (toControl Windows.leaf38_22)) (BinaryChoice.Tree.leaf (toControl Windows.leaf38_23))) (BinaryChoice.Tree.leaf (toControl Windows.leaf38_24))) (BinaryChoice.Tree.leaf (toControl Windows.leaf38_25))) (BinaryChoice.Tree.leaf (toControl Windows.leaf38_26))) (BinaryChoice.Tree.leaf (toControl Windows.leaf38_27)))))) (BinaryChoice.Tree.branch (BinaryChoice.Tree.branch (BinaryChoice.Tree.branch (BinaryChoice.Tree.branch (BinaryChoice.Tree.leaf (toControl Windows.leaf38_28)) (BinaryChoice.Tree.branch (BinaryChoice.Tree.leaf (toControl Windows.leaf38_29)) (BinaryChoice.Tree.branch (BinaryChoice.Tree.leaf (toControl Windows.leaf38_30)) (BinaryChoice.Tree.branch (BinaryChoice.Tree.leaf (toControl Windows.leaf38_31)) (BinaryChoice.Tree.branch (BinaryChoice.Tree.leaf (toControl Windows.leaf38_32)) (BinaryChoice.Tree.leaf (toControl Windows.leaf38_33))))))) (BinaryChoice.Tree.branch (BinaryChoice.Tree.branch (BinaryChoice.Tree.leaf (toControl Windows.leaf38_34)) (BinaryChoice.Tree.leaf (toControl Windows.leaf38_35))) (BinaryChoice.Tree.branch (BinaryChoice.Tree.leaf (toControl Windows.leaf38_36)) (BinaryChoice.Tree.branch (BinaryChoice.Tree.leaf (toControl Windows.leaf38_37)) (BinaryChoice.Tree.branch (BinaryChoice.Tree.leaf (toControl Windows.leaf38_38)) (BinaryChoice.Tree.branch (BinaryChoice.Tree.leaf (toControl Windows.leaf38_39)) (BinaryChoice.Tree.leaf (toControl Windows.leaf38_40)))))))) (BinaryChoice.Tree.leaf (toControl Windows.leaf38_41))) (BinaryChoice.Tree.branch (BinaryChoice.Tree.leaf (toControl Windows.leaf38_42)) (BinaryChoice.Tree.branch (BinaryChoice.Tree.branch (BinaryChoice.Tree.branch (BinaryChoice.Tree.branch (BinaryChoice.Tree.branch (BinaryChoice.Tree.branch (BinaryChoice.Tree.leaf (toControl Windows.leaf38_43)) (BinaryChoice.Tree.leaf (toControl Windows.leaf38_44))) (BinaryChoice.Tree.leaf (toControl Windows.leaf38_45))) (BinaryChoice.Tree.leaf (toControl Windows.leaf38_46))) (BinaryChoice.Tree.leaf (toControl Windows.leaf38_47))) (BinaryChoice.Tree.branch (BinaryChoice.Tree.leaf (toControl Windows.leaf38_48)) (BinaryChoice.Tree.leaf (toControl Windows.leaf38_49)))) (BinaryChoice.Tree.branch (BinaryChoice.Tree.branch (BinaryChoice.Tree.branch (BinaryChoice.Tree.branch (BinaryChoice.Tree.branch (BinaryChoice.Tree.leaf (toControl Windows.leaf38_50)) (BinaryChoice.Tree.leaf (toControl Windows.leaf38_51))) (BinaryChoice.Tree.leaf (toControl Windows.leaf38_52))) (BinaryChoice.Tree.leaf (toControl Windows.leaf38_53))) (BinaryChoice.Tree.leaf (toControl Windows.leaf38_54))) (BinaryChoice.Tree.leaf (toControl Windows.leaf38_55))))))
+
+theorem tree38_valid : BinaryChoice.AllLeaves (WindowControlCertificate.BoundedValid F7Manuscript.PartnerGraph.NormalQ0.table plan38 budget38) [false] tree38 := by
+  decide
+
+theorem cover_budget38 : ∀ c ∈ Windows.window38.cover, c.leftEvents + budget38 < 21 := by
+  decide
+
+end F7Manuscript.NormalQ0WindowTrees

@@ -1,0 +1,11 @@
+module
+
+public import R21D2ProjectedCache126Part00
+
+@[expose] public section
+set_option backward.isDefEq.respectTransparency false
+namespace F7Manuscript.R21NormalEndpoint.Projection.Snapshots.PhysicalD2.Projected
+theorem projected126_ok : projectionOKBy d10 projected126 projected126_calc=true := by
+ exact projected126_leaf_root
+theorem projected126_correct : ProjectionCorrect d10 projected126 65820182292848247628912848008226511566417506888326809591929172000 := projection_correct_by_of_check projected126_calc_correct projected126_ok
+end F7Manuscript.R21NormalEndpoint.Projection.Snapshots.PhysicalD2.Projected

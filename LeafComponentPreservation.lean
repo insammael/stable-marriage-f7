@@ -7,6 +7,7 @@ public import Mathlib.Data.Fintype.Card
 public import Mathlib.Tactic
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 /-!
 A generic finite graph/support theorem for the central S peeling step.
@@ -197,7 +198,7 @@ theorem overlap_excess_preserved [Finite V] [DecidableEq A]
     _ = points.sum (fun x => pointMultiplicity G S x - 1) := by
         have hpzero : pointMultiplicity G S p - 1 = 0 := by
           rw [deleted_multiplicity_one G S d p hp hOnly]
-        simpa [hpzero] using
+        simpa [hpzero] using!
           (Finset.sum_erase_add points (fun x => pointMultiplicity G S x - 1) hpmem)
 
 theorem uncovered_preserved [Finite V] [DecidableEq A]

@@ -1,0 +1,49 @@
+module
+
+public import R21D2ProjectedCache090Part00
+public import R21D2ProjectedCache090Part01
+public import R21D2ProjectedCache090Part02
+public import R21D2ProjectedCache090Part03
+public import R21D2ProjectedCache090Part04
+public import R21D2ProjectedCache090Part05
+public import R21D2ProjectedCache090Part06
+public import R21D2ProjectedCache090Part07
+
+@[expose] public section
+set_option backward.isDefEq.respectTransparency false
+namespace F7Manuscript.R21NormalEndpoint.Projection.Snapshots.PhysicalD2.Projected
+theorem projected090_ok : projectionOKBy d7 projected090 projected090_calc=true := by
+ have node_llll := projectionOKBy_of_children projected090_head_llll projected090_leaf_lllll projected090_leaf_llllr
+ have node_lllr := projectionOKBy_of_children projected090_head_lllr projected090_leaf_lllrl projected090_leaf_lllrr
+ have node_llrl := projectionOKBy_of_children projected090_head_llrl projected090_leaf_llrll projected090_leaf_llrlr
+ have node_llrr := projectionOKBy_of_children projected090_head_llrr projected090_leaf_llrrl projected090_leaf_llrrr
+ have node_lrll := projectionOKBy_of_children projected090_head_lrll projected090_leaf_lrlll projected090_leaf_lrllr
+ have node_lrlr := projectionOKBy_of_children projected090_head_lrlr projected090_leaf_lrlrl projected090_leaf_lrlrr
+ have node_lrrl := projectionOKBy_of_children projected090_head_lrrl projected090_leaf_lrrll projected090_leaf_lrrlr
+ have node_lrrr := projectionOKBy_of_children projected090_head_lrrr projected090_leaf_lrrrl projected090_leaf_lrrrr
+ have node_rlll := projectionOKBy_of_children projected090_head_rlll projected090_leaf_rllll projected090_leaf_rlllr
+ have node_rllr := projectionOKBy_of_children projected090_head_rllr projected090_leaf_rllrl projected090_leaf_rllrr
+ have node_rlrl := projectionOKBy_of_children projected090_head_rlrl projected090_leaf_rlrll projected090_leaf_rlrlr
+ have node_rlrr := projectionOKBy_of_children projected090_head_rlrr projected090_leaf_rlrrl projected090_leaf_rlrrr
+ have node_rrll := projectionOKBy_of_children projected090_head_rrll projected090_leaf_rrlll projected090_leaf_rrllr
+ have node_rrlr := projectionOKBy_of_children projected090_head_rrlr projected090_leaf_rrlrl projected090_leaf_rrlrr
+ have node_rrrl := projectionOKBy_of_children projected090_head_rrrl projected090_leaf_rrrll projected090_leaf_rrrlr
+ have node_rrrr := projectionOKBy_of_children projected090_head_rrrr projected090_leaf_rrrrl projected090_leaf_rrrrr
+ have node_lll := projectionOKBy_of_children projected090_head_lll node_llll node_lllr
+ have node_llr := projectionOKBy_of_children projected090_head_llr node_llrl node_llrr
+ have node_lrl := projectionOKBy_of_children projected090_head_lrl node_lrll node_lrlr
+ have node_lrr := projectionOKBy_of_children projected090_head_lrr node_lrrl node_lrrr
+ have node_rll := projectionOKBy_of_children projected090_head_rll node_rlll node_rllr
+ have node_rlr := projectionOKBy_of_children projected090_head_rlr node_rlrl node_rlrr
+ have node_rrl := projectionOKBy_of_children projected090_head_rrl node_rrll node_rrlr
+ have node_rrr := projectionOKBy_of_children projected090_head_rrr node_rrrl node_rrrr
+ have node_ll := projectionOKBy_of_children projected090_head_ll node_lll node_llr
+ have node_lr := projectionOKBy_of_children projected090_head_lr node_lrl node_lrr
+ have node_rl := projectionOKBy_of_children projected090_head_rl node_rll node_rlr
+ have node_rr := projectionOKBy_of_children projected090_head_rr node_rrl node_rrr
+ have node_l := projectionOKBy_of_children projected090_head_l node_ll node_lr
+ have node_r := projectionOKBy_of_children projected090_head_r node_rl node_rr
+ have node_root := projectionOKBy_of_children projected090_head_root node_l node_r
+ exact node_root
+theorem projected090_correct : ProjectionCorrect d7 projected090 27382755477986099706321981871275972709729904454505445718604382208 := projection_correct_by_of_check projected090_calc_correct projected090_ok
+end F7Manuscript.R21NormalEndpoint.Projection.Snapshots.PhysicalD2.Projected

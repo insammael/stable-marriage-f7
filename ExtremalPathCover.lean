@@ -3,6 +3,7 @@ module
 public import UpperPathRestoration
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 namespace NeutralCore.PathExtraction
 open ConditionalUL ActualOverlap Peeling
@@ -19,7 +20,7 @@ theorem upperPeelingCover {P : Finset V} (G : ThreeMaxBoundary P)
   have hRegular : Regular Q := (actual_extremal_peeling G hClass h hw hwi).1
   have hBounds := regular_boundaries hClass hRegular
   have hMaxQ : globalMaxima Q=insert w (d.val.erase p) := by
-    simpa only [Q,p,hd] using maxima_replaced G hClass hw hwi
+    simpa only [Q,p,hd] using! maxima_replaced G hClass hw hwi
   have hWnot : w∉d.val := by
     rw [hd]
     intro hm
@@ -57,7 +58,7 @@ theorem upperPeelingCover {P : Finset V} (G : ThreeMaxBoundary P)
     by_cases hyp : y=p
     · subst y
       exact ⟨w,by rw [hZform]; simp,hwi.le⟩
-    · exact ⟨y,hRetain (by simpa using And.intro hy hyp),le_refl _⟩
+    · exact ⟨y,hRetain (by simpa using! And.intro hy hyp),le_refl _⟩
 
 end NeutralCore.PathExtraction
 

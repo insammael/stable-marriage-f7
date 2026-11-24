@@ -3,6 +3,7 @@ module
 public import ULCentralCutCounting
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 /-!
 A finite chain in a partial order has a strictly increasing enumeration.

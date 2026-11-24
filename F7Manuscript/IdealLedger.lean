@@ -5,6 +5,7 @@ public import UniversalDeficitDifference
 public import R19HumanBoundary
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 /-!
 The actual ideal count and the deficit arithmetic in Equations (3), (6),
@@ -36,7 +37,7 @@ theorem ideal_count_le_two_power :
   have h := Finset.card_le_card
     (Finset.filter_subset (s := (Finset.univ : Finset (Finset V)))
       (p := fun P : Finset V => IsLowerSet (P : Set V)))
-  simpa [IdealCounting.idealSets] using h
+  simpa [IdealCounting.idealSets] using! h
 
 theorem small_poset_ideal_count_le_sixteen (hn : Fintype.card V ≤ 4) :
     (IdealCounting.idealSets (V := V)).card ≤ 16 := by

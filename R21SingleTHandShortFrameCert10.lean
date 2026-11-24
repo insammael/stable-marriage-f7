@@ -1,0 +1,612 @@
+module
+
+public import R21SingleTHandSingleTerminal
+
+@[expose] public section
+set_option backward.isDefEq.respectTransparency false
+namespace F7Manuscript.R21SingleTHand
+open ReturnCertificate
+noncomputable section
+open scoped Classical
+def shortFrame10_b0_r0_core : WordPersonInvariant where
+  longWord := [(0,1),(2,3),(4,5),(6,0),(1,2),(3,6),(0,5),(2,4),(1,5)]
+  shortWord := [(0,5),(1,2),(3,4)]
+  flip := false
+  actor := 0
+  U := {2,3}
+  now := ![4,6,5,1,0,3,2]
+  tab := [(2,{2}),(2,{2,3}),(3,{3}),(3,{2,3}),(4,∅)]
+  current := by decide
+  missing := by decide
+  start := by decide
+  closed := by decide
+def shortFrame10_b0_r0 : EndedPerson := ⟨shortFrame10_b0_r0_core,{(2,3),(3,2)},by decide⟩
+def shortFrame10_b0_r1_core : WordPersonInvariant where
+  longWord := [(0,1),(2,3),(4,5),(6,0),(1,2),(3,6),(0,5),(2,4),(1,5)]
+  shortWord := [(0,5),(1,2),(3,4)]
+  flip := false
+  actor := 1
+  U := {4,5}
+  now := ![4,6,5,1,0,3,2]
+  tab := [(4,{4}),(4,{4,5}),(5,{5}),(5,{4,5}),(6,∅)]
+  current := by decide
+  missing := by decide
+  start := by decide
+  closed := by decide
+def shortFrame10_b0_r1 : EndedPerson := ⟨shortFrame10_b0_r1_core,{(4,5),(5,4)},by decide⟩
+def shortFrame10_b0_r2_core : WordPersonInvariant where
+  longWord := [(0,1),(2,3),(4,5),(6,0),(1,2),(3,6),(0,5),(2,4),(1,5)]
+  shortWord := [(0,5),(1,2),(3,4)]
+  flip := false
+  actor := 2
+  U := {4,6}
+  now := ![4,6,5,1,0,3,2]
+  tab := [(4,{4}),(5,∅),(6,{6}),(6,{4,6})]
+  current := by decide
+  missing := by decide
+  start := by decide
+  closed := by decide
+def shortFrame10_b0_r2 : EndedPerson := ⟨shortFrame10_b0_r2_core,{(4,6)},by decide⟩
+def shortFrame10_b0_r3_core : WordPersonInvariant where
+  longWord := [(0,1),(2,3),(4,5),(6,0),(1,2),(3,6),(0,5),(2,4),(1,5)]
+  shortWord := [(0,5),(1,2),(3,4)]
+  flip := false
+  actor := 3
+  U := {0,5,6}
+  now := ![4,6,5,1,0,3,2]
+  tab := [(0,{0}),(0,{0,6}),(0,{0,5,6}),(1,∅),(5,{0,5}),(5,{5,6}),(5,{0,5,6}),(6,{6}),(6,{0,5,6})]
+  current := by decide
+  missing := by decide
+  start := by decide
+  closed := by decide
+def shortFrame10_b0_r3 : EndedPerson := ⟨shortFrame10_b0_r3_core,{(0,5),(5,0),(5,6)},by decide⟩
+def shortFrame10_b0_r4_core : WordPersonInvariant where
+  longWord := [(0,1),(2,3),(4,5),(6,0),(1,2),(3,6),(0,5),(2,4),(1,5)]
+  shortWord := [(0,5),(1,2),(3,4)]
+  flip := false
+  actor := 4
+  U := {1,2,6}
+  now := ![4,6,5,1,0,3,2]
+  tab := [(0,∅),(1,{1}),(1,{1,2}),(1,{1,6}),(2,{2}),(2,{1,2}),(2,{1,2,6}),(6,{6})]
+  current := by decide
+  missing := by decide
+  start := by decide
+  closed := by decide
+def shortFrame10_b0_r4 : EndedPerson := ⟨shortFrame10_b0_r4_core,{(1,2)},by decide⟩
+def shortFrame10_b0_r5_core : WordPersonInvariant where
+  longWord := [(0,1),(2,3),(4,5),(6,0),(1,2),(3,6),(0,5),(2,4),(1,5)]
+  shortWord := [(0,5),(1,2),(3,4)]
+  flip := false
+  actor := 5
+  U := {1,2}
+  now := ![4,6,5,1,0,3,2]
+  tab := [(1,{1,2}),(2,{2}),(3,∅)]
+  current := by decide
+  missing := by decide
+  start := by decide
+  closed := by decide
+def shortFrame10_b0_r5 : EndedPerson := ⟨shortFrame10_b0_r5_core,{(2,1)},by decide⟩
+def shortFrame10_b0_r6_core : WordPersonInvariant where
+  longWord := [(0,1),(2,3),(4,5),(6,0),(1,2),(3,6),(0,5),(2,4),(1,5)]
+  shortWord := [(0,5),(1,2),(3,4)]
+  flip := false
+  actor := 6
+  U := {0,3,4,5}
+  now := ![4,6,5,1,0,3,2]
+  tab := [(0,{0}),(0,{0,4,5}),(0,{0,3,4,5}),(2,∅),(3,{3}),(4,{4}),(4,{3,4}),(4,{0,4,5}),(5,{0,5}),(5,{4,5}),(5,{3,4,5})]
+  current := by decide
+  missing := by decide
+  start := by decide
+  closed := by decide
+def shortFrame10_b0_r6 : EndedPerson := ⟨shortFrame10_b0_r6_core,{(5,0)},by decide⟩
+def shortFrame10_b0_t0_core : WordPersonInvariant where
+  longWord := [(0,1),(2,3),(4,5),(6,0),(1,2),(3,6),(0,5),(2,4),(1,5)]
+  shortWord := [(0,5),(1,2),(3,4)]
+  flip := true
+  actor := 0
+  U := {3,6}
+  now := ![4,3,6,5,0,2,1]
+  tab := [(3,{3}),(3,{3,6}),(4,∅),(6,{6}),(6,{3,6})]
+  current := by decide
+  missing := by decide
+  start := by decide
+  closed := by decide
+def shortFrame10_b0_t0 : EndedPerson := ⟨shortFrame10_b0_t0_core,{(3,6),(6,3)},by decide⟩
+def shortFrame10_b0_t1_core : WordPersonInvariant where
+  longWord := [(0,1),(2,3),(4,5),(6,0),(1,2),(3,6),(0,5),(2,4),(1,5)]
+  shortWord := [(0,5),(1,2),(3,4)]
+  flip := true
+  actor := 1
+  U := {4,5}
+  now := ![4,3,6,5,0,2,1]
+  tab := [(3,∅),(4,{4}),(5,{4,5})]
+  current := by decide
+  missing := by decide
+  start := by decide
+  closed := by decide
+def shortFrame10_b0_t1 : EndedPerson := ⟨shortFrame10_b0_t1_core,{(4,5)},by decide⟩
+def shortFrame10_b0_t2_core : WordPersonInvariant where
+  longWord := [(0,1),(2,3),(4,5),(6,0),(1,2),(3,6),(0,5),(2,4),(1,5)]
+  shortWord := [(0,5),(1,2),(3,4)]
+  flip := true
+  actor := 2
+  U := {0,4,5}
+  now := ![4,3,6,5,0,2,1]
+  tab := [(0,{0}),(4,{4}),(4,{4,5}),(4,{0,4,5}),(5,{5}),(5,{0,5}),(5,{4,5}),(6,∅)]
+  current := by decide
+  missing := by decide
+  start := by decide
+  closed := by decide
+def shortFrame10_b0_t2 : EndedPerson := ⟨shortFrame10_b0_t2_core,{(5,4)},by decide⟩
+def shortFrame10_b0_t3_core : WordPersonInvariant where
+  longWord := [(0,1),(2,3),(4,5),(6,0),(1,2),(3,6),(0,5),(2,4),(1,5)]
+  shortWord := [(0,5),(1,2),(3,4)]
+  flip := true
+  actor := 3
+  U := {0,6}
+  now := ![4,3,6,5,0,2,1]
+  tab := [(0,{0}),(0,{0,6}),(5,∅),(6,{6}),(6,{0,6})]
+  current := by decide
+  missing := by decide
+  start := by decide
+  closed := by decide
+def shortFrame10_b0_t3 : EndedPerson := ⟨shortFrame10_b0_t3_core,{(0,6),(6,0)},by decide⟩
+def shortFrame10_b0_t4_core : WordPersonInvariant where
+  longWord := [(0,1),(2,3),(4,5),(6,0),(1,2),(3,6),(0,5),(2,4),(1,5)]
+  shortWord := [(0,5),(1,2),(3,4)]
+  flip := true
+  actor := 4
+  U := {1,2,6}
+  now := ![4,3,6,5,0,2,1]
+  tab := [(0,∅),(1,{1,6}),(1,{1,2,6}),(2,{2,6}),(2,{1,2,6}),(6,{6})]
+  current := by decide
+  missing := by decide
+  start := by decide
+  closed := by decide
+def shortFrame10_b0_t4 : EndedPerson := ⟨shortFrame10_b0_t4_core,{(1,2),(2,1)},by decide⟩
+def shortFrame10_b0_t5_core : WordPersonInvariant where
+  longWord := [(0,1),(2,3),(4,5),(6,0),(1,2),(3,6),(0,5),(2,4),(1,5)]
+  shortWord := [(0,5),(1,2),(3,4)]
+  flip := true
+  actor := 5
+  U := {1,3,6}
+  now := ![4,3,6,5,0,2,1]
+  tab := [(1,{1}),(1,{1,3}),(1,{1,6}),(1,{1,3,6}),(2,∅),(3,{3}),(3,{3,6}),(3,{1,3,6}),(6,{6}),(6,{1,6}),(6,{3,6}),(6,{1,3,6})]
+  current := by decide
+  missing := by decide
+  start := by decide
+  closed := by decide
+def shortFrame10_b0_t5 : EndedPerson := ⟨shortFrame10_b0_t5_core,{(1,6),(3,1),(6,1),(6,3)},by decide⟩
+def shortFrame10_b0_t6_core : WordPersonInvariant where
+  longWord := [(0,1),(2,3),(4,5),(6,0),(1,2),(3,6),(0,5),(2,4),(1,5)]
+  shortWord := [(0,5),(1,2),(3,4)]
+  flip := true
+  actor := 6
+  U := {2,3,4}
+  now := ![4,3,6,5,0,2,1]
+  tab := [(1,∅),(2,{2}),(2,{2,3}),(3,{3}),(4,{3,4})]
+  current := by decide
+  missing := by decide
+  start := by decide
+  closed := by decide
+def shortFrame10_b0_t6 : EndedPerson := ⟨shortFrame10_b0_t6_core,∅,by decide⟩
+def shortFrame10_b0 : LastFrameCertificate where
+  longWord := [(0,1),(2,3),(4,5),(6,0),(1,2),(3,6),(0,5),(2,4),(1,5)]
+  shortWord := [(0,5),(1,2),(3,4)]
+  rows := ![shortFrame10_b0_r0,shortFrame10_b0_r1,shortFrame10_b0_r2,shortFrame10_b0_r3,shortFrame10_b0_r4,shortFrame10_b0_r5,shortFrame10_b0_r6]
+  tokens := ![shortFrame10_b0_t0,shortFrame10_b0_t1,shortFrame10_b0_t2,shortFrame10_b0_t3,shortFrame10_b0_t4,shortFrame10_b0_t5,shortFrame10_b0_t6]
+  rowLong := by decide
+  rowShort := by decide
+  rowActor := by decide
+  rowFlip := by decide
+  tokenLong := by decide
+  tokenShort := by decide
+  tokenActor := by decide
+  tokenFlip := by decide
+  need := by decide
+  witness₀ := .inl 4
+  witness₁ := .inl 6
+  cover := by decide
+#print axioms shortFrame10_b0
+def shortFrame10_b3_r0_core : WordPersonInvariant where
+  longWord := [(0,1),(2,3),(4,5),(6,0),(1,2),(3,6),(0,5),(2,4),(1,5)]
+  shortWord := [(0,5),(1,2),(3,4),(6,3)]
+  flip := false
+  actor := 0
+  U := {2,3}
+  now := ![4,6,5,1,0,3,2]
+  tab := [(4,∅)]
+  current := by decide
+  missing := by decide
+  start := by decide
+  closed := by decide
+def shortFrame10_b3_r0 : EndedPerson := ⟨shortFrame10_b3_r0_core,∅,by decide⟩
+def shortFrame10_b3_r1_core : WordPersonInvariant where
+  longWord := [(0,1),(2,3),(4,5),(6,0),(1,2),(3,6),(0,5),(2,4),(1,5)]
+  shortWord := [(0,5),(1,2),(3,4),(6,3)]
+  flip := false
+  actor := 1
+  U := {4,5}
+  now := ![4,6,5,1,0,3,2]
+  tab := [(4,{4}),(5,{5}),(5,{4,5}),(6,∅)]
+  current := by decide
+  missing := by decide
+  start := by decide
+  closed := by decide
+def shortFrame10_b3_r1 : EndedPerson := ⟨shortFrame10_b3_r1_core,{(4,5)},by decide⟩
+def shortFrame10_b3_r2_core : WordPersonInvariant where
+  longWord := [(0,1),(2,3),(4,5),(6,0),(1,2),(3,6),(0,5),(2,4),(1,5)]
+  shortWord := [(0,5),(1,2),(3,4),(6,3)]
+  flip := false
+  actor := 2
+  U := {4,6}
+  now := ![4,6,5,1,0,3,2]
+  tab := [(4,{4}),(5,∅),(6,{6}),(6,{4,6})]
+  current := by decide
+  missing := by decide
+  start := by decide
+  closed := by decide
+def shortFrame10_b3_r2 : EndedPerson := ⟨shortFrame10_b3_r2_core,{(4,6)},by decide⟩
+def shortFrame10_b3_r3_core : WordPersonInvariant where
+  longWord := [(0,1),(2,3),(4,5),(6,0),(1,2),(3,6),(0,5),(2,4),(1,5)]
+  shortWord := [(0,5),(1,2),(3,4),(6,3)]
+  flip := false
+  actor := 3
+  U := {0,5}
+  now := ![4,6,5,1,0,3,2]
+  tab := [(0,{0}),(1,∅),(5,{0,5})]
+  current := by decide
+  missing := by decide
+  start := by decide
+  closed := by decide
+def shortFrame10_b3_r3 : EndedPerson := ⟨shortFrame10_b3_r3_core,{(0,5)},by decide⟩
+def shortFrame10_b3_r4_core : WordPersonInvariant where
+  longWord := [(0,1),(2,3),(4,5),(6,0),(1,2),(3,6),(0,5),(2,4),(1,5)]
+  shortWord := [(0,5),(1,2),(3,4),(6,3)]
+  flip := false
+  actor := 4
+  U := {1,2,6}
+  now := ![4,6,5,1,0,3,2]
+  tab := [(0,∅),(1,{1}),(1,{1,2}),(2,{2}),(2,{1,2})]
+  current := by decide
+  missing := by decide
+  start := by decide
+  closed := by decide
+def shortFrame10_b3_r4 : EndedPerson := ⟨shortFrame10_b3_r4_core,∅,by decide⟩
+def shortFrame10_b3_r5_core : WordPersonInvariant where
+  longWord := [(0,1),(2,3),(4,5),(6,0),(1,2),(3,6),(0,5),(2,4),(1,5)]
+  shortWord := [(0,5),(1,2),(3,4),(6,3)]
+  flip := false
+  actor := 5
+  U := {1,2}
+  now := ![4,6,5,1,0,3,2]
+  tab := [(1,{1,2}),(2,{2}),(3,∅)]
+  current := by decide
+  missing := by decide
+  start := by decide
+  closed := by decide
+def shortFrame10_b3_r5 : EndedPerson := ⟨shortFrame10_b3_r5_core,{(2,1)},by decide⟩
+def shortFrame10_b3_r6_core : WordPersonInvariant where
+  longWord := [(0,1),(2,3),(4,5),(6,0),(1,2),(3,6),(0,5),(2,4),(1,5)]
+  shortWord := [(0,5),(1,2),(3,4),(6,3)]
+  flip := false
+  actor := 6
+  U := {0,3,5}
+  now := ![4,6,5,1,0,3,2]
+  tab := [(0,{0}),(2,∅),(3,{3}),(5,{0,5})]
+  current := by decide
+  missing := by decide
+  start := by decide
+  closed := by decide
+def shortFrame10_b3_r6 : EndedPerson := ⟨shortFrame10_b3_r6_core,∅,by decide⟩
+def shortFrame10_b3_t0_core : WordPersonInvariant where
+  longWord := [(0,1),(2,3),(4,5),(6,0),(1,2),(3,6),(0,5),(2,4),(1,5)]
+  shortWord := [(0,5),(1,2),(3,4),(6,3)]
+  flip := true
+  actor := 0
+  U := {3,6}
+  now := ![4,3,6,5,0,2,1]
+  tab := [(3,{3}),(3,{3,6}),(4,∅),(6,{6}),(6,{3,6})]
+  current := by decide
+  missing := by decide
+  start := by decide
+  closed := by decide
+def shortFrame10_b3_t0 : EndedPerson := ⟨shortFrame10_b3_t0_core,{(3,6),(6,3)},by decide⟩
+def shortFrame10_b3_t1_core : WordPersonInvariant where
+  longWord := [(0,1),(2,3),(4,5),(6,0),(1,2),(3,6),(0,5),(2,4),(1,5)]
+  shortWord := [(0,5),(1,2),(3,4),(6,3)]
+  flip := true
+  actor := 1
+  U := {4,5}
+  now := ![4,3,6,5,0,2,1]
+  tab := [(3,∅),(4,{4}),(5,{4,5})]
+  current := by decide
+  missing := by decide
+  start := by decide
+  closed := by decide
+def shortFrame10_b3_t1 : EndedPerson := ⟨shortFrame10_b3_t1_core,{(4,5)},by decide⟩
+def shortFrame10_b3_t2_core : WordPersonInvariant where
+  longWord := [(0,1),(2,3),(4,5),(6,0),(1,2),(3,6),(0,5),(2,4),(1,5)]
+  shortWord := [(0,5),(1,2),(3,4),(6,3)]
+  flip := true
+  actor := 2
+  U := {0,4,5}
+  now := ![4,3,6,5,0,2,1]
+  tab := [(0,{0}),(4,{4}),(4,{4,5}),(4,{0,4,5}),(5,{5}),(5,{0,5}),(5,{4,5}),(6,∅)]
+  current := by decide
+  missing := by decide
+  start := by decide
+  closed := by decide
+def shortFrame10_b3_t2 : EndedPerson := ⟨shortFrame10_b3_t2_core,{(5,4)},by decide⟩
+def shortFrame10_b3_t3_core : WordPersonInvariant where
+  longWord := [(0,1),(2,3),(4,5),(6,0),(1,2),(3,6),(0,5),(2,4),(1,5)]
+  shortWord := [(0,5),(1,2),(3,4),(6,3)]
+  flip := true
+  actor := 3
+  U := {0,6}
+  now := ![4,3,6,5,0,2,1]
+  tab := [(0,{0}),(5,∅),(6,{6}),(6,{0,6})]
+  current := by decide
+  missing := by decide
+  start := by decide
+  closed := by decide
+def shortFrame10_b3_t3 : EndedPerson := ⟨shortFrame10_b3_t3_core,{(0,6)},by decide⟩
+def shortFrame10_b3_t4_core : WordPersonInvariant where
+  longWord := [(0,1),(2,3),(4,5),(6,0),(1,2),(3,6),(0,5),(2,4),(1,5)]
+  shortWord := [(0,5),(1,2),(3,4),(6,3)]
+  flip := true
+  actor := 4
+  U := {1,2}
+  now := ![4,3,6,5,0,2,1]
+  tab := [(0,∅)]
+  current := by decide
+  missing := by decide
+  start := by decide
+  closed := by decide
+def shortFrame10_b3_t4 : EndedPerson := ⟨shortFrame10_b3_t4_core,∅,by decide⟩
+def shortFrame10_b3_t5_core : WordPersonInvariant where
+  longWord := [(0,1),(2,3),(4,5),(6,0),(1,2),(3,6),(0,5),(2,4),(1,5)]
+  shortWord := [(0,5),(1,2),(3,4),(6,3)]
+  flip := true
+  actor := 5
+  U := {1,3,6}
+  now := ![4,3,6,5,0,2,1]
+  tab := [(1,{1}),(2,∅)]
+  current := by decide
+  missing := by decide
+  start := by decide
+  closed := by decide
+def shortFrame10_b3_t5 : EndedPerson := ⟨shortFrame10_b3_t5_core,∅,by decide⟩
+def shortFrame10_b3_t6_core : WordPersonInvariant where
+  longWord := [(0,1),(2,3),(4,5),(6,0),(1,2),(3,6),(0,5),(2,4),(1,5)]
+  shortWord := [(0,5),(1,2),(3,4),(6,3)]
+  flip := true
+  actor := 6
+  U := {2,4}
+  now := ![4,3,6,5,0,2,1]
+  tab := [(1,∅),(2,{2})]
+  current := by decide
+  missing := by decide
+  start := by decide
+  closed := by decide
+def shortFrame10_b3_t6 : EndedPerson := ⟨shortFrame10_b3_t6_core,∅,by decide⟩
+def shortFrame10_b3 : LastFrameCertificate where
+  longWord := [(0,1),(2,3),(4,5),(6,0),(1,2),(3,6),(0,5),(2,4),(1,5)]
+  shortWord := [(0,5),(1,2),(3,4),(6,3)]
+  rows := ![shortFrame10_b3_r0,shortFrame10_b3_r1,shortFrame10_b3_r2,shortFrame10_b3_r3,shortFrame10_b3_r4,shortFrame10_b3_r5,shortFrame10_b3_r6]
+  tokens := ![shortFrame10_b3_t0,shortFrame10_b3_t1,shortFrame10_b3_t2,shortFrame10_b3_t3,shortFrame10_b3_t4,shortFrame10_b3_t5,shortFrame10_b3_t6]
+  rowLong := by decide
+  rowShort := by decide
+  rowActor := by decide
+  rowFlip := by decide
+  tokenLong := by decide
+  tokenShort := by decide
+  tokenActor := by decide
+  tokenFlip := by decide
+  need := by decide
+  witness₀ := .inl 4
+  witness₁ := .inl 6
+  cover := by decide
+#print axioms shortFrame10_b3
+def shortFrame10_b4_r0_core : WordPersonInvariant where
+  longWord := [(0,1),(2,3),(4,5),(6,0),(1,2),(3,6),(0,5),(2,4),(1,5)]
+  shortWord := [(0,5),(1,2),(3,4),(6,4)]
+  flip := false
+  actor := 0
+  U := {2,3}
+  now := ![4,6,5,1,0,3,2]
+  tab := [(2,{2}),(3,{2,3}),(4,∅)]
+  current := by decide
+  missing := by decide
+  start := by decide
+  closed := by decide
+def shortFrame10_b4_r0 : EndedPerson := ⟨shortFrame10_b4_r0_core,{(2,3)},by decide⟩
+def shortFrame10_b4_r1_core : WordPersonInvariant where
+  longWord := [(0,1),(2,3),(4,5),(6,0),(1,2),(3,6),(0,5),(2,4),(1,5)]
+  shortWord := [(0,5),(1,2),(3,4),(6,4)]
+  flip := false
+  actor := 1
+  U := {4,5}
+  now := ![4,6,5,1,0,3,2]
+  tab := [(4,{4}),(4,{4,5}),(5,{5}),(5,{4,5}),(6,∅)]
+  current := by decide
+  missing := by decide
+  start := by decide
+  closed := by decide
+def shortFrame10_b4_r1 : EndedPerson := ⟨shortFrame10_b4_r1_core,{(4,5),(5,4)},by decide⟩
+def shortFrame10_b4_r2_core : WordPersonInvariant where
+  longWord := [(0,1),(2,3),(4,5),(6,0),(1,2),(3,6),(0,5),(2,4),(1,5)]
+  shortWord := [(0,5),(1,2),(3,4),(6,4)]
+  flip := false
+  actor := 2
+  U := {4,6}
+  now := ![4,6,5,1,0,3,2]
+  tab := [(4,{4}),(5,∅),(6,{6}),(6,{4,6})]
+  current := by decide
+  missing := by decide
+  start := by decide
+  closed := by decide
+def shortFrame10_b4_r2 : EndedPerson := ⟨shortFrame10_b4_r2_core,{(4,6)},by decide⟩
+def shortFrame10_b4_r3_core : WordPersonInvariant where
+  longWord := [(0,1),(2,3),(4,5),(6,0),(1,2),(3,6),(0,5),(2,4),(1,5)]
+  shortWord := [(0,5),(1,2),(3,4),(6,4)]
+  flip := false
+  actor := 3
+  U := {0,5,6}
+  now := ![4,6,5,1,0,3,2]
+  tab := [(0,{0}),(1,∅),(5,{0,5}),(6,{0,5,6})]
+  current := by decide
+  missing := by decide
+  start := by decide
+  closed := by decide
+def shortFrame10_b4_r3 : EndedPerson := ⟨shortFrame10_b4_r3_core,{(5,6)},by decide⟩
+def shortFrame10_b4_r4_core : WordPersonInvariant where
+  longWord := [(0,1),(2,3),(4,5),(6,0),(1,2),(3,6),(0,5),(2,4),(1,5)]
+  shortWord := [(0,5),(1,2),(3,4),(6,4)]
+  flip := false
+  actor := 4
+  U := {1,2}
+  now := ![4,6,5,1,0,3,2]
+  tab := [(0,∅),(1,{1}),(1,{1,2}),(2,{2}),(2,{1,2})]
+  current := by decide
+  missing := by decide
+  start := by decide
+  closed := by decide
+def shortFrame10_b4_r4 : EndedPerson := ⟨shortFrame10_b4_r4_core,{(1,2),(2,1)},by decide⟩
+def shortFrame10_b4_r5_core : WordPersonInvariant where
+  longWord := [(0,1),(2,3),(4,5),(6,0),(1,2),(3,6),(0,5),(2,4),(1,5)]
+  shortWord := [(0,5),(1,2),(3,4),(6,4)]
+  flip := false
+  actor := 5
+  U := {1,2}
+  now := ![4,6,5,1,0,3,2]
+  tab := [(1,{1,2}),(2,{2}),(3,∅)]
+  current := by decide
+  missing := by decide
+  start := by decide
+  closed := by decide
+def shortFrame10_b4_r5 : EndedPerson := ⟨shortFrame10_b4_r5_core,{(2,1)},by decide⟩
+def shortFrame10_b4_r6_core : WordPersonInvariant where
+  longWord := [(0,1),(2,3),(4,5),(6,0),(1,2),(3,6),(0,5),(2,4),(1,5)]
+  shortWord := [(0,5),(1,2),(3,4),(6,4)]
+  flip := false
+  actor := 6
+  U := {0,4,5}
+  now := ![4,6,5,1,0,3,2]
+  tab := [(0,{0}),(0,{0,4,5}),(2,∅),(4,{4}),(4,{0,4,5}),(5,{0,5}),(5,{4,5})]
+  current := by decide
+  missing := by decide
+  start := by decide
+  closed := by decide
+def shortFrame10_b4_r6 : EndedPerson := ⟨shortFrame10_b4_r6_core,{(5,0),(5,4)},by decide⟩
+def shortFrame10_b4_t0_core : WordPersonInvariant where
+  longWord := [(0,1),(2,3),(4,5),(6,0),(1,2),(3,6),(0,5),(2,4),(1,5)]
+  shortWord := [(0,5),(1,2),(3,4),(6,4)]
+  flip := true
+  actor := 0
+  U := {3,6}
+  now := ![4,3,6,5,0,2,1]
+  tab := [(3,{3}),(3,{3,6}),(4,∅),(6,{6}),(6,{3,6})]
+  current := by decide
+  missing := by decide
+  start := by decide
+  closed := by decide
+def shortFrame10_b4_t0 : EndedPerson := ⟨shortFrame10_b4_t0_core,{(3,6),(6,3)},by decide⟩
+def shortFrame10_b4_t1_core : WordPersonInvariant where
+  longWord := [(0,1),(2,3),(4,5),(6,0),(1,2),(3,6),(0,5),(2,4),(1,5)]
+  shortWord := [(0,5),(1,2),(3,4),(6,4)]
+  flip := true
+  actor := 1
+  U := {4,5}
+  now := ![4,3,6,5,0,2,1]
+  tab := [(3,∅),(4,{4}),(5,{4,5})]
+  current := by decide
+  missing := by decide
+  start := by decide
+  closed := by decide
+def shortFrame10_b4_t1 : EndedPerson := ⟨shortFrame10_b4_t1_core,{(4,5)},by decide⟩
+def shortFrame10_b4_t2_core : WordPersonInvariant where
+  longWord := [(0,1),(2,3),(4,5),(6,0),(1,2),(3,6),(0,5),(2,4),(1,5)]
+  shortWord := [(0,5),(1,2),(3,4),(6,4)]
+  flip := true
+  actor := 2
+  U := {0,4,5}
+  now := ![4,3,6,5,0,2,1]
+  tab := [(0,{0}),(4,{4}),(4,{0,4,5}),(5,{0,5}),(5,{4,5}),(6,∅)]
+  current := by decide
+  missing := by decide
+  start := by decide
+  closed := by decide
+def shortFrame10_b4_t2 : EndedPerson := ⟨shortFrame10_b4_t2_core,{(5,4)},by decide⟩
+def shortFrame10_b4_t3_core : WordPersonInvariant where
+  longWord := [(0,1),(2,3),(4,5),(6,0),(1,2),(3,6),(0,5),(2,4),(1,5)]
+  shortWord := [(0,5),(1,2),(3,4),(6,4)]
+  flip := true
+  actor := 3
+  U := {0}
+  now := ![4,3,6,5,0,2,1]
+  tab := [(0,{0}),(5,∅)]
+  current := by decide
+  missing := by decide
+  start := by decide
+  closed := by decide
+def shortFrame10_b4_t3 : EndedPerson := ⟨shortFrame10_b4_t3_core,{(5,0)},by decide⟩
+def shortFrame10_b4_t4_core : WordPersonInvariant where
+  longWord := [(0,1),(2,3),(4,5),(6,0),(1,2),(3,6),(0,5),(2,4),(1,5)]
+  shortWord := [(0,5),(1,2),(3,4),(6,4)]
+  flip := true
+  actor := 4
+  U := {1,2,6}
+  now := ![4,3,6,5,0,2,1]
+  tab := [(0,∅),(1,{1,6}),(1,{1,2,6}),(2,{2,6}),(2,{1,2,6}),(6,{6})]
+  current := by decide
+  missing := by decide
+  start := by decide
+  closed := by decide
+def shortFrame10_b4_t4 : EndedPerson := ⟨shortFrame10_b4_t4_core,{(1,2),(2,1)},by decide⟩
+def shortFrame10_b4_t5_core : WordPersonInvariant where
+  longWord := [(0,1),(2,3),(4,5),(6,0),(1,2),(3,6),(0,5),(2,4),(1,5)]
+  shortWord := [(0,5),(1,2),(3,4),(6,4)]
+  flip := true
+  actor := 5
+  U := {1,3,6}
+  now := ![4,3,6,5,0,2,1]
+  tab := [(1,{1}),(1,{1,3}),(1,{1,6}),(1,{1,3,6}),(2,∅),(3,{3}),(3,{3,6}),(3,{1,3,6}),(6,{6}),(6,{1,6}),(6,{3,6}),(6,{1,3,6})]
+  current := by decide
+  missing := by decide
+  start := by decide
+  closed := by decide
+def shortFrame10_b4_t5 : EndedPerson := ⟨shortFrame10_b4_t5_core,{(1,6),(3,1),(6,1),(6,3)},by decide⟩
+def shortFrame10_b4_t6_core : WordPersonInvariant where
+  longWord := [(0,1),(2,3),(4,5),(6,0),(1,2),(3,6),(0,5),(2,4),(1,5)]
+  shortWord := [(0,5),(1,2),(3,4),(6,4)]
+  flip := true
+  actor := 6
+  U := {2,3}
+  now := ![4,3,6,5,0,2,1]
+  tab := [(1,∅),(2,{2}),(2,{2,3}),(3,{3})]
+  current := by decide
+  missing := by decide
+  start := by decide
+  closed := by decide
+def shortFrame10_b4_t6 : EndedPerson := ⟨shortFrame10_b4_t6_core,{(3,2)},by decide⟩
+def shortFrame10_b4 : LastFrameCertificate where
+  longWord := [(0,1),(2,3),(4,5),(6,0),(1,2),(3,6),(0,5),(2,4),(1,5)]
+  shortWord := [(0,5),(1,2),(3,4),(6,4)]
+  rows := ![shortFrame10_b4_r0,shortFrame10_b4_r1,shortFrame10_b4_r2,shortFrame10_b4_r3,shortFrame10_b4_r4,shortFrame10_b4_r5,shortFrame10_b4_r6]
+  tokens := ![shortFrame10_b4_t0,shortFrame10_b4_t1,shortFrame10_b4_t2,shortFrame10_b4_t3,shortFrame10_b4_t4,shortFrame10_b4_t5,shortFrame10_b4_t6]
+  rowLong := by decide
+  rowShort := by decide
+  rowActor := by decide
+  rowFlip := by decide
+  tokenLong := by decide
+  tokenShort := by decide
+  tokenActor := by decide
+  tokenFlip := by decide
+  need := by decide
+  witness₀ := .inl 4
+  witness₁ := .inl 6
+  cover := by decide
+#print axioms shortFrame10_b4
+end
+end F7Manuscript.R21SingleTHand

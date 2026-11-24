@@ -3,6 +3,7 @@ module
 public import ULRawNeutralShortPaths
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 namespace NeutralCore.PathExtraction
 open ConditionalUL
@@ -42,7 +43,7 @@ def IntervalPath.toRaw (H : IntervalPath V) : RawIncreasingTrianglePath V where
     intro j hj hjl
     rw [H.previous_intersection hj hjl]
     have heq : j-1+1=j := by omega
-    simpa only [heq] using H.adjacent (j-1) (by omega)
+    simpa only [heq] using! H.adjacent (j-1) (by omega)
   retain := by
     intro j hj hjl
     refine ⟨j-1,by omega,?_⟩
@@ -74,16 +75,16 @@ def IntervalPath.reverse (H : IntervalPath (OrderDual V)) : IntervalPath V where
   adjacent := by
     intro j hj
     have heq : H.last-(j+1)+1=H.last-j := by omega
-    simpa only [heq,Finset.inter_comm] using H.adjacent (H.last-(j+1)) (by omega)
+    simpa only [heq,Finset.inter_comm] using! H.adjacent (H.last-(j+1)) (by omega)
   up := by
     intro j hj x hx
     have heq : H.last-(j+1)+1=H.last-j := by omega
-    exact H.down _ (by omega) x (by simpa only [heq] using hx)
+    exact H.down _ (by omega) x (by simpa only [heq] using! hx)
   down := by
     intro j hj y hy
     have heq : H.last-(j+1)+1=H.last-j := by omega
     obtain ⟨x,hx,hxy⟩ := H.up _ (by omega) y hy
-    exact ⟨x,by simpa only [heq] using hx,hxy⟩
+    exact ⟨x,by simpa only [heq] using! hx,hxy⟩
   interval := by
     intro i j k hij hjk hkl x hxi hxk
     exact H.interval (H.last-k) (H.last-j) (H.last-i)
@@ -112,24 +113,24 @@ def IntervalPath.append (H : IntervalPath V) (T : Finset V)
   adjacent := by
     intro j hj
     by_cases h : j<H.last
-    · simpa only [if_pos (by omega : j≤H.last),if_pos (by omega : j+1≤H.last)] using H.adjacent j h
+    · simpa only [if_pos (by omega : j≤H.last),if_pos (by omega : j+1≤H.last)] using! H.adjacent j h
     · have heq : j=H.last := by omega
       subst j
-      simpa using hAdj
+      simpa using! hAdj
   up := by
     intro j hj
     by_cases h : j<H.last
-    · simpa only [if_pos (by omega : j≤H.last),if_pos (by omega : j+1≤H.last)] using H.up j h
+    · simpa only [if_pos (by omega : j≤H.last),if_pos (by omega : j+1≤H.last)] using! H.up j h
     · have heq : j=H.last := by omega
       subst j
-      simpa using hUp
+      simpa using! hUp
   down := by
     intro j hj
     by_cases h : j<H.last
-    · simpa only [if_pos (by omega : j≤H.last),if_pos (by omega : j+1≤H.last)] using H.down j h
+    · simpa only [if_pos (by omega : j≤H.last),if_pos (by omega : j+1≤H.last)] using! H.down j h
     · have heq : j=H.last := by omega
       subst j
-      simpa using hDown
+      simpa using! hDown
   interval := by
     intro i j k hij hjk hkl x hxi hxk
     by_cases hk : k≤H.last
@@ -144,7 +145,7 @@ def IntervalPath.append (H : IntervalPath V) (T : Finset V)
         simp only [if_pos hj]
         exact H.interval i j H.last hij hj (le_refl _) x hxi (hOld i (by omega) x hxi hxk)
       · have hjk' : j=k := by omega
-        simpa only [hjk'] using hxk
+        simpa only [hjk'] using! hxk
 
 #print axioms IntervalPath.toRaw
 #print axioms IntervalPath.reverse

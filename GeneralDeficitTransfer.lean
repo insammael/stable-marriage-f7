@@ -3,6 +3,7 @@ module
 public import InducedDeficitTransport
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 namespace NeutralCore
 open ConditionalUL
@@ -105,9 +106,9 @@ theorem pairClass_deficit_transfer (hClass : PairClass (V:=V))
     (hn : 10≤Fintype.card V) (ha0 : 0≤a (V:=V)) (ha2 : a (V:=V)≤2) :
     delta3 (V:=V)≤a (V:=V) := by
   have h := pairClass_deficit_transfer_on hClass (Finset.univ : Finset V)
-    (by simpa using hn) (by simpa only [aOn_univ] using ha0)
-    (by simpa only [aOn_univ] using ha2)
-  simpa only [delta3On,delta3,Finset.card_univ,A3,aOn_univ] using h
+    (by simpa using! hn) (by simpa only [aOn_univ] using! ha0)
+    (by simpa only [aOn_univ] using! ha2)
+  simpa only [delta3On,delta3,Finset.card_univ,A3,aOn_univ] using! h
 
 #print axioms general_bad_card_le_nine
 #print axioms pairClass_deficit_transfer

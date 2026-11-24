@@ -4,6 +4,7 @@ public import HereditaryPairBound
 public import UnorderedPairCount
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 namespace NeutralCore
 open ConditionalUL

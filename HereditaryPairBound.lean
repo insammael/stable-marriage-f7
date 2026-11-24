@@ -4,6 +4,7 @@ public import SparseFivePointBound
 public import GoodExtremum
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 namespace NeutralCore
 open ConditionalUL
@@ -55,7 +56,7 @@ theorem pairClass_unordered_pair_bound (hClass : PairClass (V := V))
 theorem pairClass_deficit_nonnegative (hClass : PairClass (V := V))
     (hn : 5≤Fintype.card V) : 0≤a (V := V) := by
   have h := pairClass_unordered_pair_bound hClass (Finset.univ : Finset V)
-    (by simpa using hn)
+    (by simpa using! hn)
   simp only [Finset.card_univ] at h
   unfold a A2
   omega

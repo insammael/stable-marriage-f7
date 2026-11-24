@@ -3,6 +3,7 @@ module
 public import ActualOverlapGraph
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 namespace NeutralCore.ActualOverlap
 open ConditionalUL
@@ -118,9 +119,9 @@ theorem cross_no_reverse {P : Finset V} (C D : (graph P).ConnectedComponent)
   let A := R.val.filter (fun r => r≤a ∨ a≤r)
   let B := R.val.filter (fun r => r≤a' ∨ a'≤r)
   have hcA : 2≤A.card := by
-    simpa [A,or_comm] using outside_comparable_card D hRD (hsubC ha) haD
+    simpa [A,or_comm] using! outside_comparable_card D hRD (hsubC ha) haD
   have hcB : 2≤B.card := by
-    simpa [B,or_comm] using outside_comparable_card D hRD (hsubC ha') ha'D
+    simpa [B,or_comm] using! outside_comparable_card D hRD (hsubC ha') ha'D
   obtain ⟨r,hr⟩ := two_large_subsets_meet
     ((mem_triples_on P R.val).mp R.property).2.1
     (Finset.filter_subset _ _) (Finset.filter_subset _ _) hcA hcB

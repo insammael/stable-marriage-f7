@@ -1,0 +1,49 @@
+module
+
+public import R21D2ProjectedCache072Part00
+public import R21D2ProjectedCache072Part01
+public import R21D2ProjectedCache072Part02
+public import R21D2ProjectedCache072Part03
+public import R21D2ProjectedCache072Part04
+public import R21D2ProjectedCache072Part05
+public import R21D2ProjectedCache072Part06
+public import R21D2ProjectedCache072Part07
+
+@[expose] public section
+set_option backward.isDefEq.respectTransparency false
+namespace F7Manuscript.R21NormalEndpoint.Projection.Snapshots.PhysicalD2.Projected
+theorem projected072_ok : projectionOKBy d6 projected072 projected072_calc=true := by
+ have node_llll := projectionOKBy_of_children projected072_head_llll projected072_leaf_lllll projected072_leaf_llllr
+ have node_lllr := projectionOKBy_of_children projected072_head_lllr projected072_leaf_lllrl projected072_leaf_lllrr
+ have node_llrl := projectionOKBy_of_children projected072_head_llrl projected072_leaf_llrll projected072_leaf_llrlr
+ have node_llrr := projectionOKBy_of_children projected072_head_llrr projected072_leaf_llrrl projected072_leaf_llrrr
+ have node_lrll := projectionOKBy_of_children projected072_head_lrll projected072_leaf_lrlll projected072_leaf_lrllr
+ have node_lrlr := projectionOKBy_of_children projected072_head_lrlr projected072_leaf_lrlrl projected072_leaf_lrlrr
+ have node_lrrl := projectionOKBy_of_children projected072_head_lrrl projected072_leaf_lrrll projected072_leaf_lrrlr
+ have node_lrrr := projectionOKBy_of_children projected072_head_lrrr projected072_leaf_lrrrl projected072_leaf_lrrrr
+ have node_rlll := projectionOKBy_of_children projected072_head_rlll projected072_leaf_rllll projected072_leaf_rlllr
+ have node_rllr := projectionOKBy_of_children projected072_head_rllr projected072_leaf_rllrl projected072_leaf_rllrr
+ have node_rlrl := projectionOKBy_of_children projected072_head_rlrl projected072_leaf_rlrll projected072_leaf_rlrlr
+ have node_rlrr := projectionOKBy_of_children projected072_head_rlrr projected072_leaf_rlrrl projected072_leaf_rlrrr
+ have node_rrll := projectionOKBy_of_children projected072_head_rrll projected072_leaf_rrlll projected072_leaf_rrllr
+ have node_rrlr := projectionOKBy_of_children projected072_head_rrlr projected072_leaf_rrlrl projected072_leaf_rrlrr
+ have node_rrrl := projectionOKBy_of_children projected072_head_rrrl projected072_leaf_rrrll projected072_leaf_rrrlr
+ have node_rrrr := projectionOKBy_of_children projected072_head_rrrr projected072_leaf_rrrrl projected072_leaf_rrrrr
+ have node_lll := projectionOKBy_of_children projected072_head_lll node_llll node_lllr
+ have node_llr := projectionOKBy_of_children projected072_head_llr node_llrl node_llrr
+ have node_lrl := projectionOKBy_of_children projected072_head_lrl node_lrll node_lrlr
+ have node_lrr := projectionOKBy_of_children projected072_head_lrr node_lrrl node_lrrr
+ have node_rll := projectionOKBy_of_children projected072_head_rll node_rlll node_rllr
+ have node_rlr := projectionOKBy_of_children projected072_head_rlr node_rlrl node_rlrr
+ have node_rrl := projectionOKBy_of_children projected072_head_rrl node_rrll node_rrlr
+ have node_rrr := projectionOKBy_of_children projected072_head_rrr node_rrrl node_rrrr
+ have node_ll := projectionOKBy_of_children projected072_head_ll node_lll node_llr
+ have node_lr := projectionOKBy_of_children projected072_head_lr node_lrl node_lrr
+ have node_rl := projectionOKBy_of_children projected072_head_rl node_rll node_rlr
+ have node_rr := projectionOKBy_of_children projected072_head_rr node_rrl node_rrr
+ have node_l := projectionOKBy_of_children projected072_head_l node_ll node_lr
+ have node_r := projectionOKBy_of_children projected072_head_r node_rl node_rr
+ have node_root := projectionOKBy_of_children projected072_head_root node_l node_r
+ exact node_root
+theorem projected072_correct : ProjectionCorrect d6 projected072 816023225622376611882463278181011971234078566048495548006528 := projection_correct_by_of_check projected072_calc_correct projected072_ok
+end F7Manuscript.R21NormalEndpoint.Projection.Snapshots.PhysicalD2.Projected

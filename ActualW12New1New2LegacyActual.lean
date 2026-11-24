@@ -1,0 +1,74 @@
+module
+
+public import ActualW12New1New2ReturnEntry
+public import ActualW12LegacyAnyReturnOrientedSource
+
+@[expose] public section
+set_option backward.isDefEq.respectTransparency false
+
+#eval IO.eprintln "W12 NEW1/NEW2 legacy actual imports_ready"
+
+set_option autoImplicit false
+
+namespace F7Manuscript.ActualW12New1New2LegacyActual
+noncomputable section
+
+open ConditionalUL NeutralCore StableLattice StableIdeals IncomparabilityComponents
+open NormalSkeleton NormalSkeleton.Chart
+open F7Local F6SmallBlockTokenCapacity
+open F7Manuscript.ReturnCertificate F7Manuscript.MixedPlanDefinition
+open F7Manuscript.MixedPlanRealization F7Manuscript.TripleCoordinateLattice
+open F7Manuscript.NormalOutsiderCoverage F7Manuscript.ConvexWindows
+open F7Manuscript.ActualW10OldReturnRootPilot
+open F7Manuscript.ActualW12New1New2ReturnEntry
+open F7Manuscript.ActualW12LegacyAnyReturnAllCuts
+open F7Manuscript.ActualW12LegacyAnyReturnOrientedSource
+open scoped Classical
+
+variable {I : Profile 7} [Nonempty (StableMatching I)]
+local instance new12LegacyEventDecEq : DecidableEq (Event I) := Classical.decEq _
+local instance new12LegacyEventDecLe : DecidableLE (Event I) := Classical.decRel _
+
+theorem new1_color_facts : ReturnRootColorFacts new1_return_entry := by
+  rcases new1_metadata with ⟨hn2, h0, h1, hvalid, hadj, _, hD0⟩
+  exact ⟨hn2, h0, h1, hvalid, hadj, hD0⟩
+
+theorem new2_color_facts : ReturnRootColorFacts new2_return_entry := by
+  rcases new2_metadata with ⟨hn2, h0, h1, hvalid, hadj, _, hD0⟩
+  exact ⟨hn2, h0, h1, hvalid, hadj, hD0⟩
+
+/-- NEW1 is excluded for every oriented cut of this fixed actual X. -/
+theorem actual_X_new1_all_oriented_cuts_false
+    (C : Partition (V := Event I)) [Nonempty (Triple C)]
+    (hn : Fintype.card (Event I) = 21) (hδ : delta3 (V := Event I) ≤ 5)
+    (h221 : NoInduced221 (V := Event I)) (h311 : NoInduced311 (V := Event I))
+    (hG : (isolatedDouble C).card = 0) (hT : (byLabel C 3).card = 0)
+    (X : ActualNormalOutsiderRawShape C h221 h311 hG hT
+      (normalCoreSkeleton C h221 h311 hG hT))
+    (dual : Bool) (j : Nat)
+    (hfit : AnyReturnRootOrientedFitAt (X := X) new1_return_entry dual j) : False := by
+  exact actual_X_any_return_root_oriented_source_false C hn hδ h221 h311 hG hT X
+    new1_return_entry new1_color_facts dual j hfit
+
+/-- NEW2 is excluded for every oriented cut of this fixed actual X. -/
+theorem actual_X_new2_all_oriented_cuts_false
+    (C : Partition (V := Event I)) [Nonempty (Triple C)]
+    (hn : Fintype.card (Event I) = 21) (hδ : delta3 (V := Event I) ≤ 5)
+    (h221 : NoInduced221 (V := Event I)) (h311 : NoInduced311 (V := Event I))
+    (hG : (isolatedDouble C).card = 0) (hT : (byLabel C 3).card = 0)
+    (X : ActualNormalOutsiderRawShape C h221 h311 hG hT
+      (normalCoreSkeleton C h221 h311 hG hT))
+    (dual : Bool) (j : Nat)
+    (hfit : AnyReturnRootOrientedFitAt (X := X) new2_return_entry dual j) : False := by
+  exact actual_X_any_return_root_oriented_source_false C hn hδ h221 h311 hG hT X
+    new2_return_entry new2_color_facts dual j hfit
+
+#print axioms new1_color_facts
+#print axioms new2_color_facts
+#print axioms actual_X_new1_all_oriented_cuts_false
+#print axioms actual_X_new2_all_oriented_cuts_false
+
+#eval IO.eprintln "W12 NEW1/NEW2 legacy actual checked"
+
+end
+end F7Manuscript.ActualW12New1New2LegacyActual

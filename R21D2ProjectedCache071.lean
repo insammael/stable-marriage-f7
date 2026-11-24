@@ -1,0 +1,49 @@
+module
+
+public import R21D2ProjectedCache071Part00
+public import R21D2ProjectedCache071Part01
+public import R21D2ProjectedCache071Part02
+public import R21D2ProjectedCache071Part03
+public import R21D2ProjectedCache071Part04
+public import R21D2ProjectedCache071Part05
+public import R21D2ProjectedCache071Part06
+public import R21D2ProjectedCache071Part07
+
+@[expose] public section
+set_option backward.isDefEq.respectTransparency false
+namespace F7Manuscript.R21NormalEndpoint.Projection.Snapshots.PhysicalD2.Projected
+theorem projected071_ok : projectionOKBy d6 projected071 projected071_calc=true := by
+ have node_llll := projectionOKBy_of_children projected071_head_llll projected071_leaf_lllll projected071_leaf_llllr
+ have node_lllr := projectionOKBy_of_children projected071_head_lllr projected071_leaf_lllrl projected071_leaf_lllrr
+ have node_llrl := projectionOKBy_of_children projected071_head_llrl projected071_leaf_llrll projected071_leaf_llrlr
+ have node_llrr := projectionOKBy_of_children projected071_head_llrr projected071_leaf_llrrl projected071_leaf_llrrr
+ have node_lrll := projectionOKBy_of_children projected071_head_lrll projected071_leaf_lrlll projected071_leaf_lrllr
+ have node_lrlr := projectionOKBy_of_children projected071_head_lrlr projected071_leaf_lrlrl projected071_leaf_lrlrr
+ have node_lrrl := projectionOKBy_of_children projected071_head_lrrl projected071_leaf_lrrll projected071_leaf_lrrlr
+ have node_lrrr := projectionOKBy_of_children projected071_head_lrrr projected071_leaf_lrrrl projected071_leaf_lrrrr
+ have node_rlll := projectionOKBy_of_children projected071_head_rlll projected071_leaf_rllll projected071_leaf_rlllr
+ have node_rllr := projectionOKBy_of_children projected071_head_rllr projected071_leaf_rllrl projected071_leaf_rllrr
+ have node_rlrl := projectionOKBy_of_children projected071_head_rlrl projected071_leaf_rlrll projected071_leaf_rlrlr
+ have node_rlrr := projectionOKBy_of_children projected071_head_rlrr projected071_leaf_rlrrl projected071_leaf_rlrrr
+ have node_rrll := projectionOKBy_of_children projected071_head_rrll projected071_leaf_rrlll projected071_leaf_rrllr
+ have node_rrlr := projectionOKBy_of_children projected071_head_rrlr projected071_leaf_rrlrl projected071_leaf_rrlrr
+ have node_rrrl := projectionOKBy_of_children projected071_head_rrrl projected071_leaf_rrrll projected071_leaf_rrrlr
+ have node_rrrr := projectionOKBy_of_children projected071_head_rrrr projected071_leaf_rrrrl projected071_leaf_rrrrr
+ have node_lll := projectionOKBy_of_children projected071_head_lll node_llll node_lllr
+ have node_llr := projectionOKBy_of_children projected071_head_llr node_llrl node_llrr
+ have node_lrl := projectionOKBy_of_children projected071_head_lrl node_lrll node_lrlr
+ have node_lrr := projectionOKBy_of_children projected071_head_lrr node_lrrl node_lrrr
+ have node_rll := projectionOKBy_of_children projected071_head_rll node_rlll node_rllr
+ have node_rlr := projectionOKBy_of_children projected071_head_rlr node_rlrl node_rlrr
+ have node_rrl := projectionOKBy_of_children projected071_head_rrl node_rrll node_rrlr
+ have node_rrr := projectionOKBy_of_children projected071_head_rrr node_rrrl node_rrrr
+ have node_ll := projectionOKBy_of_children projected071_head_ll node_lll node_llr
+ have node_lr := projectionOKBy_of_children projected071_head_lr node_lrl node_lrr
+ have node_rl := projectionOKBy_of_children projected071_head_rl node_rll node_rlr
+ have node_rr := projectionOKBy_of_children projected071_head_rr node_rrl node_rrr
+ have node_l := projectionOKBy_of_children projected071_head_l node_ll node_lr
+ have node_r := projectionOKBy_of_children projected071_head_r node_rl node_rr
+ have node_root := projectionOKBy_of_children projected071_head_root node_l node_r
+ exact node_root
+theorem projected071_correct : ProjectionCorrect d6 projected071 9218918488021362663561931335202892145222875770485997568 := projection_correct_by_of_check projected071_calc_correct projected071_ok
+end F7Manuscript.R21NormalEndpoint.Projection.Snapshots.PhysicalD2.Projected

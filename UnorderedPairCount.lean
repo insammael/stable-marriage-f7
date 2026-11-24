@@ -3,6 +3,7 @@ module
 public import PairParity
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 namespace NeutralCore
 
@@ -29,14 +30,14 @@ theorem unordered_pair_count (P : Finset V) :
       apply Finset.mem_filter.mpr
       refine ⟨Finset.mem_powerset.mpr ?_,?_,?_⟩
       · intro x hx
-        have hx' : x=p.1 ∨ x=p.2 := by simpa using hx
+        have hx' : x=p.1 ∨ x=p.2 := by simpa using! hx
         rcases hx' with hx | hx
         · exact hx ▸ hp'.1
         · exact hx ▸ hp'.2.1
       · simp [inc_ne hp'.2.2]
       · intro x hx y hy hne
-        have hx' : x=p.1 ∨ x=p.2 := by simpa using hx
-        have hy' : y=p.1 ∨ y=p.2 := by simpa using hy
+        have hx' : x=p.1 ∨ x=p.2 := by simpa using! hx
+        have hy' : y=p.1 ∨ y=p.2 := by simpa using! hy
         rcases hx' with rfl | rfl <;> rcases hy' with rfl | rfl
         · exact (hne rfl).elim
         · exact hp'.2.2
@@ -47,10 +48,10 @@ theorem unordered_pair_count (P : Finset V) :
       have hNe : p.1≠p.2 := inc_ne hpI
       have h1 : p.1=q.1 ∨ p.1=q.2 := by
         have hm : p.1∈({q.1,q.2} : Finset V) := hEq ▸ (by simp : p.1∈({p.1,p.2} : Finset V))
-        simpa using hm
+        simpa using! hm
       have h2 : p.2=q.1 ∨ p.2=q.2 := by
         have hm : p.2∈({q.1,q.2} : Finset V) := hEq ▸ (by simp : p.2∈({p.1,p.2} : Finset V))
-        simpa using hm
+        simpa using! hm
       rcases h1 with h11 | h12
       · rcases h2 with h21 | h22
         · exact (hNe (h11.trans h21.symm)).elim

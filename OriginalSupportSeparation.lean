@@ -4,6 +4,7 @@ public import TerminalSupportSeparation
 public import ComponentDirection
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 namespace NeutralCore
 namespace ActualOverlap
@@ -11,8 +12,8 @@ open ConditionalUL Peeling
 variable {V : Type*} [Fintype V] [PartialOrder V] [DecidableEq V] [DecidableLE V]
 
 noncomputable def orderDualIso (P : Finset V) : graph (V:=OrderDual V) P ≃g graph (V:=V) P where
-  toFun T := ⟨T.val,by simpa only [triples_orderDual] using T.property⟩
-  invFun T := ⟨T.val,by simpa only [triples_orderDual] using T.property⟩
+  toFun T := ⟨T.val,by simpa only [triples_orderDual] using! T.property⟩
+  invFun T := ⟨T.val,by simpa only [triples_orderDual] using! T.property⟩
   left_inv := by intro T; rfl
   right_inv := by intro T; rfl
   map_rel_iff' := by intro T R; rfl
@@ -27,7 +28,7 @@ theorem support_orderDual_iso (P : Finset V) (C : (graph (V:=OrderDual V) P).Con
   · rintro ⟨T,hT,hx⟩
     refine ⟨I.symm T,?_,hx⟩
     apply I.connectedComponentEquiv.injective
-    simpa [SimpleGraph.Iso.connectedComponentEquiv] using hT
+    simpa [SimpleGraph.Iso.connectedComponentEquiv] using! hT
   · rintro ⟨T,hT,hx⟩
     refine ⟨I T,?_,hx⟩
     rw [←hT]
@@ -45,7 +46,7 @@ theorem separatedOn_orderDual (P : Finset V) :
     change support P (E (E.symm C))=_ at hc
     change support P (E (E.symm D))=_ at hd
     rw [←hc,←hd] at hSep
-    simpa only [E.apply_symm_apply] using hSep
+    simpa only [E.apply_symm_apply] using! hSep
   · intro h C D hCD
     have hSep := h (E C) (E D) (fun heq => hCD (E.injective heq))
     rw [support_orderDual_iso P C,support_orderDual_iso P D] at hSep

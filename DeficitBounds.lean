@@ -4,6 +4,7 @@ public import SmallSeedCertificates
 public import MatrixPresentation
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 namespace NeutralCore
 open ConditionalUL SmallSeed
@@ -14,9 +15,9 @@ theorem five_bad_deficit_bounds (hClass : PairClass (V:=V)) (P : Finset V)
   let E := presentation P hc
   obtain ⟨_,ha0,ha2,hD⟩ := hP
   have h := five_seed_certificate E.edges (Finset.mem_powerset.mpr E.upper)
-    (by simpa [E.aval] using ha0) (by simpa [E.aval] using ha2)
-    (by simpa [E.dval] using hD) (E.valid hClass)
-  simpa [E.aval,E.dval] using And.intro h.1 h.2.1
+    (by simpa [E.aval] using! ha0) (by simpa [E.aval] using! ha2)
+    (by simpa [E.dval] using! hD) (E.valid hClass)
+  simpa [E.aval,E.dval] using! And.intro h.1 h.2.1
 
 /-- F3 for arbitrarily large induced subsets. The only finite certificate
 is the five-point base; no upper cardinality premise is present. -/
@@ -52,17 +53,17 @@ theorem five_zero_seed (hClass : PairClass (V:=V)) (P : Finset V)
     (E : Presentation P 5) : E.edges∈zeroSeeds := by
   obtain ⟨_,ha0,ha2,hD⟩ := hP
   have h := five_seed_certificate E.edges (Finset.mem_powerset.mpr E.upper)
-    (by simpa [E.aval] using ha0) (by simpa [E.aval] using ha2)
-    (by simpa [E.dval] using hD) (E.valid hClass)
-  exact h.2.2.1 (by simpa [E.aval] using ha)
+    (by simpa [E.aval] using! ha0) (by simpa [E.aval] using! ha2)
+    (by simpa [E.dval] using! hD) (E.valid hClass)
+  exact h.2.2.1 (by simpa [E.aval] using! ha)
 
 theorem five_two_seed (hClass : PairClass (V:=V)) (P : Finset V)
     (hP : BadOn P) (hD : DOn P=2) (E : Presentation P 5) : E.edges∈twoSeeds := by
   obtain ⟨_,ha0,ha2,hDpos⟩ := hP
   have h := five_seed_certificate E.edges (Finset.mem_powerset.mpr E.upper)
-    (by simpa [E.aval] using ha0) (by simpa [E.aval] using ha2)
-    (by simpa [E.dval] using hDpos) (E.valid hClass)
-  exact h.2.2.2 (by simpa [E.dval] using hD)
+    (by simpa [E.aval] using! ha0) (by simpa [E.aval] using! ha2)
+    (by simpa [E.dval] using! hDpos) (E.valid hClass)
+  exact h.2.2.2 (by simpa [E.dval] using! hD)
 
 #print axioms bad_deficit_bounds
 #print axioms bad_R_bounds

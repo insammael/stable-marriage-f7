@@ -3,6 +3,7 @@ module
 public import PairDeletion
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 namespace NeutralCore
 open ConditionalUL
@@ -58,31 +59,31 @@ theorem boundary_neighbors_upper_bound {P : Finset V} (G : ThreeMaxBoundary P)
         intro l hli
         rcases hEx l with h | h | h
         · exact (hli h).elim
-        · simpa [h] using hvj
-        · simpa [h] using hvk
+        · simpa [h] using! hvj
+        · simpa [h] using! hvk
       · apply Finset.mem_union_left
         apply Finset.mem_union_left
         apply Finset.mem_filter.mpr
         refine ⟨hvP,single_upper_of_root_mask G j hvP hvj ?_⟩
         intro l hlj
         rcases hEx l with h | h | h
-        · simpa [h] using hvi.1
+        · simpa [h] using! hvi.1
         · exact (hlj h).elim
-        · simpa [h] using hvk
+        · simpa [h] using! hvk
     · have hvk : v≤G.root k := by
         obtain ⟨l,hvl⟩ := G.source v hvP
         rcases hEx l with h | h | h
-        · exact (hvi.1 (by simpa [h] using hvl)).elim
-        · exact (hvj (by simpa [h] using hvl)).elim
-        · simpa [h] using hvl
+        · exact (hvi.1 (by simpa [h] using! hvl)).elim
+        · exact (hvj (by simpa [h] using! hvl)).elim
+        · simpa [h] using! hvl
       apply Finset.mem_union_left
       apply Finset.mem_union_right
       apply Finset.mem_filter.mpr
       refine ⟨hvP,single_upper_of_root_mask G k hvP hvk ?_⟩
       intro l hlk
       rcases hEx l with h | h | h
-      · simpa [h] using hvi.1
-      · simpa [h] using hvj
+      · simpa [h] using! hvi.1
+      · simpa [h] using! hvj
       · exact (hlk h).elim
   have h1 := Finset.card_le_card hSub
   have h2 := Finset.card_union_le (upperFiber P (G.root j)) (upperFiber P (G.root k))
@@ -220,11 +221,11 @@ theorem three_boundary_low_degree {P : Finset V} (G : ThreeMaxBoundary P)
   | some i =>
     obtain ⟨j,k,hij,hik,hjk⟩ := fin3_complement_pair i
     have hFi : (upperFiber P (G.root i)).card≤2 := by
-      simpa [fiberFlag] using hCap i
+      simpa [fiberFlag] using! hCap i
     have hFj : (upperFiber P (G.root j)).card≤1 := by
-      simpa [fiberFlag,hij] using hCap j
+      simpa [fiberFlag,hij] using! hCap j
     have hFk : (upperFiber P (G.root k)).card≤1 := by
-      simpa [fiberFlag,hik] using hCap k
+      simpa [fiberFlag,hik] using! hCap k
     have hNi := boundary_neighbors_upper_bound G i j k hij hik hjk
     have hNj := boundary_neighbors_upper_bound G j i k hij.symm hjk hik
     have hNk := boundary_neighbors_upper_bound G k i j hik.symm hjk.symm hij

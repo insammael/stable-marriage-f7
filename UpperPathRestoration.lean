@@ -3,6 +3,7 @@ module
 public import DualPathCover
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 namespace NeutralCore.PathExtraction
 open ConditionalUL ActualOverlap Peeling
@@ -51,7 +52,7 @@ noncomputable def restoreUpper (P : Finset V) (p : V) (d z : Triple P)
   have hEnd : (H.path (E C0)).triangles (H.path (E C0)).last=z.val := by
     obtain ⟨j,hj⟩ := H.exhaustive zq
     have hjLast := H.end_of_maxima ((graph (P.erase p)).connectedComponentMk zq)
-      (j:=j) (by simpa only [hj] using hMax)
+      (j:=j) (by simpa only [hj] using! hMax)
     rw [hC0,←hjLast]
     exact hj
   have hOld : ∀i,i≤(H.path (E C0)).last → ∀x,
@@ -60,13 +61,13 @@ noncomputable def restoreUpper (P : Finset V) (p : V) (d z : Triple P)
     intro i hi x hx hxd
     have hxQ := ((mem_triples_on (P.erase p) _).mp (H.mem (E C0) i hi)).1 hx
     rw [hEnd]
-    exact hRetain (Finset.mem_sdiff.mpr ⟨hxd,by simpa using (Finset.mem_erase.mp hxQ).1⟩)
+    exact hRetain (Finset.mem_sdiff.mpr ⟨hxd,by simpa using! (Finset.mem_erase.mp hxQ).1⟩)
   let added := (H.path (E C0)).append d.val
     ((mem_triples_on P _).mp d.property).2.1
     ((mem_triples_on P _).mp d.property).2.2
     (by rw [hEnd,Finset.inter_comm]; exact hAdj)
-    (by simpa only [hEnd] using hUp)
-    (by simpa only [hEnd] using hDown) hOld
+    (by simpa only [hEnd] using! hUp)
+    (by simpa only [hEnd] using! hDown) hOld
   let newPath : (graph P).ConnectedComponent → IntervalPath V :=
     fun C => if C=C0 then added else H.path (E C)
   have hOldMem : ∀C i (hi : i≤(H.path (E C)).last),
@@ -105,10 +106,10 @@ noncomputable def restoreUpper (P : Finset V) (p : V) (d z : Triple P)
         simp only [newPath,if_neg hn] at hi
         omega
       subst C
-      simpa [newPath,added,IntervalPath.append,h] using d.property
+      simpa [newPath,added,IntervalPath.append,h] using! d.property
   · intro C i hi
     by_cases h : i≤(H.path (E C)).last
-    · simpa only [hOldPath C i h] using hOldComp C i h
+    · simpa only [hOldPath C i h] using! hOldComp C i h
     · have hC : C=C0 := by
         by_contra hn
         simp only [newPath,if_neg hn] at hi
@@ -123,8 +124,8 @@ noncomputable def restoreUpper (P : Finset V) (p : V) (d z : Triple P)
     change (newPath C).triangles i=(newPath C).triangles k at hik
     by_cases hC : C=C0
     · subst C
-      have hil : i.val≤(H.path (E C0)).last+1 := by simpa [newPath,added,IntervalPath.append] using i.isLt
-      have hkl : k.val≤(H.path (E C0)).last+1 := by simpa [newPath,added,IntervalPath.append] using k.isLt
+      have hil : i.val≤(H.path (E C0)).last+1 := by simpa [newPath,added,IntervalPath.append] using! i.isLt
+      have hkl : k.val≤(H.path (E C0)).last+1 := by simpa [newPath,added,IntervalPath.append] using! k.isLt
       by_cases hi : i.val≤(H.path (E C0)).last <;>
         by_cases hk : k.val≤(H.path (E C0)).last
       · rw [hOldPath C0 i hi,hOldPath C0 k hk] at hik
@@ -136,18 +137,18 @@ noncomputable def restoreUpper (P : Finset V) (p : V) (d z : Triple P)
           rw [hOldPath C0 i hi]
           exact ((triples_erase_iff P p _).mp (H.mem (E C0) i hi)).2
         have hpnew : p∈(newPath C0).triangles k := by
-          simpa [newPath,added,IntervalPath.append,hk] using hp
+          simpa [newPath,added,IntervalPath.append,hk] using! hp
         exact (hpold (hik.symm ▸ hpnew)).elim
       · have hpold : p∉(newPath C0).triangles k := by
           rw [hOldPath C0 k hk]
           exact ((triples_erase_iff P p _).mp (H.mem (E C0) k hk)).2
         have hpnew : p∈(newPath C0).triangles i := by
-          simpa [newPath,added,IntervalPath.append,hi] using hp
+          simpa [newPath,added,IntervalPath.append,hi] using! hp
         exact (hpold (hik ▸ hpnew)).elim
       · apply Fin.ext; omega
-    · have heq : (⟨i.val,by simpa [newPath,hC] using i.isLt⟩ : Fin ((H.path (E C)).last+1))=
-          ⟨k.val,by simpa [newPath,hC] using k.isLt⟩ :=
-        H.injective (E C) (by simpa [newPath,hC] using hik)
+    · have heq : (⟨i.val,by simpa [newPath,hC] using! i.isLt⟩ : Fin ((H.path (E C)).last+1))=
+          ⟨k.val,by simpa [newPath,hC] using! k.isLt⟩ :=
+        H.injective (E C) (by simpa [newPath,hC] using! hik)
       have hv : i.val=k.val := congrArg (fun j : Fin ((H.path (E C)).last+1) => j.val) heq
       exact Fin.ext hv
   · intro T

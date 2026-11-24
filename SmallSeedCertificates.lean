@@ -3,6 +3,7 @@ module
 public import SmallSeedShapes
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 set_option maxRecDepth 100000
 set_option maxHeartbeats 0
 set_option synthInstance.maxSize 4096

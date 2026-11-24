@@ -3,6 +3,7 @@ module
 public import ULActualInterface
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 /-!
 L with actual finite-poset interface geometry. Only independent path-ledger
@@ -43,9 +44,9 @@ theorem boundary_fibers_singleton_at_three {A : Finset V}
       by_contra hne
       exact (G.anti j i hne).1 hcomp
     apply Finset.mem_singleton.mpr
-    simpa only [hji] using hjv.symm
+    simpa only [hji] using! hjv.symm
   have hcard := Finset.card_le_card hSub
-  simpa using hcard
+  simpa using! hcard
 
 theorem boundary_flag_zero_at_three {A : Finset V} (G : ThreeMaxBoundary A)
     (flag : Option (Fin 3)) (hA : A.card=3)

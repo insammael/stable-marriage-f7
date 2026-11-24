@@ -4,6 +4,7 @@ public import ExtremalPathCover
 public import OneInputClassification
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 namespace NeutralCore
 open ConditionalUL ActualOverlap PathExtraction

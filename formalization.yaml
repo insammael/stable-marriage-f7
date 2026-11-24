@@ -1,17 +1,13 @@
 version: v0.4
 
 project:
-  name: "Order-seven stable matchings: lower bound 85 and supporting poset certificates"
+  name: "Order-seven stable matchings: f(7) = 85"
   description: >-
-    A companion formalization of Myunglae Jo's R2 stable-marriage preprint.
-    The selected results prove the unconditional actual-profile lower bound
-    f(7) >= 85 and the 85-ideal count of the displayed twenty-event order,
-    with its order identified as successive-participation closure. They also
-    prove finite-poset pair and deficit bounds under explicit forbidden-pattern
-    hypotheses, ideal-antichain counting and selected size-dependent ideal
-    bounds, fixed-token run capacities and seven-site saturation. The universal
-    actual-profile upper bound is not assembled in Lean; no unconditional
-    end-to-end Lean proof of f(7)=85 is claimed.
+    A Lean 4 proof that the maximum number of stable perfect matchings of a
+    strict complete 7-by-7 stable-marriage instance is 85. The compared
+    theorem F7Manuscript.f7_eq_85 : f 7 = 85 has no hypotheses. Every finite
+    case of the upper bound is a kernel-checked proof, with no custom axioms
+    and no native execution.
   authors: ["Myunglae Jo"]
   responsible_maintainers: ["Myunglae Jo"]
   license: CC-BY-4.0
@@ -30,11 +26,12 @@ sources:
     license: CC-BY-4.0
     author_endorsement: participated
     note: >-
-      R2, 13 October 2026. This repository adapts the existing companion
-      formalization to the submitted toolchain and module system. The
-      compared lower bound, fixed construction and abstract supporting
-      claims are specified in Challenge.lean. The full manuscript upper
-      proof retains human and computational connections not assembled here.
+      R2, 13 October 2026. The registered theorem is the main theorem of R2.
+      The Lean development starts from the R2 Lean companion and extends it
+      with a later development (November 2026) that connects the actual
+      upper-bound layers and replaces R2's separately certified finite
+      checks by kernel-checked proofs. It formalizes the theorem, not the
+      R2 text line by line.
   - title: "Small Rotation Blocks and the Order-Six Stable Marriage Problem"
     authors: ["Myunglae Jo"]
     type: paper
@@ -42,72 +39,83 @@ sources:
     location: "https://zenodo.org/records/22909380"
     author_endorsement: participated
     note: >-
-      The predecessor fixed-token and convex-block mathematics is background
-      to the token-capacity results. The identified version 09 manuscript
-      and supplement are preserved in supplementary note S19 of the R2
-      order-seven distribution.
+      The predecessor work proves f(6)=48. Its fixed-token and convex-block
+      mathematics is background to the token-capacity results. The
+      identified version 09 manuscript and supplement are preserved in
+      supplementary note S19 of the R2 order-seven distribution.
   - title: "College admissions and the stability of marriage"
     authors: ["David Gale", "Lloyd S. Shapley"]
     id: "doi:10.1080/00029890.1962.11989827"
     type: paper
     relationship: background
     author_endorsement: not-contacted
-    note: "American Mathematical Monthly 69 (1962), 9–15; the ordinary stability model, not the claimed order-seven bound."
+    note: "American Mathematical Monthly 69 (1962), 9–15; the ordinary stability model."
   - title: "An efficient algorithm for the optimal stable marriage"
     authors: ["Robert W. Irving", "Paul Leather", "Dan Gusfield"]
     id: "doi:10.1145/28869.28871"
     type: paper
     relationship: background
     author_endorsement: not-contacted
-    note: "Journal of the ACM 34 (1987), 532–543; rotation-poset context. The actual-profile rotation-ideal correspondence is not formalized by this submission."
+    note: >-
+      Journal of the ACM 34 (1987), 532–543; rotation-poset context. The
+      development does not assume the rotation correspondence: it proves
+      the distributive-lattice structure of stable matchings for the
+      defined profiles and counts them as lower sets of join-irreducibles
+      through Mathlib's Birkhoff representation.
 
 related_formalizations:
   - id: "https://zenodo.org/records/23329599"
     relationship: adapts
-    note: "The source-only R2 Lean companion is the direct source; its published bytes remain unchanged."
+    note: >-
+      The R2 Lean companion is the starting point. The registered
+      development extends it and is not contained in the R2 release, whose
+      published bytes remain unchanged.
   - id: "PALOMAR-2026-09-20-000010"
     relationship: other
-    note: "The author's separate order-six finite-poset registration is prior context, not evidence of a formal order-seven universal upper bound."
+    note: "The author's separate order-six finite-poset registration is prior context, not a dependency."
 
 status:
   scope: >-
-    The 34 declarations selected by comparator.json are the registration
-    claims. Actual lower85 and the fixed event-poset count are unconditional.
-    Poset and token-run results have their displayed hypotheses.
-    The size21/delta3=6 ideal bound assumes equality exclusion. Additional
-    modules provide supporting results but are not individually compared.
-    The full actual-profile upper85 and hence unconditional f(7)=85 are
-    not assembled in Lean.
+    The single declaration selected by comparator.json,
+    F7Manuscript.f7_eq_85 : f 7 = 85, is the registration claim. It has no
+    hypotheses. The proof library has 7,819 modules (7,791 source modules
+    and 28 parts of five files split below 10,000 lines).
   sorry_count: 0
   sorry_in_definitions: 0
   axioms: [propext, Quot.sound, Classical.choice]
-  notes: "Counts concern Solution and the proof development; Challenge contains deliberate theorem statement holes. All mathematical definition values are specified."
+  notes: "Counts concern Solution and the proof development; Challenge contains one deliberate theorem statement hole. All mathematical definition values are specified. The proof library contains no native_decide."
 
 automation:
   methods:
     - method: agent
       models: []
       framework: "OpenAI Codex"
-      tool_setup: "Material AI assistance in proof-source development, checking, and the Palomar module/toolchain adaptation; exact historical model identifiers not reconstructed."
+    - method: agent
+      models: []
+      framework: "Claude Code"
     - method: manual
       models: []
-      tool_setup: "Human research direction, review of the manuscript and release decisions by the responsible author."
-  notes: "No reconstruction of historical prompt logs, spend, or person-hours is claimed. AI assistance is credited as production assistance, not human authorship."
+      tool_setup: "Human research direction, review and release decisions by the responsible author."
+  notes: "AI assistance is credited as production assistance, not human authorship."
 
 fidelity:
   divergences: >-
-    This registration covers a companion subset, not the full f(7)=85
-    manuscript conclusion. Semantic extraction of actual rotations and
-    charts, the general triple ledger, equality exclusion, and complete
-    actual finite-cover embeddings remain formal gaps. Conditional premises
-    are retained, not replaced by axiom declarations or opaque certificates.
+    Port changes are elaboration-level: module headers and public imports,
+    legacy elaboration options (backward.isDefEq.respectTransparency false,
+    backward.privateInPublic, one backward.proofsInPublic), simpa using! for
+    the previous simpa closing behaviour, -failIfUnchanged on simp/dsimp,
+    local instance alignments, and splitting five files above 10,000 lines.
+    Seven legacy registry modules were adapted to a strengthened certificate
+    type (BoundedValid, which implies Valid). Eight declarations that used
+    native_decide and are not used by f7_eq_85 were removed, together with
+    one module that held only such a declaration. Theorem statements and
+    the definitions of f are unchanged.
 
 review:
   status: agent-reviewed
-  notes: "Prior agent-assisted statement and reproduction checks; no independent human peer review is claimed. Palomar's automated editorial review is separate."
+  notes: "Agent-assisted development, port and local from-scratch build checks; no independent human peer review is claimed. Palomar's automated editorial review is separate."
 
 alignment:
-  namespace: "F7Manuscript; NeutralCore; ConditionalUL; F6SmallBlockTokenCapacity"
-  notes: "README.md gives the mathematical account and known boundaries for every selected result family; Challenge.lean and comparator.json specify the exact declarations."
+  namespace: "F7Manuscript"
+  notes: "README.md gives the mathematical account; Challenge.lean and comparator.json specify the exact declaration."
 
-acknowledgements: "Lean, Mathlib, their contributors, and OpenAI Codex for material AI assistance."

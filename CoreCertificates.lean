@@ -3,6 +3,7 @@ module
 public import FinitePatternChecks
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 set_option maxRecDepth 8192
 set_option maxHeartbeats 0

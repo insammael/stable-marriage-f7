@@ -4,6 +4,7 @@ public import NeutralityRestoration
 public import ThreeMaximumFibers
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 namespace NeutralCore
 namespace Peeling

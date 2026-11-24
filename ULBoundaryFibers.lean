@@ -3,6 +3,9 @@ module
 public import ULPathSupportBudget
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
+set_option backward.privateInPublic true
+set_option backward.privateInPublic.warn false
 
 /-!
 Three-root boundary data for arbitrary finite supports. No neutrality is
@@ -68,7 +71,7 @@ theorem cross_pair_has_boundary_fibers {A B : Finset V}
   obtain ⟨i,hmi⟩ := GA.source m hm.1
   have himeq : GA.root i=m := hm.2 (GA.maximal i).1 hmi
   have hAroot : SingleUpper (A : Set V) (GA.root i) p.1 := by
-    simpa only [himeq] using hfiberA p.1 hp'.1 hp'.2.2
+    simpa only [himeq] using! hfiberA p.1 hp'.1 hp'.2.2
   have hdirD : CrossDirected (V := OrderDual V) (B : Set V) (A : Set V) := by
     intro b hb a ha
     exact hdir a ha b hb
@@ -87,7 +90,7 @@ theorem cross_pair_has_boundary_fibers {A B : Finset V}
   obtain ⟨j,hmj⟩ := GB.source m' hm'.1
   have hjmeq : GB.root j=m' := hm'.2 (GB.maximal j).1 hmj
   have hBroot : SingleUpper (V := OrderDual V) (B : Set V) (GB.root j) p.2 := by
-    simpa only [hjmeq] using hfiberB p.2 hp'.2.1 hIncD
+    simpa only [hjmeq] using! hfiberB p.2 hp'.2.1 hIncD
   exact ⟨i,j,hAroot,hBroot⟩
 
 theorem exists_cross_root_assignment {A B : Finset V}
@@ -110,7 +113,7 @@ theorem exists_cross_root_assignment {A B : Finset V}
   refine ⟨rho,?_⟩
   intro p hp
   have h := Classical.choose_spec (hex p hp)
-  simpa only [rho,dif_pos hp] using h
+  simpa only [rho,dif_pos hp] using! h
 
 #print axioms boundary_fiber_flag
 #print axioms cross_pair_has_boundary_fibers

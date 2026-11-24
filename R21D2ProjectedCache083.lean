@@ -1,0 +1,49 @@
+module
+
+public import R21D2ProjectedCache083Part00
+public import R21D2ProjectedCache083Part01
+public import R21D2ProjectedCache083Part02
+public import R21D2ProjectedCache083Part03
+public import R21D2ProjectedCache083Part04
+public import R21D2ProjectedCache083Part05
+public import R21D2ProjectedCache083Part06
+public import R21D2ProjectedCache083Part07
+
+@[expose] public section
+set_option backward.isDefEq.respectTransparency false
+namespace F7Manuscript.R21NormalEndpoint.Projection.Snapshots.PhysicalD2.Projected
+theorem projected083_ok : projectionOKBy d7 projected083 projected083_calc=true := by
+ have node_llll := projectionOKBy_of_children projected083_head_llll projected083_leaf_lllll projected083_leaf_llllr
+ have node_lllr := projectionOKBy_of_children projected083_head_lllr projected083_leaf_lllrl projected083_leaf_lllrr
+ have node_llrl := projectionOKBy_of_children projected083_head_llrl projected083_leaf_llrll projected083_leaf_llrlr
+ have node_llrr := projectionOKBy_of_children projected083_head_llrr projected083_leaf_llrrl projected083_leaf_llrrr
+ have node_lrll := projectionOKBy_of_children projected083_head_lrll projected083_leaf_lrlll projected083_leaf_lrllr
+ have node_lrlr := projectionOKBy_of_children projected083_head_lrlr projected083_leaf_lrlrl projected083_leaf_lrlrr
+ have node_lrrl := projectionOKBy_of_children projected083_head_lrrl projected083_leaf_lrrll projected083_leaf_lrrlr
+ have node_lrrr := projectionOKBy_of_children projected083_head_lrrr projected083_leaf_lrrrl projected083_leaf_lrrrr
+ have node_rlll := projectionOKBy_of_children projected083_head_rlll projected083_leaf_rllll projected083_leaf_rlllr
+ have node_rllr := projectionOKBy_of_children projected083_head_rllr projected083_leaf_rllrl projected083_leaf_rllrr
+ have node_rlrl := projectionOKBy_of_children projected083_head_rlrl projected083_leaf_rlrll projected083_leaf_rlrlr
+ have node_rlrr := projectionOKBy_of_children projected083_head_rlrr projected083_leaf_rlrrl projected083_leaf_rlrrr
+ have node_rrll := projectionOKBy_of_children projected083_head_rrll projected083_leaf_rrlll projected083_leaf_rrllr
+ have node_rrlr := projectionOKBy_of_children projected083_head_rrlr projected083_leaf_rrlrl projected083_leaf_rrlrr
+ have node_rrrl := projectionOKBy_of_children projected083_head_rrrl projected083_leaf_rrrll projected083_leaf_rrrlr
+ have node_rrrr := projectionOKBy_of_children projected083_head_rrrr projected083_leaf_rrrrl projected083_leaf_rrrrr
+ have node_lll := projectionOKBy_of_children projected083_head_lll node_llll node_lllr
+ have node_llr := projectionOKBy_of_children projected083_head_llr node_llrl node_llrr
+ have node_lrl := projectionOKBy_of_children projected083_head_lrl node_lrll node_lrlr
+ have node_lrr := projectionOKBy_of_children projected083_head_lrr node_lrrl node_lrrr
+ have node_rll := projectionOKBy_of_children projected083_head_rll node_rlll node_rllr
+ have node_rlr := projectionOKBy_of_children projected083_head_rlr node_rlrl node_rlrr
+ have node_rrl := projectionOKBy_of_children projected083_head_rrl node_rrll node_rrlr
+ have node_rrr := projectionOKBy_of_children projected083_head_rrr node_rrrl node_rrrr
+ have node_ll := projectionOKBy_of_children projected083_head_ll node_lll node_llr
+ have node_lr := projectionOKBy_of_children projected083_head_lr node_lrl node_lrr
+ have node_rl := projectionOKBy_of_children projected083_head_rl node_rll node_rlr
+ have node_rr := projectionOKBy_of_children projected083_head_rr node_rrl node_rrr
+ have node_l := projectionOKBy_of_children projected083_head_l node_ll node_lr
+ have node_r := projectionOKBy_of_children projected083_head_r node_rl node_rr
+ have node_root := projectionOKBy_of_children projected083_head_root node_l node_r
+ exact node_root
+theorem projected083_correct : ProjectionCorrect d7 projected083 261577481876862435865163828836592496796572920347394834440 := projection_correct_by_of_check projected083_calc_correct projected083_ok
+end F7Manuscript.R21NormalEndpoint.Projection.Snapshots.PhysicalD2.Projected

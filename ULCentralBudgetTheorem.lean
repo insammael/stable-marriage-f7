@@ -3,6 +3,7 @@ module
 public import ULCentralHalfBudget
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 /-!
 Central-outsider budget for arbitrary finite cuts, including all k=0,1
@@ -32,7 +33,7 @@ theorem self_edges_le_offDiag (Q : Finset V) :
     exact Finset.mem_offDiag.mpr ⟨hp'.1,hp'.2.1,
       fun heq => hp'.2.2.1 (le_of_eq heq)⟩
   have hcard := Finset.card_le_card hsub
-  simpa only [Finset.offDiag_card] using hcard
+  simpa only [Finset.offDiag_card] using! hcard
 
 theorem orderedPairBudget_coarse (hbudget : OrderedPairBudget (V := V))
     (Q : Finset V) (hQ : 3≤Q.card) :
@@ -77,7 +78,7 @@ theorem central_upper_half_one {B C : Finset V} {x : V}
     (orderedPairBudget_dual (V := V) hbudget) hB
     (fun c hc => inc_symm (V := V) (hC c hc))
     (chainOn_dual (V := V) hchain) hq hk
-  simpa only [crossEdges_dual (V := V)] using h
+  simpa only [crossEdges_dual (V := V)] using! h
 
 /-- With at least three points below and above a point in no triangle,
 its doubled pair deficit is at least six. All finite-set accounting,

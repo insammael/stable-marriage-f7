@@ -4,6 +4,7 @@ public import ULRawPathRemainder
 public import Mathlib.Data.Fintype.EquivFin
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 /-!
 Endpoint boundaries are constructed from unrestricted raw paths. The two
@@ -40,7 +41,7 @@ noncomputable def boundaryOfDominatingAntichain (A T : Finset V)
   · intro a ha
     obtain ⟨r,hr,har⟩ := hDom a ha
     refine ⟨e ⟨r,hr⟩,?_⟩
-    simpa only [root,Equiv.symm_apply_apply] using har
+    simpa only [root,Equiv.symm_apply_apply] using! har
 
 theorem raw_path_to_last (T : ℕ → Finset V) (s : ℕ)
     (hStep : ∀ j, j<s → ∀ a∈T j, ∃ b∈T (j+1), a≤b) :
@@ -48,7 +49,7 @@ theorem raw_path_to_last (T : ℕ → Finset V) (s : ℕ)
   induction s with
   | zero =>
     intro a ha
-    have ha0 : a∈T 0 := by simpa [rawSupport] using ha
+    have ha0 : a∈T 0 := by simpa [rawSupport] using! ha
     exact ⟨a,ha0,le_rfl⟩
   | succ s ih =>
     have hPrev := ih (fun j hj => hStep j (by omega))
@@ -68,7 +69,7 @@ theorem raw_path_from_first (T : ℕ → Finset V) (s : ℕ)
   induction s with
   | zero =>
     intro b hb
-    have hb0 : b∈T 0 := by simpa [rawSupport] using hb
+    have hb0 : b∈T 0 := by simpa [rawSupport] using! hb
     exact ⟨b,hb0,le_rfl⟩
   | succ s ih =>
     have hPrev := ih (fun j hj => hStep j (by omega))

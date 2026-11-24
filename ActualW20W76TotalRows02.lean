@@ -1,0 +1,18 @@
+module
+
+public import ActualW20W76TotalBudgetCoverage
+
+@[expose] public section
+
+set_option autoImplicit false
+
+namespace F7Manuscript.ActualW20W76TotalRows02
+open F7Manuscript.NormalOutsiderCoverage
+open F7Manuscript.ActualW20W76TotalBudgetCoverage
+
+theorem batch02_total_valid :
+    ∀ r ∈ coverRowsBatch02, CoverRowTotalValid r := by
+  decide +kernel
+
+#print axioms batch02_total_valid
+end F7Manuscript.ActualW20W76TotalRows02

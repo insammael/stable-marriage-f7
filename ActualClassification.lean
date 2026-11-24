@@ -4,6 +4,7 @@ public import CoordinateInterface
 public import ModelIsomorphism
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 namespace NeutralCore
 
@@ -61,7 +62,7 @@ noncomputable def coordinateModelIso {A B : Finset V}
     change index (R (R.symm q))=π.symm (index (R.symm q)) at h
     rw [R.apply_symm_apply] at h
     have hh := congrArg π h.symm
-    simpa only [Equiv.apply_symm_apply] using hh
+    simpa only [Equiv.apply_symm_apply] using! hh
   have hExtra : ∀ q, isExtra (R.symm q)=isExtra q := by
     intro q
     have h := extra_rename π.symm S.g (R.symm q)
@@ -83,7 +84,7 @@ noncomputable def coordinateModelIso {A B : Finset V}
     | inr q =>
       change (CA.equiv p).val≤(CB.equiv (R.symm q)).val ↔ modelLE _ _ (.inl p) (.inr q)
       have h := saturated_cross_order S CA CB hdir π hπ p (R.symm q)
-      simpa [modelLE,hIndex,hExtra] using h
+      simpa [modelLE,hIndex,hExtra] using! h
   | inr p =>
     cases q with
     | inl q =>

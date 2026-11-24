@@ -1,0 +1,26 @@
+module
+
+public import F7Manuscript.TOutsiderOrbitZ2Part0
+public import F7Manuscript.TOutsiderOrbitZ2Part1
+public import F7Manuscript.TOutsiderOrbitZ2Part2
+public import F7Manuscript.TOutsiderOrbitZ2Part3
+public import F7Manuscript.TOutsiderOrbitZ2Part4
+public import F7Manuscript.TOutsiderOrbitZ2Part5
+public import F7Manuscript.TOutsiderOrbitZ2Part6
+public import F7Manuscript.TOutsiderOrbitZ2Part7
+public import F7Manuscript.TOutsiderOrbitZ3Part0
+public import F7Manuscript.TOutsiderOrbitZ3Part1
+
+@[expose] public section
+set_option backward.isDefEq.respectTransparency false
+
+#print axioms F7Manuscript.TOutsiderSavedTemplateCatalog.prefixPart_z2_0_covers
+#print axioms F7Manuscript.TOutsiderSavedTemplateCatalog.prefixPart_z2_1_covers
+#print axioms F7Manuscript.TOutsiderSavedTemplateCatalog.prefixPart_z2_2_covers
+#print axioms F7Manuscript.TOutsiderSavedTemplateCatalog.prefixPart_z2_3_covers
+#print axioms F7Manuscript.TOutsiderSavedTemplateCatalog.prefixPart_z2_4_covers
+#print axioms F7Manuscript.TOutsiderSavedTemplateCatalog.prefixPart_z2_5_covers
+#print axioms F7Manuscript.TOutsiderSavedTemplateCatalog.prefixPart_z2_6_covers
+#print axioms F7Manuscript.TOutsiderSavedTemplateCatalog.prefixPart_z2_7_covers
+#print axioms F7Manuscript.TOutsiderSavedTemplateCatalog.prefixPart_z3_0_covers
+#print axioms F7Manuscript.TOutsiderSavedTemplateCatalog.prefixPart_z3_1_covers

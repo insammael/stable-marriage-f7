@@ -4,6 +4,7 @@ public import ReducedCompleteBoundary
 public import ActualLeafGraph
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 namespace NeutralCore
 namespace ActualOverlap
@@ -51,7 +52,7 @@ theorem full_matching_triples {P : Finset V}
   obtain ⟨j,hbj⟩ := minimum_is_root L hbMin
   have hba : b≠a := fun heq => haX (heq ▸ (mem_globalMinima P b).mpr hbMin)
   have hInc := ha hbT haT hba
-  have hji : j=i := (hMiss j i).mp (by simpa only [←hbj,←hai] using hInc.1)
+  have hji : j=i := (hMiss j i).mp (by simpa only [←hbj,←hai] using! hInc.1)
   have hSub : T⊆({a,b} : Finset V) := by
     intro x hx
     rcases full_matching_no_internal L U hR hMiss (hs hx) with hm | hm
@@ -62,7 +63,7 @@ theorem full_matching_triples {P : Finset V}
         intro heq
         exact haX (heq ▸ (mem_globalMinima P x).mpr hm)
       have hli : l=i := (hMiss l i).mp (by
-        simpa only [←hxl,←hai] using (ha hx haT hxa).1)
+        simpa only [←hxl,←hai] using! (ha hx haT hxa).1)
       have hEq : x=b := hxl.trans ((congrArg L.root (hli.trans hji.symm)).trans hbj.symm)
       simp [hEq]
     · by_cases hxa : x=a
@@ -72,7 +73,7 @@ theorem full_matching_triples {P : Finset V}
         intro heq
         exact hbY (heq.symm ▸ mem_globalMaxima.mpr hm)
       have hjl : j=l := (hMiss j l).mp (by
-        simpa only [←hxl,←hbj] using (ha hbT hx hbx).1)
+        simpa only [←hxl,←hbj] using! (ha hbT hx hbx).1)
       have hEq : x=a := hxl.trans ((congrArg U.root (hjl.symm.trans hji)).trans hai.symm)
       simp [hEq]
   have hCard := Finset.card_le_card hSub

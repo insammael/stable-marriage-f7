@@ -1,0 +1,18 @@
+module
+
+public import R21PhysicalD2Domain00
+public import R21PhysicalD2Domain01
+public import R21PhysicalD2Domain02
+public import R21PhysicalD2Domain03
+public import R21PhysicalD2Domain04
+public import R21PhysicalD2Domain05
+public import R21PhysicalD2Domain06
+public import R21PhysicalD2Domain07
+public import R21PhysicalD2Domain08
+public import R21PhysicalD2Domain09
+public import R21PhysicalD2Domain10
+public import R21PhysicalD2Domain11
+public import R21PhysicalD2Domain12
+public import R21PhysicalD2Domain13
+
+@[expose] public section

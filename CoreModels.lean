@@ -4,6 +4,7 @@ public import ULNeutralBoundaryExtraction
 public import Mathlib.Data.Fintype.EquivFin
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 /-!
 Definitions of the normal forms derived from the matching equality. These

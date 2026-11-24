@@ -3,6 +3,7 @@ module
 public import GeneralDeficitTransfer
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 namespace NeutralCore
 open ConditionalUL
@@ -12,8 +13,8 @@ theorem r20_large_triple_deficit_pair_deficit_ge_three
     (hClass : PairClass (V:=V)) (hn : Fintype.card V=20)
     (hDelta : 3≤delta3 (V:=V)) : 3≤a (V:=V) := by
   have ha0 : 0≤a (V:=V) := by
-    simpa only [aOn_univ] using
-      aOn_nonnegative hClass (Finset.univ : Finset V) (by simpa using (by omega : 5≤Fintype.card V))
+    simpa only [aOn_univ] using!
+      aOn_nonnegative hClass (Finset.univ : Finset V) (by simpa using! (by omega : 5≤Fintype.card V))
   by_contra hSmall
   have hTransfer := pairClass_deficit_transfer hClass (by omega) ha0 (by omega)
   omega

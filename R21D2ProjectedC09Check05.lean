@@ -1,0 +1,57 @@
+module
+
+public import R21D2ProjectedC09Check05Part00
+public import R21D2ProjectedC09Check05Part01
+public import R21D2ProjectedC09Check05Part02
+public import R21D2ProjectedC09Check05Part03
+public import R21D2ProjectedC09Check05Part04
+public import R21D2ProjectedC09Check05Part05
+
+@[expose] public section
+set_option backward.isDefEq.respectTransparency false
+set_option maxRecDepth 200000
+set_option maxHeartbeats 64000000
+namespace F7Manuscript.R21NormalEndpoint.Projection.Snapshots.PhysicalD2.Projected
+open F7Manuscript.R21NormalEndpoint.Projection.Snapshots.PhysicalD2.TreeLive
+theorem projected9s17_mask : (incidence board 7 &&& incidence board 6)=40418119981005596740619638462469927810310522637126780948438847504 := by rw [incidence7,incidence6]; rfl
+theorem projected9s18_peer : peerProjected dict09_035 projected010 dict09_038=true := by decide +kernel
+theorem projected9s18_mask : (incidence board 6 &&& incidence board 0)=1224354638065633599851029290265298601046256 := by rw [incidence6,incidence0]; rfl
+theorem projected9s19_keep : keepProjected dict09_027 projected148 dict09_041 dict09_040=true := by decide +kernel
+theorem projected9s19_mask : (incidence board 12 &&& incidence board 6)=816023225622376611882463278181011971234078566048495548006528 := by rw [incidence12,incidence6]; rfl
+theorem projected9s20_peer : peerProjected dict09_011 projected044 dict09_042=true := by decide +kernel
+theorem projected9s20_mask : (incidence board 13 &&& incidence board 3)=24363037986939294441702100871443841508014785484706803949240320 := by rw [incidence13,incidence3]; rfl
+theorem projected9s17_peer : peerProjected dict09_033 projected076 dict09_036=true := by
+ change allKeys projected9s17_peer_predicate dict09_033=true
+ have projected9s17_peer_node_root := allKeys_of_children projected9s17_peer_head_root projected9s17_peer_leaf_l projected9s17_peer_leaf_r
+ exact projected9s17_peer_node_root
+theorem projected9s17_keep : keepProjected dict09_019 projected091 dict09_037 dict09_036=true := by
+ change allKeys projected9s17_keep_predicate dict09_019=true
+ have projected9s17_keep_node_lll := allKeys_of_children projected9s17_keep_head_lll projected9s17_keep_leaf_llll projected9s17_keep_leaf_lllr
+ have projected9s17_keep_node_llr := allKeys_of_children projected9s17_keep_head_llr projected9s17_keep_leaf_llrl projected9s17_keep_leaf_llrr
+ have projected9s17_keep_node_lrl := allKeys_of_children projected9s17_keep_head_lrl projected9s17_keep_leaf_lrll projected9s17_keep_leaf_lrlr
+ have projected9s17_keep_node_lrr := allKeys_of_children projected9s17_keep_head_lrr projected9s17_keep_leaf_lrrl projected9s17_keep_leaf_lrrr
+ have projected9s17_keep_node_rll := allKeys_of_children projected9s17_keep_head_rll projected9s17_keep_leaf_rlll projected9s17_keep_leaf_rllr
+ have projected9s17_keep_node_rlr := allKeys_of_children projected9s17_keep_head_rlr projected9s17_keep_leaf_rlrl projected9s17_keep_leaf_rlrr
+ have projected9s17_keep_node_rrl := allKeys_of_children projected9s17_keep_head_rrl projected9s17_keep_leaf_rrll projected9s17_keep_leaf_rrlr
+ have projected9s17_keep_node_rrr := allKeys_of_children projected9s17_keep_head_rrr projected9s17_keep_leaf_rrrl projected9s17_keep_leaf_rrrr
+ have projected9s17_keep_node_ll := allKeys_of_children projected9s17_keep_head_ll projected9s17_keep_node_lll projected9s17_keep_node_llr
+ have projected9s17_keep_node_lr := allKeys_of_children projected9s17_keep_head_lr projected9s17_keep_node_lrl projected9s17_keep_node_lrr
+ have projected9s17_keep_node_rl := allKeys_of_children projected9s17_keep_head_rl projected9s17_keep_node_rll projected9s17_keep_node_rlr
+ have projected9s17_keep_node_rr := allKeys_of_children projected9s17_keep_head_rr projected9s17_keep_node_rrl projected9s17_keep_node_rrr
+ have projected9s17_keep_node_l := allKeys_of_children projected9s17_keep_head_l projected9s17_keep_node_ll projected9s17_keep_node_lr
+ have projected9s17_keep_node_r := allKeys_of_children projected9s17_keep_head_r projected9s17_keep_node_rl projected9s17_keep_node_rr
+ have projected9s17_keep_node_root := allKeys_of_children projected9s17_keep_head_root projected9s17_keep_node_l projected9s17_keep_node_r
+ exact projected9s17_keep_node_root
+theorem projected9s18_keep : keepProjected dict09_033 projected068 dict09_039 dict09_038=true := by
+ change allKeys projected9s18_keep_predicate dict09_033=true
+ have projected9s18_keep_node_root := allKeys_of_children projected9s18_keep_head_root projected9s18_keep_leaf_l projected9s18_keep_leaf_r
+ exact projected9s18_keep_node_root
+theorem projected9s19_peer : peerProjected dict09_039 projected072 dict09_040=true := by
+ change allKeys projected9s19_peer_predicate dict09_039=true
+ have projected9s19_peer_node_root := allKeys_of_children projected9s19_peer_head_root projected9s19_peer_leaf_l projected9s19_peer_leaf_r
+ exact projected9s19_peer_node_root
+theorem projected9s20_keep : keepProjected dict09_015 projected157 dict09_043 dict09_042=true := by
+ change allKeys projected9s20_keep_predicate dict09_015=true
+ have projected9s20_keep_node_root := allKeys_of_children projected9s20_keep_head_root projected9s20_keep_leaf_l projected9s20_keep_leaf_r
+ exact projected9s20_keep_node_root
+end F7Manuscript.R21NormalEndpoint.Projection.Snapshots.PhysicalD2.Projected

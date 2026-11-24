@@ -4,6 +4,7 @@ public import ExceptionalDeficits
 public import NeutralBoundaries
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 namespace NeutralCore
 open ConditionalUL
@@ -24,7 +25,7 @@ theorem bad_neutral_signature (h : BadNeutral (V:=V)) :
   let P : Finset V := Finset.univ
   have hBad : BadOn P := badNeutral_badOn ⟨hn,hClass,ha0,ha2,hDpos,hN⟩
   have hNeutral : NeutralOn P := neutralOn_univ.mpr hN
-  have hnP : 5≤P.card := by simpa [P] using hn
+  have hnP : 5≤P.card := by simpa [P] using! hn
   have hNonempty : P.Nonempty := Finset.card_pos.mp (by omega)
   obtain ⟨hl,hu⟩ := neutral_three_boundaries hClass P hNonempty hNeutral
   have hDis := neutral_boundaries_disjoint hClass P hnP hNeutral
@@ -42,20 +43,20 @@ theorem bad_neutral_signature (h : BadNeutral (V:=V)) :
     have hTriple := (boundary_triples P hl hu).1
     have hPos := Finset.card_pos.mpr ⟨globalMinima P,hTriple⟩
     omega
-  exact ⟨by simpa [P,aOn_univ] using haOne,ha2,by simpa [P,DOn_univ] using hDOne⟩
+  exact ⟨by simpa [P,aOn_univ] using! haOne,ha2,by simpa [P,DOn_univ] using! hDOne⟩
 
 theorem bad_neutral_boundary_signature (h : BadNeutral (V:=V)) :
     (globalMinima (Finset.univ : Finset V)).card=3 ∧
     (globalMaxima (Finset.univ : Finset V)).card=3 ∧
     Disjoint (globalMinima (Finset.univ : Finset V)) (globalMaxima (Finset.univ : Finset V)) ∧
     6≤Fintype.card V := by
-  have hn : 5≤(Finset.univ : Finset V).card := by simpa using h.1
+  have hn : 5≤(Finset.univ : Finset V).card := by simpa using! h.1
   have hN := neutralOn_univ.mpr h.2.2.2.2.2
   obtain ⟨hl,hu⟩ := neutral_three_boundaries h.2.1 Finset.univ
     (Finset.card_pos.mp (by omega)) hN
   have hDis := neutral_boundaries_disjoint h.2.1 Finset.univ hn hN
   have hSix := disjoint_three_boundaries_six (Finset.univ : Finset V) hl hu hDis
-  exact ⟨hl,hu,hDis,by simpa using hSix⟩
+  exact ⟨hl,hu,hDis,by simpa using! hSix⟩
 
 #print axioms bad_neutral_signature
 #print axioms bad_neutral_boundary_signature

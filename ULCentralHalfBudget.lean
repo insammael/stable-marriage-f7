@@ -3,6 +3,7 @@ module
 public import ULChainEnumeration
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 /-!
 The central-cut estimate below x, now for actual finite sets and an actual
@@ -61,7 +62,7 @@ theorem central_lower_half_many {A C : Finset V} {x : V}
   have hHcard : H.card=2 := by simp [H,huvNe]
   have hTcard : T.card+2=C.card := by
     have := Finset.card_sdiff_add_card_eq_card hHC
-    simpa only [hHcard] using this
+    simpa only [hHcard] using! this
   have hAC : Disjoint A C := Finset.disjoint_left.mpr (by
     intro a ha hc
     exact (hC a hc).1 (hA a ha).le)
@@ -130,7 +131,7 @@ theorem central_upper_half_many {B C : Finset V} {x : V}
     (no311_dual (V := V) h311) (no33_dual (V := V) h33)
     hB (fun c hc => inc_symm (V := V) (hC c hc))
     (chainOn_dual (V := V) hchain) hq hk
-  simpa only [crossEdges_dual (V := V)] using h
+  simpa only [crossEdges_dual (V := V)] using! h
 
 #print axioms central_lower_half_many
 #print axioms central_upper_half_many

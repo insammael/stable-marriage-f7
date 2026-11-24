@@ -5,6 +5,7 @@ public import Mathlib.Order.Extension.Linear
 public import Mathlib.Data.Fintype.Sort
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 set_option synthInstance.maxSize 4096
 
 namespace NeutralCore.SmallSeed

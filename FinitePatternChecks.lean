@@ -3,6 +3,9 @@ module
 public import OriginalDefinitions
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
+set_option backward.privateInPublic true
+set_option backward.privateInPublic.warn false
 
 set_option synthInstance.maxSize 1024
 

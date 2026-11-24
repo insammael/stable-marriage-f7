@@ -4,6 +4,7 @@ public import PairParity
 public import ULRawNeutralShortPaths
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 namespace NeutralCore
 
@@ -49,7 +50,7 @@ theorem triple_of_inc {x p q : V} (hxp : Inc x p) (hxq : Inc x q) (hpq : Inc p q
     · exact (hne rfl).elim
   simp only [triples,Finset.mem_filter,Finset.mem_powerset,Finset.subset_univ,
     true_and]
-  exact ⟨hcard,by simpa using hanti⟩
+  exact ⟨hcard,by simpa using! hanti⟩
 
 theorem triangle_support (O : OverlapDecomposition V) {T : Finset V}
     (hT : T∈triples Finset.univ) : ∃ c, T⊆(O.path c).support := by
@@ -115,7 +116,7 @@ theorem component_count_identity (O : OverlapDecomposition V) (hS : Separated O)
       exact hS c d hcd
   have hT : A3 (V := V)=∑ c : O.Component, ((O.path c).last+1) := by
     have hc := Fintype.card_congr O.enumeration
-    simpa only [Fintype.card_sigma,Fintype.card_fin,Fintype.card_coe,A3] using hc.symm
+    simpa only [Fintype.card_sigma,Fintype.card_fin,Fintype.card_coe,A3] using! hc.symm
   rw [hN,hT]
   simp [Finset.sum_add_distrib]
   omega

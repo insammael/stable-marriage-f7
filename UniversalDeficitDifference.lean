@@ -3,6 +3,7 @@ module
 public import GeneralDeficitTransfer
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 namespace NeutralCore
 open ConditionalUL
@@ -37,8 +38,8 @@ theorem universal_difference_le_two (hClass : PairClass (V:=V))
 theorem universal_difference_le_two_univ (hClass : PairClass (V:=V))
     (hn : 5≤Fintype.card V) : D (V:=V)≤2 := by
   have h := universal_difference_le_two hClass (Finset.univ : Finset V)
-    (by simpa using hn)
-  simpa only [DOn_univ] using h
+    (by simpa using! hn)
+  simpa only [DOn_univ] using! h
 
 theorem r21_delta3_ge_seven_total_ge_twelve (hClass : PairClass (V:=V))
     (hn : Fintype.card V=21) (ht : 7≤delta3 (V:=V)) :

@@ -3,6 +3,7 @@ module
 public import PeriodicObstruction
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 set_option maxHeartbeats 0
 set_option maxRecDepth 8192
@@ -176,16 +177,16 @@ noncomputable def normalize_run (H : PeriodicRun 16) : NormalizedRun 16 where
   fresh_start := by
     intro n hn
     by_cases h3 : n<3
-    · simpa [normalizedState,normalizedChoice,h3,show n≤3 by omega] using (initial_centers_fresh n h3).1
+    · simpa [normalizedState,normalizedChoice,h3,show n≤3 by omega] using! (initial_centers_fresh n h3).1
     · rw [normalized_state_late H n (by omega)]
       rw [normalizedChoice,if_neg h3]
       have hf := (fresh_rename (normalizePerm (H.choice 0) (H.choice 1) (H.choice 2)) (H.state n) (color n) (H.choice n) id).mpr (H.fresh_start n hn)
-      simpa only [rename_matching_id] using hf
+      simpa only [rename_matching_id] using! hf
   fresh_past := by
     intro n hn j hj
     by_cases h3 : n<3
     · have hj3 : j≤3 := by omega
-      simpa [normalizedState,normalizedChoice,h3,show n≤3 by omega,hj3] using (initial_centers_fresh n h3).2 j hj
+      simpa [normalizedState,normalizedChoice,h3,show n≤3 by omega,hj3] using! (initial_centers_fresh n h3).2 j hj
     · rw [normalized_state_late H n (by omega),normalized_tokens H j]
       simp only [normalizedChoice,if_neg h3,fresh_rename]
       exact H.fresh_past n hn j hj

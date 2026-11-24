@@ -3,6 +3,7 @@ module
 public import ULCentralBudgetTheorem
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 /-!
 Neutrality forces every global double-upper-support set to be nonempty.

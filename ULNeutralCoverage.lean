@@ -3,6 +3,7 @@ module
 public import ULNeutralDoubleSupport
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 /-!
 U without S, checked end to end AFTER the explicitly stated independent
@@ -145,7 +146,7 @@ theorem U_from_independent_foundations [Fintype V]
   have hsmallP : 6*(P.card : ℤ)-16-((crossEdges P P).card : ℤ)≤4 := hsmall
   have hsmallCut : 6*((((A∪B)∪C)∪{x}).card : ℤ)-16-
       ((crossEdges (((A∪B)∪C)∪{x}) (((A∪B)∪C)∪{x})).card : ℤ)≤4 := by
-    simpa only [hP] using hsmallP
+    simpa only [hP] using! hsmallP
   exact central_outsider_excludes_deficit_at_most_two hbudget h311 h33
     hA hB hC hchain hp hq hsmallCut
 

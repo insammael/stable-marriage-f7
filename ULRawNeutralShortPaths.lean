@@ -3,6 +3,7 @@ module
 public import ULPathEndpoints
 
 @[expose] public section
+set_option backward.isDefEq.respectTransparency false
 
 /-!
 Connected L theorem with raw directed triangle paths as its only path

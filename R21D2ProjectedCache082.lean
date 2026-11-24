@@ -1,0 +1,49 @@
+module
+
+public import R21D2ProjectedCache082Part00
+public import R21D2ProjectedCache082Part01
+public import R21D2ProjectedCache082Part02
+public import R21D2ProjectedCache082Part03
+public import R21D2ProjectedCache082Part04
+public import R21D2ProjectedCache082Part05
+public import R21D2ProjectedCache082Part06
+public import R21D2ProjectedCache082Part07
+
+@[expose] public section
+set_option backward.isDefEq.respectTransparency false
+namespace F7Manuscript.R21NormalEndpoint.Projection.Snapshots.PhysicalD2.Projected
+theorem projected082_ok : projectionOKBy d7 projected082 projected082_calc=true := by
+ have node_llll := projectionOKBy_of_children projected082_head_llll projected082_leaf_lllll projected082_leaf_llllr
+ have node_lllr := projectionOKBy_of_children projected082_head_lllr projected082_leaf_lllrl projected082_leaf_lllrr
+ have node_llrl := projectionOKBy_of_children projected082_head_llrl projected082_leaf_llrll projected082_leaf_llrlr
+ have node_llrr := projectionOKBy_of_children projected082_head_llrr projected082_leaf_llrrl projected082_leaf_llrrr
+ have node_lrll := projectionOKBy_of_children projected082_head_lrll projected082_leaf_lrlll projected082_leaf_lrllr
+ have node_lrlr := projectionOKBy_of_children projected082_head_lrlr projected082_leaf_lrlrl projected082_leaf_lrlrr
+ have node_lrrl := projectionOKBy_of_children projected082_head_lrrl projected082_leaf_lrrll projected082_leaf_lrrlr
+ have node_lrrr := projectionOKBy_of_children projected082_head_lrrr projected082_leaf_lrrrl projected082_leaf_lrrrr
+ have node_rlll := projectionOKBy_of_children projected082_head_rlll projected082_leaf_rllll projected082_leaf_rlllr
+ have node_rllr := projectionOKBy_of_children projected082_head_rllr projected082_leaf_rllrl projected082_leaf_rllrr
+ have node_rlrl := projectionOKBy_of_children projected082_head_rlrl projected082_leaf_rlrll projected082_leaf_rlrlr
+ have node_rlrr := projectionOKBy_of_children projected082_head_rlrr projected082_leaf_rlrrl projected082_leaf_rlrrr
+ have node_rrll := projectionOKBy_of_children projected082_head_rrll projected082_leaf_rrlll projected082_leaf_rrllr
+ have node_rrlr := projectionOKBy_of_children projected082_head_rrlr projected082_leaf_rrlrl projected082_leaf_rrlrr
+ have node_rrrl := projectionOKBy_of_children projected082_head_rrrl projected082_leaf_rrrll projected082_leaf_rrrlr
+ have node_rrrr := projectionOKBy_of_children projected082_head_rrrr projected082_leaf_rrrrl projected082_leaf_rrrrr
+ have node_lll := projectionOKBy_of_children projected082_head_lll node_llll node_lllr
+ have node_llr := projectionOKBy_of_children projected082_head_llr node_llrl node_llrr
+ have node_lrl := projectionOKBy_of_children projected082_head_lrl node_lrll node_lrlr
+ have node_lrr := projectionOKBy_of_children projected082_head_lrr node_lrrl node_lrrr
+ have node_rll := projectionOKBy_of_children projected082_head_rll node_rlll node_rllr
+ have node_rlr := projectionOKBy_of_children projected082_head_rlr node_rlrl node_rlrr
+ have node_rrl := projectionOKBy_of_children projected082_head_rrl node_rrll node_rrlr
+ have node_rrr := projectionOKBy_of_children projected082_head_rrr node_rrrl node_rrrr
+ have node_ll := projectionOKBy_of_children projected082_head_ll node_lll node_llr
+ have node_lr := projectionOKBy_of_children projected082_head_lr node_lrl node_lrr
+ have node_rl := projectionOKBy_of_children projected082_head_rl node_rll node_rlr
+ have node_rr := projectionOKBy_of_children projected082_head_rr node_rrl node_rrr
+ have node_l := projectionOKBy_of_children projected082_head_l node_ll node_lr
+ have node_r := projectionOKBy_of_children projected082_head_r node_rl node_rr
+ have node_root := projectionOKBy_of_children projected082_head_root node_l node_r
+ exact node_root
+theorem projected082_correct : ProjectionCorrect d7 projected082 23945271370983367531047110377593027041295900616425472 := projection_correct_by_of_check projected082_calc_correct projected082_ok
+end F7Manuscript.R21NormalEndpoint.Projection.Snapshots.PhysicalD2.Projected
