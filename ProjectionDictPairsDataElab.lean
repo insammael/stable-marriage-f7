@@ -10,15 +10,26 @@ set_option backward.privateInPublic.warn false
 namespace F7Manuscript.R21NormalEndpoint.Projection.Snapshots
 open Lean Elab Term
 
-/-- Only existing Dict constructors and Nat literals are returned to the
-ordinary kernel. The explicit value is preserved independently of sorting. -/
+/-- Build the same Nat from bounded literals and kernel arithmetic. -/
+private meta partial def boundedNatExpr (n : Nat) : Expr :=
+  let base := 1073741824
+  if n < base then mkNatLit n else
+    let high := boundedNatExpr (n / base)
+    let shifted := mkApp2 (mkConst ``Nat.mul) high (mkNatLit base)
+    let low := n % base
+    if low == 0 then shifted else mkApp2 (mkConst ``Nat.add) shifted (mkNatLit low)
+
+/-- Build the balanced Dict tree from the original ordered key-value pairs. -/
 private meta partial def balancedDictPairsExpr (pairs : Array (Nat×Nat)) (lo hi : Nat) : Expr :=
  if lo >= hi then mkConst ``Dict.empty
  else
   let mid := lo+(hi-lo)/2
   let p := pairs[mid]!
-  mkAppN (mkConst ``Dict.node) #[mkNatLit p.1,mkNatLit p.2,
+  mkAppN (mkConst ``Dict.node) #[boundedNatExpr p.1,boundedNatExpr p.2,
    balancedDictPairsExpr pairs lo mid,balancedDictPairsExpr pairs (mid+1) hi]
+
+elab "limbNat% " input:num : term =>
+  pure (boundedNatExpr input.getNat)
 
 elab "dictPairsData " input:str : term => do
  let text := input.getString

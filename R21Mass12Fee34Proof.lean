@@ -46,4 +46,42 @@ theorem excludes_original (cert : Closed 11 initial) (c : Nat) (lower : 3 ≤ c)
   exact all_exteriors_exclude_original R bound obs binary (positions_sound 6 s endCheck)
 
 
+/-- Compose the checked children of the original finite kernel computation. -/
+theorem checkOfFirstTransitions (budget : Nat) (p : State → Bool) (n : Nat) (s : State)
+    (centerOK : ∀ (c : Fin 3) (k : Bool),
+      optionAll (allTerminals budget p (n + 1)) (center s c.val k) = true)
+    (pairedOK : ∀ (x y : Bool),
+      optionAll (allTerminals budget p n) (paired s x y) = true) :
+    allTerminals budget p (n + 2) s = true := by
+  rw [allTerminals.eq_def]
+  dsimp -failIfUnchanged only
+  split
+  · rfl
+  · exact Bool.and_eq_true_iff.mpr
+      ⟨List.all_eq_true.mpr (fun c _ => List.all_eq_true.mpr (fun k _ => centerOK c k)),
+       List.all_eq_true.mpr (fun x _ => List.all_eq_true.mpr (fun y _ => pairedOK x y))⟩
+
+/-- Eliminate the three center colors by their constructors. -/
+private theorem fin3Checks {P : Fin 3 → Prop} (c : Fin 3)
+    (atZero : P 0) (atOne : P 1) (atTwo : P 2) : P c := by
+  refine Fin.cases (motive := P) atZero (fun i => ?_) c
+  refine Fin.cases (motive := fun i => P i.succ) atOne (fun j => ?_) i
+  exact Fin.cases (motive := fun j => P j.succ.succ) atTwo (fun k => Fin.elim0 k) j
+
+theorem fin3Values (c : Fin 3) : c = 0 ∨ c = 1 ∨ c = 2 :=
+  fin3Checks (P := fun i => i = 0 ∨ i = 1 ∨ i = 2) c
+    (Or.inl rfl) (Or.inr (Or.inl rfl)) (Or.inr (Or.inr rfl))
+
+/-- Compose a second level without visiting successors of an absent child. -/
+theorem checkOfOptionTransitions (budget : Nat) (p : State → Bool) (n : Nat) (child : Option State)
+    (centerOK : ∀ (c : Fin 3) (k : Bool),
+      optionAll (allTerminals budget p (n + 1)) (child.bind fun s => center s c.val k) = true)
+    (pairedOK : ∀ (x y : Bool),
+      optionAll (allTerminals budget p n) (child.bind fun s => paired s x y) = true) :
+    optionAll (allTerminals budget p (n + 2)) child = true := by
+  cases child with
+  | none => rfl
+  | some s => exact checkOfFirstTransitions budget p n s centerOK pairedOK
+
+
 end F7Manuscript.R21NormalEndpoint.Mass12Fee34

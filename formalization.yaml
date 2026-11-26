@@ -110,7 +110,9 @@ fidelity:
     native_decide and are not used by f7_eq_85 were removed, together with
     one module that held only such a declaration. This revision also removes
     an unused import branch, narrows imports, and simplifies proof terms for
-    the graph certificates. Theorem statements and
+    the graph certificates. Large dictionary keys use definitionally equal
+    arithmetic expressions. Low-fee and mass-12 checks are split into
+    smaller kernel checks. Theorem statements and
     the definitions of f are unchanged.
 
 review:

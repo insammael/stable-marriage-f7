@@ -1,5 +1,6 @@
 name = "f7_palomar_companion"
 defaultTargets = ["Solution"]
+moreLeanArgs = ["-j1"]
 
 [leanOptions]
 maxRecDepth = 32768
