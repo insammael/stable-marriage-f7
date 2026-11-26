@@ -1,7 +1,8 @@
 module
 
 public import F7Manuscript.NormalOutsiderColorPermutation
-public import F7Manuscript.NormalOutsiderWindowTree00
+public import F7Manuscript.NormalOutsiderGraphData00
+public import F7Manuscript.WindowControlBudget
 
 @[expose] public section
 set_option backward.privateInPublic true

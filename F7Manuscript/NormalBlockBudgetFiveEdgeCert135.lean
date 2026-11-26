@@ -13,14 +13,11 @@ set_option maxRecDepth 100000
 namespace F7Manuscript.NormalBlockBudgetFiveEdgeCert
 open F7Manuscript.NormalBlockBudgetFive
 
-def s67500 : State := { f0 := (6, 5), f1 := (0, 1), f2 := (2, 3), tok := ⟨3, 4, 5, 1, 6, 0, 2⟩, seen := ⟨91, 59, 126, 47, 119, 63, 111⟩, idle := 4, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 6 }
 def s67501 : State := { f0 := (6, 5), f1 := (0, 1), f2 := (4, 2), tok := ⟨3, 4, 1, 5, 6, 0, 2⟩, seen := ⟨91, 59, 94, 45, 119, 63, 111⟩, idle := 3, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 5 }
 def s67502 : State := { f0 := (6, 3), f1 := (0, 1), f2 := (4, 2), tok := ⟨3, 4, 1, 5, 6, 2, 0⟩, seen := ⟨91, 59, 94, 45, 119, 62, 107⟩, idle := 5, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 5 }
 def s67503 : State := { f0 := (6, 3), f1 := (0, 1), f2 := (4, 5), tok := ⟨3, 4, 6, 5, 1, 2, 0⟩, seen := ⟨91, 59, 92, 45, 55, 62, 107⟩, idle := 2, last := 1, «before» := 0, twoCenters := true, pairedLast := false, cost := 5 }
 def s67504 : State := { f0 := (6, 3), f1 := (0, 2), f2 := (4, 5), tok := ⟨4, 3, 6, 5, 1, 2, 0⟩, seen := ⟨83, 43, 92, 45, 55, 62, 107⟩, idle := 1, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 5 }
 def s67505 : State := { f0 := (6, 0), f1 := (2, 3), f2 := (4, 5), tok := ⟨5, 3, 0, 6, 1, 2, 4⟩, seen := ⟨115, 43, 93, 77, 55, 62, 122⟩, idle := 1, last := 0, «before» := 1, twoCenters := true, pairedLast := false, cost := 4 }
-def s67506 : State := { f0 := (1, 3), f1 := (2, 6), f2 := (4, 5), tok := ⟨3, 6, 5, 4, 1, 2, 0⟩, seen := ⟨91, 123, 125, 93, 55, 62, 107⟩, idle := 0, last := 0, «before» := 1, twoCenters := true, pairedLast := false, cost := 6 }
-def s67507 : State := { f0 := (1, 0), f1 := (6, 5), f2 := (4, 3), tok := ⟨3, 4, 5, 1, 6, 0, 2⟩, seen := ⟨91, 59, 125, 79, 119, 63, 111⟩, idle := 2, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 6 }
 def s67508 : State := { f0 := (1, 0), f1 := (2, 6), f2 := (4, 3), tok := ⟨3, 4, 5, 1, 6, 2, 0⟩, seen := ⟨91, 59, 125, 79, 119, 62, 107⟩, idle := 5, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 5 }
 def s67509 : State := { f0 := (1, 0), f1 := (2, 6), f2 := (4, 5), tok := ⟨3, 4, 5, 6, 1, 2, 0⟩, seen := ⟨91, 59, 125, 77, 55, 62, 107⟩, idle := 3, last := 1, «before» := 0, twoCenters := true, pairedLast := false, cost := 5 }
 def s67510 : State := { f0 := (1, 0), f1 := (2, 3), f2 := (4, 5), tok := ⟨3, 4, 0, 6, 1, 2, 5⟩, seen := ⟨91, 59, 93, 77, 55, 62, 106⟩, idle := 6, last := 0, «before» := 1, twoCenters := true, pairedLast := false, cost := 4 }
@@ -32,73 +29,14 @@ def s67515 : State := { f0 := (1, 4), f1 := (0, 6), f2 := (3, 5), tok := ⟨5, 2
 def s67516 : State := { f0 := (1, 4), f1 := (0, 2), f2 := (3, 5), tok := ⟨4, 2, 6, 1, 3, 0, 5⟩, seen := ⟨83, 47, 92, 15, 61, 59, 106⟩, idle := 6, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 5 }
 def s67517 : State := { f0 := (6, 1), f1 := (0, 2), f2 := (3, 5), tok := ⟨4, 3, 6, 1, 2, 0, 5⟩, seen := ⟨83, 43, 92, 15, 53, 59, 106⟩, idle := 4, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 4 }
 def s67518 : State := { f0 := (6, 1), f1 := (0, 2), f2 := (4, 3), tok := ⟨4, 3, 6, 0, 2, 1, 5⟩, seen := ⟨83, 43, 92, 13, 53, 58, 106⟩, idle := 5, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 3 }
-def s67519 : State := { f0 := (3, 2), f1 := (0, 6), f2 := (4, 5), tok := ⟨3, 4, 0, 1, 6, 2, 5⟩, seen := ⟨123, 51, 95, 15, 117, 126, 106⟩, idle := 1, last := 1, «before» := 0, twoCenters := true, pairedLast := true, cost := 5 }
-def s67520 : State := { f0 := (4, 5), f1 := (0, 6), f2 := (3, 2), tok := ⟨3, 4, 0, 1, 6, 2, 5⟩, seen := ⟨123, 51, 95, 15, 117, 126, 106⟩, idle := 1, last := 1, «before» := 0, twoCenters := true, pairedLast := true, cost := 5 }
-def s67521 : State := { f0 := (5, 2), f1 := (0, 6), f2 := (4, 3), tok := ⟨3, 4, 1, 0, 2, 6, 5⟩, seen := ⟨123, 51, 94, 13, 53, 122, 106⟩, idle := 1, last := 1, «before» := 0, twoCenters := true, pairedLast := false, cost := 4 }
-def s67522 : State := { f0 := (3, 2), f1 := (1, 6), f2 := (4, 5), tok := ⟨5, 3, 0, 1, 6, 2, 4⟩, seen := ⟨115, 59, 95, 15, 117, 126, 90⟩, idle := 0, last := 1, «before» := 0, twoCenters := true, pairedLast := true, cost := 5 }
-def s67523 : State := { f0 := (4, 5), f1 := (1, 6), f2 := (3, 2), tok := ⟨5, 3, 0, 1, 6, 2, 4⟩, seen := ⟨115, 59, 95, 15, 117, 126, 90⟩, idle := 0, last := 1, «before» := 0, twoCenters := true, pairedLast := true, cost := 5 }
-def s67524 : State := { f0 := (5, 2), f1 := (1, 6), f2 := (4, 3), tok := ⟨5, 3, 1, 0, 2, 6, 4⟩, seen := ⟨115, 59, 94, 13, 53, 122, 90⟩, idle := 0, last := 1, «before» := 0, twoCenters := true, pairedLast := false, cost := 4 }
-def s67525 : State := { f0 := (5, 3), f1 := (0, 1), f2 := (4, 6), tok := ⟨5, 4, 1, 6, 3, 0, 2⟩, seen := ⟨115, 51, 94, 77, 61, 123, 78⟩, idle := 2, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 4 }
-def s67526 : State := { f0 := (2, 3), f1 := (0, 1), f2 := (4, 6), tok := ⟨5, 4, 0, 1, 3, 6, 2⟩, seen := ⟨115, 51, 95, 15, 61, 122, 78⟩, idle := 5, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 4 }
-def s67527 : State := { f0 := (5, 2), f1 := (0, 1), f2 := (4, 6), tok := ⟨5, 4, 1, 0, 3, 6, 2⟩, seen := ⟨115, 51, 94, 13, 61, 122, 78⟩, idle := 3, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 3 }
-def s67528 : State := { f0 := (5, 2), f1 := (0, 1), f2 := (4, 3), tok := ⟨5, 4, 1, 0, 2, 6, 3⟩, seen := ⟨115, 51, 94, 13, 53, 122, 74⟩, idle := 6, last := 0, «before» := 1, twoCenters := true, pairedLast := false, cost := 3 }
-def s67529 : State := { f0 := (6, 4), f1 := (0, 1), f2 := (3, 5), tok := ⟨5, 4, 0, 1, 3, 6, 2⟩, seen := ⟨115, 51, 93, 79, 61, 122, 78⟩, idle := 2, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 5 }
-def s67530 : State := { f0 := (6, 0), f1 := (1, 4), f2 := (2, 5), tok := ⟨2, 3, 1, 4, 6, 0, 5⟩, seen := ⟨119, 123, 95, 93, 125, 59, 110⟩, idle := 3, last := 1, «before» := 0, twoCenters := true, pairedLast := false, cost := 6 }
-def s67531 : State := { f0 := (6, 0), f1 := (1, 3), f2 := (2, 5), tok := ⟨2, 6, 1, 4, 3, 0, 5⟩, seen := ⟨119, 115, 95, 93, 61, 59, 110⟩, idle := 4, last := 0, «before» := 1, twoCenters := true, pairedLast := false, cost := 5 }
-def s67532 : State := { f0 := (6, 4), f1 := (1, 3), f2 := (2, 5), tok := ⟨5, 6, 1, 4, 3, 0, 2⟩, seen := ⟨115, 115, 95, 93, 61, 59, 78⟩, idle := 0, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 5 }
-def s67533 : State := { f0 := (6, 4), f1 := (0, 1), f2 := (2, 5), tok := ⟨5, 4, 1, 6, 3, 0, 2⟩, seen := ⟨115, 51, 95, 77, 61, 59, 78⟩, idle := 3, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 5 }
-def s67534 : State := { f0 := (6, 4), f1 := (0, 1), f2 := (3, 2), tok := ⟨5, 4, 0, 6, 3, 1, 2⟩, seen := ⟨115, 51, 93, 77, 61, 58, 78⟩, idle := 5, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 4 }
-def s67535 : State := { f0 := (5, 4), f1 := (6, 2), f2 := (3, 1), tok := ⟨3, 6, 5, 4, 1, 2, 0⟩, seen := ⟨123, 115, 125, 93, 55, 62, 107⟩, idle := 0, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 5 }
-def s67536 : State := { f0 := (5, 4), f1 := (0, 6), f2 := (3, 1), tok := ⟨3, 6, 0, 4, 1, 2, 5⟩, seen := ⟨123, 115, 93, 93, 55, 62, 106⟩, idle := 2, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 4 }
-def s67537 : State := { f0 := (5, 4), f1 := (0, 6), f2 := (3, 2), tok := ⟨3, 4, 0, 6, 1, 2, 5⟩, seen := ⟨123, 51, 93, 77, 55, 62, 106⟩, idle := 1, last := 1, «before» := 0, twoCenters := true, pairedLast := false, cost := 4 }
-def s67538 : State := { f0 := (5, 4), f1 := (1, 6), f2 := (3, 2), tok := ⟨5, 3, 0, 6, 1, 2, 4⟩, seen := ⟨115, 59, 93, 77, 55, 62, 90⟩, idle := 0, last := 1, «before» := 0, twoCenters := true, pairedLast := false, cost := 4 }
-def s67539 : State := { f0 := (5, 4), f1 := (0, 1), f2 := (3, 2), tok := ⟨5, 4, 0, 6, 1, 2, 3⟩, seen := ⟨115, 51, 93, 77, 55, 62, 74⟩, idle := 6, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 4 }
-def s67540 : State := { f0 := (6, 5), f1 := (0, 1), f2 := (3, 2), tok := ⟨5, 4, 0, 6, 2, 1, 3⟩, seen := ⟨115, 51, 93, 77, 53, 58, 74⟩, idle := 4, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 4 }
-def s67541 : State := { f0 := (3, 2), f1 := (0, 1), f2 := (6, 5), tok := ⟨5, 4, 1, 6, 3, 2, 0⟩, seen := ⟨115, 51, 94, 79, 61, 63, 79⟩, idle := 4, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 5 }
-def s67542 : State := { f0 := (3, 2), f1 := (0, 1), f2 := (4, 6), tok := ⟨5, 4, 1, 6, 3, 0, 2⟩, seen := ⟨115, 51, 94, 79, 61, 59, 78⟩, idle := 5, last := 0, «before» := 1, twoCenters := true, pairedLast := false, cost := 5 }
-def s67543 : State := { f0 := (5, 2), f1 := (0, 1), f2 := (4, 6), tok := ⟨5, 4, 0, 1, 3, 6, 2⟩, seen := ⟨115, 51, 93, 15, 61, 123, 78⟩, idle := 3, last := 0, «before» := 1, twoCenters := true, pairedLast := false, cost := 5 }
-def s67544 : State := { f0 := (3, 5), f1 := (0, 1), f2 := (4, 6), tok := ⟨5, 4, 6, 1, 3, 0, 2⟩, seen := ⟨115, 51, 92, 15, 61, 59, 78⟩, idle := 2, last := 1, «before» := 2, twoCenters := true, pairedLast := true, cost := 4 }
-def s67545 : State := { f0 := (6, 5), f1 := (0, 1), f2 := (3, 2), tok := ⟨5, 4, 1, 6, 3, 2, 0⟩, seen := ⟨115, 51, 94, 79, 61, 63, 79⟩, idle := 4, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 5 }
-def s67546 : State := { f0 := (4, 6), f1 := (0, 1), f2 := (3, 2), tok := ⟨5, 4, 1, 6, 3, 0, 2⟩, seen := ⟨115, 51, 94, 79, 61, 59, 78⟩, idle := 5, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 5 }
-def s67547 : State := { f0 := (4, 6), f1 := (0, 1), f2 := (5, 2), tok := ⟨5, 4, 0, 1, 3, 6, 2⟩, seen := ⟨115, 51, 93, 15, 61, 123, 78⟩, idle := 3, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 5 }
-def s67548 : State := { f0 := (4, 6), f1 := (0, 1), f2 := (3, 5), tok := ⟨5, 4, 6, 1, 3, 0, 2⟩, seen := ⟨115, 51, 92, 15, 61, 59, 78⟩, idle := 2, last := 1, «before» := 2, twoCenters := true, pairedLast := true, cost := 4 }
 def s67549 : State := { f0 := (6, 5), f1 := (0, 1), f2 := (4, 3), tok := ⟨5, 4, 6, 0, 2, 1, 3⟩, seen := ⟨115, 51, 92, 13, 53, 58, 74⟩, idle := 2, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 3 }
-def s67550 : State := { f0 := (6, 3), f1 := (2, 1), f2 := (4, 5), tok := ⟨3, 6, 5, 4, 1, 2, 0⟩, seen := ⟨91, 99, 124, 29, 55, 62, 91⟩, idle := 0, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 4 }
-def s67551 : State := { f0 := (6, 0), f1 := (2, 3), f2 := (5, 1), tok := ⟨3, 2, 0, 5, 1, 6, 4⟩, seen := ⟨91, 103, 125, 45, 55, 126, 90⟩, idle := 4, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 4 }
-def s67552 : State := { f0 := (6, 0), f1 := (2, 3), f2 := (4, 5), tok := ⟨3, 6, 0, 5, 1, 2, 4⟩, seen := ⟨91, 99, 125, 45, 55, 62, 90⟩, idle := 1, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 3 }
-def s67553 : State := { f0 := (6, 0), f1 := (2, 1), f2 := (4, 5), tok := ⟨3, 6, 5, 0, 1, 2, 4⟩, seen := ⟨91, 99, 124, 13, 55, 62, 90⟩, idle := 3, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 3 }
-def s67554 : State := { f0 := (0, 4), f1 := (2, 1), f2 := (3, 5), tok := ⟨2, 6, 5, 1, 3, 0, 4⟩, seen := ⟨95, 99, 124, 15, 61, 59, 90⟩, idle := 6, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 4 }
-def s67555 : State := { f0 := (6, 0), f1 := (1, 4), f2 := (3, 2), tok := ⟨3, 2, 1, 5, 6, 0, 4⟩, seen := ⟨91, 103, 126, 47, 117, 59, 90⟩, idle := 5, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 4 }
-def s67556 : State := { f0 := (6, 0), f1 := (1, 4), f2 := (3, 5), tok := ⟨3, 2, 5, 1, 6, 0, 4⟩, seen := ⟨91, 103, 124, 15, 117, 59, 90⟩, idle := 2, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 3 }
-def s67557 : State := { f0 := (6, 0), f1 := (2, 1), f2 := (3, 5), tok := ⟨3, 6, 5, 1, 2, 0, 4⟩, seen := ⟨91, 99, 124, 15, 53, 59, 90⟩, idle := 4, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 3 }
-def s67558 : State := { f0 := (6, 3), f1 := (2, 5), f2 := (1, 4), tok := ⟨3, 2, 1, 4, 6, 0, 5⟩, seen := ⟨91, 103, 127, 61, 117, 59, 122⟩, idle := 0, last := 0, «before» := 1, twoCenters := true, pairedLast := false, cost := 6 }
-def s67559 : State := { f0 := (6, 0), f1 := (2, 5), f2 := (1, 4), tok := ⟨3, 2, 1, 5, 6, 0, 4⟩, seen := ⟨91, 103, 127, 45, 117, 59, 90⟩, idle := 3, last := 1, «before» := 0, twoCenters := true, pairedLast := false, cost := 5 }
-def s67560 : State := { f0 := (6, 1), f1 := (2, 3), f2 := (4, 5), tok := ⟨3, 4, 0, 5, 1, 6, 2⟩, seen := ⟨91, 119, 125, 45, 119, 122, 94⟩, idle := 0, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 6 }
-def s67561 : State := { f0 := (0, 1), f1 := (2, 3), f2 := (4, 5), tok := ⟨2, 3, 0, 5, 1, 6, 4⟩, seen := ⟨95, 111, 125, 45, 119, 122, 90⟩, idle := 6, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 6 }
-def s67562 : State := { f0 := (6, 0), f1 := (2, 3), f2 := (4, 5), tok := ⟨3, 2, 0, 5, 1, 6, 4⟩, seen := ⟨91, 103, 125, 45, 119, 122, 90⟩, idle := 1, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 5 }
-def s67563 : State := { f0 := (6, 0), f1 := (2, 3), f2 := (1, 4), tok := ⟨3, 2, 0, 5, 6, 1, 4⟩, seen := ⟨91, 103, 125, 45, 117, 58, 90⟩, idle := 5, last := 0, «before» := 1, twoCenters := true, pairedLast := true, cost := 4 }
-def s67564 : State := { f0 := (6, 1), f1 := (4, 5), f2 := (2, 3), tok := ⟨3, 4, 0, 5, 1, 6, 2⟩, seen := ⟨91, 119, 125, 45, 119, 122, 94⟩, idle := 0, last := 0, «before» := 1, twoCenters := true, pairedLast := false, cost := 6 }
-def s67565 : State := { f0 := (0, 1), f1 := (4, 5), f2 := (2, 3), tok := ⟨2, 3, 0, 5, 1, 6, 4⟩, seen := ⟨95, 111, 125, 45, 119, 122, 90⟩, idle := 6, last := 0, «before» := 1, twoCenters := true, pairedLast := false, cost := 6 }
-def s67566 : State := { f0 := (6, 0), f1 := (4, 5), f2 := (2, 3), tok := ⟨3, 2, 0, 5, 1, 6, 4⟩, seen := ⟨91, 103, 125, 45, 119, 122, 90⟩, idle := 1, last := 1, «before» := 0, twoCenters := true, pairedLast := false, cost := 5 }
-def s67567 : State := { f0 := (6, 3), f1 := (1, 4), f2 := (2, 5), tok := ⟨3, 2, 1, 4, 6, 0, 5⟩, seen := ⟨91, 103, 127, 61, 117, 59, 122⟩, idle := 0, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 6 }
-def s67568 : State := { f0 := (6, 0), f1 := (1, 4), f2 := (2, 5), tok := ⟨3, 2, 1, 5, 6, 0, 4⟩, seen := ⟨91, 103, 127, 45, 117, 59, 90⟩, idle := 3, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 5 }
-def s67569 : State := { f0 := (6, 0), f1 := (1, 4), f2 := (2, 3), tok := ⟨3, 2, 0, 5, 6, 1, 4⟩, seen := ⟨91, 103, 125, 45, 117, 58, 90⟩, idle := 5, last := 0, «before» := 1, twoCenters := true, pairedLast := true, cost := 4 }
-def s67570 : State := { f0 := (6, 0), f1 := (2, 1), f2 := (4, 3), tok := ⟨3, 6, 5, 0, 2, 1, 4⟩, seen := ⟨91, 99, 124, 13, 53, 58, 90⟩, idle := 5, last := 0, «before» := 1, twoCenters := true, pairedLast := false, cost := 3 }
-def s67571 : State := { f0 := (3, 5), f1 := (1, 4), f2 := (6, 0), tok := ⟨2, 3, 5, 1, 6, 0, 4⟩, seen := ⟨87, 107, 124, 15, 125, 59, 94⟩, idle := 2, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 6 }
-def s67572 : State := { f0 := (3, 5), f1 := (2, 1), f2 := (6, 0), tok := ⟨2, 6, 5, 1, 3, 0, 4⟩, seen := ⟨87, 99, 124, 15, 61, 59, 94⟩, idle := 4, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 5 }
-def s67573 : State := { f0 := (3, 5), f1 := (2, 1), f2 := (4, 6), tok := ⟨4, 6, 5, 1, 3, 0, 2⟩, seen := ⟨83, 99, 124, 15, 61, 59, 78⟩, idle := 0, last := 1, «before» := 2, twoCenters := true, pairedLast := true, cost := 4 }
-def s67574 : State := { f0 := (6, 0), f1 := (1, 4), f2 := (3, 5), tok := ⟨2, 3, 5, 1, 6, 0, 4⟩, seen := ⟨87, 107, 124, 15, 125, 59, 94⟩, idle := 2, last := 1, «before» := 0, twoCenters := true, pairedLast := false, cost := 6 }
-def s67575 : State := { f0 := (6, 0), f1 := (2, 1), f2 := (3, 5), tok := ⟨2, 6, 5, 1, 3, 0, 4⟩, seen := ⟨87, 99, 124, 15, 61, 59, 94⟩, idle := 4, last := 0, «before» := 1, twoCenters := true, pairedLast := false, cost := 5 }
-def s67576 : State := { f0 := (4, 6), f1 := (2, 1), f2 := (3, 5), tok := ⟨4, 6, 5, 1, 3, 0, 2⟩, seen := ⟨83, 99, 124, 15, 61, 59, 78⟩, idle := 0, last := 1, «before» := 2, twoCenters := true, pairedLast := true, cost := 4 }
 def s67577 : State := { f0 := (6, 5), f1 := (2, 1), f2 := (4, 3), tok := ⟨4, 6, 5, 0, 2, 1, 3⟩, seen := ⟨83, 99, 124, 13, 53, 58, 74⟩, idle := 0, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 3 }
-def s67578 : State := { f0 := (6, 3), f1 := (5, 2), f2 := (4, 0), tok := ⟨2, 4, 1, 5, 3, 6, 0⟩, seen := ⟨95, 51, 94, 45, 61, 122, 123⟩, idle := 1, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 6 }
 def s67579 : State := { f0 := (6, 1), f1 := (5, 3), f2 := (4, 0), tok := ⟨2, 4, 1, 6, 3, 0, 5⟩, seen := ⟨95, 51, 94, 77, 61, 123, 122⟩, idle := 2, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 5 }
 def s67580 : State := { f0 := (6, 1), f1 := (2, 3), f2 := (4, 0), tok := ⟨2, 4, 0, 1, 3, 6, 5⟩, seen := ⟨95, 51, 95, 15, 61, 122, 122⟩, idle := 5, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 5 }
 def s67581 : State := { f0 := (6, 1), f1 := (5, 2), f2 := (4, 0), tok := ⟨2, 4, 1, 0, 3, 6, 5⟩, seen := ⟨95, 51, 94, 13, 61, 122, 122⟩, idle := 3, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 5 }
 def s67582 : State := { f0 := (6, 1), f1 := (5, 4), f2 := (2, 3), tok := ⟨3, 4, 0, 1, 6, 2, 5⟩, seen := ⟨91, 51, 95, 15, 117, 126, 122⟩, idle := 0, last := 0, «before» := 2, twoCenters := true, pairedLast := true, cost := 5 }
 def s67583 : State := { f0 := (6, 1), f1 := (2, 3), f2 := (5, 4), tok := ⟨3, 4, 0, 1, 6, 2, 5⟩, seen := ⟨91, 51, 95, 15, 117, 126, 122⟩, idle := 0, last := 0, «before» := 2, twoCenters := true, pairedLast := true, cost := 5 }
 def s67584 : State := { f0 := (6, 1), f1 := (5, 2), f2 := (4, 3), tok := ⟨3, 4, 1, 0, 2, 6, 5⟩, seen := ⟨91, 51, 94, 13, 53, 122, 122⟩, idle := 0, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 4 }
-def s67585 : State := { f0 := (1, 4), f1 := (5, 2), f2 := (3, 6), tok := ⟨5, 2, 1, 4, 3, 6, 0⟩, seen := ⟨123, 47, 94, 29, 61, 122, 91⟩, idle := 0, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 6 }
 def s67586 : State := { f0 := (0, 1), f1 := (5, 4), f2 := (3, 6), tok := ⟨5, 3, 1, 4, 6, 2, 0⟩, seen := ⟨123, 43, 94, 29, 117, 126, 91⟩, idle := 2, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 5 }
 def s67587 : State := { f0 := (0, 1), f1 := (5, 2), f2 := (3, 6), tok := ⟨5, 3, 1, 4, 2, 6, 0⟩, seen := ⟨123, 43, 94, 29, 53, 122, 91⟩, idle := 4, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 5 }
 def s67588 : State := { f0 := (0, 1), f1 := (5, 4), f2 := (2, 3), tok := ⟨5, 3, 0, 1, 6, 2, 4⟩, seen := ⟨123, 43, 95, 15, 117, 126, 90⟩, idle := 6, last := 0, «before» := 2, twoCenters := true, pairedLast := true, cost := 5 }
@@ -107,308 +45,40 @@ def s67590 : State := { f0 := (0, 1), f1 := (5, 2), f2 := (4, 3), tok := ⟨5, 3
 def s67591 : State := { f0 := (6, 0), f1 := (5, 2), f2 := (4, 3), tok := ⟨3, 5, 1, 0, 2, 6, 4⟩, seen := ⟨91, 35, 94, 13, 53, 122, 90⟩, idle := 1, last := 2, «before» := 1, twoCenters := true, pairedLast := true, cost := 3 }
 def s67592 : State := { f0 := (5, 3), f1 := (6, 1), f2 := (4, 0), tok := ⟨2, 4, 1, 6, 3, 0, 5⟩, seen := ⟨95, 51, 94, 77, 61, 123, 122⟩, idle := 2, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 5 }
 def s67593 : State := { f0 := (2, 3), f1 := (6, 1), f2 := (4, 0), tok := ⟨2, 4, 0, 1, 3, 6, 5⟩, seen := ⟨95, 51, 95, 15, 61, 122, 122⟩, idle := 5, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 5 }
-def s67594 : State := { f0 := (5, 2), f1 := (6, 3), f2 := (4, 0), tok := ⟨2, 4, 1, 5, 3, 6, 0⟩, seen := ⟨95, 51, 94, 45, 61, 122, 123⟩, idle := 1, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 6 }
 def s67595 : State := { f0 := (5, 2), f1 := (6, 1), f2 := (4, 0), tok := ⟨2, 4, 1, 0, 3, 6, 5⟩, seen := ⟨95, 51, 94, 13, 61, 122, 122⟩, idle := 3, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 5 }
 def s67596 : State := { f0 := (3, 2), f1 := (6, 1), f2 := (4, 5), tok := ⟨3, 4, 0, 1, 6, 2, 5⟩, seen := ⟨91, 51, 95, 15, 117, 126, 122⟩, idle := 0, last := 1, «before» := 2, twoCenters := true, pairedLast := true, cost := 5 }
 def s67597 : State := { f0 := (4, 5), f1 := (6, 1), f2 := (3, 2), tok := ⟨3, 4, 0, 1, 6, 2, 5⟩, seen := ⟨91, 51, 95, 15, 117, 126, 122⟩, idle := 0, last := 1, «before» := 2, twoCenters := true, pairedLast := true, cost := 5 }
 def s67598 : State := { f0 := (5, 2), f1 := (6, 1), f2 := (4, 3), tok := ⟨3, 4, 1, 0, 2, 6, 5⟩, seen := ⟨91, 51, 94, 13, 53, 122, 122⟩, idle := 0, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 4 }
 def s67599 : State := { f0 := (5, 4), f1 := (0, 1), f2 := (3, 6), tok := ⟨5, 3, 1, 4, 6, 2, 0⟩, seen := ⟨123, 43, 94, 29, 117, 126, 91⟩, idle := 2, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 5 }
-def s67600 : State := { f0 := (5, 2), f1 := (1, 4), f2 := (3, 6), tok := ⟨5, 2, 1, 4, 3, 6, 0⟩, seen := ⟨123, 47, 94, 29, 61, 122, 91⟩, idle := 0, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 6 }
 def s67601 : State := { f0 := (5, 2), f1 := (0, 1), f2 := (3, 6), tok := ⟨5, 3, 1, 4, 2, 6, 0⟩, seen := ⟨123, 43, 94, 29, 53, 122, 91⟩, idle := 4, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 5 }
 def s67602 : State := { f0 := (3, 2), f1 := (0, 1), f2 := (4, 5), tok := ⟨5, 3, 0, 1, 6, 2, 4⟩, seen := ⟨123, 43, 95, 15, 117, 126, 90⟩, idle := 6, last := 1, «before» := 2, twoCenters := true, pairedLast := true, cost := 5 }
 def s67603 : State := { f0 := (4, 5), f1 := (0, 1), f2 := (3, 2), tok := ⟨5, 3, 0, 1, 6, 2, 4⟩, seen := ⟨123, 43, 95, 15, 117, 126, 90⟩, idle := 6, last := 1, «before» := 2, twoCenters := true, pairedLast := true, cost := 5 }
 def s67604 : State := { f0 := (5, 2), f1 := (0, 1), f2 := (4, 3), tok := ⟨5, 3, 1, 0, 2, 6, 4⟩, seen := ⟨123, 43, 94, 13, 53, 122, 90⟩, idle := 6, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 4 }
 def s67605 : State := { f0 := (5, 2), f1 := (6, 0), f2 := (4, 3), tok := ⟨3, 5, 1, 0, 2, 6, 4⟩, seen := ⟨91, 35, 94, 13, 53, 122, 90⟩, idle := 1, last := 2, «before» := 1, twoCenters := true, pairedLast := true, cost := 3 }
 def s67606 : State := { f0 := (6, 5), f1 := (0, 2), f2 := (4, 3), tok := ⟨4, 5, 6, 0, 2, 1, 3⟩, seen := ⟨83, 35, 92, 13, 53, 58, 74⟩, idle := 1, last := 2, «before» := 1, twoCenters := true, pairedLast := true, cost := 2 }
-def s67607 : State := { f0 := (6, 3), f1 := (2, 5), f2 := (1, 0), tok := ⟨2, 4, 6, 5, 3, 1, 0⟩, seen := ⟨127, 63, 94, 45, 61, 122, 115⟩, idle := 4, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 6 }
-def s67608 : State := { f0 := (6, 3), f1 := (2, 5), f2 := (4, 1), tok := ⟨4, 2, 6, 5, 3, 1, 0⟩, seen := ⟨123, 47, 94, 45, 61, 122, 115⟩, idle := 0, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 5 }
-def s67609 : State := { f0 := (0, 6), f1 := (2, 3), f2 := (4, 1), tok := ⟨4, 2, 0, 6, 3, 1, 5⟩, seen := ⟨123, 47, 95, 77, 61, 122, 114⟩, idle := 5, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 4 }
-def s67610 : State := { f0 := (0, 6), f1 := (5, 3), f2 := (4, 1), tok := ⟨4, 2, 6, 1, 3, 0, 5⟩, seen := ⟨123, 47, 94, 15, 61, 123, 114⟩, idle := 2, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 4 }
-def s67611 : State := { f0 := (0, 6), f1 := (2, 5), f2 := (4, 1), tok := ⟨4, 2, 6, 0, 3, 1, 5⟩, seen := ⟨123, 47, 94, 13, 61, 122, 114⟩, idle := 3, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 4 }
-def s67612 : State := { f0 := (0, 6), f1 := (2, 3), f2 := (5, 4), tok := ⟨4, 3, 0, 6, 1, 2, 5⟩, seen := ⟨123, 43, 95, 77, 55, 126, 114⟩, idle := 1, last := 0, «before» := 1, twoCenters := true, pairedLast := true, cost := 5 }
-def s67613 : State := { f0 := (0, 6), f1 := (5, 4), f2 := (2, 3), tok := ⟨4, 3, 0, 6, 1, 2, 5⟩, seen := ⟨123, 43, 95, 77, 55, 126, 114⟩, idle := 1, last := 0, «before» := 1, twoCenters := true, pairedLast := true, cost := 5 }
-def s67614 : State := { f0 := (0, 6), f1 := (2, 5), f2 := (4, 3), tok := ⟨4, 3, 6, 0, 2, 1, 5⟩, seen := ⟨123, 43, 94, 13, 53, 122, 114⟩, idle := 1, last := 0, «before» := 1, twoCenters := true, pairedLast := false, cost := 4 }
-def s67615 : State := { f0 := (1, 6), f1 := (2, 3), f2 := (5, 4), tok := ⟨5, 4, 0, 6, 1, 2, 3⟩, seen := ⟨107, 59, 95, 77, 55, 126, 90⟩, idle := 0, last := 0, «before» := 1, twoCenters := true, pairedLast := true, cost := 5 }
-def s67616 : State := { f0 := (1, 6), f1 := (5, 4), f2 := (2, 3), tok := ⟨5, 4, 0, 6, 1, 2, 3⟩, seen := ⟨107, 59, 95, 77, 55, 126, 90⟩, idle := 0, last := 0, «before» := 1, twoCenters := true, pairedLast := true, cost := 5 }
-def s67617 : State := { f0 := (1, 6), f1 := (2, 5), f2 := (4, 3), tok := ⟨5, 4, 6, 0, 2, 1, 3⟩, seen := ⟨107, 59, 94, 13, 53, 122, 90⟩, idle := 0, last := 0, «before» := 1, twoCenters := true, pairedLast := false, cost := 4 }
-def s67618 : State := { f0 := (1, 4), f1 := (2, 5), f2 := (3, 0), tok := ⟨4, 2, 6, 5, 3, 1, 0⟩, seen := ⟨123, 47, 94, 61, 61, 122, 83⟩, idle := 6, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 4 }
-def s67619 : State := { f0 := (1, 4), f1 := (2, 5), f2 := (3, 6), tok := ⟨5, 2, 6, 4, 3, 1, 0⟩, seen := ⟨107, 47, 94, 29, 61, 122, 83⟩, idle := 0, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 3 }
-def s67620 : State := { f0 := (0, 1), f1 := (5, 4), f2 := (3, 6), tok := ⟨5, 3, 6, 4, 1, 2, 0⟩, seen := ⟨107, 43, 94, 29, 55, 126, 83⟩, idle := 2, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 4 }
-def s67621 : State := { f0 := (0, 1), f1 := (2, 5), f2 := (3, 6), tok := ⟨5, 3, 6, 4, 2, 1, 0⟩, seen := ⟨107, 43, 94, 29, 53, 122, 83⟩, idle := 4, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 3 }
-def s67622 : State := { f0 := (0, 1), f1 := (2, 5), f2 := (4, 3), tok := ⟨5, 3, 6, 0, 2, 1, 4⟩, seen := ⟨107, 43, 94, 13, 53, 122, 82⟩, idle := 6, last := 1, «before» := 0, twoCenters := true, pairedLast := false, cost := 3 }
-def s67623 : State := { f0 := (0, 1), f1 := (6, 5), f2 := (4, 2), tok := ⟨5, 3, 6, 4, 1, 0, 2⟩, seen := ⟨107, 43, 94, 29, 119, 125, 87⟩, idle := 3, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 6 }
-def s67624 : State := { f0 := (0, 1), f1 := (6, 3), f2 := (4, 2), tok := ⟨5, 3, 6, 4, 1, 2, 0⟩, seen := ⟨107, 43, 94, 29, 119, 124, 83⟩, idle := 5, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 5 }
-def s67625 : State := { f0 := (0, 1), f1 := (6, 3), f2 := (4, 5), tok := ⟨5, 3, 1, 4, 6, 2, 0⟩, seen := ⟨107, 43, 30, 29, 117, 124, 83⟩, idle := 2, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 4 }
-def s67626 : State := { f0 := (0, 6), f1 := (2, 3), f2 := (4, 1), tok := ⟨4, 6, 0, 1, 3, 2, 5⟩, seen := ⟨123, 107, 31, 15, 125, 124, 114⟩, idle := 5, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 4 }
-def s67627 : State := { f0 := (0, 6), f1 := (2, 3), f2 := (4, 5), tok := ⟨4, 3, 0, 1, 6, 2, 5⟩, seen := ⟨123, 43, 31, 15, 117, 124, 114⟩, idle := 1, last := 0, «before» := 1, twoCenters := true, pairedLast := false, cost := 4 }
-def s67628 : State := { f0 := (1, 6), f1 := (2, 3), f2 := (4, 5), tok := ⟨5, 4, 0, 1, 6, 2, 3⟩, seen := ⟨107, 59, 31, 15, 117, 124, 90⟩, idle := 0, last := 0, «before» := 1, twoCenters := true, pairedLast := false, cost := 4 }
-def s67629 : State := { f0 := (0, 1), f1 := (2, 3), f2 := (4, 5), tok := ⟨5, 3, 0, 1, 6, 2, 4⟩, seen := ⟨107, 43, 31, 15, 117, 124, 82⟩, idle := 6, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 4 }
-def s67630 : State := { f0 := (0, 1), f1 := (6, 2), f2 := (4, 5), tok := ⟨5, 3, 1, 0, 6, 2, 4⟩, seen := ⟨107, 43, 30, 13, 117, 124, 82⟩, idle := 3, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 4 }
-def s67631 : State := { f0 := (1, 4), f1 := (6, 0), f2 := (3, 2), tok := ⟨4, 2, 6, 1, 3, 0, 5⟩, seen := ⟨123, 47, 94, 79, 61, 121, 114⟩, idle := 5, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 5 }
-def s67632 : State := { f0 := (1, 4), f1 := (6, 0), f2 := (5, 2), tok := ⟨4, 2, 0, 6, 3, 1, 5⟩, seen := ⟨123, 47, 31, 77, 61, 123, 114⟩, idle := 3, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 5 }
-def s67633 : State := { f0 := (1, 4), f1 := (6, 0), f2 := (3, 5), tok := ⟨4, 2, 1, 6, 3, 0, 5⟩, seen := ⟨123, 47, 30, 77, 61, 121, 114⟩, idle := 2, last := 1, «before» := 0, twoCenters := true, pairedLast := false, cost := 5 }
-def s67634 : State := { f0 := (1, 4), f1 := (6, 2), f2 := (3, 5), tok := ⟨5, 2, 1, 6, 3, 0, 4⟩, seen := ⟨107, 47, 30, 77, 61, 121, 82⟩, idle := 0, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 5 }
-def s67635 : State := { f0 := (0, 1), f1 := (6, 2), f2 := (3, 5), tok := ⟨5, 3, 1, 6, 2, 0, 4⟩, seen := ⟨107, 43, 30, 77, 53, 121, 82⟩, idle := 4, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 4 }
 def s67636 : State := { f0 := (0, 1), f1 := (6, 2), f2 := (4, 3), tok := ⟨5, 3, 1, 0, 2, 6, 4⟩, seen := ⟨107, 43, 30, 13, 53, 120, 82⟩, idle := 5, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 3 }
-def s67637 : State := { f0 := (3, 1), f1 := (6, 0), f2 := (4, 5), tok := ⟨5, 6, 0, 4, 1, 2, 3⟩, seen := ⟨107, 115, 95, 93, 55, 126, 122⟩, idle := 2, last := 0, «before» := 1, twoCenters := true, pairedLast := false, cost := 6 }
-def s67638 : State := { f0 := (3, 2), f1 := (6, 0), f2 := (4, 5), tok := ⟨5, 4, 0, 6, 1, 2, 3⟩, seen := ⟨107, 51, 95, 77, 55, 126, 122⟩, idle := 1, last := 1, «before» := 0, twoCenters := true, pairedLast := true, cost := 5 }
-def s67639 : State := { f0 := (4, 5), f1 := (6, 0), f2 := (3, 1), tok := ⟨5, 6, 0, 4, 1, 2, 3⟩, seen := ⟨107, 115, 95, 93, 55, 126, 122⟩, idle := 2, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 6 }
-def s67640 : State := { f0 := (4, 5), f1 := (6, 0), f2 := (3, 2), tok := ⟨5, 4, 0, 6, 1, 2, 3⟩, seen := ⟨107, 51, 95, 77, 55, 126, 122⟩, idle := 1, last := 1, «before» := 0, twoCenters := true, pairedLast := true, cost := 5 }
-def s67641 : State := { f0 := (5, 2), f1 := (6, 0), f2 := (4, 3), tok := ⟨5, 4, 6, 0, 2, 1, 3⟩, seen := ⟨107, 51, 94, 13, 53, 122, 122⟩, idle := 1, last := 1, «before» := 0, twoCenters := true, pairedLast := false, cost := 4 }
-def s67642 : State := { f0 := (5, 6), f1 := (1, 0), f2 := (3, 2), tok := ⟨4, 3, 5, 6, 1, 0, 2⟩, seen := ⟨91, 59, 126, 109, 55, 127, 119⟩, idle := 4, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 6 }
-def s67643 : State := { f0 := (5, 4), f1 := (1, 0), f2 := (3, 2), tok := ⟨4, 3, 5, 6, 1, 2, 0⟩, seen := ⟨91, 59, 126, 109, 55, 126, 115⟩, idle := 6, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 5 }
-def s67644 : State := { f0 := (5, 4), f1 := (1, 0), f2 := (3, 6), tok := ⟨4, 3, 6, 5, 1, 2, 0⟩, seen := ⟨91, 59, 94, 45, 55, 126, 115⟩, idle := 2, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 4 }
-def s67645 : State := { f0 := (5, 2), f1 := (1, 4), f2 := (3, 0), tok := ⟨5, 2, 6, 4, 3, 1, 0⟩, seen := ⟨123, 63, 94, 61, 61, 122, 115⟩, idle := 6, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 6 }
-def s67646 : State := { f0 := (5, 2), f1 := (1, 4), f2 := (3, 6), tok := ⟨4, 2, 6, 5, 3, 1, 0⟩, seen := ⟨91, 63, 94, 45, 61, 122, 115⟩, idle := 0, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 5 }
-def s67647 : State := { f0 := (5, 2), f1 := (1, 0), f2 := (3, 6), tok := ⟨4, 3, 6, 5, 2, 1, 0⟩, seen := ⟨91, 59, 94, 45, 53, 122, 115⟩, idle := 4, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 4 }
-def s67648 : State := { f0 := (2, 6), f1 := (1, 0), f2 := (4, 5), tok := ⟨4, 3, 5, 6, 1, 2, 0⟩, seen := ⟨91, 59, 127, 77, 55, 126, 115⟩, idle := 3, last := 0, «before» := 1, twoCenters := true, pairedLast := false, cost := 6 }
-def s67649 : State := { f0 := (3, 2), f1 := (1, 0), f2 := (4, 5), tok := ⟨4, 3, 0, 6, 1, 2, 5⟩, seen := ⟨91, 59, 95, 77, 55, 126, 114⟩, idle := 6, last := 1, «before» := 0, twoCenters := true, pairedLast := true, cost := 5 }
-def s67650 : State := { f0 := (4, 5), f1 := (1, 0), f2 := (2, 6), tok := ⟨4, 3, 5, 6, 1, 2, 0⟩, seen := ⟨91, 59, 127, 77, 55, 126, 115⟩, idle := 3, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 6 }
-def s67651 : State := { f0 := (4, 5), f1 := (1, 0), f2 := (3, 2), tok := ⟨4, 3, 0, 6, 1, 2, 5⟩, seen := ⟨91, 59, 95, 77, 55, 126, 114⟩, idle := 6, last := 1, «before» := 0, twoCenters := true, pairedLast := true, cost := 5 }
-def s67652 : State := { f0 := (5, 2), f1 := (1, 0), f2 := (4, 3), tok := ⟨4, 3, 6, 0, 2, 1, 5⟩, seen := ⟨91, 59, 94, 13, 53, 122, 114⟩, idle := 6, last := 1, «before» := 0, twoCenters := true, pairedLast := false, cost := 4 }
-def s67653 : State := { f0 := (5, 3), f1 := (6, 1), f2 := (4, 0), tok := ⟨2, 4, 6, 1, 3, 0, 5⟩, seen := ⟨79, 51, 94, 15, 61, 123, 114⟩, idle := 2, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 4 }
-def s67654 : State := { f0 := (2, 3), f1 := (6, 1), f2 := (4, 0), tok := ⟨2, 4, 0, 6, 3, 1, 5⟩, seen := ⟨79, 51, 95, 77, 61, 122, 114⟩, idle := 5, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 4 }
-def s67655 : State := { f0 := (5, 2), f1 := (6, 3), f2 := (0, 1), tok := ⟨4, 2, 6, 5, 3, 1, 0⟩, seen := ⟨95, 55, 94, 45, 61, 122, 115⟩, idle := 4, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 4 }
-def s67656 : State := { f0 := (5, 2), f1 := (6, 3), f2 := (4, 0), tok := ⟨2, 4, 6, 5, 3, 1, 0⟩, seen := ⟨79, 51, 94, 45, 61, 122, 115⟩, idle := 1, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 3 }
-def s67657 : State := { f0 := (5, 2), f1 := (6, 1), f2 := (4, 0), tok := ⟨2, 4, 6, 0, 3, 1, 5⟩, seen := ⟨79, 51, 94, 13, 61, 122, 114⟩, idle := 3, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 3 }
-def s67658 : State := { f0 := (5, 2), f1 := (6, 1), f2 := (4, 3), tok := ⟨3, 4, 6, 0, 2, 1, 5⟩, seen := ⟨75, 51, 94, 13, 53, 122, 114⟩, idle := 0, last := 0, «before» := 1, twoCenters := true, pairedLast := false, cost := 3 }
-def s67659 : State := { f0 := (0, 1), f1 := (6, 2), f2 := (3, 5), tok := ⟨4, 2, 5, 6, 3, 1, 0⟩, seen := ⟨95, 55, 63, 79, 61, 122, 115⟩, idle := 4, last := 0, «before» := 1, twoCenters := true, pairedLast := false, cost := 5 }
-def s67660 : State := { f0 := (0, 4), f1 := (6, 2), f2 := (3, 1), tok := ⟨2, 6, 5, 4, 3, 1, 0⟩, seen := ⟨79, 115, 63, 95, 61, 122, 115⟩, idle := 5, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 6 }
-def s67661 : State := { f0 := (0, 4), f1 := (6, 2), f2 := (3, 5), tok := ⟨2, 4, 5, 6, 3, 1, 0⟩, seen := ⟨79, 51, 63, 79, 61, 122, 115⟩, idle := 1, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 5 }
-def s67662 : State := { f0 := (0, 4), f1 := (6, 1), f2 := (3, 5), tok := ⟨2, 4, 0, 6, 3, 1, 5⟩, seen := ⟨79, 51, 31, 79, 61, 122, 114⟩, idle := 2, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 5 }
-def s67663 : State := { f0 := (0, 4), f1 := (6, 1), f2 := (2, 5), tok := ⟨2, 4, 6, 1, 3, 0, 5⟩, seen := ⟨79, 51, 95, 15, 61, 121, 114⟩, idle := 3, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 5 }
-def s67664 : State := { f0 := (0, 4), f1 := (6, 1), f2 := (3, 2), tok := ⟨2, 4, 0, 1, 3, 6, 5⟩, seen := ⟨79, 51, 31, 15, 61, 120, 114⟩, idle := 5, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 4 }
-def s67665 : State := { f0 := (5, 4), f1 := (6, 0), f2 := (3, 2), tok := ⟨5, 4, 0, 1, 6, 2, 3⟩, seen := ⟨107, 51, 31, 15, 117, 124, 122⟩, idle := 1, last := 1, «before» := 0, twoCenters := true, pairedLast := false, cost := 4 }
-def s67666 : State := { f0 := (3, 2), f1 := (1, 0), f2 := (6, 5), tok := ⟨4, 3, 6, 5, 1, 0, 2⟩, seen := ⟨91, 59, 127, 111, 119, 125, 119⟩, idle := 4, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 6 }
-def s67667 : State := { f0 := (4, 3), f1 := (1, 0), f2 := (6, 5), tok := ⟨4, 3, 5, 6, 1, 0, 2⟩, seen := ⟨91, 59, 63, 79, 119, 125, 119⟩, idle := 2, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 5 }
-def s67668 : State := { f0 := (4, 3), f1 := (1, 0), f2 := (2, 6), tok := ⟨4, 3, 5, 6, 1, 2, 0⟩, seen := ⟨91, 59, 63, 79, 119, 124, 115⟩, idle := 5, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 4 }
-def s67669 : State := { f0 := (5, 4), f1 := (1, 0), f2 := (2, 6), tok := ⟨4, 3, 5, 1, 6, 2, 0⟩, seen := ⟨91, 59, 63, 15, 117, 124, 115⟩, idle := 3, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 4 }
-def s67670 : State := { f0 := (5, 4), f1 := (1, 0), f2 := (3, 2), tok := ⟨4, 3, 0, 1, 6, 2, 5⟩, seen := ⟨91, 59, 31, 15, 117, 124, 114⟩, idle := 6, last := 1, «before» := 0, twoCenters := true, pairedLast := false, cost := 4 }
-def s67671 : State := { f0 := (5, 4), f1 := (6, 1), f2 := (3, 2), tok := ⟨3, 4, 0, 1, 6, 2, 5⟩, seen := ⟨75, 51, 31, 15, 117, 124, 114⟩, idle := 0, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 4 }
-def s67672 : State := { f0 := (0, 5), f1 := (6, 1), f2 := (3, 2), tok := ⟨3, 4, 0, 1, 2, 6, 5⟩, seen := ⟨75, 51, 31, 15, 53, 120, 114⟩, idle := 4, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 4 }
-def s67673 : State := { f0 := (3, 2), f1 := (6, 1), f2 := (4, 0), tok := ⟨2, 4, 6, 1, 3, 0, 5⟩, seen := ⟨79, 51, 94, 79, 61, 121, 114⟩, idle := 5, last := 0, «before» := 1, twoCenters := true, pairedLast := false, cost := 5 }
-def s67674 : State := { f0 := (5, 2), f1 := (1, 3), f2 := (4, 0), tok := ⟨2, 6, 0, 4, 3, 1, 5⟩, seen := ⟨79, 115, 31, 93, 61, 123, 114⟩, idle := 6, last := 1, «before» := 0, twoCenters := true, pairedLast := false, cost := 6 }
-def s67675 : State := { f0 := (5, 2), f1 := (6, 1), f2 := (4, 0), tok := ⟨2, 4, 0, 6, 3, 1, 5⟩, seen := ⟨79, 51, 31, 77, 61, 123, 114⟩, idle := 3, last := 0, «before» := 1, twoCenters := true, pairedLast := false, cost := 5 }
-def s67676 : State := { f0 := (3, 5), f1 := (6, 1), f2 := (4, 0), tok := ⟨2, 4, 1, 6, 3, 0, 5⟩, seen := ⟨79, 51, 30, 77, 61, 121, 114⟩, idle := 2, last := 1, «before» := 2, twoCenters := true, pairedLast := true, cost := 4 }
-def s67677 : State := { f0 := (4, 0), f1 := (6, 1), f2 := (3, 2), tok := ⟨2, 4, 6, 1, 3, 0, 5⟩, seen := ⟨79, 51, 94, 79, 61, 121, 114⟩, idle := 5, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 5 }
-def s67678 : State := { f0 := (4, 0), f1 := (1, 3), f2 := (5, 2), tok := ⟨2, 6, 0, 4, 3, 1, 5⟩, seen := ⟨79, 115, 31, 93, 61, 123, 114⟩, idle := 6, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 6 }
-def s67679 : State := { f0 := (4, 0), f1 := (6, 1), f2 := (5, 2), tok := ⟨2, 4, 0, 6, 3, 1, 5⟩, seen := ⟨79, 51, 31, 77, 61, 123, 114⟩, idle := 3, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 5 }
-def s67680 : State := { f0 := (4, 0), f1 := (6, 1), f2 := (3, 5), tok := ⟨2, 4, 1, 6, 3, 0, 5⟩, seen := ⟨79, 51, 30, 77, 61, 121, 114⟩, idle := 2, last := 1, «before» := 2, twoCenters := true, pairedLast := true, cost := 4 }
 def s67681 : State := { f0 := (0, 5), f1 := (6, 1), f2 := (4, 3), tok := ⟨3, 4, 1, 0, 2, 6, 5⟩, seen := ⟨75, 51, 30, 13, 53, 120, 114⟩, idle := 2, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 3 }
-def s67682 : State := { f0 := (0, 1), f1 := (5, 3), f2 := (4, 6), tok := ⟨5, 4, 6, 1, 3, 0, 2⟩, seen := ⟨123, 51, 94, 15, 61, 123, 94⟩, idle := 2, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 5 }
-def s67683 : State := { f0 := (0, 1), f1 := (2, 3), f2 := (4, 6), tok := ⟨5, 4, 0, 6, 3, 1, 2⟩, seen := ⟨123, 51, 95, 77, 61, 122, 94⟩, idle := 5, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 5 }
-def s67684 : State := { f0 := (0, 1), f1 := (5, 2), f2 := (4, 6), tok := ⟨5, 4, 6, 0, 3, 1, 2⟩, seen := ⟨123, 51, 94, 13, 61, 122, 94⟩, idle := 3, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 5 }
-def s67685 : State := { f0 := (0, 1), f1 := (5, 4), f2 := (2, 3), tok := ⟨5, 4, 0, 6, 1, 2, 3⟩, seen := ⟨123, 51, 95, 77, 55, 126, 90⟩, idle := 6, last := 0, «before» := 2, twoCenters := true, pairedLast := true, cost := 5 }
-def s67686 : State := { f0 := (0, 1), f1 := (2, 3), f2 := (5, 4), tok := ⟨5, 4, 0, 6, 1, 2, 3⟩, seen := ⟨123, 51, 95, 77, 55, 126, 90⟩, idle := 6, last := 0, «before» := 2, twoCenters := true, pairedLast := true, cost := 5 }
-def s67687 : State := { f0 := (0, 1), f1 := (5, 2), f2 := (4, 3), tok := ⟨5, 4, 6, 0, 2, 1, 3⟩, seen := ⟨123, 51, 94, 13, 53, 122, 90⟩, idle := 6, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 4 }
-def s67688 : State := { f0 := (6, 1), f1 := (5, 4), f2 := (2, 3), tok := ⟨4, 3, 0, 6, 1, 2, 5⟩, seen := ⟨91, 43, 95, 77, 55, 126, 122⟩, idle := 0, last := 0, «before» := 2, twoCenters := true, pairedLast := true, cost := 5 }
-def s67689 : State := { f0 := (6, 1), f1 := (2, 3), f2 := (5, 4), tok := ⟨4, 3, 0, 6, 1, 2, 5⟩, seen := ⟨91, 43, 95, 77, 55, 126, 122⟩, idle := 0, last := 0, «before» := 2, twoCenters := true, pairedLast := true, cost := 5 }
-def s67690 : State := { f0 := (6, 1), f1 := (5, 2), f2 := (4, 3), tok := ⟨4, 3, 6, 0, 2, 1, 5⟩, seen := ⟨91, 43, 94, 13, 53, 122, 122⟩, idle := 0, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 4 }
-def s67691 : State := { f0 := (0, 6), f1 := (2, 3), f2 := (4, 5), tok := ⟨4, 6, 0, 5, 1, 2, 3⟩, seen := ⟨91, 99, 127, 45, 55, 126, 90⟩, idle := 1, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 6 }
-def s67692 : State := { f0 := (0, 6), f1 := (2, 1), f2 := (4, 5), tok := ⟨4, 6, 5, 0, 1, 2, 3⟩, seen := ⟨91, 99, 126, 13, 55, 126, 90⟩, idle := 3, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 5 }
-def s67693 : State := { f0 := (6, 4), f1 := (2, 1), f2 := (3, 5), tok := ⟨4, 6, 5, 1, 3, 0, 2⟩, seen := ⟨91, 99, 126, 15, 61, 123, 94⟩, idle := 0, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 5 }
-def s67694 : State := { f0 := (0, 6), f1 := (1, 4), f2 := (3, 5), tok := ⟨4, 2, 5, 1, 6, 0, 3⟩, seen := ⟨91, 103, 126, 15, 117, 123, 90⟩, idle := 2, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 6 }
-def s67695 : State := { f0 := (0, 6), f1 := (2, 1), f2 := (3, 5), tok := ⟨4, 6, 5, 1, 2, 0, 3⟩, seen := ⟨91, 99, 126, 15, 53, 123, 90⟩, idle := 4, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 5 }
-def s67696 : State := { f0 := (0, 6), f1 := (2, 1), f2 := (4, 3), tok := ⟨4, 6, 5, 0, 2, 1, 3⟩, seen := ⟨91, 99, 126, 13, 53, 122, 90⟩, idle := 5, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 4 }
 def s67697 : State := { f0 := (0, 6), f1 := (5, 2), f2 := (4, 3), tok := ⟨4, 5, 6, 0, 2, 1, 3⟩, seen := ⟨91, 35, 94, 13, 53, 122, 90⟩, idle := 1, last := 2, «before» := 1, twoCenters := true, pairedLast := true, cost := 3 }
-def s67698 : State := { f0 := (2, 3), f1 := (0, 6), f2 := (4, 5), tok := ⟨4, 6, 0, 5, 1, 2, 3⟩, seen := ⟨91, 99, 127, 45, 55, 126, 90⟩, idle := 1, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 6 }
-def s67699 : State := { f0 := (2, 1), f1 := (0, 6), f2 := (4, 5), tok := ⟨4, 6, 5, 0, 1, 2, 3⟩, seen := ⟨91, 99, 126, 13, 55, 126, 90⟩, idle := 3, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 5 }
-def s67700 : State := { f0 := (1, 4), f1 := (0, 6), f2 := (3, 5), tok := ⟨4, 2, 5, 1, 6, 0, 3⟩, seen := ⟨91, 103, 126, 15, 117, 123, 90⟩, idle := 2, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 6 }
-def s67701 : State := { f0 := (2, 1), f1 := (6, 4), f2 := (3, 5), tok := ⟨4, 6, 5, 1, 3, 0, 2⟩, seen := ⟨91, 99, 126, 15, 61, 123, 94⟩, idle := 0, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 5 }
-def s67702 : State := { f0 := (2, 1), f1 := (0, 6), f2 := (3, 5), tok := ⟨4, 6, 5, 1, 2, 0, 3⟩, seen := ⟨91, 99, 126, 15, 53, 123, 90⟩, idle := 4, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 5 }
-def s67703 : State := { f0 := (2, 1), f1 := (0, 6), f2 := (4, 3), tok := ⟨4, 6, 5, 0, 2, 1, 3⟩, seen := ⟨91, 99, 126, 13, 53, 122, 90⟩, idle := 5, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 4 }
-def s67704 : State := { f0 := (5, 3), f1 := (0, 1), f2 := (4, 6), tok := ⟨5, 4, 6, 1, 3, 0, 2⟩, seen := ⟨123, 51, 94, 15, 61, 123, 94⟩, idle := 2, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 5 }
-def s67705 : State := { f0 := (2, 3), f1 := (0, 1), f2 := (4, 6), tok := ⟨5, 4, 0, 6, 3, 1, 2⟩, seen := ⟨123, 51, 95, 77, 61, 122, 94⟩, idle := 5, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 5 }
-def s67706 : State := { f0 := (5, 2), f1 := (0, 1), f2 := (4, 6), tok := ⟨5, 4, 6, 0, 3, 1, 2⟩, seen := ⟨123, 51, 94, 13, 61, 122, 94⟩, idle := 3, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 5 }
-def s67707 : State := { f0 := (3, 2), f1 := (0, 1), f2 := (4, 5), tok := ⟨5, 4, 0, 6, 1, 2, 3⟩, seen := ⟨123, 51, 95, 77, 55, 126, 90⟩, idle := 6, last := 1, «before» := 2, twoCenters := true, pairedLast := true, cost := 5 }
-def s67708 : State := { f0 := (4, 5), f1 := (0, 1), f2 := (3, 2), tok := ⟨5, 4, 0, 6, 1, 2, 3⟩, seen := ⟨123, 51, 95, 77, 55, 126, 90⟩, idle := 6, last := 1, «before» := 2, twoCenters := true, pairedLast := true, cost := 5 }
-def s67709 : State := { f0 := (5, 2), f1 := (0, 1), f2 := (4, 3), tok := ⟨5, 4, 6, 0, 2, 1, 3⟩, seen := ⟨123, 51, 94, 13, 53, 122, 90⟩, idle := 6, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 4 }
-def s67710 : State := { f0 := (3, 2), f1 := (6, 1), f2 := (4, 5), tok := ⟨4, 3, 0, 6, 1, 2, 5⟩, seen := ⟨91, 43, 95, 77, 55, 126, 122⟩, idle := 0, last := 1, «before» := 2, twoCenters := true, pairedLast := true, cost := 5 }
-def s67711 : State := { f0 := (4, 5), f1 := (6, 1), f2 := (3, 2), tok := ⟨4, 3, 0, 6, 1, 2, 5⟩, seen := ⟨91, 43, 95, 77, 55, 126, 122⟩, idle := 0, last := 1, «before» := 2, twoCenters := true, pairedLast := true, cost := 5 }
-def s67712 : State := { f0 := (5, 2), f1 := (6, 1), f2 := (4, 3), tok := ⟨4, 3, 6, 0, 2, 1, 5⟩, seen := ⟨91, 43, 94, 13, 53, 122, 122⟩, idle := 0, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 4 }
 def s67713 : State := { f0 := (5, 2), f1 := (0, 6), f2 := (4, 3), tok := ⟨4, 5, 6, 0, 2, 1, 3⟩, seen := ⟨91, 35, 94, 13, 53, 122, 90⟩, idle := 1, last := 2, «before» := 1, twoCenters := true, pairedLast := true, cost := 3 }
 def s67714 : State := { f0 := (0, 5), f1 := (6, 2), f2 := (4, 3), tok := ⟨3, 5, 1, 0, 2, 6, 4⟩, seen := ⟨75, 35, 30, 13, 53, 120, 82⟩, idle := 1, last := 2, «before» := 1, twoCenters := true, pairedLast := true, cost := 2 }
-def s67715 : State := { f0 := (6, 0), f1 := (5, 4), f2 := (3, 1), tok := ⟨5, 6, 0, 4, 1, 2, 3⟩, seen := ⟨107, 115, 95, 93, 55, 126, 122⟩, idle := 2, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 6 }
-def s67716 : State := { f0 := (6, 0), f1 := (5, 4), f2 := (2, 3), tok := ⟨5, 4, 0, 6, 1, 2, 3⟩, seen := ⟨107, 51, 95, 77, 55, 126, 122⟩, idle := 1, last := 0, «before» := 1, twoCenters := true, pairedLast := true, cost := 5 }
-def s67717 : State := { f0 := (6, 0), f1 := (3, 1), f2 := (5, 4), tok := ⟨5, 6, 0, 4, 1, 2, 3⟩, seen := ⟨107, 115, 95, 93, 55, 126, 122⟩, idle := 2, last := 1, «before» := 0, twoCenters := true, pairedLast := false, cost := 6 }
-def s67718 : State := { f0 := (6, 0), f1 := (2, 3), f2 := (5, 4), tok := ⟨5, 4, 0, 6, 1, 2, 3⟩, seen := ⟨107, 51, 95, 77, 55, 126, 122⟩, idle := 1, last := 0, «before» := 1, twoCenters := true, pairedLast := true, cost := 5 }
-def s67719 : State := { f0 := (6, 0), f1 := (5, 2), f2 := (4, 3), tok := ⟨5, 4, 6, 0, 2, 1, 3⟩, seen := ⟨107, 51, 94, 13, 53, 122, 122⟩, idle := 1, last := 0, «before» := 1, twoCenters := true, pairedLast := false, cost := 4 }
-def s67720 : State := { f0 := (1, 4), f1 := (5, 2), f2 := (3, 0), tok := ⟨5, 2, 6, 4, 3, 1, 0⟩, seen := ⟨123, 63, 94, 61, 61, 122, 115⟩, idle := 6, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 6 }
-def s67721 : State := { f0 := (1, 4), f1 := (5, 2), f2 := (3, 6), tok := ⟨4, 2, 6, 5, 3, 1, 0⟩, seen := ⟨91, 63, 94, 45, 61, 122, 115⟩, idle := 0, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 5 }
-def s67722 : State := { f0 := (1, 0), f1 := (5, 6), f2 := (3, 2), tok := ⟨4, 3, 5, 6, 1, 0, 2⟩, seen := ⟨91, 59, 126, 109, 55, 127, 119⟩, idle := 4, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 6 }
-def s67723 : State := { f0 := (1, 0), f1 := (5, 4), f2 := (3, 2), tok := ⟨4, 3, 5, 6, 1, 2, 0⟩, seen := ⟨91, 59, 126, 109, 55, 126, 115⟩, idle := 6, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 5 }
-def s67724 : State := { f0 := (1, 0), f1 := (5, 4), f2 := (3, 6), tok := ⟨4, 3, 6, 5, 1, 2, 0⟩, seen := ⟨91, 59, 94, 45, 55, 126, 115⟩, idle := 2, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 4 }
-def s67725 : State := { f0 := (1, 0), f1 := (5, 2), f2 := (3, 6), tok := ⟨4, 3, 6, 5, 2, 1, 0⟩, seen := ⟨91, 59, 94, 45, 53, 122, 115⟩, idle := 4, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 4 }
-def s67726 : State := { f0 := (1, 0), f1 := (5, 4), f2 := (2, 6), tok := ⟨4, 3, 5, 6, 1, 2, 0⟩, seen := ⟨91, 59, 127, 77, 55, 126, 115⟩, idle := 3, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 6 }
-def s67727 : State := { f0 := (1, 0), f1 := (5, 4), f2 := (2, 3), tok := ⟨4, 3, 0, 6, 1, 2, 5⟩, seen := ⟨91, 59, 95, 77, 55, 126, 114⟩, idle := 6, last := 0, «before» := 1, twoCenters := true, pairedLast := true, cost := 5 }
-def s67728 : State := { f0 := (1, 0), f1 := (2, 6), f2 := (5, 4), tok := ⟨4, 3, 5, 6, 1, 2, 0⟩, seen := ⟨91, 59, 127, 77, 55, 126, 115⟩, idle := 3, last := 1, «before» := 0, twoCenters := true, pairedLast := false, cost := 6 }
-def s67729 : State := { f0 := (1, 0), f1 := (2, 3), f2 := (5, 4), tok := ⟨4, 3, 0, 6, 1, 2, 5⟩, seen := ⟨91, 59, 95, 77, 55, 126, 114⟩, idle := 6, last := 0, «before» := 1, twoCenters := true, pairedLast := true, cost := 5 }
-def s67730 : State := { f0 := (1, 0), f1 := (5, 2), f2 := (4, 3), tok := ⟨4, 3, 6, 0, 2, 1, 5⟩, seen := ⟨91, 59, 94, 13, 53, 122, 114⟩, idle := 6, last := 0, «before» := 1, twoCenters := true, pairedLast := false, cost := 4 }
-def s67731 : State := { f0 := (6, 3), f1 := (5, 2), f2 := (0, 1), tok := ⟨4, 2, 6, 5, 3, 1, 0⟩, seen := ⟨95, 55, 94, 45, 61, 122, 115⟩, idle := 4, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 4 }
-def s67732 : State := { f0 := (6, 3), f1 := (5, 2), f2 := (4, 0), tok := ⟨2, 4, 6, 5, 3, 1, 0⟩, seen := ⟨79, 51, 94, 45, 61, 122, 115⟩, idle := 1, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 3 }
-def s67733 : State := { f0 := (6, 1), f1 := (5, 3), f2 := (4, 0), tok := ⟨2, 4, 6, 1, 3, 0, 5⟩, seen := ⟨79, 51, 94, 15, 61, 123, 114⟩, idle := 2, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 4 }
-def s67734 : State := { f0 := (6, 1), f1 := (2, 3), f2 := (4, 0), tok := ⟨2, 4, 0, 6, 3, 1, 5⟩, seen := ⟨79, 51, 95, 77, 61, 122, 114⟩, idle := 5, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 4 }
-def s67735 : State := { f0 := (6, 1), f1 := (5, 2), f2 := (4, 0), tok := ⟨2, 4, 6, 0, 3, 1, 5⟩, seen := ⟨79, 51, 94, 13, 61, 122, 114⟩, idle := 3, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 3 }
-def s67736 : State := { f0 := (6, 1), f1 := (5, 2), f2 := (4, 3), tok := ⟨3, 4, 6, 0, 2, 1, 5⟩, seen := ⟨75, 51, 94, 13, 53, 122, 114⟩, idle := 0, last := 1, «before» := 0, twoCenters := true, pairedLast := false, cost := 3 }
-def s67737 : State := { f0 := (6, 2), f1 := (0, 1), f2 := (3, 5), tok := ⟨4, 2, 5, 6, 3, 1, 0⟩, seen := ⟨95, 55, 63, 79, 61, 122, 115⟩, idle := 4, last := 1, «before» := 0, twoCenters := true, pairedLast := false, cost := 5 }
-def s67738 : State := { f0 := (6, 2), f1 := (0, 4), f2 := (3, 1), tok := ⟨2, 6, 5, 4, 3, 1, 0⟩, seen := ⟨79, 115, 63, 95, 61, 122, 115⟩, idle := 5, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 6 }
-def s67739 : State := { f0 := (6, 2), f1 := (0, 4), f2 := (3, 5), tok := ⟨2, 4, 5, 6, 3, 1, 0⟩, seen := ⟨79, 51, 63, 79, 61, 122, 115⟩, idle := 1, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 5 }
-def s67740 : State := { f0 := (6, 1), f1 := (0, 4), f2 := (3, 5), tok := ⟨2, 4, 0, 6, 3, 1, 5⟩, seen := ⟨79, 51, 31, 79, 61, 122, 114⟩, idle := 2, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 5 }
-def s67741 : State := { f0 := (6, 1), f1 := (0, 4), f2 := (2, 5), tok := ⟨2, 4, 6, 1, 3, 0, 5⟩, seen := ⟨79, 51, 95, 15, 61, 121, 114⟩, idle := 3, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 5 }
-def s67742 : State := { f0 := (6, 1), f1 := (0, 4), f2 := (3, 2), tok := ⟨2, 4, 0, 1, 3, 6, 5⟩, seen := ⟨79, 51, 31, 15, 61, 120, 114⟩, idle := 5, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 4 }
-def s67743 : State := { f0 := (6, 0), f1 := (5, 4), f2 := (3, 2), tok := ⟨5, 4, 0, 1, 6, 2, 3⟩, seen := ⟨107, 51, 31, 15, 117, 124, 122⟩, idle := 1, last := 0, «before» := 1, twoCenters := true, pairedLast := false, cost := 4 }
-def s67744 : State := { f0 := (1, 0), f1 := (3, 2), f2 := (6, 5), tok := ⟨4, 3, 6, 5, 1, 0, 2⟩, seen := ⟨91, 59, 127, 111, 119, 125, 119⟩, idle := 4, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 6 }
-def s67745 : State := { f0 := (1, 0), f1 := (4, 3), f2 := (6, 5), tok := ⟨4, 3, 5, 6, 1, 0, 2⟩, seen := ⟨91, 59, 63, 79, 119, 125, 119⟩, idle := 2, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 5 }
-def s67746 : State := { f0 := (1, 0), f1 := (4, 3), f2 := (2, 6), tok := ⟨4, 3, 5, 6, 1, 2, 0⟩, seen := ⟨91, 59, 63, 79, 119, 124, 115⟩, idle := 5, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 4 }
-def s67747 : State := { f0 := (1, 0), f1 := (5, 4), f2 := (2, 6), tok := ⟨4, 3, 5, 1, 6, 2, 0⟩, seen := ⟨91, 59, 63, 15, 117, 124, 115⟩, idle := 3, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 4 }
-def s67748 : State := { f0 := (1, 0), f1 := (5, 4), f2 := (3, 2), tok := ⟨4, 3, 0, 1, 6, 2, 5⟩, seen := ⟨91, 59, 31, 15, 117, 124, 114⟩, idle := 6, last := 0, «before» := 1, twoCenters := true, pairedLast := false, cost := 4 }
-def s67749 : State := { f0 := (6, 1), f1 := (5, 4), f2 := (3, 2), tok := ⟨3, 4, 0, 1, 6, 2, 5⟩, seen := ⟨75, 51, 31, 15, 117, 124, 114⟩, idle := 0, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 4 }
-def s67750 : State := { f0 := (6, 1), f1 := (0, 5), f2 := (3, 2), tok := ⟨3, 4, 0, 1, 2, 6, 5⟩, seen := ⟨75, 51, 31, 15, 53, 120, 114⟩, idle := 4, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 4 }
-def s67751 : State := { f0 := (1, 3), f1 := (0, 4), f2 := (5, 2), tok := ⟨2, 6, 0, 4, 3, 1, 5⟩, seen := ⟨79, 115, 31, 93, 61, 123, 114⟩, idle := 6, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 6 }
-def s67752 : State := { f0 := (6, 1), f1 := (0, 4), f2 := (5, 2), tok := ⟨2, 4, 0, 6, 3, 1, 5⟩, seen := ⟨79, 51, 31, 77, 61, 123, 114⟩, idle := 3, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 5 }
-def s67753 : State := { f0 := (6, 1), f1 := (0, 4), f2 := (3, 2), tok := ⟨2, 4, 6, 1, 3, 0, 5⟩, seen := ⟨79, 51, 94, 79, 61, 121, 114⟩, idle := 5, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 5 }
-def s67754 : State := { f0 := (6, 1), f1 := (0, 4), f2 := (5, 3), tok := ⟨2, 4, 1, 6, 3, 0, 5⟩, seen := ⟨79, 51, 30, 77, 61, 121, 114⟩, idle := 2, last := 0, «before» := 2, twoCenters := true, pairedLast := true, cost := 4 }
-def s67755 : State := { f0 := (1, 3), f1 := (5, 2), f2 := (0, 4), tok := ⟨2, 6, 0, 4, 3, 1, 5⟩, seen := ⟨79, 115, 31, 93, 61, 123, 114⟩, idle := 6, last := 0, «before» := 1, twoCenters := true, pairedLast := false, cost := 6 }
-def s67756 : State := { f0 := (6, 1), f1 := (5, 2), f2 := (0, 4), tok := ⟨2, 4, 0, 6, 3, 1, 5⟩, seen := ⟨79, 51, 31, 77, 61, 123, 114⟩, idle := 3, last := 1, «before» := 0, twoCenters := true, pairedLast := false, cost := 5 }
-def s67757 : State := { f0 := (6, 1), f1 := (3, 2), f2 := (0, 4), tok := ⟨2, 4, 6, 1, 3, 0, 5⟩, seen := ⟨79, 51, 94, 79, 61, 121, 114⟩, idle := 5, last := 1, «before» := 0, twoCenters := true, pairedLast := false, cost := 5 }
-def s67758 : State := { f0 := (6, 1), f1 := (5, 3), f2 := (0, 4), tok := ⟨2, 4, 1, 6, 3, 0, 5⟩, seen := ⟨79, 51, 30, 77, 61, 121, 114⟩, idle := 2, last := 0, «before» := 2, twoCenters := true, pairedLast := true, cost := 4 }
 def s67759 : State := { f0 := (6, 1), f1 := (0, 5), f2 := (4, 3), tok := ⟨3, 4, 1, 0, 2, 6, 5⟩, seen := ⟨75, 51, 30, 13, 53, 120, 114⟩, idle := 2, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 3 }
-def s67760 : State := { f0 := (2, 3), f1 := (0, 6), f2 := (4, 1), tok := ⟨4, 2, 0, 6, 3, 1, 5⟩, seen := ⟨123, 47, 95, 77, 61, 122, 114⟩, idle := 5, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 4 }
-def s67761 : State := { f0 := (5, 3), f1 := (0, 6), f2 := (4, 1), tok := ⟨4, 2, 6, 1, 3, 0, 5⟩, seen := ⟨123, 47, 94, 15, 61, 123, 114⟩, idle := 2, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 4 }
-def s67762 : State := { f0 := (2, 5), f1 := (6, 3), f2 := (1, 0), tok := ⟨2, 4, 6, 5, 3, 1, 0⟩, seen := ⟨127, 63, 94, 45, 61, 122, 115⟩, idle := 4, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 6 }
-def s67763 : State := { f0 := (2, 5), f1 := (6, 3), f2 := (4, 1), tok := ⟨4, 2, 6, 5, 3, 1, 0⟩, seen := ⟨123, 47, 94, 45, 61, 122, 115⟩, idle := 0, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 5 }
-def s67764 : State := { f0 := (2, 5), f1 := (0, 6), f2 := (4, 1), tok := ⟨4, 2, 6, 0, 3, 1, 5⟩, seen := ⟨123, 47, 94, 13, 61, 122, 114⟩, idle := 3, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 4 }
-def s67765 : State := { f0 := (3, 2), f1 := (0, 6), f2 := (4, 5), tok := ⟨4, 3, 0, 6, 1, 2, 5⟩, seen := ⟨123, 43, 95, 77, 55, 126, 114⟩, idle := 1, last := 1, «before» := 0, twoCenters := true, pairedLast := true, cost := 5 }
-def s67766 : State := { f0 := (4, 5), f1 := (0, 6), f2 := (3, 2), tok := ⟨4, 3, 0, 6, 1, 2, 5⟩, seen := ⟨123, 43, 95, 77, 55, 126, 114⟩, idle := 1, last := 1, «before» := 0, twoCenters := true, pairedLast := true, cost := 5 }
-def s67767 : State := { f0 := (2, 5), f1 := (0, 6), f2 := (4, 3), tok := ⟨4, 3, 6, 0, 2, 1, 5⟩, seen := ⟨123, 43, 94, 13, 53, 122, 114⟩, idle := 1, last := 1, «before» := 0, twoCenters := true, pairedLast := false, cost := 4 }
-def s67768 : State := { f0 := (3, 2), f1 := (1, 6), f2 := (4, 5), tok := ⟨5, 4, 0, 6, 1, 2, 3⟩, seen := ⟨107, 59, 95, 77, 55, 126, 90⟩, idle := 0, last := 1, «before» := 0, twoCenters := true, pairedLast := true, cost := 5 }
-def s67769 : State := { f0 := (4, 5), f1 := (1, 6), f2 := (3, 2), tok := ⟨5, 4, 0, 6, 1, 2, 3⟩, seen := ⟨107, 59, 95, 77, 55, 126, 90⟩, idle := 0, last := 1, «before» := 0, twoCenters := true, pairedLast := true, cost := 5 }
-def s67770 : State := { f0 := (2, 5), f1 := (1, 6), f2 := (4, 3), tok := ⟨5, 4, 6, 0, 2, 1, 3⟩, seen := ⟨107, 59, 94, 13, 53, 122, 90⟩, idle := 0, last := 1, «before» := 0, twoCenters := true, pairedLast := false, cost := 4 }
-def s67771 : State := { f0 := (5, 4), f1 := (0, 1), f2 := (3, 6), tok := ⟨5, 3, 6, 4, 1, 2, 0⟩, seen := ⟨107, 43, 94, 29, 55, 126, 83⟩, idle := 2, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 4 }
-def s67772 : State := { f0 := (2, 5), f1 := (1, 4), f2 := (3, 0), tok := ⟨4, 2, 6, 5, 3, 1, 0⟩, seen := ⟨123, 47, 94, 61, 61, 122, 83⟩, idle := 6, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 4 }
-def s67773 : State := { f0 := (2, 5), f1 := (1, 4), f2 := (3, 6), tok := ⟨5, 2, 6, 4, 3, 1, 0⟩, seen := ⟨107, 47, 94, 29, 61, 122, 83⟩, idle := 0, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 3 }
-def s67774 : State := { f0 := (2, 5), f1 := (0, 1), f2 := (3, 6), tok := ⟨5, 3, 6, 4, 2, 1, 0⟩, seen := ⟨107, 43, 94, 29, 53, 122, 83⟩, idle := 4, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 3 }
-def s67775 : State := { f0 := (2, 5), f1 := (0, 1), f2 := (4, 3), tok := ⟨5, 3, 6, 0, 2, 1, 4⟩, seen := ⟨107, 43, 94, 13, 53, 122, 82⟩, idle := 6, last := 0, «before» := 1, twoCenters := true, pairedLast := false, cost := 3 }
-def s67776 : State := { f0 := (6, 5), f1 := (0, 1), f2 := (4, 2), tok := ⟨5, 3, 6, 4, 1, 0, 2⟩, seen := ⟨107, 43, 94, 29, 119, 125, 87⟩, idle := 3, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 6 }
-def s67777 : State := { f0 := (6, 3), f1 := (0, 1), f2 := (4, 2), tok := ⟨5, 3, 6, 4, 1, 2, 0⟩, seen := ⟨107, 43, 94, 29, 119, 124, 83⟩, idle := 5, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 5 }
-def s67778 : State := { f0 := (6, 3), f1 := (0, 1), f2 := (4, 5), tok := ⟨5, 3, 1, 4, 6, 2, 0⟩, seen := ⟨107, 43, 30, 29, 117, 124, 83⟩, idle := 2, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 4 }
-def s67779 : State := { f0 := (2, 3), f1 := (0, 6), f2 := (4, 1), tok := ⟨4, 6, 0, 1, 3, 2, 5⟩, seen := ⟨123, 107, 31, 15, 125, 124, 114⟩, idle := 5, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 4 }
-def s67780 : State := { f0 := (2, 3), f1 := (0, 6), f2 := (4, 5), tok := ⟨4, 3, 0, 1, 6, 2, 5⟩, seen := ⟨123, 43, 31, 15, 117, 124, 114⟩, idle := 1, last := 1, «before» := 0, twoCenters := true, pairedLast := false, cost := 4 }
-def s67781 : State := { f0 := (2, 3), f1 := (1, 6), f2 := (4, 5), tok := ⟨5, 4, 0, 1, 6, 2, 3⟩, seen := ⟨107, 59, 31, 15, 117, 124, 90⟩, idle := 0, last := 1, «before» := 0, twoCenters := true, pairedLast := false, cost := 4 }
-def s67782 : State := { f0 := (2, 3), f1 := (0, 1), f2 := (4, 5), tok := ⟨5, 3, 0, 1, 6, 2, 4⟩, seen := ⟨107, 43, 31, 15, 117, 124, 82⟩, idle := 6, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 4 }
-def s67783 : State := { f0 := (6, 2), f1 := (0, 1), f2 := (4, 5), tok := ⟨5, 3, 1, 0, 6, 2, 4⟩, seen := ⟨107, 43, 30, 13, 117, 124, 82⟩, idle := 3, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 4 }
-def s67784 : State := { f0 := (6, 0), f1 := (1, 4), f2 := (3, 2), tok := ⟨4, 2, 6, 1, 3, 0, 5⟩, seen := ⟨123, 47, 94, 79, 61, 121, 114⟩, idle := 5, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 5 }
-def s67785 : State := { f0 := (6, 0), f1 := (1, 4), f2 := (5, 2), tok := ⟨4, 2, 0, 6, 3, 1, 5⟩, seen := ⟨123, 47, 31, 77, 61, 123, 114⟩, idle := 3, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 5 }
-def s67786 : State := { f0 := (6, 0), f1 := (1, 4), f2 := (3, 5), tok := ⟨4, 2, 1, 6, 3, 0, 5⟩, seen := ⟨123, 47, 30, 77, 61, 121, 114⟩, idle := 2, last := 0, «before» := 1, twoCenters := true, pairedLast := false, cost := 5 }
-def s67787 : State := { f0 := (6, 2), f1 := (1, 4), f2 := (3, 5), tok := ⟨5, 2, 1, 6, 3, 0, 4⟩, seen := ⟨107, 47, 30, 77, 61, 121, 82⟩, idle := 0, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 5 }
-def s67788 : State := { f0 := (6, 2), f1 := (0, 1), f2 := (3, 5), tok := ⟨5, 3, 1, 6, 2, 0, 4⟩, seen := ⟨107, 43, 30, 77, 53, 121, 82⟩, idle := 4, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 4 }
 def s67789 : State := { f0 := (6, 2), f1 := (0, 1), f2 := (4, 3), tok := ⟨5, 3, 1, 0, 2, 6, 4⟩, seen := ⟨107, 43, 30, 13, 53, 120, 82⟩, idle := 5, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 3 }
-def s67790 : State := { f0 := (6, 1), f1 := (2, 3), f2 := (5, 4), tok := ⟨4, 3, 0, 6, 1, 2, 5⟩, seen := ⟨91, 43, 95, 77, 55, 126, 122⟩, idle := 0, last := 0, «before» := 2, twoCenters := true, pairedLast := true, cost := 5 }
-def s67791 : State := { f0 := (6, 1), f1 := (5, 4), f2 := (2, 3), tok := ⟨4, 3, 0, 6, 1, 2, 5⟩, seen := ⟨91, 43, 95, 77, 55, 126, 122⟩, idle := 0, last := 0, «before» := 2, twoCenters := true, pairedLast := true, cost := 5 }
-def s67792 : State := { f0 := (6, 1), f1 := (2, 5), f2 := (4, 3), tok := ⟨4, 3, 6, 0, 2, 1, 5⟩, seen := ⟨91, 43, 94, 13, 53, 122, 122⟩, idle := 0, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 4 }
-def s67793 : State := { f0 := (0, 1), f1 := (2, 3), f2 := (4, 6), tok := ⟨5, 4, 0, 6, 3, 1, 2⟩, seen := ⟨123, 51, 95, 77, 61, 122, 94⟩, idle := 5, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 5 }
-def s67794 : State := { f0 := (0, 1), f1 := (5, 3), f2 := (4, 6), tok := ⟨5, 4, 6, 1, 3, 0, 2⟩, seen := ⟨123, 51, 94, 15, 61, 123, 94⟩, idle := 2, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 5 }
-def s67795 : State := { f0 := (0, 1), f1 := (2, 5), f2 := (4, 6), tok := ⟨5, 4, 6, 0, 3, 1, 2⟩, seen := ⟨123, 51, 94, 13, 61, 122, 94⟩, idle := 3, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 5 }
-def s67796 : State := { f0 := (0, 1), f1 := (2, 3), f2 := (5, 4), tok := ⟨5, 4, 0, 6, 1, 2, 3⟩, seen := ⟨123, 51, 95, 77, 55, 126, 90⟩, idle := 6, last := 0, «before» := 2, twoCenters := true, pairedLast := true, cost := 5 }
-def s67797 : State := { f0 := (0, 1), f1 := (5, 4), f2 := (2, 3), tok := ⟨5, 4, 0, 6, 1, 2, 3⟩, seen := ⟨123, 51, 95, 77, 55, 126, 90⟩, idle := 6, last := 0, «before» := 2, twoCenters := true, pairedLast := true, cost := 5 }
-def s67798 : State := { f0 := (0, 1), f1 := (2, 5), f2 := (4, 3), tok := ⟨5, 4, 6, 0, 2, 1, 3⟩, seen := ⟨123, 51, 94, 13, 53, 122, 90⟩, idle := 6, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 4 }
-def s67799 : State := { f0 := (6, 0), f1 := (2, 3), f2 := (4, 5), tok := ⟨4, 6, 0, 5, 1, 2, 3⟩, seen := ⟨91, 99, 127, 45, 55, 126, 90⟩, idle := 1, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 6 }
-def s67800 : State := { f0 := (6, 0), f1 := (2, 1), f2 := (4, 5), tok := ⟨4, 6, 5, 0, 1, 2, 3⟩, seen := ⟨91, 99, 126, 13, 55, 126, 90⟩, idle := 3, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 5 }
-def s67801 : State := { f0 := (6, 4), f1 := (2, 1), f2 := (3, 5), tok := ⟨4, 6, 5, 1, 3, 0, 2⟩, seen := ⟨91, 99, 126, 15, 61, 123, 94⟩, idle := 0, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 5 }
-def s67802 : State := { f0 := (6, 0), f1 := (1, 4), f2 := (3, 5), tok := ⟨4, 2, 5, 1, 6, 0, 3⟩, seen := ⟨91, 103, 126, 15, 117, 123, 90⟩, idle := 2, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 6 }
-def s67803 : State := { f0 := (6, 0), f1 := (2, 1), f2 := (3, 5), tok := ⟨4, 6, 5, 1, 2, 0, 3⟩, seen := ⟨91, 99, 126, 15, 53, 123, 90⟩, idle := 4, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 5 }
-def s67804 : State := { f0 := (6, 0), f1 := (2, 1), f2 := (4, 3), tok := ⟨4, 6, 5, 0, 2, 1, 3⟩, seen := ⟨91, 99, 126, 13, 53, 122, 90⟩, idle := 5, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 4 }
 def s67805 : State := { f0 := (6, 0), f1 := (2, 5), f2 := (4, 3), tok := ⟨4, 5, 6, 0, 2, 1, 3⟩, seen := ⟨91, 35, 94, 13, 53, 122, 90⟩, idle := 1, last := 2, «before» := 1, twoCenters := true, pairedLast := true, cost := 3 }
-def s67806 : State := { f0 := (2, 3), f1 := (6, 0), f2 := (4, 5), tok := ⟨4, 6, 0, 5, 1, 2, 3⟩, seen := ⟨91, 99, 127, 45, 55, 126, 90⟩, idle := 1, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 6 }
-def s67807 : State := { f0 := (2, 1), f1 := (6, 0), f2 := (4, 5), tok := ⟨4, 6, 5, 0, 1, 2, 3⟩, seen := ⟨91, 99, 126, 13, 55, 126, 90⟩, idle := 3, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 5 }
-def s67808 : State := { f0 := (1, 4), f1 := (6, 0), f2 := (3, 5), tok := ⟨4, 2, 5, 1, 6, 0, 3⟩, seen := ⟨91, 103, 126, 15, 117, 123, 90⟩, idle := 2, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 6 }
-def s67809 : State := { f0 := (2, 1), f1 := (6, 4), f2 := (3, 5), tok := ⟨4, 6, 5, 1, 3, 0, 2⟩, seen := ⟨91, 99, 126, 15, 61, 123, 94⟩, idle := 0, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 5 }
-def s67810 : State := { f0 := (2, 1), f1 := (6, 0), f2 := (3, 5), tok := ⟨4, 6, 5, 1, 2, 0, 3⟩, seen := ⟨91, 99, 126, 15, 53, 123, 90⟩, idle := 4, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 5 }
-def s67811 : State := { f0 := (2, 1), f1 := (6, 0), f2 := (4, 3), tok := ⟨4, 6, 5, 0, 2, 1, 3⟩, seen := ⟨91, 99, 126, 13, 53, 122, 90⟩, idle := 5, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 4 }
-def s67812 : State := { f0 := (3, 2), f1 := (6, 1), f2 := (4, 5), tok := ⟨4, 3, 0, 6, 1, 2, 5⟩, seen := ⟨91, 43, 95, 77, 55, 126, 122⟩, idle := 0, last := 1, «before» := 2, twoCenters := true, pairedLast := true, cost := 5 }
-def s67813 : State := { f0 := (4, 5), f1 := (6, 1), f2 := (3, 2), tok := ⟨4, 3, 0, 6, 1, 2, 5⟩, seen := ⟨91, 43, 95, 77, 55, 126, 122⟩, idle := 0, last := 1, «before» := 2, twoCenters := true, pairedLast := true, cost := 5 }
-def s67814 : State := { f0 := (2, 5), f1 := (6, 1), f2 := (4, 3), tok := ⟨4, 3, 6, 0, 2, 1, 5⟩, seen := ⟨91, 43, 94, 13, 53, 122, 122⟩, idle := 0, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 4 }
-def s67815 : State := { f0 := (2, 3), f1 := (0, 1), f2 := (4, 6), tok := ⟨5, 4, 0, 6, 3, 1, 2⟩, seen := ⟨123, 51, 95, 77, 61, 122, 94⟩, idle := 5, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 5 }
-def s67816 : State := { f0 := (5, 3), f1 := (0, 1), f2 := (4, 6), tok := ⟨5, 4, 6, 1, 3, 0, 2⟩, seen := ⟨123, 51, 94, 15, 61, 123, 94⟩, idle := 2, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 5 }
-def s67817 : State := { f0 := (2, 5), f1 := (0, 1), f2 := (4, 6), tok := ⟨5, 4, 6, 0, 3, 1, 2⟩, seen := ⟨123, 51, 94, 13, 61, 122, 94⟩, idle := 3, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 5 }
-def s67818 : State := { f0 := (3, 2), f1 := (0, 1), f2 := (4, 5), tok := ⟨5, 4, 0, 6, 1, 2, 3⟩, seen := ⟨123, 51, 95, 77, 55, 126, 90⟩, idle := 6, last := 1, «before» := 2, twoCenters := true, pairedLast := true, cost := 5 }
-def s67819 : State := { f0 := (4, 5), f1 := (0, 1), f2 := (3, 2), tok := ⟨5, 4, 0, 6, 1, 2, 3⟩, seen := ⟨123, 51, 95, 77, 55, 126, 90⟩, idle := 6, last := 1, «before» := 2, twoCenters := true, pairedLast := true, cost := 5 }
-def s67820 : State := { f0 := (2, 5), f1 := (0, 1), f2 := (4, 3), tok := ⟨5, 4, 6, 0, 2, 1, 3⟩, seen := ⟨123, 51, 94, 13, 53, 122, 90⟩, idle := 6, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 4 }
 def s67821 : State := { f0 := (2, 5), f1 := (6, 0), f2 := (4, 3), tok := ⟨4, 5, 6, 0, 2, 1, 3⟩, seen := ⟨91, 35, 94, 13, 53, 122, 90⟩, idle := 1, last := 2, «before» := 1, twoCenters := true, pairedLast := true, cost := 3 }
 def s67822 : State := { f0 := (6, 2), f1 := (0, 5), f2 := (4, 3), tok := ⟨3, 5, 1, 0, 2, 6, 4⟩, seen := ⟨75, 35, 30, 13, 53, 120, 82⟩, idle := 1, last := 2, «before» := 1, twoCenters := true, pairedLast := true, cost := 2 }
 def s67823 : State := { f0 := (0, 6), f1 := (2, 5), f2 := (4, 3), tok := ⟨6, 5, 4, 0, 2, 3, 1⟩, seen := ⟨67, 35, 28, 13, 53, 56, 66⟩, idle := 1, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 1 }
-def s67824 : State := { f0 := (6, 3), f1 := (2, 5), f2 := (4, 0), tok := ⟨2, 6, 0, 4, 3, 1, 5⟩, seen := ⟨95, 103, 95, 60, 127, 59, 123⟩, idle := 1, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 6 }
-def s67825 : State := { f0 := (6, 3), f1 := (2, 5), f2 := (1, 4), tok := ⟨3, 6, 0, 4, 2, 1, 5⟩, seen := ⟨91, 103, 95, 60, 119, 59, 123⟩, idle := 0, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 5 }
-def s67826 : State := { f0 := (6, 0), f1 := (2, 3), f2 := (1, 4), tok := ⟨3, 6, 5, 0, 2, 1, 4⟩, seen := ⟨91, 103, 127, 45, 119, 59, 91⟩, idle := 5, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 6 }
-def s67827 : State := { f0 := (6, 0), f1 := (2, 5), f2 := (1, 4), tok := ⟨3, 6, 0, 5, 2, 1, 4⟩, seen := ⟨91, 103, 95, 44, 119, 59, 91⟩, idle := 3, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 5 }
-def s67828 : State := { f0 := (3, 6), f1 := (2, 5), f2 := (1, 0), tok := ⟨2, 3, 0, 4, 6, 1, 5⟩, seen := ⟨95, 47, 95, 60, 115, 59, 123⟩, idle := 4, last := 1, «before» := 0, twoCenters := true, pairedLast := true, cost := 6 }
-def s67829 : State := { f0 := (1, 0), f1 := (2, 5), f2 := (3, 6), tok := ⟨2, 3, 0, 4, 6, 1, 5⟩, seen := ⟨95, 47, 95, 60, 115, 59, 123⟩, idle := 4, last := 1, «before» := 0, twoCenters := true, pairedLast := true, cost := 6 }
-def s67830 : State := { f0 := (6, 0), f1 := (2, 5), f2 := (1, 3), tok := ⟨3, 2, 0, 5, 6, 1, 4⟩, seen := ⟨91, 39, 95, 44, 115, 59, 91⟩, idle := 4, last := 1, «before» := 0, twoCenters := true, pairedLast := false, cost := 5 }
-def s67831 : State := { f0 := (6, 0), f1 := (3, 5), f2 := (4, 1), tok := ⟨3, 6, 5, 0, 2, 1, 4⟩, seen := ⟨91, 103, 126, 47, 119, 59, 91⟩, idle := 2, last := 1, «before» := 0, twoCenters := true, pairedLast := false, cost := 6 }
-def s67832 : State := { f0 := (6, 0), f1 := (2, 3), f2 := (4, 1), tok := ⟨3, 6, 5, 1, 2, 0, 4⟩, seen := ⟨91, 103, 126, 46, 119, 57, 91⟩, idle := 5, last := 0, «before» := 1, twoCenters := true, pairedLast := true, cost := 5 }
-def s67833 : State := { f0 := (6, 0), f1 := (4, 1), f2 := (3, 5), tok := ⟨3, 6, 5, 0, 2, 1, 4⟩, seen := ⟨91, 103, 126, 47, 119, 59, 91⟩, idle := 2, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 6 }
-def s67834 : State := { f0 := (6, 0), f1 := (4, 1), f2 := (2, 3), tok := ⟨3, 6, 5, 1, 2, 0, 4⟩, seen := ⟨91, 103, 126, 46, 119, 57, 91⟩, idle := 5, last := 0, «before» := 1, twoCenters := true, pairedLast := true, cost := 5 }
-def s67835 : State := { f0 := (6, 0), f1 := (2, 4), f2 := (1, 3), tok := ⟨3, 2, 1, 5, 6, 0, 4⟩, seen := ⟨91, 39, 94, 44, 115, 57, 91⟩, idle := 5, last := 0, «before» := 1, twoCenters := true, pairedLast := false, cost := 4 }
-def s67836 : State := { f0 := (6, 5), f1 := (2, 3), f2 := (1, 0), tok := ⟨2, 4, 5, 1, 6, 0, 3⟩, seen := ⟨87, 55, 126, 46, 115, 57, 75⟩, idle := 4, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 4 }
-def s67837 : State := { f0 := (6, 5), f1 := (2, 4), f2 := (1, 0), tok := ⟨2, 4, 1, 5, 6, 0, 3⟩, seen := ⟨87, 55, 94, 44, 115, 57, 75⟩, idle := 3, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 3 }
-def s67838 : State := { f0 := (1, 3), f1 := (2, 5), f2 := (0, 4), tok := ⟨3, 4, 0, 6, 2, 1, 5⟩, seen := ⟨127, 127, 95, 124, 127, 59, 111⟩, idle := 6, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 6 }
-def s67839 : State := { f0 := (1, 3), f1 := (2, 5), f2 := (0, 6), tok := ⟨2, 4, 0, 6, 3, 1, 5⟩, seen := ⟨119, 127, 95, 124, 123, 59, 111⟩, idle := 4, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 5 }
-def s67840 : State := { f0 := (1, 4), f1 := (2, 5), f2 := (0, 6), tok := ⟨2, 6, 0, 4, 3, 1, 5⟩, seen := ⟨119, 111, 95, 60, 123, 59, 111⟩, idle := 3, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 4 }
-def s67841 : State := { f0 := (1, 4), f1 := (2, 5), f2 := (3, 0), tok := ⟨5, 6, 0, 4, 3, 1, 2⟩, seen := ⟨115, 111, 95, 60, 123, 59, 79⟩, idle := 6, last := 0, «before» := 1, twoCenters := true, pairedLast := false, cost := 4 }
-def s67842 : State := { f0 := (6, 1), f1 := (2, 5), f2 := (3, 0), tok := ⟨5, 3, 0, 4, 6, 1, 2⟩, seen := ⟨115, 47, 95, 60, 115, 59, 79⟩, idle := 4, last := 1, «before» := 0, twoCenters := true, pairedLast := false, cost := 3 }
-def s67843 : State := { f0 := (6, 1), f1 := (2, 4), f2 := (3, 0), tok := ⟨5, 3, 1, 4, 6, 0, 2⟩, seen := ⟨115, 47, 94, 60, 115, 57, 79⟩, idle := 5, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 3 }
-def s67844 : State := { f0 := (5, 2), f1 := (6, 0), f2 := (3, 1), tok := ⟨2, 4, 0, 6, 3, 1, 5⟩, seen := ⟨119, 119, 95, 124, 127, 59, 111⟩, idle := 4, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 6 }
-def s67845 : State := { f0 := (5, 2), f1 := (4, 6), f2 := (3, 1), tok := ⟨5, 4, 0, 6, 3, 1, 2⟩, seen := ⟨115, 119, 95, 124, 127, 59, 79⟩, idle := 0, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 5 }
-def s67846 : State := { f0 := (5, 2), f1 := (4, 6), f2 := (3, 0), tok := ⟨5, 6, 0, 4, 3, 1, 2⟩, seen := ⟨115, 103, 95, 60, 127, 59, 79⟩, idle := 1, last := 1, «before» := 0, twoCenters := true, pairedLast := false, cost := 5 }
-def s67847 : State := { f0 := (5, 2), f1 := (1, 3), f2 := (0, 4), tok := ⟨2, 4, 0, 6, 3, 1, 5⟩, seen := ⟨127, 119, 95, 124, 127, 59, 107⟩, idle := 6, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 5 }
-def s67848 : State := { f0 := (5, 2), f1 := (1, 3), f2 := (0, 6), tok := ⟨3, 4, 0, 6, 2, 1, 5⟩, seen := ⟨123, 119, 95, 124, 119, 59, 107⟩, idle := 4, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 4 }
-def s67849 : State := { f0 := (5, 2), f1 := (4, 1), f2 := (0, 6), tok := ⟨3, 6, 0, 4, 2, 1, 5⟩, seen := ⟨123, 103, 95, 60, 119, 59, 107⟩, idle := 3, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 4 }
-def s67850 : State := { f0 := (5, 2), f1 := (4, 1), f2 := (3, 0), tok := ⟨5, 6, 0, 4, 2, 1, 3⟩, seen := ⟨115, 103, 95, 60, 119, 59, 75⟩, idle := 6, last := 0, «before» := 1, twoCenters := true, pairedLast := false, cost := 4 }
-def s67851 : State := { f0 := (6, 5), f1 := (4, 1), f2 := (3, 0), tok := ⟨5, 6, 1, 4, 2, 0, 3⟩, seen := ⟨115, 103, 94, 60, 119, 57, 75⟩, idle := 2, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 4 }
-def s67852 : State := { f0 := (6, 5), f1 := (2, 4), f2 := (3, 0), tok := ⟨5, 2, 1, 4, 6, 0, 3⟩, seen := ⟨115, 39, 94, 60, 115, 57, 75⟩, idle := 1, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 3 }
 def s67853 : State := { f0 := (6, 5), f1 := (2, 4), f2 := (1, 3), tok := ⟨4, 2, 1, 5, 6, 0, 3⟩, seen := ⟨83, 39, 94, 44, 115, 57, 75⟩, idle := 0, last := 1, «before» := 0, twoCenters := true, pairedLast := false, cost := 3 }
 def s67854 : State := { f0 := (6, 5), f1 := (3, 4), f2 := (0, 1), tok := ⟨2, 4, 5, 1, 6, 0, 3⟩, seen := ⟨87, 55, 124, 110, 115, 57, 75⟩, idle := 2, last := 1, «before» := 0, twoCenters := true, pairedLast := false, cost := 4 }
 def s67855 : State := { f0 := (6, 5), f1 := (2, 3), f2 := (0, 1), tok := ⟨2, 4, 5, 6, 1, 0, 3⟩, seen := ⟨87, 55, 124, 108, 51, 57, 75⟩, idle := 4, last := 0, «before» := 1, twoCenters := true, pairedLast := true, cost := 3 }
 def s67856 : State := { f0 := (6, 5), f1 := (0, 1), f2 := (3, 4), tok := ⟨2, 4, 5, 1, 6, 0, 3⟩, seen := ⟨87, 55, 124, 110, 115, 57, 75⟩, idle := 2, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 4 }
 def s67857 : State := { f0 := (6, 5), f1 := (0, 1), f2 := (2, 3), tok := ⟨2, 4, 5, 6, 1, 0, 3⟩, seen := ⟨87, 55, 124, 108, 51, 57, 75⟩, idle := 4, last := 0, «before» := 1, twoCenters := true, pairedLast := true, cost := 3 }
 def s67858 : State := { f0 := (6, 5), f1 := (2, 0), f2 := (1, 3), tok := ⟨4, 2, 6, 5, 1, 0, 3⟩, seen := ⟨83, 39, 92, 44, 51, 57, 75⟩, idle := 4, last := 0, «before» := 1, twoCenters := true, pairedLast := false, cost := 2 }
-def s67859 : State := { f0 := (0, 6), f1 := (5, 4), f2 := (3, 2), tok := ⟨5, 4, 0, 1, 6, 2, 3⟩, seen := ⟨123, 63, 95, 47, 127, 126, 107⟩, idle := 1, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 5 }
-def s67860 : State := { f0 := (1, 0), f1 := (5, 4), f2 := (3, 2), tok := ⟨3, 4, 0, 1, 6, 2, 5⟩, seen := ⟨91, 63, 95, 47, 127, 126, 99⟩, idle := 6, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 5 }
-def s67861 : State := { f0 := (1, 0), f1 := (5, 4), f2 := (3, 6), tok := ⟨3, 4, 1, 0, 6, 2, 5⟩, seen := ⟨91, 63, 94, 45, 127, 126, 99⟩, idle := 2, last := 1, «before» := 0, twoCenters := true, pairedLast := false, cost := 5 }
-def s67862 : State := { f0 := (1, 0), f1 := (2, 5), f2 := (3, 6), tok := ⟨3, 4, 1, 0, 2, 6, 5⟩, seen := ⟨91, 63, 94, 45, 63, 122, 99⟩, idle := 4, last := 0, «before» := 1, twoCenters := true, pairedLast := false, cost := 4 }
-def s67863 : State := { f0 := (4, 5), f1 := (2, 3), f2 := (6, 1), tok := ⟨5, 4, 0, 1, 6, 2, 3⟩, seen := ⟨115, 63, 95, 47, 127, 126, 123⟩, idle := 0, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 4 }
-def s67864 : State := { f0 := (4, 5), f1 := (2, 3), f2 := (6, 0), tok := ⟨5, 3, 0, 1, 6, 2, 4⟩, seen := ⟨115, 47, 95, 47, 127, 126, 115⟩, idle := 1, last := 0, «before» := 1, twoCenters := true, pairedLast := false, cost := 4 }
-def s67865 : State := { f0 := (4, 1), f1 := (2, 3), f2 := (6, 0), tok := ⟨5, 3, 0, 1, 2, 6, 4⟩, seen := ⟨115, 47, 95, 47, 63, 122, 115⟩, idle := 5, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 4 }
-def s67866 : State := { f0 := (4, 1), f1 := (5, 3), f2 := (6, 0), tok := ⟨5, 3, 1, 6, 2, 0, 4⟩, seen := ⟨115, 47, 94, 109, 63, 123, 115⟩, idle := 2, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 4 }
-def s67867 : State := { f0 := (4, 1), f1 := (2, 5), f2 := (6, 0), tok := ⟨5, 3, 1, 0, 2, 6, 4⟩, seen := ⟨115, 47, 94, 45, 63, 122, 115⟩, idle := 3, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 3 }
-def s67868 : State := { f0 := (4, 1), f1 := (2, 5), f2 := (3, 6), tok := ⟨4, 3, 1, 0, 2, 6, 5⟩, seen := ⟨83, 47, 94, 45, 63, 122, 99⟩, idle := 0, last := 1, «before» := 0, twoCenters := true, pairedLast := false, cost := 3 }
-def s67869 : State := { f0 := (4, 1), f1 := (0, 6), f2 := (3, 2), tok := ⟨5, 3, 1, 6, 2, 0, 4⟩, seen := ⟨115, 47, 94, 111, 63, 59, 115⟩, idle := 5, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 5 }
-def s67870 : State := { f0 := (4, 1), f1 := (0, 6), f2 := (5, 2), tok := ⟨5, 3, 0, 1, 2, 6, 4⟩, seen := ⟨115, 47, 93, 47, 63, 123, 115⟩, idle := 3, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 5 }
-def s67871 : State := { f0 := (4, 1), f1 := (0, 6), f2 := (3, 5), tok := ⟨5, 3, 6, 1, 2, 0, 4⟩, seen := ⟨115, 47, 92, 47, 63, 59, 115⟩, idle := 2, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 4 }
-def s67872 : State := { f0 := (4, 1), f1 := (2, 0), f2 := (3, 5), tok := ⟨4, 3, 6, 1, 2, 0, 5⟩, seen := ⟨83, 47, 92, 47, 63, 59, 99⟩, idle := 6, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 4 }
-def s67873 : State := { f0 := (4, 1), f1 := (2, 5), f2 := (0, 6), tok := ⟨5, 3, 1, 6, 2, 0, 4⟩, seen := ⟨115, 47, 95, 109, 63, 59, 115⟩, idle := 3, last := 1, «before» := 0, twoCenters := true, pairedLast := false, cost := 5 }
-def s67874 : State := { f0 := (4, 1), f1 := (3, 5), f2 := (0, 6), tok := ⟨5, 3, 0, 1, 2, 6, 4⟩, seen := ⟨115, 47, 93, 111, 63, 122, 115⟩, idle := 2, last := 1, «before» := 0, twoCenters := true, pairedLast := false, cost := 5 }
-def s67875 : State := { f0 := (4, 1), f1 := (2, 3), f2 := (0, 6), tok := ⟨5, 3, 0, 6, 2, 1, 4⟩, seen := ⟨115, 47, 93, 109, 63, 58, 115⟩, idle := 5, last := 0, «before» := 2, twoCenters := true, pairedLast := true, cost := 4 }
-def s67876 : State := { f0 := (4, 1), f1 := (0, 6), f2 := (2, 5), tok := ⟨5, 3, 1, 6, 2, 0, 4⟩, seen := ⟨115, 47, 95, 109, 63, 59, 115⟩, idle := 3, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 5 }
-def s67877 : State := { f0 := (4, 1), f1 := (0, 6), f2 := (3, 5), tok := ⟨5, 3, 0, 1, 2, 6, 4⟩, seen := ⟨115, 47, 93, 111, 63, 122, 115⟩, idle := 2, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 5 }
-def s67878 : State := { f0 := (4, 1), f1 := (0, 6), f2 := (2, 3), tok := ⟨5, 3, 0, 6, 2, 1, 4⟩, seen := ⟨115, 47, 93, 109, 63, 58, 115⟩, idle := 5, last := 0, «before» := 2, twoCenters := true, pairedLast := true, cost := 4 }
-def s67879 : State := { f0 := (4, 1), f1 := (2, 0), f2 := (3, 6), tok := ⟨4, 3, 6, 0, 2, 1, 5⟩, seen := ⟨83, 47, 92, 45, 63, 58, 99⟩, idle := 5, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 3 }
-def s67880 : State := { f0 := (5, 2), f1 := (0, 4), f2 := (3, 6), tok := ⟨3, 4, 1, 0, 2, 6, 5⟩, seen := ⟨95, 55, 94, 45, 63, 122, 99⟩, idle := 1, last := 1, «before» := 0, twoCenters := true, pairedLast := false, cost := 3 }
-def s67881 : State := { f0 := (5, 2), f1 := (0, 1), f2 := (3, 6), tok := ⟨2, 4, 1, 0, 3, 6, 5⟩, seen := ⟨87, 55, 94, 45, 59, 122, 99⟩, idle := 4, last := 0, «before» := 1, twoCenters := true, pairedLast := false, cost := 2 }
-def s67882 : State := { f0 := (5, 2), f1 := (6, 4), f2 := (3, 1), tok := ⟨5, 6, 1, 4, 2, 0, 3⟩, seen := ⟨119, 119, 95, 125, 63, 59, 111⟩, idle := 0, last := 1, «before» := 0, twoCenters := true, pairedLast := false, cost := 5 }
-def s67883 : State := { f0 := (5, 2), f1 := (0, 6), f2 := (1, 4), tok := ⟨5, 3, 1, 4, 6, 0, 2⟩, seen := ⟨119, 127, 95, 125, 123, 59, 103⟩, idle := 3, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 6 }
-def s67884 : State := { f0 := (5, 2), f1 := (0, 6), f2 := (3, 1), tok := ⟨5, 6, 1, 4, 3, 0, 2⟩, seen := ⟨119, 119, 95, 125, 59, 59, 103⟩, idle := 4, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 5 }
-def s67885 : State := { f0 := (4, 5), f1 := (0, 6), f2 := (3, 1), tok := ⟨5, 6, 0, 4, 3, 1, 2⟩, seen := ⟨119, 119, 93, 125, 59, 58, 103⟩, idle := 2, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 5 }
-def s67886 : State := { f0 := (4, 5), f1 := (0, 6), f2 := (3, 2), tok := ⟨5, 4, 0, 6, 3, 1, 2⟩, seen := ⟨119, 55, 93, 109, 59, 58, 103⟩, idle := 1, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 4 }
-def s67887 : State := { f0 := (4, 5), f1 := (0, 1), f2 := (3, 2), tok := ⟨2, 4, 0, 6, 3, 1, 5⟩, seen := ⟨87, 55, 93, 109, 59, 58, 99⟩, idle := 6, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 3 }
-def s67888 : State := { f0 := (4, 5), f1 := (0, 1), f2 := (3, 6), tok := ⟨2, 4, 6, 0, 3, 1, 5⟩, seen := ⟨87, 55, 92, 45, 59, 58, 99⟩, idle := 2, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 2 }
 def s67889 : State := { f0 := (4, 5), f1 := (2, 0), f2 := (3, 6), tok := ⟨4, 2, 6, 0, 3, 1, 5⟩, seen := ⟨83, 39, 92, 45, 59, 58, 99⟩, idle := 1, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 2 }
 def s67890 : State := { f0 := (5, 3), f1 := (2, 6), f2 := (0, 4), tok := ⟨3, 4, 0, 1, 2, 6, 5⟩, seen := ⟨95, 55, 125, 110, 63, 122, 99⟩, idle := 1, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 5 }
 def s67891 : State := { f0 := (5, 3), f1 := (2, 6), f2 := (0, 1), tok := ⟨2, 4, 0, 1, 3, 6, 5⟩, seen := ⟨87, 55, 125, 110, 59, 122, 99⟩, idle := 4, last := 0, «before» := 1, twoCenters := true, pairedLast := false, cost := 5 }
 def s67892 : State := { f0 := (0, 6), f1 := (2, 5), f2 := (1, 3), tok := ⟨5, 6, 1, 4, 2, 0, 3⟩, seen := ⟨127, 119, 127, 124, 63, 59, 107⟩, idle := 4, last := 0, «before» := 1, twoCenters := true, pairedLast := false, cost := 5 }
 def s67893 : State := { f0 := (4, 0), f1 := (2, 5), f2 := (1, 3), tok := ⟨3, 6, 1, 4, 2, 0, 5⟩, seen := ⟨95, 119, 127, 124, 63, 59, 99⟩, idle := 6, last := 1, «before» := 0, twoCenters := true, pairedLast := false, cost := 4 }
 def s67894 : State := { f0 := (4, 0), f1 := (2, 6), f2 := (1, 3), tok := ⟨3, 6, 0, 4, 2, 1, 5⟩, seen := ⟨95, 119, 125, 124, 63, 58, 99⟩, idle := 5, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 4 }
-def s67895 : State := { f0 := (5, 2), f1 := (6, 4), f2 := (1, 3), tok := ⟨5, 6, 1, 4, 2, 0, 3⟩, seen := ⟨119, 119, 127, 124, 63, 59, 111⟩, idle := 0, last := 1, «before» := 0, twoCenters := true, pairedLast := false, cost := 6 }
 def s67896 : State := { f0 := (5, 2), f1 := (6, 0), f2 := (1, 4), tok := ⟨5, 3, 1, 4, 6, 0, 2⟩, seen := ⟨119, 127, 127, 124, 123, 59, 103⟩, idle := 3, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 5 }
 def s67897 : State := { f0 := (5, 2), f1 := (6, 0), f2 := (1, 3), tok := ⟨5, 6, 1, 4, 3, 0, 2⟩, seen := ⟨119, 119, 127, 124, 59, 59, 103⟩, idle := 4, last := 0, «before» := 1, twoCenters := true, pairedLast := false, cost := 5 }
 def s67898 : State := { f0 := (4, 5), f1 := (6, 0), f2 := (1, 3), tok := ⟨5, 6, 0, 4, 3, 1, 2⟩, seen := ⟨119, 119, 125, 124, 59, 58, 103⟩, idle := 2, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 5 }
@@ -421,5957 +91,1014 @@ def s67904 : State := { f0 := (0, 6), f1 := (1, 3), f2 := (2, 5), tok := ⟨5, 6
 def s67905 : State := { f0 := (4, 0), f1 := (1, 3), f2 := (2, 5), tok := ⟨3, 6, 1, 4, 2, 0, 5⟩, seen := ⟨95, 119, 127, 124, 63, 59, 99⟩, idle := 6, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 4 }
 def s67906 : State := { f0 := (4, 0), f1 := (1, 3), f2 := (2, 6), tok := ⟨3, 6, 0, 4, 2, 1, 5⟩, seen := ⟨95, 119, 125, 124, 63, 58, 99⟩, idle := 5, last := 0, «before» := 1, twoCenters := true, pairedLast := false, cost := 4 }
 def s67907 : State := { f0 := (5, 2), f1 := (1, 4), f2 := (6, 0), tok := ⟨5, 3, 1, 4, 6, 0, 2⟩, seen := ⟨119, 127, 127, 124, 123, 59, 103⟩, idle := 3, last := 1, «before» := 0, twoCenters := true, pairedLast := false, cost := 5 }
-def s67908 : State := { f0 := (5, 2), f1 := (1, 3), f2 := (6, 4), tok := ⟨5, 6, 1, 4, 2, 0, 3⟩, seen := ⟨119, 119, 127, 124, 63, 59, 111⟩, idle := 0, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 6 }
 def s67909 : State := { f0 := (5, 2), f1 := (1, 3), f2 := (6, 0), tok := ⟨5, 6, 1, 4, 3, 0, 2⟩, seen := ⟨119, 119, 127, 124, 59, 59, 103⟩, idle := 4, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 5 }
 def s67910 : State := { f0 := (4, 5), f1 := (1, 3), f2 := (6, 0), tok := ⟨5, 6, 0, 4, 3, 1, 2⟩, seen := ⟨119, 119, 125, 124, 59, 58, 103⟩, idle := 2, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 5 }
 def s67911 : State := { f0 := (4, 5), f1 := (1, 3), f2 := (2, 6), tok := ⟨2, 6, 0, 4, 3, 1, 5⟩, seen := ⟨87, 119, 125, 124, 59, 58, 99⟩, idle := 0, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 4 }
 def s67912 : State := { f0 := (4, 5), f1 := (0, 1), f2 := (2, 6), tok := ⟨2, 4, 0, 6, 3, 1, 5⟩, seen := ⟨87, 55, 125, 108, 59, 58, 99⟩, idle := 3, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 4 }
 def s67913 : State := { f0 := (4, 5), f1 := (0, 1), f2 := (2, 3), tok := ⟨2, 4, 5, 6, 3, 1, 0⟩, seen := ⟨87, 55, 124, 108, 59, 58, 67⟩, idle := 6, last := 0, «before» := 1, twoCenters := true, pairedLast := true, cost := 3 }
 def s67914 : State := { f0 := (4, 5), f1 := (2, 0), f2 := (1, 3), tok := ⟨4, 2, 6, 5, 3, 1, 0⟩, seen := ⟨83, 39, 92, 44, 59, 58, 67⟩, idle := 6, last := 0, «before» := 1, twoCenters := true, pairedLast := false, cost := 2 }
-def s67915 : State := { f0 := (6, 0), f1 := (2, 3), f2 := (1, 4), tok := ⟨5, 6, 0, 1, 3, 2, 4⟩, seen := ⟨115, 111, 95, 47, 123, 60, 115⟩, idle := 5, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 3 }
-def s67916 : State := { f0 := (6, 1), f1 := (2, 3), f2 := (5, 4), tok := ⟨5, 4, 0, 1, 2, 6, 3⟩, seen := ⟨115, 63, 95, 47, 119, 124, 123⟩, idle := 0, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 3 }
-def s67917 : State := { f0 := (6, 0), f1 := (2, 3), f2 := (5, 4), tok := ⟨5, 3, 0, 1, 2, 6, 4⟩, seen := ⟨115, 47, 95, 47, 119, 124, 115⟩, idle := 1, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 3 }
-def s67918 : State := { f0 := (6, 0), f1 := (2, 3), f2 := (1, 5), tok := ⟨5, 3, 0, 1, 6, 2, 4⟩, seen := ⟨115, 47, 95, 47, 115, 60, 115⟩, idle := 4, last := 1, «before» := 0, twoCenters := true, pairedLast := false, cost := 3 }
-def s67919 : State := { f0 := (6, 0), f1 := (2, 4), f2 := (1, 5), tok := ⟨5, 3, 1, 0, 6, 2, 4⟩, seen := ⟨115, 47, 94, 45, 115, 60, 115⟩, idle := 3, last := 0, «before» := 1, twoCenters := true, pairedLast := false, cost := 2 }
-def s67920 : State := { f0 := (3, 2), f1 := (4, 5), f2 := (0, 6), tok := ⟨5, 4, 0, 1, 2, 6, 3⟩, seen := ⟨123, 63, 95, 47, 119, 124, 107⟩, idle := 1, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 2 }
-def s67921 : State := { f0 := (3, 2), f1 := (4, 5), f2 := (1, 0), tok := ⟨3, 4, 0, 1, 2, 6, 5⟩, seen := ⟨91, 63, 95, 47, 119, 124, 99⟩, idle := 6, last := 0, «before» := 1, twoCenters := true, pairedLast := false, cost := 2 }
-def s67922 : State := { f0 := (6, 3), f1 := (4, 5), f2 := (1, 0), tok := ⟨3, 4, 1, 0, 2, 6, 5⟩, seen := ⟨91, 63, 94, 45, 119, 124, 99⟩, idle := 2, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 2 }
-def s67923 : State := { f0 := (6, 3), f1 := (2, 4), f2 := (1, 0), tok := ⟨3, 4, 1, 0, 6, 2, 5⟩, seen := ⟨91, 63, 94, 45, 115, 60, 99⟩, idle := 5, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 1 }
-def s67924 : State := { f0 := (6, 3), f1 := (2, 4), f2 := (1, 5), tok := ⟨4, 3, 1, 0, 6, 2, 5⟩, seen := ⟨83, 47, 94, 45, 115, 60, 99⟩, idle := 0, last := 1, «before» := 0, twoCenters := true, pairedLast := false, cost := 1 }
-def s67925 : State := { f0 := (3, 1), f1 := (6, 4), f2 := (5, 2), tok := ⟨5, 6, 1, 4, 3, 0, 2⟩, seen := ⟨123, 127, 95, 125, 63, 63, 111⟩, idle := 0, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 4 }
-def s67926 : State := { f0 := (3, 1), f1 := (0, 6), f2 := (5, 2), tok := ⟨5, 6, 1, 4, 2, 0, 3⟩, seen := ⟨123, 127, 95, 125, 55, 63, 107⟩, idle := 4, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 4 }
-def s67927 : State := { f0 := (3, 1), f1 := (0, 6), f2 := (5, 4), tok := ⟨5, 6, 0, 4, 2, 1, 3⟩, seen := ⟨123, 127, 93, 125, 55, 62, 107⟩, idle := 2, last := 0, «before» := 1, twoCenters := true, pairedLast := false, cost := 4 }
-def s67928 : State := { f0 := (3, 2), f1 := (0, 6), f2 := (5, 4), tok := ⟨5, 4, 0, 6, 2, 1, 3⟩, seen := ⟨123, 63, 93, 109, 55, 62, 107⟩, idle := 1, last := 1, «before» := 0, twoCenters := true, pairedLast := false, cost := 3 }
-def s67929 : State := { f0 := (3, 2), f1 := (0, 1), f2 := (5, 4), tok := ⟨3, 4, 0, 6, 2, 1, 5⟩, seen := ⟨91, 63, 93, 109, 55, 62, 99⟩, idle := 6, last := 0, «before» := 1, twoCenters := true, pairedLast := false, cost := 2 }
-def s67930 : State := { f0 := (6, 3), f1 := (0, 4), f2 := (5, 2), tok := ⟨2, 4, 1, 0, 3, 6, 5⟩, seen := ⟨95, 63, 94, 45, 63, 126, 99⟩, idle := 1, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 4 }
-def s67931 : State := { f0 := (6, 3), f1 := (0, 1), f2 := (5, 2), tok := ⟨3, 4, 1, 0, 2, 6, 5⟩, seen := ⟨91, 63, 94, 45, 55, 126, 99⟩, idle := 4, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 3 }
-def s67932 : State := { f0 := (6, 3), f1 := (0, 1), f2 := (5, 4), tok := ⟨3, 4, 6, 0, 2, 1, 5⟩, seen := ⟨91, 63, 92, 45, 55, 62, 99⟩, idle := 2, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 2 }
-def s67933 : State := { f0 := (6, 1), f1 := (3, 2), f2 := (5, 4), tok := ⟨5, 4, 0, 6, 2, 1, 3⟩, seen := ⟨115, 63, 93, 109, 55, 62, 123⟩, idle := 0, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 4 }
-def s67934 : State := { f0 := (6, 0), f1 := (3, 2), f2 := (5, 4), tok := ⟨5, 3, 0, 6, 2, 1, 4⟩, seen := ⟨115, 47, 93, 109, 55, 62, 115⟩, idle := 1, last := 2, «before» := 0, twoCenters := true, pairedLast := true, cost := 3 }
-def s67935 : State := { f0 := (3, 2), f1 := (6, 1), f2 := (5, 4), tok := ⟨5, 4, 0, 6, 2, 1, 3⟩, seen := ⟨115, 63, 93, 109, 55, 62, 123⟩, idle := 0, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 4 }
-def s67936 : State := { f0 := (3, 2), f1 := (6, 0), f2 := (5, 4), tok := ⟨5, 3, 0, 6, 2, 1, 4⟩, seen := ⟨115, 47, 93, 109, 55, 62, 115⟩, idle := 1, last := 2, «before» := 0, twoCenters := true, pairedLast := true, cost := 3 }
-def s67937 : State := { f0 := (6, 3), f1 := (2, 0), f2 := (5, 4), tok := ⟨4, 3, 6, 0, 2, 1, 5⟩, seen := ⟨83, 47, 92, 45, 55, 62, 99⟩, idle := 1, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 2 }
-def s67938 : State := { f0 := (6, 3), f1 := (2, 0), f2 := (1, 5), tok := ⟨4, 3, 6, 0, 1, 2, 5⟩, seen := ⟨83, 47, 92, 45, 51, 60, 99⟩, idle := 4, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 1 }
-def s67939 : State := { f0 := (6, 5), f1 := (3, 4), f2 := (1, 0), tok := ⟨3, 4, 5, 1, 6, 0, 2⟩, seen := ⟨91, 63, 124, 110, 115, 61, 71⟩, idle := 2, last := 1, «before» := 0, twoCenters := true, pairedLast := false, cost := 3 }
-def s67940 : State := { f0 := (6, 5), f1 := (2, 3), f2 := (1, 0), tok := ⟨3, 4, 5, 6, 1, 0, 2⟩, seen := ⟨91, 63, 124, 108, 51, 61, 71⟩, idle := 4, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 3 }
-def s67941 : State := { f0 := (5, 3), f1 := (2, 6), f2 := (0, 4), tok := ⟨2, 4, 0, 1, 3, 6, 5⟩, seen := ⟨95, 63, 125, 110, 63, 126, 99⟩, idle := 1, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 4 }
-def s67942 : State := { f0 := (5, 3), f1 := (2, 6), f2 := (1, 0), tok := ⟨3, 4, 0, 1, 2, 6, 5⟩, seen := ⟨91, 63, 125, 110, 55, 126, 99⟩, idle := 4, last := 0, «before» := 1, twoCenters := true, pairedLast := false, cost := 4 }
-def s67943 : State := { f0 := (0, 6), f1 := (2, 5), f2 := (1, 3), tok := ⟨5, 6, 1, 4, 3, 0, 2⟩, seen := ⟨127, 127, 127, 124, 63, 63, 103⟩, idle := 4, last := 0, «before» := 1, twoCenters := true, pairedLast := false, cost := 4 }
-def s67944 : State := { f0 := (4, 0), f1 := (2, 5), f2 := (1, 3), tok := ⟨2, 6, 1, 4, 3, 0, 5⟩, seen := ⟨95, 127, 127, 124, 63, 63, 99⟩, idle := 6, last := 1, «before» := 0, twoCenters := true, pairedLast := false, cost := 3 }
-def s67945 : State := { f0 := (4, 0), f1 := (2, 6), f2 := (1, 3), tok := ⟨2, 6, 0, 4, 3, 1, 5⟩, seen := ⟨95, 127, 125, 124, 63, 62, 99⟩, idle := 5, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 3 }
-def s67946 : State := { f0 := (5, 2), f1 := (6, 4), f2 := (1, 3), tok := ⟨5, 6, 1, 4, 3, 0, 2⟩, seen := ⟨123, 127, 127, 124, 63, 63, 111⟩, idle := 0, last := 1, «before» := 0, twoCenters := true, pairedLast := false, cost := 5 }
-def s67947 : State := { f0 := (5, 2), f1 := (6, 0), f2 := (1, 3), tok := ⟨5, 6, 1, 4, 2, 0, 3⟩, seen := ⟨123, 127, 127, 124, 55, 63, 107⟩, idle := 4, last := 0, «before» := 1, twoCenters := true, pairedLast := false, cost := 4 }
-def s67948 : State := { f0 := (4, 5), f1 := (6, 0), f2 := (1, 3), tok := ⟨5, 6, 0, 4, 2, 1, 3⟩, seen := ⟨123, 127, 125, 124, 55, 62, 107⟩, idle := 2, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 4 }
-def s67949 : State := { f0 := (4, 5), f1 := (2, 6), f2 := (1, 3), tok := ⟨3, 6, 0, 4, 2, 1, 5⟩, seen := ⟨91, 127, 125, 124, 55, 62, 99⟩, idle := 0, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 3 }
-def s67950 : State := { f0 := (4, 5), f1 := (2, 6), f2 := (1, 0), tok := ⟨3, 4, 0, 6, 2, 1, 5⟩, seen := ⟨91, 63, 125, 108, 55, 62, 99⟩, idle := 3, last := 1, «before» := 0, twoCenters := true, pairedLast := false, cost := 3 }
-def s67951 : State := { f0 := (4, 5), f1 := (2, 3), f2 := (1, 0), tok := ⟨3, 4, 5, 6, 2, 1, 0⟩, seen := ⟨91, 63, 124, 108, 55, 62, 67⟩, idle := 6, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 3 }
-def s67952 : State := { f0 := (2, 3), f1 := (4, 5), f2 := (0, 6), tok := ⟨5, 4, 1, 0, 2, 6, 3⟩, seen := ⟨123, 63, 127, 111, 119, 124, 107⟩, idle := 1, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 5 }
-def s67953 : State := { f0 := (2, 3), f1 := (4, 5), f2 := (1, 0), tok := ⟨3, 4, 1, 0, 2, 6, 5⟩, seen := ⟨91, 63, 127, 111, 119, 124, 99⟩, idle := 6, last := 0, «before» := 1, twoCenters := true, pairedLast := false, cost := 5 }
-def s67954 : State := { f0 := (6, 2), f1 := (4, 5), f2 := (1, 0), tok := ⟨3, 4, 0, 1, 2, 6, 5⟩, seen := ⟨91, 63, 125, 110, 119, 124, 99⟩, idle := 3, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 5 }
-def s67955 : State := { f0 := (6, 2), f1 := (4, 3), f2 := (1, 0), tok := ⟨3, 4, 0, 1, 6, 2, 5⟩, seen := ⟨91, 63, 125, 110, 115, 60, 99⟩, idle := 5, last := 2, «before» := 1, twoCenters := true, pairedLast := true, cost := 4 }
-def s67956 : State := { f0 := (4, 5), f1 := (2, 3), f2 := (0, 6), tok := ⟨5, 4, 1, 0, 2, 6, 3⟩, seen := ⟨123, 63, 127, 111, 119, 124, 107⟩, idle := 1, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 5 }
-def s67957 : State := { f0 := (4, 5), f1 := (2, 3), f2 := (1, 0), tok := ⟨3, 4, 1, 0, 2, 6, 5⟩, seen := ⟨91, 63, 127, 111, 119, 124, 99⟩, idle := 6, last := 1, «before» := 0, twoCenters := true, pairedLast := false, cost := 5 }
-def s67958 : State := { f0 := (4, 5), f1 := (6, 2), f2 := (1, 0), tok := ⟨3, 4, 0, 1, 2, 6, 5⟩, seen := ⟨91, 63, 125, 110, 119, 124, 99⟩, idle := 3, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 5 }
-def s67959 : State := { f0 := (4, 3), f1 := (6, 2), f2 := (1, 0), tok := ⟨3, 4, 0, 1, 6, 2, 5⟩, seen := ⟨91, 63, 125, 110, 115, 60, 99⟩, idle := 5, last := 2, «before» := 1, twoCenters := true, pairedLast := true, cost := 4 }
-def s67960 : State := { f0 := (6, 4), f1 := (2, 3), f2 := (1, 0), tok := ⟨3, 4, 5, 6, 1, 2, 0⟩, seen := ⟨91, 63, 124, 108, 51, 60, 67⟩, idle := 5, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 3 }
-def s67961 : State := { f0 := (6, 4), f1 := (2, 3), f2 := (1, 5), tok := ⟨4, 3, 5, 6, 1, 2, 0⟩, seen := ⟨83, 47, 124, 108, 51, 60, 67⟩, idle := 0, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 2 }
-def s67962 : State := { f0 := (4, 2), f1 := (3, 6), f2 := (1, 5), tok := ⟨5, 3, 1, 0, 6, 2, 4⟩, seen := ⟨115, 47, 94, 61, 115, 60, 83⟩, idle := 0, last := 1, «before» := 0, twoCenters := true, pairedLast := false, cost := 3 }
-def s67963 : State := { f0 := (6, 0), f1 := (3, 1), f2 := (5, 2), tok := ⟨3, 4, 0, 6, 2, 1, 5⟩, seen := ⟨123, 127, 95, 124, 127, 63, 111⟩, idle := 4, last := 0, «before» := 1, twoCenters := true, pairedLast := false, cost := 6 }
-def s67964 : State := { f0 := (4, 6), f1 := (3, 1), f2 := (5, 2), tok := ⟨5, 4, 0, 6, 2, 1, 3⟩, seen := ⟨115, 127, 95, 124, 127, 63, 79⟩, idle := 0, last := 1, «before» := 0, twoCenters := true, pairedLast := false, cost := 5 }
-def s67965 : State := { f0 := (4, 6), f1 := (0, 3), f2 := (5, 2), tok := ⟨5, 6, 0, 4, 2, 1, 3⟩, seen := ⟨115, 111, 95, 60, 127, 63, 79⟩, idle := 1, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 5 }
-def s67966 : State := { f0 := (1, 3), f1 := (0, 4), f2 := (5, 2), tok := ⟨3, 4, 0, 6, 2, 1, 5⟩, seen := ⟨127, 127, 95, 124, 127, 63, 103⟩, idle := 6, last := 1, «before» := 0, twoCenters := true, pairedLast := false, cost := 5 }
-def s67967 : State := { f0 := (1, 3), f1 := (0, 6), f2 := (5, 2), tok := ⟨2, 4, 0, 6, 3, 1, 5⟩, seen := ⟨119, 127, 95, 124, 123, 63, 103⟩, idle := 4, last := 0, «before» := 1, twoCenters := true, pairedLast := false, cost := 4 }
-def s67968 : State := { f0 := (4, 1), f1 := (0, 6), f2 := (5, 2), tok := ⟨2, 6, 0, 4, 3, 1, 5⟩, seen := ⟨119, 111, 95, 60, 123, 63, 103⟩, idle := 3, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 4 }
-def s67969 : State := { f0 := (4, 1), f1 := (0, 3), f2 := (5, 2), tok := ⟨5, 6, 0, 4, 3, 1, 2⟩, seen := ⟨115, 111, 95, 60, 123, 63, 71⟩, idle := 6, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 4 }
-def s67970 : State := { f0 := (4, 1), f1 := (0, 3), f2 := (5, 6), tok := ⟨5, 6, 1, 4, 3, 0, 2⟩, seen := ⟨115, 111, 94, 60, 123, 61, 71⟩, idle := 2, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 3 }
-def s67971 : State := { f0 := (4, 2), f1 := (0, 3), f2 := (5, 6), tok := ⟨5, 3, 1, 4, 6, 0, 2⟩, seen := ⟨115, 47, 94, 60, 115, 61, 71⟩, idle := 1, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 2 }
-def s67972 : State := { f0 := (4, 2), f1 := (0, 3), f2 := (1, 5), tok := ⟨5, 3, 1, 4, 6, 2, 0⟩, seen := ⟨115, 47, 94, 60, 115, 60, 67⟩, idle := 6, last := 0, «before» := 1, twoCenters := true, pairedLast := false, cost := 2 }
-def s67973 : State := { f0 := (6, 4), f1 := (0, 3), f2 := (1, 5), tok := ⟨5, 3, 6, 4, 1, 2, 0⟩, seen := ⟨115, 47, 92, 60, 51, 60, 67⟩, idle := 2, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 2 }
 def s67974 : State := { f0 := (6, 4), f1 := (2, 0), f2 := (1, 5), tok := ⟨4, 3, 6, 5, 1, 2, 0⟩, seen := ⟨83, 47, 92, 44, 51, 60, 67⟩, idle := 3, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 1 }
 def s67975 : State := { f0 := (6, 4), f1 := (2, 0), f2 := (1, 3), tok := ⟨4, 2, 6, 5, 1, 3, 0⟩, seen := ⟨83, 39, 92, 44, 51, 56, 67⟩, idle := 5, last := 1, «before» := 0, twoCenters := true, pairedLast := false, cost := 1 }
-def s67976 : State := { f0 := (0, 3), f1 := (5, 2), f2 := (4, 6), tok := ⟨5, 6, 1, 4, 3, 0, 2⟩, seen := ⟨123, 103, 31, 60, 127, 123, 95⟩, idle := 1, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 6 }
-def s67977 : State := { f0 := (0, 3), f1 := (5, 2), f2 := (1, 4), tok := ⟨5, 6, 1, 4, 2, 0, 3⟩, seen := ⟨123, 103, 31, 60, 119, 123, 91⟩, idle := 6, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 5 }
-def s67978 : State := { f0 := (6, 0), f1 := (2, 3), f2 := (1, 4), tok := ⟨4, 6, 5, 1, 2, 0, 3⟩, seen := ⟨91, 103, 63, 46, 119, 123, 91⟩, idle := 5, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 6 }
-def s67979 : State := { f0 := (6, 0), f1 := (5, 2), f2 := (1, 4), tok := ⟨4, 6, 1, 5, 2, 0, 3⟩, seen := ⟨91, 103, 31, 44, 119, 123, 91⟩, idle := 3, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 5 }
-def s67980 : State := { f0 := (3, 0), f1 := (5, 2), f2 := (1, 6), tok := ⟨5, 3, 1, 4, 6, 0, 2⟩, seen := ⟨123, 47, 31, 60, 115, 123, 95⟩, idle := 4, last := 1, «before» := 0, twoCenters := true, pairedLast := true, cost := 6 }
-def s67981 : State := { f0 := (1, 6), f1 := (5, 2), f2 := (3, 0), tok := ⟨5, 3, 1, 4, 6, 0, 2⟩, seen := ⟨123, 47, 31, 60, 115, 123, 95⟩, idle := 4, last := 1, «before» := 0, twoCenters := true, pairedLast := true, cost := 6 }
-def s67982 : State := { f0 := (6, 0), f1 := (5, 2), f2 := (1, 3), tok := ⟨4, 2, 1, 5, 6, 0, 3⟩, seen := ⟨91, 39, 31, 44, 115, 123, 91⟩, idle := 4, last := 1, «before» := 0, twoCenters := true, pairedLast := false, cost := 5 }
-def s67983 : State := { f0 := (6, 1), f1 := (5, 4), f2 := (3, 2), tok := ⟨4, 3, 5, 0, 6, 1, 2⟩, seen := ⟨91, 47, 61, 45, 115, 122, 95⟩, idle := 0, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 5 }
-def s67984 : State := { f0 := (0, 1), f1 := (5, 4), f2 := (3, 2), tok := ⟨2, 4, 5, 0, 6, 1, 3⟩, seen := ⟨95, 55, 61, 45, 115, 122, 91⟩, idle := 6, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 5 }
-def s67985 : State := { f0 := (6, 0), f1 := (4, 1), f2 := (3, 5), tok := ⟨4, 6, 5, 1, 2, 0, 3⟩, seen := ⟨91, 103, 61, 47, 119, 123, 91⟩, idle := 2, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 5 }
-def s67986 : State := { f0 := (6, 0), f1 := (4, 1), f2 := (3, 2), tok := ⟨4, 6, 5, 0, 2, 1, 3⟩, seen := ⟨91, 103, 61, 45, 119, 122, 91⟩, idle := 5, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 4 }
-def s67987 : State := { f0 := (6, 0), f1 := (5, 4), f2 := (3, 2), tok := ⟨4, 2, 5, 0, 6, 1, 3⟩, seen := ⟨91, 39, 61, 45, 115, 122, 91⟩, idle := 1, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 4 }
-def s67988 : State := { f0 := (6, 0), f1 := (5, 4), f2 := (1, 3), tok := ⟨4, 2, 0, 5, 6, 1, 3⟩, seen := ⟨91, 39, 29, 44, 115, 122, 91⟩, idle := 2, last := 0, «before» := 1, twoCenters := true, pairedLast := false, cost := 4 }
-def s67989 : State := { f0 := (6, 4), f1 := (5, 2), f2 := (1, 3), tok := ⟨5, 4, 1, 6, 2, 0, 3⟩, seen := ⟨111, 127, 31, 124, 127, 123, 127⟩, idle := 0, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 5 }
-def s67990 : State := { f0 := (6, 0), f1 := (5, 2), f2 := (1, 3), tok := ⟨5, 4, 1, 6, 3, 0, 2⟩, seen := ⟨111, 127, 31, 124, 123, 123, 119⟩, idle := 4, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 4 }
-def s67991 : State := { f0 := (6, 0), f1 := (5, 2), f2 := (1, 4), tok := ⟨5, 6, 1, 4, 3, 0, 2⟩, seen := ⟨111, 111, 31, 60, 123, 123, 119⟩, idle := 3, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 3 }
-def s67992 : State := { f0 := (6, 3), f1 := (5, 2), f2 := (1, 4), tok := ⟨2, 6, 1, 4, 3, 0, 5⟩, seen := ⟨79, 111, 31, 60, 123, 123, 115⟩, idle := 0, last := 2, «before» := 1, twoCenters := true, pairedLast := false, cost := 3 }
-def s67993 : State := { f0 := (6, 3), f1 := (5, 2), f2 := (1, 0), tok := ⟨2, 3, 1, 4, 6, 0, 5⟩, seen := ⟨79, 47, 31, 60, 115, 123, 115⟩, idle := 4, last := 1, «before» := 0, twoCenters := true, pairedLast := false, cost := 3 }
-def s67994 : State := { f0 := (6, 3), f1 := (5, 4), f2 := (1, 0), tok := ⟨2, 3, 0, 4, 6, 1, 5⟩, seen := ⟨79, 47, 29, 60, 115, 122, 115⟩, idle := 2, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 3 }
-def s67995 : State := { f0 := (2, 3), f1 := (5, 4), f2 := (1, 6), tok := ⟨2, 4, 5, 0, 6, 1, 3⟩, seen := ⟨79, 63, 61, 45, 115, 122, 91⟩, idle := 0, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 4 }
-def s67996 : State := { f0 := (3, 5), f1 := (4, 1), f2 := (0, 6), tok := ⟨4, 6, 5, 1, 3, 0, 2⟩, seen := ⟨95, 111, 61, 47, 123, 123, 87⟩, idle := 2, last := 0, «before» := 1, twoCenters := true, pairedLast := false, cost := 4 }
-def s67997 : State := { f0 := (2, 3), f1 := (4, 1), f2 := (0, 6), tok := ⟨4, 6, 5, 0, 3, 1, 2⟩, seen := ⟨95, 111, 61, 45, 123, 122, 87⟩, idle := 5, last := 1, «before» := 2, twoCenters := true, pairedLast := false, cost := 4 }
-def s67998 : State := { f0 := (2, 3), f1 := (5, 4), f2 := (0, 6), tok := ⟨4, 3, 5, 0, 6, 1, 2⟩, seen := ⟨95, 47, 61, 45, 115, 122, 87⟩, idle := 1, last := 2, «before» := 0, twoCenters := true, pairedLast := false, cost := 4 }
-def s67999 : State := { f0 := (2, 3), f1 := (5, 4), f2 := (1, 0), tok := ⟨2, 3, 5, 0, 6, 1, 4⟩, seen := ⟨79, 47, 61, 45, 115, 122, 83⟩, idle := 6, last := 0, «before» := 2, twoCenters := true, pairedLast := false, cost := 3 }
-
-theorem safeNode67500 : safe 5 4 s67500 = true := by
-  exact safe_cost_exceeded 5 4 s67500 (by decide)
 
 theorem safeNode67501 : safe 5 5 s67501 = true := by
-  have hcenter00 : center s67501 0 false = none := by rfl
-  have hcenter01 : center s67501 0 true = none := by rfl
-  have hcenter10 : center s67501 1 false = none := by rfl
-  have hcenter11 : center s67501 1 true = none := by rfl
-  have hcenter20 : center s67501 2 false = none := by rfl
-  have hcenter21 : center s67501 2 true = some s67500 := by rfl
-  have hpaired00 : paired s67501 false false = none := by rfl
-  have hpaired01 : paired s67501 false true = none := by rfl
-  have hpaired10 : paired s67501 true false = none := by rfl
-  have hpaired11 : paired s67501 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_some_eq hcenter21 safeNode67500) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 3 s67501
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67502 : safe 5 6 s67502 = true := by
-  have hcenter00 : center s67502 0 false = some s67501 := by rfl
-  have hcenter01 : center s67502 0 true = none := by rfl
-  have hcenter10 : center s67502 1 false = none := by rfl
-  have hcenter11 : center s67502 1 true = none := by rfl
-  have hcenter20 : center s67502 2 false = none := by rfl
-  have hcenter21 : center s67502 2 true = none := by rfl
-  have hpaired00 : paired s67502 false false = none := by rfl
-  have hpaired01 : paired s67502 false true = none := by rfl
-  have hpaired10 : paired s67502 true false = none := by rfl
-  have hpaired11 : paired s67502 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67501) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 4 s67502
+    (optionAll_some_eq (o := center s67502 0 false) (t := s67501) (by rfl) safeNode67501)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67503 : safe 5 7 s67503 = true := by
-  have hcenter00 : center s67503 0 false = none := by rfl
-  have hcenter01 : center s67503 0 true = some s67499 := by rfl
-  have hcenter10 : center s67503 1 false = none := by rfl
-  have hcenter11 : center s67503 1 true = none := by rfl
-  have hcenter20 : center s67503 2 false = some s67502 := by rfl
-  have hcenter21 : center s67503 2 true = none := by rfl
-  have hpaired00 : paired s67503 false false = none := by rfl
-  have hpaired01 : paired s67503 false true = none := by rfl
-  have hpaired10 : paired s67503 true false = none := by rfl
-  have hpaired11 : paired s67503 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_some_eq hcenter01 safeNode67499) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67502) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 5 s67503
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (optionAll_some_eq (o := center s67503 2 false) (t := s67502) (by rfl) safeNode67502)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67504 : safe 5 8 s67504 = true := by
-  have hcenter00 : center s67504 0 false = none := by rfl
-  have hcenter01 : center s67504 0 true = none := by rfl
-  have hcenter10 : center s67504 1 false = some s67503 := by rfl
-  have hcenter11 : center s67504 1 true = none := by rfl
-  have hcenter20 : center s67504 2 false = none := by rfl
-  have hcenter21 : center s67504 2 true = none := by rfl
-  have hpaired00 : paired s67504 false false = none := by rfl
-  have hpaired01 : paired s67504 false true = none := by rfl
-  have hpaired10 : paired s67504 true false = none := by rfl
-  have hpaired11 : paired s67504 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67503) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 6 s67504
+    (Eq.refl true)
+    (Eq.refl true)
+    (optionAll_some_eq (o := center s67504 1 false) (t := s67503) (by rfl) safeNode67503)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67505 : safe 5 7 s67505 = true := by
-  have hcenter00 : center s67505 0 false = none := by rfl
-  have hcenter01 : center s67505 0 true = none := by rfl
-  have hcenter10 : center s67505 1 false = none := by rfl
-  have hcenter11 : center s67505 1 true = none := by rfl
-  have hcenter20 : center s67505 2 false = none := by rfl
-  have hcenter21 : center s67505 2 true = none := by rfl
-  have hpaired00 : paired s67505 false false = none := by rfl
-  have hpaired01 : paired s67505 false true = none := by rfl
-  have hpaired10 : paired s67505 true false = none := by rfl
-  have hpaired11 : paired s67505 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67506 : safe 5 5 s67506 = true := by
-  exact safe_cost_exceeded 5 5 s67506 (by decide)
-
-theorem safeNode67507 : safe 5 4 s67507 = true := by
-  exact safe_cost_exceeded 5 4 s67507 (by decide)
+  exact @safe_step_two 5 5 s67505
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67508 : safe 5 5 s67508 = true := by
-  have hcenter00 : center s67508 0 false = none := by rfl
-  have hcenter01 : center s67508 0 true = none := by rfl
-  have hcenter10 : center s67508 1 false = none := by rfl
-  have hcenter11 : center s67508 1 true = some s67507 := by rfl
-  have hcenter20 : center s67508 2 false = none := by rfl
-  have hcenter21 : center s67508 2 true = none := by rfl
-  have hpaired00 : paired s67508 false false = none := by rfl
-  have hpaired01 : paired s67508 false true = none := by rfl
-  have hpaired10 : paired s67508 true false = none := by rfl
-  have hpaired11 : paired s67508 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_some_eq hcenter11 safeNode67507) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 3 s67508
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67509 : safe 5 6 s67509 = true := by
-  have hcenter00 : center s67509 0 false = some s67506 := by rfl
-  have hcenter01 : center s67509 0 true = none := by rfl
-  have hcenter10 : center s67509 1 false = none := by rfl
-  have hcenter11 : center s67509 1 true = none := by rfl
-  have hcenter20 : center s67509 2 false = some s67508 := by rfl
-  have hcenter21 : center s67509 2 true = none := by rfl
-  have hpaired00 : paired s67509 false false = none := by rfl
-  have hpaired01 : paired s67509 false true = none := by rfl
-  have hpaired10 : paired s67509 true false = none := by rfl
-  have hpaired11 : paired s67509 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67506) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67508) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 4 s67509
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (optionAll_some_eq (o := center s67509 2 false) (t := s67508) (by rfl) safeNode67508)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67510 : safe 5 7 s67510 = true := by
-  have hcenter00 : center s67510 0 false = none := by rfl
-  have hcenter01 : center s67510 0 true = none := by rfl
-  have hcenter10 : center s67510 1 false = some s67509 := by rfl
-  have hcenter11 : center s67510 1 true = none := by rfl
-  have hcenter20 : center s67510 2 false = none := by rfl
-  have hcenter21 : center s67510 2 true = none := by rfl
-  have hpaired00 : paired s67510 false false = none := by rfl
-  have hpaired01 : paired s67510 false true = none := by rfl
-  have hpaired10 : paired s67510 true false = none := by rfl
-  have hpaired11 : paired s67510 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67509) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 5 s67510
+    (Eq.refl true)
+    (Eq.refl true)
+    (optionAll_some_eq (o := center s67510 1 false) (t := s67509) (by rfl) safeNode67509)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67511 : safe 5 8 s67511 = true := by
-  have hcenter00 : center s67511 0 false = some s67505 := by rfl
-  have hcenter01 : center s67511 0 true = some s67510 := by rfl
-  have hcenter10 : center s67511 1 false = none := by rfl
-  have hcenter11 : center s67511 1 true = none := by rfl
-  have hcenter20 : center s67511 2 false = none := by rfl
-  have hcenter21 : center s67511 2 true = none := by rfl
-  have hpaired00 : paired s67511 false false = none := by rfl
-  have hpaired01 : paired s67511 false true = none := by rfl
-  have hpaired10 : paired s67511 true false = none := by rfl
-  have hpaired11 : paired s67511 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67505) (optionAll_some_eq hcenter01 safeNode67510) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 6 s67511
+    (optionAll_some_eq (o := center s67511 0 false) (t := s67505) (by rfl) safeNode67505)
+    (optionAll_some_eq (o := center s67511 0 true) (t := s67510) (by rfl) safeNode67510)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67512 : safe 5 9 s67512 = true := by
-  have hcenter00 : center s67512 0 false = some s67504 := by rfl
-  have hcenter01 : center s67512 0 true = none := by rfl
-  have hcenter10 : center s67512 1 false = none := by rfl
-  have hcenter11 : center s67512 1 true = some s67511 := by rfl
-  have hcenter20 : center s67512 2 false = none := by rfl
-  have hcenter21 : center s67512 2 true = none := by rfl
-  have hpaired00 : paired s67512 false false = none := by rfl
-  have hpaired01 : paired s67512 false true = none := by rfl
-  have hpaired10 : paired s67512 true false = none := by rfl
-  have hpaired11 : paired s67512 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67504) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_some_eq hcenter11 safeNode67511) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 7 s67512
+    (optionAll_some_eq (o := center s67512 0 false) (t := s67504) (by rfl) safeNode67504)
+    (Eq.refl true)
+    (Eq.refl true)
+    (optionAll_some_eq (o := center s67512 1 true) (t := s67511) (by rfl) safeNode67511)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67513 : safe 5 6 s67513 = true := by
-  have hcenter00 : center s67513 0 false = none := by rfl
-  have hcenter01 : center s67513 0 true = none := by rfl
-  have hcenter10 : center s67513 1 false = none := by rfl
-  have hcenter11 : center s67513 1 true = none := by rfl
-  have hcenter20 : center s67513 2 false = none := by rfl
-  have hcenter21 : center s67513 2 true = none := by rfl
-  have hpaired00 : paired s67513 false false = none := by rfl
-  have hpaired01 : paired s67513 false true = none := by rfl
-  have hpaired10 : paired s67513 true false = none := by rfl
-  have hpaired11 : paired s67513 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 4 s67513
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67514 : safe 5 6 s67514 = true := by
-  have hcenter00 : center s67514 0 false = none := by rfl
-  have hcenter01 : center s67514 0 true = none := by rfl
-  have hcenter10 : center s67514 1 false = none := by rfl
-  have hcenter11 : center s67514 1 true = none := by rfl
-  have hcenter20 : center s67514 2 false = none := by rfl
-  have hcenter21 : center s67514 2 true = none := by rfl
-  have hpaired00 : paired s67514 false false = none := by rfl
-  have hpaired01 : paired s67514 false true = none := by rfl
-  have hpaired10 : paired s67514 true false = none := by rfl
-  have hpaired11 : paired s67514 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 4 s67514
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67515 : safe 5 7 s67515 = true := by
-  have hcenter00 : center s67515 0 false = none := by rfl
-  have hcenter01 : center s67515 0 true = none := by rfl
-  have hcenter10 : center s67515 1 false = none := by rfl
-  have hcenter11 : center s67515 1 true = none := by rfl
-  have hcenter20 : center s67515 2 false = some s67513 := by rfl
-  have hcenter21 : center s67515 2 true = some s67514 := by rfl
-  have hpaired00 : paired s67515 false false = none := by rfl
-  have hpaired01 : paired s67515 false true = none := by rfl
-  have hpaired10 : paired s67515 true false = none := by rfl
-  have hpaired11 : paired s67515 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67513) (optionAll_some_eq hcenter21 safeNode67514) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 5 s67515
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (optionAll_some_eq (o := center s67515 2 false) (t := s67513) (by rfl) safeNode67513)
+    (optionAll_some_eq (o := center s67515 2 true) (t := s67514) (by rfl) safeNode67514)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67516 : safe 5 8 s67516 = true := by
-  have hcenter00 : center s67516 0 false = none := by rfl
-  have hcenter01 : center s67516 0 true = none := by rfl
-  have hcenter10 : center s67516 1 false = some s67515 := by rfl
-  have hcenter11 : center s67516 1 true = none := by rfl
-  have hcenter20 : center s67516 2 false = none := by rfl
-  have hcenter21 : center s67516 2 true = none := by rfl
-  have hpaired00 : paired s67516 false false = none := by rfl
-  have hpaired01 : paired s67516 false true = none := by rfl
-  have hpaired10 : paired s67516 true false = none := by rfl
-  have hpaired11 : paired s67516 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67515) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 6 s67516
+    (Eq.refl true)
+    (Eq.refl true)
+    (optionAll_some_eq (o := center s67516 1 false) (t := s67515) (by rfl) safeNode67515)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67517 : safe 5 9 s67517 = true := by
-  have hcenter00 : center s67517 0 false = none := by rfl
-  have hcenter01 : center s67517 0 true = some s67516 := by rfl
-  have hcenter10 : center s67517 1 false = none := by rfl
-  have hcenter11 : center s67517 1 true = none := by rfl
-  have hcenter20 : center s67517 2 false = none := by rfl
-  have hcenter21 : center s67517 2 true = none := by rfl
-  have hpaired00 : paired s67517 false false = none := by rfl
-  have hpaired01 : paired s67517 false true = none := by rfl
-  have hpaired10 : paired s67517 true false = none := by rfl
-  have hpaired11 : paired s67517 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_some_eq hcenter01 safeNode67516) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 7 s67517
+    (Eq.refl true)
+    (optionAll_some_eq (o := center s67517 0 true) (t := s67516) (by rfl) safeNode67516)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67518 : safe 5 10 s67518 = true := by
-  have hcenter00 : center s67518 0 false = none := by rfl
-  have hcenter01 : center s67518 0 true = none := by rfl
-  have hcenter10 : center s67518 1 false = none := by rfl
-  have hcenter11 : center s67518 1 true = some s67498 := by rfl
-  have hcenter20 : center s67518 2 false = some s67512 := by rfl
-  have hcenter21 : center s67518 2 true = some s67517 := by rfl
-  have hpaired00 : paired s67518 false false = none := by rfl
-  have hpaired01 : paired s67518 false true = none := by rfl
-  have hpaired10 : paired s67518 true false = none := by rfl
-  have hpaired11 : paired s67518 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_some_eq hcenter11 safeNode67498) (optionAll_some_eq hcenter20 safeNode67512) (optionAll_some_eq hcenter21 safeNode67517) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67519 : safe 5 6 s67519 = true := by
-  have hcenter00 : center s67519 0 false = none := by rfl
-  have hcenter01 : center s67519 0 true = none := by rfl
-  have hcenter10 : center s67519 1 false = none := by rfl
-  have hcenter11 : center s67519 1 true = none := by rfl
-  have hcenter20 : center s67519 2 false = none := by rfl
-  have hcenter21 : center s67519 2 true = none := by rfl
-  have hpaired00 : paired s67519 false false = none := by rfl
-  have hpaired01 : paired s67519 false true = none := by rfl
-  have hpaired10 : paired s67519 true false = none := by rfl
-  have hpaired11 : paired s67519 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67520 : safe 5 6 s67520 = true := by
-  have hcenter00 : center s67520 0 false = none := by rfl
-  have hcenter01 : center s67520 0 true = none := by rfl
-  have hcenter10 : center s67520 1 false = none := by rfl
-  have hcenter11 : center s67520 1 true = none := by rfl
-  have hcenter20 : center s67520 2 false = none := by rfl
-  have hcenter21 : center s67520 2 true = none := by rfl
-  have hpaired00 : paired s67520 false false = none := by rfl
-  have hpaired01 : paired s67520 false true = none := by rfl
-  have hpaired10 : paired s67520 true false = none := by rfl
-  have hpaired11 : paired s67520 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67521 : safe 5 8 s67521 = true := by
-  have hcenter00 : center s67521 0 false = none := by rfl
-  have hcenter01 : center s67521 0 true = none := by rfl
-  have hcenter10 : center s67521 1 false = none := by rfl
-  have hcenter11 : center s67521 1 true = none := by rfl
-  have hcenter20 : center s67521 2 false = none := by rfl
-  have hcenter21 : center s67521 2 true = none := by rfl
-  have hpaired00 : paired s67521 false false = some s67519 := by rfl
-  have hpaired01 : paired s67521 false true = some s67520 := by rfl
-  have hpaired10 : paired s67521 true false = none := by rfl
-  have hpaired11 : paired s67521 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_some_eq hpaired00 safeNode67519) (optionAll_some_eq hpaired01 safeNode67520) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67522 : safe 5 6 s67522 = true := by
-  have hcenter00 : center s67522 0 false = none := by rfl
-  have hcenter01 : center s67522 0 true = none := by rfl
-  have hcenter10 : center s67522 1 false = none := by rfl
-  have hcenter11 : center s67522 1 true = none := by rfl
-  have hcenter20 : center s67522 2 false = none := by rfl
-  have hcenter21 : center s67522 2 true = none := by rfl
-  have hpaired00 : paired s67522 false false = none := by rfl
-  have hpaired01 : paired s67522 false true = none := by rfl
-  have hpaired10 : paired s67522 true false = none := by rfl
-  have hpaired11 : paired s67522 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67523 : safe 5 6 s67523 = true := by
-  have hcenter00 : center s67523 0 false = none := by rfl
-  have hcenter01 : center s67523 0 true = none := by rfl
-  have hcenter10 : center s67523 1 false = none := by rfl
-  have hcenter11 : center s67523 1 true = none := by rfl
-  have hcenter20 : center s67523 2 false = none := by rfl
-  have hcenter21 : center s67523 2 true = none := by rfl
-  have hpaired00 : paired s67523 false false = none := by rfl
-  have hpaired01 : paired s67523 false true = none := by rfl
-  have hpaired10 : paired s67523 true false = none := by rfl
-  have hpaired11 : paired s67523 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67524 : safe 5 8 s67524 = true := by
-  have hcenter00 : center s67524 0 false = none := by rfl
-  have hcenter01 : center s67524 0 true = none := by rfl
-  have hcenter10 : center s67524 1 false = none := by rfl
-  have hcenter11 : center s67524 1 true = none := by rfl
-  have hcenter20 : center s67524 2 false = none := by rfl
-  have hcenter21 : center s67524 2 true = none := by rfl
-  have hpaired00 : paired s67524 false false = some s67522 := by rfl
-  have hpaired01 : paired s67524 false true = some s67523 := by rfl
-  have hpaired10 : paired s67524 true false = none := by rfl
-  have hpaired11 : paired s67524 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_some_eq hpaired00 safeNode67522) (optionAll_some_eq hpaired01 safeNode67523) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67525 : safe 5 7 s67525 = true := by
-  have hcenter00 : center s67525 0 false = none := by rfl
-  have hcenter01 : center s67525 0 true = none := by rfl
-  have hcenter10 : center s67525 1 false = none := by rfl
-  have hcenter11 : center s67525 1 true = none := by rfl
-  have hcenter20 : center s67525 2 false = none := by rfl
-  have hcenter21 : center s67525 2 true = none := by rfl
-  have hpaired00 : paired s67525 false false = none := by rfl
-  have hpaired01 : paired s67525 false true = none := by rfl
-  have hpaired10 : paired s67525 true false = none := by rfl
-  have hpaired11 : paired s67525 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67526 : safe 5 7 s67526 = true := by
-  have hcenter00 : center s67526 0 false = none := by rfl
-  have hcenter01 : center s67526 0 true = none := by rfl
-  have hcenter10 : center s67526 1 false = none := by rfl
-  have hcenter11 : center s67526 1 true = none := by rfl
-  have hcenter20 : center s67526 2 false = none := by rfl
-  have hcenter21 : center s67526 2 true = none := by rfl
-  have hpaired00 : paired s67526 false false = none := by rfl
-  have hpaired01 : paired s67526 false true = none := by rfl
-  have hpaired10 : paired s67526 true false = none := by rfl
-  have hpaired11 : paired s67526 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67527 : safe 5 8 s67527 = true := by
-  have hcenter00 : center s67527 0 false = some s67525 := by rfl
-  have hcenter01 : center s67527 0 true = some s67526 := by rfl
-  have hcenter10 : center s67527 1 false = none := by rfl
-  have hcenter11 : center s67527 1 true = none := by rfl
-  have hcenter20 : center s67527 2 false = none := by rfl
-  have hcenter21 : center s67527 2 true = none := by rfl
-  have hpaired00 : paired s67527 false false = none := by rfl
-  have hpaired01 : paired s67527 false true = none := by rfl
-  have hpaired10 : paired s67527 true false = none := by rfl
-  have hpaired11 : paired s67527 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67525) (optionAll_some_eq hcenter01 safeNode67526) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67528 : safe 5 9 s67528 = true := by
-  have hcenter00 : center s67528 0 false = none := by rfl
-  have hcenter01 : center s67528 0 true = none := by rfl
-  have hcenter10 : center s67528 1 false = some s67521 := by rfl
-  have hcenter11 : center s67528 1 true = some s67524 := by rfl
-  have hcenter20 : center s67528 2 false = some s67527 := by rfl
-  have hcenter21 : center s67528 2 true = none := by rfl
-  have hpaired00 : paired s67528 false false = none := by rfl
-  have hpaired01 : paired s67528 false true = none := by rfl
-  have hpaired10 : paired s67528 true false = none := by rfl
-  have hpaired11 : paired s67528 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67521) (optionAll_some_eq hcenter11 safeNode67524) (optionAll_some_eq hcenter20 safeNode67527) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67529 : safe 5 7 s67529 = true := by
-  have hcenter00 : center s67529 0 false = none := by rfl
-  have hcenter01 : center s67529 0 true = none := by rfl
-  have hcenter10 : center s67529 1 false = none := by rfl
-  have hcenter11 : center s67529 1 true = none := by rfl
-  have hcenter20 : center s67529 2 false = none := by rfl
-  have hcenter21 : center s67529 2 true = none := by rfl
-  have hpaired00 : paired s67529 false false = none := by rfl
-  have hpaired01 : paired s67529 false true = none := by rfl
-  have hpaired10 : paired s67529 true false = none := by rfl
-  have hpaired11 : paired s67529 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67530 : safe 5 4 s67530 = true := by
-  exact safe_cost_exceeded 5 4 s67530 (by decide)
-
-theorem safeNode67531 : safe 5 5 s67531 = true := by
-  have hcenter00 : center s67531 0 false = none := by rfl
-  have hcenter01 : center s67531 0 true = none := by rfl
-  have hcenter10 : center s67531 1 false = some s67530 := by rfl
-  have hcenter11 : center s67531 1 true = none := by rfl
-  have hcenter20 : center s67531 2 false = none := by rfl
-  have hcenter21 : center s67531 2 true = none := by rfl
-  have hpaired00 : paired s67531 false false = none := by rfl
-  have hpaired01 : paired s67531 false true = none := by rfl
-  have hpaired10 : paired s67531 true false = none := by rfl
-  have hpaired11 : paired s67531 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67530) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67532 : safe 5 6 s67532 = true := by
-  have hcenter00 : center s67532 0 false = some s67531 := by rfl
-  have hcenter01 : center s67532 0 true = none := by rfl
-  have hcenter10 : center s67532 1 false = none := by rfl
-  have hcenter11 : center s67532 1 true = none := by rfl
-  have hcenter20 : center s67532 2 false = none := by rfl
-  have hcenter21 : center s67532 2 true = none := by rfl
-  have hpaired00 : paired s67532 false false = none := by rfl
-  have hpaired01 : paired s67532 false true = none := by rfl
-  have hpaired10 : paired s67532 true false = none := by rfl
-  have hpaired11 : paired s67532 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67531) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67533 : safe 5 7 s67533 = true := by
-  have hcenter00 : center s67533 0 false = none := by rfl
-  have hcenter01 : center s67533 0 true = none := by rfl
-  have hcenter10 : center s67533 1 false = none := by rfl
-  have hcenter11 : center s67533 1 true = some s67532 := by rfl
-  have hcenter20 : center s67533 2 false = none := by rfl
-  have hcenter21 : center s67533 2 true = none := by rfl
-  have hpaired00 : paired s67533 false false = none := by rfl
-  have hpaired01 : paired s67533 false true = none := by rfl
-  have hpaired10 : paired s67533 true false = none := by rfl
-  have hpaired11 : paired s67533 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_some_eq hcenter11 safeNode67532) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67534 : safe 5 8 s67534 = true := by
-  have hcenter00 : center s67534 0 false = none := by rfl
-  have hcenter01 : center s67534 0 true = none := by rfl
-  have hcenter10 : center s67534 1 false = none := by rfl
-  have hcenter11 : center s67534 1 true = none := by rfl
-  have hcenter20 : center s67534 2 false = some s67529 := by rfl
-  have hcenter21 : center s67534 2 true = some s67533 := by rfl
-  have hpaired00 : paired s67534 false false = none := by rfl
-  have hpaired01 : paired s67534 false true = none := by rfl
-  have hpaired10 : paired s67534 true false = none := by rfl
-  have hpaired11 : paired s67534 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67529) (optionAll_some_eq hcenter21 safeNode67533) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67535 : safe 5 5 s67535 = true := by
-  have hcenter00 : center s67535 0 false = none := by rfl
-  have hcenter01 : center s67535 0 true = none := by rfl
-  have hcenter10 : center s67535 1 false = none := by rfl
-  have hcenter11 : center s67535 1 true = none := by rfl
-  have hcenter20 : center s67535 2 false = none := by rfl
-  have hcenter21 : center s67535 2 true = none := by rfl
-  have hpaired00 : paired s67535 false false = none := by rfl
-  have hpaired01 : paired s67535 false true = none := by rfl
-  have hpaired10 : paired s67535 true false = none := by rfl
-  have hpaired11 : paired s67535 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67536 : safe 5 6 s67536 = true := by
-  have hcenter00 : center s67536 0 false = none := by rfl
-  have hcenter01 : center s67536 0 true = none := by rfl
-  have hcenter10 : center s67536 1 false = none := by rfl
-  have hcenter11 : center s67536 1 true = some s67535 := by rfl
-  have hcenter20 : center s67536 2 false = none := by rfl
-  have hcenter21 : center s67536 2 true = none := by rfl
-  have hpaired00 : paired s67536 false false = none := by rfl
-  have hpaired01 : paired s67536 false true = none := by rfl
-  have hpaired10 : paired s67536 true false = none := by rfl
-  have hpaired11 : paired s67536 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_some_eq hcenter11 safeNode67535) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67537 : safe 5 7 s67537 = true := by
-  have hcenter00 : center s67537 0 false = none := by rfl
-  have hcenter01 : center s67537 0 true = none := by rfl
-  have hcenter10 : center s67537 1 false = none := by rfl
-  have hcenter11 : center s67537 1 true = none := by rfl
-  have hcenter20 : center s67537 2 false = some s67536 := by rfl
-  have hcenter21 : center s67537 2 true = none := by rfl
-  have hpaired00 : paired s67537 false false = none := by rfl
-  have hpaired01 : paired s67537 false true = none := by rfl
-  have hpaired10 : paired s67537 true false = none := by rfl
-  have hpaired11 : paired s67537 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67536) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67538 : safe 5 7 s67538 = true := by
-  have hcenter00 : center s67538 0 false = none := by rfl
-  have hcenter01 : center s67538 0 true = none := by rfl
-  have hcenter10 : center s67538 1 false = none := by rfl
-  have hcenter11 : center s67538 1 true = none := by rfl
-  have hcenter20 : center s67538 2 false = none := by rfl
-  have hcenter21 : center s67538 2 true = none := by rfl
-  have hpaired00 : paired s67538 false false = none := by rfl
-  have hpaired01 : paired s67538 false true = none := by rfl
-  have hpaired10 : paired s67538 true false = none := by rfl
-  have hpaired11 : paired s67538 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67539 : safe 5 8 s67539 = true := by
-  have hcenter00 : center s67539 0 false = none := by rfl
-  have hcenter01 : center s67539 0 true = none := by rfl
-  have hcenter10 : center s67539 1 false = some s67537 := by rfl
-  have hcenter11 : center s67539 1 true = some s67538 := by rfl
-  have hcenter20 : center s67539 2 false = none := by rfl
-  have hcenter21 : center s67539 2 true = none := by rfl
-  have hpaired00 : paired s67539 false false = none := by rfl
-  have hpaired01 : paired s67539 false true = none := by rfl
-  have hpaired10 : paired s67539 true false = none := by rfl
-  have hpaired11 : paired s67539 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67537) (optionAll_some_eq hcenter11 safeNode67538) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67540 : safe 5 9 s67540 = true := by
-  have hcenter00 : center s67540 0 false = some s67534 := by rfl
-  have hcenter01 : center s67540 0 true = some s67539 := by rfl
-  have hcenter10 : center s67540 1 false = none := by rfl
-  have hcenter11 : center s67540 1 true = none := by rfl
-  have hcenter20 : center s67540 2 false = none := by rfl
-  have hcenter21 : center s67540 2 true = none := by rfl
-  have hpaired00 : paired s67540 false false = none := by rfl
-  have hpaired01 : paired s67540 false true = none := by rfl
-  have hpaired10 : paired s67540 true false = none := by rfl
-  have hpaired11 : paired s67540 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67534) (optionAll_some_eq hcenter01 safeNode67539) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67541 : safe 5 6 s67541 = true := by
-  have hcenter00 : center s67541 0 false = none := by rfl
-  have hcenter01 : center s67541 0 true = none := by rfl
-  have hcenter10 : center s67541 1 false = none := by rfl
-  have hcenter11 : center s67541 1 true = none := by rfl
-  have hcenter20 : center s67541 2 false = none := by rfl
-  have hcenter21 : center s67541 2 true = none := by rfl
-  have hpaired00 : paired s67541 false false = none := by rfl
-  have hpaired01 : paired s67541 false true = none := by rfl
-  have hpaired10 : paired s67541 true false = none := by rfl
-  have hpaired11 : paired s67541 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67542 : safe 5 7 s67542 = true := by
-  have hcenter00 : center s67542 0 false = none := by rfl
-  have hcenter01 : center s67542 0 true = none := by rfl
-  have hcenter10 : center s67542 1 false = none := by rfl
-  have hcenter11 : center s67542 1 true = none := by rfl
-  have hcenter20 : center s67542 2 false = none := by rfl
-  have hcenter21 : center s67542 2 true = some s67541 := by rfl
-  have hpaired00 : paired s67542 false false = none := by rfl
-  have hpaired01 : paired s67542 false true = none := by rfl
-  have hpaired10 : paired s67542 true false = none := by rfl
-  have hpaired11 : paired s67542 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_some_eq hcenter21 safeNode67541) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67543 : safe 5 7 s67543 = true := by
-  have hcenter00 : center s67543 0 false = none := by rfl
-  have hcenter01 : center s67543 0 true = none := by rfl
-  have hcenter10 : center s67543 1 false = none := by rfl
-  have hcenter11 : center s67543 1 true = none := by rfl
-  have hcenter20 : center s67543 2 false = none := by rfl
-  have hcenter21 : center s67543 2 true = none := by rfl
-  have hpaired00 : paired s67543 false false = none := by rfl
-  have hpaired01 : paired s67543 false true = none := by rfl
-  have hpaired10 : paired s67543 true false = none := by rfl
-  have hpaired11 : paired s67543 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67544 : safe 5 8 s67544 = true := by
-  have hcenter00 : center s67544 0 false = some s67542 := by rfl
-  have hcenter01 : center s67544 0 true = some s67543 := by rfl
-  have hcenter10 : center s67544 1 false = none := by rfl
-  have hcenter11 : center s67544 1 true = none := by rfl
-  have hcenter20 : center s67544 2 false = none := by rfl
-  have hcenter21 : center s67544 2 true = none := by rfl
-  have hpaired00 : paired s67544 false false = none := by rfl
-  have hpaired01 : paired s67544 false true = none := by rfl
-  have hpaired10 : paired s67544 true false = none := by rfl
-  have hpaired11 : paired s67544 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67542) (optionAll_some_eq hcenter01 safeNode67543) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67545 : safe 5 6 s67545 = true := by
-  have hcenter00 : center s67545 0 false = none := by rfl
-  have hcenter01 : center s67545 0 true = none := by rfl
-  have hcenter10 : center s67545 1 false = none := by rfl
-  have hcenter11 : center s67545 1 true = none := by rfl
-  have hcenter20 : center s67545 2 false = none := by rfl
-  have hcenter21 : center s67545 2 true = none := by rfl
-  have hpaired00 : paired s67545 false false = none := by rfl
-  have hpaired01 : paired s67545 false true = none := by rfl
-  have hpaired10 : paired s67545 true false = none := by rfl
-  have hpaired11 : paired s67545 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67546 : safe 5 7 s67546 = true := by
-  have hcenter00 : center s67546 0 false = none := by rfl
-  have hcenter01 : center s67546 0 true = some s67545 := by rfl
-  have hcenter10 : center s67546 1 false = none := by rfl
-  have hcenter11 : center s67546 1 true = none := by rfl
-  have hcenter20 : center s67546 2 false = none := by rfl
-  have hcenter21 : center s67546 2 true = none := by rfl
-  have hpaired00 : paired s67546 false false = none := by rfl
-  have hpaired01 : paired s67546 false true = none := by rfl
-  have hpaired10 : paired s67546 true false = none := by rfl
-  have hpaired11 : paired s67546 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_some_eq hcenter01 safeNode67545) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67547 : safe 5 7 s67547 = true := by
-  have hcenter00 : center s67547 0 false = none := by rfl
-  have hcenter01 : center s67547 0 true = none := by rfl
-  have hcenter10 : center s67547 1 false = none := by rfl
-  have hcenter11 : center s67547 1 true = none := by rfl
-  have hcenter20 : center s67547 2 false = none := by rfl
-  have hcenter21 : center s67547 2 true = none := by rfl
-  have hpaired00 : paired s67547 false false = none := by rfl
-  have hpaired01 : paired s67547 false true = none := by rfl
-  have hpaired10 : paired s67547 true false = none := by rfl
-  have hpaired11 : paired s67547 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67548 : safe 5 8 s67548 = true := by
-  have hcenter00 : center s67548 0 false = none := by rfl
-  have hcenter01 : center s67548 0 true = none := by rfl
-  have hcenter10 : center s67548 1 false = none := by rfl
-  have hcenter11 : center s67548 1 true = none := by rfl
-  have hcenter20 : center s67548 2 false = some s67546 := by rfl
-  have hcenter21 : center s67548 2 true = some s67547 := by rfl
-  have hpaired00 : paired s67548 false false = none := by rfl
-  have hpaired01 : paired s67548 false true = none := by rfl
-  have hpaired10 : paired s67548 true false = none := by rfl
-  have hpaired11 : paired s67548 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67546) (optionAll_some_eq hcenter21 safeNode67547) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 8 s67518
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (optionAll_some_eq (o := center s67518 1 true) (t := s67498) (by rfl) safeNode67498)
+    (optionAll_some_eq (o := center s67518 2 false) (t := s67512) (by rfl) safeNode67512)
+    (optionAll_some_eq (o := center s67518 2 true) (t := s67517) (by rfl) safeNode67517)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67549 : safe 5 10 s67549 = true := by
-  have hcenter00 : center s67549 0 false = none := by rfl
-  have hcenter01 : center s67549 0 true = some s67528 := by rfl
-  have hcenter10 : center s67549 1 false = none := by rfl
-  have hcenter11 : center s67549 1 true = none := by rfl
-  have hcenter20 : center s67549 2 false = none := by rfl
-  have hcenter21 : center s67549 2 true = some s67540 := by rfl
-  have hpaired00 : paired s67549 false false = some s67544 := by rfl
-  have hpaired01 : paired s67549 false true = some s67548 := by rfl
-  have hpaired10 : paired s67549 true false = none := by rfl
-  have hpaired11 : paired s67549 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_some_eq hcenter01 safeNode67528) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_some_eq hcenter21 safeNode67540) (optionAll_some_eq hpaired00 safeNode67544) (optionAll_some_eq hpaired01 safeNode67548) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67550 : safe 5 7 s67550 = true := by
-  have hcenter00 : center s67550 0 false = none := by rfl
-  have hcenter01 : center s67550 0 true = none := by rfl
-  have hcenter10 : center s67550 1 false = none := by rfl
-  have hcenter11 : center s67550 1 true = none := by rfl
-  have hcenter20 : center s67550 2 false = none := by rfl
-  have hcenter21 : center s67550 2 true = none := by rfl
-  have hpaired00 : paired s67550 false false = none := by rfl
-  have hpaired01 : paired s67550 false true = none := by rfl
-  have hpaired10 : paired s67550 true false = none := by rfl
-  have hpaired11 : paired s67550 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67551 : safe 5 6 s67551 = true := by
-  have hcenter00 : center s67551 0 false = none := by rfl
-  have hcenter01 : center s67551 0 true = none := by rfl
-  have hcenter10 : center s67551 1 false = none := by rfl
-  have hcenter11 : center s67551 1 true = none := by rfl
-  have hcenter20 : center s67551 2 false = none := by rfl
-  have hcenter21 : center s67551 2 true = none := by rfl
-  have hpaired00 : paired s67551 false false = none := by rfl
-  have hpaired01 : paired s67551 false true = none := by rfl
-  have hpaired10 : paired s67551 true false = none := by rfl
-  have hpaired11 : paired s67551 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67552 : safe 5 7 s67552 = true := by
-  have hcenter00 : center s67552 0 false = none := by rfl
-  have hcenter01 : center s67552 0 true = none := by rfl
-  have hcenter10 : center s67552 1 false = none := by rfl
-  have hcenter11 : center s67552 1 true = none := by rfl
-  have hcenter20 : center s67552 2 false = none := by rfl
-  have hcenter21 : center s67552 2 true = some s67551 := by rfl
-  have hpaired00 : paired s67552 false false = none := by rfl
-  have hpaired01 : paired s67552 false true = none := by rfl
-  have hpaired10 : paired s67552 true false = none := by rfl
-  have hpaired11 : paired s67552 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_some_eq hcenter21 safeNode67551) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67553 : safe 5 8 s67553 = true := by
-  have hcenter00 : center s67553 0 false = some s67550 := by rfl
-  have hcenter01 : center s67553 0 true = none := by rfl
-  have hcenter10 : center s67553 1 false = some s67552 := by rfl
-  have hcenter11 : center s67553 1 true = none := by rfl
-  have hcenter20 : center s67553 2 false = none := by rfl
-  have hcenter21 : center s67553 2 true = none := by rfl
-  have hpaired00 : paired s67553 false false = none := by rfl
-  have hpaired01 : paired s67553 false true = none := by rfl
-  have hpaired10 : paired s67553 true false = none := by rfl
-  have hpaired11 : paired s67553 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67550) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67552) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67554 : safe 5 7 s67554 = true := by
-  have hcenter00 : center s67554 0 false = none := by rfl
-  have hcenter01 : center s67554 0 true = none := by rfl
-  have hcenter10 : center s67554 1 false = none := by rfl
-  have hcenter11 : center s67554 1 true = none := by rfl
-  have hcenter20 : center s67554 2 false = none := by rfl
-  have hcenter21 : center s67554 2 true = none := by rfl
-  have hpaired00 : paired s67554 false false = none := by rfl
-  have hpaired01 : paired s67554 false true = none := by rfl
-  have hpaired10 : paired s67554 true false = none := by rfl
-  have hpaired11 : paired s67554 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67555 : safe 5 6 s67555 = true := by
-  have hcenter00 : center s67555 0 false = none := by rfl
-  have hcenter01 : center s67555 0 true = none := by rfl
-  have hcenter10 : center s67555 1 false = none := by rfl
-  have hcenter11 : center s67555 1 true = none := by rfl
-  have hcenter20 : center s67555 2 false = none := by rfl
-  have hcenter21 : center s67555 2 true = none := by rfl
-  have hpaired00 : paired s67555 false false = none := by rfl
-  have hpaired01 : paired s67555 false true = none := by rfl
-  have hpaired10 : paired s67555 true false = none := by rfl
-  have hpaired11 : paired s67555 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67556 : safe 5 7 s67556 = true := by
-  have hcenter00 : center s67556 0 false = none := by rfl
-  have hcenter01 : center s67556 0 true = none := by rfl
-  have hcenter10 : center s67556 1 false = none := by rfl
-  have hcenter11 : center s67556 1 true = none := by rfl
-  have hcenter20 : center s67556 2 false = some s67555 := by rfl
-  have hcenter21 : center s67556 2 true = none := by rfl
-  have hpaired00 : paired s67556 false false = none := by rfl
-  have hpaired01 : paired s67556 false true = none := by rfl
-  have hpaired10 : paired s67556 true false = none := by rfl
-  have hpaired11 : paired s67556 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67555) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67557 : safe 5 8 s67557 = true := by
-  have hcenter00 : center s67557 0 false = none := by rfl
-  have hcenter01 : center s67557 0 true = some s67554 := by rfl
-  have hcenter10 : center s67557 1 false = none := by rfl
-  have hcenter11 : center s67557 1 true = some s67556 := by rfl
-  have hcenter20 : center s67557 2 false = none := by rfl
-  have hcenter21 : center s67557 2 true = none := by rfl
-  have hpaired00 : paired s67557 false false = none := by rfl
-  have hpaired01 : paired s67557 false true = none := by rfl
-  have hpaired10 : paired s67557 true false = none := by rfl
-  have hpaired11 : paired s67557 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_some_eq hcenter01 safeNode67554) (optionAll_none_eq hcenter10) (optionAll_some_eq hcenter11 safeNode67556) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67558 : safe 5 5 s67558 = true := by
-  exact safe_cost_exceeded 5 5 s67558 (by decide)
-
-theorem safeNode67559 : safe 5 6 s67559 = true := by
-  have hcenter00 : center s67559 0 false = some s67558 := by rfl
-  have hcenter01 : center s67559 0 true = none := by rfl
-  have hcenter10 : center s67559 1 false = none := by rfl
-  have hcenter11 : center s67559 1 true = none := by rfl
-  have hcenter20 : center s67559 2 false = none := by rfl
-  have hcenter21 : center s67559 2 true = none := by rfl
-  have hpaired00 : paired s67559 false false = none := by rfl
-  have hpaired01 : paired s67559 false true = none := by rfl
-  have hpaired10 : paired s67559 true false = none := by rfl
-  have hpaired11 : paired s67559 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67558) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67560 : safe 5 5 s67560 = true := by
-  exact safe_cost_exceeded 5 5 s67560 (by decide)
-
-theorem safeNode67561 : safe 5 5 s67561 = true := by
-  exact safe_cost_exceeded 5 5 s67561 (by decide)
-
-theorem safeNode67562 : safe 5 6 s67562 = true := by
-  have hcenter00 : center s67562 0 false = some s67560 := by rfl
-  have hcenter01 : center s67562 0 true = some s67561 := by rfl
-  have hcenter10 : center s67562 1 false = none := by rfl
-  have hcenter11 : center s67562 1 true = none := by rfl
-  have hcenter20 : center s67562 2 false = none := by rfl
-  have hcenter21 : center s67562 2 true = none := by rfl
-  have hpaired00 : paired s67562 false false = none := by rfl
-  have hpaired01 : paired s67562 false true = none := by rfl
-  have hpaired10 : paired s67562 true false = none := by rfl
-  have hpaired11 : paired s67562 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67560) (optionAll_some_eq hcenter01 safeNode67561) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67563 : safe 5 7 s67563 = true := by
-  have hcenter00 : center s67563 0 false = none := by rfl
-  have hcenter01 : center s67563 0 true = none := by rfl
-  have hcenter10 : center s67563 1 false = some s67559 := by rfl
-  have hcenter11 : center s67563 1 true = none := by rfl
-  have hcenter20 : center s67563 2 false = none := by rfl
-  have hcenter21 : center s67563 2 true = some s67562 := by rfl
-  have hpaired00 : paired s67563 false false = none := by rfl
-  have hpaired01 : paired s67563 false true = none := by rfl
-  have hpaired10 : paired s67563 true false = none := by rfl
-  have hpaired11 : paired s67563 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67559) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_some_eq hcenter21 safeNode67562) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67564 : safe 5 5 s67564 = true := by
-  exact safe_cost_exceeded 5 5 s67564 (by decide)
-
-theorem safeNode67565 : safe 5 5 s67565 = true := by
-  exact safe_cost_exceeded 5 5 s67565 (by decide)
-
-theorem safeNode67566 : safe 5 6 s67566 = true := by
-  have hcenter00 : center s67566 0 false = some s67564 := by rfl
-  have hcenter01 : center s67566 0 true = some s67565 := by rfl
-  have hcenter10 : center s67566 1 false = none := by rfl
-  have hcenter11 : center s67566 1 true = none := by rfl
-  have hcenter20 : center s67566 2 false = none := by rfl
-  have hcenter21 : center s67566 2 true = none := by rfl
-  have hpaired00 : paired s67566 false false = none := by rfl
-  have hpaired01 : paired s67566 false true = none := by rfl
-  have hpaired10 : paired s67566 true false = none := by rfl
-  have hpaired11 : paired s67566 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67564) (optionAll_some_eq hcenter01 safeNode67565) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67567 : safe 5 5 s67567 = true := by
-  exact safe_cost_exceeded 5 5 s67567 (by decide)
-
-theorem safeNode67568 : safe 5 6 s67568 = true := by
-  have hcenter00 : center s67568 0 false = some s67567 := by rfl
-  have hcenter01 : center s67568 0 true = none := by rfl
-  have hcenter10 : center s67568 1 false = none := by rfl
-  have hcenter11 : center s67568 1 true = none := by rfl
-  have hcenter20 : center s67568 2 false = none := by rfl
-  have hcenter21 : center s67568 2 true = none := by rfl
-  have hpaired00 : paired s67568 false false = none := by rfl
-  have hpaired01 : paired s67568 false true = none := by rfl
-  have hpaired10 : paired s67568 true false = none := by rfl
-  have hpaired11 : paired s67568 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67567) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67569 : safe 5 7 s67569 = true := by
-  have hcenter00 : center s67569 0 false = none := by rfl
-  have hcenter01 : center s67569 0 true = none := by rfl
-  have hcenter10 : center s67569 1 false = none := by rfl
-  have hcenter11 : center s67569 1 true = some s67566 := by rfl
-  have hcenter20 : center s67569 2 false = some s67568 := by rfl
-  have hcenter21 : center s67569 2 true = none := by rfl
-  have hpaired00 : paired s67569 false false = none := by rfl
-  have hpaired01 : paired s67569 false true = none := by rfl
-  have hpaired10 : paired s67569 true false = none := by rfl
-  have hpaired11 : paired s67569 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_some_eq hcenter11 safeNode67566) (optionAll_some_eq hcenter20 safeNode67568) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67570 : safe 5 9 s67570 = true := by
-  have hcenter00 : center s67570 0 false = none := by rfl
-  have hcenter01 : center s67570 0 true = none := by rfl
-  have hcenter10 : center s67570 1 false = none := by rfl
-  have hcenter11 : center s67570 1 true = none := by rfl
-  have hcenter20 : center s67570 2 false = some s67553 := by rfl
-  have hcenter21 : center s67570 2 true = some s67557 := by rfl
-  have hpaired00 : paired s67570 false false = none := by rfl
-  have hpaired01 : paired s67570 false true = none := by rfl
-  have hpaired10 : paired s67570 true false = some s67563 := by rfl
-  have hpaired11 : paired s67570 true true = some s67569 := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67553) (optionAll_some_eq hcenter21 safeNode67557) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_some_eq hpaired10 safeNode67563) (optionAll_some_eq hpaired11 safeNode67569)
-
-theorem safeNode67571 : safe 5 6 s67571 = true := by
-  exact safe_cost_exceeded 5 6 s67571 (by decide)
-
-theorem safeNode67572 : safe 5 7 s67572 = true := by
-  have hcenter00 : center s67572 0 false = none := by rfl
-  have hcenter01 : center s67572 0 true = none := by rfl
-  have hcenter10 : center s67572 1 false = none := by rfl
-  have hcenter11 : center s67572 1 true = some s67571 := by rfl
-  have hcenter20 : center s67572 2 false = none := by rfl
-  have hcenter21 : center s67572 2 true = none := by rfl
-  have hpaired00 : paired s67572 false false = none := by rfl
-  have hpaired01 : paired s67572 false true = none := by rfl
-  have hpaired10 : paired s67572 true false = none := by rfl
-  have hpaired11 : paired s67572 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_some_eq hcenter11 safeNode67571) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67573 : safe 5 8 s67573 = true := by
-  have hcenter00 : center s67573 0 false = none := by rfl
-  have hcenter01 : center s67573 0 true = none := by rfl
-  have hcenter10 : center s67573 1 false = none := by rfl
-  have hcenter11 : center s67573 1 true = none := by rfl
-  have hcenter20 : center s67573 2 false = none := by rfl
-  have hcenter21 : center s67573 2 true = some s67572 := by rfl
-  have hpaired00 : paired s67573 false false = none := by rfl
-  have hpaired01 : paired s67573 false true = none := by rfl
-  have hpaired10 : paired s67573 true false = none := by rfl
-  have hpaired11 : paired s67573 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_some_eq hcenter21 safeNode67572) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67574 : safe 5 6 s67574 = true := by
-  exact safe_cost_exceeded 5 6 s67574 (by decide)
-
-theorem safeNode67575 : safe 5 7 s67575 = true := by
-  have hcenter00 : center s67575 0 false = none := by rfl
-  have hcenter01 : center s67575 0 true = none := by rfl
-  have hcenter10 : center s67575 1 false = none := by rfl
-  have hcenter11 : center s67575 1 true = some s67574 := by rfl
-  have hcenter20 : center s67575 2 false = none := by rfl
-  have hcenter21 : center s67575 2 true = none := by rfl
-  have hpaired00 : paired s67575 false false = none := by rfl
-  have hpaired01 : paired s67575 false true = none := by rfl
-  have hpaired10 : paired s67575 true false = none := by rfl
-  have hpaired11 : paired s67575 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_some_eq hcenter11 safeNode67574) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67576 : safe 5 8 s67576 = true := by
-  have hcenter00 : center s67576 0 false = none := by rfl
-  have hcenter01 : center s67576 0 true = some s67575 := by rfl
-  have hcenter10 : center s67576 1 false = none := by rfl
-  have hcenter11 : center s67576 1 true = none := by rfl
-  have hcenter20 : center s67576 2 false = none := by rfl
-  have hcenter21 : center s67576 2 true = none := by rfl
-  have hpaired00 : paired s67576 false false = none := by rfl
-  have hpaired01 : paired s67576 false true = none := by rfl
-  have hpaired10 : paired s67576 true false = none := by rfl
-  have hpaired11 : paired s67576 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_some_eq hcenter01 safeNode67575) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  refine safe_step_two (budget := 5) (n := 8) (s := s67549) ?_ ?_ ?_ ?_ ?_ ?_ ?_ ?_ ?_ ?_
+  all_goals decide +kernel
 
 theorem safeNode67577 : safe 5 10 s67577 = true := by
-  have hcenter00 : center s67577 0 false = some s67570 := by rfl
-  have hcenter01 : center s67577 0 true = none := by rfl
-  have hcenter10 : center s67577 1 false = none := by rfl
-  have hcenter11 : center s67577 1 true = none := by rfl
-  have hcenter20 : center s67577 2 false = none := by rfl
-  have hcenter21 : center s67577 2 true = none := by rfl
-  have hpaired00 : paired s67577 false false = some s67573 := by rfl
-  have hpaired01 : paired s67577 false true = some s67576 := by rfl
-  have hpaired10 : paired s67577 true false = none := by rfl
-  have hpaired11 : paired s67577 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67570) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_some_eq hpaired00 safeNode67573) (optionAll_some_eq hpaired01 safeNode67576) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67578 : safe 5 6 s67578 = true := by
-  exact safe_cost_exceeded 5 6 s67578 (by decide)
+  refine safe_step_two (budget := 5) (n := 8) (s := s67577) ?_ ?_ ?_ ?_ ?_ ?_ ?_ ?_ ?_ ?_
+  all_goals decide +kernel
 
 theorem safeNode67579 : safe 5 6 s67579 = true := by
-  have hcenter00 : center s67579 0 false = none := by rfl
-  have hcenter01 : center s67579 0 true = none := by rfl
-  have hcenter10 : center s67579 1 false = none := by rfl
-  have hcenter11 : center s67579 1 true = none := by rfl
-  have hcenter20 : center s67579 2 false = none := by rfl
-  have hcenter21 : center s67579 2 true = none := by rfl
-  have hpaired00 : paired s67579 false false = none := by rfl
-  have hpaired01 : paired s67579 false true = none := by rfl
-  have hpaired10 : paired s67579 true false = none := by rfl
-  have hpaired11 : paired s67579 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 4 s67579
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67580 : safe 5 6 s67580 = true := by
-  have hcenter00 : center s67580 0 false = none := by rfl
-  have hcenter01 : center s67580 0 true = none := by rfl
-  have hcenter10 : center s67580 1 false = none := by rfl
-  have hcenter11 : center s67580 1 true = none := by rfl
-  have hcenter20 : center s67580 2 false = none := by rfl
-  have hcenter21 : center s67580 2 true = none := by rfl
-  have hpaired00 : paired s67580 false false = none := by rfl
-  have hpaired01 : paired s67580 false true = none := by rfl
-  have hpaired10 : paired s67580 true false = none := by rfl
-  have hpaired11 : paired s67580 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 4 s67580
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67581 : safe 5 7 s67581 = true := by
-  have hcenter00 : center s67581 0 false = some s67578 := by rfl
-  have hcenter01 : center s67581 0 true = none := by rfl
-  have hcenter10 : center s67581 1 false = some s67579 := by rfl
-  have hcenter11 : center s67581 1 true = some s67580 := by rfl
-  have hcenter20 : center s67581 2 false = none := by rfl
-  have hcenter21 : center s67581 2 true = none := by rfl
-  have hpaired00 : paired s67581 false false = none := by rfl
-  have hpaired01 : paired s67581 false true = none := by rfl
-  have hpaired10 : paired s67581 true false = none := by rfl
-  have hpaired11 : paired s67581 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67578) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67579) (optionAll_some_eq hcenter11 safeNode67580) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 5 s67581
+    (Eq.refl true)
+    (Eq.refl true)
+    (optionAll_some_eq (o := center s67581 1 false) (t := s67579) (by rfl) safeNode67579)
+    (optionAll_some_eq (o := center s67581 1 true) (t := s67580) (by rfl) safeNode67580)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67582 : safe 5 6 s67582 = true := by
-  have hcenter00 : center s67582 0 false = none := by rfl
-  have hcenter01 : center s67582 0 true = none := by rfl
-  have hcenter10 : center s67582 1 false = none := by rfl
-  have hcenter11 : center s67582 1 true = none := by rfl
-  have hcenter20 : center s67582 2 false = none := by rfl
-  have hcenter21 : center s67582 2 true = none := by rfl
-  have hpaired00 : paired s67582 false false = none := by rfl
-  have hpaired01 : paired s67582 false true = none := by rfl
-  have hpaired10 : paired s67582 true false = none := by rfl
-  have hpaired11 : paired s67582 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 4 s67582
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67583 : safe 5 6 s67583 = true := by
-  have hcenter00 : center s67583 0 false = none := by rfl
-  have hcenter01 : center s67583 0 true = none := by rfl
-  have hcenter10 : center s67583 1 false = none := by rfl
-  have hcenter11 : center s67583 1 true = none := by rfl
-  have hcenter20 : center s67583 2 false = none := by rfl
-  have hcenter21 : center s67583 2 true = none := by rfl
-  have hpaired00 : paired s67583 false false = none := by rfl
-  have hpaired01 : paired s67583 false true = none := by rfl
-  have hpaired10 : paired s67583 true false = none := by rfl
-  have hpaired11 : paired s67583 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 4 s67583
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67584 : safe 5 8 s67584 = true := by
-  have hcenter00 : center s67584 0 false = none := by rfl
-  have hcenter01 : center s67584 0 true = none := by rfl
-  have hcenter10 : center s67584 1 false = none := by rfl
-  have hcenter11 : center s67584 1 true = none := by rfl
-  have hcenter20 : center s67584 2 false = some s67581 := by rfl
-  have hcenter21 : center s67584 2 true = none := by rfl
-  have hpaired00 : paired s67584 false false = some s67582 := by rfl
-  have hpaired01 : paired s67584 false true = some s67583 := by rfl
-  have hpaired10 : paired s67584 true false = none := by rfl
-  have hpaired11 : paired s67584 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67581) (optionAll_none_eq hcenter21) (optionAll_some_eq hpaired00 safeNode67582) (optionAll_some_eq hpaired01 safeNode67583) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67585 : safe 5 6 s67585 = true := by
-  exact safe_cost_exceeded 5 6 s67585 (by decide)
+  exact @safe_step_two 5 6 s67584
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (optionAll_some_eq (o := center s67584 2 false) (t := s67581) (by rfl) safeNode67581)
+    (Eq.refl true)
+    (optionAll_some_eq (o := paired s67584 false false) (t := s67582) (by rfl) safeNode67582)
+    (optionAll_some_eq (o := paired s67584 false true) (t := s67583) (by rfl) safeNode67583)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67586 : safe 5 6 s67586 = true := by
-  have hcenter00 : center s67586 0 false = none := by rfl
-  have hcenter01 : center s67586 0 true = none := by rfl
-  have hcenter10 : center s67586 1 false = none := by rfl
-  have hcenter11 : center s67586 1 true = none := by rfl
-  have hcenter20 : center s67586 2 false = none := by rfl
-  have hcenter21 : center s67586 2 true = none := by rfl
-  have hpaired00 : paired s67586 false false = none := by rfl
-  have hpaired01 : paired s67586 false true = none := by rfl
-  have hpaired10 : paired s67586 true false = none := by rfl
-  have hpaired11 : paired s67586 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 4 s67586
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67587 : safe 5 7 s67587 = true := by
-  have hcenter00 : center s67587 0 false = none := by rfl
-  have hcenter01 : center s67587 0 true = some s67585 := by rfl
-  have hcenter10 : center s67587 1 false = some s67586 := by rfl
-  have hcenter11 : center s67587 1 true = none := by rfl
-  have hcenter20 : center s67587 2 false = none := by rfl
-  have hcenter21 : center s67587 2 true = none := by rfl
-  have hpaired00 : paired s67587 false false = none := by rfl
-  have hpaired01 : paired s67587 false true = none := by rfl
-  have hpaired10 : paired s67587 true false = none := by rfl
-  have hpaired11 : paired s67587 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_some_eq hcenter01 safeNode67585) (optionAll_some_eq hcenter10 safeNode67586) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 5 s67587
+    (Eq.refl true)
+    (Eq.refl true)
+    (optionAll_some_eq (o := center s67587 1 false) (t := s67586) (by rfl) safeNode67586)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67588 : safe 5 6 s67588 = true := by
-  have hcenter00 : center s67588 0 false = none := by rfl
-  have hcenter01 : center s67588 0 true = none := by rfl
-  have hcenter10 : center s67588 1 false = none := by rfl
-  have hcenter11 : center s67588 1 true = none := by rfl
-  have hcenter20 : center s67588 2 false = none := by rfl
-  have hcenter21 : center s67588 2 true = none := by rfl
-  have hpaired00 : paired s67588 false false = none := by rfl
-  have hpaired01 : paired s67588 false true = none := by rfl
-  have hpaired10 : paired s67588 true false = none := by rfl
-  have hpaired11 : paired s67588 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 4 s67588
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67589 : safe 5 6 s67589 = true := by
-  have hcenter00 : center s67589 0 false = none := by rfl
-  have hcenter01 : center s67589 0 true = none := by rfl
-  have hcenter10 : center s67589 1 false = none := by rfl
-  have hcenter11 : center s67589 1 true = none := by rfl
-  have hcenter20 : center s67589 2 false = none := by rfl
-  have hcenter21 : center s67589 2 true = none := by rfl
-  have hpaired00 : paired s67589 false false = none := by rfl
-  have hpaired01 : paired s67589 false true = none := by rfl
-  have hpaired10 : paired s67589 true false = none := by rfl
-  have hpaired11 : paired s67589 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 4 s67589
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67590 : safe 5 8 s67590 = true := by
-  have hcenter00 : center s67590 0 false = none := by rfl
-  have hcenter01 : center s67590 0 true = none := by rfl
-  have hcenter10 : center s67590 1 false = none := by rfl
-  have hcenter11 : center s67590 1 true = none := by rfl
-  have hcenter20 : center s67590 2 false = none := by rfl
-  have hcenter21 : center s67590 2 true = some s67587 := by rfl
-  have hpaired00 : paired s67590 false false = some s67588 := by rfl
-  have hpaired01 : paired s67590 false true = some s67589 := by rfl
-  have hpaired10 : paired s67590 true false = none := by rfl
-  have hpaired11 : paired s67590 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_some_eq hcenter21 safeNode67587) (optionAll_some_eq hpaired00 safeNode67588) (optionAll_some_eq hpaired01 safeNode67589) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 6 s67590
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (optionAll_some_eq (o := center s67590 2 true) (t := s67587) (by rfl) safeNode67587)
+    (optionAll_some_eq (o := paired s67590 false false) (t := s67588) (by rfl) safeNode67588)
+    (optionAll_some_eq (o := paired s67590 false true) (t := s67589) (by rfl) safeNode67589)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67591 : safe 5 9 s67591 = true := by
-  have hcenter00 : center s67591 0 false = some s67584 := by rfl
-  have hcenter01 : center s67591 0 true = some s67590 := by rfl
-  have hcenter10 : center s67591 1 false = none := by rfl
-  have hcenter11 : center s67591 1 true = none := by rfl
-  have hcenter20 : center s67591 2 false = none := by rfl
-  have hcenter21 : center s67591 2 true = none := by rfl
-  have hpaired00 : paired s67591 false false = none := by rfl
-  have hpaired01 : paired s67591 false true = none := by rfl
-  have hpaired10 : paired s67591 true false = none := by rfl
-  have hpaired11 : paired s67591 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67584) (optionAll_some_eq hcenter01 safeNode67590) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 7 s67591
+    (optionAll_some_eq (o := center s67591 0 false) (t := s67584) (by rfl) safeNode67584)
+    (optionAll_some_eq (o := center s67591 0 true) (t := s67590) (by rfl) safeNode67590)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67592 : safe 5 6 s67592 = true := by
-  have hcenter00 : center s67592 0 false = none := by rfl
-  have hcenter01 : center s67592 0 true = none := by rfl
-  have hcenter10 : center s67592 1 false = none := by rfl
-  have hcenter11 : center s67592 1 true = none := by rfl
-  have hcenter20 : center s67592 2 false = none := by rfl
-  have hcenter21 : center s67592 2 true = none := by rfl
-  have hpaired00 : paired s67592 false false = none := by rfl
-  have hpaired01 : paired s67592 false true = none := by rfl
-  have hpaired10 : paired s67592 true false = none := by rfl
-  have hpaired11 : paired s67592 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 4 s67592
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67593 : safe 5 6 s67593 = true := by
-  have hcenter00 : center s67593 0 false = none := by rfl
-  have hcenter01 : center s67593 0 true = none := by rfl
-  have hcenter10 : center s67593 1 false = none := by rfl
-  have hcenter11 : center s67593 1 true = none := by rfl
-  have hcenter20 : center s67593 2 false = none := by rfl
-  have hcenter21 : center s67593 2 true = none := by rfl
-  have hpaired00 : paired s67593 false false = none := by rfl
-  have hpaired01 : paired s67593 false true = none := by rfl
-  have hpaired10 : paired s67593 true false = none := by rfl
-  have hpaired11 : paired s67593 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67594 : safe 5 6 s67594 = true := by
-  exact safe_cost_exceeded 5 6 s67594 (by decide)
+  exact @safe_step_two 5 4 s67593
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67595 : safe 5 7 s67595 = true := by
-  have hcenter00 : center s67595 0 false = some s67592 := by rfl
-  have hcenter01 : center s67595 0 true = some s67593 := by rfl
-  have hcenter10 : center s67595 1 false = some s67594 := by rfl
-  have hcenter11 : center s67595 1 true = none := by rfl
-  have hcenter20 : center s67595 2 false = none := by rfl
-  have hcenter21 : center s67595 2 true = none := by rfl
-  have hpaired00 : paired s67595 false false = none := by rfl
-  have hpaired01 : paired s67595 false true = none := by rfl
-  have hpaired10 : paired s67595 true false = none := by rfl
-  have hpaired11 : paired s67595 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67592) (optionAll_some_eq hcenter01 safeNode67593) (optionAll_some_eq hcenter10 safeNode67594) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 5 s67595
+    (optionAll_some_eq (o := center s67595 0 false) (t := s67592) (by rfl) safeNode67592)
+    (optionAll_some_eq (o := center s67595 0 true) (t := s67593) (by rfl) safeNode67593)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67596 : safe 5 6 s67596 = true := by
-  have hcenter00 : center s67596 0 false = none := by rfl
-  have hcenter01 : center s67596 0 true = none := by rfl
-  have hcenter10 : center s67596 1 false = none := by rfl
-  have hcenter11 : center s67596 1 true = none := by rfl
-  have hcenter20 : center s67596 2 false = none := by rfl
-  have hcenter21 : center s67596 2 true = none := by rfl
-  have hpaired00 : paired s67596 false false = none := by rfl
-  have hpaired01 : paired s67596 false true = none := by rfl
-  have hpaired10 : paired s67596 true false = none := by rfl
-  have hpaired11 : paired s67596 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 4 s67596
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67597 : safe 5 6 s67597 = true := by
-  have hcenter00 : center s67597 0 false = none := by rfl
-  have hcenter01 : center s67597 0 true = none := by rfl
-  have hcenter10 : center s67597 1 false = none := by rfl
-  have hcenter11 : center s67597 1 true = none := by rfl
-  have hcenter20 : center s67597 2 false = none := by rfl
-  have hcenter21 : center s67597 2 true = none := by rfl
-  have hpaired00 : paired s67597 false false = none := by rfl
-  have hpaired01 : paired s67597 false true = none := by rfl
-  have hpaired10 : paired s67597 true false = none := by rfl
-  have hpaired11 : paired s67597 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 4 s67597
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67598 : safe 5 8 s67598 = true := by
-  have hcenter00 : center s67598 0 false = none := by rfl
-  have hcenter01 : center s67598 0 true = none := by rfl
-  have hcenter10 : center s67598 1 false = none := by rfl
-  have hcenter11 : center s67598 1 true = none := by rfl
-  have hcenter20 : center s67598 2 false = some s67595 := by rfl
-  have hcenter21 : center s67598 2 true = none := by rfl
-  have hpaired00 : paired s67598 false false = some s67596 := by rfl
-  have hpaired01 : paired s67598 false true = some s67597 := by rfl
-  have hpaired10 : paired s67598 true false = none := by rfl
-  have hpaired11 : paired s67598 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67595) (optionAll_none_eq hcenter21) (optionAll_some_eq hpaired00 safeNode67596) (optionAll_some_eq hpaired01 safeNode67597) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 6 s67598
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (optionAll_some_eq (o := center s67598 2 false) (t := s67595) (by rfl) safeNode67595)
+    (Eq.refl true)
+    (optionAll_some_eq (o := paired s67598 false false) (t := s67596) (by rfl) safeNode67596)
+    (optionAll_some_eq (o := paired s67598 false true) (t := s67597) (by rfl) safeNode67597)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67599 : safe 5 6 s67599 = true := by
-  have hcenter00 : center s67599 0 false = none := by rfl
-  have hcenter01 : center s67599 0 true = none := by rfl
-  have hcenter10 : center s67599 1 false = none := by rfl
-  have hcenter11 : center s67599 1 true = none := by rfl
-  have hcenter20 : center s67599 2 false = none := by rfl
-  have hcenter21 : center s67599 2 true = none := by rfl
-  have hpaired00 : paired s67599 false false = none := by rfl
-  have hpaired01 : paired s67599 false true = none := by rfl
-  have hpaired10 : paired s67599 true false = none := by rfl
-  have hpaired11 : paired s67599 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67600 : safe 5 6 s67600 = true := by
-  exact safe_cost_exceeded 5 6 s67600 (by decide)
+  exact @safe_step_two 5 4 s67599
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67601 : safe 5 7 s67601 = true := by
-  have hcenter00 : center s67601 0 false = some s67599 := by rfl
-  have hcenter01 : center s67601 0 true = none := by rfl
-  have hcenter10 : center s67601 1 false = none := by rfl
-  have hcenter11 : center s67601 1 true = some s67600 := by rfl
-  have hcenter20 : center s67601 2 false = none := by rfl
-  have hcenter21 : center s67601 2 true = none := by rfl
-  have hpaired00 : paired s67601 false false = none := by rfl
-  have hpaired01 : paired s67601 false true = none := by rfl
-  have hpaired10 : paired s67601 true false = none := by rfl
-  have hpaired11 : paired s67601 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67599) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_some_eq hcenter11 safeNode67600) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 5 s67601
+    (optionAll_some_eq (o := center s67601 0 false) (t := s67599) (by rfl) safeNode67599)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67602 : safe 5 6 s67602 = true := by
-  have hcenter00 : center s67602 0 false = none := by rfl
-  have hcenter01 : center s67602 0 true = none := by rfl
-  have hcenter10 : center s67602 1 false = none := by rfl
-  have hcenter11 : center s67602 1 true = none := by rfl
-  have hcenter20 : center s67602 2 false = none := by rfl
-  have hcenter21 : center s67602 2 true = none := by rfl
-  have hpaired00 : paired s67602 false false = none := by rfl
-  have hpaired01 : paired s67602 false true = none := by rfl
-  have hpaired10 : paired s67602 true false = none := by rfl
-  have hpaired11 : paired s67602 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 4 s67602
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67603 : safe 5 6 s67603 = true := by
-  have hcenter00 : center s67603 0 false = none := by rfl
-  have hcenter01 : center s67603 0 true = none := by rfl
-  have hcenter10 : center s67603 1 false = none := by rfl
-  have hcenter11 : center s67603 1 true = none := by rfl
-  have hcenter20 : center s67603 2 false = none := by rfl
-  have hcenter21 : center s67603 2 true = none := by rfl
-  have hpaired00 : paired s67603 false false = none := by rfl
-  have hpaired01 : paired s67603 false true = none := by rfl
-  have hpaired10 : paired s67603 true false = none := by rfl
-  have hpaired11 : paired s67603 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 4 s67603
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67604 : safe 5 8 s67604 = true := by
-  have hcenter00 : center s67604 0 false = none := by rfl
-  have hcenter01 : center s67604 0 true = none := by rfl
-  have hcenter10 : center s67604 1 false = none := by rfl
-  have hcenter11 : center s67604 1 true = none := by rfl
-  have hcenter20 : center s67604 2 false = none := by rfl
-  have hcenter21 : center s67604 2 true = some s67601 := by rfl
-  have hpaired00 : paired s67604 false false = some s67602 := by rfl
-  have hpaired01 : paired s67604 false true = some s67603 := by rfl
-  have hpaired10 : paired s67604 true false = none := by rfl
-  have hpaired11 : paired s67604 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_some_eq hcenter21 safeNode67601) (optionAll_some_eq hpaired00 safeNode67602) (optionAll_some_eq hpaired01 safeNode67603) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 6 s67604
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (optionAll_some_eq (o := center s67604 2 true) (t := s67601) (by rfl) safeNode67601)
+    (optionAll_some_eq (o := paired s67604 false false) (t := s67602) (by rfl) safeNode67602)
+    (optionAll_some_eq (o := paired s67604 false true) (t := s67603) (by rfl) safeNode67603)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67605 : safe 5 9 s67605 = true := by
-  have hcenter00 : center s67605 0 false = none := by rfl
-  have hcenter01 : center s67605 0 true = none := by rfl
-  have hcenter10 : center s67605 1 false = some s67598 := by rfl
-  have hcenter11 : center s67605 1 true = some s67604 := by rfl
-  have hcenter20 : center s67605 2 false = none := by rfl
-  have hcenter21 : center s67605 2 true = none := by rfl
-  have hpaired00 : paired s67605 false false = none := by rfl
-  have hpaired01 : paired s67605 false true = none := by rfl
-  have hpaired10 : paired s67605 true false = none := by rfl
-  have hpaired11 : paired s67605 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67598) (optionAll_some_eq hcenter11 safeNode67604) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 7 s67605
+    (Eq.refl true)
+    (Eq.refl true)
+    (optionAll_some_eq (o := center s67605 1 false) (t := s67598) (by rfl) safeNode67598)
+    (optionAll_some_eq (o := center s67605 1 true) (t := s67604) (by rfl) safeNode67604)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67606 : safe 5 11 s67606 = true := by
-  have hcenter00 : center s67606 0 false = some s67518 := by rfl
-  have hcenter01 : center s67606 0 true = none := by rfl
-  have hcenter10 : center s67606 1 false = some s67549 := by rfl
-  have hcenter11 : center s67606 1 true = some s67577 := by rfl
-  have hcenter20 : center s67606 2 false = none := by rfl
-  have hcenter21 : center s67606 2 true = none := by rfl
-  have hpaired00 : paired s67606 false false = some s67591 := by rfl
-  have hpaired01 : paired s67606 false true = some s67605 := by rfl
-  have hpaired10 : paired s67606 true false = none := by rfl
-  have hpaired11 : paired s67606 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67518) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67549) (optionAll_some_eq hcenter11 safeNode67577) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_some_eq hpaired00 safeNode67591) (optionAll_some_eq hpaired01 safeNode67605) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67607 : safe 5 5 s67607 = true := by
-  exact safe_cost_exceeded 5 5 s67607 (by decide)
-
-theorem safeNode67608 : safe 5 6 s67608 = true := by
-  have hcenter00 : center s67608 0 false = none := by rfl
-  have hcenter01 : center s67608 0 true = none := by rfl
-  have hcenter10 : center s67608 1 false = none := by rfl
-  have hcenter11 : center s67608 1 true = none := by rfl
-  have hcenter20 : center s67608 2 false = none := by rfl
-  have hcenter21 : center s67608 2 true = some s67607 := by rfl
-  have hpaired00 : paired s67608 false false = none := by rfl
-  have hpaired01 : paired s67608 false true = none := by rfl
-  have hpaired10 : paired s67608 true false = none := by rfl
-  have hpaired11 : paired s67608 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_some_eq hcenter21 safeNode67607) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67609 : safe 5 6 s67609 = true := by
-  have hcenter00 : center s67609 0 false = none := by rfl
-  have hcenter01 : center s67609 0 true = none := by rfl
-  have hcenter10 : center s67609 1 false = none := by rfl
-  have hcenter11 : center s67609 1 true = none := by rfl
-  have hcenter20 : center s67609 2 false = none := by rfl
-  have hcenter21 : center s67609 2 true = none := by rfl
-  have hpaired00 : paired s67609 false false = none := by rfl
-  have hpaired01 : paired s67609 false true = none := by rfl
-  have hpaired10 : paired s67609 true false = none := by rfl
-  have hpaired11 : paired s67609 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67610 : safe 5 6 s67610 = true := by
-  have hcenter00 : center s67610 0 false = none := by rfl
-  have hcenter01 : center s67610 0 true = none := by rfl
-  have hcenter10 : center s67610 1 false = none := by rfl
-  have hcenter11 : center s67610 1 true = none := by rfl
-  have hcenter20 : center s67610 2 false = none := by rfl
-  have hcenter21 : center s67610 2 true = none := by rfl
-  have hpaired00 : paired s67610 false false = none := by rfl
-  have hpaired01 : paired s67610 false true = none := by rfl
-  have hpaired10 : paired s67610 true false = none := by rfl
-  have hpaired11 : paired s67610 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67611 : safe 5 7 s67611 = true := by
-  have hcenter00 : center s67611 0 false = none := by rfl
-  have hcenter01 : center s67611 0 true = some s67608 := by rfl
-  have hcenter10 : center s67611 1 false = some s67609 := by rfl
-  have hcenter11 : center s67611 1 true = some s67610 := by rfl
-  have hcenter20 : center s67611 2 false = none := by rfl
-  have hcenter21 : center s67611 2 true = none := by rfl
-  have hpaired00 : paired s67611 false false = none := by rfl
-  have hpaired01 : paired s67611 false true = none := by rfl
-  have hpaired10 : paired s67611 true false = none := by rfl
-  have hpaired11 : paired s67611 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_some_eq hcenter01 safeNode67608) (optionAll_some_eq hcenter10 safeNode67609) (optionAll_some_eq hcenter11 safeNode67610) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67612 : safe 5 6 s67612 = true := by
-  have hcenter00 : center s67612 0 false = none := by rfl
-  have hcenter01 : center s67612 0 true = none := by rfl
-  have hcenter10 : center s67612 1 false = none := by rfl
-  have hcenter11 : center s67612 1 true = none := by rfl
-  have hcenter20 : center s67612 2 false = none := by rfl
-  have hcenter21 : center s67612 2 true = none := by rfl
-  have hpaired00 : paired s67612 false false = none := by rfl
-  have hpaired01 : paired s67612 false true = none := by rfl
-  have hpaired10 : paired s67612 true false = none := by rfl
-  have hpaired11 : paired s67612 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67613 : safe 5 6 s67613 = true := by
-  have hcenter00 : center s67613 0 false = none := by rfl
-  have hcenter01 : center s67613 0 true = none := by rfl
-  have hcenter10 : center s67613 1 false = none := by rfl
-  have hcenter11 : center s67613 1 true = none := by rfl
-  have hcenter20 : center s67613 2 false = none := by rfl
-  have hcenter21 : center s67613 2 true = none := by rfl
-  have hpaired00 : paired s67613 false false = none := by rfl
-  have hpaired01 : paired s67613 false true = none := by rfl
-  have hpaired10 : paired s67613 true false = none := by rfl
-  have hpaired11 : paired s67613 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67614 : safe 5 8 s67614 = true := by
-  have hcenter00 : center s67614 0 false = none := by rfl
-  have hcenter01 : center s67614 0 true = none := by rfl
-  have hcenter10 : center s67614 1 false = none := by rfl
-  have hcenter11 : center s67614 1 true = none := by rfl
-  have hcenter20 : center s67614 2 false = some s67611 := by rfl
-  have hcenter21 : center s67614 2 true = none := by rfl
-  have hpaired00 : paired s67614 false false = none := by rfl
-  have hpaired01 : paired s67614 false true = none := by rfl
-  have hpaired10 : paired s67614 true false = some s67612 := by rfl
-  have hpaired11 : paired s67614 true true = some s67613 := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67611) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_some_eq hpaired10 safeNode67612) (optionAll_some_eq hpaired11 safeNode67613)
-
-theorem safeNode67615 : safe 5 6 s67615 = true := by
-  have hcenter00 : center s67615 0 false = none := by rfl
-  have hcenter01 : center s67615 0 true = none := by rfl
-  have hcenter10 : center s67615 1 false = none := by rfl
-  have hcenter11 : center s67615 1 true = none := by rfl
-  have hcenter20 : center s67615 2 false = none := by rfl
-  have hcenter21 : center s67615 2 true = none := by rfl
-  have hpaired00 : paired s67615 false false = none := by rfl
-  have hpaired01 : paired s67615 false true = none := by rfl
-  have hpaired10 : paired s67615 true false = none := by rfl
-  have hpaired11 : paired s67615 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67616 : safe 5 6 s67616 = true := by
-  have hcenter00 : center s67616 0 false = none := by rfl
-  have hcenter01 : center s67616 0 true = none := by rfl
-  have hcenter10 : center s67616 1 false = none := by rfl
-  have hcenter11 : center s67616 1 true = none := by rfl
-  have hcenter20 : center s67616 2 false = none := by rfl
-  have hcenter21 : center s67616 2 true = none := by rfl
-  have hpaired00 : paired s67616 false false = none := by rfl
-  have hpaired01 : paired s67616 false true = none := by rfl
-  have hpaired10 : paired s67616 true false = none := by rfl
-  have hpaired11 : paired s67616 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67617 : safe 5 8 s67617 = true := by
-  have hcenter00 : center s67617 0 false = none := by rfl
-  have hcenter01 : center s67617 0 true = none := by rfl
-  have hcenter10 : center s67617 1 false = none := by rfl
-  have hcenter11 : center s67617 1 true = none := by rfl
-  have hcenter20 : center s67617 2 false = none := by rfl
-  have hcenter21 : center s67617 2 true = none := by rfl
-  have hpaired00 : paired s67617 false false = none := by rfl
-  have hpaired01 : paired s67617 false true = none := by rfl
-  have hpaired10 : paired s67617 true false = some s67615 := by rfl
-  have hpaired11 : paired s67617 true true = some s67616 := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_some_eq hpaired10 safeNode67615) (optionAll_some_eq hpaired11 safeNode67616)
-
-theorem safeNode67618 : safe 5 6 s67618 = true := by
-  have hcenter00 : center s67618 0 false = none := by rfl
-  have hcenter01 : center s67618 0 true = none := by rfl
-  have hcenter10 : center s67618 1 false = none := by rfl
-  have hcenter11 : center s67618 1 true = none := by rfl
-  have hcenter20 : center s67618 2 false = none := by rfl
-  have hcenter21 : center s67618 2 true = none := by rfl
-  have hpaired00 : paired s67618 false false = none := by rfl
-  have hpaired01 : paired s67618 false true = none := by rfl
-  have hpaired10 : paired s67618 true false = none := by rfl
-  have hpaired11 : paired s67618 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67619 : safe 5 7 s67619 = true := by
-  have hcenter00 : center s67619 0 false = none := by rfl
-  have hcenter01 : center s67619 0 true = none := by rfl
-  have hcenter10 : center s67619 1 false = none := by rfl
-  have hcenter11 : center s67619 1 true = none := by rfl
-  have hcenter20 : center s67619 2 false = some s67618 := by rfl
-  have hcenter21 : center s67619 2 true = none := by rfl
-  have hpaired00 : paired s67619 false false = none := by rfl
-  have hpaired01 : paired s67619 false true = none := by rfl
-  have hpaired10 : paired s67619 true false = none := by rfl
-  have hpaired11 : paired s67619 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67618) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67620 : safe 5 7 s67620 = true := by
-  have hcenter00 : center s67620 0 false = none := by rfl
-  have hcenter01 : center s67620 0 true = none := by rfl
-  have hcenter10 : center s67620 1 false = none := by rfl
-  have hcenter11 : center s67620 1 true = none := by rfl
-  have hcenter20 : center s67620 2 false = none := by rfl
-  have hcenter21 : center s67620 2 true = none := by rfl
-  have hpaired00 : paired s67620 false false = none := by rfl
-  have hpaired01 : paired s67620 false true = none := by rfl
-  have hpaired10 : paired s67620 true false = none := by rfl
-  have hpaired11 : paired s67620 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67621 : safe 5 8 s67621 = true := by
-  have hcenter00 : center s67621 0 false = none := by rfl
-  have hcenter01 : center s67621 0 true = some s67619 := by rfl
-  have hcenter10 : center s67621 1 false = none := by rfl
-  have hcenter11 : center s67621 1 true = some s67620 := by rfl
-  have hcenter20 : center s67621 2 false = none := by rfl
-  have hcenter21 : center s67621 2 true = none := by rfl
-  have hpaired00 : paired s67621 false false = none := by rfl
-  have hpaired01 : paired s67621 false true = none := by rfl
-  have hpaired10 : paired s67621 true false = none := by rfl
-  have hpaired11 : paired s67621 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_some_eq hcenter01 safeNode67619) (optionAll_none_eq hcenter10) (optionAll_some_eq hcenter11 safeNode67620) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67622 : safe 5 9 s67622 = true := by
-  have hcenter00 : center s67622 0 false = some s67614 := by rfl
-  have hcenter01 : center s67622 0 true = some s67617 := by rfl
-  have hcenter10 : center s67622 1 false = none := by rfl
-  have hcenter11 : center s67622 1 true = none := by rfl
-  have hcenter20 : center s67622 2 false = none := by rfl
-  have hcenter21 : center s67622 2 true = some s67621 := by rfl
-  have hpaired00 : paired s67622 false false = none := by rfl
-  have hpaired01 : paired s67622 false true = none := by rfl
-  have hpaired10 : paired s67622 true false = none := by rfl
-  have hpaired11 : paired s67622 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67614) (optionAll_some_eq hcenter01 safeNode67617) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_some_eq hcenter21 safeNode67621) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67623 : safe 5 6 s67623 = true := by
-  exact safe_cost_exceeded 5 6 s67623 (by decide)
-
-theorem safeNode67624 : safe 5 7 s67624 = true := by
-  have hcenter00 : center s67624 0 false = none := by rfl
-  have hcenter01 : center s67624 0 true = none := by rfl
-  have hcenter10 : center s67624 1 false = some s67623 := by rfl
-  have hcenter11 : center s67624 1 true = none := by rfl
-  have hcenter20 : center s67624 2 false = none := by rfl
-  have hcenter21 : center s67624 2 true = none := by rfl
-  have hpaired00 : paired s67624 false false = none := by rfl
-  have hpaired01 : paired s67624 false true = none := by rfl
-  have hpaired10 : paired s67624 true false = none := by rfl
-  have hpaired11 : paired s67624 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67623) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67625 : safe 5 8 s67625 = true := by
-  have hcenter00 : center s67625 0 false = none := by rfl
-  have hcenter01 : center s67625 0 true = none := by rfl
-  have hcenter10 : center s67625 1 false = none := by rfl
-  have hcenter11 : center s67625 1 true = none := by rfl
-  have hcenter20 : center s67625 2 false = some s67624 := by rfl
-  have hcenter21 : center s67625 2 true = none := by rfl
-  have hpaired00 : paired s67625 false false = none := by rfl
-  have hpaired01 : paired s67625 false true = none := by rfl
-  have hpaired10 : paired s67625 true false = none := by rfl
-  have hpaired11 : paired s67625 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67624) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67626 : safe 5 6 s67626 = true := by
-  have hcenter00 : center s67626 0 false = none := by rfl
-  have hcenter01 : center s67626 0 true = none := by rfl
-  have hcenter10 : center s67626 1 false = none := by rfl
-  have hcenter11 : center s67626 1 true = none := by rfl
-  have hcenter20 : center s67626 2 false = none := by rfl
-  have hcenter21 : center s67626 2 true = none := by rfl
-  have hpaired00 : paired s67626 false false = none := by rfl
-  have hpaired01 : paired s67626 false true = none := by rfl
-  have hpaired10 : paired s67626 true false = none := by rfl
-  have hpaired11 : paired s67626 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67627 : safe 5 7 s67627 = true := by
-  have hcenter00 : center s67627 0 false = none := by rfl
-  have hcenter01 : center s67627 0 true = none := by rfl
-  have hcenter10 : center s67627 1 false = none := by rfl
-  have hcenter11 : center s67627 1 true = none := by rfl
-  have hcenter20 : center s67627 2 false = some s67626 := by rfl
-  have hcenter21 : center s67627 2 true = none := by rfl
-  have hpaired00 : paired s67627 false false = none := by rfl
-  have hpaired01 : paired s67627 false true = none := by rfl
-  have hpaired10 : paired s67627 true false = none := by rfl
-  have hpaired11 : paired s67627 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67626) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67628 : safe 5 7 s67628 = true := by
-  have hcenter00 : center s67628 0 false = none := by rfl
-  have hcenter01 : center s67628 0 true = none := by rfl
-  have hcenter10 : center s67628 1 false = none := by rfl
-  have hcenter11 : center s67628 1 true = none := by rfl
-  have hcenter20 : center s67628 2 false = none := by rfl
-  have hcenter21 : center s67628 2 true = none := by rfl
-  have hpaired00 : paired s67628 false false = none := by rfl
-  have hpaired01 : paired s67628 false true = none := by rfl
-  have hpaired10 : paired s67628 true false = none := by rfl
-  have hpaired11 : paired s67628 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67629 : safe 5 8 s67629 = true := by
-  have hcenter00 : center s67629 0 false = some s67627 := by rfl
-  have hcenter01 : center s67629 0 true = some s67628 := by rfl
-  have hcenter10 : center s67629 1 false = none := by rfl
-  have hcenter11 : center s67629 1 true = none := by rfl
-  have hcenter20 : center s67629 2 false = none := by rfl
-  have hcenter21 : center s67629 2 true = none := by rfl
-  have hpaired00 : paired s67629 false false = none := by rfl
-  have hpaired01 : paired s67629 false true = none := by rfl
-  have hpaired10 : paired s67629 true false = none := by rfl
-  have hpaired11 : paired s67629 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67627) (optionAll_some_eq hcenter01 safeNode67628) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67630 : safe 5 9 s67630 = true := by
-  have hcenter00 : center s67630 0 false = none := by rfl
-  have hcenter01 : center s67630 0 true = none := by rfl
-  have hcenter10 : center s67630 1 false = some s67625 := by rfl
-  have hcenter11 : center s67630 1 true = some s67629 := by rfl
-  have hcenter20 : center s67630 2 false = none := by rfl
-  have hcenter21 : center s67630 2 true = none := by rfl
-  have hpaired00 : paired s67630 false false = none := by rfl
-  have hpaired01 : paired s67630 false true = none := by rfl
-  have hpaired10 : paired s67630 true false = none := by rfl
-  have hpaired11 : paired s67630 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67625) (optionAll_some_eq hcenter11 safeNode67629) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67631 : safe 5 6 s67631 = true := by
-  have hcenter00 : center s67631 0 false = none := by rfl
-  have hcenter01 : center s67631 0 true = none := by rfl
-  have hcenter10 : center s67631 1 false = none := by rfl
-  have hcenter11 : center s67631 1 true = none := by rfl
-  have hcenter20 : center s67631 2 false = none := by rfl
-  have hcenter21 : center s67631 2 true = none := by rfl
-  have hpaired00 : paired s67631 false false = none := by rfl
-  have hpaired01 : paired s67631 false true = none := by rfl
-  have hpaired10 : paired s67631 true false = none := by rfl
-  have hpaired11 : paired s67631 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67632 : safe 5 6 s67632 = true := by
-  have hcenter00 : center s67632 0 false = none := by rfl
-  have hcenter01 : center s67632 0 true = none := by rfl
-  have hcenter10 : center s67632 1 false = none := by rfl
-  have hcenter11 : center s67632 1 true = none := by rfl
-  have hcenter20 : center s67632 2 false = none := by rfl
-  have hcenter21 : center s67632 2 true = none := by rfl
-  have hpaired00 : paired s67632 false false = none := by rfl
-  have hpaired01 : paired s67632 false true = none := by rfl
-  have hpaired10 : paired s67632 true false = none := by rfl
-  have hpaired11 : paired s67632 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67633 : safe 5 7 s67633 = true := by
-  have hcenter00 : center s67633 0 false = none := by rfl
-  have hcenter01 : center s67633 0 true = none := by rfl
-  have hcenter10 : center s67633 1 false = none := by rfl
-  have hcenter11 : center s67633 1 true = none := by rfl
-  have hcenter20 : center s67633 2 false = some s67631 := by rfl
-  have hcenter21 : center s67633 2 true = some s67632 := by rfl
-  have hpaired00 : paired s67633 false false = none := by rfl
-  have hpaired01 : paired s67633 false true = none := by rfl
-  have hpaired10 : paired s67633 true false = none := by rfl
-  have hpaired11 : paired s67633 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67631) (optionAll_some_eq hcenter21 safeNode67632) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67634 : safe 5 8 s67634 = true := by
-  have hcenter00 : center s67634 0 false = none := by rfl
-  have hcenter01 : center s67634 0 true = none := by rfl
-  have hcenter10 : center s67634 1 false = some s67633 := by rfl
-  have hcenter11 : center s67634 1 true = none := by rfl
-  have hcenter20 : center s67634 2 false = none := by rfl
-  have hcenter21 : center s67634 2 true = none := by rfl
-  have hpaired00 : paired s67634 false false = none := by rfl
-  have hpaired01 : paired s67634 false true = none := by rfl
-  have hpaired10 : paired s67634 true false = none := by rfl
-  have hpaired11 : paired s67634 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67633) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67635 : safe 5 9 s67635 = true := by
-  have hcenter00 : center s67635 0 false = none := by rfl
-  have hcenter01 : center s67635 0 true = some s67634 := by rfl
-  have hcenter10 : center s67635 1 false = none := by rfl
-  have hcenter11 : center s67635 1 true = none := by rfl
-  have hcenter20 : center s67635 2 false = none := by rfl
-  have hcenter21 : center s67635 2 true = none := by rfl
-  have hpaired00 : paired s67635 false false = none := by rfl
-  have hpaired01 : paired s67635 false true = none := by rfl
-  have hpaired10 : paired s67635 true false = none := by rfl
-  have hpaired11 : paired s67635 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_some_eq hcenter01 safeNode67634) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 9 s67606
+    (optionAll_some_eq (o := center s67606 0 false) (t := s67518) (by rfl) safeNode67518)
+    (Eq.refl true)
+    (optionAll_some_eq (o := center s67606 1 false) (t := s67549) (by rfl) safeNode67549)
+    (optionAll_some_eq (o := center s67606 1 true) (t := s67577) (by rfl) safeNode67577)
+    (Eq.refl true)
+    (Eq.refl true)
+    (optionAll_some_eq (o := paired s67606 false false) (t := s67591) (by rfl) safeNode67591)
+    (optionAll_some_eq (o := paired s67606 false true) (t := s67605) (by rfl) safeNode67605)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67636 : safe 5 10 s67636 = true := by
-  have hcenter00 : center s67636 0 false = none := by rfl
-  have hcenter01 : center s67636 0 true = none := by rfl
-  have hcenter10 : center s67636 1 false = none := by rfl
-  have hcenter11 : center s67636 1 true = some s67622 := by rfl
-  have hcenter20 : center s67636 2 false = some s67630 := by rfl
-  have hcenter21 : center s67636 2 true = some s67635 := by rfl
-  have hpaired00 : paired s67636 false false = none := by rfl
-  have hpaired01 : paired s67636 false true = none := by rfl
-  have hpaired10 : paired s67636 true false = none := by rfl
-  have hpaired11 : paired s67636 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_some_eq hcenter11 safeNode67622) (optionAll_some_eq hcenter20 safeNode67630) (optionAll_some_eq hcenter21 safeNode67635) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67637 : safe 5 5 s67637 = true := by
-  exact safe_cost_exceeded 5 5 s67637 (by decide)
-
-theorem safeNode67638 : safe 5 6 s67638 = true := by
-  have hcenter00 : center s67638 0 false = some s67637 := by rfl
-  have hcenter01 : center s67638 0 true = none := by rfl
-  have hcenter10 : center s67638 1 false = none := by rfl
-  have hcenter11 : center s67638 1 true = none := by rfl
-  have hcenter20 : center s67638 2 false = none := by rfl
-  have hcenter21 : center s67638 2 true = none := by rfl
-  have hpaired00 : paired s67638 false false = none := by rfl
-  have hpaired01 : paired s67638 false true = none := by rfl
-  have hpaired10 : paired s67638 true false = none := by rfl
-  have hpaired11 : paired s67638 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67637) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67639 : safe 5 5 s67639 = true := by
-  exact safe_cost_exceeded 5 5 s67639 (by decide)
-
-theorem safeNode67640 : safe 5 6 s67640 = true := by
-  have hcenter00 : center s67640 0 false = none := by rfl
-  have hcenter01 : center s67640 0 true = none := by rfl
-  have hcenter10 : center s67640 1 false = none := by rfl
-  have hcenter11 : center s67640 1 true = none := by rfl
-  have hcenter20 : center s67640 2 false = some s67639 := by rfl
-  have hcenter21 : center s67640 2 true = none := by rfl
-  have hpaired00 : paired s67640 false false = none := by rfl
-  have hpaired01 : paired s67640 false true = none := by rfl
-  have hpaired10 : paired s67640 true false = none := by rfl
-  have hpaired11 : paired s67640 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67639) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67641 : safe 5 8 s67641 = true := by
-  have hcenter00 : center s67641 0 false = none := by rfl
-  have hcenter01 : center s67641 0 true = none := by rfl
-  have hcenter10 : center s67641 1 false = none := by rfl
-  have hcenter11 : center s67641 1 true = none := by rfl
-  have hcenter20 : center s67641 2 false = none := by rfl
-  have hcenter21 : center s67641 2 true = none := by rfl
-  have hpaired00 : paired s67641 false false = some s67638 := by rfl
-  have hpaired01 : paired s67641 false true = some s67640 := by rfl
-  have hpaired10 : paired s67641 true false = none := by rfl
-  have hpaired11 : paired s67641 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_some_eq hpaired00 safeNode67638) (optionAll_some_eq hpaired01 safeNode67640) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67642 : safe 5 4 s67642 = true := by
-  exact safe_cost_exceeded 5 4 s67642 (by decide)
-
-theorem safeNode67643 : safe 5 5 s67643 = true := by
-  have hcenter00 : center s67643 0 false = some s67642 := by rfl
-  have hcenter01 : center s67643 0 true = none := by rfl
-  have hcenter10 : center s67643 1 false = none := by rfl
-  have hcenter11 : center s67643 1 true = none := by rfl
-  have hcenter20 : center s67643 2 false = none := by rfl
-  have hcenter21 : center s67643 2 true = none := by rfl
-  have hpaired00 : paired s67643 false false = none := by rfl
-  have hpaired01 : paired s67643 false true = none := by rfl
-  have hpaired10 : paired s67643 true false = none := by rfl
-  have hpaired11 : paired s67643 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67642) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67644 : safe 5 6 s67644 = true := by
-  have hcenter00 : center s67644 0 false = none := by rfl
-  have hcenter01 : center s67644 0 true = none := by rfl
-  have hcenter10 : center s67644 1 false = none := by rfl
-  have hcenter11 : center s67644 1 true = none := by rfl
-  have hcenter20 : center s67644 2 false = some s67643 := by rfl
-  have hcenter21 : center s67644 2 true = none := by rfl
-  have hpaired00 : paired s67644 false false = none := by rfl
-  have hpaired01 : paired s67644 false true = none := by rfl
-  have hpaired10 : paired s67644 true false = none := by rfl
-  have hpaired11 : paired s67644 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67643) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67645 : safe 5 5 s67645 = true := by
-  exact safe_cost_exceeded 5 5 s67645 (by decide)
-
-theorem safeNode67646 : safe 5 6 s67646 = true := by
-  have hcenter00 : center s67646 0 false = none := by rfl
-  have hcenter01 : center s67646 0 true = none := by rfl
-  have hcenter10 : center s67646 1 false = none := by rfl
-  have hcenter11 : center s67646 1 true = none := by rfl
-  have hcenter20 : center s67646 2 false = some s67645 := by rfl
-  have hcenter21 : center s67646 2 true = none := by rfl
-  have hpaired00 : paired s67646 false false = none := by rfl
-  have hpaired01 : paired s67646 false true = none := by rfl
-  have hpaired10 : paired s67646 true false = none := by rfl
-  have hpaired11 : paired s67646 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67645) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67647 : safe 5 7 s67647 = true := by
-  have hcenter00 : center s67647 0 false = some s67644 := by rfl
-  have hcenter01 : center s67647 0 true = none := by rfl
-  have hcenter10 : center s67647 1 false = some s67646 := by rfl
-  have hcenter11 : center s67647 1 true = none := by rfl
-  have hcenter20 : center s67647 2 false = none := by rfl
-  have hcenter21 : center s67647 2 true = none := by rfl
-  have hpaired00 : paired s67647 false false = none := by rfl
-  have hpaired01 : paired s67647 false true = none := by rfl
-  have hpaired10 : paired s67647 true false = none := by rfl
-  have hpaired11 : paired s67647 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67644) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67646) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67648 : safe 5 5 s67648 = true := by
-  exact safe_cost_exceeded 5 5 s67648 (by decide)
-
-theorem safeNode67649 : safe 5 6 s67649 = true := by
-  have hcenter00 : center s67649 0 false = none := by rfl
-  have hcenter01 : center s67649 0 true = some s67648 := by rfl
-  have hcenter10 : center s67649 1 false = none := by rfl
-  have hcenter11 : center s67649 1 true = none := by rfl
-  have hcenter20 : center s67649 2 false = none := by rfl
-  have hcenter21 : center s67649 2 true = none := by rfl
-  have hpaired00 : paired s67649 false false = none := by rfl
-  have hpaired01 : paired s67649 false true = none := by rfl
-  have hpaired10 : paired s67649 true false = none := by rfl
-  have hpaired11 : paired s67649 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_some_eq hcenter01 safeNode67648) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67650 : safe 5 5 s67650 = true := by
-  exact safe_cost_exceeded 5 5 s67650 (by decide)
-
-theorem safeNode67651 : safe 5 6 s67651 = true := by
-  have hcenter00 : center s67651 0 false = none := by rfl
-  have hcenter01 : center s67651 0 true = none := by rfl
-  have hcenter10 : center s67651 1 false = none := by rfl
-  have hcenter11 : center s67651 1 true = none := by rfl
-  have hcenter20 : center s67651 2 false = none := by rfl
-  have hcenter21 : center s67651 2 true = some s67650 := by rfl
-  have hpaired00 : paired s67651 false false = none := by rfl
-  have hpaired01 : paired s67651 false true = none := by rfl
-  have hpaired10 : paired s67651 true false = none := by rfl
-  have hpaired11 : paired s67651 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_some_eq hcenter21 safeNode67650) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67652 : safe 5 8 s67652 = true := by
-  have hcenter00 : center s67652 0 false = none := by rfl
-  have hcenter01 : center s67652 0 true = none := by rfl
-  have hcenter10 : center s67652 1 false = none := by rfl
-  have hcenter11 : center s67652 1 true = none := by rfl
-  have hcenter20 : center s67652 2 false = none := by rfl
-  have hcenter21 : center s67652 2 true = some s67647 := by rfl
-  have hpaired00 : paired s67652 false false = some s67649 := by rfl
-  have hpaired01 : paired s67652 false true = some s67651 := by rfl
-  have hpaired10 : paired s67652 true false = none := by rfl
-  have hpaired11 : paired s67652 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_some_eq hcenter21 safeNode67647) (optionAll_some_eq hpaired00 safeNode67649) (optionAll_some_eq hpaired01 safeNode67651) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67653 : safe 5 7 s67653 = true := by
-  have hcenter00 : center s67653 0 false = none := by rfl
-  have hcenter01 : center s67653 0 true = none := by rfl
-  have hcenter10 : center s67653 1 false = none := by rfl
-  have hcenter11 : center s67653 1 true = none := by rfl
-  have hcenter20 : center s67653 2 false = none := by rfl
-  have hcenter21 : center s67653 2 true = none := by rfl
-  have hpaired00 : paired s67653 false false = none := by rfl
-  have hpaired01 : paired s67653 false true = none := by rfl
-  have hpaired10 : paired s67653 true false = none := by rfl
-  have hpaired11 : paired s67653 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67654 : safe 5 7 s67654 = true := by
-  have hcenter00 : center s67654 0 false = none := by rfl
-  have hcenter01 : center s67654 0 true = none := by rfl
-  have hcenter10 : center s67654 1 false = none := by rfl
-  have hcenter11 : center s67654 1 true = none := by rfl
-  have hcenter20 : center s67654 2 false = none := by rfl
-  have hcenter21 : center s67654 2 true = none := by rfl
-  have hpaired00 : paired s67654 false false = none := by rfl
-  have hpaired01 : paired s67654 false true = none := by rfl
-  have hpaired10 : paired s67654 true false = none := by rfl
-  have hpaired11 : paired s67654 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67655 : safe 5 6 s67655 = true := by
-  have hcenter00 : center s67655 0 false = none := by rfl
-  have hcenter01 : center s67655 0 true = none := by rfl
-  have hcenter10 : center s67655 1 false = none := by rfl
-  have hcenter11 : center s67655 1 true = none := by rfl
-  have hcenter20 : center s67655 2 false = none := by rfl
-  have hcenter21 : center s67655 2 true = none := by rfl
-  have hpaired00 : paired s67655 false false = none := by rfl
-  have hpaired01 : paired s67655 false true = none := by rfl
-  have hpaired10 : paired s67655 true false = none := by rfl
-  have hpaired11 : paired s67655 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67656 : safe 5 7 s67656 = true := by
-  have hcenter00 : center s67656 0 false = none := by rfl
-  have hcenter01 : center s67656 0 true = none := by rfl
-  have hcenter10 : center s67656 1 false = none := by rfl
-  have hcenter11 : center s67656 1 true = none := by rfl
-  have hcenter20 : center s67656 2 false = none := by rfl
-  have hcenter21 : center s67656 2 true = some s67655 := by rfl
-  have hpaired00 : paired s67656 false false = none := by rfl
-  have hpaired01 : paired s67656 false true = none := by rfl
-  have hpaired10 : paired s67656 true false = none := by rfl
-  have hpaired11 : paired s67656 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_some_eq hcenter21 safeNode67655) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67657 : safe 5 8 s67657 = true := by
-  have hcenter00 : center s67657 0 false = some s67653 := by rfl
-  have hcenter01 : center s67657 0 true = some s67654 := by rfl
-  have hcenter10 : center s67657 1 false = some s67656 := by rfl
-  have hcenter11 : center s67657 1 true = none := by rfl
-  have hcenter20 : center s67657 2 false = none := by rfl
-  have hcenter21 : center s67657 2 true = none := by rfl
-  have hpaired00 : paired s67657 false false = none := by rfl
-  have hpaired01 : paired s67657 false true = none := by rfl
-  have hpaired10 : paired s67657 true false = none := by rfl
-  have hpaired11 : paired s67657 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67653) (optionAll_some_eq hcenter01 safeNode67654) (optionAll_some_eq hcenter10 safeNode67656) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67658 : safe 5 9 s67658 = true := by
-  have hcenter00 : center s67658 0 false = none := by rfl
-  have hcenter01 : center s67658 0 true = none := by rfl
-  have hcenter10 : center s67658 1 false = some s67641 := by rfl
-  have hcenter11 : center s67658 1 true = some s67652 := by rfl
-  have hcenter20 : center s67658 2 false = some s67657 := by rfl
-  have hcenter21 : center s67658 2 true = none := by rfl
-  have hpaired00 : paired s67658 false false = none := by rfl
-  have hpaired01 : paired s67658 false true = none := by rfl
-  have hpaired10 : paired s67658 true false = none := by rfl
-  have hpaired11 : paired s67658 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67641) (optionAll_some_eq hcenter11 safeNode67652) (optionAll_some_eq hcenter20 safeNode67657) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67659 : safe 5 5 s67659 = true := by
-  have hcenter00 : center s67659 0 false = none := by rfl
-  have hcenter01 : center s67659 0 true = none := by rfl
-  have hcenter10 : center s67659 1 false = none := by rfl
-  have hcenter11 : center s67659 1 true = none := by rfl
-  have hcenter20 : center s67659 2 false = none := by rfl
-  have hcenter21 : center s67659 2 true = none := by rfl
-  have hpaired00 : paired s67659 false false = none := by rfl
-  have hpaired01 : paired s67659 false true = none := by rfl
-  have hpaired10 : paired s67659 true false = none := by rfl
-  have hpaired11 : paired s67659 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67660 : safe 5 5 s67660 = true := by
-  exact safe_cost_exceeded 5 5 s67660 (by decide)
-
-theorem safeNode67661 : safe 5 6 s67661 = true := by
-  have hcenter00 : center s67661 0 false = some s67659 := by rfl
-  have hcenter01 : center s67661 0 true = none := by rfl
-  have hcenter10 : center s67661 1 false = none := by rfl
-  have hcenter11 : center s67661 1 true = none := by rfl
-  have hcenter20 : center s67661 2 false = some s67660 := by rfl
-  have hcenter21 : center s67661 2 true = none := by rfl
-  have hpaired00 : paired s67661 false false = none := by rfl
-  have hpaired01 : paired s67661 false true = none := by rfl
-  have hpaired10 : paired s67661 true false = none := by rfl
-  have hpaired11 : paired s67661 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67659) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67660) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67662 : safe 5 7 s67662 = true := by
-  have hcenter00 : center s67662 0 false = none := by rfl
-  have hcenter01 : center s67662 0 true = none := by rfl
-  have hcenter10 : center s67662 1 false = some s67661 := by rfl
-  have hcenter11 : center s67662 1 true = none := by rfl
-  have hcenter20 : center s67662 2 false = none := by rfl
-  have hcenter21 : center s67662 2 true = none := by rfl
-  have hpaired00 : paired s67662 false false = none := by rfl
-  have hpaired01 : paired s67662 false true = none := by rfl
-  have hpaired10 : paired s67662 true false = none := by rfl
-  have hpaired11 : paired s67662 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67661) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67663 : safe 5 7 s67663 = true := by
-  have hcenter00 : center s67663 0 false = none := by rfl
-  have hcenter01 : center s67663 0 true = none := by rfl
-  have hcenter10 : center s67663 1 false = none := by rfl
-  have hcenter11 : center s67663 1 true = none := by rfl
-  have hcenter20 : center s67663 2 false = none := by rfl
-  have hcenter21 : center s67663 2 true = none := by rfl
-  have hpaired00 : paired s67663 false false = none := by rfl
-  have hpaired01 : paired s67663 false true = none := by rfl
-  have hpaired10 : paired s67663 true false = none := by rfl
-  have hpaired11 : paired s67663 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67664 : safe 5 8 s67664 = true := by
-  have hcenter00 : center s67664 0 false = none := by rfl
-  have hcenter01 : center s67664 0 true = none := by rfl
-  have hcenter10 : center s67664 1 false = none := by rfl
-  have hcenter11 : center s67664 1 true = none := by rfl
-  have hcenter20 : center s67664 2 false = some s67662 := by rfl
-  have hcenter21 : center s67664 2 true = some s67663 := by rfl
-  have hpaired00 : paired s67664 false false = none := by rfl
-  have hpaired01 : paired s67664 false true = none := by rfl
-  have hpaired10 : paired s67664 true false = none := by rfl
-  have hpaired11 : paired s67664 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67662) (optionAll_some_eq hcenter21 safeNode67663) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67665 : safe 5 7 s67665 = true := by
-  have hcenter00 : center s67665 0 false = none := by rfl
-  have hcenter01 : center s67665 0 true = none := by rfl
-  have hcenter10 : center s67665 1 false = none := by rfl
-  have hcenter11 : center s67665 1 true = none := by rfl
-  have hcenter20 : center s67665 2 false = none := by rfl
-  have hcenter21 : center s67665 2 true = none := by rfl
-  have hpaired00 : paired s67665 false false = none := by rfl
-  have hpaired01 : paired s67665 false true = none := by rfl
-  have hpaired10 : paired s67665 true false = none := by rfl
-  have hpaired11 : paired s67665 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67666 : safe 5 3 s67666 = true := by
-  exact safe_cost_exceeded 5 3 s67666 (by decide)
-
-theorem safeNode67667 : safe 5 4 s67667 = true := by
-  have hcenter00 : center s67667 0 false = none := by rfl
-  have hcenter01 : center s67667 0 true = some s67666 := by rfl
-  have hcenter10 : center s67667 1 false = none := by rfl
-  have hcenter11 : center s67667 1 true = none := by rfl
-  have hcenter20 : center s67667 2 false = none := by rfl
-  have hcenter21 : center s67667 2 true = none := by rfl
-  have hpaired00 : paired s67667 false false = none := by rfl
-  have hpaired01 : paired s67667 false true = none := by rfl
-  have hpaired10 : paired s67667 true false = none := by rfl
-  have hpaired11 : paired s67667 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_some_eq hcenter01 safeNode67666) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67668 : safe 5 5 s67668 = true := by
-  have hcenter00 : center s67668 0 false = none := by rfl
-  have hcenter01 : center s67668 0 true = none := by rfl
-  have hcenter10 : center s67668 1 false = none := by rfl
-  have hcenter11 : center s67668 1 true = none := by rfl
-  have hcenter20 : center s67668 2 false = none := by rfl
-  have hcenter21 : center s67668 2 true = some s67667 := by rfl
-  have hpaired00 : paired s67668 false false = none := by rfl
-  have hpaired01 : paired s67668 false true = none := by rfl
-  have hpaired10 : paired s67668 true false = none := by rfl
-  have hpaired11 : paired s67668 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_some_eq hcenter21 safeNode67667) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67669 : safe 5 6 s67669 = true := by
-  have hcenter00 : center s67669 0 false = none := by rfl
-  have hcenter01 : center s67669 0 true = some s67668 := by rfl
-  have hcenter10 : center s67669 1 false = none := by rfl
-  have hcenter11 : center s67669 1 true = none := by rfl
-  have hcenter20 : center s67669 2 false = none := by rfl
-  have hcenter21 : center s67669 2 true = none := by rfl
-  have hpaired00 : paired s67669 false false = none := by rfl
-  have hpaired01 : paired s67669 false true = none := by rfl
-  have hpaired10 : paired s67669 true false = none := by rfl
-  have hpaired11 : paired s67669 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_some_eq hcenter01 safeNode67668) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67670 : safe 5 7 s67670 = true := by
-  have hcenter00 : center s67670 0 false = none := by rfl
-  have hcenter01 : center s67670 0 true = none := by rfl
-  have hcenter10 : center s67670 1 false = none := by rfl
-  have hcenter11 : center s67670 1 true = none := by rfl
-  have hcenter20 : center s67670 2 false = none := by rfl
-  have hcenter21 : center s67670 2 true = some s67669 := by rfl
-  have hpaired00 : paired s67670 false false = none := by rfl
-  have hpaired01 : paired s67670 false true = none := by rfl
-  have hpaired10 : paired s67670 true false = none := by rfl
-  have hpaired11 : paired s67670 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_some_eq hcenter21 safeNode67669) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67671 : safe 5 8 s67671 = true := by
-  have hcenter00 : center s67671 0 false = none := by rfl
-  have hcenter01 : center s67671 0 true = none := by rfl
-  have hcenter10 : center s67671 1 false = some s67665 := by rfl
-  have hcenter11 : center s67671 1 true = some s67670 := by rfl
-  have hcenter20 : center s67671 2 false = none := by rfl
-  have hcenter21 : center s67671 2 true = none := by rfl
-  have hpaired00 : paired s67671 false false = none := by rfl
-  have hpaired01 : paired s67671 false true = none := by rfl
-  have hpaired10 : paired s67671 true false = none := by rfl
-  have hpaired11 : paired s67671 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67665) (optionAll_some_eq hcenter11 safeNode67670) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67672 : safe 5 9 s67672 = true := by
-  have hcenter00 : center s67672 0 false = some s67664 := by rfl
-  have hcenter01 : center s67672 0 true = some s67671 := by rfl
-  have hcenter10 : center s67672 1 false = none := by rfl
-  have hcenter11 : center s67672 1 true = none := by rfl
-  have hcenter20 : center s67672 2 false = none := by rfl
-  have hcenter21 : center s67672 2 true = none := by rfl
-  have hpaired00 : paired s67672 false false = none := by rfl
-  have hpaired01 : paired s67672 false true = none := by rfl
-  have hpaired10 : paired s67672 true false = none := by rfl
-  have hpaired11 : paired s67672 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67664) (optionAll_some_eq hcenter01 safeNode67671) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67673 : safe 5 7 s67673 = true := by
-  have hcenter00 : center s67673 0 false = none := by rfl
-  have hcenter01 : center s67673 0 true = none := by rfl
-  have hcenter10 : center s67673 1 false = none := by rfl
-  have hcenter11 : center s67673 1 true = none := by rfl
-  have hcenter20 : center s67673 2 false = none := by rfl
-  have hcenter21 : center s67673 2 true = none := by rfl
-  have hpaired00 : paired s67673 false false = none := by rfl
-  have hpaired01 : paired s67673 false true = none := by rfl
-  have hpaired10 : paired s67673 true false = none := by rfl
-  have hpaired11 : paired s67673 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67674 : safe 5 6 s67674 = true := by
-  exact safe_cost_exceeded 5 6 s67674 (by decide)
-
-theorem safeNode67675 : safe 5 7 s67675 = true := by
-  have hcenter00 : center s67675 0 false = none := by rfl
-  have hcenter01 : center s67675 0 true = none := by rfl
-  have hcenter10 : center s67675 1 false = none := by rfl
-  have hcenter11 : center s67675 1 true = some s67674 := by rfl
-  have hcenter20 : center s67675 2 false = none := by rfl
-  have hcenter21 : center s67675 2 true = none := by rfl
-  have hpaired00 : paired s67675 false false = none := by rfl
-  have hpaired01 : paired s67675 false true = none := by rfl
-  have hpaired10 : paired s67675 true false = none := by rfl
-  have hpaired11 : paired s67675 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_some_eq hcenter11 safeNode67674) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67676 : safe 5 8 s67676 = true := by
-  have hcenter00 : center s67676 0 false = some s67673 := by rfl
-  have hcenter01 : center s67676 0 true = some s67675 := by rfl
-  have hcenter10 : center s67676 1 false = none := by rfl
-  have hcenter11 : center s67676 1 true = none := by rfl
-  have hcenter20 : center s67676 2 false = none := by rfl
-  have hcenter21 : center s67676 2 true = none := by rfl
-  have hpaired00 : paired s67676 false false = none := by rfl
-  have hpaired01 : paired s67676 false true = none := by rfl
-  have hpaired10 : paired s67676 true false = none := by rfl
-  have hpaired11 : paired s67676 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67673) (optionAll_some_eq hcenter01 safeNode67675) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67677 : safe 5 7 s67677 = true := by
-  have hcenter00 : center s67677 0 false = none := by rfl
-  have hcenter01 : center s67677 0 true = none := by rfl
-  have hcenter10 : center s67677 1 false = none := by rfl
-  have hcenter11 : center s67677 1 true = none := by rfl
-  have hcenter20 : center s67677 2 false = none := by rfl
-  have hcenter21 : center s67677 2 true = none := by rfl
-  have hpaired00 : paired s67677 false false = none := by rfl
-  have hpaired01 : paired s67677 false true = none := by rfl
-  have hpaired10 : paired s67677 true false = none := by rfl
-  have hpaired11 : paired s67677 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67678 : safe 5 6 s67678 = true := by
-  exact safe_cost_exceeded 5 6 s67678 (by decide)
-
-theorem safeNode67679 : safe 5 7 s67679 = true := by
-  have hcenter00 : center s67679 0 false = none := by rfl
-  have hcenter01 : center s67679 0 true = none := by rfl
-  have hcenter10 : center s67679 1 false = none := by rfl
-  have hcenter11 : center s67679 1 true = some s67678 := by rfl
-  have hcenter20 : center s67679 2 false = none := by rfl
-  have hcenter21 : center s67679 2 true = none := by rfl
-  have hpaired00 : paired s67679 false false = none := by rfl
-  have hpaired01 : paired s67679 false true = none := by rfl
-  have hpaired10 : paired s67679 true false = none := by rfl
-  have hpaired11 : paired s67679 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_some_eq hcenter11 safeNode67678) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67680 : safe 5 8 s67680 = true := by
-  have hcenter00 : center s67680 0 false = none := by rfl
-  have hcenter01 : center s67680 0 true = none := by rfl
-  have hcenter10 : center s67680 1 false = none := by rfl
-  have hcenter11 : center s67680 1 true = none := by rfl
-  have hcenter20 : center s67680 2 false = some s67677 := by rfl
-  have hcenter21 : center s67680 2 true = some s67679 := by rfl
-  have hpaired00 : paired s67680 false false = none := by rfl
-  have hpaired01 : paired s67680 false true = none := by rfl
-  have hpaired10 : paired s67680 true false = none := by rfl
-  have hpaired11 : paired s67680 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67677) (optionAll_some_eq hcenter21 safeNode67679) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  refine safe_step_two (budget := 5) (n := 8) (s := s67636) ?_ ?_ ?_ ?_ ?_ ?_ ?_ ?_ ?_ ?_
+  all_goals decide +kernel
 
 theorem safeNode67681 : safe 5 10 s67681 = true := by
-  have hcenter00 : center s67681 0 false = none := by rfl
-  have hcenter01 : center s67681 0 true = some s67658 := by rfl
-  have hcenter10 : center s67681 1 false = none := by rfl
-  have hcenter11 : center s67681 1 true = none := by rfl
-  have hcenter20 : center s67681 2 false = none := by rfl
-  have hcenter21 : center s67681 2 true = some s67672 := by rfl
-  have hpaired00 : paired s67681 false false = some s67676 := by rfl
-  have hpaired01 : paired s67681 false true = some s67680 := by rfl
-  have hpaired10 : paired s67681 true false = none := by rfl
-  have hpaired11 : paired s67681 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_some_eq hcenter01 safeNode67658) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_some_eq hcenter21 safeNode67672) (optionAll_some_eq hpaired00 safeNode67676) (optionAll_some_eq hpaired01 safeNode67680) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67682 : safe 5 6 s67682 = true := by
-  have hcenter00 : center s67682 0 false = none := by rfl
-  have hcenter01 : center s67682 0 true = none := by rfl
-  have hcenter10 : center s67682 1 false = none := by rfl
-  have hcenter11 : center s67682 1 true = none := by rfl
-  have hcenter20 : center s67682 2 false = none := by rfl
-  have hcenter21 : center s67682 2 true = none := by rfl
-  have hpaired00 : paired s67682 false false = none := by rfl
-  have hpaired01 : paired s67682 false true = none := by rfl
-  have hpaired10 : paired s67682 true false = none := by rfl
-  have hpaired11 : paired s67682 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67683 : safe 5 6 s67683 = true := by
-  have hcenter00 : center s67683 0 false = none := by rfl
-  have hcenter01 : center s67683 0 true = none := by rfl
-  have hcenter10 : center s67683 1 false = none := by rfl
-  have hcenter11 : center s67683 1 true = none := by rfl
-  have hcenter20 : center s67683 2 false = none := by rfl
-  have hcenter21 : center s67683 2 true = none := by rfl
-  have hpaired00 : paired s67683 false false = none := by rfl
-  have hpaired01 : paired s67683 false true = none := by rfl
-  have hpaired10 : paired s67683 true false = none := by rfl
-  have hpaired11 : paired s67683 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67684 : safe 5 7 s67684 = true := by
-  have hcenter00 : center s67684 0 false = none := by rfl
-  have hcenter01 : center s67684 0 true = none := by rfl
-  have hcenter10 : center s67684 1 false = some s67682 := by rfl
-  have hcenter11 : center s67684 1 true = some s67683 := by rfl
-  have hcenter20 : center s67684 2 false = none := by rfl
-  have hcenter21 : center s67684 2 true = none := by rfl
-  have hpaired00 : paired s67684 false false = none := by rfl
-  have hpaired01 : paired s67684 false true = none := by rfl
-  have hpaired10 : paired s67684 true false = none := by rfl
-  have hpaired11 : paired s67684 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67682) (optionAll_some_eq hcenter11 safeNode67683) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67685 : safe 5 6 s67685 = true := by
-  have hcenter00 : center s67685 0 false = none := by rfl
-  have hcenter01 : center s67685 0 true = none := by rfl
-  have hcenter10 : center s67685 1 false = none := by rfl
-  have hcenter11 : center s67685 1 true = none := by rfl
-  have hcenter20 : center s67685 2 false = none := by rfl
-  have hcenter21 : center s67685 2 true = none := by rfl
-  have hpaired00 : paired s67685 false false = none := by rfl
-  have hpaired01 : paired s67685 false true = none := by rfl
-  have hpaired10 : paired s67685 true false = none := by rfl
-  have hpaired11 : paired s67685 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67686 : safe 5 6 s67686 = true := by
-  have hcenter00 : center s67686 0 false = none := by rfl
-  have hcenter01 : center s67686 0 true = none := by rfl
-  have hcenter10 : center s67686 1 false = none := by rfl
-  have hcenter11 : center s67686 1 true = none := by rfl
-  have hcenter20 : center s67686 2 false = none := by rfl
-  have hcenter21 : center s67686 2 true = none := by rfl
-  have hpaired00 : paired s67686 false false = none := by rfl
-  have hpaired01 : paired s67686 false true = none := by rfl
-  have hpaired10 : paired s67686 true false = none := by rfl
-  have hpaired11 : paired s67686 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67687 : safe 5 8 s67687 = true := by
-  have hcenter00 : center s67687 0 false = none := by rfl
-  have hcenter01 : center s67687 0 true = none := by rfl
-  have hcenter10 : center s67687 1 false = none := by rfl
-  have hcenter11 : center s67687 1 true = none := by rfl
-  have hcenter20 : center s67687 2 false = some s67684 := by rfl
-  have hcenter21 : center s67687 2 true = none := by rfl
-  have hpaired00 : paired s67687 false false = some s67685 := by rfl
-  have hpaired01 : paired s67687 false true = some s67686 := by rfl
-  have hpaired10 : paired s67687 true false = none := by rfl
-  have hpaired11 : paired s67687 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67684) (optionAll_none_eq hcenter21) (optionAll_some_eq hpaired00 safeNode67685) (optionAll_some_eq hpaired01 safeNode67686) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67688 : safe 5 6 s67688 = true := by
-  have hcenter00 : center s67688 0 false = none := by rfl
-  have hcenter01 : center s67688 0 true = none := by rfl
-  have hcenter10 : center s67688 1 false = none := by rfl
-  have hcenter11 : center s67688 1 true = none := by rfl
-  have hcenter20 : center s67688 2 false = none := by rfl
-  have hcenter21 : center s67688 2 true = none := by rfl
-  have hpaired00 : paired s67688 false false = none := by rfl
-  have hpaired01 : paired s67688 false true = none := by rfl
-  have hpaired10 : paired s67688 true false = none := by rfl
-  have hpaired11 : paired s67688 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67689 : safe 5 6 s67689 = true := by
-  have hcenter00 : center s67689 0 false = none := by rfl
-  have hcenter01 : center s67689 0 true = none := by rfl
-  have hcenter10 : center s67689 1 false = none := by rfl
-  have hcenter11 : center s67689 1 true = none := by rfl
-  have hcenter20 : center s67689 2 false = none := by rfl
-  have hcenter21 : center s67689 2 true = none := by rfl
-  have hpaired00 : paired s67689 false false = none := by rfl
-  have hpaired01 : paired s67689 false true = none := by rfl
-  have hpaired10 : paired s67689 true false = none := by rfl
-  have hpaired11 : paired s67689 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67690 : safe 5 8 s67690 = true := by
-  have hcenter00 : center s67690 0 false = none := by rfl
-  have hcenter01 : center s67690 0 true = none := by rfl
-  have hcenter10 : center s67690 1 false = none := by rfl
-  have hcenter11 : center s67690 1 true = none := by rfl
-  have hcenter20 : center s67690 2 false = none := by rfl
-  have hcenter21 : center s67690 2 true = none := by rfl
-  have hpaired00 : paired s67690 false false = some s67688 := by rfl
-  have hpaired01 : paired s67690 false true = some s67689 := by rfl
-  have hpaired10 : paired s67690 true false = none := by rfl
-  have hpaired11 : paired s67690 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_some_eq hpaired00 safeNode67688) (optionAll_some_eq hpaired01 safeNode67689) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67691 : safe 5 6 s67691 = true := by
-  exact safe_cost_exceeded 5 6 s67691 (by decide)
-
-theorem safeNode67692 : safe 5 7 s67692 = true := by
-  have hcenter00 : center s67692 0 false = none := by rfl
-  have hcenter01 : center s67692 0 true = none := by rfl
-  have hcenter10 : center s67692 1 false = some s67691 := by rfl
-  have hcenter11 : center s67692 1 true = none := by rfl
-  have hcenter20 : center s67692 2 false = none := by rfl
-  have hcenter21 : center s67692 2 true = none := by rfl
-  have hpaired00 : paired s67692 false false = none := by rfl
-  have hpaired01 : paired s67692 false true = none := by rfl
-  have hpaired10 : paired s67692 true false = none := by rfl
-  have hpaired11 : paired s67692 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67691) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67693 : safe 5 6 s67693 = true := by
-  have hcenter00 : center s67693 0 false = none := by rfl
-  have hcenter01 : center s67693 0 true = none := by rfl
-  have hcenter10 : center s67693 1 false = none := by rfl
-  have hcenter11 : center s67693 1 true = none := by rfl
-  have hcenter20 : center s67693 2 false = none := by rfl
-  have hcenter21 : center s67693 2 true = none := by rfl
-  have hpaired00 : paired s67693 false false = none := by rfl
-  have hpaired01 : paired s67693 false true = none := by rfl
-  have hpaired10 : paired s67693 true false = none := by rfl
-  have hpaired11 : paired s67693 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67694 : safe 5 6 s67694 = true := by
-  exact safe_cost_exceeded 5 6 s67694 (by decide)
-
-theorem safeNode67695 : safe 5 7 s67695 = true := by
-  have hcenter00 : center s67695 0 false = none := by rfl
-  have hcenter01 : center s67695 0 true = some s67693 := by rfl
-  have hcenter10 : center s67695 1 false = none := by rfl
-  have hcenter11 : center s67695 1 true = some s67694 := by rfl
-  have hcenter20 : center s67695 2 false = none := by rfl
-  have hcenter21 : center s67695 2 true = none := by rfl
-  have hpaired00 : paired s67695 false false = none := by rfl
-  have hpaired01 : paired s67695 false true = none := by rfl
-  have hpaired10 : paired s67695 true false = none := by rfl
-  have hpaired11 : paired s67695 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_some_eq hcenter01 safeNode67693) (optionAll_none_eq hcenter10) (optionAll_some_eq hcenter11 safeNode67694) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67696 : safe 5 8 s67696 = true := by
-  have hcenter00 : center s67696 0 false = none := by rfl
-  have hcenter01 : center s67696 0 true = none := by rfl
-  have hcenter10 : center s67696 1 false = none := by rfl
-  have hcenter11 : center s67696 1 true = none := by rfl
-  have hcenter20 : center s67696 2 false = some s67692 := by rfl
-  have hcenter21 : center s67696 2 true = some s67695 := by rfl
-  have hpaired00 : paired s67696 false false = none := by rfl
-  have hpaired01 : paired s67696 false true = none := by rfl
-  have hpaired10 : paired s67696 true false = none := by rfl
-  have hpaired11 : paired s67696 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67692) (optionAll_some_eq hcenter21 safeNode67695) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  refine safe_step_two (budget := 5) (n := 8) (s := s67681) ?_ ?_ ?_ ?_ ?_ ?_ ?_ ?_ ?_ ?_
+  all_goals decide +kernel
 
 theorem safeNode67697 : safe 5 9 s67697 = true := by
-  have hcenter00 : center s67697 0 false = some s67687 := by rfl
-  have hcenter01 : center s67697 0 true = some s67690 := by rfl
-  have hcenter10 : center s67697 1 false = none := by rfl
-  have hcenter11 : center s67697 1 true = some s67696 := by rfl
-  have hcenter20 : center s67697 2 false = none := by rfl
-  have hcenter21 : center s67697 2 true = none := by rfl
-  have hpaired00 : paired s67697 false false = none := by rfl
-  have hpaired01 : paired s67697 false true = none := by rfl
-  have hpaired10 : paired s67697 true false = none := by rfl
-  have hpaired11 : paired s67697 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67687) (optionAll_some_eq hcenter01 safeNode67690) (optionAll_none_eq hcenter10) (optionAll_some_eq hcenter11 safeNode67696) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67698 : safe 5 6 s67698 = true := by
-  exact safe_cost_exceeded 5 6 s67698 (by decide)
-
-theorem safeNode67699 : safe 5 7 s67699 = true := by
-  have hcenter00 : center s67699 0 false = some s67698 := by rfl
-  have hcenter01 : center s67699 0 true = none := by rfl
-  have hcenter10 : center s67699 1 false = none := by rfl
-  have hcenter11 : center s67699 1 true = none := by rfl
-  have hcenter20 : center s67699 2 false = none := by rfl
-  have hcenter21 : center s67699 2 true = none := by rfl
-  have hpaired00 : paired s67699 false false = none := by rfl
-  have hpaired01 : paired s67699 false true = none := by rfl
-  have hpaired10 : paired s67699 true false = none := by rfl
-  have hpaired11 : paired s67699 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67698) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67700 : safe 5 6 s67700 = true := by
-  exact safe_cost_exceeded 5 6 s67700 (by decide)
-
-theorem safeNode67701 : safe 5 6 s67701 = true := by
-  have hcenter00 : center s67701 0 false = none := by rfl
-  have hcenter01 : center s67701 0 true = none := by rfl
-  have hcenter10 : center s67701 1 false = none := by rfl
-  have hcenter11 : center s67701 1 true = none := by rfl
-  have hcenter20 : center s67701 2 false = none := by rfl
-  have hcenter21 : center s67701 2 true = none := by rfl
-  have hpaired00 : paired s67701 false false = none := by rfl
-  have hpaired01 : paired s67701 false true = none := by rfl
-  have hpaired10 : paired s67701 true false = none := by rfl
-  have hpaired11 : paired s67701 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67702 : safe 5 7 s67702 = true := by
-  have hcenter00 : center s67702 0 false = none := by rfl
-  have hcenter01 : center s67702 0 true = some s67700 := by rfl
-  have hcenter10 : center s67702 1 false = none := by rfl
-  have hcenter11 : center s67702 1 true = some s67701 := by rfl
-  have hcenter20 : center s67702 2 false = none := by rfl
-  have hcenter21 : center s67702 2 true = none := by rfl
-  have hpaired00 : paired s67702 false false = none := by rfl
-  have hpaired01 : paired s67702 false true = none := by rfl
-  have hpaired10 : paired s67702 true false = none := by rfl
-  have hpaired11 : paired s67702 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_some_eq hcenter01 safeNode67700) (optionAll_none_eq hcenter10) (optionAll_some_eq hcenter11 safeNode67701) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67703 : safe 5 8 s67703 = true := by
-  have hcenter00 : center s67703 0 false = none := by rfl
-  have hcenter01 : center s67703 0 true = none := by rfl
-  have hcenter10 : center s67703 1 false = none := by rfl
-  have hcenter11 : center s67703 1 true = none := by rfl
-  have hcenter20 : center s67703 2 false = some s67699 := by rfl
-  have hcenter21 : center s67703 2 true = some s67702 := by rfl
-  have hpaired00 : paired s67703 false false = none := by rfl
-  have hpaired01 : paired s67703 false true = none := by rfl
-  have hpaired10 : paired s67703 true false = none := by rfl
-  have hpaired11 : paired s67703 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67699) (optionAll_some_eq hcenter21 safeNode67702) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67704 : safe 5 6 s67704 = true := by
-  have hcenter00 : center s67704 0 false = none := by rfl
-  have hcenter01 : center s67704 0 true = none := by rfl
-  have hcenter10 : center s67704 1 false = none := by rfl
-  have hcenter11 : center s67704 1 true = none := by rfl
-  have hcenter20 : center s67704 2 false = none := by rfl
-  have hcenter21 : center s67704 2 true = none := by rfl
-  have hpaired00 : paired s67704 false false = none := by rfl
-  have hpaired01 : paired s67704 false true = none := by rfl
-  have hpaired10 : paired s67704 true false = none := by rfl
-  have hpaired11 : paired s67704 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67705 : safe 5 6 s67705 = true := by
-  have hcenter00 : center s67705 0 false = none := by rfl
-  have hcenter01 : center s67705 0 true = none := by rfl
-  have hcenter10 : center s67705 1 false = none := by rfl
-  have hcenter11 : center s67705 1 true = none := by rfl
-  have hcenter20 : center s67705 2 false = none := by rfl
-  have hcenter21 : center s67705 2 true = none := by rfl
-  have hpaired00 : paired s67705 false false = none := by rfl
-  have hpaired01 : paired s67705 false true = none := by rfl
-  have hpaired10 : paired s67705 true false = none := by rfl
-  have hpaired11 : paired s67705 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67706 : safe 5 7 s67706 = true := by
-  have hcenter00 : center s67706 0 false = some s67704 := by rfl
-  have hcenter01 : center s67706 0 true = some s67705 := by rfl
-  have hcenter10 : center s67706 1 false = none := by rfl
-  have hcenter11 : center s67706 1 true = none := by rfl
-  have hcenter20 : center s67706 2 false = none := by rfl
-  have hcenter21 : center s67706 2 true = none := by rfl
-  have hpaired00 : paired s67706 false false = none := by rfl
-  have hpaired01 : paired s67706 false true = none := by rfl
-  have hpaired10 : paired s67706 true false = none := by rfl
-  have hpaired11 : paired s67706 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67704) (optionAll_some_eq hcenter01 safeNode67705) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67707 : safe 5 6 s67707 = true := by
-  have hcenter00 : center s67707 0 false = none := by rfl
-  have hcenter01 : center s67707 0 true = none := by rfl
-  have hcenter10 : center s67707 1 false = none := by rfl
-  have hcenter11 : center s67707 1 true = none := by rfl
-  have hcenter20 : center s67707 2 false = none := by rfl
-  have hcenter21 : center s67707 2 true = none := by rfl
-  have hpaired00 : paired s67707 false false = none := by rfl
-  have hpaired01 : paired s67707 false true = none := by rfl
-  have hpaired10 : paired s67707 true false = none := by rfl
-  have hpaired11 : paired s67707 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67708 : safe 5 6 s67708 = true := by
-  have hcenter00 : center s67708 0 false = none := by rfl
-  have hcenter01 : center s67708 0 true = none := by rfl
-  have hcenter10 : center s67708 1 false = none := by rfl
-  have hcenter11 : center s67708 1 true = none := by rfl
-  have hcenter20 : center s67708 2 false = none := by rfl
-  have hcenter21 : center s67708 2 true = none := by rfl
-  have hpaired00 : paired s67708 false false = none := by rfl
-  have hpaired01 : paired s67708 false true = none := by rfl
-  have hpaired10 : paired s67708 true false = none := by rfl
-  have hpaired11 : paired s67708 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67709 : safe 5 8 s67709 = true := by
-  have hcenter00 : center s67709 0 false = none := by rfl
-  have hcenter01 : center s67709 0 true = none := by rfl
-  have hcenter10 : center s67709 1 false = none := by rfl
-  have hcenter11 : center s67709 1 true = none := by rfl
-  have hcenter20 : center s67709 2 false = some s67706 := by rfl
-  have hcenter21 : center s67709 2 true = none := by rfl
-  have hpaired00 : paired s67709 false false = some s67707 := by rfl
-  have hpaired01 : paired s67709 false true = some s67708 := by rfl
-  have hpaired10 : paired s67709 true false = none := by rfl
-  have hpaired11 : paired s67709 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67706) (optionAll_none_eq hcenter21) (optionAll_some_eq hpaired00 safeNode67707) (optionAll_some_eq hpaired01 safeNode67708) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67710 : safe 5 6 s67710 = true := by
-  have hcenter00 : center s67710 0 false = none := by rfl
-  have hcenter01 : center s67710 0 true = none := by rfl
-  have hcenter10 : center s67710 1 false = none := by rfl
-  have hcenter11 : center s67710 1 true = none := by rfl
-  have hcenter20 : center s67710 2 false = none := by rfl
-  have hcenter21 : center s67710 2 true = none := by rfl
-  have hpaired00 : paired s67710 false false = none := by rfl
-  have hpaired01 : paired s67710 false true = none := by rfl
-  have hpaired10 : paired s67710 true false = none := by rfl
-  have hpaired11 : paired s67710 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67711 : safe 5 6 s67711 = true := by
-  have hcenter00 : center s67711 0 false = none := by rfl
-  have hcenter01 : center s67711 0 true = none := by rfl
-  have hcenter10 : center s67711 1 false = none := by rfl
-  have hcenter11 : center s67711 1 true = none := by rfl
-  have hcenter20 : center s67711 2 false = none := by rfl
-  have hcenter21 : center s67711 2 true = none := by rfl
-  have hpaired00 : paired s67711 false false = none := by rfl
-  have hpaired01 : paired s67711 false true = none := by rfl
-  have hpaired10 : paired s67711 true false = none := by rfl
-  have hpaired11 : paired s67711 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67712 : safe 5 8 s67712 = true := by
-  have hcenter00 : center s67712 0 false = none := by rfl
-  have hcenter01 : center s67712 0 true = none := by rfl
-  have hcenter10 : center s67712 1 false = none := by rfl
-  have hcenter11 : center s67712 1 true = none := by rfl
-  have hcenter20 : center s67712 2 false = none := by rfl
-  have hcenter21 : center s67712 2 true = none := by rfl
-  have hpaired00 : paired s67712 false false = some s67710 := by rfl
-  have hpaired01 : paired s67712 false true = some s67711 := by rfl
-  have hpaired10 : paired s67712 true false = none := by rfl
-  have hpaired11 : paired s67712 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_some_eq hpaired00 safeNode67710) (optionAll_some_eq hpaired01 safeNode67711) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  refine safe_step_two (budget := 5) (n := 7) (s := s67697) ?_ ?_ ?_ ?_ ?_ ?_ ?_ ?_ ?_ ?_
+  all_goals decide +kernel
 
 theorem safeNode67713 : safe 5 9 s67713 = true := by
-  have hcenter00 : center s67713 0 false = none := by rfl
-  have hcenter01 : center s67713 0 true = some s67703 := by rfl
-  have hcenter10 : center s67713 1 false = some s67709 := by rfl
-  have hcenter11 : center s67713 1 true = some s67712 := by rfl
-  have hcenter20 : center s67713 2 false = none := by rfl
-  have hcenter21 : center s67713 2 true = none := by rfl
-  have hpaired00 : paired s67713 false false = none := by rfl
-  have hpaired01 : paired s67713 false true = none := by rfl
-  have hpaired10 : paired s67713 true false = none := by rfl
-  have hpaired11 : paired s67713 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_some_eq hcenter01 safeNode67703) (optionAll_some_eq hcenter10 safeNode67709) (optionAll_some_eq hcenter11 safeNode67712) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  refine safe_step_two (budget := 5) (n := 7) (s := s67713) ?_ ?_ ?_ ?_ ?_ ?_ ?_ ?_ ?_ ?_
+  all_goals decide +kernel
 
 theorem safeNode67714 : safe 5 11 s67714 = true := by
-  have hcenter00 : center s67714 0 false = some s67636 := by rfl
-  have hcenter01 : center s67714 0 true = none := by rfl
-  have hcenter10 : center s67714 1 false = some s67681 := by rfl
-  have hcenter11 : center s67714 1 true = none := by rfl
-  have hcenter20 : center s67714 2 false = none := by rfl
-  have hcenter21 : center s67714 2 true = none := by rfl
-  have hpaired00 : paired s67714 false false = some s67697 := by rfl
-  have hpaired01 : paired s67714 false true = some s67713 := by rfl
-  have hpaired10 : paired s67714 true false = none := by rfl
-  have hpaired11 : paired s67714 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67636) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67681) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_some_eq hpaired00 safeNode67697) (optionAll_some_eq hpaired01 safeNode67713) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67715 : safe 5 5 s67715 = true := by
-  exact safe_cost_exceeded 5 5 s67715 (by decide)
-
-theorem safeNode67716 : safe 5 6 s67716 = true := by
-  have hcenter00 : center s67716 0 false = none := by rfl
-  have hcenter01 : center s67716 0 true = none := by rfl
-  have hcenter10 : center s67716 1 false = none := by rfl
-  have hcenter11 : center s67716 1 true = none := by rfl
-  have hcenter20 : center s67716 2 false = none := by rfl
-  have hcenter21 : center s67716 2 true = some s67715 := by rfl
-  have hpaired00 : paired s67716 false false = none := by rfl
-  have hpaired01 : paired s67716 false true = none := by rfl
-  have hpaired10 : paired s67716 true false = none := by rfl
-  have hpaired11 : paired s67716 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_some_eq hcenter21 safeNode67715) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67717 : safe 5 5 s67717 = true := by
-  exact safe_cost_exceeded 5 5 s67717 (by decide)
-
-theorem safeNode67718 : safe 5 6 s67718 = true := by
-  have hcenter00 : center s67718 0 false = none := by rfl
-  have hcenter01 : center s67718 0 true = none := by rfl
-  have hcenter10 : center s67718 1 false = none := by rfl
-  have hcenter11 : center s67718 1 true = some s67717 := by rfl
-  have hcenter20 : center s67718 2 false = none := by rfl
-  have hcenter21 : center s67718 2 true = none := by rfl
-  have hpaired00 : paired s67718 false false = none := by rfl
-  have hpaired01 : paired s67718 false true = none := by rfl
-  have hpaired10 : paired s67718 true false = none := by rfl
-  have hpaired11 : paired s67718 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_some_eq hcenter11 safeNode67717) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67719 : safe 5 8 s67719 = true := by
-  have hcenter00 : center s67719 0 false = none := by rfl
-  have hcenter01 : center s67719 0 true = none := by rfl
-  have hcenter10 : center s67719 1 false = none := by rfl
-  have hcenter11 : center s67719 1 true = none := by rfl
-  have hcenter20 : center s67719 2 false = none := by rfl
-  have hcenter21 : center s67719 2 true = none := by rfl
-  have hpaired00 : paired s67719 false false = some s67716 := by rfl
-  have hpaired01 : paired s67719 false true = some s67718 := by rfl
-  have hpaired10 : paired s67719 true false = none := by rfl
-  have hpaired11 : paired s67719 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_some_eq hpaired00 safeNode67716) (optionAll_some_eq hpaired01 safeNode67718) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67720 : safe 5 5 s67720 = true := by
-  exact safe_cost_exceeded 5 5 s67720 (by decide)
-
-theorem safeNode67721 : safe 5 6 s67721 = true := by
-  have hcenter00 : center s67721 0 false = none := by rfl
-  have hcenter01 : center s67721 0 true = none := by rfl
-  have hcenter10 : center s67721 1 false = none := by rfl
-  have hcenter11 : center s67721 1 true = none := by rfl
-  have hcenter20 : center s67721 2 false = some s67720 := by rfl
-  have hcenter21 : center s67721 2 true = none := by rfl
-  have hpaired00 : paired s67721 false false = none := by rfl
-  have hpaired01 : paired s67721 false true = none := by rfl
-  have hpaired10 : paired s67721 true false = none := by rfl
-  have hpaired11 : paired s67721 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67720) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67722 : safe 5 4 s67722 = true := by
-  exact safe_cost_exceeded 5 4 s67722 (by decide)
-
-theorem safeNode67723 : safe 5 5 s67723 = true := by
-  have hcenter00 : center s67723 0 false = none := by rfl
-  have hcenter01 : center s67723 0 true = none := by rfl
-  have hcenter10 : center s67723 1 false = some s67722 := by rfl
-  have hcenter11 : center s67723 1 true = none := by rfl
-  have hcenter20 : center s67723 2 false = none := by rfl
-  have hcenter21 : center s67723 2 true = none := by rfl
-  have hpaired00 : paired s67723 false false = none := by rfl
-  have hpaired01 : paired s67723 false true = none := by rfl
-  have hpaired10 : paired s67723 true false = none := by rfl
-  have hpaired11 : paired s67723 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67722) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67724 : safe 5 6 s67724 = true := by
-  have hcenter00 : center s67724 0 false = none := by rfl
-  have hcenter01 : center s67724 0 true = none := by rfl
-  have hcenter10 : center s67724 1 false = none := by rfl
-  have hcenter11 : center s67724 1 true = none := by rfl
-  have hcenter20 : center s67724 2 false = some s67723 := by rfl
-  have hcenter21 : center s67724 2 true = none := by rfl
-  have hpaired00 : paired s67724 false false = none := by rfl
-  have hpaired01 : paired s67724 false true = none := by rfl
-  have hpaired10 : paired s67724 true false = none := by rfl
-  have hpaired11 : paired s67724 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67723) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67725 : safe 5 7 s67725 = true := by
-  have hcenter00 : center s67725 0 false = some s67721 := by rfl
-  have hcenter01 : center s67725 0 true = none := by rfl
-  have hcenter10 : center s67725 1 false = some s67724 := by rfl
-  have hcenter11 : center s67725 1 true = none := by rfl
-  have hcenter20 : center s67725 2 false = none := by rfl
-  have hcenter21 : center s67725 2 true = none := by rfl
-  have hpaired00 : paired s67725 false false = none := by rfl
-  have hpaired01 : paired s67725 false true = none := by rfl
-  have hpaired10 : paired s67725 true false = none := by rfl
-  have hpaired11 : paired s67725 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67721) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67724) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67726 : safe 5 5 s67726 = true := by
-  exact safe_cost_exceeded 5 5 s67726 (by decide)
-
-theorem safeNode67727 : safe 5 6 s67727 = true := by
-  have hcenter00 : center s67727 0 false = none := by rfl
-  have hcenter01 : center s67727 0 true = none := by rfl
-  have hcenter10 : center s67727 1 false = none := by rfl
-  have hcenter11 : center s67727 1 true = none := by rfl
-  have hcenter20 : center s67727 2 false = some s67726 := by rfl
-  have hcenter21 : center s67727 2 true = none := by rfl
-  have hpaired00 : paired s67727 false false = none := by rfl
-  have hpaired01 : paired s67727 false true = none := by rfl
-  have hpaired10 : paired s67727 true false = none := by rfl
-  have hpaired11 : paired s67727 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67726) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67728 : safe 5 5 s67728 = true := by
-  exact safe_cost_exceeded 5 5 s67728 (by decide)
-
-theorem safeNode67729 : safe 5 6 s67729 = true := by
-  have hcenter00 : center s67729 0 false = none := by rfl
-  have hcenter01 : center s67729 0 true = none := by rfl
-  have hcenter10 : center s67729 1 false = some s67728 := by rfl
-  have hcenter11 : center s67729 1 true = none := by rfl
-  have hcenter20 : center s67729 2 false = none := by rfl
-  have hcenter21 : center s67729 2 true = none := by rfl
-  have hpaired00 : paired s67729 false false = none := by rfl
-  have hpaired01 : paired s67729 false true = none := by rfl
-  have hpaired10 : paired s67729 true false = none := by rfl
-  have hpaired11 : paired s67729 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67728) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67730 : safe 5 8 s67730 = true := by
-  have hcenter00 : center s67730 0 false = none := by rfl
-  have hcenter01 : center s67730 0 true = none := by rfl
-  have hcenter10 : center s67730 1 false = none := by rfl
-  have hcenter11 : center s67730 1 true = none := by rfl
-  have hcenter20 : center s67730 2 false = none := by rfl
-  have hcenter21 : center s67730 2 true = some s67725 := by rfl
-  have hpaired00 : paired s67730 false false = some s67727 := by rfl
-  have hpaired01 : paired s67730 false true = some s67729 := by rfl
-  have hpaired10 : paired s67730 true false = none := by rfl
-  have hpaired11 : paired s67730 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_some_eq hcenter21 safeNode67725) (optionAll_some_eq hpaired00 safeNode67727) (optionAll_some_eq hpaired01 safeNode67729) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67731 : safe 5 6 s67731 = true := by
-  have hcenter00 : center s67731 0 false = none := by rfl
-  have hcenter01 : center s67731 0 true = none := by rfl
-  have hcenter10 : center s67731 1 false = none := by rfl
-  have hcenter11 : center s67731 1 true = none := by rfl
-  have hcenter20 : center s67731 2 false = none := by rfl
-  have hcenter21 : center s67731 2 true = none := by rfl
-  have hpaired00 : paired s67731 false false = none := by rfl
-  have hpaired01 : paired s67731 false true = none := by rfl
-  have hpaired10 : paired s67731 true false = none := by rfl
-  have hpaired11 : paired s67731 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67732 : safe 5 7 s67732 = true := by
-  have hcenter00 : center s67732 0 false = none := by rfl
-  have hcenter01 : center s67732 0 true = none := by rfl
-  have hcenter10 : center s67732 1 false = none := by rfl
-  have hcenter11 : center s67732 1 true = none := by rfl
-  have hcenter20 : center s67732 2 false = none := by rfl
-  have hcenter21 : center s67732 2 true = some s67731 := by rfl
-  have hpaired00 : paired s67732 false false = none := by rfl
-  have hpaired01 : paired s67732 false true = none := by rfl
-  have hpaired10 : paired s67732 true false = none := by rfl
-  have hpaired11 : paired s67732 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_some_eq hcenter21 safeNode67731) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67733 : safe 5 7 s67733 = true := by
-  have hcenter00 : center s67733 0 false = none := by rfl
-  have hcenter01 : center s67733 0 true = none := by rfl
-  have hcenter10 : center s67733 1 false = none := by rfl
-  have hcenter11 : center s67733 1 true = none := by rfl
-  have hcenter20 : center s67733 2 false = none := by rfl
-  have hcenter21 : center s67733 2 true = none := by rfl
-  have hpaired00 : paired s67733 false false = none := by rfl
-  have hpaired01 : paired s67733 false true = none := by rfl
-  have hpaired10 : paired s67733 true false = none := by rfl
-  have hpaired11 : paired s67733 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67734 : safe 5 7 s67734 = true := by
-  have hcenter00 : center s67734 0 false = none := by rfl
-  have hcenter01 : center s67734 0 true = none := by rfl
-  have hcenter10 : center s67734 1 false = none := by rfl
-  have hcenter11 : center s67734 1 true = none := by rfl
-  have hcenter20 : center s67734 2 false = none := by rfl
-  have hcenter21 : center s67734 2 true = none := by rfl
-  have hpaired00 : paired s67734 false false = none := by rfl
-  have hpaired01 : paired s67734 false true = none := by rfl
-  have hpaired10 : paired s67734 true false = none := by rfl
-  have hpaired11 : paired s67734 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67735 : safe 5 8 s67735 = true := by
-  have hcenter00 : center s67735 0 false = some s67732 := by rfl
-  have hcenter01 : center s67735 0 true = none := by rfl
-  have hcenter10 : center s67735 1 false = some s67733 := by rfl
-  have hcenter11 : center s67735 1 true = some s67734 := by rfl
-  have hcenter20 : center s67735 2 false = none := by rfl
-  have hcenter21 : center s67735 2 true = none := by rfl
-  have hpaired00 : paired s67735 false false = none := by rfl
-  have hpaired01 : paired s67735 false true = none := by rfl
-  have hpaired10 : paired s67735 true false = none := by rfl
-  have hpaired11 : paired s67735 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67732) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67733) (optionAll_some_eq hcenter11 safeNode67734) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67736 : safe 5 9 s67736 = true := by
-  have hcenter00 : center s67736 0 false = some s67719 := by rfl
-  have hcenter01 : center s67736 0 true = some s67730 := by rfl
-  have hcenter10 : center s67736 1 false = none := by rfl
-  have hcenter11 : center s67736 1 true = none := by rfl
-  have hcenter20 : center s67736 2 false = some s67735 := by rfl
-  have hcenter21 : center s67736 2 true = none := by rfl
-  have hpaired00 : paired s67736 false false = none := by rfl
-  have hpaired01 : paired s67736 false true = none := by rfl
-  have hpaired10 : paired s67736 true false = none := by rfl
-  have hpaired11 : paired s67736 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67719) (optionAll_some_eq hcenter01 safeNode67730) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67735) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67737 : safe 5 5 s67737 = true := by
-  have hcenter00 : center s67737 0 false = none := by rfl
-  have hcenter01 : center s67737 0 true = none := by rfl
-  have hcenter10 : center s67737 1 false = none := by rfl
-  have hcenter11 : center s67737 1 true = none := by rfl
-  have hcenter20 : center s67737 2 false = none := by rfl
-  have hcenter21 : center s67737 2 true = none := by rfl
-  have hpaired00 : paired s67737 false false = none := by rfl
-  have hpaired01 : paired s67737 false true = none := by rfl
-  have hpaired10 : paired s67737 true false = none := by rfl
-  have hpaired11 : paired s67737 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67738 : safe 5 5 s67738 = true := by
-  exact safe_cost_exceeded 5 5 s67738 (by decide)
-
-theorem safeNode67739 : safe 5 6 s67739 = true := by
-  have hcenter00 : center s67739 0 false = none := by rfl
-  have hcenter01 : center s67739 0 true = none := by rfl
-  have hcenter10 : center s67739 1 false = some s67737 := by rfl
-  have hcenter11 : center s67739 1 true = none := by rfl
-  have hcenter20 : center s67739 2 false = some s67738 := by rfl
-  have hcenter21 : center s67739 2 true = none := by rfl
-  have hpaired00 : paired s67739 false false = none := by rfl
-  have hpaired01 : paired s67739 false true = none := by rfl
-  have hpaired10 : paired s67739 true false = none := by rfl
-  have hpaired11 : paired s67739 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67737) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67738) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67740 : safe 5 7 s67740 = true := by
-  have hcenter00 : center s67740 0 false = some s67739 := by rfl
-  have hcenter01 : center s67740 0 true = none := by rfl
-  have hcenter10 : center s67740 1 false = none := by rfl
-  have hcenter11 : center s67740 1 true = none := by rfl
-  have hcenter20 : center s67740 2 false = none := by rfl
-  have hcenter21 : center s67740 2 true = none := by rfl
-  have hpaired00 : paired s67740 false false = none := by rfl
-  have hpaired01 : paired s67740 false true = none := by rfl
-  have hpaired10 : paired s67740 true false = none := by rfl
-  have hpaired11 : paired s67740 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67739) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67741 : safe 5 7 s67741 = true := by
-  have hcenter00 : center s67741 0 false = none := by rfl
-  have hcenter01 : center s67741 0 true = none := by rfl
-  have hcenter10 : center s67741 1 false = none := by rfl
-  have hcenter11 : center s67741 1 true = none := by rfl
-  have hcenter20 : center s67741 2 false = none := by rfl
-  have hcenter21 : center s67741 2 true = none := by rfl
-  have hpaired00 : paired s67741 false false = none := by rfl
-  have hpaired01 : paired s67741 false true = none := by rfl
-  have hpaired10 : paired s67741 true false = none := by rfl
-  have hpaired11 : paired s67741 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67742 : safe 5 8 s67742 = true := by
-  have hcenter00 : center s67742 0 false = none := by rfl
-  have hcenter01 : center s67742 0 true = none := by rfl
-  have hcenter10 : center s67742 1 false = none := by rfl
-  have hcenter11 : center s67742 1 true = none := by rfl
-  have hcenter20 : center s67742 2 false = some s67740 := by rfl
-  have hcenter21 : center s67742 2 true = some s67741 := by rfl
-  have hpaired00 : paired s67742 false false = none := by rfl
-  have hpaired01 : paired s67742 false true = none := by rfl
-  have hpaired10 : paired s67742 true false = none := by rfl
-  have hpaired11 : paired s67742 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67740) (optionAll_some_eq hcenter21 safeNode67741) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67743 : safe 5 7 s67743 = true := by
-  have hcenter00 : center s67743 0 false = none := by rfl
-  have hcenter01 : center s67743 0 true = none := by rfl
-  have hcenter10 : center s67743 1 false = none := by rfl
-  have hcenter11 : center s67743 1 true = none := by rfl
-  have hcenter20 : center s67743 2 false = none := by rfl
-  have hcenter21 : center s67743 2 true = none := by rfl
-  have hpaired00 : paired s67743 false false = none := by rfl
-  have hpaired01 : paired s67743 false true = none := by rfl
-  have hpaired10 : paired s67743 true false = none := by rfl
-  have hpaired11 : paired s67743 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67744 : safe 5 3 s67744 = true := by
-  exact safe_cost_exceeded 5 3 s67744 (by decide)
-
-theorem safeNode67745 : safe 5 4 s67745 = true := by
-  have hcenter00 : center s67745 0 false = none := by rfl
-  have hcenter01 : center s67745 0 true = none := by rfl
-  have hcenter10 : center s67745 1 false = none := by rfl
-  have hcenter11 : center s67745 1 true = some s67744 := by rfl
-  have hcenter20 : center s67745 2 false = none := by rfl
-  have hcenter21 : center s67745 2 true = none := by rfl
-  have hpaired00 : paired s67745 false false = none := by rfl
-  have hpaired01 : paired s67745 false true = none := by rfl
-  have hpaired10 : paired s67745 true false = none := by rfl
-  have hpaired11 : paired s67745 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_some_eq hcenter11 safeNode67744) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67746 : safe 5 5 s67746 = true := by
-  have hcenter00 : center s67746 0 false = none := by rfl
-  have hcenter01 : center s67746 0 true = none := by rfl
-  have hcenter10 : center s67746 1 false = none := by rfl
-  have hcenter11 : center s67746 1 true = none := by rfl
-  have hcenter20 : center s67746 2 false = none := by rfl
-  have hcenter21 : center s67746 2 true = some s67745 := by rfl
-  have hpaired00 : paired s67746 false false = none := by rfl
-  have hpaired01 : paired s67746 false true = none := by rfl
-  have hpaired10 : paired s67746 true false = none := by rfl
-  have hpaired11 : paired s67746 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_some_eq hcenter21 safeNode67745) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67747 : safe 5 6 s67747 = true := by
-  have hcenter00 : center s67747 0 false = none := by rfl
-  have hcenter01 : center s67747 0 true = none := by rfl
-  have hcenter10 : center s67747 1 false = none := by rfl
-  have hcenter11 : center s67747 1 true = some s67746 := by rfl
-  have hcenter20 : center s67747 2 false = none := by rfl
-  have hcenter21 : center s67747 2 true = none := by rfl
-  have hpaired00 : paired s67747 false false = none := by rfl
-  have hpaired01 : paired s67747 false true = none := by rfl
-  have hpaired10 : paired s67747 true false = none := by rfl
-  have hpaired11 : paired s67747 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_some_eq hcenter11 safeNode67746) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67748 : safe 5 7 s67748 = true := by
-  have hcenter00 : center s67748 0 false = none := by rfl
-  have hcenter01 : center s67748 0 true = none := by rfl
-  have hcenter10 : center s67748 1 false = none := by rfl
-  have hcenter11 : center s67748 1 true = none := by rfl
-  have hcenter20 : center s67748 2 false = none := by rfl
-  have hcenter21 : center s67748 2 true = some s67747 := by rfl
-  have hpaired00 : paired s67748 false false = none := by rfl
-  have hpaired01 : paired s67748 false true = none := by rfl
-  have hpaired10 : paired s67748 true false = none := by rfl
-  have hpaired11 : paired s67748 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_some_eq hcenter21 safeNode67747) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67749 : safe 5 8 s67749 = true := by
-  have hcenter00 : center s67749 0 false = some s67743 := by rfl
-  have hcenter01 : center s67749 0 true = some s67748 := by rfl
-  have hcenter10 : center s67749 1 false = none := by rfl
-  have hcenter11 : center s67749 1 true = none := by rfl
-  have hcenter20 : center s67749 2 false = none := by rfl
-  have hcenter21 : center s67749 2 true = none := by rfl
-  have hpaired00 : paired s67749 false false = none := by rfl
-  have hpaired01 : paired s67749 false true = none := by rfl
-  have hpaired10 : paired s67749 true false = none := by rfl
-  have hpaired11 : paired s67749 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67743) (optionAll_some_eq hcenter01 safeNode67748) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67750 : safe 5 9 s67750 = true := by
-  have hcenter00 : center s67750 0 false = none := by rfl
-  have hcenter01 : center s67750 0 true = none := by rfl
-  have hcenter10 : center s67750 1 false = some s67742 := by rfl
-  have hcenter11 : center s67750 1 true = some s67749 := by rfl
-  have hcenter20 : center s67750 2 false = none := by rfl
-  have hcenter21 : center s67750 2 true = none := by rfl
-  have hpaired00 : paired s67750 false false = none := by rfl
-  have hpaired01 : paired s67750 false true = none := by rfl
-  have hpaired10 : paired s67750 true false = none := by rfl
-  have hpaired11 : paired s67750 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67742) (optionAll_some_eq hcenter11 safeNode67749) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67751 : safe 5 6 s67751 = true := by
-  exact safe_cost_exceeded 5 6 s67751 (by decide)
-
-theorem safeNode67752 : safe 5 7 s67752 = true := by
-  have hcenter00 : center s67752 0 false = none := by rfl
-  have hcenter01 : center s67752 0 true = some s67751 := by rfl
-  have hcenter10 : center s67752 1 false = none := by rfl
-  have hcenter11 : center s67752 1 true = none := by rfl
-  have hcenter20 : center s67752 2 false = none := by rfl
-  have hcenter21 : center s67752 2 true = none := by rfl
-  have hpaired00 : paired s67752 false false = none := by rfl
-  have hpaired01 : paired s67752 false true = none := by rfl
-  have hpaired10 : paired s67752 true false = none := by rfl
-  have hpaired11 : paired s67752 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_some_eq hcenter01 safeNode67751) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67753 : safe 5 7 s67753 = true := by
-  have hcenter00 : center s67753 0 false = none := by rfl
-  have hcenter01 : center s67753 0 true = none := by rfl
-  have hcenter10 : center s67753 1 false = none := by rfl
-  have hcenter11 : center s67753 1 true = none := by rfl
-  have hcenter20 : center s67753 2 false = none := by rfl
-  have hcenter21 : center s67753 2 true = none := by rfl
-  have hpaired00 : paired s67753 false false = none := by rfl
-  have hpaired01 : paired s67753 false true = none := by rfl
-  have hpaired10 : paired s67753 true false = none := by rfl
-  have hpaired11 : paired s67753 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67754 : safe 5 8 s67754 = true := by
-  have hcenter00 : center s67754 0 false = none := by rfl
-  have hcenter01 : center s67754 0 true = none := by rfl
-  have hcenter10 : center s67754 1 false = none := by rfl
-  have hcenter11 : center s67754 1 true = none := by rfl
-  have hcenter20 : center s67754 2 false = some s67752 := by rfl
-  have hcenter21 : center s67754 2 true = some s67753 := by rfl
-  have hpaired00 : paired s67754 false false = none := by rfl
-  have hpaired01 : paired s67754 false true = none := by rfl
-  have hpaired10 : paired s67754 true false = none := by rfl
-  have hpaired11 : paired s67754 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67752) (optionAll_some_eq hcenter21 safeNode67753) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67755 : safe 5 6 s67755 = true := by
-  exact safe_cost_exceeded 5 6 s67755 (by decide)
-
-theorem safeNode67756 : safe 5 7 s67756 = true := by
-  have hcenter00 : center s67756 0 false = none := by rfl
-  have hcenter01 : center s67756 0 true = some s67755 := by rfl
-  have hcenter10 : center s67756 1 false = none := by rfl
-  have hcenter11 : center s67756 1 true = none := by rfl
-  have hcenter20 : center s67756 2 false = none := by rfl
-  have hcenter21 : center s67756 2 true = none := by rfl
-  have hpaired00 : paired s67756 false false = none := by rfl
-  have hpaired01 : paired s67756 false true = none := by rfl
-  have hpaired10 : paired s67756 true false = none := by rfl
-  have hpaired11 : paired s67756 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_some_eq hcenter01 safeNode67755) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67757 : safe 5 7 s67757 = true := by
-  have hcenter00 : center s67757 0 false = none := by rfl
-  have hcenter01 : center s67757 0 true = none := by rfl
-  have hcenter10 : center s67757 1 false = none := by rfl
-  have hcenter11 : center s67757 1 true = none := by rfl
-  have hcenter20 : center s67757 2 false = none := by rfl
-  have hcenter21 : center s67757 2 true = none := by rfl
-  have hpaired00 : paired s67757 false false = none := by rfl
-  have hpaired01 : paired s67757 false true = none := by rfl
-  have hpaired10 : paired s67757 true false = none := by rfl
-  have hpaired11 : paired s67757 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67758 : safe 5 8 s67758 = true := by
-  have hcenter00 : center s67758 0 false = none := by rfl
-  have hcenter01 : center s67758 0 true = none := by rfl
-  have hcenter10 : center s67758 1 false = some s67756 := by rfl
-  have hcenter11 : center s67758 1 true = some s67757 := by rfl
-  have hcenter20 : center s67758 2 false = none := by rfl
-  have hcenter21 : center s67758 2 true = none := by rfl
-  have hpaired00 : paired s67758 false false = none := by rfl
-  have hpaired01 : paired s67758 false true = none := by rfl
-  have hpaired10 : paired s67758 true false = none := by rfl
-  have hpaired11 : paired s67758 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67756) (optionAll_some_eq hcenter11 safeNode67757) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 9 s67714
+    (optionAll_some_eq (o := center s67714 0 false) (t := s67636) (by rfl) safeNode67636)
+    (Eq.refl true)
+    (optionAll_some_eq (o := center s67714 1 false) (t := s67681) (by rfl) safeNode67681)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (optionAll_some_eq (o := paired s67714 false false) (t := s67697) (by rfl) safeNode67697)
+    (optionAll_some_eq (o := paired s67714 false true) (t := s67713) (by rfl) safeNode67713)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67759 : safe 5 10 s67759 = true := by
-  have hcenter00 : center s67759 0 false = none := by rfl
-  have hcenter01 : center s67759 0 true = none := by rfl
-  have hcenter10 : center s67759 1 false = none := by rfl
-  have hcenter11 : center s67759 1 true = some s67736 := by rfl
-  have hcenter20 : center s67759 2 false = none := by rfl
-  have hcenter21 : center s67759 2 true = some s67750 := by rfl
-  have hpaired00 : paired s67759 false false = some s67754 := by rfl
-  have hpaired01 : paired s67759 false true = some s67758 := by rfl
-  have hpaired10 : paired s67759 true false = none := by rfl
-  have hpaired11 : paired s67759 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_some_eq hcenter11 safeNode67736) (optionAll_none_eq hcenter20) (optionAll_some_eq hcenter21 safeNode67750) (optionAll_some_eq hpaired00 safeNode67754) (optionAll_some_eq hpaired01 safeNode67758) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67760 : safe 5 6 s67760 = true := by
-  have hcenter00 : center s67760 0 false = none := by rfl
-  have hcenter01 : center s67760 0 true = none := by rfl
-  have hcenter10 : center s67760 1 false = none := by rfl
-  have hcenter11 : center s67760 1 true = none := by rfl
-  have hcenter20 : center s67760 2 false = none := by rfl
-  have hcenter21 : center s67760 2 true = none := by rfl
-  have hpaired00 : paired s67760 false false = none := by rfl
-  have hpaired01 : paired s67760 false true = none := by rfl
-  have hpaired10 : paired s67760 true false = none := by rfl
-  have hpaired11 : paired s67760 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67761 : safe 5 6 s67761 = true := by
-  have hcenter00 : center s67761 0 false = none := by rfl
-  have hcenter01 : center s67761 0 true = none := by rfl
-  have hcenter10 : center s67761 1 false = none := by rfl
-  have hcenter11 : center s67761 1 true = none := by rfl
-  have hcenter20 : center s67761 2 false = none := by rfl
-  have hcenter21 : center s67761 2 true = none := by rfl
-  have hpaired00 : paired s67761 false false = none := by rfl
-  have hpaired01 : paired s67761 false true = none := by rfl
-  have hpaired10 : paired s67761 true false = none := by rfl
-  have hpaired11 : paired s67761 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67762 : safe 5 5 s67762 = true := by
-  exact safe_cost_exceeded 5 5 s67762 (by decide)
-
-theorem safeNode67763 : safe 5 6 s67763 = true := by
-  have hcenter00 : center s67763 0 false = none := by rfl
-  have hcenter01 : center s67763 0 true = none := by rfl
-  have hcenter10 : center s67763 1 false = none := by rfl
-  have hcenter11 : center s67763 1 true = none := by rfl
-  have hcenter20 : center s67763 2 false = none := by rfl
-  have hcenter21 : center s67763 2 true = some s67762 := by rfl
-  have hpaired00 : paired s67763 false false = none := by rfl
-  have hpaired01 : paired s67763 false true = none := by rfl
-  have hpaired10 : paired s67763 true false = none := by rfl
-  have hpaired11 : paired s67763 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_some_eq hcenter21 safeNode67762) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67764 : safe 5 7 s67764 = true := by
-  have hcenter00 : center s67764 0 false = some s67760 := by rfl
-  have hcenter01 : center s67764 0 true = some s67761 := by rfl
-  have hcenter10 : center s67764 1 false = none := by rfl
-  have hcenter11 : center s67764 1 true = some s67763 := by rfl
-  have hcenter20 : center s67764 2 false = none := by rfl
-  have hcenter21 : center s67764 2 true = none := by rfl
-  have hpaired00 : paired s67764 false false = none := by rfl
-  have hpaired01 : paired s67764 false true = none := by rfl
-  have hpaired10 : paired s67764 true false = none := by rfl
-  have hpaired11 : paired s67764 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67760) (optionAll_some_eq hcenter01 safeNode67761) (optionAll_none_eq hcenter10) (optionAll_some_eq hcenter11 safeNode67763) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67765 : safe 5 6 s67765 = true := by
-  have hcenter00 : center s67765 0 false = none := by rfl
-  have hcenter01 : center s67765 0 true = none := by rfl
-  have hcenter10 : center s67765 1 false = none := by rfl
-  have hcenter11 : center s67765 1 true = none := by rfl
-  have hcenter20 : center s67765 2 false = none := by rfl
-  have hcenter21 : center s67765 2 true = none := by rfl
-  have hpaired00 : paired s67765 false false = none := by rfl
-  have hpaired01 : paired s67765 false true = none := by rfl
-  have hpaired10 : paired s67765 true false = none := by rfl
-  have hpaired11 : paired s67765 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67766 : safe 5 6 s67766 = true := by
-  have hcenter00 : center s67766 0 false = none := by rfl
-  have hcenter01 : center s67766 0 true = none := by rfl
-  have hcenter10 : center s67766 1 false = none := by rfl
-  have hcenter11 : center s67766 1 true = none := by rfl
-  have hcenter20 : center s67766 2 false = none := by rfl
-  have hcenter21 : center s67766 2 true = none := by rfl
-  have hpaired00 : paired s67766 false false = none := by rfl
-  have hpaired01 : paired s67766 false true = none := by rfl
-  have hpaired10 : paired s67766 true false = none := by rfl
-  have hpaired11 : paired s67766 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67767 : safe 5 8 s67767 = true := by
-  have hcenter00 : center s67767 0 false = none := by rfl
-  have hcenter01 : center s67767 0 true = none := by rfl
-  have hcenter10 : center s67767 1 false = none := by rfl
-  have hcenter11 : center s67767 1 true = none := by rfl
-  have hcenter20 : center s67767 2 false = some s67764 := by rfl
-  have hcenter21 : center s67767 2 true = none := by rfl
-  have hpaired00 : paired s67767 false false = none := by rfl
-  have hpaired01 : paired s67767 false true = none := by rfl
-  have hpaired10 : paired s67767 true false = some s67765 := by rfl
-  have hpaired11 : paired s67767 true true = some s67766 := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67764) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_some_eq hpaired10 safeNode67765) (optionAll_some_eq hpaired11 safeNode67766)
-
-theorem safeNode67768 : safe 5 6 s67768 = true := by
-  have hcenter00 : center s67768 0 false = none := by rfl
-  have hcenter01 : center s67768 0 true = none := by rfl
-  have hcenter10 : center s67768 1 false = none := by rfl
-  have hcenter11 : center s67768 1 true = none := by rfl
-  have hcenter20 : center s67768 2 false = none := by rfl
-  have hcenter21 : center s67768 2 true = none := by rfl
-  have hpaired00 : paired s67768 false false = none := by rfl
-  have hpaired01 : paired s67768 false true = none := by rfl
-  have hpaired10 : paired s67768 true false = none := by rfl
-  have hpaired11 : paired s67768 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67769 : safe 5 6 s67769 = true := by
-  have hcenter00 : center s67769 0 false = none := by rfl
-  have hcenter01 : center s67769 0 true = none := by rfl
-  have hcenter10 : center s67769 1 false = none := by rfl
-  have hcenter11 : center s67769 1 true = none := by rfl
-  have hcenter20 : center s67769 2 false = none := by rfl
-  have hcenter21 : center s67769 2 true = none := by rfl
-  have hpaired00 : paired s67769 false false = none := by rfl
-  have hpaired01 : paired s67769 false true = none := by rfl
-  have hpaired10 : paired s67769 true false = none := by rfl
-  have hpaired11 : paired s67769 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67770 : safe 5 8 s67770 = true := by
-  have hcenter00 : center s67770 0 false = none := by rfl
-  have hcenter01 : center s67770 0 true = none := by rfl
-  have hcenter10 : center s67770 1 false = none := by rfl
-  have hcenter11 : center s67770 1 true = none := by rfl
-  have hcenter20 : center s67770 2 false = none := by rfl
-  have hcenter21 : center s67770 2 true = none := by rfl
-  have hpaired00 : paired s67770 false false = none := by rfl
-  have hpaired01 : paired s67770 false true = none := by rfl
-  have hpaired10 : paired s67770 true false = some s67768 := by rfl
-  have hpaired11 : paired s67770 true true = some s67769 := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_some_eq hpaired10 safeNode67768) (optionAll_some_eq hpaired11 safeNode67769)
-
-theorem safeNode67771 : safe 5 7 s67771 = true := by
-  have hcenter00 : center s67771 0 false = none := by rfl
-  have hcenter01 : center s67771 0 true = none := by rfl
-  have hcenter10 : center s67771 1 false = none := by rfl
-  have hcenter11 : center s67771 1 true = none := by rfl
-  have hcenter20 : center s67771 2 false = none := by rfl
-  have hcenter21 : center s67771 2 true = none := by rfl
-  have hpaired00 : paired s67771 false false = none := by rfl
-  have hpaired01 : paired s67771 false true = none := by rfl
-  have hpaired10 : paired s67771 true false = none := by rfl
-  have hpaired11 : paired s67771 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67772 : safe 5 6 s67772 = true := by
-  have hcenter00 : center s67772 0 false = none := by rfl
-  have hcenter01 : center s67772 0 true = none := by rfl
-  have hcenter10 : center s67772 1 false = none := by rfl
-  have hcenter11 : center s67772 1 true = none := by rfl
-  have hcenter20 : center s67772 2 false = none := by rfl
-  have hcenter21 : center s67772 2 true = none := by rfl
-  have hpaired00 : paired s67772 false false = none := by rfl
-  have hpaired01 : paired s67772 false true = none := by rfl
-  have hpaired10 : paired s67772 true false = none := by rfl
-  have hpaired11 : paired s67772 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67773 : safe 5 7 s67773 = true := by
-  have hcenter00 : center s67773 0 false = none := by rfl
-  have hcenter01 : center s67773 0 true = none := by rfl
-  have hcenter10 : center s67773 1 false = none := by rfl
-  have hcenter11 : center s67773 1 true = none := by rfl
-  have hcenter20 : center s67773 2 false = some s67772 := by rfl
-  have hcenter21 : center s67773 2 true = none := by rfl
-  have hpaired00 : paired s67773 false false = none := by rfl
-  have hpaired01 : paired s67773 false true = none := by rfl
-  have hpaired10 : paired s67773 true false = none := by rfl
-  have hpaired11 : paired s67773 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67772) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67774 : safe 5 8 s67774 = true := by
-  have hcenter00 : center s67774 0 false = none := by rfl
-  have hcenter01 : center s67774 0 true = some s67771 := by rfl
-  have hcenter10 : center s67774 1 false = none := by rfl
-  have hcenter11 : center s67774 1 true = some s67773 := by rfl
-  have hcenter20 : center s67774 2 false = none := by rfl
-  have hcenter21 : center s67774 2 true = none := by rfl
-  have hpaired00 : paired s67774 false false = none := by rfl
-  have hpaired01 : paired s67774 false true = none := by rfl
-  have hpaired10 : paired s67774 true false = none := by rfl
-  have hpaired11 : paired s67774 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_some_eq hcenter01 safeNode67771) (optionAll_none_eq hcenter10) (optionAll_some_eq hcenter11 safeNode67773) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67775 : safe 5 9 s67775 = true := by
-  have hcenter00 : center s67775 0 false = none := by rfl
-  have hcenter01 : center s67775 0 true = none := by rfl
-  have hcenter10 : center s67775 1 false = some s67767 := by rfl
-  have hcenter11 : center s67775 1 true = some s67770 := by rfl
-  have hcenter20 : center s67775 2 false = none := by rfl
-  have hcenter21 : center s67775 2 true = some s67774 := by rfl
-  have hpaired00 : paired s67775 false false = none := by rfl
-  have hpaired01 : paired s67775 false true = none := by rfl
-  have hpaired10 : paired s67775 true false = none := by rfl
-  have hpaired11 : paired s67775 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67767) (optionAll_some_eq hcenter11 safeNode67770) (optionAll_none_eq hcenter20) (optionAll_some_eq hcenter21 safeNode67774) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67776 : safe 5 6 s67776 = true := by
-  exact safe_cost_exceeded 5 6 s67776 (by decide)
-
-theorem safeNode67777 : safe 5 7 s67777 = true := by
-  have hcenter00 : center s67777 0 false = some s67776 := by rfl
-  have hcenter01 : center s67777 0 true = none := by rfl
-  have hcenter10 : center s67777 1 false = none := by rfl
-  have hcenter11 : center s67777 1 true = none := by rfl
-  have hcenter20 : center s67777 2 false = none := by rfl
-  have hcenter21 : center s67777 2 true = none := by rfl
-  have hpaired00 : paired s67777 false false = none := by rfl
-  have hpaired01 : paired s67777 false true = none := by rfl
-  have hpaired10 : paired s67777 true false = none := by rfl
-  have hpaired11 : paired s67777 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67776) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67778 : safe 5 8 s67778 = true := by
-  have hcenter00 : center s67778 0 false = none := by rfl
-  have hcenter01 : center s67778 0 true = none := by rfl
-  have hcenter10 : center s67778 1 false = none := by rfl
-  have hcenter11 : center s67778 1 true = none := by rfl
-  have hcenter20 : center s67778 2 false = some s67777 := by rfl
-  have hcenter21 : center s67778 2 true = none := by rfl
-  have hpaired00 : paired s67778 false false = none := by rfl
-  have hpaired01 : paired s67778 false true = none := by rfl
-  have hpaired10 : paired s67778 true false = none := by rfl
-  have hpaired11 : paired s67778 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67777) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67779 : safe 5 6 s67779 = true := by
-  have hcenter00 : center s67779 0 false = none := by rfl
-  have hcenter01 : center s67779 0 true = none := by rfl
-  have hcenter10 : center s67779 1 false = none := by rfl
-  have hcenter11 : center s67779 1 true = none := by rfl
-  have hcenter20 : center s67779 2 false = none := by rfl
-  have hcenter21 : center s67779 2 true = none := by rfl
-  have hpaired00 : paired s67779 false false = none := by rfl
-  have hpaired01 : paired s67779 false true = none := by rfl
-  have hpaired10 : paired s67779 true false = none := by rfl
-  have hpaired11 : paired s67779 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67780 : safe 5 7 s67780 = true := by
-  have hcenter00 : center s67780 0 false = none := by rfl
-  have hcenter01 : center s67780 0 true = none := by rfl
-  have hcenter10 : center s67780 1 false = none := by rfl
-  have hcenter11 : center s67780 1 true = none := by rfl
-  have hcenter20 : center s67780 2 false = some s67779 := by rfl
-  have hcenter21 : center s67780 2 true = none := by rfl
-  have hpaired00 : paired s67780 false false = none := by rfl
-  have hpaired01 : paired s67780 false true = none := by rfl
-  have hpaired10 : paired s67780 true false = none := by rfl
-  have hpaired11 : paired s67780 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67779) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67781 : safe 5 7 s67781 = true := by
-  have hcenter00 : center s67781 0 false = none := by rfl
-  have hcenter01 : center s67781 0 true = none := by rfl
-  have hcenter10 : center s67781 1 false = none := by rfl
-  have hcenter11 : center s67781 1 true = none := by rfl
-  have hcenter20 : center s67781 2 false = none := by rfl
-  have hcenter21 : center s67781 2 true = none := by rfl
-  have hpaired00 : paired s67781 false false = none := by rfl
-  have hpaired01 : paired s67781 false true = none := by rfl
-  have hpaired10 : paired s67781 true false = none := by rfl
-  have hpaired11 : paired s67781 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67782 : safe 5 8 s67782 = true := by
-  have hcenter00 : center s67782 0 false = none := by rfl
-  have hcenter01 : center s67782 0 true = none := by rfl
-  have hcenter10 : center s67782 1 false = some s67780 := by rfl
-  have hcenter11 : center s67782 1 true = some s67781 := by rfl
-  have hcenter20 : center s67782 2 false = none := by rfl
-  have hcenter21 : center s67782 2 true = none := by rfl
-  have hpaired00 : paired s67782 false false = none := by rfl
-  have hpaired01 : paired s67782 false true = none := by rfl
-  have hpaired10 : paired s67782 true false = none := by rfl
-  have hpaired11 : paired s67782 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67780) (optionAll_some_eq hcenter11 safeNode67781) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67783 : safe 5 9 s67783 = true := by
-  have hcenter00 : center s67783 0 false = some s67778 := by rfl
-  have hcenter01 : center s67783 0 true = some s67782 := by rfl
-  have hcenter10 : center s67783 1 false = none := by rfl
-  have hcenter11 : center s67783 1 true = none := by rfl
-  have hcenter20 : center s67783 2 false = none := by rfl
-  have hcenter21 : center s67783 2 true = none := by rfl
-  have hpaired00 : paired s67783 false false = none := by rfl
-  have hpaired01 : paired s67783 false true = none := by rfl
-  have hpaired10 : paired s67783 true false = none := by rfl
-  have hpaired11 : paired s67783 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67778) (optionAll_some_eq hcenter01 safeNode67782) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67784 : safe 5 6 s67784 = true := by
-  have hcenter00 : center s67784 0 false = none := by rfl
-  have hcenter01 : center s67784 0 true = none := by rfl
-  have hcenter10 : center s67784 1 false = none := by rfl
-  have hcenter11 : center s67784 1 true = none := by rfl
-  have hcenter20 : center s67784 2 false = none := by rfl
-  have hcenter21 : center s67784 2 true = none := by rfl
-  have hpaired00 : paired s67784 false false = none := by rfl
-  have hpaired01 : paired s67784 false true = none := by rfl
-  have hpaired10 : paired s67784 true false = none := by rfl
-  have hpaired11 : paired s67784 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67785 : safe 5 6 s67785 = true := by
-  have hcenter00 : center s67785 0 false = none := by rfl
-  have hcenter01 : center s67785 0 true = none := by rfl
-  have hcenter10 : center s67785 1 false = none := by rfl
-  have hcenter11 : center s67785 1 true = none := by rfl
-  have hcenter20 : center s67785 2 false = none := by rfl
-  have hcenter21 : center s67785 2 true = none := by rfl
-  have hpaired00 : paired s67785 false false = none := by rfl
-  have hpaired01 : paired s67785 false true = none := by rfl
-  have hpaired10 : paired s67785 true false = none := by rfl
-  have hpaired11 : paired s67785 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67786 : safe 5 7 s67786 = true := by
-  have hcenter00 : center s67786 0 false = none := by rfl
-  have hcenter01 : center s67786 0 true = none := by rfl
-  have hcenter10 : center s67786 1 false = none := by rfl
-  have hcenter11 : center s67786 1 true = none := by rfl
-  have hcenter20 : center s67786 2 false = some s67784 := by rfl
-  have hcenter21 : center s67786 2 true = some s67785 := by rfl
-  have hpaired00 : paired s67786 false false = none := by rfl
-  have hpaired01 : paired s67786 false true = none := by rfl
-  have hpaired10 : paired s67786 true false = none := by rfl
-  have hpaired11 : paired s67786 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67784) (optionAll_some_eq hcenter21 safeNode67785) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67787 : safe 5 8 s67787 = true := by
-  have hcenter00 : center s67787 0 false = some s67786 := by rfl
-  have hcenter01 : center s67787 0 true = none := by rfl
-  have hcenter10 : center s67787 1 false = none := by rfl
-  have hcenter11 : center s67787 1 true = none := by rfl
-  have hcenter20 : center s67787 2 false = none := by rfl
-  have hcenter21 : center s67787 2 true = none := by rfl
-  have hpaired00 : paired s67787 false false = none := by rfl
-  have hpaired01 : paired s67787 false true = none := by rfl
-  have hpaired10 : paired s67787 true false = none := by rfl
-  have hpaired11 : paired s67787 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67786) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67788 : safe 5 9 s67788 = true := by
-  have hcenter00 : center s67788 0 false = none := by rfl
-  have hcenter01 : center s67788 0 true = none := by rfl
-  have hcenter10 : center s67788 1 false = none := by rfl
-  have hcenter11 : center s67788 1 true = some s67787 := by rfl
-  have hcenter20 : center s67788 2 false = none := by rfl
-  have hcenter21 : center s67788 2 true = none := by rfl
-  have hpaired00 : paired s67788 false false = none := by rfl
-  have hpaired01 : paired s67788 false true = none := by rfl
-  have hpaired10 : paired s67788 true false = none := by rfl
-  have hpaired11 : paired s67788 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_some_eq hcenter11 safeNode67787) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  refine safe_step_two (budget := 5) (n := 8) (s := s67759) ?_ ?_ ?_ ?_ ?_ ?_ ?_ ?_ ?_ ?_
+  all_goals decide +kernel
 
 theorem safeNode67789 : safe 5 10 s67789 = true := by
-  have hcenter00 : center s67789 0 false = none := by rfl
-  have hcenter01 : center s67789 0 true = some s67775 := by rfl
-  have hcenter10 : center s67789 1 false = none := by rfl
-  have hcenter11 : center s67789 1 true = none := by rfl
-  have hcenter20 : center s67789 2 false = some s67783 := by rfl
-  have hcenter21 : center s67789 2 true = some s67788 := by rfl
-  have hpaired00 : paired s67789 false false = none := by rfl
-  have hpaired01 : paired s67789 false true = none := by rfl
-  have hpaired10 : paired s67789 true false = none := by rfl
-  have hpaired11 : paired s67789 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_some_eq hcenter01 safeNode67775) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67783) (optionAll_some_eq hcenter21 safeNode67788) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67790 : safe 5 6 s67790 = true := by
-  have hcenter00 : center s67790 0 false = none := by rfl
-  have hcenter01 : center s67790 0 true = none := by rfl
-  have hcenter10 : center s67790 1 false = none := by rfl
-  have hcenter11 : center s67790 1 true = none := by rfl
-  have hcenter20 : center s67790 2 false = none := by rfl
-  have hcenter21 : center s67790 2 true = none := by rfl
-  have hpaired00 : paired s67790 false false = none := by rfl
-  have hpaired01 : paired s67790 false true = none := by rfl
-  have hpaired10 : paired s67790 true false = none := by rfl
-  have hpaired11 : paired s67790 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67791 : safe 5 6 s67791 = true := by
-  have hcenter00 : center s67791 0 false = none := by rfl
-  have hcenter01 : center s67791 0 true = none := by rfl
-  have hcenter10 : center s67791 1 false = none := by rfl
-  have hcenter11 : center s67791 1 true = none := by rfl
-  have hcenter20 : center s67791 2 false = none := by rfl
-  have hcenter21 : center s67791 2 true = none := by rfl
-  have hpaired00 : paired s67791 false false = none := by rfl
-  have hpaired01 : paired s67791 false true = none := by rfl
-  have hpaired10 : paired s67791 true false = none := by rfl
-  have hpaired11 : paired s67791 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67792 : safe 5 8 s67792 = true := by
-  have hcenter00 : center s67792 0 false = none := by rfl
-  have hcenter01 : center s67792 0 true = none := by rfl
-  have hcenter10 : center s67792 1 false = none := by rfl
-  have hcenter11 : center s67792 1 true = none := by rfl
-  have hcenter20 : center s67792 2 false = none := by rfl
-  have hcenter21 : center s67792 2 true = none := by rfl
-  have hpaired00 : paired s67792 false false = none := by rfl
-  have hpaired01 : paired s67792 false true = none := by rfl
-  have hpaired10 : paired s67792 true false = some s67790 := by rfl
-  have hpaired11 : paired s67792 true true = some s67791 := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_some_eq hpaired10 safeNode67790) (optionAll_some_eq hpaired11 safeNode67791)
-
-theorem safeNode67793 : safe 5 6 s67793 = true := by
-  have hcenter00 : center s67793 0 false = none := by rfl
-  have hcenter01 : center s67793 0 true = none := by rfl
-  have hcenter10 : center s67793 1 false = none := by rfl
-  have hcenter11 : center s67793 1 true = none := by rfl
-  have hcenter20 : center s67793 2 false = none := by rfl
-  have hcenter21 : center s67793 2 true = none := by rfl
-  have hpaired00 : paired s67793 false false = none := by rfl
-  have hpaired01 : paired s67793 false true = none := by rfl
-  have hpaired10 : paired s67793 true false = none := by rfl
-  have hpaired11 : paired s67793 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67794 : safe 5 6 s67794 = true := by
-  have hcenter00 : center s67794 0 false = none := by rfl
-  have hcenter01 : center s67794 0 true = none := by rfl
-  have hcenter10 : center s67794 1 false = none := by rfl
-  have hcenter11 : center s67794 1 true = none := by rfl
-  have hcenter20 : center s67794 2 false = none := by rfl
-  have hcenter21 : center s67794 2 true = none := by rfl
-  have hpaired00 : paired s67794 false false = none := by rfl
-  have hpaired01 : paired s67794 false true = none := by rfl
-  have hpaired10 : paired s67794 true false = none := by rfl
-  have hpaired11 : paired s67794 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67795 : safe 5 7 s67795 = true := by
-  have hcenter00 : center s67795 0 false = none := by rfl
-  have hcenter01 : center s67795 0 true = none := by rfl
-  have hcenter10 : center s67795 1 false = some s67793 := by rfl
-  have hcenter11 : center s67795 1 true = some s67794 := by rfl
-  have hcenter20 : center s67795 2 false = none := by rfl
-  have hcenter21 : center s67795 2 true = none := by rfl
-  have hpaired00 : paired s67795 false false = none := by rfl
-  have hpaired01 : paired s67795 false true = none := by rfl
-  have hpaired10 : paired s67795 true false = none := by rfl
-  have hpaired11 : paired s67795 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67793) (optionAll_some_eq hcenter11 safeNode67794) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67796 : safe 5 6 s67796 = true := by
-  have hcenter00 : center s67796 0 false = none := by rfl
-  have hcenter01 : center s67796 0 true = none := by rfl
-  have hcenter10 : center s67796 1 false = none := by rfl
-  have hcenter11 : center s67796 1 true = none := by rfl
-  have hcenter20 : center s67796 2 false = none := by rfl
-  have hcenter21 : center s67796 2 true = none := by rfl
-  have hpaired00 : paired s67796 false false = none := by rfl
-  have hpaired01 : paired s67796 false true = none := by rfl
-  have hpaired10 : paired s67796 true false = none := by rfl
-  have hpaired11 : paired s67796 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67797 : safe 5 6 s67797 = true := by
-  have hcenter00 : center s67797 0 false = none := by rfl
-  have hcenter01 : center s67797 0 true = none := by rfl
-  have hcenter10 : center s67797 1 false = none := by rfl
-  have hcenter11 : center s67797 1 true = none := by rfl
-  have hcenter20 : center s67797 2 false = none := by rfl
-  have hcenter21 : center s67797 2 true = none := by rfl
-  have hpaired00 : paired s67797 false false = none := by rfl
-  have hpaired01 : paired s67797 false true = none := by rfl
-  have hpaired10 : paired s67797 true false = none := by rfl
-  have hpaired11 : paired s67797 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67798 : safe 5 8 s67798 = true := by
-  have hcenter00 : center s67798 0 false = none := by rfl
-  have hcenter01 : center s67798 0 true = none := by rfl
-  have hcenter10 : center s67798 1 false = none := by rfl
-  have hcenter11 : center s67798 1 true = none := by rfl
-  have hcenter20 : center s67798 2 false = some s67795 := by rfl
-  have hcenter21 : center s67798 2 true = none := by rfl
-  have hpaired00 : paired s67798 false false = none := by rfl
-  have hpaired01 : paired s67798 false true = none := by rfl
-  have hpaired10 : paired s67798 true false = some s67796 := by rfl
-  have hpaired11 : paired s67798 true true = some s67797 := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67795) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_some_eq hpaired10 safeNode67796) (optionAll_some_eq hpaired11 safeNode67797)
-
-theorem safeNode67799 : safe 5 6 s67799 = true := by
-  exact safe_cost_exceeded 5 6 s67799 (by decide)
-
-theorem safeNode67800 : safe 5 7 s67800 = true := by
-  have hcenter00 : center s67800 0 false = none := by rfl
-  have hcenter01 : center s67800 0 true = none := by rfl
-  have hcenter10 : center s67800 1 false = some s67799 := by rfl
-  have hcenter11 : center s67800 1 true = none := by rfl
-  have hcenter20 : center s67800 2 false = none := by rfl
-  have hcenter21 : center s67800 2 true = none := by rfl
-  have hpaired00 : paired s67800 false false = none := by rfl
-  have hpaired01 : paired s67800 false true = none := by rfl
-  have hpaired10 : paired s67800 true false = none := by rfl
-  have hpaired11 : paired s67800 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67799) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67801 : safe 5 6 s67801 = true := by
-  have hcenter00 : center s67801 0 false = none := by rfl
-  have hcenter01 : center s67801 0 true = none := by rfl
-  have hcenter10 : center s67801 1 false = none := by rfl
-  have hcenter11 : center s67801 1 true = none := by rfl
-  have hcenter20 : center s67801 2 false = none := by rfl
-  have hcenter21 : center s67801 2 true = none := by rfl
-  have hpaired00 : paired s67801 false false = none := by rfl
-  have hpaired01 : paired s67801 false true = none := by rfl
-  have hpaired10 : paired s67801 true false = none := by rfl
-  have hpaired11 : paired s67801 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67802 : safe 5 6 s67802 = true := by
-  exact safe_cost_exceeded 5 6 s67802 (by decide)
-
-theorem safeNode67803 : safe 5 7 s67803 = true := by
-  have hcenter00 : center s67803 0 false = some s67801 := by rfl
-  have hcenter01 : center s67803 0 true = none := by rfl
-  have hcenter10 : center s67803 1 false = none := by rfl
-  have hcenter11 : center s67803 1 true = some s67802 := by rfl
-  have hcenter20 : center s67803 2 false = none := by rfl
-  have hcenter21 : center s67803 2 true = none := by rfl
-  have hpaired00 : paired s67803 false false = none := by rfl
-  have hpaired01 : paired s67803 false true = none := by rfl
-  have hpaired10 : paired s67803 true false = none := by rfl
-  have hpaired11 : paired s67803 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67801) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_some_eq hcenter11 safeNode67802) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67804 : safe 5 8 s67804 = true := by
-  have hcenter00 : center s67804 0 false = none := by rfl
-  have hcenter01 : center s67804 0 true = none := by rfl
-  have hcenter10 : center s67804 1 false = none := by rfl
-  have hcenter11 : center s67804 1 true = none := by rfl
-  have hcenter20 : center s67804 2 false = some s67800 := by rfl
-  have hcenter21 : center s67804 2 true = some s67803 := by rfl
-  have hpaired00 : paired s67804 false false = none := by rfl
-  have hpaired01 : paired s67804 false true = none := by rfl
-  have hpaired10 : paired s67804 true false = none := by rfl
-  have hpaired11 : paired s67804 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67800) (optionAll_some_eq hcenter21 safeNode67803) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  refine safe_step_two (budget := 5) (n := 8) (s := s67789) ?_ ?_ ?_ ?_ ?_ ?_ ?_ ?_ ?_ ?_
+  all_goals decide +kernel
 
 theorem safeNode67805 : safe 5 9 s67805 = true := by
-  have hcenter00 : center s67805 0 false = some s67792 := by rfl
-  have hcenter01 : center s67805 0 true = some s67798 := by rfl
-  have hcenter10 : center s67805 1 false = some s67804 := by rfl
-  have hcenter11 : center s67805 1 true = none := by rfl
-  have hcenter20 : center s67805 2 false = none := by rfl
-  have hcenter21 : center s67805 2 true = none := by rfl
-  have hpaired00 : paired s67805 false false = none := by rfl
-  have hpaired01 : paired s67805 false true = none := by rfl
-  have hpaired10 : paired s67805 true false = none := by rfl
-  have hpaired11 : paired s67805 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67792) (optionAll_some_eq hcenter01 safeNode67798) (optionAll_some_eq hcenter10 safeNode67804) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67806 : safe 5 6 s67806 = true := by
-  exact safe_cost_exceeded 5 6 s67806 (by decide)
-
-theorem safeNode67807 : safe 5 7 s67807 = true := by
-  have hcenter00 : center s67807 0 false = some s67806 := by rfl
-  have hcenter01 : center s67807 0 true = none := by rfl
-  have hcenter10 : center s67807 1 false = none := by rfl
-  have hcenter11 : center s67807 1 true = none := by rfl
-  have hcenter20 : center s67807 2 false = none := by rfl
-  have hcenter21 : center s67807 2 true = none := by rfl
-  have hpaired00 : paired s67807 false false = none := by rfl
-  have hpaired01 : paired s67807 false true = none := by rfl
-  have hpaired10 : paired s67807 true false = none := by rfl
-  have hpaired11 : paired s67807 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67806) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67808 : safe 5 6 s67808 = true := by
-  exact safe_cost_exceeded 5 6 s67808 (by decide)
-
-theorem safeNode67809 : safe 5 6 s67809 = true := by
-  have hcenter00 : center s67809 0 false = none := by rfl
-  have hcenter01 : center s67809 0 true = none := by rfl
-  have hcenter10 : center s67809 1 false = none := by rfl
-  have hcenter11 : center s67809 1 true = none := by rfl
-  have hcenter20 : center s67809 2 false = none := by rfl
-  have hcenter21 : center s67809 2 true = none := by rfl
-  have hpaired00 : paired s67809 false false = none := by rfl
-  have hpaired01 : paired s67809 false true = none := by rfl
-  have hpaired10 : paired s67809 true false = none := by rfl
-  have hpaired11 : paired s67809 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67810 : safe 5 7 s67810 = true := by
-  have hcenter00 : center s67810 0 false = none := by rfl
-  have hcenter01 : center s67810 0 true = some s67808 := by rfl
-  have hcenter10 : center s67810 1 false = some s67809 := by rfl
-  have hcenter11 : center s67810 1 true = none := by rfl
-  have hcenter20 : center s67810 2 false = none := by rfl
-  have hcenter21 : center s67810 2 true = none := by rfl
-  have hpaired00 : paired s67810 false false = none := by rfl
-  have hpaired01 : paired s67810 false true = none := by rfl
-  have hpaired10 : paired s67810 true false = none := by rfl
-  have hpaired11 : paired s67810 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_some_eq hcenter01 safeNode67808) (optionAll_some_eq hcenter10 safeNode67809) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67811 : safe 5 8 s67811 = true := by
-  have hcenter00 : center s67811 0 false = none := by rfl
-  have hcenter01 : center s67811 0 true = none := by rfl
-  have hcenter10 : center s67811 1 false = none := by rfl
-  have hcenter11 : center s67811 1 true = none := by rfl
-  have hcenter20 : center s67811 2 false = some s67807 := by rfl
-  have hcenter21 : center s67811 2 true = some s67810 := by rfl
-  have hpaired00 : paired s67811 false false = none := by rfl
-  have hpaired01 : paired s67811 false true = none := by rfl
-  have hpaired10 : paired s67811 true false = none := by rfl
-  have hpaired11 : paired s67811 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67807) (optionAll_some_eq hcenter21 safeNode67810) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67812 : safe 5 6 s67812 = true := by
-  have hcenter00 : center s67812 0 false = none := by rfl
-  have hcenter01 : center s67812 0 true = none := by rfl
-  have hcenter10 : center s67812 1 false = none := by rfl
-  have hcenter11 : center s67812 1 true = none := by rfl
-  have hcenter20 : center s67812 2 false = none := by rfl
-  have hcenter21 : center s67812 2 true = none := by rfl
-  have hpaired00 : paired s67812 false false = none := by rfl
-  have hpaired01 : paired s67812 false true = none := by rfl
-  have hpaired10 : paired s67812 true false = none := by rfl
-  have hpaired11 : paired s67812 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67813 : safe 5 6 s67813 = true := by
-  have hcenter00 : center s67813 0 false = none := by rfl
-  have hcenter01 : center s67813 0 true = none := by rfl
-  have hcenter10 : center s67813 1 false = none := by rfl
-  have hcenter11 : center s67813 1 true = none := by rfl
-  have hcenter20 : center s67813 2 false = none := by rfl
-  have hcenter21 : center s67813 2 true = none := by rfl
-  have hpaired00 : paired s67813 false false = none := by rfl
-  have hpaired01 : paired s67813 false true = none := by rfl
-  have hpaired10 : paired s67813 true false = none := by rfl
-  have hpaired11 : paired s67813 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67814 : safe 5 8 s67814 = true := by
-  have hcenter00 : center s67814 0 false = none := by rfl
-  have hcenter01 : center s67814 0 true = none := by rfl
-  have hcenter10 : center s67814 1 false = none := by rfl
-  have hcenter11 : center s67814 1 true = none := by rfl
-  have hcenter20 : center s67814 2 false = none := by rfl
-  have hcenter21 : center s67814 2 true = none := by rfl
-  have hpaired00 : paired s67814 false false = none := by rfl
-  have hpaired01 : paired s67814 false true = none := by rfl
-  have hpaired10 : paired s67814 true false = some s67812 := by rfl
-  have hpaired11 : paired s67814 true true = some s67813 := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_some_eq hpaired10 safeNode67812) (optionAll_some_eq hpaired11 safeNode67813)
-
-theorem safeNode67815 : safe 5 6 s67815 = true := by
-  have hcenter00 : center s67815 0 false = none := by rfl
-  have hcenter01 : center s67815 0 true = none := by rfl
-  have hcenter10 : center s67815 1 false = none := by rfl
-  have hcenter11 : center s67815 1 true = none := by rfl
-  have hcenter20 : center s67815 2 false = none := by rfl
-  have hcenter21 : center s67815 2 true = none := by rfl
-  have hpaired00 : paired s67815 false false = none := by rfl
-  have hpaired01 : paired s67815 false true = none := by rfl
-  have hpaired10 : paired s67815 true false = none := by rfl
-  have hpaired11 : paired s67815 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67816 : safe 5 6 s67816 = true := by
-  have hcenter00 : center s67816 0 false = none := by rfl
-  have hcenter01 : center s67816 0 true = none := by rfl
-  have hcenter10 : center s67816 1 false = none := by rfl
-  have hcenter11 : center s67816 1 true = none := by rfl
-  have hcenter20 : center s67816 2 false = none := by rfl
-  have hcenter21 : center s67816 2 true = none := by rfl
-  have hpaired00 : paired s67816 false false = none := by rfl
-  have hpaired01 : paired s67816 false true = none := by rfl
-  have hpaired10 : paired s67816 true false = none := by rfl
-  have hpaired11 : paired s67816 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67817 : safe 5 7 s67817 = true := by
-  have hcenter00 : center s67817 0 false = some s67815 := by rfl
-  have hcenter01 : center s67817 0 true = some s67816 := by rfl
-  have hcenter10 : center s67817 1 false = none := by rfl
-  have hcenter11 : center s67817 1 true = none := by rfl
-  have hcenter20 : center s67817 2 false = none := by rfl
-  have hcenter21 : center s67817 2 true = none := by rfl
-  have hpaired00 : paired s67817 false false = none := by rfl
-  have hpaired01 : paired s67817 false true = none := by rfl
-  have hpaired10 : paired s67817 true false = none := by rfl
-  have hpaired11 : paired s67817 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67815) (optionAll_some_eq hcenter01 safeNode67816) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67818 : safe 5 6 s67818 = true := by
-  have hcenter00 : center s67818 0 false = none := by rfl
-  have hcenter01 : center s67818 0 true = none := by rfl
-  have hcenter10 : center s67818 1 false = none := by rfl
-  have hcenter11 : center s67818 1 true = none := by rfl
-  have hcenter20 : center s67818 2 false = none := by rfl
-  have hcenter21 : center s67818 2 true = none := by rfl
-  have hpaired00 : paired s67818 false false = none := by rfl
-  have hpaired01 : paired s67818 false true = none := by rfl
-  have hpaired10 : paired s67818 true false = none := by rfl
-  have hpaired11 : paired s67818 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67819 : safe 5 6 s67819 = true := by
-  have hcenter00 : center s67819 0 false = none := by rfl
-  have hcenter01 : center s67819 0 true = none := by rfl
-  have hcenter10 : center s67819 1 false = none := by rfl
-  have hcenter11 : center s67819 1 true = none := by rfl
-  have hcenter20 : center s67819 2 false = none := by rfl
-  have hcenter21 : center s67819 2 true = none := by rfl
-  have hpaired00 : paired s67819 false false = none := by rfl
-  have hpaired01 : paired s67819 false true = none := by rfl
-  have hpaired10 : paired s67819 true false = none := by rfl
-  have hpaired11 : paired s67819 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67820 : safe 5 8 s67820 = true := by
-  have hcenter00 : center s67820 0 false = none := by rfl
-  have hcenter01 : center s67820 0 true = none := by rfl
-  have hcenter10 : center s67820 1 false = none := by rfl
-  have hcenter11 : center s67820 1 true = none := by rfl
-  have hcenter20 : center s67820 2 false = some s67817 := by rfl
-  have hcenter21 : center s67820 2 true = none := by rfl
-  have hpaired00 : paired s67820 false false = none := by rfl
-  have hpaired01 : paired s67820 false true = none := by rfl
-  have hpaired10 : paired s67820 true false = some s67818 := by rfl
-  have hpaired11 : paired s67820 true true = some s67819 := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67817) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_some_eq hpaired10 safeNode67818) (optionAll_some_eq hpaired11 safeNode67819)
+  refine safe_step_two (budget := 5) (n := 7) (s := s67805) ?_ ?_ ?_ ?_ ?_ ?_ ?_ ?_ ?_ ?_
+  all_goals decide +kernel
 
 theorem safeNode67821 : safe 5 9 s67821 = true := by
-  have hcenter00 : center s67821 0 false = some s67811 := by rfl
-  have hcenter01 : center s67821 0 true = none := by rfl
-  have hcenter10 : center s67821 1 false = some s67814 := by rfl
-  have hcenter11 : center s67821 1 true = some s67820 := by rfl
-  have hcenter20 : center s67821 2 false = none := by rfl
-  have hcenter21 : center s67821 2 true = none := by rfl
-  have hpaired00 : paired s67821 false false = none := by rfl
-  have hpaired01 : paired s67821 false true = none := by rfl
-  have hpaired10 : paired s67821 true false = none := by rfl
-  have hpaired11 : paired s67821 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67811) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67814) (optionAll_some_eq hcenter11 safeNode67820) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  refine safe_step_two (budget := 5) (n := 7) (s := s67821) ?_ ?_ ?_ ?_ ?_ ?_ ?_ ?_ ?_ ?_
+  all_goals decide +kernel
 
 theorem safeNode67822 : safe 5 11 s67822 = true := by
-  have hcenter00 : center s67822 0 false = some s67759 := by rfl
-  have hcenter01 : center s67822 0 true = none := by rfl
-  have hcenter10 : center s67822 1 false = some s67789 := by rfl
-  have hcenter11 : center s67822 1 true = none := by rfl
-  have hcenter20 : center s67822 2 false = none := by rfl
-  have hcenter21 : center s67822 2 true = none := by rfl
-  have hpaired00 : paired s67822 false false = some s67805 := by rfl
-  have hpaired01 : paired s67822 false true = some s67821 := by rfl
-  have hpaired10 : paired s67822 true false = none := by rfl
-  have hpaired11 : paired s67822 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67759) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67789) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_some_eq hpaired00 safeNode67805) (optionAll_some_eq hpaired01 safeNode67821) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 9 s67822
+    (optionAll_some_eq (o := center s67822 0 false) (t := s67759) (by rfl) safeNode67759)
+    (Eq.refl true)
+    (optionAll_some_eq (o := center s67822 1 false) (t := s67789) (by rfl) safeNode67789)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (optionAll_some_eq (o := paired s67822 false false) (t := s67805) (by rfl) safeNode67805)
+    (optionAll_some_eq (o := paired s67822 false true) (t := s67821) (by rfl) safeNode67821)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67823 : safe 5 13 s67823 = true := by
-  have hcenter00 : center s67823 0 false = some s66993 := by rfl
-  have hcenter01 : center s67823 0 true = none := by rfl
-  have hcenter10 : center s67823 1 false = some s67336 := by rfl
-  have hcenter11 : center s67823 1 true = none := by rfl
-  have hcenter20 : center s67823 2 false = none := by rfl
-  have hcenter21 : center s67823 2 true = none := by rfl
-  have hpaired00 : paired s67823 false false = some s67471 := by rfl
-  have hpaired01 : paired s67823 false true = some s67606 := by rfl
-  have hpaired10 : paired s67823 true false = some s67714 := by rfl
-  have hpaired11 : paired s67823 true true = some s67822 := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode66993) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67336) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_some_eq hpaired00 safeNode67471) (optionAll_some_eq hpaired01 safeNode67606) (optionAll_some_eq hpaired10 safeNode67714) (optionAll_some_eq hpaired11 safeNode67822)
-
-theorem safeNode67824 : safe 5 4 s67824 = true := by
-  exact safe_cost_exceeded 5 4 s67824 (by decide)
-
-theorem safeNode67825 : safe 5 5 s67825 = true := by
-  have hcenter00 : center s67825 0 false = none := by rfl
-  have hcenter01 : center s67825 0 true = none := by rfl
-  have hcenter10 : center s67825 1 false = none := by rfl
-  have hcenter11 : center s67825 1 true = none := by rfl
-  have hcenter20 : center s67825 2 false = none := by rfl
-  have hcenter21 : center s67825 2 true = some s67824 := by rfl
-  have hpaired00 : paired s67825 false false = none := by rfl
-  have hpaired01 : paired s67825 false true = none := by rfl
-  have hpaired10 : paired s67825 true false = none := by rfl
-  have hpaired11 : paired s67825 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_some_eq hcenter21 safeNode67824) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67826 : safe 5 5 s67826 = true := by
-  exact safe_cost_exceeded 5 5 s67826 (by decide)
-
-theorem safeNode67827 : safe 5 6 s67827 = true := by
-  have hcenter00 : center s67827 0 false = some s67825 := by rfl
-  have hcenter01 : center s67827 0 true = none := by rfl
-  have hcenter10 : center s67827 1 false = some s67826 := by rfl
-  have hcenter11 : center s67827 1 true = none := by rfl
-  have hcenter20 : center s67827 2 false = none := by rfl
-  have hcenter21 : center s67827 2 true = none := by rfl
-  have hpaired00 : paired s67827 false false = none := by rfl
-  have hpaired01 : paired s67827 false true = none := by rfl
-  have hpaired10 : paired s67827 true false = none := by rfl
-  have hpaired11 : paired s67827 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67825) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67826) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67828 : safe 5 5 s67828 = true := by
-  exact safe_cost_exceeded 5 5 s67828 (by decide)
-
-theorem safeNode67829 : safe 5 5 s67829 = true := by
-  exact safe_cost_exceeded 5 5 s67829 (by decide)
-
-theorem safeNode67830 : safe 5 7 s67830 = true := by
-  have hcenter00 : center s67830 0 false = none := by rfl
-  have hcenter01 : center s67830 0 true = none := by rfl
-  have hcenter10 : center s67830 1 false = none := by rfl
-  have hcenter11 : center s67830 1 true = none := by rfl
-  have hcenter20 : center s67830 2 false = some s67827 := by rfl
-  have hcenter21 : center s67830 2 true = none := by rfl
-  have hpaired00 : paired s67830 false false = none := by rfl
-  have hpaired01 : paired s67830 false true = none := by rfl
-  have hpaired10 : paired s67830 true false = some s67828 := by rfl
-  have hpaired11 : paired s67830 true true = some s67829 := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67827) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_some_eq hpaired10 safeNode67828) (optionAll_some_eq hpaired11 safeNode67829)
-
-theorem safeNode67831 : safe 5 5 s67831 = true := by
-  exact safe_cost_exceeded 5 5 s67831 (by decide)
-
-theorem safeNode67832 : safe 5 6 s67832 = true := by
-  have hcenter00 : center s67832 0 false = none := by rfl
-  have hcenter01 : center s67832 0 true = none := by rfl
-  have hcenter10 : center s67832 1 false = none := by rfl
-  have hcenter11 : center s67832 1 true = some s67831 := by rfl
-  have hcenter20 : center s67832 2 false = none := by rfl
-  have hcenter21 : center s67832 2 true = none := by rfl
-  have hpaired00 : paired s67832 false false = none := by rfl
-  have hpaired01 : paired s67832 false true = none := by rfl
-  have hpaired10 : paired s67832 true false = none := by rfl
-  have hpaired11 : paired s67832 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_some_eq hcenter11 safeNode67831) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67833 : safe 5 5 s67833 = true := by
-  exact safe_cost_exceeded 5 5 s67833 (by decide)
-
-theorem safeNode67834 : safe 5 6 s67834 = true := by
-  have hcenter00 : center s67834 0 false = none := by rfl
-  have hcenter01 : center s67834 0 true = none := by rfl
-  have hcenter10 : center s67834 1 false = none := by rfl
-  have hcenter11 : center s67834 1 true = none := by rfl
-  have hcenter20 : center s67834 2 false = none := by rfl
-  have hcenter21 : center s67834 2 true = some s67833 := by rfl
-  have hpaired00 : paired s67834 false false = none := by rfl
-  have hpaired01 : paired s67834 false true = none := by rfl
-  have hpaired10 : paired s67834 true false = none := by rfl
-  have hpaired11 : paired s67834 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_some_eq hcenter21 safeNode67833) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67835 : safe 5 8 s67835 = true := by
-  have hcenter00 : center s67835 0 false = none := by rfl
-  have hcenter01 : center s67835 0 true = none := by rfl
-  have hcenter10 : center s67835 1 false = some s67830 := by rfl
-  have hcenter11 : center s67835 1 true = none := by rfl
-  have hcenter20 : center s67835 2 false = none := by rfl
-  have hcenter21 : center s67835 2 true = none := by rfl
-  have hpaired00 : paired s67835 false false = none := by rfl
-  have hpaired01 : paired s67835 false true = none := by rfl
-  have hpaired10 : paired s67835 true false = some s67832 := by rfl
-  have hpaired11 : paired s67835 true true = some s67834 := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67830) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_some_eq hpaired10 safeNode67832) (optionAll_some_eq hpaired11 safeNode67834)
-
-theorem safeNode67836 : safe 5 7 s67836 = true := by
-  have hcenter00 : center s67836 0 false = none := by rfl
-  have hcenter01 : center s67836 0 true = none := by rfl
-  have hcenter10 : center s67836 1 false = none := by rfl
-  have hcenter11 : center s67836 1 true = none := by rfl
-  have hcenter20 : center s67836 2 false = none := by rfl
-  have hcenter21 : center s67836 2 true = none := by rfl
-  have hpaired00 : paired s67836 false false = none := by rfl
-  have hpaired01 : paired s67836 false true = none := by rfl
-  have hpaired10 : paired s67836 true false = none := by rfl
-  have hpaired11 : paired s67836 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67837 : safe 5 8 s67837 = true := by
-  have hcenter00 : center s67837 0 false = none := by rfl
-  have hcenter01 : center s67837 0 true = none := by rfl
-  have hcenter10 : center s67837 1 false = some s67836 := by rfl
-  have hcenter11 : center s67837 1 true = none := by rfl
-  have hcenter20 : center s67837 2 false = none := by rfl
-  have hcenter21 : center s67837 2 true = none := by rfl
-  have hpaired00 : paired s67837 false false = none := by rfl
-  have hpaired01 : paired s67837 false true = none := by rfl
-  have hpaired10 : paired s67837 true false = none := by rfl
-  have hpaired11 : paired s67837 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67836) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67838 : safe 5 2 s67838 = true := by
-  exact safe_cost_exceeded 5 2 s67838 (by decide)
-
-theorem safeNode67839 : safe 5 3 s67839 = true := by
-  have hcenter00 : center s67839 0 false = none := by rfl
-  have hcenter01 : center s67839 0 true = none := by rfl
-  have hcenter10 : center s67839 1 false = none := by rfl
-  have hcenter11 : center s67839 1 true = none := by rfl
-  have hcenter20 : center s67839 2 false = some s67838 := by rfl
-  have hcenter21 : center s67839 2 true = none := by rfl
-  have hpaired00 : paired s67839 false false = none := by rfl
-  have hpaired01 : paired s67839 false true = none := by rfl
-  have hpaired10 : paired s67839 true false = none := by rfl
-  have hpaired11 : paired s67839 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67838) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67840 : safe 5 4 s67840 = true := by
-  have hcenter00 : center s67840 0 false = some s67839 := by rfl
-  have hcenter01 : center s67840 0 true = none := by rfl
-  have hcenter10 : center s67840 1 false = none := by rfl
-  have hcenter11 : center s67840 1 true = none := by rfl
-  have hcenter20 : center s67840 2 false = none := by rfl
-  have hcenter21 : center s67840 2 true = none := by rfl
-  have hpaired00 : paired s67840 false false = none := by rfl
-  have hpaired01 : paired s67840 false true = none := by rfl
-  have hpaired10 : paired s67840 true false = none := by rfl
-  have hpaired11 : paired s67840 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67839) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67841 : safe 5 5 s67841 = true := by
-  have hcenter00 : center s67841 0 false = none := by rfl
-  have hcenter01 : center s67841 0 true = none := by rfl
-  have hcenter10 : center s67841 1 false = none := by rfl
-  have hcenter11 : center s67841 1 true = none := by rfl
-  have hcenter20 : center s67841 2 false = none := by rfl
-  have hcenter21 : center s67841 2 true = some s67840 := by rfl
-  have hpaired00 : paired s67841 false false = none := by rfl
-  have hpaired01 : paired s67841 false true = none := by rfl
-  have hpaired10 : paired s67841 true false = none := by rfl
-  have hpaired11 : paired s67841 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_some_eq hcenter21 safeNode67840) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67842 : safe 5 6 s67842 = true := by
-  have hcenter00 : center s67842 0 false = none := by rfl
-  have hcenter01 : center s67842 0 true = some s67841 := by rfl
-  have hcenter10 : center s67842 1 false = none := by rfl
-  have hcenter11 : center s67842 1 true = none := by rfl
-  have hcenter20 : center s67842 2 false = none := by rfl
-  have hcenter21 : center s67842 2 true = none := by rfl
-  have hpaired00 : paired s67842 false false = none := by rfl
-  have hpaired01 : paired s67842 false true = none := by rfl
-  have hpaired10 : paired s67842 true false = none := by rfl
-  have hpaired11 : paired s67842 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_some_eq hcenter01 safeNode67841) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67843 : safe 5 7 s67843 = true := by
-  have hcenter00 : center s67843 0 false = none := by rfl
-  have hcenter01 : center s67843 0 true = none := by rfl
-  have hcenter10 : center s67843 1 false = some s67842 := by rfl
-  have hcenter11 : center s67843 1 true = none := by rfl
-  have hcenter20 : center s67843 2 false = none := by rfl
-  have hcenter21 : center s67843 2 true = none := by rfl
-  have hpaired00 : paired s67843 false false = none := by rfl
-  have hpaired01 : paired s67843 false true = none := by rfl
-  have hpaired10 : paired s67843 true false = none := by rfl
-  have hpaired11 : paired s67843 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67842) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67844 : safe 5 3 s67844 = true := by
-  exact safe_cost_exceeded 5 3 s67844 (by decide)
-
-theorem safeNode67845 : safe 5 4 s67845 = true := by
-  have hcenter00 : center s67845 0 false = none := by rfl
-  have hcenter01 : center s67845 0 true = none := by rfl
-  have hcenter10 : center s67845 1 false = none := by rfl
-  have hcenter11 : center s67845 1 true = some s67844 := by rfl
-  have hcenter20 : center s67845 2 false = none := by rfl
-  have hcenter21 : center s67845 2 true = none := by rfl
-  have hpaired00 : paired s67845 false false = none := by rfl
-  have hpaired01 : paired s67845 false true = none := by rfl
-  have hpaired10 : paired s67845 true false = none := by rfl
-  have hpaired11 : paired s67845 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_some_eq hcenter11 safeNode67844) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67846 : safe 5 5 s67846 = true := by
-  have hcenter00 : center s67846 0 false = none := by rfl
-  have hcenter01 : center s67846 0 true = none := by rfl
-  have hcenter10 : center s67846 1 false = none := by rfl
-  have hcenter11 : center s67846 1 true = none := by rfl
-  have hcenter20 : center s67846 2 false = some s67845 := by rfl
-  have hcenter21 : center s67846 2 true = none := by rfl
-  have hpaired00 : paired s67846 false false = none := by rfl
-  have hpaired01 : paired s67846 false true = none := by rfl
-  have hpaired10 : paired s67846 true false = none := by rfl
-  have hpaired11 : paired s67846 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67845) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67847 : safe 5 3 s67847 = true := by
-  have hcenter00 : center s67847 0 false = none := by rfl
-  have hcenter01 : center s67847 0 true = none := by rfl
-  have hcenter10 : center s67847 1 false = none := by rfl
-  have hcenter11 : center s67847 1 true = none := by rfl
-  have hcenter20 : center s67847 2 false = none := by rfl
-  have hcenter21 : center s67847 2 true = none := by rfl
-  have hpaired00 : paired s67847 false false = none := by rfl
-  have hpaired01 : paired s67847 false true = none := by rfl
-  have hpaired10 : paired s67847 true false = none := by rfl
-  have hpaired11 : paired s67847 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67848 : safe 5 4 s67848 = true := by
-  have hcenter00 : center s67848 0 false = none := by rfl
-  have hcenter01 : center s67848 0 true = none := by rfl
-  have hcenter10 : center s67848 1 false = none := by rfl
-  have hcenter11 : center s67848 1 true = none := by rfl
-  have hcenter20 : center s67848 2 false = some s67847 := by rfl
-  have hcenter21 : center s67848 2 true = none := by rfl
-  have hpaired00 : paired s67848 false false = none := by rfl
-  have hpaired01 : paired s67848 false true = none := by rfl
-  have hpaired10 : paired s67848 true false = none := by rfl
-  have hpaired11 : paired s67848 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67847) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67849 : safe 5 5 s67849 = true := by
-  have hcenter00 : center s67849 0 false = none := by rfl
-  have hcenter01 : center s67849 0 true = none := by rfl
-  have hcenter10 : center s67849 1 false = none := by rfl
-  have hcenter11 : center s67849 1 true = some s67848 := by rfl
-  have hcenter20 : center s67849 2 false = none := by rfl
-  have hcenter21 : center s67849 2 true = none := by rfl
-  have hpaired00 : paired s67849 false false = none := by rfl
-  have hpaired01 : paired s67849 false true = none := by rfl
-  have hpaired10 : paired s67849 true false = none := by rfl
-  have hpaired11 : paired s67849 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_some_eq hcenter11 safeNode67848) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67850 : safe 5 6 s67850 = true := by
-  have hcenter00 : center s67850 0 false = none := by rfl
-  have hcenter01 : center s67850 0 true = none := by rfl
-  have hcenter10 : center s67850 1 false = some s67846 := by rfl
-  have hcenter11 : center s67850 1 true = none := by rfl
-  have hcenter20 : center s67850 2 false = none := by rfl
-  have hcenter21 : center s67850 2 true = some s67849 := by rfl
-  have hpaired00 : paired s67850 false false = none := by rfl
-  have hpaired01 : paired s67850 false true = none := by rfl
-  have hpaired10 : paired s67850 true false = none := by rfl
-  have hpaired11 : paired s67850 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67846) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_some_eq hcenter21 safeNode67849) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67851 : safe 5 7 s67851 = true := by
-  have hcenter00 : center s67851 0 false = none := by rfl
-  have hcenter01 : center s67851 0 true = some s67850 := by rfl
-  have hcenter10 : center s67851 1 false = none := by rfl
-  have hcenter11 : center s67851 1 true = none := by rfl
-  have hcenter20 : center s67851 2 false = none := by rfl
-  have hcenter21 : center s67851 2 true = none := by rfl
-  have hpaired00 : paired s67851 false false = none := by rfl
-  have hpaired01 : paired s67851 false true = none := by rfl
-  have hpaired10 : paired s67851 true false = none := by rfl
-  have hpaired11 : paired s67851 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_some_eq hcenter01 safeNode67850) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67852 : safe 5 8 s67852 = true := by
-  have hcenter00 : center s67852 0 false = some s67843 := by rfl
-  have hcenter01 : center s67852 0 true = none := by rfl
-  have hcenter10 : center s67852 1 false = none := by rfl
-  have hcenter11 : center s67852 1 true = some s67851 := by rfl
-  have hcenter20 : center s67852 2 false = none := by rfl
-  have hcenter21 : center s67852 2 true = none := by rfl
-  have hpaired00 : paired s67852 false false = none := by rfl
-  have hpaired01 : paired s67852 false true = none := by rfl
-  have hpaired10 : paired s67852 true false = none := by rfl
-  have hpaired11 : paired s67852 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67843) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_some_eq hcenter11 safeNode67851) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 11 s67823
+    (optionAll_some_eq (o := center s67823 0 false) (t := s66993) (by rfl) safeNode66993)
+    (Eq.refl true)
+    (optionAll_some_eq (o := center s67823 1 false) (t := s67336) (by rfl) safeNode67336)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (optionAll_some_eq (o := paired s67823 false false) (t := s67471) (by rfl) safeNode67471)
+    (optionAll_some_eq (o := paired s67823 false true) (t := s67606) (by rfl) safeNode67606)
+    (optionAll_some_eq (o := paired s67823 true false) (t := s67714) (by rfl) safeNode67714)
+    (optionAll_some_eq (o := paired s67823 true true) (t := s67822) (by rfl) safeNode67822)
 
 theorem safeNode67853 : safe 5 9 s67853 = true := by
-  have hcenter00 : center s67853 0 false = some s67835 := by rfl
-  have hcenter01 : center s67853 0 true = none := by rfl
-  have hcenter10 : center s67853 1 false = none := by rfl
-  have hcenter11 : center s67853 1 true = none := by rfl
-  have hcenter20 : center s67853 2 false = some s67837 := by rfl
-  have hcenter21 : center s67853 2 true = some s67852 := by rfl
-  have hpaired00 : paired s67853 false false = none := by rfl
-  have hpaired01 : paired s67853 false true = none := by rfl
-  have hpaired10 : paired s67853 true false = none := by rfl
-  have hpaired11 : paired s67853 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67835) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67837) (optionAll_some_eq hcenter21 safeNode67852) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  refine safe_step_two (budget := 5) (n := 7) (s := s67853) ?_ ?_ ?_ ?_ ?_ ?_ ?_ ?_ ?_ ?_
+  all_goals decide +kernel
 
 theorem safeNode67854 : safe 5 7 s67854 = true := by
-  have hcenter00 : center s67854 0 false = none := by rfl
-  have hcenter01 : center s67854 0 true = none := by rfl
-  have hcenter10 : center s67854 1 false = none := by rfl
-  have hcenter11 : center s67854 1 true = none := by rfl
-  have hcenter20 : center s67854 2 false = none := by rfl
-  have hcenter21 : center s67854 2 true = none := by rfl
-  have hpaired00 : paired s67854 false false = none := by rfl
-  have hpaired01 : paired s67854 false true = none := by rfl
-  have hpaired10 : paired s67854 true false = none := by rfl
-  have hpaired11 : paired s67854 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 5 s67854
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67855 : safe 5 8 s67855 = true := by
-  have hcenter00 : center s67855 0 false = none := by rfl
-  have hcenter01 : center s67855 0 true = none := by rfl
-  have hcenter10 : center s67855 1 false = none := by rfl
-  have hcenter11 : center s67855 1 true = some s67854 := by rfl
-  have hcenter20 : center s67855 2 false = none := by rfl
-  have hcenter21 : center s67855 2 true = none := by rfl
-  have hpaired00 : paired s67855 false false = none := by rfl
-  have hpaired01 : paired s67855 false true = none := by rfl
-  have hpaired10 : paired s67855 true false = none := by rfl
-  have hpaired11 : paired s67855 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_some_eq hcenter11 safeNode67854) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 6 s67855
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (optionAll_some_eq (o := center s67855 1 true) (t := s67854) (by rfl) safeNode67854)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67856 : safe 5 7 s67856 = true := by
-  have hcenter00 : center s67856 0 false = none := by rfl
-  have hcenter01 : center s67856 0 true = none := by rfl
-  have hcenter10 : center s67856 1 false = none := by rfl
-  have hcenter11 : center s67856 1 true = none := by rfl
-  have hcenter20 : center s67856 2 false = none := by rfl
-  have hcenter21 : center s67856 2 true = none := by rfl
-  have hpaired00 : paired s67856 false false = none := by rfl
-  have hpaired01 : paired s67856 false true = none := by rfl
-  have hpaired10 : paired s67856 true false = none := by rfl
-  have hpaired11 : paired s67856 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 5 s67856
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67857 : safe 5 8 s67857 = true := by
-  have hcenter00 : center s67857 0 false = none := by rfl
-  have hcenter01 : center s67857 0 true = none := by rfl
-  have hcenter10 : center s67857 1 false = none := by rfl
-  have hcenter11 : center s67857 1 true = none := by rfl
-  have hcenter20 : center s67857 2 false = none := by rfl
-  have hcenter21 : center s67857 2 true = some s67856 := by rfl
-  have hpaired00 : paired s67857 false false = none := by rfl
-  have hpaired01 : paired s67857 false true = none := by rfl
-  have hpaired10 : paired s67857 true false = none := by rfl
-  have hpaired11 : paired s67857 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_some_eq hcenter21 safeNode67856) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 6 s67857
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (optionAll_some_eq (o := center s67857 2 true) (t := s67856) (by rfl) safeNode67856)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67858 : safe 5 10 s67858 = true := by
-  have hcenter00 : center s67858 0 false = none := by rfl
-  have hcenter01 : center s67858 0 true = none := by rfl
-  have hcenter10 : center s67858 1 false = some s67853 := by rfl
-  have hcenter11 : center s67858 1 true = none := by rfl
-  have hcenter20 : center s67858 2 false = none := by rfl
-  have hcenter21 : center s67858 2 true = none := by rfl
-  have hpaired00 : paired s67858 false false = none := by rfl
-  have hpaired01 : paired s67858 false true = none := by rfl
-  have hpaired10 : paired s67858 true false = some s67855 := by rfl
-  have hpaired11 : paired s67858 true true = some s67857 := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67853) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_some_eq hpaired10 safeNode67855) (optionAll_some_eq hpaired11 safeNode67857)
-
-theorem safeNode67859 : safe 5 3 s67859 = true := by
-  have hcenter00 : center s67859 0 false = none := by rfl
-  have hcenter01 : center s67859 0 true = none := by rfl
-  have hcenter10 : center s67859 1 false = none := by rfl
-  have hcenter11 : center s67859 1 true = none := by rfl
-  have hcenter20 : center s67859 2 false = none := by rfl
-  have hcenter21 : center s67859 2 true = none := by rfl
-  have hpaired00 : paired s67859 false false = none := by rfl
-  have hpaired01 : paired s67859 false true = none := by rfl
-  have hpaired10 : paired s67859 true false = none := by rfl
-  have hpaired11 : paired s67859 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67860 : safe 5 4 s67860 = true := by
-  have hcenter00 : center s67860 0 false = none := by rfl
-  have hcenter01 : center s67860 0 true = some s67859 := by rfl
-  have hcenter10 : center s67860 1 false = none := by rfl
-  have hcenter11 : center s67860 1 true = none := by rfl
-  have hcenter20 : center s67860 2 false = none := by rfl
-  have hcenter21 : center s67860 2 true = none := by rfl
-  have hpaired00 : paired s67860 false false = none := by rfl
-  have hpaired01 : paired s67860 false true = none := by rfl
-  have hpaired10 : paired s67860 true false = none := by rfl
-  have hpaired11 : paired s67860 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_some_eq hcenter01 safeNode67859) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67861 : safe 5 5 s67861 = true := by
-  have hcenter00 : center s67861 0 false = none := by rfl
-  have hcenter01 : center s67861 0 true = none := by rfl
-  have hcenter10 : center s67861 1 false = none := by rfl
-  have hcenter11 : center s67861 1 true = none := by rfl
-  have hcenter20 : center s67861 2 false = some s67860 := by rfl
-  have hcenter21 : center s67861 2 true = none := by rfl
-  have hpaired00 : paired s67861 false false = none := by rfl
-  have hpaired01 : paired s67861 false true = none := by rfl
-  have hpaired10 : paired s67861 true false = none := by rfl
-  have hpaired11 : paired s67861 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67860) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67862 : safe 5 6 s67862 = true := by
-  have hcenter00 : center s67862 0 false = none := by rfl
-  have hcenter01 : center s67862 0 true = none := by rfl
-  have hcenter10 : center s67862 1 false = none := by rfl
-  have hcenter11 : center s67862 1 true = some s67861 := by rfl
-  have hcenter20 : center s67862 2 false = none := by rfl
-  have hcenter21 : center s67862 2 true = none := by rfl
-  have hpaired00 : paired s67862 false false = none := by rfl
-  have hpaired01 : paired s67862 false true = none := by rfl
-  have hpaired10 : paired s67862 true false = none := by rfl
-  have hpaired11 : paired s67862 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_some_eq hcenter11 safeNode67861) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67863 : safe 5 3 s67863 = true := by
-  have hcenter00 : center s67863 0 false = none := by rfl
-  have hcenter01 : center s67863 0 true = none := by rfl
-  have hcenter10 : center s67863 1 false = none := by rfl
-  have hcenter11 : center s67863 1 true = none := by rfl
-  have hcenter20 : center s67863 2 false = none := by rfl
-  have hcenter21 : center s67863 2 true = none := by rfl
-  have hpaired00 : paired s67863 false false = none := by rfl
-  have hpaired01 : paired s67863 false true = none := by rfl
-  have hpaired10 : paired s67863 true false = none := by rfl
-  have hpaired11 : paired s67863 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67864 : safe 5 4 s67864 = true := by
-  have hcenter00 : center s67864 0 false = none := by rfl
-  have hcenter01 : center s67864 0 true = none := by rfl
-  have hcenter10 : center s67864 1 false = none := by rfl
-  have hcenter11 : center s67864 1 true = none := by rfl
-  have hcenter20 : center s67864 2 false = some s67863 := by rfl
-  have hcenter21 : center s67864 2 true = none := by rfl
-  have hpaired00 : paired s67864 false false = none := by rfl
-  have hpaired01 : paired s67864 false true = none := by rfl
-  have hpaired10 : paired s67864 true false = none := by rfl
-  have hpaired11 : paired s67864 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67863) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67865 : safe 5 5 s67865 = true := by
-  have hcenter00 : center s67865 0 false = some s67864 := by rfl
-  have hcenter01 : center s67865 0 true = none := by rfl
-  have hcenter10 : center s67865 1 false = none := by rfl
-  have hcenter11 : center s67865 1 true = none := by rfl
-  have hcenter20 : center s67865 2 false = none := by rfl
-  have hcenter21 : center s67865 2 true = none := by rfl
-  have hpaired00 : paired s67865 false false = none := by rfl
-  have hpaired01 : paired s67865 false true = none := by rfl
-  have hpaired10 : paired s67865 true false = none := by rfl
-  have hpaired11 : paired s67865 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67864) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67866 : safe 5 5 s67866 = true := by
-  have hcenter00 : center s67866 0 false = none := by rfl
-  have hcenter01 : center s67866 0 true = none := by rfl
-  have hcenter10 : center s67866 1 false = none := by rfl
-  have hcenter11 : center s67866 1 true = none := by rfl
-  have hcenter20 : center s67866 2 false = none := by rfl
-  have hcenter21 : center s67866 2 true = none := by rfl
-  have hpaired00 : paired s67866 false false = none := by rfl
-  have hpaired01 : paired s67866 false true = none := by rfl
-  have hpaired10 : paired s67866 true false = none := by rfl
-  have hpaired11 : paired s67866 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67867 : safe 5 6 s67867 = true := by
-  have hcenter00 : center s67867 0 false = none := by rfl
-  have hcenter01 : center s67867 0 true = none := by rfl
-  have hcenter10 : center s67867 1 false = some s67865 := by rfl
-  have hcenter11 : center s67867 1 true = some s67866 := by rfl
-  have hcenter20 : center s67867 2 false = none := by rfl
-  have hcenter21 : center s67867 2 true = none := by rfl
-  have hpaired00 : paired s67867 false false = none := by rfl
-  have hpaired01 : paired s67867 false true = none := by rfl
-  have hpaired10 : paired s67867 true false = none := by rfl
-  have hpaired11 : paired s67867 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67865) (optionAll_some_eq hcenter11 safeNode67866) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67868 : safe 5 7 s67868 = true := by
-  have hcenter00 : center s67868 0 false = none := by rfl
-  have hcenter01 : center s67868 0 true = some s67862 := by rfl
-  have hcenter10 : center s67868 1 false = none := by rfl
-  have hcenter11 : center s67868 1 true = none := by rfl
-  have hcenter20 : center s67868 2 false = none := by rfl
-  have hcenter21 : center s67868 2 true = some s67867 := by rfl
-  have hpaired00 : paired s67868 false false = none := by rfl
-  have hpaired01 : paired s67868 false true = none := by rfl
-  have hpaired10 : paired s67868 true false = none := by rfl
-  have hpaired11 : paired s67868 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_some_eq hcenter01 safeNode67862) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_some_eq hcenter21 safeNode67867) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67869 : safe 5 5 s67869 = true := by
-  have hcenter00 : center s67869 0 false = none := by rfl
-  have hcenter01 : center s67869 0 true = none := by rfl
-  have hcenter10 : center s67869 1 false = none := by rfl
-  have hcenter11 : center s67869 1 true = none := by rfl
-  have hcenter20 : center s67869 2 false = none := by rfl
-  have hcenter21 : center s67869 2 true = none := by rfl
-  have hpaired00 : paired s67869 false false = none := by rfl
-  have hpaired01 : paired s67869 false true = none := by rfl
-  have hpaired10 : paired s67869 true false = none := by rfl
-  have hpaired11 : paired s67869 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67870 : safe 5 5 s67870 = true := by
-  have hcenter00 : center s67870 0 false = none := by rfl
-  have hcenter01 : center s67870 0 true = none := by rfl
-  have hcenter10 : center s67870 1 false = none := by rfl
-  have hcenter11 : center s67870 1 true = none := by rfl
-  have hcenter20 : center s67870 2 false = none := by rfl
-  have hcenter21 : center s67870 2 true = none := by rfl
-  have hpaired00 : paired s67870 false false = none := by rfl
-  have hpaired01 : paired s67870 false true = none := by rfl
-  have hpaired10 : paired s67870 true false = none := by rfl
-  have hpaired11 : paired s67870 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67871 : safe 5 6 s67871 = true := by
-  have hcenter00 : center s67871 0 false = none := by rfl
-  have hcenter01 : center s67871 0 true = none := by rfl
-  have hcenter10 : center s67871 1 false = none := by rfl
-  have hcenter11 : center s67871 1 true = none := by rfl
-  have hcenter20 : center s67871 2 false = some s67869 := by rfl
-  have hcenter21 : center s67871 2 true = some s67870 := by rfl
-  have hpaired00 : paired s67871 false false = none := by rfl
-  have hpaired01 : paired s67871 false true = none := by rfl
-  have hpaired10 : paired s67871 true false = none := by rfl
-  have hpaired11 : paired s67871 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67869) (optionAll_some_eq hcenter21 safeNode67870) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67872 : safe 5 7 s67872 = true := by
-  have hcenter00 : center s67872 0 false = none := by rfl
-  have hcenter01 : center s67872 0 true = none := by rfl
-  have hcenter10 : center s67872 1 false = none := by rfl
-  have hcenter11 : center s67872 1 true = some s67871 := by rfl
-  have hcenter20 : center s67872 2 false = none := by rfl
-  have hcenter21 : center s67872 2 true = none := by rfl
-  have hpaired00 : paired s67872 false false = none := by rfl
-  have hpaired01 : paired s67872 false true = none := by rfl
-  have hpaired10 : paired s67872 true false = none := by rfl
-  have hpaired11 : paired s67872 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_some_eq hcenter11 safeNode67871) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67873 : safe 5 5 s67873 = true := by
-  have hcenter00 : center s67873 0 false = none := by rfl
-  have hcenter01 : center s67873 0 true = none := by rfl
-  have hcenter10 : center s67873 1 false = none := by rfl
-  have hcenter11 : center s67873 1 true = none := by rfl
-  have hcenter20 : center s67873 2 false = none := by rfl
-  have hcenter21 : center s67873 2 true = none := by rfl
-  have hpaired00 : paired s67873 false false = none := by rfl
-  have hpaired01 : paired s67873 false true = none := by rfl
-  have hpaired10 : paired s67873 true false = none := by rfl
-  have hpaired11 : paired s67873 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67874 : safe 5 5 s67874 = true := by
-  have hcenter00 : center s67874 0 false = none := by rfl
-  have hcenter01 : center s67874 0 true = none := by rfl
-  have hcenter10 : center s67874 1 false = none := by rfl
-  have hcenter11 : center s67874 1 true = none := by rfl
-  have hcenter20 : center s67874 2 false = none := by rfl
-  have hcenter21 : center s67874 2 true = none := by rfl
-  have hpaired00 : paired s67874 false false = none := by rfl
-  have hpaired01 : paired s67874 false true = none := by rfl
-  have hpaired10 : paired s67874 true false = none := by rfl
-  have hpaired11 : paired s67874 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67875 : safe 5 6 s67875 = true := by
-  have hcenter00 : center s67875 0 false = none := by rfl
-  have hcenter01 : center s67875 0 true = none := by rfl
-  have hcenter10 : center s67875 1 false = some s67873 := by rfl
-  have hcenter11 : center s67875 1 true = some s67874 := by rfl
-  have hcenter20 : center s67875 2 false = none := by rfl
-  have hcenter21 : center s67875 2 true = none := by rfl
-  have hpaired00 : paired s67875 false false = none := by rfl
-  have hpaired01 : paired s67875 false true = none := by rfl
-  have hpaired10 : paired s67875 true false = none := by rfl
-  have hpaired11 : paired s67875 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67873) (optionAll_some_eq hcenter11 safeNode67874) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67876 : safe 5 5 s67876 = true := by
-  have hcenter00 : center s67876 0 false = none := by rfl
-  have hcenter01 : center s67876 0 true = none := by rfl
-  have hcenter10 : center s67876 1 false = none := by rfl
-  have hcenter11 : center s67876 1 true = none := by rfl
-  have hcenter20 : center s67876 2 false = none := by rfl
-  have hcenter21 : center s67876 2 true = none := by rfl
-  have hpaired00 : paired s67876 false false = none := by rfl
-  have hpaired01 : paired s67876 false true = none := by rfl
-  have hpaired10 : paired s67876 true false = none := by rfl
-  have hpaired11 : paired s67876 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67877 : safe 5 5 s67877 = true := by
-  have hcenter00 : center s67877 0 false = none := by rfl
-  have hcenter01 : center s67877 0 true = none := by rfl
-  have hcenter10 : center s67877 1 false = none := by rfl
-  have hcenter11 : center s67877 1 true = none := by rfl
-  have hcenter20 : center s67877 2 false = none := by rfl
-  have hcenter21 : center s67877 2 true = none := by rfl
-  have hpaired00 : paired s67877 false false = none := by rfl
-  have hpaired01 : paired s67877 false true = none := by rfl
-  have hpaired10 : paired s67877 true false = none := by rfl
-  have hpaired11 : paired s67877 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67878 : safe 5 6 s67878 = true := by
-  have hcenter00 : center s67878 0 false = none := by rfl
-  have hcenter01 : center s67878 0 true = none := by rfl
-  have hcenter10 : center s67878 1 false = none := by rfl
-  have hcenter11 : center s67878 1 true = none := by rfl
-  have hcenter20 : center s67878 2 false = some s67876 := by rfl
-  have hcenter21 : center s67878 2 true = some s67877 := by rfl
-  have hpaired00 : paired s67878 false false = none := by rfl
-  have hpaired01 : paired s67878 false true = none := by rfl
-  have hpaired10 : paired s67878 true false = none := by rfl
-  have hpaired11 : paired s67878 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67876) (optionAll_some_eq hcenter21 safeNode67877) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67879 : safe 5 8 s67879 = true := by
-  have hcenter00 : center s67879 0 false = none := by rfl
-  have hcenter01 : center s67879 0 true = none := by rfl
-  have hcenter10 : center s67879 1 false = some s67868 := by rfl
-  have hcenter11 : center s67879 1 true = none := by rfl
-  have hcenter20 : center s67879 2 false = some s67872 := by rfl
-  have hcenter21 : center s67879 2 true = none := by rfl
-  have hpaired00 : paired s67879 false false = some s67875 := by rfl
-  have hpaired01 : paired s67879 false true = some s67878 := by rfl
-  have hpaired10 : paired s67879 true false = none := by rfl
-  have hpaired11 : paired s67879 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67868) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67872) (optionAll_none_eq hcenter21) (optionAll_some_eq hpaired00 safeNode67875) (optionAll_some_eq hpaired01 safeNode67878) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67880 : safe 5 6 s67880 = true := by
-  have hcenter00 : center s67880 0 false = none := by rfl
-  have hcenter01 : center s67880 0 true = none := by rfl
-  have hcenter10 : center s67880 1 false = none := by rfl
-  have hcenter11 : center s67880 1 true = none := by rfl
-  have hcenter20 : center s67880 2 false = none := by rfl
-  have hcenter21 : center s67880 2 true = none := by rfl
-  have hpaired00 : paired s67880 false false = none := by rfl
-  have hpaired01 : paired s67880 false true = none := by rfl
-  have hpaired10 : paired s67880 true false = none := by rfl
-  have hpaired11 : paired s67880 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67881 : safe 5 7 s67881 = true := by
-  have hcenter00 : center s67881 0 false = none := by rfl
-  have hcenter01 : center s67881 0 true = none := by rfl
-  have hcenter10 : center s67881 1 false = some s67880 := by rfl
-  have hcenter11 : center s67881 1 true = none := by rfl
-  have hcenter20 : center s67881 2 false = none := by rfl
-  have hcenter21 : center s67881 2 true = none := by rfl
-  have hpaired00 : paired s67881 false false = none := by rfl
-  have hpaired01 : paired s67881 false true = none := by rfl
-  have hpaired10 : paired s67881 true false = none := by rfl
-  have hpaired11 : paired s67881 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67880) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67882 : safe 5 3 s67882 = true := by
-  have hcenter00 : center s67882 0 false = none := by rfl
-  have hcenter01 : center s67882 0 true = none := by rfl
-  have hcenter10 : center s67882 1 false = none := by rfl
-  have hcenter11 : center s67882 1 true = none := by rfl
-  have hcenter20 : center s67882 2 false = none := by rfl
-  have hcenter21 : center s67882 2 true = none := by rfl
-  have hpaired00 : paired s67882 false false = none := by rfl
-  have hpaired01 : paired s67882 false true = none := by rfl
-  have hpaired10 : paired s67882 true false = none := by rfl
-  have hpaired11 : paired s67882 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67883 : safe 5 3 s67883 = true := by
-  exact safe_cost_exceeded 5 3 s67883 (by decide)
-
-theorem safeNode67884 : safe 5 4 s67884 = true := by
-  have hcenter00 : center s67884 0 false = none := by rfl
-  have hcenter01 : center s67884 0 true = none := by rfl
-  have hcenter10 : center s67884 1 false = none := by rfl
-  have hcenter11 : center s67884 1 true = some s67882 := by rfl
-  have hcenter20 : center s67884 2 false = none := by rfl
-  have hcenter21 : center s67884 2 true = some s67883 := by rfl
-  have hpaired00 : paired s67884 false false = none := by rfl
-  have hpaired01 : paired s67884 false true = none := by rfl
-  have hpaired10 : paired s67884 true false = none := by rfl
-  have hpaired11 : paired s67884 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_some_eq hcenter11 safeNode67882) (optionAll_none_eq hcenter20) (optionAll_some_eq hcenter21 safeNode67883) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67885 : safe 5 5 s67885 = true := by
-  have hcenter00 : center s67885 0 false = none := by rfl
-  have hcenter01 : center s67885 0 true = some s67884 := by rfl
-  have hcenter10 : center s67885 1 false = none := by rfl
-  have hcenter11 : center s67885 1 true = none := by rfl
-  have hcenter20 : center s67885 2 false = none := by rfl
-  have hcenter21 : center s67885 2 true = none := by rfl
-  have hpaired00 : paired s67885 false false = none := by rfl
-  have hpaired01 : paired s67885 false true = none := by rfl
-  have hpaired10 : paired s67885 true false = none := by rfl
-  have hpaired11 : paired s67885 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_some_eq hcenter01 safeNode67884) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67886 : safe 5 6 s67886 = true := by
-  have hcenter00 : center s67886 0 false = none := by rfl
-  have hcenter01 : center s67886 0 true = none := by rfl
-  have hcenter10 : center s67886 1 false = none := by rfl
-  have hcenter11 : center s67886 1 true = none := by rfl
-  have hcenter20 : center s67886 2 false = some s67885 := by rfl
-  have hcenter21 : center s67886 2 true = none := by rfl
-  have hpaired00 : paired s67886 false false = none := by rfl
-  have hpaired01 : paired s67886 false true = none := by rfl
-  have hpaired10 : paired s67886 true false = none := by rfl
-  have hpaired11 : paired s67886 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67885) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67887 : safe 5 7 s67887 = true := by
-  have hcenter00 : center s67887 0 false = none := by rfl
-  have hcenter01 : center s67887 0 true = none := by rfl
-  have hcenter10 : center s67887 1 false = some s67886 := by rfl
-  have hcenter11 : center s67887 1 true = none := by rfl
-  have hcenter20 : center s67887 2 false = none := by rfl
-  have hcenter21 : center s67887 2 true = none := by rfl
-  have hpaired00 : paired s67887 false false = none := by rfl
-  have hpaired01 : paired s67887 false true = none := by rfl
-  have hpaired10 : paired s67887 true false = none := by rfl
-  have hpaired11 : paired s67887 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67886) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67888 : safe 5 8 s67888 = true := by
-  have hcenter00 : center s67888 0 false = none := by rfl
-  have hcenter01 : center s67888 0 true = some s67881 := by rfl
-  have hcenter10 : center s67888 1 false = none := by rfl
-  have hcenter11 : center s67888 1 true = none := by rfl
-  have hcenter20 : center s67888 2 false = some s67887 := by rfl
-  have hcenter21 : center s67888 2 true = none := by rfl
-  have hpaired00 : paired s67888 false false = none := by rfl
-  have hpaired01 : paired s67888 false true = none := by rfl
-  have hpaired10 : paired s67888 true false = none := by rfl
-  have hpaired11 : paired s67888 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_some_eq hcenter01 safeNode67881) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67887) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 8 s67858
+    (Eq.refl true)
+    (Eq.refl true)
+    (optionAll_some_eq (o := center s67858 1 false) (t := s67853) (by rfl) safeNode67853)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (optionAll_some_eq (o := paired s67858 true false) (t := s67855) (by rfl) safeNode67855)
+    (optionAll_some_eq (o := paired s67858 true true) (t := s67857) (by rfl) safeNode67857)
 
 theorem safeNode67889 : safe 5 9 s67889 = true := by
-  have hcenter00 : center s67889 0 false = some s67879 := by rfl
-  have hcenter01 : center s67889 0 true = none := by rfl
-  have hcenter10 : center s67889 1 false = none := by rfl
-  have hcenter11 : center s67889 1 true = some s67888 := by rfl
-  have hcenter20 : center s67889 2 false = none := by rfl
-  have hcenter21 : center s67889 2 true = none := by rfl
-  have hpaired00 : paired s67889 false false = none := by rfl
-  have hpaired01 : paired s67889 false true = none := by rfl
-  have hpaired10 : paired s67889 true false = none := by rfl
-  have hpaired11 : paired s67889 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67879) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_some_eq hcenter11 safeNode67888) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  refine safe_step_two (budget := 5) (n := 7) (s := s67889) ?_ ?_ ?_ ?_ ?_ ?_ ?_ ?_ ?_ ?_
+  all_goals decide +kernel
 
 theorem safeNode67890 : safe 5 5 s67890 = true := by
-  have hcenter00 : center s67890 0 false = none := by rfl
-  have hcenter01 : center s67890 0 true = none := by rfl
-  have hcenter10 : center s67890 1 false = none := by rfl
-  have hcenter11 : center s67890 1 true = none := by rfl
-  have hcenter20 : center s67890 2 false = none := by rfl
-  have hcenter21 : center s67890 2 true = none := by rfl
-  have hpaired00 : paired s67890 false false = none := by rfl
-  have hpaired01 : paired s67890 false true = none := by rfl
-  have hpaired10 : paired s67890 true false = none := by rfl
-  have hpaired11 : paired s67890 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 3 s67890
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67891 : safe 5 6 s67891 = true := by
-  have hcenter00 : center s67891 0 false = none := by rfl
-  have hcenter01 : center s67891 0 true = none := by rfl
-  have hcenter10 : center s67891 1 false = none := by rfl
-  have hcenter11 : center s67891 1 true = none := by rfl
-  have hcenter20 : center s67891 2 false = some s67890 := by rfl
-  have hcenter21 : center s67891 2 true = none := by rfl
-  have hpaired00 : paired s67891 false false = none := by rfl
-  have hpaired01 : paired s67891 false true = none := by rfl
-  have hpaired10 : paired s67891 true false = none := by rfl
-  have hpaired11 : paired s67891 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67890) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 4 s67891
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (optionAll_some_eq (o := center s67891 2 false) (t := s67890) (by rfl) safeNode67890)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67892 : safe 5 3 s67892 = true := by
-  have hcenter00 : center s67892 0 false = none := by rfl
-  have hcenter01 : center s67892 0 true = none := by rfl
-  have hcenter10 : center s67892 1 false = none := by rfl
-  have hcenter11 : center s67892 1 true = none := by rfl
-  have hcenter20 : center s67892 2 false = none := by rfl
-  have hcenter21 : center s67892 2 true = none := by rfl
-  have hpaired00 : paired s67892 false false = none := by rfl
-  have hpaired01 : paired s67892 false true = none := by rfl
-  have hpaired10 : paired s67892 true false = none := by rfl
-  have hpaired11 : paired s67892 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 1 s67892
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67893 : safe 5 4 s67893 = true := by
-  have hcenter00 : center s67893 0 false = none := by rfl
-  have hcenter01 : center s67893 0 true = some s67892 := by rfl
-  have hcenter10 : center s67893 1 false = none := by rfl
-  have hcenter11 : center s67893 1 true = none := by rfl
-  have hcenter20 : center s67893 2 false = none := by rfl
-  have hcenter21 : center s67893 2 true = none := by rfl
-  have hpaired00 : paired s67893 false false = none := by rfl
-  have hpaired01 : paired s67893 false true = none := by rfl
-  have hpaired10 : paired s67893 true false = none := by rfl
-  have hpaired11 : paired s67893 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_some_eq hcenter01 safeNode67892) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 2 s67893
+    (Eq.refl true)
+    (optionAll_some_eq (o := center s67893 0 true) (t := s67892) (by rfl) safeNode67892)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67894 : safe 5 5 s67894 = true := by
-  have hcenter00 : center s67894 0 false = none := by rfl
-  have hcenter01 : center s67894 0 true = none := by rfl
-  have hcenter10 : center s67894 1 false = some s67893 := by rfl
-  have hcenter11 : center s67894 1 true = none := by rfl
-  have hcenter20 : center s67894 2 false = none := by rfl
-  have hcenter21 : center s67894 2 true = none := by rfl
-  have hpaired00 : paired s67894 false false = none := by rfl
-  have hpaired01 : paired s67894 false true = none := by rfl
-  have hpaired10 : paired s67894 true false = none := by rfl
-  have hpaired11 : paired s67894 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67893) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67895 : safe 5 3 s67895 = true := by
-  exact safe_cost_exceeded 5 3 s67895 (by decide)
+  exact @safe_step_two 5 3 s67894
+    (Eq.refl true)
+    (Eq.refl true)
+    (optionAll_some_eq (o := center s67894 1 false) (t := s67893) (by rfl) safeNode67893)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67896 : safe 5 3 s67896 = true := by
-  have hcenter00 : center s67896 0 false = none := by rfl
-  have hcenter01 : center s67896 0 true = none := by rfl
-  have hcenter10 : center s67896 1 false = none := by rfl
-  have hcenter11 : center s67896 1 true = none := by rfl
-  have hcenter20 : center s67896 2 false = none := by rfl
-  have hcenter21 : center s67896 2 true = none := by rfl
-  have hpaired00 : paired s67896 false false = none := by rfl
-  have hpaired01 : paired s67896 false true = none := by rfl
-  have hpaired10 : paired s67896 true false = none := by rfl
-  have hpaired11 : paired s67896 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 1 s67896
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67897 : safe 5 4 s67897 = true := by
-  have hcenter00 : center s67897 0 false = none := by rfl
-  have hcenter01 : center s67897 0 true = none := by rfl
-  have hcenter10 : center s67897 1 false = some s67895 := by rfl
-  have hcenter11 : center s67897 1 true = none := by rfl
-  have hcenter20 : center s67897 2 false = some s67896 := by rfl
-  have hcenter21 : center s67897 2 true = none := by rfl
-  have hpaired00 : paired s67897 false false = none := by rfl
-  have hpaired01 : paired s67897 false true = none := by rfl
-  have hpaired10 : paired s67897 true false = none := by rfl
-  have hpaired11 : paired s67897 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67895) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67896) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 2 s67897
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (optionAll_some_eq (o := center s67897 2 false) (t := s67896) (by rfl) safeNode67896)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67898 : safe 5 5 s67898 = true := by
-  have hcenter00 : center s67898 0 false = none := by rfl
-  have hcenter01 : center s67898 0 true = some s67897 := by rfl
-  have hcenter10 : center s67898 1 false = none := by rfl
-  have hcenter11 : center s67898 1 true = none := by rfl
-  have hcenter20 : center s67898 2 false = none := by rfl
-  have hcenter21 : center s67898 2 true = none := by rfl
-  have hpaired00 : paired s67898 false false = none := by rfl
-  have hpaired01 : paired s67898 false true = none := by rfl
-  have hpaired10 : paired s67898 true false = none := by rfl
-  have hpaired11 : paired s67898 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_some_eq hcenter01 safeNode67897) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 3 s67898
+    (Eq.refl true)
+    (optionAll_some_eq (o := center s67898 0 true) (t := s67897) (by rfl) safeNode67897)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67899 : safe 5 6 s67899 = true := by
-  have hcenter00 : center s67899 0 false = some s67894 := by rfl
-  have hcenter01 : center s67899 0 true = none := by rfl
-  have hcenter10 : center s67899 1 false = none := by rfl
-  have hcenter11 : center s67899 1 true = some s67898 := by rfl
-  have hcenter20 : center s67899 2 false = none := by rfl
-  have hcenter21 : center s67899 2 true = none := by rfl
-  have hpaired00 : paired s67899 false false = none := by rfl
-  have hpaired01 : paired s67899 false true = none := by rfl
-  have hpaired10 : paired s67899 true false = none := by rfl
-  have hpaired11 : paired s67899 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67894) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_some_eq hcenter11 safeNode67898) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 4 s67899
+    (optionAll_some_eq (o := center s67899 0 false) (t := s67894) (by rfl) safeNode67894)
+    (Eq.refl true)
+    (Eq.refl true)
+    (optionAll_some_eq (o := center s67899 1 true) (t := s67898) (by rfl) safeNode67898)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67900 : safe 5 7 s67900 = true := by
-  have hcenter00 : center s67900 0 false = none := by rfl
-  have hcenter01 : center s67900 0 true = some s67891 := by rfl
-  have hcenter10 : center s67900 1 false = none := by rfl
-  have hcenter11 : center s67900 1 true = none := by rfl
-  have hcenter20 : center s67900 2 false = none := by rfl
-  have hcenter21 : center s67900 2 true = some s67899 := by rfl
-  have hpaired00 : paired s67900 false false = none := by rfl
-  have hpaired01 : paired s67900 false true = none := by rfl
-  have hpaired10 : paired s67900 true false = none := by rfl
-  have hpaired11 : paired s67900 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_some_eq hcenter01 safeNode67891) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_some_eq hcenter21 safeNode67899) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 5 s67900
+    (Eq.refl true)
+    (optionAll_some_eq (o := center s67900 0 true) (t := s67891) (by rfl) safeNode67891)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (optionAll_some_eq (o := center s67900 2 true) (t := s67899) (by rfl) safeNode67899)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67901 : safe 5 8 s67901 = true := by
-  have hcenter00 : center s67901 0 false = none := by rfl
-  have hcenter01 : center s67901 0 true = none := by rfl
-  have hcenter10 : center s67901 1 false = some s67900 := by rfl
-  have hcenter11 : center s67901 1 true = none := by rfl
-  have hcenter20 : center s67901 2 false = none := by rfl
-  have hcenter21 : center s67901 2 true = none := by rfl
-  have hpaired00 : paired s67901 false false = none := by rfl
-  have hpaired01 : paired s67901 false true = none := by rfl
-  have hpaired10 : paired s67901 true false = none := by rfl
-  have hpaired11 : paired s67901 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67900) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 6 s67901
+    (Eq.refl true)
+    (Eq.refl true)
+    (optionAll_some_eq (o := center s67901 1 false) (t := s67900) (by rfl) safeNode67900)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67902 : safe 5 5 s67902 = true := by
-  have hcenter00 : center s67902 0 false = none := by rfl
-  have hcenter01 : center s67902 0 true = none := by rfl
-  have hcenter10 : center s67902 1 false = none := by rfl
-  have hcenter11 : center s67902 1 true = none := by rfl
-  have hcenter20 : center s67902 2 false = none := by rfl
-  have hcenter21 : center s67902 2 true = none := by rfl
-  have hpaired00 : paired s67902 false false = none := by rfl
-  have hpaired01 : paired s67902 false true = none := by rfl
-  have hpaired10 : paired s67902 true false = none := by rfl
-  have hpaired11 : paired s67902 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 3 s67902
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67903 : safe 5 6 s67903 = true := by
-  have hcenter00 : center s67903 0 false = none := by rfl
-  have hcenter01 : center s67903 0 true = none := by rfl
-  have hcenter10 : center s67903 1 false = some s67902 := by rfl
-  have hcenter11 : center s67903 1 true = none := by rfl
-  have hcenter20 : center s67903 2 false = none := by rfl
-  have hcenter21 : center s67903 2 true = none := by rfl
-  have hpaired00 : paired s67903 false false = none := by rfl
-  have hpaired01 : paired s67903 false true = none := by rfl
-  have hpaired10 : paired s67903 true false = none := by rfl
-  have hpaired11 : paired s67903 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67902) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 4 s67903
+    (Eq.refl true)
+    (Eq.refl true)
+    (optionAll_some_eq (o := center s67903 1 false) (t := s67902) (by rfl) safeNode67902)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67904 : safe 5 3 s67904 = true := by
-  have hcenter00 : center s67904 0 false = none := by rfl
-  have hcenter01 : center s67904 0 true = none := by rfl
-  have hcenter10 : center s67904 1 false = none := by rfl
-  have hcenter11 : center s67904 1 true = none := by rfl
-  have hcenter20 : center s67904 2 false = none := by rfl
-  have hcenter21 : center s67904 2 true = none := by rfl
-  have hpaired00 : paired s67904 false false = none := by rfl
-  have hpaired01 : paired s67904 false true = none := by rfl
-  have hpaired10 : paired s67904 true false = none := by rfl
-  have hpaired11 : paired s67904 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 1 s67904
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67905 : safe 5 4 s67905 = true := by
-  have hcenter00 : center s67905 0 false = none := by rfl
-  have hcenter01 : center s67905 0 true = some s67904 := by rfl
-  have hcenter10 : center s67905 1 false = none := by rfl
-  have hcenter11 : center s67905 1 true = none := by rfl
-  have hcenter20 : center s67905 2 false = none := by rfl
-  have hcenter21 : center s67905 2 true = none := by rfl
-  have hpaired00 : paired s67905 false false = none := by rfl
-  have hpaired01 : paired s67905 false true = none := by rfl
-  have hpaired10 : paired s67905 true false = none := by rfl
-  have hpaired11 : paired s67905 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_some_eq hcenter01 safeNode67904) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 2 s67905
+    (Eq.refl true)
+    (optionAll_some_eq (o := center s67905 0 true) (t := s67904) (by rfl) safeNode67904)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67906 : safe 5 5 s67906 = true := by
-  have hcenter00 : center s67906 0 false = none := by rfl
-  have hcenter01 : center s67906 0 true = none := by rfl
-  have hcenter10 : center s67906 1 false = none := by rfl
-  have hcenter11 : center s67906 1 true = none := by rfl
-  have hcenter20 : center s67906 2 false = some s67905 := by rfl
-  have hcenter21 : center s67906 2 true = none := by rfl
-  have hpaired00 : paired s67906 false false = none := by rfl
-  have hpaired01 : paired s67906 false true = none := by rfl
-  have hpaired10 : paired s67906 true false = none := by rfl
-  have hpaired11 : paired s67906 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67905) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 3 s67906
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (optionAll_some_eq (o := center s67906 2 false) (t := s67905) (by rfl) safeNode67905)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67907 : safe 5 3 s67907 = true := by
-  have hcenter00 : center s67907 0 false = none := by rfl
-  have hcenter01 : center s67907 0 true = none := by rfl
-  have hcenter10 : center s67907 1 false = none := by rfl
-  have hcenter11 : center s67907 1 true = none := by rfl
-  have hcenter20 : center s67907 2 false = none := by rfl
-  have hcenter21 : center s67907 2 true = none := by rfl
-  have hpaired00 : paired s67907 false false = none := by rfl
-  have hpaired01 : paired s67907 false true = none := by rfl
-  have hpaired10 : paired s67907 true false = none := by rfl
-  have hpaired11 : paired s67907 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67908 : safe 5 3 s67908 = true := by
-  exact safe_cost_exceeded 5 3 s67908 (by decide)
+  exact @safe_step_two 5 1 s67907
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67909 : safe 5 4 s67909 = true := by
-  have hcenter00 : center s67909 0 false = none := by rfl
-  have hcenter01 : center s67909 0 true = none := by rfl
-  have hcenter10 : center s67909 1 false = some s67907 := by rfl
-  have hcenter11 : center s67909 1 true = none := by rfl
-  have hcenter20 : center s67909 2 false = some s67908 := by rfl
-  have hcenter21 : center s67909 2 true = none := by rfl
-  have hpaired00 : paired s67909 false false = none := by rfl
-  have hpaired01 : paired s67909 false true = none := by rfl
-  have hpaired10 : paired s67909 true false = none := by rfl
-  have hpaired11 : paired s67909 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67907) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67908) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 2 s67909
+    (Eq.refl true)
+    (Eq.refl true)
+    (optionAll_some_eq (o := center s67909 1 false) (t := s67907) (by rfl) safeNode67907)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67910 : safe 5 5 s67910 = true := by
-  have hcenter00 : center s67910 0 false = none := by rfl
-  have hcenter01 : center s67910 0 true = some s67909 := by rfl
-  have hcenter10 : center s67910 1 false = none := by rfl
-  have hcenter11 : center s67910 1 true = none := by rfl
-  have hcenter20 : center s67910 2 false = none := by rfl
-  have hcenter21 : center s67910 2 true = none := by rfl
-  have hpaired00 : paired s67910 false false = none := by rfl
-  have hpaired01 : paired s67910 false true = none := by rfl
-  have hpaired10 : paired s67910 true false = none := by rfl
-  have hpaired11 : paired s67910 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_some_eq hcenter01 safeNode67909) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 3 s67910
+    (Eq.refl true)
+    (optionAll_some_eq (o := center s67910 0 true) (t := s67909) (by rfl) safeNode67909)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67911 : safe 5 6 s67911 = true := by
-  have hcenter00 : center s67911 0 false = some s67906 := by rfl
-  have hcenter01 : center s67911 0 true = none := by rfl
-  have hcenter10 : center s67911 1 false = none := by rfl
-  have hcenter11 : center s67911 1 true = none := by rfl
-  have hcenter20 : center s67911 2 false = none := by rfl
-  have hcenter21 : center s67911 2 true = some s67910 := by rfl
-  have hpaired00 : paired s67911 false false = none := by rfl
-  have hpaired01 : paired s67911 false true = none := by rfl
-  have hpaired10 : paired s67911 true false = none := by rfl
-  have hpaired11 : paired s67911 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67906) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_some_eq hcenter21 safeNode67910) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 4 s67911
+    (optionAll_some_eq (o := center s67911 0 false) (t := s67906) (by rfl) safeNode67906)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (optionAll_some_eq (o := center s67911 2 true) (t := s67910) (by rfl) safeNode67910)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67912 : safe 5 7 s67912 = true := by
-  have hcenter00 : center s67912 0 false = none := by rfl
-  have hcenter01 : center s67912 0 true = some s67903 := by rfl
-  have hcenter10 : center s67912 1 false = none := by rfl
-  have hcenter11 : center s67912 1 true = some s67911 := by rfl
-  have hcenter20 : center s67912 2 false = none := by rfl
-  have hcenter21 : center s67912 2 true = none := by rfl
-  have hpaired00 : paired s67912 false false = none := by rfl
-  have hpaired01 : paired s67912 false true = none := by rfl
-  have hpaired10 : paired s67912 true false = none := by rfl
-  have hpaired11 : paired s67912 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_some_eq hcenter01 safeNode67903) (optionAll_none_eq hcenter10) (optionAll_some_eq hcenter11 safeNode67911) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 5 s67912
+    (Eq.refl true)
+    (optionAll_some_eq (o := center s67912 0 true) (t := s67903) (by rfl) safeNode67903)
+    (Eq.refl true)
+    (optionAll_some_eq (o := center s67912 1 true) (t := s67911) (by rfl) safeNode67911)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67913 : safe 5 8 s67913 = true := by
-  have hcenter00 : center s67913 0 false = none := by rfl
-  have hcenter01 : center s67913 0 true = none := by rfl
-  have hcenter10 : center s67913 1 false = none := by rfl
-  have hcenter11 : center s67913 1 true = none := by rfl
-  have hcenter20 : center s67913 2 false = some s67912 := by rfl
-  have hcenter21 : center s67913 2 true = none := by rfl
-  have hpaired00 : paired s67913 false false = none := by rfl
-  have hpaired01 : paired s67913 false true = none := by rfl
-  have hpaired10 : paired s67913 true false = none := by rfl
-  have hpaired11 : paired s67913 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67912) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 6 s67913
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (optionAll_some_eq (o := center s67913 2 false) (t := s67912) (by rfl) safeNode67912)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 theorem safeNode67914 : safe 5 10 s67914 = true := by
-  have hcenter00 : center s67914 0 false = none := by rfl
-  have hcenter01 : center s67914 0 true = none := by rfl
-  have hcenter10 : center s67914 1 false = none := by rfl
-  have hcenter11 : center s67914 1 true = none := by rfl
-  have hcenter20 : center s67914 2 false = none := by rfl
-  have hcenter21 : center s67914 2 true = some s67889 := by rfl
-  have hpaired00 : paired s67914 false false = none := by rfl
-  have hpaired01 : paired s67914 false true = none := by rfl
-  have hpaired10 : paired s67914 true false = some s67901 := by rfl
-  have hpaired11 : paired s67914 true true = some s67913 := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_some_eq hcenter21 safeNode67889) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_some_eq hpaired10 safeNode67901) (optionAll_some_eq hpaired11 safeNode67913)
-
-theorem safeNode67915 : safe 5 5 s67915 = true := by
-  have hcenter00 : center s67915 0 false = none := by rfl
-  have hcenter01 : center s67915 0 true = none := by rfl
-  have hcenter10 : center s67915 1 false = none := by rfl
-  have hcenter11 : center s67915 1 true = none := by rfl
-  have hcenter20 : center s67915 2 false = none := by rfl
-  have hcenter21 : center s67915 2 true = none := by rfl
-  have hpaired00 : paired s67915 false false = none := by rfl
-  have hpaired01 : paired s67915 false true = none := by rfl
-  have hpaired10 : paired s67915 true false = none := by rfl
-  have hpaired11 : paired s67915 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67916 : safe 5 4 s67916 = true := by
-  have hcenter00 : center s67916 0 false = none := by rfl
-  have hcenter01 : center s67916 0 true = none := by rfl
-  have hcenter10 : center s67916 1 false = none := by rfl
-  have hcenter11 : center s67916 1 true = none := by rfl
-  have hcenter20 : center s67916 2 false = none := by rfl
-  have hcenter21 : center s67916 2 true = none := by rfl
-  have hpaired00 : paired s67916 false false = none := by rfl
-  have hpaired01 : paired s67916 false true = none := by rfl
-  have hpaired10 : paired s67916 true false = none := by rfl
-  have hpaired11 : paired s67916 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67917 : safe 5 5 s67917 = true := by
-  have hcenter00 : center s67917 0 false = some s67916 := by rfl
-  have hcenter01 : center s67917 0 true = none := by rfl
-  have hcenter10 : center s67917 1 false = none := by rfl
-  have hcenter11 : center s67917 1 true = none := by rfl
-  have hcenter20 : center s67917 2 false = none := by rfl
-  have hcenter21 : center s67917 2 true = none := by rfl
-  have hpaired00 : paired s67917 false false = none := by rfl
-  have hpaired01 : paired s67917 false true = none := by rfl
-  have hpaired10 : paired s67917 true false = none := by rfl
-  have hpaired11 : paired s67917 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67916) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67918 : safe 5 6 s67918 = true := by
-  have hcenter00 : center s67918 0 false = none := by rfl
-  have hcenter01 : center s67918 0 true = none := by rfl
-  have hcenter10 : center s67918 1 false = none := by rfl
-  have hcenter11 : center s67918 1 true = none := by rfl
-  have hcenter20 : center s67918 2 false = some s67915 := by rfl
-  have hcenter21 : center s67918 2 true = some s67917 := by rfl
-  have hpaired00 : paired s67918 false false = none := by rfl
-  have hpaired01 : paired s67918 false true = none := by rfl
-  have hpaired10 : paired s67918 true false = none := by rfl
-  have hpaired11 : paired s67918 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67915) (optionAll_some_eq hcenter21 safeNode67917) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67919 : safe 5 7 s67919 = true := by
-  have hcenter00 : center s67919 0 false = none := by rfl
-  have hcenter01 : center s67919 0 true = none := by rfl
-  have hcenter10 : center s67919 1 false = some s67918 := by rfl
-  have hcenter11 : center s67919 1 true = none := by rfl
-  have hcenter20 : center s67919 2 false = none := by rfl
-  have hcenter21 : center s67919 2 true = none := by rfl
-  have hpaired00 : paired s67919 false false = none := by rfl
-  have hpaired01 : paired s67919 false true = none := by rfl
-  have hpaired10 : paired s67919 true false = none := by rfl
-  have hpaired11 : paired s67919 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67918) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67920 : safe 5 4 s67920 = true := by
-  have hcenter00 : center s67920 0 false = none := by rfl
-  have hcenter01 : center s67920 0 true = none := by rfl
-  have hcenter10 : center s67920 1 false = none := by rfl
-  have hcenter11 : center s67920 1 true = none := by rfl
-  have hcenter20 : center s67920 2 false = none := by rfl
-  have hcenter21 : center s67920 2 true = none := by rfl
-  have hpaired00 : paired s67920 false false = none := by rfl
-  have hpaired01 : paired s67920 false true = none := by rfl
-  have hpaired10 : paired s67920 true false = none := by rfl
-  have hpaired11 : paired s67920 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67921 : safe 5 5 s67921 = true := by
-  have hcenter00 : center s67921 0 false = none := by rfl
-  have hcenter01 : center s67921 0 true = none := by rfl
-  have hcenter10 : center s67921 1 false = none := by rfl
-  have hcenter11 : center s67921 1 true = none := by rfl
-  have hcenter20 : center s67921 2 false = none := by rfl
-  have hcenter21 : center s67921 2 true = some s67920 := by rfl
-  have hpaired00 : paired s67921 false false = none := by rfl
-  have hpaired01 : paired s67921 false true = none := by rfl
-  have hpaired10 : paired s67921 true false = none := by rfl
-  have hpaired11 : paired s67921 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_some_eq hcenter21 safeNode67920) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67922 : safe 5 6 s67922 = true := by
-  have hcenter00 : center s67922 0 false = none := by rfl
-  have hcenter01 : center s67922 0 true = some s67921 := by rfl
-  have hcenter10 : center s67922 1 false = none := by rfl
-  have hcenter11 : center s67922 1 true = none := by rfl
-  have hcenter20 : center s67922 2 false = none := by rfl
-  have hcenter21 : center s67922 2 true = none := by rfl
-  have hpaired00 : paired s67922 false false = none := by rfl
-  have hpaired01 : paired s67922 false true = none := by rfl
-  have hpaired10 : paired s67922 true false = none := by rfl
-  have hpaired11 : paired s67922 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_some_eq hcenter01 safeNode67921) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67923 : safe 5 7 s67923 = true := by
-  have hcenter00 : center s67923 0 false = none := by rfl
-  have hcenter01 : center s67923 0 true = none := by rfl
-  have hcenter10 : center s67923 1 false = none := by rfl
-  have hcenter11 : center s67923 1 true = some s67922 := by rfl
-  have hcenter20 : center s67923 2 false = none := by rfl
-  have hcenter21 : center s67923 2 true = none := by rfl
-  have hpaired00 : paired s67923 false false = none := by rfl
-  have hpaired01 : paired s67923 false true = none := by rfl
-  have hpaired10 : paired s67923 true false = none := by rfl
-  have hpaired11 : paired s67923 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_some_eq hcenter11 safeNode67922) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67924 : safe 5 8 s67924 = true := by
-  have hcenter00 : center s67924 0 false = some s67919 := by rfl
-  have hcenter01 : center s67924 0 true = none := by rfl
-  have hcenter10 : center s67924 1 false = none := by rfl
-  have hcenter11 : center s67924 1 true = none := by rfl
-  have hcenter20 : center s67924 2 false = some s67923 := by rfl
-  have hcenter21 : center s67924 2 true = none := by rfl
-  have hpaired00 : paired s67924 false false = none := by rfl
-  have hpaired01 : paired s67924 false true = none := by rfl
-  have hpaired10 : paired s67924 true false = none := by rfl
-  have hpaired11 : paired s67924 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67919) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67923) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67925 : safe 5 2 s67925 = true := by
-  have hcenter00 : center s67925 0 false = none := by rfl
-  have hcenter01 : center s67925 0 true = none := by rfl
-  have hcenter10 : center s67925 1 false = none := by rfl
-  have hcenter11 : center s67925 1 true = none := by rfl
-  have hcenter20 : center s67925 2 false = none := by rfl
-  have hcenter21 : center s67925 2 true = none := by rfl
-  have hpaired00 : paired s67925 false false = none := by rfl
-  have hpaired01 : paired s67925 false true = none := by rfl
-  have hpaired10 : paired s67925 true false = none := by rfl
-  have hpaired11 : paired s67925 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67926 : safe 5 3 s67926 = true := by
-  have hcenter00 : center s67926 0 false = none := by rfl
-  have hcenter01 : center s67926 0 true = none := by rfl
-  have hcenter10 : center s67926 1 false = none := by rfl
-  have hcenter11 : center s67926 1 true = some s67925 := by rfl
-  have hcenter20 : center s67926 2 false = none := by rfl
-  have hcenter21 : center s67926 2 true = none := by rfl
-  have hpaired00 : paired s67926 false false = none := by rfl
-  have hpaired01 : paired s67926 false true = none := by rfl
-  have hpaired10 : paired s67926 true false = none := by rfl
-  have hpaired11 : paired s67926 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_some_eq hcenter11 safeNode67925) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67927 : safe 5 4 s67927 = true := by
-  have hcenter00 : center s67927 0 false = none := by rfl
-  have hcenter01 : center s67927 0 true = none := by rfl
-  have hcenter10 : center s67927 1 false = none := by rfl
-  have hcenter11 : center s67927 1 true = none := by rfl
-  have hcenter20 : center s67927 2 false = some s67926 := by rfl
-  have hcenter21 : center s67927 2 true = none := by rfl
-  have hpaired00 : paired s67927 false false = none := by rfl
-  have hpaired01 : paired s67927 false true = none := by rfl
-  have hpaired10 : paired s67927 true false = none := by rfl
-  have hpaired11 : paired s67927 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67926) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67928 : safe 5 5 s67928 = true := by
-  have hcenter00 : center s67928 0 false = some s67927 := by rfl
-  have hcenter01 : center s67928 0 true = none := by rfl
-  have hcenter10 : center s67928 1 false = none := by rfl
-  have hcenter11 : center s67928 1 true = none := by rfl
-  have hcenter20 : center s67928 2 false = none := by rfl
-  have hcenter21 : center s67928 2 true = none := by rfl
-  have hpaired00 : paired s67928 false false = none := by rfl
-  have hpaired01 : paired s67928 false true = none := by rfl
-  have hpaired10 : paired s67928 true false = none := by rfl
-  have hpaired11 : paired s67928 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67927) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67929 : safe 5 6 s67929 = true := by
-  have hcenter00 : center s67929 0 false = none := by rfl
-  have hcenter01 : center s67929 0 true = none := by rfl
-  have hcenter10 : center s67929 1 false = some s67928 := by rfl
-  have hcenter11 : center s67929 1 true = none := by rfl
-  have hcenter20 : center s67929 2 false = none := by rfl
-  have hcenter21 : center s67929 2 true = none := by rfl
-  have hpaired00 : paired s67929 false false = none := by rfl
-  have hpaired01 : paired s67929 false true = none := by rfl
-  have hpaired10 : paired s67929 true false = none := by rfl
-  have hpaired11 : paired s67929 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67928) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67930 : safe 5 5 s67930 = true := by
-  have hcenter00 : center s67930 0 false = none := by rfl
-  have hcenter01 : center s67930 0 true = none := by rfl
-  have hcenter10 : center s67930 1 false = none := by rfl
-  have hcenter11 : center s67930 1 true = none := by rfl
-  have hcenter20 : center s67930 2 false = none := by rfl
-  have hcenter21 : center s67930 2 true = none := by rfl
-  have hpaired00 : paired s67930 false false = none := by rfl
-  have hpaired01 : paired s67930 false true = none := by rfl
-  have hpaired10 : paired s67930 true false = none := by rfl
-  have hpaired11 : paired s67930 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67931 : safe 5 6 s67931 = true := by
-  have hcenter00 : center s67931 0 false = none := by rfl
-  have hcenter01 : center s67931 0 true = none := by rfl
-  have hcenter10 : center s67931 1 false = some s67930 := by rfl
-  have hcenter11 : center s67931 1 true = none := by rfl
-  have hcenter20 : center s67931 2 false = none := by rfl
-  have hcenter21 : center s67931 2 true = none := by rfl
-  have hpaired00 : paired s67931 false false = none := by rfl
-  have hpaired01 : paired s67931 false true = none := by rfl
-  have hpaired10 : paired s67931 true false = none := by rfl
-  have hpaired11 : paired s67931 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67930) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67932 : safe 5 7 s67932 = true := by
-  have hcenter00 : center s67932 0 false = none := by rfl
-  have hcenter01 : center s67932 0 true = some s67929 := by rfl
-  have hcenter10 : center s67932 1 false = none := by rfl
-  have hcenter11 : center s67932 1 true = none := by rfl
-  have hcenter20 : center s67932 2 false = some s67931 := by rfl
-  have hcenter21 : center s67932 2 true = none := by rfl
-  have hpaired00 : paired s67932 false false = none := by rfl
-  have hpaired01 : paired s67932 false true = none := by rfl
-  have hpaired10 : paired s67932 true false = none := by rfl
-  have hpaired11 : paired s67932 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_some_eq hcenter01 safeNode67929) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67931) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67933 : safe 5 5 s67933 = true := by
-  have hcenter00 : center s67933 0 false = none := by rfl
-  have hcenter01 : center s67933 0 true = none := by rfl
-  have hcenter10 : center s67933 1 false = none := by rfl
-  have hcenter11 : center s67933 1 true = none := by rfl
-  have hcenter20 : center s67933 2 false = none := by rfl
-  have hcenter21 : center s67933 2 true = none := by rfl
-  have hpaired00 : paired s67933 false false = none := by rfl
-  have hpaired01 : paired s67933 false true = none := by rfl
-  have hpaired10 : paired s67933 true false = none := by rfl
-  have hpaired11 : paired s67933 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67934 : safe 5 6 s67934 = true := by
-  have hcenter00 : center s67934 0 false = some s67933 := by rfl
-  have hcenter01 : center s67934 0 true = none := by rfl
-  have hcenter10 : center s67934 1 false = none := by rfl
-  have hcenter11 : center s67934 1 true = none := by rfl
-  have hcenter20 : center s67934 2 false = none := by rfl
-  have hcenter21 : center s67934 2 true = none := by rfl
-  have hpaired00 : paired s67934 false false = none := by rfl
-  have hpaired01 : paired s67934 false true = none := by rfl
-  have hpaired10 : paired s67934 true false = none := by rfl
-  have hpaired11 : paired s67934 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67933) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67935 : safe 5 5 s67935 = true := by
-  have hcenter00 : center s67935 0 false = none := by rfl
-  have hcenter01 : center s67935 0 true = none := by rfl
-  have hcenter10 : center s67935 1 false = none := by rfl
-  have hcenter11 : center s67935 1 true = none := by rfl
-  have hcenter20 : center s67935 2 false = none := by rfl
-  have hcenter21 : center s67935 2 true = none := by rfl
-  have hpaired00 : paired s67935 false false = none := by rfl
-  have hpaired01 : paired s67935 false true = none := by rfl
-  have hpaired10 : paired s67935 true false = none := by rfl
-  have hpaired11 : paired s67935 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67936 : safe 5 6 s67936 = true := by
-  have hcenter00 : center s67936 0 false = none := by rfl
-  have hcenter01 : center s67936 0 true = none := by rfl
-  have hcenter10 : center s67936 1 false = some s67935 := by rfl
-  have hcenter11 : center s67936 1 true = none := by rfl
-  have hcenter20 : center s67936 2 false = none := by rfl
-  have hcenter21 : center s67936 2 true = none := by rfl
-  have hpaired00 : paired s67936 false false = none := by rfl
-  have hpaired01 : paired s67936 false true = none := by rfl
-  have hpaired10 : paired s67936 true false = none := by rfl
-  have hpaired11 : paired s67936 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67935) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67937 : safe 5 8 s67937 = true := by
-  have hcenter00 : center s67937 0 false = none := by rfl
-  have hcenter01 : center s67937 0 true = none := by rfl
-  have hcenter10 : center s67937 1 false = none := by rfl
-  have hcenter11 : center s67937 1 true = some s67932 := by rfl
-  have hcenter20 : center s67937 2 false = none := by rfl
-  have hcenter21 : center s67937 2 true = none := by rfl
-  have hpaired00 : paired s67937 false false = none := by rfl
-  have hpaired01 : paired s67937 false true = none := by rfl
-  have hpaired10 : paired s67937 true false = some s67934 := by rfl
-  have hpaired11 : paired s67937 true true = some s67936 := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_some_eq hcenter11 safeNode67932) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_some_eq hpaired10 safeNode67934) (optionAll_some_eq hpaired11 safeNode67936)
-
-theorem safeNode67938 : safe 5 9 s67938 = true := by
-  have hcenter00 : center s67938 0 false = none := by rfl
-  have hcenter01 : center s67938 0 true = none := by rfl
-  have hcenter10 : center s67938 1 false = some s67924 := by rfl
-  have hcenter11 : center s67938 1 true = none := by rfl
-  have hcenter20 : center s67938 2 false = none := by rfl
-  have hcenter21 : center s67938 2 true = some s67937 := by rfl
-  have hpaired00 : paired s67938 false false = none := by rfl
-  have hpaired01 : paired s67938 false true = none := by rfl
-  have hpaired10 : paired s67938 true false = none := by rfl
-  have hpaired11 : paired s67938 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67924) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_some_eq hcenter21 safeNode67937) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67939 : safe 5 6 s67939 = true := by
-  have hcenter00 : center s67939 0 false = none := by rfl
-  have hcenter01 : center s67939 0 true = none := by rfl
-  have hcenter10 : center s67939 1 false = none := by rfl
-  have hcenter11 : center s67939 1 true = none := by rfl
-  have hcenter20 : center s67939 2 false = none := by rfl
-  have hcenter21 : center s67939 2 true = none := by rfl
-  have hpaired00 : paired s67939 false false = none := by rfl
-  have hpaired01 : paired s67939 false true = none := by rfl
-  have hpaired10 : paired s67939 true false = none := by rfl
-  have hpaired11 : paired s67939 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67940 : safe 5 7 s67940 = true := by
-  have hcenter00 : center s67940 0 false = none := by rfl
-  have hcenter01 : center s67940 0 true = none := by rfl
-  have hcenter10 : center s67940 1 false = none := by rfl
-  have hcenter11 : center s67940 1 true = some s67939 := by rfl
-  have hcenter20 : center s67940 2 false = none := by rfl
-  have hcenter21 : center s67940 2 true = none := by rfl
-  have hpaired00 : paired s67940 false false = none := by rfl
-  have hpaired01 : paired s67940 false true = none := by rfl
-  have hpaired10 : paired s67940 true false = none := by rfl
-  have hpaired11 : paired s67940 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_some_eq hcenter11 safeNode67939) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67941 : safe 5 4 s67941 = true := by
-  have hcenter00 : center s67941 0 false = none := by rfl
-  have hcenter01 : center s67941 0 true = none := by rfl
-  have hcenter10 : center s67941 1 false = none := by rfl
-  have hcenter11 : center s67941 1 true = none := by rfl
-  have hcenter20 : center s67941 2 false = none := by rfl
-  have hcenter21 : center s67941 2 true = none := by rfl
-  have hpaired00 : paired s67941 false false = none := by rfl
-  have hpaired01 : paired s67941 false true = none := by rfl
-  have hpaired10 : paired s67941 true false = none := by rfl
-  have hpaired11 : paired s67941 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67942 : safe 5 5 s67942 = true := by
-  have hcenter00 : center s67942 0 false = none := by rfl
-  have hcenter01 : center s67942 0 true = none := by rfl
-  have hcenter10 : center s67942 1 false = none := by rfl
-  have hcenter11 : center s67942 1 true = none := by rfl
-  have hcenter20 : center s67942 2 false = none := by rfl
-  have hcenter21 : center s67942 2 true = some s67941 := by rfl
-  have hpaired00 : paired s67942 false false = none := by rfl
-  have hpaired01 : paired s67942 false true = none := by rfl
-  have hpaired10 : paired s67942 true false = none := by rfl
-  have hpaired11 : paired s67942 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_some_eq hcenter21 safeNode67941) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67943 : safe 5 2 s67943 = true := by
-  have hcenter00 : center s67943 0 false = none := by rfl
-  have hcenter01 : center s67943 0 true = none := by rfl
-  have hcenter10 : center s67943 1 false = none := by rfl
-  have hcenter11 : center s67943 1 true = none := by rfl
-  have hcenter20 : center s67943 2 false = none := by rfl
-  have hcenter21 : center s67943 2 true = none := by rfl
-  have hpaired00 : paired s67943 false false = none := by rfl
-  have hpaired01 : paired s67943 false true = none := by rfl
-  have hpaired10 : paired s67943 true false = none := by rfl
-  have hpaired11 : paired s67943 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67944 : safe 5 3 s67944 = true := by
-  have hcenter00 : center s67944 0 false = none := by rfl
-  have hcenter01 : center s67944 0 true = some s67943 := by rfl
-  have hcenter10 : center s67944 1 false = none := by rfl
-  have hcenter11 : center s67944 1 true = none := by rfl
-  have hcenter20 : center s67944 2 false = none := by rfl
-  have hcenter21 : center s67944 2 true = none := by rfl
-  have hpaired00 : paired s67944 false false = none := by rfl
-  have hpaired01 : paired s67944 false true = none := by rfl
-  have hpaired10 : paired s67944 true false = none := by rfl
-  have hpaired11 : paired s67944 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_some_eq hcenter01 safeNode67943) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67945 : safe 5 4 s67945 = true := by
-  have hcenter00 : center s67945 0 false = none := by rfl
-  have hcenter01 : center s67945 0 true = none := by rfl
-  have hcenter10 : center s67945 1 false = some s67944 := by rfl
-  have hcenter11 : center s67945 1 true = none := by rfl
-  have hcenter20 : center s67945 2 false = none := by rfl
-  have hcenter21 : center s67945 2 true = none := by rfl
-  have hpaired00 : paired s67945 false false = none := by rfl
-  have hpaired01 : paired s67945 false true = none := by rfl
-  have hpaired10 : paired s67945 true false = none := by rfl
-  have hpaired11 : paired s67945 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67944) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67946 : safe 5 2 s67946 = true := by
-  have hcenter00 : center s67946 0 false = none := by rfl
-  have hcenter01 : center s67946 0 true = none := by rfl
-  have hcenter10 : center s67946 1 false = none := by rfl
-  have hcenter11 : center s67946 1 true = none := by rfl
-  have hcenter20 : center s67946 2 false = none := by rfl
-  have hcenter21 : center s67946 2 true = none := by rfl
-  have hpaired00 : paired s67946 false false = none := by rfl
-  have hpaired01 : paired s67946 false true = none := by rfl
-  have hpaired10 : paired s67946 true false = none := by rfl
-  have hpaired11 : paired s67946 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67947 : safe 5 3 s67947 = true := by
-  have hcenter00 : center s67947 0 false = none := by rfl
-  have hcenter01 : center s67947 0 true = none := by rfl
-  have hcenter10 : center s67947 1 false = some s67946 := by rfl
-  have hcenter11 : center s67947 1 true = none := by rfl
-  have hcenter20 : center s67947 2 false = none := by rfl
-  have hcenter21 : center s67947 2 true = none := by rfl
-  have hpaired00 : paired s67947 false false = none := by rfl
-  have hpaired01 : paired s67947 false true = none := by rfl
-  have hpaired10 : paired s67947 true false = none := by rfl
-  have hpaired11 : paired s67947 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67946) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67948 : safe 5 4 s67948 = true := by
-  have hcenter00 : center s67948 0 false = none := by rfl
-  have hcenter01 : center s67948 0 true = some s67947 := by rfl
-  have hcenter10 : center s67948 1 false = none := by rfl
-  have hcenter11 : center s67948 1 true = none := by rfl
-  have hcenter20 : center s67948 2 false = none := by rfl
-  have hcenter21 : center s67948 2 true = none := by rfl
-  have hpaired00 : paired s67948 false false = none := by rfl
-  have hpaired01 : paired s67948 false true = none := by rfl
-  have hpaired10 : paired s67948 true false = none := by rfl
-  have hpaired11 : paired s67948 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_some_eq hcenter01 safeNode67947) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67949 : safe 5 5 s67949 = true := by
-  have hcenter00 : center s67949 0 false = some s67945 := by rfl
-  have hcenter01 : center s67949 0 true = none := by rfl
-  have hcenter10 : center s67949 1 false = none := by rfl
-  have hcenter11 : center s67949 1 true = some s67948 := by rfl
-  have hcenter20 : center s67949 2 false = none := by rfl
-  have hcenter21 : center s67949 2 true = none := by rfl
-  have hpaired00 : paired s67949 false false = none := by rfl
-  have hpaired01 : paired s67949 false true = none := by rfl
-  have hpaired10 : paired s67949 true false = none := by rfl
-  have hpaired11 : paired s67949 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67945) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_some_eq hcenter11 safeNode67948) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67950 : safe 5 6 s67950 = true := by
-  have hcenter00 : center s67950 0 false = none := by rfl
-  have hcenter01 : center s67950 0 true = some s67942 := by rfl
-  have hcenter10 : center s67950 1 false = none := by rfl
-  have hcenter11 : center s67950 1 true = none := by rfl
-  have hcenter20 : center s67950 2 false = some s67949 := by rfl
-  have hcenter21 : center s67950 2 true = none := by rfl
-  have hpaired00 : paired s67950 false false = none := by rfl
-  have hpaired01 : paired s67950 false true = none := by rfl
-  have hpaired10 : paired s67950 true false = none := by rfl
-  have hpaired11 : paired s67950 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_some_eq hcenter01 safeNode67942) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67949) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67951 : safe 5 7 s67951 = true := by
-  have hcenter00 : center s67951 0 false = none := by rfl
-  have hcenter01 : center s67951 0 true = none := by rfl
-  have hcenter10 : center s67951 1 false = some s67950 := by rfl
-  have hcenter11 : center s67951 1 true = none := by rfl
-  have hcenter20 : center s67951 2 false = none := by rfl
-  have hcenter21 : center s67951 2 true = none := by rfl
-  have hpaired00 : paired s67951 false false = none := by rfl
-  have hpaired01 : paired s67951 false true = none := by rfl
-  have hpaired10 : paired s67951 true false = none := by rfl
-  have hpaired11 : paired s67951 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67950) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67952 : safe 5 3 s67952 = true := by
-  have hcenter00 : center s67952 0 false = none := by rfl
-  have hcenter01 : center s67952 0 true = none := by rfl
-  have hcenter10 : center s67952 1 false = none := by rfl
-  have hcenter11 : center s67952 1 true = none := by rfl
-  have hcenter20 : center s67952 2 false = none := by rfl
-  have hcenter21 : center s67952 2 true = none := by rfl
-  have hpaired00 : paired s67952 false false = none := by rfl
-  have hpaired01 : paired s67952 false true = none := by rfl
-  have hpaired10 : paired s67952 true false = none := by rfl
-  have hpaired11 : paired s67952 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67953 : safe 5 4 s67953 = true := by
-  have hcenter00 : center s67953 0 false = none := by rfl
-  have hcenter01 : center s67953 0 true = none := by rfl
-  have hcenter10 : center s67953 1 false = none := by rfl
-  have hcenter11 : center s67953 1 true = none := by rfl
-  have hcenter20 : center s67953 2 false = none := by rfl
-  have hcenter21 : center s67953 2 true = some s67952 := by rfl
-  have hpaired00 : paired s67953 false false = none := by rfl
-  have hpaired01 : paired s67953 false true = none := by rfl
-  have hpaired10 : paired s67953 true false = none := by rfl
-  have hpaired11 : paired s67953 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_some_eq hcenter21 safeNode67952) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67954 : safe 5 5 s67954 = true := by
-  have hcenter00 : center s67954 0 false = none := by rfl
-  have hcenter01 : center s67954 0 true = some s67953 := by rfl
-  have hcenter10 : center s67954 1 false = none := by rfl
-  have hcenter11 : center s67954 1 true = none := by rfl
-  have hcenter20 : center s67954 2 false = none := by rfl
-  have hcenter21 : center s67954 2 true = none := by rfl
-  have hpaired00 : paired s67954 false false = none := by rfl
-  have hpaired01 : paired s67954 false true = none := by rfl
-  have hpaired10 : paired s67954 true false = none := by rfl
-  have hpaired11 : paired s67954 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_some_eq hcenter01 safeNode67953) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67955 : safe 5 6 s67955 = true := by
-  have hcenter00 : center s67955 0 false = none := by rfl
-  have hcenter01 : center s67955 0 true = none := by rfl
-  have hcenter10 : center s67955 1 false = some s67954 := by rfl
-  have hcenter11 : center s67955 1 true = none := by rfl
-  have hcenter20 : center s67955 2 false = none := by rfl
-  have hcenter21 : center s67955 2 true = none := by rfl
-  have hpaired00 : paired s67955 false false = none := by rfl
-  have hpaired01 : paired s67955 false true = none := by rfl
-  have hpaired10 : paired s67955 true false = none := by rfl
-  have hpaired11 : paired s67955 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67954) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67956 : safe 5 3 s67956 = true := by
-  have hcenter00 : center s67956 0 false = none := by rfl
-  have hcenter01 : center s67956 0 true = none := by rfl
-  have hcenter10 : center s67956 1 false = none := by rfl
-  have hcenter11 : center s67956 1 true = none := by rfl
-  have hcenter20 : center s67956 2 false = none := by rfl
-  have hcenter21 : center s67956 2 true = none := by rfl
-  have hpaired00 : paired s67956 false false = none := by rfl
-  have hpaired01 : paired s67956 false true = none := by rfl
-  have hpaired10 : paired s67956 true false = none := by rfl
-  have hpaired11 : paired s67956 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67957 : safe 5 4 s67957 = true := by
-  have hcenter00 : center s67957 0 false = none := by rfl
-  have hcenter01 : center s67957 0 true = none := by rfl
-  have hcenter10 : center s67957 1 false = none := by rfl
-  have hcenter11 : center s67957 1 true = none := by rfl
-  have hcenter20 : center s67957 2 false = none := by rfl
-  have hcenter21 : center s67957 2 true = some s67956 := by rfl
-  have hpaired00 : paired s67957 false false = none := by rfl
-  have hpaired01 : paired s67957 false true = none := by rfl
-  have hpaired10 : paired s67957 true false = none := by rfl
-  have hpaired11 : paired s67957 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_some_eq hcenter21 safeNode67956) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67958 : safe 5 5 s67958 = true := by
-  have hcenter00 : center s67958 0 false = none := by rfl
-  have hcenter01 : center s67958 0 true = none := by rfl
-  have hcenter10 : center s67958 1 false = none := by rfl
-  have hcenter11 : center s67958 1 true = some s67957 := by rfl
-  have hcenter20 : center s67958 2 false = none := by rfl
-  have hcenter21 : center s67958 2 true = none := by rfl
-  have hpaired00 : paired s67958 false false = none := by rfl
-  have hpaired01 : paired s67958 false true = none := by rfl
-  have hpaired10 : paired s67958 true false = none := by rfl
-  have hpaired11 : paired s67958 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_some_eq hcenter11 safeNode67957) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67959 : safe 5 6 s67959 = true := by
-  have hcenter00 : center s67959 0 false = some s67958 := by rfl
-  have hcenter01 : center s67959 0 true = none := by rfl
-  have hcenter10 : center s67959 1 false = none := by rfl
-  have hcenter11 : center s67959 1 true = none := by rfl
-  have hcenter20 : center s67959 2 false = none := by rfl
-  have hcenter21 : center s67959 2 true = none := by rfl
-  have hpaired00 : paired s67959 false false = none := by rfl
-  have hpaired01 : paired s67959 false true = none := by rfl
-  have hpaired10 : paired s67959 true false = none := by rfl
-  have hpaired11 : paired s67959 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67958) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67960 : safe 5 8 s67960 = true := by
-  have hcenter00 : center s67960 0 false = some s67940 := by rfl
-  have hcenter01 : center s67960 0 true = some s67951 := by rfl
-  have hcenter10 : center s67960 1 false = none := by rfl
-  have hcenter11 : center s67960 1 true = none := by rfl
-  have hcenter20 : center s67960 2 false = none := by rfl
-  have hcenter21 : center s67960 2 true = none := by rfl
-  have hpaired00 : paired s67960 false false = some s67955 := by rfl
-  have hpaired01 : paired s67960 false true = some s67959 := by rfl
-  have hpaired10 : paired s67960 true false = none := by rfl
-  have hpaired11 : paired s67960 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67940) (optionAll_some_eq hcenter01 safeNode67951) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_some_eq hpaired00 safeNode67955) (optionAll_some_eq hpaired01 safeNode67959) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67961 : safe 5 9 s67961 = true := by
-  have hcenter00 : center s67961 0 false = none := by rfl
-  have hcenter01 : center s67961 0 true = none := by rfl
-  have hcenter10 : center s67961 1 false = none := by rfl
-  have hcenter11 : center s67961 1 true = none := by rfl
-  have hcenter20 : center s67961 2 false = some s67960 := by rfl
-  have hcenter21 : center s67961 2 true = none := by rfl
-  have hpaired00 : paired s67961 false false = none := by rfl
-  have hpaired01 : paired s67961 false true = none := by rfl
-  have hpaired10 : paired s67961 true false = none := by rfl
-  have hpaired11 : paired s67961 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67960) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67962 : safe 5 7 s67962 = true := by
-  have hcenter00 : center s67962 0 false = none := by rfl
-  have hcenter01 : center s67962 0 true = none := by rfl
-  have hcenter10 : center s67962 1 false = none := by rfl
-  have hcenter11 : center s67962 1 true = none := by rfl
-  have hcenter20 : center s67962 2 false = none := by rfl
-  have hcenter21 : center s67962 2 true = none := by rfl
-  have hpaired00 : paired s67962 false false = none := by rfl
-  have hpaired01 : paired s67962 false true = none := by rfl
-  have hpaired10 : paired s67962 true false = none := by rfl
-  have hpaired11 : paired s67962 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67963 : safe 5 2 s67963 = true := by
-  exact safe_cost_exceeded 5 2 s67963 (by decide)
-
-theorem safeNode67964 : safe 5 3 s67964 = true := by
-  have hcenter00 : center s67964 0 false = none := by rfl
-  have hcenter01 : center s67964 0 true = some s67963 := by rfl
-  have hcenter10 : center s67964 1 false = none := by rfl
-  have hcenter11 : center s67964 1 true = none := by rfl
-  have hcenter20 : center s67964 2 false = none := by rfl
-  have hcenter21 : center s67964 2 true = none := by rfl
-  have hpaired00 : paired s67964 false false = none := by rfl
-  have hpaired01 : paired s67964 false true = none := by rfl
-  have hpaired10 : paired s67964 true false = none := by rfl
-  have hpaired11 : paired s67964 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_some_eq hcenter01 safeNode67963) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67965 : safe 5 4 s67965 = true := by
-  have hcenter00 : center s67965 0 false = none := by rfl
-  have hcenter01 : center s67965 0 true = none := by rfl
-  have hcenter10 : center s67965 1 false = none := by rfl
-  have hcenter11 : center s67965 1 true = some s67964 := by rfl
-  have hcenter20 : center s67965 2 false = none := by rfl
-  have hcenter21 : center s67965 2 true = none := by rfl
-  have hpaired00 : paired s67965 false false = none := by rfl
-  have hpaired01 : paired s67965 false true = none := by rfl
-  have hpaired10 : paired s67965 true false = none := by rfl
-  have hpaired11 : paired s67965 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_some_eq hcenter11 safeNode67964) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67966 : safe 5 2 s67966 = true := by
-  have hcenter00 : center s67966 0 false = none := by rfl
-  have hcenter01 : center s67966 0 true = none := by rfl
-  have hcenter10 : center s67966 1 false = none := by rfl
-  have hcenter11 : center s67966 1 true = none := by rfl
-  have hcenter20 : center s67966 2 false = none := by rfl
-  have hcenter21 : center s67966 2 true = none := by rfl
-  have hpaired00 : paired s67966 false false = none := by rfl
-  have hpaired01 : paired s67966 false true = none := by rfl
-  have hpaired10 : paired s67966 true false = none := by rfl
-  have hpaired11 : paired s67966 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67967 : safe 5 3 s67967 = true := by
-  have hcenter00 : center s67967 0 false = none := by rfl
-  have hcenter01 : center s67967 0 true = none := by rfl
-  have hcenter10 : center s67967 1 false = some s67966 := by rfl
-  have hcenter11 : center s67967 1 true = none := by rfl
-  have hcenter20 : center s67967 2 false = none := by rfl
-  have hcenter21 : center s67967 2 true = none := by rfl
-  have hpaired00 : paired s67967 false false = none := by rfl
-  have hpaired01 : paired s67967 false true = none := by rfl
-  have hpaired10 : paired s67967 true false = none := by rfl
-  have hpaired11 : paired s67967 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67966) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67968 : safe 5 4 s67968 = true := by
-  have hcenter00 : center s67968 0 false = none := by rfl
-  have hcenter01 : center s67968 0 true = some s67967 := by rfl
-  have hcenter10 : center s67968 1 false = none := by rfl
-  have hcenter11 : center s67968 1 true = none := by rfl
-  have hcenter20 : center s67968 2 false = none := by rfl
-  have hcenter21 : center s67968 2 true = none := by rfl
-  have hpaired00 : paired s67968 false false = none := by rfl
-  have hpaired01 : paired s67968 false true = none := by rfl
-  have hpaired10 : paired s67968 true false = none := by rfl
-  have hpaired11 : paired s67968 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_some_eq hcenter01 safeNode67967) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67969 : safe 5 5 s67969 = true := by
-  have hcenter00 : center s67969 0 false = some s67965 := by rfl
-  have hcenter01 : center s67969 0 true = none := by rfl
-  have hcenter10 : center s67969 1 false = some s67968 := by rfl
-  have hcenter11 : center s67969 1 true = none := by rfl
-  have hcenter20 : center s67969 2 false = none := by rfl
-  have hcenter21 : center s67969 2 true = none := by rfl
-  have hpaired00 : paired s67969 false false = none := by rfl
-  have hpaired01 : paired s67969 false true = none := by rfl
-  have hpaired10 : paired s67969 true false = none := by rfl
-  have hpaired11 : paired s67969 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67965) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67968) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67970 : safe 5 6 s67970 = true := by
-  have hcenter00 : center s67970 0 false = none := by rfl
-  have hcenter01 : center s67970 0 true = none := by rfl
-  have hcenter10 : center s67970 1 false = none := by rfl
-  have hcenter11 : center s67970 1 true = none := by rfl
-  have hcenter20 : center s67970 2 false = some s67969 := by rfl
-  have hcenter21 : center s67970 2 true = none := by rfl
-  have hpaired00 : paired s67970 false false = none := by rfl
-  have hpaired01 : paired s67970 false true = none := by rfl
-  have hpaired10 : paired s67970 true false = none := by rfl
-  have hpaired11 : paired s67970 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67969) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67971 : safe 5 7 s67971 = true := by
-  have hcenter00 : center s67971 0 false = some s67970 := by rfl
-  have hcenter01 : center s67971 0 true = none := by rfl
-  have hcenter10 : center s67971 1 false = none := by rfl
-  have hcenter11 : center s67971 1 true = none := by rfl
-  have hcenter20 : center s67971 2 false = none := by rfl
-  have hcenter21 : center s67971 2 true = none := by rfl
-  have hpaired00 : paired s67971 false false = none := by rfl
-  have hpaired01 : paired s67971 false true = none := by rfl
-  have hpaired10 : paired s67971 true false = none := by rfl
-  have hpaired11 : paired s67971 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67970) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67972 : safe 5 8 s67972 = true := by
-  have hcenter00 : center s67972 0 false = none := by rfl
-  have hcenter01 : center s67972 0 true = none := by rfl
-  have hcenter10 : center s67972 1 false = none := by rfl
-  have hcenter11 : center s67972 1 true = some s67962 := by rfl
-  have hcenter20 : center s67972 2 false = none := by rfl
-  have hcenter21 : center s67972 2 true = some s67971 := by rfl
-  have hpaired00 : paired s67972 false false = none := by rfl
-  have hpaired01 : paired s67972 false true = none := by rfl
-  have hpaired10 : paired s67972 true false = none := by rfl
-  have hpaired11 : paired s67972 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_some_eq hcenter11 safeNode67962) (optionAll_none_eq hcenter20) (optionAll_some_eq hcenter21 safeNode67971) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67973 : safe 5 9 s67973 = true := by
-  have hcenter00 : center s67973 0 false = none := by rfl
-  have hcenter01 : center s67973 0 true = some s67972 := by rfl
-  have hcenter10 : center s67973 1 false = none := by rfl
-  have hcenter11 : center s67973 1 true = none := by rfl
-  have hcenter20 : center s67973 2 false = none := by rfl
-  have hcenter21 : center s67973 2 true = none := by rfl
-  have hpaired00 : paired s67973 false false = none := by rfl
-  have hpaired01 : paired s67973 false true = none := by rfl
-  have hpaired10 : paired s67973 true false = none := by rfl
-  have hpaired11 : paired s67973 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_some_eq hcenter01 safeNode67972) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 8 s67914
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (optionAll_some_eq (o := center s67914 2 true) (t := s67889) (by rfl) safeNode67889)
+    (Eq.refl true)
+    (Eq.refl true)
+    (optionAll_some_eq (o := paired s67914 true false) (t := s67901) (by rfl) safeNode67901)
+    (optionAll_some_eq (o := paired s67914 true true) (t := s67913) (by rfl) safeNode67913)
 
 theorem safeNode67974 : safe 5 10 s67974 = true := by
-  have hcenter00 : center s67974 0 false = some s67938 := by rfl
-  have hcenter01 : center s67974 0 true = none := by rfl
-  have hcenter10 : center s67974 1 false = some s67961 := by rfl
-  have hcenter11 : center s67974 1 true = some s67973 := by rfl
-  have hcenter20 : center s67974 2 false = none := by rfl
-  have hcenter21 : center s67974 2 true = none := by rfl
-  have hpaired00 : paired s67974 false false = none := by rfl
-  have hpaired01 : paired s67974 false true = none := by rfl
-  have hpaired10 : paired s67974 true false = none := by rfl
-  have hpaired11 : paired s67974 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67938) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67961) (optionAll_some_eq hcenter11 safeNode67973) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  refine safe_step_two (budget := 5) (n := 8) (s := s67974) ?_ ?_ ?_ ?_ ?_ ?_ ?_ ?_ ?_ ?_
+  all_goals decide +kernel
 
 theorem safeNode67975 : safe 5 11 s67975 = true := by
-  have hcenter00 : center s67975 0 false = some s67858 := by rfl
-  have hcenter01 : center s67975 0 true = some s67914 := by rfl
-  have hcenter10 : center s67975 1 false = none := by rfl
-  have hcenter11 : center s67975 1 true = none := by rfl
-  have hcenter20 : center s67975 2 false = some s67974 := by rfl
-  have hcenter21 : center s67975 2 true = none := by rfl
-  have hpaired00 : paired s67975 false false = none := by rfl
-  have hpaired01 : paired s67975 false true = none := by rfl
-  have hpaired10 : paired s67975 true false = none := by rfl
-  have hpaired11 : paired s67975 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67858) (optionAll_some_eq hcenter01 safeNode67914) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67974) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67976 : safe 5 4 s67976 = true := by
-  exact safe_cost_exceeded 5 4 s67976 (by decide)
-
-theorem safeNode67977 : safe 5 5 s67977 = true := by
-  have hcenter00 : center s67977 0 false = none := by rfl
-  have hcenter01 : center s67977 0 true = none := by rfl
-  have hcenter10 : center s67977 1 false = none := by rfl
-  have hcenter11 : center s67977 1 true = none := by rfl
-  have hcenter20 : center s67977 2 false = none := by rfl
-  have hcenter21 : center s67977 2 true = some s67976 := by rfl
-  have hpaired00 : paired s67977 false false = none := by rfl
-  have hpaired01 : paired s67977 false true = none := by rfl
-  have hpaired10 : paired s67977 true false = none := by rfl
-  have hpaired11 : paired s67977 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_some_eq hcenter21 safeNode67976) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67978 : safe 5 5 s67978 = true := by
-  exact safe_cost_exceeded 5 5 s67978 (by decide)
-
-theorem safeNode67979 : safe 5 6 s67979 = true := by
-  have hcenter00 : center s67979 0 false = none := by rfl
-  have hcenter01 : center s67979 0 true = some s67977 := by rfl
-  have hcenter10 : center s67979 1 false = none := by rfl
-  have hcenter11 : center s67979 1 true = some s67978 := by rfl
-  have hcenter20 : center s67979 2 false = none := by rfl
-  have hcenter21 : center s67979 2 true = none := by rfl
-  have hpaired00 : paired s67979 false false = none := by rfl
-  have hpaired01 : paired s67979 false true = none := by rfl
-  have hpaired10 : paired s67979 true false = none := by rfl
-  have hpaired11 : paired s67979 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_some_eq hcenter01 safeNode67977) (optionAll_none_eq hcenter10) (optionAll_some_eq hcenter11 safeNode67978) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67980 : safe 5 5 s67980 = true := by
-  exact safe_cost_exceeded 5 5 s67980 (by decide)
-
-theorem safeNode67981 : safe 5 5 s67981 = true := by
-  exact safe_cost_exceeded 5 5 s67981 (by decide)
-
-theorem safeNode67982 : safe 5 7 s67982 = true := by
-  have hcenter00 : center s67982 0 false = none := by rfl
-  have hcenter01 : center s67982 0 true = none := by rfl
-  have hcenter10 : center s67982 1 false = none := by rfl
-  have hcenter11 : center s67982 1 true = none := by rfl
-  have hcenter20 : center s67982 2 false = some s67979 := by rfl
-  have hcenter21 : center s67982 2 true = none := by rfl
-  have hpaired00 : paired s67982 false false = some s67980 := by rfl
-  have hpaired01 : paired s67982 false true = some s67981 := by rfl
-  have hpaired10 : paired s67982 true false = none := by rfl
-  have hpaired11 : paired s67982 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67979) (optionAll_none_eq hcenter21) (optionAll_some_eq hpaired00 safeNode67980) (optionAll_some_eq hpaired01 safeNode67981) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67983 : safe 5 6 s67983 = true := by
-  have hcenter00 : center s67983 0 false = none := by rfl
-  have hcenter01 : center s67983 0 true = none := by rfl
-  have hcenter10 : center s67983 1 false = none := by rfl
-  have hcenter11 : center s67983 1 true = none := by rfl
-  have hcenter20 : center s67983 2 false = none := by rfl
-  have hcenter21 : center s67983 2 true = none := by rfl
-  have hpaired00 : paired s67983 false false = none := by rfl
-  have hpaired01 : paired s67983 false true = none := by rfl
-  have hpaired10 : paired s67983 true false = none := by rfl
-  have hpaired11 : paired s67983 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67984 : safe 5 6 s67984 = true := by
-  have hcenter00 : center s67984 0 false = none := by rfl
-  have hcenter01 : center s67984 0 true = none := by rfl
-  have hcenter10 : center s67984 1 false = none := by rfl
-  have hcenter11 : center s67984 1 true = none := by rfl
-  have hcenter20 : center s67984 2 false = none := by rfl
-  have hcenter21 : center s67984 2 true = none := by rfl
-  have hpaired00 : paired s67984 false false = none := by rfl
-  have hpaired01 : paired s67984 false true = none := by rfl
-  have hpaired10 : paired s67984 true false = none := by rfl
-  have hpaired11 : paired s67984 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67985 : safe 5 5 s67985 = true := by
-  have hcenter00 : center s67985 0 false = none := by rfl
-  have hcenter01 : center s67985 0 true = none := by rfl
-  have hcenter10 : center s67985 1 false = none := by rfl
-  have hcenter11 : center s67985 1 true = none := by rfl
-  have hcenter20 : center s67985 2 false = none := by rfl
-  have hcenter21 : center s67985 2 true = none := by rfl
-  have hpaired00 : paired s67985 false false = none := by rfl
-  have hpaired01 : paired s67985 false true = none := by rfl
-  have hpaired10 : paired s67985 true false = none := by rfl
-  have hpaired11 : paired s67985 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67986 : safe 5 6 s67986 = true := by
-  have hcenter00 : center s67986 0 false = none := by rfl
-  have hcenter01 : center s67986 0 true = none := by rfl
-  have hcenter10 : center s67986 1 false = none := by rfl
-  have hcenter11 : center s67986 1 true = none := by rfl
-  have hcenter20 : center s67986 2 false = some s67985 := by rfl
-  have hcenter21 : center s67986 2 true = none := by rfl
-  have hpaired00 : paired s67986 false false = none := by rfl
-  have hpaired01 : paired s67986 false true = none := by rfl
-  have hpaired10 : paired s67986 true false = none := by rfl
-  have hpaired11 : paired s67986 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67985) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67987 : safe 5 7 s67987 = true := by
-  have hcenter00 : center s67987 0 false = some s67983 := by rfl
-  have hcenter01 : center s67987 0 true = some s67984 := by rfl
-  have hcenter10 : center s67987 1 false = none := by rfl
-  have hcenter11 : center s67987 1 true = some s67986 := by rfl
-  have hcenter20 : center s67987 2 false = none := by rfl
-  have hcenter21 : center s67987 2 true = none := by rfl
-  have hpaired00 : paired s67987 false false = none := by rfl
-  have hpaired01 : paired s67987 false true = none := by rfl
-  have hpaired10 : paired s67987 true false = none := by rfl
-  have hpaired11 : paired s67987 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67983) (optionAll_some_eq hcenter01 safeNode67984) (optionAll_none_eq hcenter10) (optionAll_some_eq hcenter11 safeNode67986) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67988 : safe 5 8 s67988 = true := by
-  have hcenter00 : center s67988 0 false = none := by rfl
-  have hcenter01 : center s67988 0 true = none := by rfl
-  have hcenter10 : center s67988 1 false = some s67982 := by rfl
-  have hcenter11 : center s67988 1 true = none := by rfl
-  have hcenter20 : center s67988 2 false = none := by rfl
-  have hcenter21 : center s67988 2 true = some s67987 := by rfl
-  have hpaired00 : paired s67988 false false = none := by rfl
-  have hpaired01 : paired s67988 false true = none := by rfl
-  have hpaired10 : paired s67988 true false = none := by rfl
-  have hpaired11 : paired s67988 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67982) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_some_eq hcenter21 safeNode67987) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67989 : safe 5 2 s67989 = true := by
-  have hcenter00 : center s67989 0 false = none := by rfl
-  have hcenter01 : center s67989 0 true = none := by rfl
-  have hcenter10 : center s67989 1 false = none := by rfl
-  have hcenter11 : center s67989 1 true = none := by rfl
-  have hcenter20 : center s67989 2 false = none := by rfl
-  have hcenter21 : center s67989 2 true = none := by rfl
-  have hpaired00 : paired s67989 false false = none := by rfl
-  have hpaired01 : paired s67989 false true = none := by rfl
-  have hpaired10 : paired s67989 true false = none := by rfl
-  have hpaired11 : paired s67989 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67990 : safe 5 3 s67990 = true := by
-  have hcenter00 : center s67990 0 false = some s67989 := by rfl
-  have hcenter01 : center s67990 0 true = none := by rfl
-  have hcenter10 : center s67990 1 false = none := by rfl
-  have hcenter11 : center s67990 1 true = none := by rfl
-  have hcenter20 : center s67990 2 false = none := by rfl
-  have hcenter21 : center s67990 2 true = none := by rfl
-  have hpaired00 : paired s67990 false false = none := by rfl
-  have hpaired01 : paired s67990 false true = none := by rfl
-  have hpaired10 : paired s67990 true false = none := by rfl
-  have hpaired11 : paired s67990 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67989) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67991 : safe 5 4 s67991 = true := by
-  have hcenter00 : center s67991 0 false = none := by rfl
-  have hcenter01 : center s67991 0 true = none := by rfl
-  have hcenter10 : center s67991 1 false = none := by rfl
-  have hcenter11 : center s67991 1 true = none := by rfl
-  have hcenter20 : center s67991 2 false = some s67990 := by rfl
-  have hcenter21 : center s67991 2 true = none := by rfl
-  have hpaired00 : paired s67991 false false = none := by rfl
-  have hpaired01 : paired s67991 false true = none := by rfl
-  have hpaired10 : paired s67991 true false = none := by rfl
-  have hpaired11 : paired s67991 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67990) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67992 : safe 5 5 s67992 = true := by
-  have hcenter00 : center s67992 0 false = some s67991 := by rfl
-  have hcenter01 : center s67992 0 true = none := by rfl
-  have hcenter10 : center s67992 1 false = none := by rfl
-  have hcenter11 : center s67992 1 true = none := by rfl
-  have hcenter20 : center s67992 2 false = none := by rfl
-  have hcenter21 : center s67992 2 true = none := by rfl
-  have hpaired00 : paired s67992 false false = none := by rfl
-  have hpaired01 : paired s67992 false true = none := by rfl
-  have hpaired10 : paired s67992 true false = none := by rfl
-  have hpaired11 : paired s67992 true true = none := by rfl
-  exact safe_step_two (optionAll_some_eq hcenter00 safeNode67991) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67993 : safe 5 6 s67993 = true := by
-  have hcenter00 : center s67993 0 false = none := by rfl
-  have hcenter01 : center s67993 0 true = none := by rfl
-  have hcenter10 : center s67993 1 false = none := by rfl
-  have hcenter11 : center s67993 1 true = none := by rfl
-  have hcenter20 : center s67993 2 false = some s67992 := by rfl
-  have hcenter21 : center s67993 2 true = none := by rfl
-  have hpaired00 : paired s67993 false false = none := by rfl
-  have hpaired01 : paired s67993 false true = none := by rfl
-  have hpaired10 : paired s67993 true false = none := by rfl
-  have hpaired11 : paired s67993 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67992) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67994 : safe 5 7 s67994 = true := by
-  have hcenter00 : center s67994 0 false = none := by rfl
-  have hcenter01 : center s67994 0 true = none := by rfl
-  have hcenter10 : center s67994 1 false = some s67993 := by rfl
-  have hcenter11 : center s67994 1 true = none := by rfl
-  have hcenter20 : center s67994 2 false = none := by rfl
-  have hcenter21 : center s67994 2 true = none := by rfl
-  have hpaired00 : paired s67994 false false = none := by rfl
-  have hpaired01 : paired s67994 false true = none := by rfl
-  have hpaired10 : paired s67994 true false = none := by rfl
-  have hpaired11 : paired s67994 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_some_eq hcenter10 safeNode67993) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67995 : safe 5 6 s67995 = true := by
-  have hcenter00 : center s67995 0 false = none := by rfl
-  have hcenter01 : center s67995 0 true = none := by rfl
-  have hcenter10 : center s67995 1 false = none := by rfl
-  have hcenter11 : center s67995 1 true = none := by rfl
-  have hcenter20 : center s67995 2 false = none := by rfl
-  have hcenter21 : center s67995 2 true = none := by rfl
-  have hpaired00 : paired s67995 false false = none := by rfl
-  have hpaired01 : paired s67995 false true = none := by rfl
-  have hpaired10 : paired s67995 true false = none := by rfl
-  have hpaired11 : paired s67995 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67996 : safe 5 4 s67996 = true := by
-  have hcenter00 : center s67996 0 false = none := by rfl
-  have hcenter01 : center s67996 0 true = none := by rfl
-  have hcenter10 : center s67996 1 false = none := by rfl
-  have hcenter11 : center s67996 1 true = none := by rfl
-  have hcenter20 : center s67996 2 false = none := by rfl
-  have hcenter21 : center s67996 2 true = none := by rfl
-  have hpaired00 : paired s67996 false false = none := by rfl
-  have hpaired01 : paired s67996 false true = none := by rfl
-  have hpaired10 : paired s67996 true false = none := by rfl
-  have hpaired11 : paired s67996 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67997 : safe 5 5 s67997 = true := by
-  have hcenter00 : center s67997 0 false = none := by rfl
-  have hcenter01 : center s67997 0 true = some s67996 := by rfl
-  have hcenter10 : center s67997 1 false = none := by rfl
-  have hcenter11 : center s67997 1 true = none := by rfl
-  have hcenter20 : center s67997 2 false = none := by rfl
-  have hcenter21 : center s67997 2 true = none := by rfl
-  have hpaired00 : paired s67997 false false = none := by rfl
-  have hpaired01 : paired s67997 false true = none := by rfl
-  have hpaired10 : paired s67997 true false = none := by rfl
-  have hpaired11 : paired s67997 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_some_eq hcenter01 safeNode67996) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67998 : safe 5 6 s67998 = true := by
-  have hcenter00 : center s67998 0 false = none := by rfl
-  have hcenter01 : center s67998 0 true = none := by rfl
-  have hcenter10 : center s67998 1 false = none := by rfl
-  have hcenter11 : center s67998 1 true = some s67997 := by rfl
-  have hcenter20 : center s67998 2 false = none := by rfl
-  have hcenter21 : center s67998 2 true = none := by rfl
-  have hpaired00 : paired s67998 false false = none := by rfl
-  have hpaired01 : paired s67998 false true = none := by rfl
-  have hpaired10 : paired s67998 true false = none := by rfl
-  have hpaired11 : paired s67998 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_some_eq hcenter11 safeNode67997) (optionAll_none_eq hcenter20) (optionAll_none_eq hcenter21) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
-
-theorem safeNode67999 : safe 5 7 s67999 = true := by
-  have hcenter00 : center s67999 0 false = none := by rfl
-  have hcenter01 : center s67999 0 true = none := by rfl
-  have hcenter10 : center s67999 1 false = none := by rfl
-  have hcenter11 : center s67999 1 true = none := by rfl
-  have hcenter20 : center s67999 2 false = some s67995 := by rfl
-  have hcenter21 : center s67999 2 true = some s67998 := by rfl
-  have hpaired00 : paired s67999 false false = none := by rfl
-  have hpaired01 : paired s67999 false true = none := by rfl
-  have hpaired10 : paired s67999 true false = none := by rfl
-  have hpaired11 : paired s67999 true true = none := by rfl
-  exact safe_step_two (optionAll_none_eq hcenter00) (optionAll_none_eq hcenter01) (optionAll_none_eq hcenter10) (optionAll_none_eq hcenter11) (optionAll_some_eq hcenter20 safeNode67995) (optionAll_some_eq hcenter21 safeNode67998) (optionAll_none_eq hpaired00) (optionAll_none_eq hpaired01) (optionAll_none_eq hpaired10) (optionAll_none_eq hpaired11)
+  exact @safe_step_two 5 9 s67975
+    (optionAll_some_eq (o := center s67975 0 false) (t := s67858) (by rfl) safeNode67858)
+    (optionAll_some_eq (o := center s67975 0 true) (t := s67914) (by rfl) safeNode67914)
+    (Eq.refl true)
+    (Eq.refl true)
+    (optionAll_some_eq (o := center s67975 2 false) (t := s67974) (by rfl) safeNode67974)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
+    (Eq.refl true)
 
 end F7Manuscript.NormalBlockBudgetFiveEdgeCert

@@ -31,13 +31,44 @@ def oneGRowCases (p q : Swap) : Prop :=
 set_option maxHeartbeats 8000000 in
 theorem classify_oneG_new_rows (p q : Swap) (h : admissibleNewRows p q) :
     oneGRowCases p q := by
+  have canonical (x y : Site) :
+      admissibleNewRows (2, x) (4, y) → oneGRowCases (2, x) (4, y) := by
+    unfold admissibleNewRows oneGRowCases supportPair
+    fin_cases x <;> fin_cases y <;> decide
+  have pair_comm (a b : Site) :
+      supportPair (a, b) = supportPair (b, a) :=
+    Finset.pair_comm a b
+  have flip_left (a b : Site) (q : Swap) (hp : admissibleNewRows (a, b) q) :
+      admissibleNewRows (b, a) q := by
+    unfold admissibleNewRows at hp ⊢
+    dsimp only at hp ⊢
+    rw [← pair_comm a b]
+    exact ⟨hp.1.symm, hp.2⟩
+  have flip_right (p : Swap) (c d : Site) (hq : admissibleNewRows p (c, d)) :
+      admissibleNewRows p (d, c) := by
+    unfold admissibleNewRows at hq ⊢
+    dsimp only at hq ⊢
+    rw [← pair_comm c d]
+    exact ⟨hq.1, hq.2.1.symm, hq.2.2⟩
   rcases p with ⟨a, b⟩
   rcases q with ⟨c, d⟩
-  unfold admissibleNewRows at h
-  unfold supportPair at h
-  unfold oneGRowCases supportPair
-  revert h
-  fin_cases a <;> fin_cases b <;> fin_cases c <;> fin_cases d <;> decide
+  have h2 := h.2.2.2.2.2.1
+  have h4 := h.2.2.2.2.2.2
+  simp only [supportPair, Finset.mem_insert, Finset.mem_singleton] at h2 h4
+  rcases h2 with h2 | h2 <;> rcases h4 with h4 | h4
+  · subst a
+    subst c
+    exact canonical b d h
+  · subst a
+    subst d
+    simpa only [oneGRowCases, pair_comm 4 c] using canonical b c (flip_right _ _ _ h)
+  · subst b
+    subst c
+    simpa only [oneGRowCases, pair_comm 2 a] using canonical a d (flip_left _ _ _ h)
+  · subst b
+    subst d
+    have hs := flip_right _ _ _ (flip_left _ _ _ h)
+    simpa only [oneGRowCases, pair_comm 2 a, pair_comm 4 c] using canonical a c hs
 
 def boundaryPairFlips : List (Equiv.Perm Site) :=
   [Equiv.refl Site, Equiv.swap 4 5, Equiv.swap 2 3,

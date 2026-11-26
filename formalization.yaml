@@ -112,8 +112,11 @@ fidelity:
     an unused import branch, narrows imports, and simplifies proof terms for
     the graph certificates. Large dictionary keys use definitionally equal
     arithmetic expressions. Low-fee and mass-12 checks are split into
-    smaller kernel checks. Theorem statements and
-    the definitions of f are unchanged.
+    smaller kernel checks. The single-G classification fixes the designated
+    endpoints before enumerating cases. The budget-five proof checks short
+    subtrees in the kernel and omits unused state certificates. The Q0
+    certificate for tree 37 checks eight groups of leaves. The submitted
+    theorem and the definitions of f are unchanged.
 
 review:
   status: agent-reviewed
