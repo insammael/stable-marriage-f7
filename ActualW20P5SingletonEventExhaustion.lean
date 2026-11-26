@@ -67,7 +67,5 @@ theorem p5_no_singleton_event_between_boundary_and_mutual
   · subst e
     omega
 
-#print axioms p5_singleton_event_set_exhausted
-#print axioms p5_no_singleton_event_between_boundary_and_mutual
 
 end F7Manuscript.ActualW20P5SingletonEventExhaustion

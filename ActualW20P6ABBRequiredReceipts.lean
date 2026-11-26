@@ -127,5 +127,4 @@ theorem actual_ABB_other_cell_has_receipt
       change tr.state e.succ (tr.rightSite e) = b at hb
       exact ⟨e,Or.inr hx.symm,by simpa [hx] using! hb⟩
 
-#print axioms actual_ABB_other_cell_has_receipt
 end F7Manuscript.ActualW20P6ABBRequiredReceipts

@@ -217,7 +217,6 @@ theorem actual_no_outsider_two_G_run_core_deficit
       (pairDeficit (tripleVertices C)) hlen (by simp [eta₀]) (by simp [eta₁]) hcharge
   simpa only [corePairDeficit, pairDeficit] using! hfour
 
-#print axioms actual_no_outsider_two_G_run_core_deficit
 
 /-- The core deficit from the two-G R2 ledger gives the actual r=20 count
 bound once the outsider and ideal-count ledgers are applied. -/
@@ -241,7 +240,6 @@ theorem actual_no_outsider_two_G_run_count_bound
   rw [stableCount_eq_idealCount I]
   omega
 
-#print axioms actual_no_outsider_two_G_run_count_bound
 
 end
 end F7Manuscript.TripleCoordinateLattice

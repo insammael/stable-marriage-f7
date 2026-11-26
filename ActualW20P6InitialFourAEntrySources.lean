@@ -79,6 +79,4 @@ theorem center_six_source_three {n : Nat}
     · exact False.elim (hy6 h6)
   simpa [hy3] using! And.intro hends (And.intro hpre hout)
 
-#print axioms center_two_source_two_or_three
-#print axioms center_six_source_three
 end F7Manuscript.ActualW20P6InitialFourAEntrySources

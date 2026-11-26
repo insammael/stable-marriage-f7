@@ -93,6 +93,5 @@ theorem actual_short_long_mass_bound {n m : ℕ} (mirror phase : Bool)
     omega
   omega
 
-#print axioms actual_short_long_mass_bound
 end
 end F7Manuscript.R21SingleTHand

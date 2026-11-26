@@ -77,5 +77,4 @@ theorem baa_first_switch_initial_six
     simpa [hswitch.1] using! hswitch.2.2
   exact ⟨k0,k1,k2,hlist,h01,h12,hk0,hk1,hk2,hswitch.2.1,hpre6,hcont⟩
 
-#print axioms baa_first_switch_initial_six
 end F7Manuscript.ActualW20P6BAAFirstSwitch

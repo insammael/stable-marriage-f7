@@ -268,10 +268,6 @@ theorem thresholdInsertionCoordinateCover
       ((thresholdPath C n.succ).val j).val :=
   perfect_thresholdPath_pair_cover C h221 h311 hz n i j hlabels
 
-#print axioms thresholdInsertionCoordinateCover
-#print axioms thresholdPath_leaf_old_coordinate
-#print axioms thresholdPrefix_between_normalCenter
-#print axioms thresholdPath_center_old_coordinate
 
 theorem normal_center_actual_cover
     (h221 : NoInduced221 (V := V))
@@ -395,10 +391,6 @@ theorem normal_pair_actual_cover
     exact normal_pair_diagonal_actual_cover C h221 h311 hz j r s
   · exact normal_pair_cross_actual_cover C h221 h311 hz j r s t hst
 
-#print axioms normal_center_actual_cover
-#print axioms normal_pair_cross_actual_cover
-#print axioms normal_pair_diagonal_actual_cover
-#print axioms normal_pair_actual_cover
 
 end
 end F7Manuscript.TripleCoordinateLattice.GenericNormal

@@ -25,5 +25,4 @@ theorem actual_p6_pure_budget10_both_graphs :
   exact ⟨p6_pure_budget10_of_abb_exclusion hABB,
     p6_pure_budget10_reindexed_of_abb_exclusion hABB⟩
 
-#print axioms actual_p6_pure_budget10_both_graphs
 end F7Manuscript.ActualW20P6PureBudget10ABBClosed

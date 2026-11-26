@@ -197,4 +197,3 @@ theorem actual_one_T_endpoint_positive_q_count_le_85
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW35OneTEndpointPositiveQCount
 
-#print axioms F7Manuscript.TripleCoordinateLattice.ActualW35OneTEndpointPositiveQCount.actual_one_T_endpoint_positive_q_count_le_85

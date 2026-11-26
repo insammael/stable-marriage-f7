@@ -124,6 +124,4 @@ theorem endBands_one_paired (S : Chart) (hm : S.m = 1) (hq : S.q = 1) (hs : S.s 
   rw [he,hm]
   exact one_paired_template p
 
-#print axioms endBands_pure
-#print axioms endBands_one_paired
 end F7Manuscript.R21TwoTRank

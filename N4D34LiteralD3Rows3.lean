@@ -27,9 +27,6 @@ theorem d3l11_R_subset_A_lit : ∀ a, d3l11R a ⊆ d3l11A a := by
 theorem d3l11_missing_count_lit : 5 ≤ (blockedCellsLit d3l11A d3l11R).card := by
   decide
 
-#print axioms d3l11_rowQ_lit
-#print axioms d3l11_R_subset_A_lit
-#print axioms d3l11_missing_count_lit
 
 /-- Frozen Appendix G D3 L12: exact published A rows. -/
 def d3l12A : Rows := sevenRows [[2, 3, 5], [5, 6], [1, 4, 6], [1, 4], [0, 6], [1, 2, 3], [0, 2, 4, 5]]
@@ -47,9 +44,6 @@ theorem d3l12_R_subset_A_lit : ∀ a, d3l12R a ⊆ d3l12A a := by
 theorem d3l12_missing_count_lit : 5 ≤ (blockedCellsLit d3l12A d3l12R).card := by
   decide
 
-#print axioms d3l12_rowQ_lit
-#print axioms d3l12_R_subset_A_lit
-#print axioms d3l12_missing_count_lit
 
 /-- Frozen Appendix G D3 L13: exact published A rows. -/
 def d3l13A : Rows := sevenRows [[3, 5], [5, 6], [1, 4, 6], [1, 4, 6], [0], [0, 1, 2, 3], [0, 2, 4, 5]]
@@ -67,9 +61,6 @@ theorem d3l13_R_subset_A_lit : ∀ a, d3l13R a ⊆ d3l13A a := by
 theorem d3l13_missing_count_lit : 5 ≤ (blockedCellsLit d3l13A d3l13R).card := by
   decide
 
-#print axioms d3l13_rowQ_lit
-#print axioms d3l13_R_subset_A_lit
-#print axioms d3l13_missing_count_lit
 
 /-- Frozen Appendix G D3 L14: exact published A rows. -/
 def d3l14A : Rows := sevenRows [[3, 5], [5, 6], [1, 4, 6], [1, 4, 6], [0, 6], [0, 2, 3], [0, 2, 4, 5]]
@@ -87,9 +78,6 @@ theorem d3l14_R_subset_A_lit : ∀ a, d3l14R a ⊆ d3l14A a := by
 theorem d3l14_missing_count_lit : 5 ≤ (blockedCellsLit d3l14A d3l14R).card := by
   decide
 
-#print axioms d3l14_rowQ_lit
-#print axioms d3l14_R_subset_A_lit
-#print axioms d3l14_missing_count_lit
 
 /-- Frozen Appendix G D3 L15: exact published A rows. -/
 def d3l15A : Rows := sevenRows [[2, 3, 5], [4, 5, 6], [1, 4, 6], [1, 4, 6], [0, 6], [0, 1, 3], [0, 2, 4, 5]]
@@ -107,8 +95,5 @@ theorem d3l15_R_subset_A_lit : ∀ a, d3l15R a ⊆ d3l15A a := by
 theorem d3l15_missing_count_lit : 5 ≤ (blockedCellsLit d3l15A d3l15R).card := by
   decide
 
-#print axioms d3l15_rowQ_lit
-#print axioms d3l15_R_subset_A_lit
-#print axioms d3l15_missing_count_lit
 
 end F7Manuscript.N4D34LiteralD3Rows3

@@ -45,6 +45,4 @@ theorem prefixRoot_future_bound {N n : ℕ} {F : Rel}
     simpa using! hg.trans he
   exact checked_table_bound T checked (future.rename e) r.target hused named
 
-#print axioms observedPrefix_envelope
-#print axioms prefixRoot_future_bound
 end F7Manuscript.PartnerGraph.Sized

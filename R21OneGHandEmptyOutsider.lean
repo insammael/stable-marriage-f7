@@ -81,7 +81,6 @@ theorem count_empty {u : ℕ} (hu : (outsideTripleVertices C).card = u)
   clear * - bare enough
   omega
 
-#print axioms count_empty
 #print count_empty
 end
 end F7Manuscript.TripleCoordinateLattice.R21OneGHandProposal

@@ -942,19 +942,6 @@ theorem beforeC0_frontier_memory
       exact (R.HOUT ⟨2,by omega⟩ p hn2).symm
     · rfl
 
-#print axioms run_freshSince
-#print axioms lastD_receipts_from_actual_installers
-#print axioms chosen_row_endpoint
-#print axioms actual_lastD_cyclic_five_false
-#print axioms wallName_row_pairs
-#print axioms wallName_post_frontiers
-#print axioms frontierMemory_reindex
-#print axioms lastD_receipts_from_named_installers
-#print axioms five_cyclic_trace_of_route
-#print axioms actual_lastD_cyclic_five_false_of_route
-#print axioms lastD_five_from_actual_route_false
-#print axioms anchorSource_of_center_and_paired
-#print axioms beforeC0_frontier_memory
 
 end
 end F7Manuscript.WBackwardExtractor

@@ -35,6 +35,5 @@ theorem actual_empty_outsider_normal_run_geometry
     simp [outsiderSlotGroup, hout]
   exact ⟨hconv, NormalRunInterval.delta_zero C E h221 h311 R⟩
 
-#print axioms actual_empty_outsider_normal_run_geometry
 end
 end F7Manuscript.TripleCoordinateLattice

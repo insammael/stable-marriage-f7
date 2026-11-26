@@ -239,7 +239,6 @@ theorem actual_q4_return23_no_fit
       simp [orientColumn, h, X.levels_length]
   exact q4_no_fit_of_source_callbacks X.m W D hWlen hDlen hsource target htarget dual j hfit
 
-#print axioms actual_q4_return23_no_fit
 
 end
 end F7Manuscript.ActualW12LegacyQ4ActualNoFit

@@ -34,7 +34,5 @@ theorem wholeDualActualRun_support_at
   exact EventFrontierDual.reverse_run_event_support
     (by intro x hx z hz y hxy hyz; exact Finset.mem_univ _) H i
 
-#print axioms wholeDualActualRun
-#print axioms wholeDualActualRun_support_at
 end
 end F7Manuscript.ActualWholeDualExecution

@@ -68,8 +68,5 @@ def namedDualRun (R : TokenRun Site W 21) (E : Site ≃ W) : TokenRun Site Site 
 @[simp] theorem namedDualRun_state_apply (R : TokenRun Site W 21) (E : Site ≃ W)
     (t : Fin 22) (token : Site) : (namedDualRun R E).state t token=(R.state t).symm (E token) := rfl
 
-#print axioms lastVisit_departure_le
-#print axioms namedDualRun
-#print axioms namedDualRun_support_mem
 end
 end F7Manuscript.R21LongWindow.FourPoolCapacity

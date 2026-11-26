@@ -74,6 +74,5 @@ theorem actual_pre_global_trace_call
     ⟨hTri, hData⟩
   exact ⟨hTri, hData⟩
 
-#print axioms actual_pre_global_trace_call
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW36BinarySingletonPreGlobalTraceCall

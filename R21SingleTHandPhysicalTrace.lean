@@ -101,7 +101,4 @@ theorem crownMixedTrace_physical {guard : PhysicalState→Prop} {plan : List Mov
     rw [←physical_paired,hs]
     rfl
 
-#print axioms physical_center
-#print axioms physical_paired
-#print axioms crownMixedTrace_physical
 end F7Manuscript.R21SingleTHand

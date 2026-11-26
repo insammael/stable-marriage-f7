@@ -134,11 +134,6 @@ theorem actual_q1_terminal_floor_of_wall_all_first_costs
 
 end ActualTerminalAllFirstCosts
 
-#print axioms with_proved_K
-#print axioms q12_kernel_of_four_supplies
-#print axioms actual_q1_terminal_bound_of_wall
-#print axioms actual_q1_terminal_floor_of_wall
-#print axioms actual_q1_terminal_floor_of_wall_all_first_costs
 
 end
 end F7Manuscript.N4FourGateAssembly

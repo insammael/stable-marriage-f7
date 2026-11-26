@@ -234,7 +234,6 @@ theorem actual_q0_p6_shifted_exception_impossible
     rw [hafter] at hthreshold
     norm_num at hthreshold
 
-#print axioms actual_q0_p6_shifted_exception_impossible
 
 end
 end F7Manuscript.ActualW21Q0P6ShiftedException

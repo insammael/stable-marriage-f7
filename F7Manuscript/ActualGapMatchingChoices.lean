@@ -135,7 +135,6 @@ theorem actual_gap_matching_choices
     (by simpa [X,Y] using! hdisj) hXold23 hXold45 hYold23 hYold45
   exact ⟨k,label,hk⟩
 
-#print axioms actual_gap_matching_choices
 
 end
 end F7Manuscript.OneGap

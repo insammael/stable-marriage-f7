@@ -236,16 +236,5 @@ theorem wholeBinarySubRun14_contradiction
   · exact frozen14
   · exact lower
 
-#print axioms BinaryPrefix.transportSupports
-#print axioms rawCut13_suffix_le_two
-#print axioms rawCut14_suffix_le_one
-#print axioms rawCut13_contradiction
-#print axioms rawCut14_contradiction
-#print axioms binaryPrefix13_contradiction
-#print axioms binaryPrefix14_contradiction
-#print axioms wholeSubRun13_contradiction
-#print axioms wholeSubRun14_contradiction
-#print axioms wholeBinarySubRun13_contradiction
-#print axioms wholeBinarySubRun14_contradiction
 
 end F7Manuscript.PartnerGraph.Periodic

@@ -64,7 +64,5 @@ theorem actual_subset_normal_chart_exists_bounds :
   ⟨GenericNormal.actualNormalSkeleton B h221 h311 hz,
     actual_subset_normal_chart_bounds Q B h221 h311 hz⟩
 
-#print axioms actual_subset_normal_chart_bounds
-#print axioms actual_subset_normal_chart_exists_bounds
 end
 end F7Manuscript.TripleCoordinateLattice

@@ -1,5 +1,6 @@
 module
 
+public import Mathlib
 public import F7Manuscript.ReturnCertificate
 
 @[expose] public section
@@ -189,10 +190,5 @@ theorem end_B_no_early_paired :
  pairedPossible (replay endB [(2,4)]) (0,6) (1,3)=false ∧
  pairedPossible (replay endB [(2,4),(5,6)]) (1,3) (2,4)=false := by decide
 
-#print axioms middle_AL_after_first
-#print axioms middle_BL_after_first
 
-#print axioms coreA_right_crew
-#print axioms A_final_T_conflict
-#print axioms B_final_T_conflict
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

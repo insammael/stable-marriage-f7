@@ -113,7 +113,5 @@ theorem actual_two_middle_events_common_window_excluded
   apply actual_consecutive_disjoint_false hn E hQ ⟨2,by omega⟩ ⟨3,by omega⟩ rfl hmid
   simpa only [hs] using! hdis
 
-#print axioms actual_five_event_common_window_excluded
-#print axioms actual_two_middle_events_common_window_excluded
 end
 end F7Manuscript.ActualOutsiderFourActorWindows

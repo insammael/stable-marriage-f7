@@ -145,7 +145,5 @@ theorem original_two_T_cut_partition
   · rw [hR₁,hL₂]
     exact r21_t_boundary_cross_card C hn hu E n₁ hB'
 
-#print axioms original_two_T_positions
-#print axioms original_two_T_cut_partition
 end
 end F7Manuscript.TripleCoordinateLattice.R21TwoT

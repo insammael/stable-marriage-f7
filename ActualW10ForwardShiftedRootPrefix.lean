@@ -184,8 +184,6 @@ theorem forward_shifted_saved_root_prefix
   rw [hfull]
   simpa [rootWord, savedRootPlan] using! hprefix
 
-#print axioms forward_shifted_normalized_slice
-#print axioms forward_shifted_saved_root_prefix
 
 end
 end F7Manuscript.ActualW10ForwardShiftedRootPrefix

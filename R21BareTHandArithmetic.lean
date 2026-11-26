@@ -46,7 +46,5 @@ theorem original_bare_T_fee_two_three (u : Nat) (hu23 : u=2 ∨ u=3)
     (actual_r21_normal_window_cost_kernel C hn h221 h311 0)
     (actual_r21_normal_window_cost_kernel C hn h221 h311 (Fin.last k)) joint
 
-#print axioms hand_score_two_three
-#print axioms original_bare_T_fee_two_three
 end
 end F7Manuscript.TripleCoordinateLattice.R21BareT

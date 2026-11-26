@@ -125,11 +125,5 @@ theorem normal_zero_q_plan_center_only
   intro j _ h
   cases h
 
-#print axioms normal_zero_cost_word_normalization
-#print axioms normal_zero_cost_pre_center_plan
-#print axioms normal_zero_q_plan_center_only
 
-#print axioms mixedPlan_zero_levels
-#print axioms centerPlanFrom_recolor
-#print axioms normal_zero_cost_center_plan_has_c6_phase
 end F7Manuscript.TripleCoordinateLattice

@@ -32,7 +32,5 @@ theorem before_card_le_one_of_PREClosure (Q O : Finset V)
     (ConvexWindows.before Q).card ≤ 1 := by
   exact (Finset.card_le_card (before_subset_of_PREClosure Q O hpre)).trans hO
 
-#print axioms before_subset_of_PREClosure
-#print axioms before_card_le_one_of_PREClosure
 
 end F7Manuscript.W47A268BeforeExplicitClosure

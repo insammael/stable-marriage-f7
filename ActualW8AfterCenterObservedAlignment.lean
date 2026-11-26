@@ -137,7 +137,6 @@ theorem align_center_with_old_observation {W : Type*} [Fintype W] {q : Nat}
       rw [reindex_support, hs, pairSupport_map, hcenter]
       rfl
 
-#print axioms align_center_with_old_observation
 
 end
 end F7Manuscript.ActualW8AfterCenterObservedAlignment

@@ -1,5 +1,6 @@
 module
 
+public import Mathlib
 public import F7Manuscript.TokenIncidence
 
 @[expose] public section
@@ -89,8 +90,5 @@ theorem saturated_token_participation_is_six (R : TokenRun B W 21)
     simp [hW]
   exact fun w => ((Finset.sum_eq_sum_iff_of_le hle).mp heq) w (Finset.mem_univ w)
 
-#print axioms token_participation_le
-#print axioms token_incidence_sum
-#print axioms saturated_token_participation_is_six
 end
 end F7Manuscript.R21LongWindow.Mass18Endpoint

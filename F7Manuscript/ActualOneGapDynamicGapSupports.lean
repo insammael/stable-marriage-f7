@@ -49,7 +49,6 @@ theorem actual_gap_typeV_supports_in_dynamic_frame
   · apply Finset.map_injective e.toEmbedding
     exact h₁map.trans h₁rhs.symm
 
-#print axioms actual_gap_typeV_supports_in_dynamic_frame
 
 end
 end F7Manuscript.TripleCoordinateLattice

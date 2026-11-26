@@ -90,5 +90,4 @@ theorem new102_actual_saved_structural_threshold_le
     simpa [tok] using! hn'
   omega
 
-#print axioms new102_actual_saved_structural_threshold_le
 end F7Manuscript.ActualW13New102ConditionalSuffixCarrier

@@ -84,6 +84,4 @@ theorem new_seed_visits (R : TokenRun Site W n) (h : 3 ≤ n) (p : Fin 6)
     rfl rfl crown_anchored_seed_states.2
   exact seen
 
-#print axioms old_seed_visits
-#print axioms new_seed_visits
 end F7Manuscript.R21PureInitialCrown

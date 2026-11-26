@@ -85,6 +85,4 @@ theorem close_is_successor (i : Fin 155) (j : Nat) (closing : (node i).closeTo=s
   apply List.mem_append_left
   simp [DatedPureTable.successors,closing]
 
-#print axioms close_facts
-#print axioms WordContext.not_both_ends
 end F7Manuscript.R21LongWindow.DatedBoardSteps

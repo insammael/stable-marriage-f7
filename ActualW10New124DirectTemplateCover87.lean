@@ -532,16 +532,5 @@ theorem directWitnesses_count : directWitnesses.length = 58 := by decide
 theorem basisIDs_count : basisIDs.length = 87 := by decide
 theorem coverageEntries_count : coverageEntries.length = 124 := by decide
 
-#print axioms allDirectMatchesValid_eq_true
-#print axioms alldirectmatches_valid_eq_true
-#print axioms rowCoverageChunksValid_eq_true
-#print axioms rowcoverage_valid_eq_true
-#print axioms basisIdentityValid_eq_true
-#print axioms identitybasis_valid_eq_true
-#print axioms mapTargetsMatchTemplates_eq_true
-#print axioms templates_count
-#print axioms directWitnesses_count
-#print axioms basisIDs_count
-#print axioms coverageEntries_count
 
 end F7Manuscript.ActualW10New124DirectTemplateCover87

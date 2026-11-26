@@ -75,7 +75,6 @@ theorem mem_pivotsOf_slice_iff
     rw [hlen]
     exact haEndK
 
-#print axioms mem_pivotsOf_slice_iff
 
 end W14PivotSliceShift
 end F7Manuscript.TripleCoordinateLattice

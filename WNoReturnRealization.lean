@@ -144,9 +144,6 @@ def normalRunOfNoReturn (word : Nat → Color) (levels : Nat → Nat)
     (H : NoReturn id (mixedPlan (fun j => rho (word j)) levels m) bits) :
     (normalRunOfNoReturn word levels m hm rho hfirst bits H).bits = bits := rfl
 
-#print axioms supportsRoute_of_exact_supports
-#print axioms noReturnRun_route
-#print axioms normalRunOfNoReturn
 
 end
 end F7Manuscript.WNoReturnRealization

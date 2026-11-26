@@ -104,7 +104,5 @@ noncomputable def relabel_saturated_witness_pool_perm
     exact Finset.mem_map.mpr
       ⟨W.run.tok i.val (ρ.symm person), W.known (ρ.symm person) i, rfl⟩
 
-#print axioms relabel_saturated_witness_pool_perm
-#print axioms inducedFourPerm_spec
 
 end F7Manuscript.ActualD2SaturationRelabel

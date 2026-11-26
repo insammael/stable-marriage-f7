@@ -76,6 +76,5 @@ theorem fee_prefix_suffix_overlap (C : Chart) (j : Nat) (hj : j<C.m) :
  have seq:=s_prefix_suffix_overlap C j hj
  omega
 
-#print axioms fee_prefix_suffix_overlap
 end
 end F7Manuscript.R21PhysicalChartSlices

@@ -32,7 +32,5 @@ theorem p6RootPrefix_support_eq_modeWord (b : Bool) (i : Fin 9) :
       swapSupport (pairAt (modeWord b) i.val) := by
   cases b <;> fin_cases i <;> decide
 
-#print axioms p6RootPrefix_length
-#print axioms p6RootPrefix_support_eq_modeWord
 
 end F7Manuscript.ActualW14P6PrefixCore

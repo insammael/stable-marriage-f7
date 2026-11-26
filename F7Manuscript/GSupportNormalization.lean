@@ -61,6 +61,5 @@ theorem three_pairs_exchange_relabel
     simp only [Finset.map_insert,Finset.map_singleton,Equiv.toEmbedding_apply,
       Equiv.trans_apply,hfa,hfb]
 
-#print axioms three_pairs_exchange_relabel
 end
 end F7Manuscript.SmallGSingleReturn

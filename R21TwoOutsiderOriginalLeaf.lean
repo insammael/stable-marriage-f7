@@ -16,7 +16,5 @@ theorem r21_two_outsiders_no_macro_original (I : Profile 7) [Nonempty (StableMat
  R21PhysicalWindowWords.original_two_outsiders_of_D2
   R21PhysicalWindowWords.canonical_double_pair_excluded I
 
-#check r21_two_outsiders_no_macro_original
-#print axioms r21_two_outsiders_no_macro_original
 end
 end F7Manuscript.ActualPositiveDeficitCoverAssembly

@@ -23,7 +23,6 @@ theorem rank_A2_update :
       cycleA2, rankA2] <;>
     decide
 
-#print axioms rank_A2_update
 
 theorem rank_A4_update :
     ∀ a b,
@@ -35,7 +34,6 @@ theorem rank_A4_update :
       cycleA4, rankA4] <;>
     decide
 
-#print axioms rank_A4_update
 
 theorem rank_B2_update :
     ∀ a b,
@@ -47,7 +45,6 @@ theorem rank_B2_update :
       cycleB2, rankB2] <;>
     decide
 
-#print axioms rank_B2_update
 
 theorem rank_B4_update :
     ∀ a b,
@@ -59,6 +56,5 @@ theorem rank_B4_update :
       cycleB4, rankB4] <;>
     decide
 
-#print axioms rank_B4_update
 
 end F7Manuscript.A156Frozen14ShortExtension

@@ -138,10 +138,6 @@ theorem actual_path_colors_adjacent_ne (H : IntervalPath (Event I))
     (ofPath I H).word n ≠ (ofPath I H).word (n + 1) :=
   adjacent_colors_ne (ofPath I H) n hn
 
-#print axioms labels_properties
-#print axioms toChart
-#print axioms ofPath_triples
-#print axioms actual_path_frontiers_binary
 
 end
 end F7Manuscript.PathFrontierChart

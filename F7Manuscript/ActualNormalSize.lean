@@ -44,6 +44,5 @@ theorem actual_normal_at_least_two_blocks
   have h := actual_normal_event_count_le_five_blocks C h221 h311 hz
   omega
 
-#print axioms actual_normal_at_least_two_blocks
 end
 end F7Manuscript.TripleCoordinateLattice

@@ -73,6 +73,5 @@ theorem new1520_actual_root_carrier_threshold_le
   exact new1520_actual_saved_structural_threshold_le C hnorm c hp h3 h4 h6 h8 h9
     hterminal b hledger
 
-#print axioms new1520_actual_root_carrier_threshold_le
 
 end F7Manuscript.ActualW13New1520ActualCarrierThreshold

@@ -41,5 +41,4 @@ theorem pair_freshSince_of_actual_past {q : ℕ}
     have hne := token_after_ne_earlier R n a (by rw [hs]; simp) u hu
     exact hne (hswap.1.trans hw.symm)
 
-#print axioms pair_freshSince_of_actual_past
 end F7Manuscript.TokenRunPairFreshSince

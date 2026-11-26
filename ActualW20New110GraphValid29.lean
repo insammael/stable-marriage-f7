@@ -22,13 +22,13 @@ theorem node580_valid : PartnerGraph.Sized.ValidNode table 580 := by
   | three a b c =>
       intro hlegal
       have hb := hlegal.2.1
-      have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by simpa [table, node580] using! hb
+      have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by exact hb
       norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
   | four a b c d =>
       intro hlegal
       have hb := hlegal.2.1
-      have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by simpa [table, node580] using! hb
+      have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by exact hb
       norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
 theorem node581_two_complete (a b : Site) :
@@ -43,13 +43,13 @@ theorem node581_valid : PartnerGraph.Sized.ValidNode table 581 := by
   | three a b c =>
       intro hlegal
       have hb := hlegal.2.1
-      have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by simpa [table, node581] using! hb
+      have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by exact hb
       norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
   | four a b c d =>
       intro hlegal
       have hb := hlegal.2.1
-      have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by simpa [table, node581] using! hb
+      have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by exact hb
       norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
 theorem node582_two_complete (a b : Site) :
@@ -64,13 +64,13 @@ theorem node582_valid : PartnerGraph.Sized.ValidNode table 582 := by
   | three a b c =>
       intro hlegal
       have hb := hlegal.2.1
-      have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by simpa [table, node582] using! hb
+      have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by exact hb
       norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
   | four a b c d =>
       intro hlegal
       have hb := hlegal.2.1
-      have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by simpa [table, node582] using! hb
+      have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by exact hb
       norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
 theorem node583_two_complete (a b : Site) :
@@ -85,13 +85,13 @@ theorem node583_valid : PartnerGraph.Sized.ValidNode table 583 := by
   | three a b c =>
       intro hlegal
       have hb := hlegal.2.1
-      have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by simpa [table, node583] using! hb
+      have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by exact hb
       norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
   | four a b c d =>
       intro hlegal
       have hb := hlegal.2.1
-      have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by simpa [table, node583] using! hb
+      have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by exact hb
       norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
 theorem node584_two_complete (a b : Site) :
@@ -106,13 +106,13 @@ theorem node584_valid : PartnerGraph.Sized.ValidNode table 584 := by
   | three a b c =>
       intro hlegal
       have hb := hlegal.2.1
-      have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by simpa [table, node584] using! hb
+      have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by exact hb
       norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
   | four a b c d =>
       intro hlegal
       have hb := hlegal.2.1
-      have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by simpa [table, node584] using! hb
+      have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by exact hb
       norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
 theorem node585_two_complete (a b : Site) :
@@ -127,13 +127,13 @@ theorem node585_valid : PartnerGraph.Sized.ValidNode table 585 := by
   | three a b c =>
       intro hlegal
       have hb := hlegal.2.1
-      have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by simpa [table, node585] using! hb
+      have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by exact hb
       norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
   | four a b c d =>
       intro hlegal
       have hb := hlegal.2.1
-      have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by simpa [table, node585] using! hb
+      have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by exact hb
       norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
 theorem node586_two_complete (a b : Site) :
@@ -148,13 +148,13 @@ theorem node586_valid : PartnerGraph.Sized.ValidNode table 586 := by
   | three a b c =>
       intro hlegal
       have hb := hlegal.2.1
-      have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by simpa [table, node586] using! hb
+      have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by exact hb
       norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
   | four a b c d =>
       intro hlegal
       have hb := hlegal.2.1
-      have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by simpa [table, node586] using! hb
+      have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by exact hb
       norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
 theorem node587_two_complete (a b : Site) :
@@ -169,13 +169,13 @@ theorem node587_valid : PartnerGraph.Sized.ValidNode table 587 := by
   | three a b c =>
       intro hlegal
       have hb := hlegal.2.1
-      have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by simpa [table, node587] using! hb
+      have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by exact hb
       norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
   | four a b c d =>
       intro hlegal
       have hb := hlegal.2.1
-      have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by simpa [table, node587] using! hb
+      have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by exact hb
       norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
 theorem node588_two_complete (a b : Site) :
@@ -190,13 +190,13 @@ theorem node588_valid : PartnerGraph.Sized.ValidNode table 588 := by
   | three a b c =>
       intro hlegal
       have hb := hlegal.2.1
-      have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by simpa [table, node588] using! hb
+      have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by exact hb
       norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
   | four a b c d =>
       intro hlegal
       have hb := hlegal.2.1
-      have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by simpa [table, node588] using! hb
+      have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by exact hb
       norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
 theorem node589_two_complete (a b : Site) :
@@ -211,13 +211,13 @@ theorem node589_valid : PartnerGraph.Sized.ValidNode table 589 := by
   | three a b c =>
       intro hlegal
       have hb := hlegal.2.1
-      have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by simpa [table, node589] using! hb
+      have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by exact hb
       norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
   | four a b c d =>
       intro hlegal
       have hb := hlegal.2.1
-      have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by simpa [table, node589] using! hb
+      have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by exact hb
       norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
 theorem node590_two_complete (a b : Site) :
@@ -232,13 +232,13 @@ theorem node590_valid : PartnerGraph.Sized.ValidNode table 590 := by
   | three a b c =>
       intro hlegal
       have hb := hlegal.2.1
-      have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by simpa [table, node590] using! hb
+      have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by exact hb
       norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
   | four a b c d =>
       intro hlegal
       have hb := hlegal.2.1
-      have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by simpa [table, node590] using! hb
+      have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by exact hb
       norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
 theorem node591_two_complete (a b : Site) :
@@ -253,13 +253,13 @@ theorem node591_valid : PartnerGraph.Sized.ValidNode table 591 := by
   | three a b c =>
       intro hlegal
       have hb := hlegal.2.1
-      have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by simpa [table, node591] using! hb
+      have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by exact hb
       norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
   | four a b c d =>
       intro hlegal
       have hb := hlegal.2.1
-      have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by simpa [table, node591] using! hb
+      have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by exact hb
       norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
 theorem node592_two_complete (a b : Site) :
@@ -274,13 +274,13 @@ theorem node592_valid : PartnerGraph.Sized.ValidNode table 592 := by
   | three a b c =>
       intro hlegal
       have hb := hlegal.2.1
-      have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by simpa [table, node592] using! hb
+      have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by exact hb
       norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
   | four a b c d =>
       intro hlegal
       have hb := hlegal.2.1
-      have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by simpa [table, node592] using! hb
+      have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by exact hb
       norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
 theorem node593_two_complete (a b : Site) :
@@ -295,13 +295,13 @@ theorem node593_valid : PartnerGraph.Sized.ValidNode table 593 := by
   | three a b c =>
       intro hlegal
       have hb := hlegal.2.1
-      have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by simpa [table, node593] using! hb
+      have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by exact hb
       norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
   | four a b c d =>
       intro hlegal
       have hb := hlegal.2.1
-      have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by simpa [table, node593] using! hb
+      have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by exact hb
       norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
 theorem node594_two_complete (a b : Site) :
@@ -316,13 +316,13 @@ theorem node594_valid : PartnerGraph.Sized.ValidNode table 594 := by
   | three a b c =>
       intro hlegal
       have hb := hlegal.2.1
-      have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by simpa [table, node594] using! hb
+      have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by exact hb
       norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
   | four a b c d =>
       intro hlegal
       have hb := hlegal.2.1
-      have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by simpa [table, node594] using! hb
+      have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by exact hb
       norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
 theorem node595_two_complete (a b : Site) :
@@ -337,13 +337,13 @@ theorem node595_valid : PartnerGraph.Sized.ValidNode table 595 := by
   | three a b c =>
       intro hlegal
       have hb := hlegal.2.1
-      have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by simpa [table, node595] using! hb
+      have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by exact hb
       norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
   | four a b c d =>
       intro hlegal
       have hb := hlegal.2.1
-      have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by simpa [table, node595] using! hb
+      have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by exact hb
       norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
 theorem node596_two_complete (a b : Site) :
@@ -358,13 +358,13 @@ theorem node596_valid : PartnerGraph.Sized.ValidNode table 596 := by
   | three a b c =>
       intro hlegal
       have hb := hlegal.2.1
-      have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by simpa [table, node596] using! hb
+      have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by exact hb
       norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
   | four a b c d =>
       intro hlegal
       have hb := hlegal.2.1
-      have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by simpa [table, node596] using! hb
+      have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by exact hb
       norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
 theorem node597_two_complete (a b : Site) :
@@ -379,13 +379,13 @@ theorem node597_valid : PartnerGraph.Sized.ValidNode table 597 := by
   | three a b c =>
       intro hlegal
       have hb := hlegal.2.1
-      have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by simpa [table, node597] using! hb
+      have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by exact hb
       norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
   | four a b c d =>
       intro hlegal
       have hb := hlegal.2.1
-      have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by simpa [table, node597] using! hb
+      have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by exact hb
       norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
 theorem node598_two_complete (a b : Site) :
@@ -400,13 +400,13 @@ theorem node598_valid : PartnerGraph.Sized.ValidNode table 598 := by
   | three a b c =>
       intro hlegal
       have hb := hlegal.2.1
-      have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by simpa [table, node598] using! hb
+      have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by exact hb
       norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
   | four a b c d =>
       intro hlegal
       have hb := hlegal.2.1
-      have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by simpa [table, node598] using! hb
+      have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by exact hb
       norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
 theorem node599_two_complete (a b : Site) :
@@ -421,34 +421,14 @@ theorem node599_valid : PartnerGraph.Sized.ValidNode table 599 := by
   | three a b c =>
       intro hlegal
       have hb := hlegal.2.1
-      have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by simpa [table, node599] using! hb
+      have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by exact hb
       norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
   | four a b c d =>
       intro hlegal
       have hb := hlegal.2.1
-      have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by simpa [table, node599] using! hb
+      have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by exact hb
       norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
 end F7Manuscript.PartnerGraph.NormalQ123
 
-#print axioms F7Manuscript.PartnerGraph.NormalQ123.node580_valid
-#print axioms F7Manuscript.PartnerGraph.NormalQ123.node581_valid
-#print axioms F7Manuscript.PartnerGraph.NormalQ123.node582_valid
-#print axioms F7Manuscript.PartnerGraph.NormalQ123.node583_valid
-#print axioms F7Manuscript.PartnerGraph.NormalQ123.node584_valid
-#print axioms F7Manuscript.PartnerGraph.NormalQ123.node585_valid
-#print axioms F7Manuscript.PartnerGraph.NormalQ123.node586_valid
-#print axioms F7Manuscript.PartnerGraph.NormalQ123.node587_valid
-#print axioms F7Manuscript.PartnerGraph.NormalQ123.node588_valid
-#print axioms F7Manuscript.PartnerGraph.NormalQ123.node589_valid
-#print axioms F7Manuscript.PartnerGraph.NormalQ123.node590_valid
-#print axioms F7Manuscript.PartnerGraph.NormalQ123.node591_valid
-#print axioms F7Manuscript.PartnerGraph.NormalQ123.node592_valid
-#print axioms F7Manuscript.PartnerGraph.NormalQ123.node593_valid
-#print axioms F7Manuscript.PartnerGraph.NormalQ123.node594_valid
-#print axioms F7Manuscript.PartnerGraph.NormalQ123.node595_valid
-#print axioms F7Manuscript.PartnerGraph.NormalQ123.node596_valid
-#print axioms F7Manuscript.PartnerGraph.NormalQ123.node597_valid
-#print axioms F7Manuscript.PartnerGraph.NormalQ123.node598_valid
-#print axioms F7Manuscript.PartnerGraph.NormalQ123.node599_valid

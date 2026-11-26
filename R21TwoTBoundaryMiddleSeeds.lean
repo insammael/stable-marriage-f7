@@ -42,7 +42,6 @@ theorem actual_A_left_seed_frame (f : SupportFrame) (hv : ValidLayout (stateOfFr
   rw [he]
   exact A_left_seed_replay_checked p bits f.last
 
-#print axioms actual_A_left_seed_frame
 
 theorem B_left_seed_matching_checked : ∀a b c : Fin (edges ⟨id,boardB.unseen⟩).length,
     CrewData 6 (edgeTriple (edges ⟨id,boardB.unseen⟩) a b c) →
@@ -74,5 +73,4 @@ theorem actual_B_left_seed_frame (f : SupportFrame) (hv : ValidLayout (stateOfFr
   rw [he]
   exact B_left_seed_replay_checked p bits f.last
 
-#print axioms actual_B_left_seed_frame
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

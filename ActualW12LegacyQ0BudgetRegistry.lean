@@ -153,7 +153,5 @@ theorem q0BudgetRegistry_metadata : ∀ id e, (id, e) ∈ q0BudgetRegistry → q
   · exact q0BudgetRegistryPart04_metadata id e h3
   · exact q0BudgetRegistryPart05_metadata id e h4
 
-#print axioms q0BudgetRegistry_length
-#print axioms q0BudgetRegistry_metadata
 end
 end F7Manuscript.ActualW12LegacyQ0BudgetRegistry

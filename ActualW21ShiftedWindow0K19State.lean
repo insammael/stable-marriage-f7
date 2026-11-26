@@ -357,7 +357,6 @@ theorem actual_u3_q0s4_shifted_window0_quad1458_min_zero_false
     rw [hL, hclock, hafter] at hbudget
     omega
 
-#print axioms actual_u3_q0s4_shifted_window0_quad1458_min_zero_false
 
 end
 end F7Manuscript.ActualW21ShiftedWindow0K19State

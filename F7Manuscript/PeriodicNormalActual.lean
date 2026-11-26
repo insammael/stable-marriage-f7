@@ -82,11 +82,6 @@ theorem actual_periodic_event_bound (Q : Finset (Event I)) (hQ : OrderConvex Q)
   have hb := F7Periodic.periodic_length_le_fifteen (C.toPeriodic _)
   omega
 
-#print axioms actual_binary_prefix
-#print axioms actual_raw_cut
-#print axioms actual_root_prefix
-#print axioms actual_periodic_graph_excludes_twenty
-#print axioms actual_periodic_event_bound
 
 end
 end F7Manuscript.PeriodicNormalActual

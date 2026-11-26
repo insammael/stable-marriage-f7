@@ -310,7 +310,6 @@ theorem actual_canonical_bare_G_following_flag_false
       A (inferInstance : Nonempty (Triple A)) hn E n hempty
     i k c hik hci hck hi hk hdsize hisolated s hcolor hfuture hsi hsk
 
-#print axioms actual_canonical_G2_macro_joint_charge
 
 /-- A bare empty-slot G macro has joint charge at least four. -/
 theorem actual_canonical_bare_G_macro_joint_charge_ge_four
@@ -367,8 +366,5 @@ theorem actual_canonical_bare_G_macro_joint_charge_ge_four
   rw [hblock]
   omega
 
-#print axioms actual_canonical_bare_G_preceding_flag_false
-#print axioms actual_canonical_bare_G_following_flag_false
-#print axioms actual_canonical_bare_G_macro_joint_charge_ge_four
 end
 end F7Manuscript.TripleCoordinateLattice

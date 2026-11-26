@@ -164,7 +164,6 @@ theorem actual_u3_q2_s2_paid_one_false
     W D i a hWlen (by rw [hDlen, hWlen]) hiBounds.1 hiBounds.2
     haBounds.1 haBounds.2 hne hiPaidParts.2 hDsum hDint hpivSub haPiv hforward hreverse
 
-#print axioms actual_u3_q2_s2_paid_one_false
 
 end
 end ActualW17U3Q2S2PaidOneActualFalse

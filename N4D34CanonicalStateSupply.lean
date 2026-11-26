@@ -75,6 +75,4 @@ theorem d4_canonical_state_supply (post : List Move) (bits : Nat → Bool)
    · simp [rootFirstTwoBits, dual, dualBits, dualBitsAt, dualControlMask,
        d4APlan, hcross, dualControlMask_before post 6 4 (by omega)]
 
-#print axioms d3_canonical_state_supply
-#print axioms d4_canonical_state_supply
 end F7Manuscript.N4D34CanonicalStateSupply

@@ -246,6 +246,5 @@ theorem terminal_B1643_45 :
       change 2 + 2 ≤ 2 at hx
       omega
 
-#print axioms terminal_B1643_45
 
 end F7Manuscript.PartnerGraph.G1Frozen13.CertW603

@@ -132,8 +132,5 @@ theorem actual_canonical_normal_run_cost_with_post
   rw [Finset.sum_sub_distrib] at hcost ⊢
   omega
 
-#print axioms actual_canonical_normal_run_global_census
-#print axioms actual_canonical_normal_run_occupied
-#print axioms actual_canonical_normal_run_cost_with_post
 end
 end F7Manuscript.TripleCoordinateLattice

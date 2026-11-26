@@ -32,7 +32,5 @@ theorem original_two_T_no_five :
     (R21TwoTBoundaryFinite.boundary_word_cover_of_middle_left_mass_bound
       R21TwoTBoundaryFinite.middle_pure_five_left_mass_le_one)
 
-#check original_two_T_no_five
-#print axioms original_two_T_no_five
 end
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundary

@@ -148,6 +148,5 @@ theorem normal_two_outsiders_charge_le_four
     have heps : outsiderEpsilon C = 0 := by simp [outsiderEpsilon, hpair]
     omega
 
-#print axioms normal_two_outsiders_charge_le_four
 end
 end F7Manuscript.TripleCoordinateLattice

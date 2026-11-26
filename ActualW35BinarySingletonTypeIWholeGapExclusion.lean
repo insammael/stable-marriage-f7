@@ -372,6 +372,5 @@ theorem actual_singleton_typeI_whole_gap_exclusion
       hQgap' Hgap' hgapCard' hEG fixed hpreStartNe hpostFixed hn hbudget
       d0' d1' hslot0' hslot1' hnewLower cross σ hσfixed hσleft hσright hpostLower
 
-#print axioms actual_singleton_typeI_whole_gap_exclusion
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW35BinarySingletonTypeIWholeGapExclusion

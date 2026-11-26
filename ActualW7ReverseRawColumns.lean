@@ -188,7 +188,6 @@ theorem actual_sameX_reverse_word_levels
         symm
         exact X.levels_get (X.m - 1 - j) (by omega)
 
-#print axioms actual_sameX_reverse_word_levels
 
 end
 end F7Manuscript.ActualW7ReverseRawColumns

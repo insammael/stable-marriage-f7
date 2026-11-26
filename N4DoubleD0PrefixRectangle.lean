@@ -108,13 +108,5 @@ theorem separated_columns (bits : Nat → Bool) (h2 : bits 2 = false) :
 
 theorem pool_card : pool.card = 4 := by decide
 
-#print axioms second_cross_false
-#print axioms current_eight_summary
-#print axioms past_as_handWord
-#print axioms past_eight_summary
-#print axioms current_mem_pool
-#print axioms pool_saturated
-#print axioms separated_rows
-#print axioms separated_columns
 
 end F7Manuscript.N4DoubleD0PrefixRectangle

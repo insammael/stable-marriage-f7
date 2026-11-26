@@ -117,6 +117,5 @@ theorem actual_q1_typeV_whole_case_false_on_cut
     hptsFuture hcenter Qgap hQgap Hgap hQgapCard hEG d0 d1 hslot0 hslot1 hnewLower
     fixed r hd0fixed hd1fixed hd01 hpostLower
 
-#print axioms actual_q1_typeV_whole_case_false_on_cut
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW34QOneTypeVWholeCaseOnCut

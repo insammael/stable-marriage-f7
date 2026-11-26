@@ -116,7 +116,6 @@ theorem w47_a121_original_r20_size_identity
   push_cast at hledger
   omega
 
-#print axioms w47_a121_original_r20_size_identity
 
 end
 end F7Manuscript.TripleCoordinateLattice

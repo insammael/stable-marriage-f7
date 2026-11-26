@@ -47,6 +47,5 @@ theorem actual_six_center_marks_positive {length : Nat} (C : Chart)
  norm_num [Finset.sum_range_succ] at seq
  omega
 
-#print axioms actual_six_center_marks_positive
 end
 end F7Manuscript.R21PhysicalWindowWords

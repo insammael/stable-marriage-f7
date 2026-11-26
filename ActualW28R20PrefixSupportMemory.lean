@@ -70,6 +70,5 @@ theorem prefix_support_memory_at_cut
   ext z
   rw [hpair] <;> simp
 
-#print axioms prefix_support_memory_at_cut
 end
 end F7Manuscript.ActualW28R20PrefixSupportMemory

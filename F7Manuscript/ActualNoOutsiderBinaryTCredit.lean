@@ -62,6 +62,5 @@ theorem actual_no_outsider_same_crew_T_macro_credit_ge_one
   rw [hcard]
   omega
 
-#print axioms actual_no_outsider_same_crew_T_macro_credit_ge_one
 end
 end F7Manuscript.TripleCoordinateLattice

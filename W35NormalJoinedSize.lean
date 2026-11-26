@@ -29,6 +29,4 @@ theorem three_event_join_cardinality (C D : Chart) (wc wd : Nat → Fin 3)
   have hd : D.n=3+D.m+2*D.q := rfl
   omega
 
-#print axioms mixedPlan_event_count
-#print axioms three_event_join_cardinality
 end F7Manuscript.W35NormalJoinedSize

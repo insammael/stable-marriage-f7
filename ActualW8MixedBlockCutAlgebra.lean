@@ -46,7 +46,5 @@ theorem mixedPlan_cut_clock (word : Nat → Color) (levels : Nat → Nat)
   rw [eventCount_mixedPlan word levels j hj]
   omega
 
-#print axioms mixedPlan_center_cut
-#print axioms mixedPlan_cut_clock
 
 end F7Manuscript.ActualW8MixedBlockCutAlgebra

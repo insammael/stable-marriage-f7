@@ -82,5 +82,4 @@ theorem no_p_dot_p_anywhere {R : TokenRun Site (Agent 7) 21} {off len : Nat} {bo
           apply no_p_dot_p_both_anywhere (R:=R) (off:=off) (len:=len) (bound:=bound) prior rest a b c d bits _ binary
           simpa only [List.append_assoc,List.singleton_append] using! D
 
-#print axioms no_p_dot_p_anywhere
 end F7Manuscript.R21LongWindow.PairedSubpatterns

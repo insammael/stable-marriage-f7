@@ -39,6 +39,4 @@ theorem reverse_slice {α : Type*} (cs : List α) (n count : Nat) (bound : n+cou
       omega
     omega
 
-#print axioms colorMarks_reverse
-#print axioms reverse_slice
 end F7Manuscript.R21LongWindow.PureRootCoverage

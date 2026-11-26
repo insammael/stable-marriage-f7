@@ -101,9 +101,6 @@ original past or original ranks.  No new stable preference profile is
 asserted by this TokenRun receipt adapter.
 -/
 
-#print axioms reverse_past_iff_original_suffix
-#print axioms reverse_acquisition_avoids_whole_reverse_past
-#print axioms reverse_source_plan_noReturn_of_exact_supports
 
 end
 end F7Manuscript.N4ReverseHistoryReceipts

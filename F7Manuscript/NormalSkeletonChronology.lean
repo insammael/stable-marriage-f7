@@ -176,7 +176,5 @@ theorem pair_prefix_update (C : Chart) (j : Fin C.m) (k : Fin (C.double j)) :
   rw [he, introduced_succ] at h1
   simpa only [Nat.add_assoc, Nat.reduceAdd] using! h1
 
-#print axioms chronologicalIndex_injective
-#print axioms pair_prefix_update
 
 end F7Manuscript.NormalSkeleton.Chart

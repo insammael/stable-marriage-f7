@@ -172,6 +172,5 @@ theorem actual_mixed_typeV_splice
   refine ⟨hfinal, ?_⟩
   exact supportsStages_realizesPrefix R _ bits hfinal hinit₀ hinit₁ hinit₂ hinit₃
 
-#print axioms actual_mixed_typeV_splice
 
 end F7Manuscript.OneGap

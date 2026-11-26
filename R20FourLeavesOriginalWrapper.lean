@@ -67,9 +67,6 @@ theorem r20_original_mixed_stableCount_le_85_of_original_hypotheses
       C Eall h221 h311 hR20 houtside hGcard hTcard
       E hE hcoreCard hmacro x hout hmixed
 
-#print axioms vertex_partition_card
-#print axioms macroPositions_card
-#print axioms r20_original_mixed_stableCount_le_85_of_original_hypotheses
 
 end
 

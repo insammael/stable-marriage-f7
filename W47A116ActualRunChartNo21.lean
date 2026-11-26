@@ -58,7 +58,6 @@ theorem w47_a116_actual_global_normal_run_chart_no21
   refine ⟨S, ?_, hform, hcap⟩
   simpa [Q, p, R] using! hsize
 
-#print axioms w47_a116_actual_global_normal_run_chart_no21
 
 end
 end F7Manuscript.TripleCoordinateLattice

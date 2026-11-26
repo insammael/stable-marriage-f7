@@ -54,5 +54,4 @@ theorem endpoint_anchor_after_reindex {n₀ n₁ : ℕ}
   · intro a b
     simpa only [SeenBy,reindex_state] using! hhist (e.symm a) b
 
-#print axioms endpoint_anchor_after_reindex
 end F7Manuscript.R21OneG

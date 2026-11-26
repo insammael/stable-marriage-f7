@@ -55,5 +55,4 @@ theorem predicate_of_trace {budget fuel : Nat} {predicate : State → Bool} {s t
     apply ih cost
     simpa [step, optionAll] using! hn
 
-#print axioms predicate_of_trace
 end F7Manuscript.R21NormalEndpoint

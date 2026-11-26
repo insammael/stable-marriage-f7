@@ -91,10 +91,5 @@ theorem q0Cuts_prefix_eq (w v : ℕ → F7Periodic.Color) (k : ℕ)
   have hpiv := localPivots_eq_of_prefix w v k offset n dual hsize hpref
   exact ⟨t, bits, hbits, by simpa [hpiv] using! hret⟩
 
-#print axioms wordTurns_reverse_at
-#print axioms localPivots_reverse_prefix
-#print axioms localPivots_eq_of_prefix
-#print axioms q0Cuts_reverse_prefix
-#print axioms q0Cuts_prefix_eq
 
 end F7Manuscript.ActualW33Q0CutsReverseTransport

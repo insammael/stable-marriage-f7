@@ -131,6 +131,5 @@ theorem actual_W38_one_T_post_trace_from_frame
     Qpost geoPost.1 Bpost pairPost.2.2.1 pairPost.2.1 geoPost.2 hmPostCount f hf hfirstrow
   exact ⟨hmPostCount, Tpost, hpostEq⟩
 
-#print axioms actual_W38_one_T_post_trace_from_frame
 end
 end F7Manuscript.TripleCoordinateLattice

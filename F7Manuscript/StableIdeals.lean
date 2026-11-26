@@ -90,8 +90,5 @@ theorem stableCount_eq_zero_or_idealCount :
   | inl h => exact Or.inl (stableCount_eq_zero_of_isEmpty I)
   | inr h => exact Or.inr (stableCount_eq_idealCount I)
 
-#print axioms stableMatchingIdealEquiv
-#print axioms stableCount_eq_idealCount
-#print axioms stableCount_eq_zero_or_idealCount
 
 end F7Manuscript.StableIdeals

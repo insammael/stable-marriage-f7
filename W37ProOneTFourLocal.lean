@@ -315,6 +315,4 @@ theorem tail107_normalized_impossible (t : F7Paired.Matching) (bits : Nat → Bo
       initialSupport, centerPair, afterCenter, pairedPairs, afterPaired,
       leftCoord, rightCoord, select, other, put, tokenSwap, Fin.ofNat,h0,h1,h2,h3,h4,h5,h6,h7,h8,h9,h10]
 
-#print axioms head03_normalized_impossible
-#print axioms tail107_normalized_impossible
 end F7Manuscript.OneTFourLocal

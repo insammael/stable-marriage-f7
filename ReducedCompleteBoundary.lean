@@ -305,10 +305,6 @@ theorem matching_zero_impossible {P : Finset V}
   have hSmall := bad_zero_small hClass Q hBadQ haZero
   omega
 
-#print axioms matching_zero_impossible
 
-#print axioms double_total_three_four
-#print axioms reduced_maximum_only_triple
-#print axioms reduced_three_deletion
 end Peeling
 end NeutralCore

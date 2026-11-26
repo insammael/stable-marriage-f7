@@ -178,7 +178,5 @@ theorem normal_upper_row_binary (hm : 2 ≤ normalBlockCount C)
       normal_initial_support_type C h221 h311 hz (by omega) j c
     _ = 2 := normal_initial_binary C h221 h311 hz hm c
 
-#print axioms normal_lower_row_binary
-#print axioms normal_upper_row_binary
 end
 end F7Manuscript.TripleCoordinateLattice

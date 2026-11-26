@@ -27,7 +27,6 @@ theorem actual_r21_four_one_G_count {I : Profile 7} [Nonempty (StableMatching I)
     simp only [actualGlobalMacroKind,Finset.card_eq_zero.mp hc,Finset.notMem_empty,if_false]
   exact actual_G_joint_charge_ge_three_times_group C hn h311 E j hg _
 
-#print axioms actual_r21_four_one_G_count
 end
 end F7Manuscript.TripleCoordinateLattice
 
@@ -45,6 +44,5 @@ theorem r21_four_outsiders_one_G_leaf (I : Profile 7) [Nonempty (StableMatching 
   letI := htr
   exact actual_r21_four_one_G_count C hn h221 h311 hu hb hc
 
-#print axioms r21_four_outsiders_one_G_leaf
 end
 end F7Manuscript.ActualPositiveDeficitCoverAssembly

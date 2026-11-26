@@ -33,6 +33,5 @@ theorem normalized_words_eq_of_same_pivots
     _ = macroColors (pivotsOf root) root.length := by rw [hpiv, hlen]
     _ = root := hroot.symm
 
-#print axioms normalized_words_eq_of_same_pivots
 
 end F7Manuscript.ActualW9RootColorKey

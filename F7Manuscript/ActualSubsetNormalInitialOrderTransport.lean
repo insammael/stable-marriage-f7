@@ -74,7 +74,5 @@ theorem subsetNormalChronologicalEnumeration_initial_order_transport
   rw [hib] at hb
   exact congrArg Subtype.val (hback.symm.trans hb.symm)
 
-#print axioms fullChronologicalIndex_initial_order_independent
-#print axioms subsetNormalChronologicalEnumeration_initial_order_transport
 end
 end F7Manuscript.TripleCoordinateLattice

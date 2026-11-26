@@ -93,6 +93,5 @@ theorem zero_three_actual_source_two_or_three
     intro s hes hst
     exact (hk s hes hst).trans hepost
 
-#print axioms zero_three_actual_source_two_or_three
 
 end F7Manuscript.ActualW20P6ZeroThreeSource

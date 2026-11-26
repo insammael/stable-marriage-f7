@@ -30,7 +30,4 @@ theorem r20_large_triple_deficit_count_le_85
   unfold delta3 at hDelta
   omega
 
-#print axioms r20_large_triple_deficit_pair_deficit_ge_three
-#print axioms r20_large_triple_deficit_count_le_85
-#check r20_large_triple_deficit_count_le_85
 end NeutralCore

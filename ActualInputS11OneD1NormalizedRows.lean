@@ -225,7 +225,6 @@ theorem actual_dual_scheduled_one_d1_normalized_cross_rows
             simpa [mid, F7Manuscript.ActualInputS11PureOneDGeometry.pairMap] using! hcenterMap
           exact ⟨cross,label,bit₂,candidate,hcandidate,hDrowsE,hC₂E⟩
 
-#print axioms actual_dual_scheduled_one_d1_normalized_cross_rows
 
 end
 end F7Manuscript.ActualInputS11OneD1NormalizedRows

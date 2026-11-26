@@ -14,5 +14,4 @@ theorem batch06_total_valid :
     ∀ r ∈ coverRowsBatch06, CoverRowTotalValid r := by
   decide +kernel
 
-#print axioms batch06_total_valid
 end F7Manuscript.ActualW20W76TotalRows06

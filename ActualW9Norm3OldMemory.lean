@@ -146,9 +146,6 @@ theorem norm3_oldObservation_memory
     (F7Manuscript.ActualNorm3.norm3Perm cross label retain)
     (norm3_factor_preservesInitialWord cross label retain) t Hobs M
 
-#print axioms norm3_factor_preservesInitialWord
-#print axioms oldObservation_memory_of_factor
-#print axioms norm3_oldObservation_memory
 
 end
 end F7Manuscript.ActualW9Norm3OldMemory

@@ -70,8 +70,6 @@ theorem actual_outside_triple_vertices_card_le_three_without_hpos
     exact F7Manuscript.ActualW16U4AggregationWindow0HAND.actual_outside_triple_vertices_card_le_three
       C hn hδ hdeficit hpos h221 h311 hG hT
 
-#print axioms actual_normal_outsider_five_endpoint_rows
-#print axioms actual_outside_triple_vertices_card_le_three_without_hpos
 
 end
 end F7Manuscript.ActualW16ActualFiveRowsNoHposHAND

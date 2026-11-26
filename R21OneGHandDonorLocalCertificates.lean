@@ -11,5 +11,4 @@ theorem A05_local_donor_checked : ∀ (p : Fin 6) (bits : Fin 8) (last : Fin 3),
  rejectDonor 3 (replay boardA [(2,3),(4,6)])
    (seedFrame [(0,5),(2,3),(4,6)] 1 p bits last)=true := by
   decide +kernel
-#print axioms A05_local_donor_checked
 end F7Manuscript.R21OneGHandDonor

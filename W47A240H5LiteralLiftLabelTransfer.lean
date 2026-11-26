@@ -111,8 +111,6 @@ theorem literalLift_threshold_of_mem_labels
   obtain ⟨v, _hv, heq⟩ := (Finset.mem_filter.mp hi).2
   exact literalLift_threshold_of_eq C Q v h.val heq hQ
 
-#print axioms literalLift_threshold_of_eq
-#print axioms literalLift_threshold_of_mem_labels
 
 end
 

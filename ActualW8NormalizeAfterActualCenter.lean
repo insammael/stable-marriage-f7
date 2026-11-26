@@ -90,7 +90,6 @@ theorem normalize_after_actual_center {W : Type*} [Fintype W] {q : Nat}
     (p.perm d) hsecond plan hnonempty (resetFirstBit shifted) H1 hb1 ho1 hm1 hs1 hbit
   exact ⟨ht,p,e0,e1,hp,he1,⟨N⟩⟩
 
-#print axioms normalize_after_actual_center
 
 end
 end F7Manuscript.ActualW8NormalizeAfterActualCenter

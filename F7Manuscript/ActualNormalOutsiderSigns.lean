@@ -99,7 +99,5 @@ theorem actual_normal_triple_core_convex
   intro x hx
   exact actual_normal_outsider_constant_sign C hn h221 h311 hG hT hx
 
-#print axioms actual_normal_outsider_constant_sign
-#print axioms actual_normal_triple_core_convex
 end
 end F7Manuscript.TripleCoordinateLattice

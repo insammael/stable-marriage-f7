@@ -99,7 +99,6 @@ theorem h7_original_pure14_same_K_contradiction
     h7_finish_chart_producer_false
       (I := I) hR20 hproduce hchart
 
-#print axioms h7_original_pure14_same_K_contradiction
 
 end Original
 

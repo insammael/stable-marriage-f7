@@ -38,7 +38,5 @@ theorem f7_eq_85_of_remaining_R21
   | solve_by_elim
   | grind
 
-#print axioms r21RemainingAfterSingleT_length
-#print axioms f7_eq_85_of_remaining_R21
 end
 end F7Manuscript.ActualPositiveDeficitCoverAssembly

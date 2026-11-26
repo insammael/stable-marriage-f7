@@ -79,6 +79,5 @@ theorem imageRun_matches (R : TokenRun Site Site 21) {off len : Nat}
     rw [eq] at h
     exact (projection_hole b p t).trans h.symm
 
-#print axioms imageRun_matches
 end
 end F7Manuscript.R21NormalEndpoint.BoundaryCover

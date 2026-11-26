@@ -97,5 +97,4 @@ theorem no_pp_anywhere {R : TokenRun Site (Agent 7) 21} {off len : Nat} {bound :
           apply pp_two_before (R:=R) (off:=off) (len:=len) (bound:=bound) before post b a c bits _ binary rightCap
           simpa only [List.append_assoc,List.singleton_append] using! D
 
-#print axioms no_pp_anywhere
 end F7Manuscript.R21LongWindow.PairedSubpatterns

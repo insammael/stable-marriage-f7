@@ -47,6 +47,5 @@ theorem normal_first_center_mem_future_context
     exact h
   exact BoundaryCoreContext.future_center_mem_retired C H f.val (hcore f.property) c hlt hinc
 
-#print axioms normal_first_center_mem_future_context
 end
 end F7Manuscript.TripleCoordinateLattice

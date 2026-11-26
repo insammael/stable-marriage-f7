@@ -118,8 +118,5 @@ theorem actual_r20_one_outsider_leaf_of_normal19_hand_cost
   rw [heps]
   omega
 
-#print axioms actual_r20_core_blocks_ge_two_of_single_outsider
-#print axioms actual_r20_core_deficit_of_normal19_hand_cost
-#print axioms actual_r20_one_outsider_leaf_of_normal19_hand_cost
 end
 end F7Manuscript.TripleCoordinateLattice

@@ -134,6 +134,5 @@ theorem r21_delta_six_ideal_count_le_85
     (by simpa [DOn_univ] using! hD)
   simpa [A3] using! hT
 
-#print axioms difference_two_triples_zero
 
 end NeutralCore

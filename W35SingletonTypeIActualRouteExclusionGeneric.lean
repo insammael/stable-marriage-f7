@@ -88,7 +88,6 @@ theorem singleton_typeI_actual_route_false_generic
       (mixedPlan (fun j => b (D.naturalWord j)) D.naturalLevels D.m) bits hroute
     exact hfirst rfl
 
-#print axioms singleton_typeI_actual_route_false_generic
 
 end
 end F7Manuscript.W35SingletonTypeIActualRouteExclusion

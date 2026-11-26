@@ -49,8 +49,6 @@ This is a symbolic finite list definition; it is not evaluated here. -/
 def globalPrecutCatalogue : List GlobalPrecutEntry :=
   normalOutsiderBudgetCases.flatMap rowPrecutEntries
 
-#print axioms rowPrecutEntries
-#print axioms globalPrecutCatalogue
 
 end
 end W14GlobalPrecutCatalogue

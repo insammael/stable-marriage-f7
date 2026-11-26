@@ -84,8 +84,5 @@ theorem T_context_joint_charge
   have hledger := context_pair_ledger core preSet newSet postSet groupSet hPN hS hK hcore hloc
   omega
 
-#print axioms context_pair_ledger
-#print axioms pairIncrement_singleton_ge_two
-#print axioms T_context_joint_charge
 end
 end F7Manuscript.FiniteBlockPairLedger

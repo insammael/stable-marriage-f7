@@ -52,7 +52,6 @@ variable {V : Type*} [Fintype V] [PartialOrder V] [DecidableEq V] [DecidableLE V
         simp only [concatenateMap, dif_pos i.isLt]] at hinner
   exact hwhole.trans hinner
 
-#print axioms actual_prefix_points_of_whole_concatenation
 
 end
 end F7Manuscript.TripleCoordinateLattice

@@ -109,6 +109,5 @@ theorem list_foldl_max_le (xs : List Int) (a b : Int)
       · intro y hy
         exact hall y (by simp [hy])
 
-#print axioms partialOrientedCutRequirement
 end
 end F7Manuscript.ActualW12PartialOrientedCutRequirement

@@ -153,6 +153,5 @@ theorem actual_pre_global_trace
     oldRows := hrows
   }⟩⟩
 
-#print axioms actual_pre_global_trace
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW36BinarySingletonPreGlobalTrace

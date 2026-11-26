@@ -48,9 +48,6 @@ theorem Future.renameEnlargeStart {F G : Rel} {u n : ℕ}
     (hFG : ∀ a b, renamed F e a b → G a b) : Future G u n :=
   (h.rename e).enlargeStart hFG
 
-#print axioms updateRel_mono
-#print axioms Future.enlargeStart
-#print axioms Future.renameEnlargeStart
 
 end F7Manuscript.PartnerGraph
 
@@ -103,7 +100,5 @@ theorem exactPrefix_future_bound
   change prefixFresh word a b = true
   exact (prefix_fresh R word hlen hword a b).mp hab
 
-#print axioms actualFuture_bound_of_enlargedCut
-#print axioms exactPrefix_future_bound
 
 end F7Manuscript.PartnerGraph.Periodic

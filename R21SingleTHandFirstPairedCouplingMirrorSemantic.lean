@@ -82,8 +82,5 @@ theorem actual_firstPaired_mirror_coupling_graphGuard {n m : Nat}
  · cases hb : couplingMirrorRejected (physical s) with
    | false => rfl
    | true => exact (couplingMirrorRejected_excludes L R anchor k l s t hLs hLv hRs hRv ht hb).elim
-#print axioms couplingMirror_mass8_impossible_boards
-#print axioms couplingMirror_mass8_impossible_snapshots
-#print axioms actual_firstPaired_mirror_coupling_graphGuard
 end
 end F7Manuscript.R21SingleTHand

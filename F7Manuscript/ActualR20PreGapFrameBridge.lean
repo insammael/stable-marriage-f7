@@ -253,8 +253,6 @@ theorem actual_pre_trace_gap_frame_classification
     (fun c => ((GenericThresholdPath.path C E n.castSucc).val c).val) hrows
     (by intro c; rfl) hfixed⟩
 
-#print axioms subsetNormal_mixed_trace_exists_with_final_valid
-#print axioms actual_pre_trace_gap_frame_classification
 
 end
 end F7Manuscript.TripleCoordinateLattice

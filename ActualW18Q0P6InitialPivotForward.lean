@@ -282,8 +282,6 @@ theorem actual_X_q0_p6_initial_pivot_forward_false
     omega
   omega
 
-#print axioms actual_X_q0_p6_forward_carrier
-#print axioms actual_X_q0_p6_initial_pivot_forward_false
 
 end
 end F7Manuscript.ActualW18Q0P6InitialPivotForward

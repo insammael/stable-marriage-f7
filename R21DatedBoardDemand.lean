@@ -253,9 +253,4 @@ theorem no_infinite_table_path (P : Fin 155 → Prop)
   have values : j.val ≤ m.val := le
   omega
 
-#print axioms request_side_lt_four
-#print axioms next_request_count
-#print axioms protected_left_has_normal
-#print axioms protected_right_has_normal
-#print axioms no_infinite_table_path
 end F7Manuscript.R21LongWindow.DatedBoardSteps

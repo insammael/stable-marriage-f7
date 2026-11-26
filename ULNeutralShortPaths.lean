@@ -137,7 +137,5 @@ theorem L_from_independent_path_inputs
     omega
   exact ⟨hzero.1,hzero.2,hA4,hB4,by omega⟩
 
-#print axioms boundary_fibers_singleton_at_three
-#print axioms L_from_independent_path_inputs
 
 end ConditionalUL

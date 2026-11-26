@@ -100,7 +100,6 @@ theorem reflect_at_actual_cut {W : Type*} [Fintype W] {q : Nat}
   rw [hword]
   exact decode_controlWord _ _ _ _
 
-#print axioms reflect_at_actual_cut
 
 end
 end F7Manuscript.ActualW8MixedReflectionAtCut

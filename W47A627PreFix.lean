@@ -25,7 +25,6 @@ open scoped Classical
 variable {I : Profile 7} [Nonempty (StableMatching I)]
 
 -- Compact diagnostic: the argument after I is C, not a stable-matching instance.
-#check @originalPreWindow
 
 -- Capture the original instances BEFORE enabling the A228 instances.
 private abbrev originalEq : DecidableEq (Event I) := inferInstance
@@ -142,9 +141,6 @@ theorem selected_run_eq_original_pre
       hk).trans
       (zero_run_eq_original_pre C h221 h311)
 
-#print axioms originalPreWindow
-#print axioms zero_run_eq_original_pre
-#print axioms selected_run_eq_original_pre
 
 end
 

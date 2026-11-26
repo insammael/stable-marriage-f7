@@ -129,7 +129,5 @@ theorem actual_normal_outsider_card_le_two
     exact actual_normal_outside_three_impossible C hn hδ hdeficit h221 h311 hG hT heq
   omega
 
-#print axioms actual_normal_outside_three_impossible
-#print axioms actual_normal_outsider_card_le_two
 end
 end F7Manuscript.ActualW22NormalOutsideThreeClosure

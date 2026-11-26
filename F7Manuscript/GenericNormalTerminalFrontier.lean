@@ -38,7 +38,6 @@ theorem actualNormalLabelEquiv_terminal_frontier (c : Fin 3) :
   exact congrArg (fun t : Triple C => (t.val c).val)
     (thresholdIdealOrderIso C).symm.map_top
 
-#print axioms actualNormalLabelEquiv_terminal_frontier
 
 end
 end F7Manuscript.TripleCoordinateLattice.GenericNormal

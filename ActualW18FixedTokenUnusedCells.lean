@@ -35,6 +35,5 @@ theorem fixedTokenUnusedRelationCells_card {F : Rel} {n : ℕ}
   change ((relationCells F) \ A).card = (relationCells F).card - 2 * n
   rw [Finset.card_sdiff_of_subset hsubset, hcardA]
 
-#print axioms fixedTokenUnusedRelationCells_card
 
 end F7Manuscript.PartnerGraph

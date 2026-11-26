@@ -227,4 +227,3 @@ where
           simpa [eventCount] using! hr
 end F7Manuscript.W36PairedPadAvoidsFixedPool
 
-#print axioms F7Manuscript.W36PairedPadAvoidsFixedPool.supportsRoute_paired_pad_avoids_fixed_pool

@@ -67,10 +67,5 @@ theorem componentIndex_map_val (e : V ≃ W)
 
 end Finite
 
-#print axioms componentAntiOrderIso
-#print axioms componentCardEq
-#print axioms componentAntiIndexIso_eq_reverse
-#print axioms componentIndex_map_eq_rev
-#print axioms componentIndex_map_val
 
 end F7Manuscript.IncomparabilityComponents

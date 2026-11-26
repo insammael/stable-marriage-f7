@@ -88,5 +88,4 @@ theorem any_pre_adjacent_center_guard
     pre bits Hpre i hi l hil c firstBit hFirst 0 bits ctrl Hpad
     (by simpa using! hl) (bits ctrl) hLast
 
-#print axioms any_pre_adjacent_center_guard
 end F7Manuscript.W37AnyPreAdjacentCenterGuard

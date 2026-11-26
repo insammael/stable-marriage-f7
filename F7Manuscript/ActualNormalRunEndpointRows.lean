@@ -148,8 +148,6 @@ theorem actual_normal_run_terminal_row_label
     _ = ((lift.val c).val).val := hcoord.symm
     _ = ((GenericThresholdPath.path C E R.right).val c).val := rfl
 
-#print axioms actual_normal_run_initial_row_label
-#print axioms actual_normal_run_terminal_row_label
 
 end
 end F7Manuscript.TripleCoordinateLattice

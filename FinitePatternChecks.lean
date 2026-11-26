@@ -70,6 +70,5 @@ theorem finite_patterns_sound (h4 : FiniteNoFour (V := V)) (h311 : FiniteNo311 (
     exact h33 ⟨(a,(b,c)),mem_chain3 hab hbc⟩ ⟨(d,(e,f)),mem_chain3 hde hef⟩
       ⟨had,hae,haf,hbd,hbe,hbf,hcd,hce,hcf⟩
 
-#print axioms finite_patterns_sound
 
 end NeutralCore

@@ -62,7 +62,6 @@ private theorem r21_T_macro_credit_by_cut_sizes
   have h1 : 0 < S1.m ↔ 3 < Q1.card := by omega
   simpa only [h0, h1] using! hc
 
-#print axioms r21_T_macro_credit_by_cut_sizes
 
 
 private theorem r21_sum_one_macro {m : ℕ} (hm : m = 1) (j : Fin m) (f : Fin m → ℤ) :
@@ -144,7 +143,6 @@ theorem r21_single_T_original_residual_upper
   by_cases h0 : 3 < Q0.card <;> by_cases h1 : 3 < Q1.card <;>
     simp [h0, h1] at hcredit ⊢ <;> omega
 
-#print axioms r21_single_T_original_residual_upper
 
 end
 end F7Manuscript.TripleCoordinateLattice

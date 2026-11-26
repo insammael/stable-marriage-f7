@@ -89,8 +89,5 @@ theorem actual_firstPaired_graphGuard {n m : Nat}
    | false => rfl
    | true => exact (firstPairedRejected_excludes L R anchor binary long k l s t hLs hLv hRs hRv ht hb).elim
 
-#print axioms ClosedWordCertificate.length_bound_snapshots
-#print axioms firstPairedRejected_excludes
-#print axioms actual_firstPaired_graphGuard
 end
 end F7Manuscript.R21SingleTHand

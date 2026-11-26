@@ -47,6 +47,5 @@ theorem normal_one_before_one_after_terminal_two_neighbors
   refine ⟨x,hx,?_⟩
   omega
 
-#print axioms normal_one_before_one_after_terminal_two_neighbors
 end
 end F7Manuscript.TripleCoordinateLattice

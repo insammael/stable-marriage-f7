@@ -58,7 +58,6 @@ theorem actual_global_normal_run_chart
     have hbound : ((S.q+S.s : ℕ) : ℤ) ≤ NeutralCore.a (V := Q) := by omega
     exact hbound.trans_eq (NeutralCore.Induced.a_eq Q)
 
-#print axioms actual_global_normal_run_chart
 
 theorem actual_global_normal_run_chart_all_sizes
     (hn : Fintype.card (Event I) = 21)
@@ -85,7 +84,6 @@ theorem actual_global_normal_run_chart_all_sizes
   have hzQ : delta3 (V := Q) = 0 := (actual_global_normal_run_geometry A hn h221 h311 i).2
   exact actual_subset_normal_chart_exists_bounds (I := I) Q B h221Q h311Q hzQ
 
-#print axioms actual_global_normal_run_chart_all_sizes
 
 theorem actual_global_normal_run_credit_with_boundary
     (hn : Fintype.card (Event I) = 21)
@@ -122,6 +120,5 @@ theorem actual_global_normal_run_credit_with_boundary
   dsimp -failIfUnchanged only [p]
   omega
 
-#print axioms actual_global_normal_run_credit_with_boundary
 end
 end F7Manuscript.TripleCoordinateLattice

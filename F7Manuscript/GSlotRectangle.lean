@@ -191,7 +191,5 @@ theorem fixed_slot_rectangle_eq {N : ℕ}
       exact (mem_fourActorRectangleInterval a b u v v).mpr
         ⟨Or.inr (hj.1.trans hj.2).le,Or.inr le_rfl⟩
 
-#print axioms fixed_slot_rectangle_eq
-#print axioms two_switch_outsider_covers
 end
 end F7Manuscript.TripleCoordinateLattice

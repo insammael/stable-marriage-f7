@@ -59,7 +59,4 @@ theorem typeV_chart_join_cost_bound
     F7Manuscript.NormalSkeleton.Chart.runCost_normalPlan_at_initialColor D b hmD] at h
   simpa only [Nat.add_assoc] using! h
 
-#print axioms tail_after_two_centers_bound
-#print axioms three_centers_join_bound
-#print axioms typeV_chart_join_cost_bound
 end F7Manuscript.W34TypeVJoinCost

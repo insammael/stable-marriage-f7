@@ -129,6 +129,5 @@ theorem g43_future_length_le_four {F : Rel} {n : ℕ}
     (by intro F' m h e; exact after35_bound h e)
     (by intro F' m h e; exact after46_bound h e)
 
-#print axioms g43_future_length_le_four
 
 end F7Manuscript.ActualW13G43HandBound

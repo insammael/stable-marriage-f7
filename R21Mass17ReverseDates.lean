@@ -66,9 +66,5 @@ theorem same_normal_partition_reverse_cost
   dsimp -failIfUnchanged only
   rw [ledger.2.1,ledger.2.2]
 
-#print axioms same_window_reverse_supports
-#print axioms same_full_reverse_binary
-#print axioms mass17_reverse_offset
-#print axioms same_normal_partition_reverse_cost
 end
 end F7Manuscript.R21Mass17Original

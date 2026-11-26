@@ -304,7 +304,5 @@ theorem w39_assemble_route_after_post_inputs
     hgap0 hgap1 hcenter
 
 
-#print axioms w38_prepare_typeV_frame
-#print axioms w39_assemble_route_after_post_inputs
 end
 end F7Manuscript.TripleCoordinateLattice.W39ActualTypeVSingletonWholeRouteTwenty

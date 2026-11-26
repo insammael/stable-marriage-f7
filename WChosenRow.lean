@@ -838,14 +838,6 @@ theorem restarted_word_past_observed
     exact (show R.state ⟨t.val+v.val,by omega⟩ (e.symm a) = P.state s a
       from hf'.symm).trans hstate
 
-#print axioms fresh_of_pairSupport_congr
-#print axioms chosen_row_factorization
-#print axioms source_transposed_chosen_row_fresh
-#print axioms mixed_chosen_row_transpose_commute_fresh
-#print axioms transposed_chosen_endpoint_memory_iff
-#print axioms frontier_restart_realizes_source
-#print axioms restarted_source_matching_coordinates
-#print axioms restarted_word_past_observed
 
 end
 end F7Manuscript.WChosenRow

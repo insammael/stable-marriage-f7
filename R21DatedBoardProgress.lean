@@ -251,7 +251,5 @@ theorem no_actual_table_context
     exact node_progress j state rules leftCap rightCap protectedL protectedR
   exact (no_infinite_table_path P advance i) ⟨S⟩
 
-#print axioms node_progress
-#print axioms no_actual_table_context
 
 end F7Manuscript.R21LongWindow.DatedBoardSteps

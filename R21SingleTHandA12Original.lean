@@ -45,7 +45,5 @@ theorem ordered_crown_A12_excluded {n m : ℕ} {S T : NormalSkeleton.Chart}
   obtain ⟨hbL,hbR⟩ := ordered_crown_binary R hn hm
   exact A12_prefix_impossible_arbitrary_anchor R.pre R.post R.anchor hbL hbR hwL hwR
 
-#print axioms A12_prefix_impossible_arbitrary_anchor
-#print axioms ordered_crown_A12_excluded
 end
 end F7Manuscript.R21SingleTHand

@@ -113,5 +113,4 @@ theorem p5_actual_three_receipts_visit_six_pool
       · subst y
         exact ⟨e2.succ, le_rfl, hpost2⟩
 
-#print axioms p5_actual_three_receipts_visit_six_pool
 end F7Manuscript.ActualW20P5CIIVisitedSixPoolFix

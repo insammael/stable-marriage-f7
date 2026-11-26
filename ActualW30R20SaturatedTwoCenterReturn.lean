@@ -69,7 +69,5 @@ theorem normalized_next_zero_center_returns_old
       candidate hcandidate hcenter hsupport
   · rfl
 
-#print axioms saturated_two_center_other_forbidden
-#print axioms normalized_next_zero_center_returns_old
 end
 end F7Manuscript.ActualW30R20SaturatedTwoCenterReturn

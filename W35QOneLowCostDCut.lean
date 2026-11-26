@@ -152,6 +152,3 @@ theorem q1_m13_s_le_one_false
 end
 end F7Manuscript.W35QOneLowCostDCut
 
-#print axioms F7Manuscript.W35QOneLowCostDCut.q1_m13_interior_d_false
-#print axioms F7Manuscript.W35QOneLowCostDCut.q1_m13_endpoint_d_false
-#print axioms F7Manuscript.W35QOneLowCostDCut.q1_m13_s_le_one_false

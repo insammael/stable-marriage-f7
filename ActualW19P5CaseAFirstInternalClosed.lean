@@ -95,6 +95,5 @@ theorem p5_caseA_first_internal_after_entry_uses_three_five
     simp at hmember
   exact p5_first_internal_from_three_uses_five T e htriple.2.1 heS.1 heS.2 hthree
 
-#print axioms p5_caseA_first_internal_after_entry_uses_three_five
 
 end F7Manuscript.ActualW19P5CaseAFirstInternalClosed

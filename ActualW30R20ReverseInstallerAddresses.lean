@@ -120,7 +120,6 @@ theorem actual_reverse_singleton_installer_addresses
     exact le_of_lt (hnew s)
   exact ⟨k, hkcanon, beta, hlabel, hbeta_lt⟩
 
-#print axioms actual_reverse_singleton_installer_addresses
 
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW30R20ReverseInstallerAddresses

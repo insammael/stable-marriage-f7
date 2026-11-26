@@ -114,7 +114,6 @@ theorem actual_r21_global_normal_thirteen_zero_cost_impossible
   change S.q+S.s=0
   exact Nat.add_eq_zero_iff.mpr ⟨hq,hs⟩
 
-#print axioms actual_r21_global_normal_thirteen_zero_cost_impossible
 end
 end F7Manuscript.TripleCoordinateLattice
 

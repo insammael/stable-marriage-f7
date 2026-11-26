@@ -235,9 +235,6 @@ theorem actual_X_any_return_root_all_cuts_false
         hn2 (by simpa [n] using! hsize) hrootD0 hD0X (by simpa [n] using! hnorm)
         hDint (by simpa [n] using! hlast)
 
-#print axioms ReturnRootColorFacts
-#print axioms AnyReturnRootFitAt
-#print axioms actual_X_any_return_root_all_cuts_false
 
 end
 end F7Manuscript.ActualW12LegacyAnyReturnAllCuts

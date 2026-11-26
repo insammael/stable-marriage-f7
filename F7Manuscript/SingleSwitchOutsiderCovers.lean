@@ -154,7 +154,5 @@ theorem singleton_outsider_slot_covers {N : ℕ}
   intro y hy hb ha
   exact eq_of_singleton_outsider_slot C p n hx hcard hy hb ha
 
-#print axioms single_switch_outsider_covers
-#print axioms singleton_outsider_slot_covers
 end
 end F7Manuscript.TripleCoordinateLattice

@@ -71,7 +71,5 @@ theorem actual_next_center_actor_outside_current_row
   · exact support_disjoint (actualSupportModel I) hsa
   · exact support_disjoint (actualSupportModel I) hsb
 
-#print axioms actual_retired_actor_outside_current_row
-#print axioms actual_next_center_actor_outside_current_row
 end
 end F7Manuscript.ActualTripleRowIdle

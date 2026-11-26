@@ -219,4 +219,3 @@ theorem actual_macro_whole_prefix_and_slots
 end
 end F7Manuscript.TripleCoordinateLattice
 
-#print axioms F7Manuscript.TripleCoordinateLattice.actual_macro_whole_prefix_and_slots

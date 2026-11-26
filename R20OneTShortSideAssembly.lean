@@ -98,7 +98,5 @@ theorem actual_both_long_shorter_pre_count_le_85
         C h221 h311 hu hG hT hcore hmPre hmPost
     exact closeAtBudget hmPre hmPost hshort hbudget
 
-#print axioms actual_singleton_pre_count_le_85
-#print axioms actual_both_long_shorter_pre_count_le_85
 end
 end F7Manuscript.TripleCoordinateLattice.R20OneTShortSideAssembly

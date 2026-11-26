@@ -254,7 +254,4 @@ theorem OutwardWalks.producer {B : Board} (w : OutwardWalks B) (c : Nat) (hc : c
   | false =>
     exact (nonzero (by simp [oneHot,bit])).elim
 
-#print axioms OutwardWalks.tracks
-#print axioms OutwardWalks.coherent
-#print axioms OutwardWalks.producer
 end F7Manuscript.R21NormalEndpoint.Projection

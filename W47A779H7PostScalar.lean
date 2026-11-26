@@ -136,7 +136,6 @@ theorem h7_post_cost_nonpos_of_pre_card
   exact H7PostArithmetic.post_cost_nonpos
     _ _ _ _ _ hdef hcharge4 hpreCost hledger
 
-#print axioms h7_post_cost_nonpos_of_pre_card
 
 end ScalarRecovery
 

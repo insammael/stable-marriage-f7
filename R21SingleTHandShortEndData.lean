@@ -63,7 +63,5 @@ theorem route_first_one {n : ℕ} (R : TokenRun Site Site n) (S : NormalSkeleton
   cases hr with
   | center _ _ _ _ _ _ ht hs rest => exact ⟨ht,hs⟩
 
-#print axioms oriented_one_short_cover
-#print axioms chart_q_zero_of_short
 end
 end F7Manuscript.R21SingleTHand

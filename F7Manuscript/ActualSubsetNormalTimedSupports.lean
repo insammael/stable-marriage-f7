@@ -207,12 +207,6 @@ theorem subsetNormalActualRun_paired_supports_at
         (subsetNormalActualRun (Q := Q) (hQ := hQ) (B := B) (h221 := h221)
           (h311 := h311) (hz := hz) a p).support i) hi₁).trans (h₁.trans hs.2)
 
-#print axioms subsetNormalPairTime
-#print axioms subsetNormalCenterTime
-#print axioms subsetNormalPairTime_lt
-#print axioms subsetNormalCenterTime_lt
-#print axioms subsetNormalActualRun_center_support_at
-#print axioms subsetNormalActualRun_paired_supports_at
 
 end
 end F7Manuscript.TripleCoordinateLattice

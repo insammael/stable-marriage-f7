@@ -397,7 +397,6 @@ theorem pending_pair_three_mark_edge_bound {F : Rel} {n : ℕ}
               simpa [p] using! hdec
             omega
 
-#print axioms pending_pair_three_mark_edge_bound
 
 end
 end F7Manuscript.ActualW16PendingPairThreeMarkFuture

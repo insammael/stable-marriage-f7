@@ -31,6 +31,5 @@ theorem outsider_subset_pair_bound (S : Finset V)
     (pairs S).card/2 ≤ S.card*S.card/4 :=
   WidthTwoPairCount.pair_count_le_quarter_square S (outsider_subset_width_two C S hS)
 
-#print axioms outsider_subset_pair_bound
 end
 end F7Manuscript.TripleCoordinateLattice

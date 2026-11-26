@@ -43,6 +43,4 @@ theorem pairMissing_good (last : Color) (prev : Option Color) (paired : Bool)
     simp [ubit, retired, decode]
     simp_all
 
-#print axioms centerMissing_good
-#print axioms pairMissing_good
 end F7Manuscript.NormalMaskCounter

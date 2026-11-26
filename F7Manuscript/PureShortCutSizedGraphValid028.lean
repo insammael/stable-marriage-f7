@@ -9933,6 +9933,5 @@ theorem valid_batch_028 (k : Fin 200) :
   · exact Or.inl node5798_valid
   · exact Or.inl node5799_valid
 
-#print axioms valid_batch_028
 
 end F7Manuscript.PartnerGraph.PureShortCut

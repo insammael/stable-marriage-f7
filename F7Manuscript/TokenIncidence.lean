@@ -67,8 +67,4 @@ theorem incidence_surplus_identity (R : TokenRun B W q) :
     omega
   simpa [Finset.sum_add_distrib, Nat.mul_comm] using h
 
-#print axioms seven_site_length
-#print axioms saturated_supports_are_binary
-#print axioms saturated_participation_is_six
-#print axioms incidence_surplus_identity
 end F7Manuscript

@@ -100,7 +100,6 @@ theorem actual_dual_three_blocks_with_memory
   exact ⟨n',j',f',g',H',t',S',M',f₁,f₂,f₃,H₀,j₁,H₁,j₂,H₂,S₀,t₁,S₁,t₂,S₂,
     hj',hj₁,hj₂,ht',ht₁,ht₂,hbits'⟩
 
-#print axioms actual_dual_three_blocks_with_memory
 
 end
 end F7Manuscript.ActualDualThreeBlockWindowMemory

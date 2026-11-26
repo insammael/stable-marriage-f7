@@ -122,7 +122,6 @@ theorem actual_typeI_joined_route_control_agreement
     simp only [bits, if_pos hke]
   · simpa [List.append_assoc, List.cons_append] using! joined
 
-#print axioms actual_typeI_joined_route_control_agreement
 
 end
 end F7Manuscript.TripleCoordinateLattice.W36TypeIJoinedRouteControlAgreement

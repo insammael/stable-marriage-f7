@@ -207,6 +207,5 @@ theorem b7_eq_hform
   · rfl
   · exact False.elim (bad_h1_f1_t1_x1 bits h0 N h4 h5 h6 h8 hf ht hx)
 
-#print axioms b7_eq_hform
 
 end F7Manuscript.ActualW13New102ControlB7

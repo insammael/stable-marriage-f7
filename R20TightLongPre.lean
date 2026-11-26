@@ -109,7 +109,5 @@ theorem r20_110_tight_initial_at_most_one (he : corePairDeficit C = 2) :
   · exact ⟨by omega, by omega, hq0, hq1⟩
   · exact ⟨by omega, by omega, hq0, hq1⟩
 
-#print axioms r20_110_no_initial_thirteen_at_two
-#print axioms r20_110_tight_initial_at_most_one
 end
 end F7Manuscript.ActualPositiveDeficitCoverAssembly

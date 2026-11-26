@@ -214,7 +214,6 @@ theorem actual_typeV_post_lower_frame
     rw [hσr]
     exact hBeta
 
-#print axioms actual_typeV_post_lower_frame
 
 end
 end F7Manuscript.TripleCoordinateLattice.W37TypeVPostLowerFrame

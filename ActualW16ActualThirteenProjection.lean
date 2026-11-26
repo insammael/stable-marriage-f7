@@ -33,6 +33,5 @@ theorem actual_43_to_13
       simpa [hitTripleList] using! hP
     exact False.elim (actual_hit_refuted W D h hh hWlen hDlen hDzero hP' hSomeF hSomeR)
 
-#print axioms actual_43_to_13
 
 end F7Manuscript.ActualW16ActualThirteenProjection

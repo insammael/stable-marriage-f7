@@ -198,8 +198,5 @@ theorem r20_q1_deficit_one_endpoint_wall
   r20_q1_deficit_one_excluded_of_convex C h221 h311 hG hT
     hn hu hq hcost (triple_core_convex_of_endpoint_outsiders C hend)
 
-#print axioms actual_reversed_subset_normal_mixed_execution
-#print axioms r20_q1_deficit_one_excluded_of_convex
-#print axioms r20_q1_deficit_one_endpoint_wall
 end
 end F7Manuscript.TripleCoordinateLattice

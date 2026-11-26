@@ -282,9 +282,5 @@ theorem normalCore_upper_row_binary (hm : 2 ≤ normalBlockCount D)
       normalCore_initial_support_type C h221 h311 hG hT (by omega) j c
     _ = 2 := normalCore_initial_binary C h221 h311 hG hT hm c
 
-#print axioms normalCoreCenter_actual_cover
-#print axioms normalCore_row_support_shape
-#print axioms normalCore_lower_row_binary
-#print axioms normalCore_upper_row_binary
 end
 end F7Manuscript.TripleCoordinateLattice.CoreActual

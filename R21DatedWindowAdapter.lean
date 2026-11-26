@@ -210,8 +210,5 @@ theorem DatedPlan.lowCostBoundary
         (1 + a = 8 ∧ s.cost = 2))
   exact ⟨eventCount p, s, by omega, hb, tr, obs, by omega⟩
 
-#print axioms DatedPlan.observedTerminal
-#print axioms DatedPlan.observedFirstHit
-#print axioms DatedPlan.lowCostBoundary
 
 end F7Manuscript.R21NormalEndpoint.ReseededObservation

@@ -211,8 +211,5 @@ theorem window47_metadata :
     interval_cases i
     all_goals decide
 
-#print axioms tree47_valid
-#print axioms window47_return_entry
-#print axioms window47_metadata
 end
 end F7Manuscript.ActualW21W76Window47ReturnTree

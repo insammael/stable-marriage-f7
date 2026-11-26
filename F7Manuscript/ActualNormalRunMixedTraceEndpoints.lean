@@ -125,7 +125,6 @@ theorem actual_normal_run_mixed_trace_endpoint_frames
     rw [← htailRows' c, hupperLabel c, hrightLabel c]
   exact ⟨hleft,hright⟩
 
-#print axioms actual_normal_run_mixed_trace_endpoint_frames
 
 end
 end F7Manuscript.TripleCoordinateLattice

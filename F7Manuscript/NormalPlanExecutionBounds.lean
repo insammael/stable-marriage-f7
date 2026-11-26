@@ -4,14 +4,13 @@ public import F7Manuscript.NormalSkeletonPlanCost
 public import F7Manuscript.NormalPairedSupportsRoute
 public import F7Manuscript.NormalBlockBudgetFiveSoundness
 public import F7Manuscript.NormalBlockBudgetFiveEdgeCert248
-public import F7Manuscript.NormalBlockBudgetTenEdgeCert312
 
 @[expose] public section
 set_option backward.isDefEq.respectTransparency false
 
-/-! Kernel assembly of the existing R2 normal r20/r21 cost conclusions
+/-! Kernel assembly of the existing R2 normal r20 cost conclusion
 from an actual normalized mixed execution. The execution must be
-constructed from the profile; neither cost conclusion is a record field. -/
+constructed from the profile; the cost conclusion is proved from it. -/
 
 namespace F7Manuscript.NormalSkeleton.Chart
 noncomputable section
@@ -70,15 +69,5 @@ theorem actual_twenty_execution_cost_ge_six
     (by simpa using! NormalBlockBudgetFive.noCostFiveCompletion)
   omega
 
-theorem actual_twenty_one_execution_cost_ge_eleven
-    {W : Type*} [Fintype W] (C : Chart)
-    (A : ActualNormalMixedRun W 21 C.m C.naturalWord C.naturalLevels) :
-    11 ≤ C.q+C.s := by
-  have h := actual_execution_cost_exceeds_safe C A 10
-    (by simpa using! NormalBlockBudgetTen.noCostTenCompletion)
-  omega
-
-#print axioms actual_twenty_execution_cost_ge_six
-#print axioms actual_twenty_one_execution_cost_ge_eleven
 end
 end F7Manuscript.NormalSkeleton.Chart

@@ -146,7 +146,6 @@ theorem actual_dual_raw_initial_memory_with_segment_for_permutation
   · simpa only [htime0] using! hroute
   · simpa [t3] using! hschedule
 
-#print axioms actual_dual_raw_initial_memory_with_segment_for_permutation
 
 end
 end F7Manuscript.ActualDualNormalPostCenterRoute

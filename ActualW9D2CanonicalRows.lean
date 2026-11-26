@@ -191,7 +191,6 @@ theorem canonicalizeActorRows {W : Type*} [Fintype W] {q L : Nat}
     rw [suffix₂ r (by change L+6+2 ≤ r.val; omega)]
     exact suffix₁ r (by change L+4+2 ≤ r.val; omega)
 
-#print axioms canonicalizeActorRows
 
 end
 end F7Manuscript.ActualW9D2CanonicalRows

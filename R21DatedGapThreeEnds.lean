@@ -28,5 +28,4 @@ theorem no_gap_three_at_right_anywhere {R : TokenRun Site (Agent 7) 21} {off len
     (p.perm a) (p.perm b) (p.perm c) [] rfl bin
   omega
 
-#print axioms no_gap_three_at_right_anywhere
 end F7Manuscript.R21LongWindow.PairedSubpatterns

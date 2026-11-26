@@ -60,7 +60,5 @@ theorem SharedAnchor.renameTokens (h : SharedAnchor L Q) (e : Equiv.Perm Site) :
     rw [hseen,hseen,h.2]
     exact or_congr (by change Q.state 0 a=e.symm b ↔ e (Q.state 0 a)=b; exact Equiv.eq_symm_apply e) Iff.rfl
 
-#print axioms BinaryRun.transpose
-#print axioms SharedAnchor.renameTokens
 end
 end F7Manuscript.R21SingleTHand

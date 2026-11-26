@@ -71,7 +71,4 @@ theorem impossible_after_return {n : Nat} (R : TokenRun Site W n) (i : Fin n)
     simpa [swapSite] using! hswap
   exact past_ne_after R i a (by simp [supp]) j earlier (encounter.trans final.symm)
 
-#print axioms original_seen_on_word
-#print axioms impossible_before_return
-#print axioms impossible_after_return
 end F7Manuscript.R21NormalEndpoint

@@ -222,7 +222,6 @@ theorem physical_event_in_catalog (R : TokenRun Site Site 21) (off len : Nat)
     (destination_allowed R off len bound B matchB binary past i loc b hb) oldA oldB
   exact ⟨a,b,k,ab,supp,crossA,crossB,hit⟩
 
-#print axioms physical_event_in_catalog
 end
 end F7Manuscript.R21NormalEndpoint.BoundaryCover
 
@@ -368,9 +367,6 @@ theorem act_inside (dual rev : Bool) (rows tokens : Equiv.Perm Site) (R : TokenR
     have ht := (dr t).mpr ⟨lo,hi⟩
     exact ⟨turn rev t,ht.1,ht.2,(act_cell dual rev rows tokens R t a v).mpr eq⟩
 
-#print axioms raw_matches_of_observed
-#print axioms act_cell
-#print axioms act_inside
 end
 end F7Manuscript.R21NormalEndpoint.BoundaryCover
 
@@ -503,7 +499,6 @@ def OutwardWalks.ofTimelines {B : Board} (pre post : List Hit)
     refine ⟨z,hz,?_⟩
     simpa [eq_comm] using! hc'
 
-#print axioms OutwardWalks.ofTimelines
 end F7Manuscript.R21NormalEndpoint.Projection
 
 end
@@ -652,7 +647,6 @@ def chooseHit (R : TokenRun Site Site 21) {off len : Nat} (bound : off+len≤21)
     obtain ⟨a,b,k,lt,supp,crossA,crossB,member⟩ := physical_event_in_catalog R off len bound B matchB binary past i loc
     exact ⟨⟨a,b,k,lt,supp,crossA,crossB,member⟩⟩)
 
-#print axioms EventHit.update
 end
 end F7Manuscript.R21NormalEndpoint.BoundaryCover
 
@@ -831,7 +825,6 @@ theorem rayHits_partition {R : TokenRun Site Site 21} {off len : Nat} (bound : o
   · rw [length_arrivals,card]
     simp [rayHits,rayLength] <;> omega
 
-#print axioms rayHits_partition
 end
 end F7Manuscript.R21NormalEndpoint.BoundaryCover
 
@@ -964,12 +957,6 @@ def physicalWalksOfPartition (R : TokenRun Site Site 21) {off len : Nat}
     (ray_hits_timeline bound m bin size true) (ray_hits_timeline bound m bin size false)
     valid cover
 
-#print axioms ray_hits_timeline
-#print axioms physicalWalksOfPartition
-#print axioms indexedTimeline
-#print axioms timeline_of_dated_hits
-#print axioms statePartner_left
-#print axioms statePartner_right
 end
 end F7Manuscript.R21NormalEndpoint.BoundaryCover
 

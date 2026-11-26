@@ -104,5 +104,4 @@ theorem no_deficit_endpoints_of_check
   rw [← heq] at hy'
   exact reject_incompatible hc (mem_endpoints_of_run hx) hy' hcost hte
 
-#print axioms no_deficit_endpoints_of_check
 end F7Manuscript.R21CrownDeficitCertificate

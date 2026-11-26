@@ -325,10 +325,6 @@ theorem thresholdInsertionCoordinateCover
   exact F7Manuscript.BlockFrontierEnumeration.adjacent_cross_relation_is_cover
     (thresholdPath C) hmono hspan n i j hxy hne
 
-#print axioms thresholdInsertionCoordinateCover
-#print axioms thresholdPath_leaf_old_coordinate
-#print axioms thresholdPrefix_between_normalCenter
-#print axioms thresholdPath_center_old_coordinate
 
 theorem normal_center_actual_cover
     (h221 : NoInduced221 (V := Event I))
@@ -456,10 +452,6 @@ theorem normal_pair_actual_cover
     exact normal_pair_diagonal_actual_cover C h221 h311 hz j r s
   · exact normal_pair_cross_actual_cover C h221 h311 hz j r s t hst
 
-#print axioms normal_center_actual_cover
-#print axioms normal_pair_cross_actual_cover
-#print axioms normal_pair_diagonal_actual_cover
-#print axioms normal_pair_actual_cover
 
 end
 end F7Manuscript.TripleCoordinateLattice

@@ -84,6 +84,5 @@ theorem unordered_pair_count (P : Finset V) :
 theorem A2_counts_antichains : A2 (V := V)=(twoAntichains (Finset.univ : Finset V)).card :=
   unordered_pair_count Finset.univ
 
-#print axioms A2_counts_antichains
 
 end NeutralCore

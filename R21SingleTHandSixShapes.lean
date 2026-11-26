@@ -83,8 +83,5 @@ theorem ordered_crown_post_six_shapes {n m : ℕ} {S T : NormalSkeleton.Chart}
   exact six_post_shapes_finite R.order _ _ _ _ (natural_first_two_distinct T ht)
     (shared_prefixes_compatible R.pre R.post R.anchor hpre hpost)
 
-#print axioms shared_prefixes_compatible
-#print axioms six_post_shapes_finite
-#print axioms ordered_crown_post_six_shapes
 end
 end F7Manuscript.R21SingleTHand

@@ -78,9 +78,5 @@ theorem controlled_event_pair
         (reflectedFullChronologicalEquiv (S) (pairVertex (R) j r s)))) = _
   rw [orderedRetirementSlotEquiv_pair]
 
-#print axioms controlled_event_at_tag
-#print axioms controlled_event_initial
-#print axioms controlled_event_center
-#print axioms controlled_event_pair
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW33ControlledRetirementEvents

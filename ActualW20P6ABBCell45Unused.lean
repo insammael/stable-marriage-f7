@@ -315,5 +315,4 @@ theorem actual_ABB_45_receipt_forces_three_unused
     have hbad : False := (by decide : (6 : Site) ≠ 5) (hcontr.symm.trans hr5)
     exact hbad.elim
 
-#print axioms actual_ABB_45_receipt_forces_three_unused
 end F7Manuscript.ActualW20P6ABBCell45Unused

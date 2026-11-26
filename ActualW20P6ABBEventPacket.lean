@@ -114,5 +114,4 @@ theorem actual_ABB_event_packet
     exact hi k0.castSucc (by simp) (by rfl)
   exact ⟨k0,k1,k2,hlist,h01,h12,hk0,hk1,hk2,hinit5,hpost0,hB1,hB2,hne⟩
 
-#print axioms actual_ABB_event_packet
 end F7Manuscript.ActualW20P6ABBEventPacket

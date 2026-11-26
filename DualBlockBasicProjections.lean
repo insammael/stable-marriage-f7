@@ -49,7 +49,6 @@ theorem dual_block_end_valid
   cases H with
   | introCenter bit hcenter route hend hvalid hlast => exact hvalid
 
-#print axioms dual_block_end_valid
 
 theorem dual_block_end_last
     {j : Fin (normalBlockCount B)} {f g : SupportFrame}
@@ -58,7 +57,6 @@ theorem dual_block_end_last
   cases H with
   | introCenter bit hcenter route hend hvalid hlast => exact hlast
 
-#print axioms dual_block_end_last
 
 theorem dual_block_schedule_start_lt
     {q : Nat} {R : TokenRun Site Site q}
@@ -70,7 +68,6 @@ theorem dual_block_schedule_start_lt
   cases S with
   | introCenter t ht hc pairs => exact ht
 
-#print axioms dual_block_schedule_start_lt
 
 theorem dual_block_schedule_center
     {q : Nat} {R : TokenRun Site Site q}
@@ -89,7 +86,6 @@ theorem dual_block_schedule_center
       simpa using! hc
 
 
-#print axioms dual_block_schedule_center
 
 end
 end F7Manuscript.DualBlockScheduleProjections

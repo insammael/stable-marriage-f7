@@ -41,8 +41,5 @@ theorem r21_normal_actual_count_le_85
     (hn : Fintype.card (Event I)=21) (hz : delta3 (V := Event I)=0) : stableCount I ≤ 85 := by
   exact r21_normal_actual_count_le_85_of_mass18_provider I mass18_lower_provider hn hz
 
-#check @r21_normal_actual_count_le_85
-#print axioms r21_normal_actual_deficit_ge_eleven
-#print axioms r21_normal_actual_count_le_85
 end
 end F7Manuscript.TripleCoordinateLattice.Mass18.Unconditional

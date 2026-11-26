@@ -138,7 +138,5 @@ theorem queryKey_matches_of_mem {k : QueryKey} (hk : k ∈ queryKeys) :
     queryKeyMatches k := by
   exact queryKeyMatchesBool_sound k ((List.all_eq_true.mp queryKeys_all_match) k hk)
 
-#print axioms queryKeys_all_match
-#print axioms queryKey_matches_of_mem
 
 end F7Manuscript.ActualW21LiteralQuerySelector

@@ -185,7 +185,5 @@ theorem saved45_stageB_bits_forced
     · rfl
   exact ⟨h6,h7⟩
 
-#print axioms saved45StageBPlan_eq_ordinal45
-#print axioms saved45_stageB_bits_forced
 
 end F7Manuscript.ActualW17Saved45StageBForcing

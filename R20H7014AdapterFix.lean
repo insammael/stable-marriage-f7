@@ -58,7 +58,6 @@ theorem h7_original_pure14_w47_a228_exclusion
     (I := I) C Eall h221 h311 hR20 hGcard hTcard
     x hout hmixed hcounter hq hs hm0 hm1
 
-#print axioms h7_original_pure14_w47_a228_exclusion
 
 end
 

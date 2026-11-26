@@ -77,5 +77,4 @@ theorem q1_s0_endpoint_suffix {S : Chart}
     rw [hsplit]
     simp [List.append_assoc]
 
-#print axioms q1_s0_endpoint_suffix
 end F7Manuscript.W34QOneEndpointSuffix

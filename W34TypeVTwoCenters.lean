@@ -55,7 +55,4 @@ theorem typeV_after_two_centers_same_frontier
       · simp [afterTypeV, typeVPairs, afterCenter, centerPair, put, hl, hr, hlr, hrl]
   · simp [afterTypeV, afterCenter, put, hrl]
 
-#print axioms typeV_first_center_support
-#print axioms typeV_second_center_support
-#print axioms typeV_after_two_centers_same_frontier
 end F7Manuscript.TripleCoordinateLattice.W34TypeVTwoCenters

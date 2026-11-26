@@ -141,6 +141,5 @@ theorem actual_X_reverse_canonical_packet
   have hc : (Finset.univ : Finset (OrderDual (Event I))).card = 21 := by simpa using! hn
   rw [hc,hledger]
 
-#print axioms actual_X_reverse_canonical_packet
 end
 end F7Manuscript.ActualW9SameXReverseCanonicalPacket

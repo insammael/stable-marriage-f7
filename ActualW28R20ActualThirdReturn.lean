@@ -377,6 +377,5 @@ theorem actual_singleton_switch_third_center_returns_first
       exact Finset.mem_map.mpr ⟨f3.idle, hnmem, rfl⟩
     exact ((hfreeze n hafterFreeze) hmapMem).elim
 
-#print axioms actual_singleton_switch_third_center_returns_first
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW28R20ActualThirdReturn

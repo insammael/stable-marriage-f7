@@ -116,9 +116,6 @@ theorem chart_six_skip
   change S.naturalWord ((a+k+1)-1) = S.naturalWord ((a+k+1)+1)
   simpa only [Nat.add_sub_cancel, Nat.add_assoc] using! he
 
-#print axioms third_color_unique
-#print axioms normalized_six_dichotomy
-#print axioms chart_six_skip
 
 end
 end F7Manuscript.WCyclicSix

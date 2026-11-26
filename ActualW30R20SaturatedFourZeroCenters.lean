@@ -90,6 +90,5 @@ theorem saturated_four_zero_centers_alternate
       b2 b3 b4 hcenter hs2 hs3 hs4
   exact ⟨rfl,rfl,hc4eq⟩
 
-#print axioms saturated_four_zero_centers_alternate
 end
 end F7Manuscript.ActualW30R20SaturatedFourZeroCenters

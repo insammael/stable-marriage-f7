@@ -43,5 +43,4 @@ theorem reindex_controls
       have hb := hbits (2+k) (by simp only [eventCount]; omega)
       simpa only [Nat.add_assoc] using! hb
 
-#print axioms reindex_controls
 end F7Manuscript.TripleCoordinateLattice.ActualRouteControlReindex

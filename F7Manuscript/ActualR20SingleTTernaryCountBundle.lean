@@ -75,7 +75,6 @@ private theorem transport_nonempty_triple_subsetPartition_q0
   subst Q
   exact hP
 
-#check @transport_nonempty_triple_subsetPartition_q0
 
 private def tTernaryQ0MacroIndex : Fin (macroPositions C E).card :=
   ⟨0, by rw [macroPositions_card, hG, hT]; omega⟩
@@ -199,7 +198,6 @@ theorem actual_r20_one_T_ternary_short_left_q0_count_le_85
     (geoPost).1 Bpost (hPost := hTriplePost) (pairPost).2.2.1 (pairPost).2.1 (geoPost).2
     hmPost13 hqPost0 hsPost2
 
-#print axioms actual_r20_one_T_ternary_short_left_q0_count_le_85
 
 end
 end F7Manuscript.TripleCoordinateLattice
@@ -286,7 +284,6 @@ private theorem transport_nonempty_triple_subsetPartition_q1
   subst Q
   exact hP
 
-#check @transport_nonempty_triple_subsetPartition_q1
 
 /- The actual nonbinary short-left q=1 case has the required count bound.
 The low-deficit split forces the long q=0 eleven-center run; its actual
@@ -409,7 +406,6 @@ theorem actual_r20_one_T_ternary_short_left_q1_count_le_85
     (geoPost).1 Bpost (hPost := hTriplePost) (pairPost).2.2.1 (pairPost).2.1 (geoPost).2
     hmPost11 hqPost0 hsPost1
 
-#print axioms actual_r20_one_T_ternary_short_left_q1_count_le_85
 
 end
 end F7Manuscript.TripleCoordinateLattice
@@ -494,7 +490,6 @@ private theorem transport_nonempty_triple_subsetPartition_q2
   subst Q
   exact hP
 
-#check @transport_nonempty_triple_subsetPartition_q2
 
 /- The actual nonbinary short-left q=2 case has the required count bound.
 The low-deficit split forces the long q=0 nine-center run; its actual
@@ -617,7 +612,6 @@ theorem actual_r20_one_T_ternary_short_left_q2_count_le_85
     (geoPost).1 Bpost (hPost := hTriplePost) (pairPost).2.2.1 (pairPost).2.1 (geoPost).2
     (by change 2 ≤ (Spost).m; omega) hqPost0
 
-#print axioms actual_r20_one_T_ternary_short_left_q2_count_le_85
 
 end
 end F7Manuscript.TripleCoordinateLattice
@@ -697,7 +691,6 @@ theorem actual_r20_one_T_ternary_short_left_post_q0_count_le_85
   · exact hcount (actual_r20_one_T_ternary_short_left_q2_count_le_85
       C h221 h311 hu hG hT hn hmPre hmPost hqPre (by change (Spre).q + (Spost).q = 2; omega) hlarge)
 
-#print axioms actual_r20_one_T_ternary_short_left_post_q0_count_le_85
 
 end
 end F7Manuscript.TripleCoordinateLattice

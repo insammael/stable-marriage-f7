@@ -142,6 +142,5 @@ theorem fresh_route_transport
           simpa [List.append_assoc] using! htail)
       simpa [canonicalDualRoute, p, q, hcross, hlabel, hframe, List.append_assoc] using! hcomm
 
-#print axioms fresh_route_transport
 
 end F7Manuscript.N4FullDualFreshInduction

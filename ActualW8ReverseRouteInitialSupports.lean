@@ -184,7 +184,6 @@ theorem actual_reverse_route_memory_initial_supports
   exact ⟨E,Hwhole,Rwhole,e,word,levels,m,bits,
     hsize,hblock,hsub,hpre,hcycles,hmEq,hword,hlevels,hword0,hbinary,hroute',hmemory,⟨hq4,h0',h1',h2',h3'⟩⟩
 
-#print axioms actual_reverse_route_memory_initial_supports
 
 end
 end F7Manuscript.ActualW8ReverseRouteInitialSupports

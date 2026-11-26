@@ -23,13 +23,10 @@ def table1 : Table1 := fun _ => ⟨graph_1, 2, 0, []⟩
 def table8 : Table1 := fun _ => ⟨graph_8, 2, 0, []⟩
 
 theorem graph5_noLegal : ∀ c : CycleSpec, ¬ Legal graph_5 2 c := by decide +kernel
-#print axioms graph5_noLegal
 
 theorem graph1_noLegal : ∀ c : CycleSpec, ¬ Legal graph_1 2 c := by decide +kernel
-#print axioms graph1_noLegal
 
 theorem graph8_noLegal : ∀ c : CycleSpec, ¬ Legal graph_8 2 c := by decide +kernel
-#print axioms graph8_noLegal
 
 private theorem budgetZero_bound (T : Table1) (j : Fin 1)
     (noLegal : ∀ c : CycleSpec, ¬ Legal (T j).graph 2 c)
@@ -50,16 +47,13 @@ private theorem budgetZero_bound (T : Table1) (j : Fin 1)
 theorem anchor54992828401664_futureBound :
     Sized.NodeFutureBound table5 ⟨0, by decide⟩ :=
   budgetZero_bound table5 ⟨0, by decide⟩ graph5_noLegal rfl rfl
-#print axioms anchor54992828401664_futureBound
 
 theorem anchor35751374880768_futureBound :
     Sized.NodeFutureBound table1 ⟨0, by decide⟩ :=
   budgetZero_bound table1 ⟨0, by decide⟩ graph1_noLegal rfl rfl
-#print axioms anchor35751374880768_futureBound
 
 theorem anchor90168610652160_futureBound :
     Sized.NodeFutureBound table8 ⟨0, by decide⟩ :=
   budgetZero_bound table8 ⟨0, by decide⟩ graph8_noLegal rfl rfl
-#print axioms anchor90168610652160_futureBound
 
 end F7Manuscript.ActualW22Selected16BudgetZeroBounds

@@ -227,6 +227,5 @@ theorem actual_binary_singleton_pre_fixed_typeI_paired_splice
   exact ⟨e,Hwhole,bits,h0,h1,h2,h3,hroute⟩
 
 
-#print axioms actual_binary_singleton_pre_fixed_typeI_paired_splice
 end
 end F7Manuscript.TripleCoordinateLattice

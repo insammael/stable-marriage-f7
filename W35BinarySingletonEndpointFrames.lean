@@ -124,4 +124,3 @@ theorem singleton_middle_rows_valid
 end
 end F7Manuscript.TripleCoordinateLattice.W35BinarySingletonEndpointFrames
 
-#print axioms F7Manuscript.TripleCoordinateLattice.W35BinarySingletonEndpointFrames.singleton_middle_rows_valid

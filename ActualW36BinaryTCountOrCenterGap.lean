@@ -91,6 +91,5 @@ theorem actual_one_T_both_long_count_or_center_gap
         C h221 h311 hn hu hG hT hM j hm0 hm1 hshort' hcrew)
   · exact Or.inr ⟨j, hTj, hCenter⟩
 
-#print axioms actual_one_T_both_long_count_or_center_gap
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW36BinaryTCountOrCenterGap

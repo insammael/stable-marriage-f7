@@ -279,8 +279,4 @@ theorem no_dated_paired_seven
       simpa only [size] using! obs
     exact blocked_impossible (3+eventCount pre) v hit R binary obs'
 
-#print axioms supportsRoute_to_execute
-#print axioms DatedPlan.observed_of_execute
-#print axioms execute_pure_hits
-#print axioms no_dated_paired_seven
 end F7Manuscript.R21NormalEndpoint.PairedDatedExecution

@@ -47,6 +47,5 @@ theorem right_pure_five_reframed_history (A B D : NormalSkeleton.Chart)
  refine ⟨f₀,f₁,root,b₀,b₁,bits,YA,hv₀,hv₁,hvr,hfinal.trans ji₁.symm,ji₀.symm,?_⟩
  simpa only [pre,u,List.append_nil,List.append_assoc] using! hYA'
 
-#print axioms right_pure_five_reframed_history
 end
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

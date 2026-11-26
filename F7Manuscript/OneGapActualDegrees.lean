@@ -152,7 +152,5 @@ theorem selected_degree_add_disjoint_prehistory_le_six
     _ ≤ P.card := hcard
     _ ≤ 6 := hcap
 
-#print axioms actorDegree_eq_selected_participations
-#print axioms selected_degree_add_disjoint_prehistory_le_six
 
 end F7Manuscript.OneGap

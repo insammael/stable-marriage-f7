@@ -55,6 +55,4 @@ theorem root_freshWord_of_Fresh (p : Fin 6) :
       freshWord initial (rootWord p c bits)=true := by
   fin_cases p <;> decide
 
-#print axioms root_freshWord_of_Fresh
-#print axioms fresh_of_mapped_word
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

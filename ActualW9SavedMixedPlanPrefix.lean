@@ -91,9 +91,6 @@ theorem supportsRoute_of_saved_mixedPlan_prefix
     (saved_mixedPlanFrom_color_D_prefix word rootWord levels rootD
       firstPaired start count n hpos hn hsame hlast hcolor ρ)
 
-#print axioms mixedPlanFrom_color_congr
-#print axioms saved_mixedPlanFrom_color_D_prefix
-#print axioms supportsRoute_of_saved_mixedPlan_prefix
 
 end
 end F7Manuscript.ActualW9SavedMixedPlanPrefix

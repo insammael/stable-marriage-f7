@@ -65,9 +65,6 @@ theorem retirementMap_bijective (C : Chart) :
 noncomputable def retirementMapEquiv (C : Chart) : C.Vertex ≃ C.Vertex :=
   Equiv.ofBijective (retirementMap C) (retirementMap_bijective C)
 
-#print axioms retirementMap_surjective
-#print axioms retirementMap_bijective
-#print axioms retirementMapEquiv
 
 end F7Manuscript.NormalSkeleton.Chart
 
@@ -92,6 +89,5 @@ noncomputable def actualRetirementEventEquiv :
   (retirementMapEquiv (actualNormalSkeleton C h221 h311 hz)).trans
     (actualNormalLabelEquiv C h221 h311 hz)
 
-#print axioms actualRetirementEventEquiv
 
 end F7Manuscript.TripleCoordinateLattice.GenericNormal

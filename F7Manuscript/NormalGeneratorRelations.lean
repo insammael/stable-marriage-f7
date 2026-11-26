@@ -18,5 +18,4 @@ theorem previous_retired_le_next (h221 : NoInduced221 (V := V))
   have hya : ¬ y ≤ a := fun h => hby.2 (h.trans hab.le)
   exact h221 a b x y z hab hxy hax ⟨hay,hya⟩ hbx hby hza hzb hzx hzy
 
-#print axioms previous_retired_le_next
 end F7Manuscript.NormalGeneratorRelations

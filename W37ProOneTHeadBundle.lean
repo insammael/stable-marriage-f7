@@ -144,8 +144,6 @@ theorem head_prefix_normalized_impossible (t : F7Paired.Matching)
     (freshAt_of_noReturn t (headPrefix ++ tail) bits H 7 (by omega))
     (freshAt_of_noReturn t (headPrefix ++ tail) bits H 10 (by omega))
 
-#print axioms head_prefix_normalized_impossible_of_fresh_at
-#print axioms head_prefix_normalized_impossible
 end F7Manuscript.OneTHeadPrefix
 
 /-!
@@ -354,11 +352,4 @@ theorem actual_head03_reverse_impossible
   exact actual_head03_forward_impossible R hq h0 h1 h2 h3 bits' H'
 
 end
-#print axioms supportsRoute_flip_centers
-#print axioms afterPaired_initial_flip
-#print axioms flipMove_preserves_center_only
-#print axioms supportsRoute_paired_head
-#print axioms initial_D_flip_center_tail
-#print axioms actual_head03_forward_impossible
-#print axioms actual_head03_reverse_impossible
 end F7Manuscript.OneTHeadOrientation

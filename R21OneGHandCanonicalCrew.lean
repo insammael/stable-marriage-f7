@@ -57,7 +57,5 @@ theorem root_representative_with_crew (p : Fin 6) (c : Fin 3) (code : Fin 32)
       by simpa only [hb,Bool.false_eq_true,↓reduceIte] using! hc⟩
   · exact Or.inr ⟨by simpa only [hb,↓reduceIte] using! h,by simpa only [hb,↓reduceIte] using! hc⟩
 
-#print axioms root_crew_checked
-#print axioms root_representative_with_crew
 end
 end F7Manuscript.TripleCoordinateLattice.R21OneGHandCrew

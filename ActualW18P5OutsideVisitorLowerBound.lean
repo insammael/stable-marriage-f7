@@ -133,6 +133,4 @@ theorem p5_traceOneCount_ge_four
   have hv := p5_outsideVisitors_card T
   omega
 
-#print axioms p5_outsideVisitors_card
-#print axioms p5_traceOneCount_ge_four
 end F7Manuscript.ActualW18P5OutsideVisitorLowerBound

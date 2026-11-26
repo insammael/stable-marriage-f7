@@ -102,8 +102,6 @@ theorem prefix14_endpoint_pivot_forces_310
     hP ha hab hBounds (by simpa [List.take_take] using! hhead) hSomeF
   exact ⟨hspan.2.1, hspan.2.2⟩
 
-#print axioms prefix14_three_pivots_retained13
-#print axioms prefix14_endpoint_pivot_forces_310
 
 end
 end F7Manuscript.ActualW16U3Prefix14Retained

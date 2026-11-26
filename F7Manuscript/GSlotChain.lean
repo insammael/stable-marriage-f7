@@ -83,7 +83,5 @@ theorem global_G_slot_epsilon_zero
   apply Subtype.ext
   simpa only [if_neg hc] using! (GenericThresholdPath.path_step_coordinate C E n c).symm
 
-#print axioms fixed_outsider_slot_chain
-#print axioms global_G_slot_epsilon_zero
 end
 end F7Manuscript.TripleCoordinateLattice

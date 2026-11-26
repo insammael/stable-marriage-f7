@@ -80,7 +80,5 @@ theorem pairDeficit_block_lower_bound (P : Finset V) (B : ℕ → Finset V)
   have hsum := Finset.sum_le_sum (fun j hj => hlocal j (Finset.mem_range.mp hj))
   omega
 
-#print axioms pairCount_union
-#print axioms pairDeficit_block_telescope
 end
 end F7Manuscript.FiniteBlockPairLedger

@@ -108,9 +108,5 @@ theorem actualD2CanonicalRelabel_idle (f : F7Local.SupportFrame)
         simp [d2Alpha, d2AlphaValue, hl, F7Local.leftCoord, F7Local.initialSupport] <;>
           norm_num <;> decide
 
-#print axioms actualD2CanonicalRelabel_left
-#print axioms actualD2CanonicalRelabel_right
-#print axioms actualD2CanonicalRelabel_center
-#print axioms actualD2CanonicalRelabel_idle
 
 end F7Manuscript.TripleCoordinateLattice

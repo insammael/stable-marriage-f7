@@ -82,7 +82,5 @@ theorem W0ForkL5_future_from_observed_prefix_strong {W : Type*} [Fintype W] {q :
   rw [W0ForkL5_prefixFresh_eq] at transported
   exact W0ForkL5_future_le_five_strong_transpose transported
 
-#print axioms W0ForkL4_future_from_observed_prefix_strong
-#print axioms W0ForkL5_future_from_observed_prefix_strong
 
 end F7Manuscript.ActualW17Window0StrongForkWindow0

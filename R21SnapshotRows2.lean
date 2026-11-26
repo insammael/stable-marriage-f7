@@ -271,7 +271,6 @@ theorem refute_all (f : Actor → Nat) (h : Tracks f (domains board))
 end F7Manuscript.R21NormalEndpoint.Projection.Snapshots.Generated.A8_003
 
 end
-#print axioms F7Manuscript.R21NormalEndpoint.Projection.Snapshots.Generated.A8_003.refute_all
 
 
 section
@@ -478,7 +477,6 @@ theorem refute_all (f : Actor → Nat) (h : Tracks f (domains board))
 end F7Manuscript.R21NormalEndpoint.Projection.Snapshots.Generated.A8_004
 
 end
-#print axioms F7Manuscript.R21NormalEndpoint.Projection.Snapshots.Generated.A8_004.refute_all
 
 
 section
@@ -697,7 +695,6 @@ theorem refute_all (f : Actor → Nat) (h : Tracks f (domains board))
 end F7Manuscript.R21NormalEndpoint.Projection.Snapshots.Generated.A8_005
 
 end
-#print axioms F7Manuscript.R21NormalEndpoint.Projection.Snapshots.Generated.A8_005.refute_all
 
 
 section
@@ -946,7 +943,6 @@ theorem refute_all (f : Actor → Nat) (h : Tracks f (domains board))
 end F7Manuscript.R21NormalEndpoint.Projection.Snapshots.Generated.A8_006
 
 end
-#print axioms F7Manuscript.R21NormalEndpoint.Projection.Snapshots.Generated.A8_006.refute_all
 
 
 section
@@ -1249,7 +1245,6 @@ theorem refute_all (f : Actor → Nat) (h : Tracks f (domains board))
 end F7Manuscript.R21NormalEndpoint.Projection.Snapshots.Generated.A8_007
 
 end
-#print axioms F7Manuscript.R21NormalEndpoint.Projection.Snapshots.Generated.A8_007.refute_all
 
 
 section
@@ -1510,7 +1505,6 @@ theorem refute_all (f : Actor → Nat) (h : Tracks f (domains board))
 end F7Manuscript.R21NormalEndpoint.Projection.Snapshots.Generated.A8_008
 
 end
-#print axioms F7Manuscript.R21NormalEndpoint.Projection.Snapshots.Generated.A8_008.refute_all
 
 
 section
@@ -1729,7 +1723,6 @@ theorem refute_all (f : Actor → Nat) (h : Tracks f (domains board))
 end F7Manuscript.R21NormalEndpoint.Projection.Snapshots.Generated.A8_009
 
 end
-#print axioms F7Manuscript.R21NormalEndpoint.Projection.Snapshots.Generated.A8_009.refute_all
 
 
 section
@@ -2032,7 +2025,6 @@ theorem refute_all (f : Actor → Nat) (h : Tracks f (domains board))
 end F7Manuscript.R21NormalEndpoint.Projection.Snapshots.Generated.A8_010
 
 end
-#print axioms F7Manuscript.R21NormalEndpoint.Projection.Snapshots.Generated.A8_010.refute_all
 
 
 section
@@ -2317,7 +2309,6 @@ theorem refute_all (f : Actor → Nat) (h : Tracks f (domains board))
 end F7Manuscript.R21NormalEndpoint.Projection.Snapshots.Generated.A8_011
 
 end
-#print axioms F7Manuscript.R21NormalEndpoint.Projection.Snapshots.Generated.A8_011.refute_all
 
 
 section
@@ -2614,4 +2605,3 @@ theorem refute_all (f : Actor → Nat) (h : Tracks f (domains board))
 end F7Manuscript.R21NormalEndpoint.Projection.Snapshots.Generated.A8_012
 
 end
-#print axioms F7Manuscript.R21NormalEndpoint.Projection.Snapshots.Generated.A8_012.refute_all

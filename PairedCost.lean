@@ -121,10 +121,4 @@ theorem PairedExecutionChart.high_paired_deficit_ge_six {r : Nat} {a : Int}
   have heq := C.cost
   omega
 
-#print axioms pairedTotal_le_twice_occupied
-#print axioms occupied_le_cost_plus_two
-#print axioms pairedTotal_le_twice_cost_plus_four
-#print axioms PairedExecutionChart.levels_le_two
-#print axioms PairedExecutionChart.r20_paired_total_le_six
-#print axioms PairedExecutionChart.high_paired_deficit_ge_six
 end F7Paired

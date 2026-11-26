@@ -130,5 +130,4 @@ theorem singleton_first_center_not_zero
       k bits 0 Hpre i hi firstBit hLast
   exact hc
 
-#print axioms singleton_first_center_not_zero
 end F7Manuscript.W38SingletonFirstCenterGuard

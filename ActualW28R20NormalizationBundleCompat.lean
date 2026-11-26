@@ -141,12 +141,6 @@ theorem first_center_new_pair_normalized_any_color
   rw [pairSupport_map, heq]
   rfl
 
-#print axioms recolorCenterFrame_valid
-#print axioms actorRelabel_frame_eq_initial
-#print axioms actorRelabel_recolored_frame_eq_initial_any_color
-#print axioms first_center_old_pair_normalized_any_color
-#print axioms first_center_other_pair_normalized_any_color
-#print axioms first_center_new_pair_normalized_any_color
 end
 end F7Manuscript.TripleCoordinateLattice
 
@@ -242,7 +236,6 @@ theorem normalize_actual_center_insertion
   exact ⟨ρ, e, hρnext, hρold, hnorm, hnew, hold, hother,
     hotherOld, hotherNext, hunion⟩
 
-#print axioms normalize_actual_center_insertion
 end
 end F7Manuscript.ActualW28R20SaturatedCenterNormalizationBundle
 
@@ -366,6 +359,5 @@ theorem paired_support_normalization
       simp [pairSupport, pairedPairs, select, other, hleft1, hleft2,
         hright1, hright2, Finset.pair_comm]
 
-#print axioms paired_support_normalization
 end
 end F7Manuscript.ActualW28R20PairedSupportNormalizationBundle

@@ -104,7 +104,5 @@ theorem actual_T_pre_context_actor_normalization
       simp only [Finset.map_insert,Finset.map_singleton,Equiv.toEmbedding_apply,hfix,hkeep]
       decide
 
-#print axioms actual_T_retired_normalized_support
-#print axioms actual_T_pre_context_actor_normalization
 end
 end F7Manuscript.TripleCoordinateLattice

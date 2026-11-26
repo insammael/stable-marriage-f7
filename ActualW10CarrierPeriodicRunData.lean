@@ -251,6 +251,5 @@ theorem periodic_run_of_carrier_center_prefix
     simpa [hword] using! hfresh
   exact periodicRun_with_data (periodicBits C.out) k hfreshPeriodic
 
-#print axioms periodic_run_of_carrier_center_prefix
 
 end F7Manuscript.ActualW10CarrierPeriodicRunData

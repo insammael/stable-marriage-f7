@@ -91,9 +91,6 @@ theorem q1_pure_prefix_before_unique_D
     simpa only [Chart.naturalLevels, dif_pos hrm] using hz
   exact NoReturn_pure_before_first_D j.isLt hzero H
 
-#print axioms firstD_pure_prefix
-#print axioms firstABA_confirming_pure_prefix
-#print axioms q1_pure_prefix_before_unique_D
 
 end
 end F7Manuscript.N4ChartPrefixAdapters

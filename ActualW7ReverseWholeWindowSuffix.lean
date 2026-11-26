@@ -109,7 +109,6 @@ theorem actual_reverse_window_suffix
       (H.equiv ⟨L+t.val, by omega⟩).val
   refine ⟨H,R,by omega,hprefix,hcycle,hbinary⟩
 
-#print axioms actual_reverse_window_suffix
 
 end
 end F7Manuscript.ActualW7ReverseWholeWindowSuffix

@@ -127,8 +127,5 @@ theorem fixedTokenReceiptCount_eq_saturated {F : Rel} {n : ℕ} (T : FixedTokenS
   rcases Finset.mem_image.mp hpA with ⟨e, -, he⟩
   exact ⟨e, he⟩
 
-#print axioms receiptCell_injective
-#print axioms fixedTokenReceiptCount_le
-#print axioms fixedTokenReceiptCount_eq_saturated
 
 end F7Manuscript.PartnerGraph

@@ -20,5 +20,4 @@ theorem actual_terminal_excluded_at_positions {len cost budget : Nat}
   apply List.all_eq_true.mpr
   intro j hj
   exact predicate_of_trace tr (he.trans_le hc) (hrows ⟨j,List.mem_range.mp hj⟩)
-#print axioms actual_terminal_excluded_at_positions
 end F7Manuscript.R21NormalEndpoint

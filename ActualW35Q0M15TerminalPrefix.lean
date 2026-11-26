@@ -74,6 +74,5 @@ theorem actual_pre_q0_m15_small_cost_impossible
   exact ActualW35PeriodicPrefixTerminal.actual_periodic_fifteen_prefix_no_future
     C h221 h311 hu E n hn hP H hspan hNoABA
 
-#print axioms actual_pre_q0_m15_small_cost_impossible
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW35Q0M15TerminalPrefix

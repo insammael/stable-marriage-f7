@@ -135,11 +135,5 @@ theorem first_center_new_pair_normalized_any_color
   rw [pairSupport_map, heq]
   rfl
 
-#print axioms recolorCenterFrame_valid
-#print axioms actorRelabel_frame_eq_initial
-#print axioms actorRelabel_recolored_frame_eq_initial_any_color
-#print axioms first_center_old_pair_normalized_any_color
-#print axioms first_center_other_pair_normalized_any_color
-#print axioms first_center_new_pair_normalized_any_color
 end
 end F7Manuscript.TripleCoordinateLattice

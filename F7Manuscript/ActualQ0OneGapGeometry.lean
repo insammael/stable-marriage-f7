@@ -61,6 +61,5 @@ theorem actual_q0_saved_geometry {I : Profile 7} [Nonempty (StableMatching I)]
     HL HR hLconvex hRconvex hL hU hLR hcost
   exact q0_geometry_prefix_cover _ hk
 
-#print axioms actual_q0_saved_geometry
 
 end F7Manuscript.ActualQ0OneGapGeometry

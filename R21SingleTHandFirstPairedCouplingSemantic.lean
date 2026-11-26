@@ -81,8 +81,5 @@ theorem actual_firstPaired_coupling_graphGuard {n m : Nat}
  · cases hb : couplingRejected (physical s) with
    | false => rfl
    | true => exact (couplingRejected_excludes L R anchor k l s t hLs hLv hRs hRv ht hb).elim
-#print axioms coupling_mass8_impossible_boards
-#print axioms coupling_mass8_impossible_snapshots
-#print axioms actual_firstPaired_coupling_graphGuard
 end
 end F7Manuscript.R21SingleTHand

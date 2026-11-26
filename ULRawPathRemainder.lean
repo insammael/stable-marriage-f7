@@ -70,7 +70,5 @@ theorem raw_path_small_remainder_zero (T : ℕ → Finset V) (s : ℕ)
         (hAnti 0 (by omega)) (hAnti 1 (by omega)) (by omega)
     simp [rawRemainder,hEq]
 
-#print axioms raw_path_actual_pair_ledger
-#print axioms raw_path_small_remainder_zero
 
 end ConditionalUL

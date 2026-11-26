@@ -88,11 +88,5 @@ theorem reverse_pair_slot (a : Equiv.Perm (Fin 3))
       4+j.val+2*(R).pairsBefore j.val+2*r.val+(p j r s).val :=
   fullChronologicalIndex_pair (R) a p j r s
 
-#print axioms reverse_initial_support
-#print axioms reverse_center_support
-#print axioms reverse_pair_support
-#print axioms reverse_initial_slot
-#print axioms reverse_center_slot
-#print axioms reverse_pair_slot
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW33ReverseRetiredSupports

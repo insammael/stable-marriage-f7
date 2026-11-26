@@ -125,7 +125,6 @@ theorem actual_shifted_block_canonical {W : Type*} [Fintype W] {q : Nat}
   exact ⟨T, p, e0, e1, ht, hchain4, by simpa [c] using! hp, he1,
     by simpa only [t1, d] using! hpacket'⟩
 
-#print axioms actual_shifted_block_canonical
 
 end
 end F7Manuscript.ActualW9ShiftedBlockCanonical

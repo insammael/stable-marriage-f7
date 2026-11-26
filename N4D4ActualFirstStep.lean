@@ -229,6 +229,5 @@ theorem d4_actual_N0_first_center
   refine ⟨lastPair plan bits 10, hallowed, ?_⟩
   rw [hstep]
 
-#print axioms d4_actual_N0_first_center
 
 end F7Manuscript.N4D4ActualFirstStep

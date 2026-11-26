@@ -215,7 +215,5 @@ theorem r20_q1_internal_saturation_layout
   change coreNeighborCount C y ≤ 2 at hdy
   exact ⟨y,hxy,hUxy,by omega,by omega,n,hsingle,R,hcases⟩
 
-#print axioms normalCore_q_eq_activeDouble_card
-#print axioms r20_q1_internal_saturation_layout
 end
 end F7Manuscript.TripleCoordinateLattice

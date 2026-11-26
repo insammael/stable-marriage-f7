@@ -363,8 +363,6 @@ theorem dormant_empty_row_two_mark_edge_bound {F : Rel} {n : Nat}
           have hbound' : 2*n+2 ≤ edgeCount (update G (Equiv.swap s t)) := by simpa [p] using! hbound
           omega
 
-#print axioms dormant_set_column_two_mark_edge_bound
-#print axioms dormant_empty_row_two_mark_edge_bound
 
 end
 end F7Manuscript.ActualW17ForkTwoMarkHelpersV2

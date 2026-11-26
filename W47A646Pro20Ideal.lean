@@ -145,9 +145,5 @@ theorem no_fourth_stableMatching
 
 end StableMatchings
 
-#print axioms strictInterior_carrier
-#print axioms strictInterior_unique
-#print axioms no_fourth_ideal
-#print axioms no_fourth_stableMatching
 
 end F7Manuscript.IdealIntervals

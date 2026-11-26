@@ -125,7 +125,6 @@ theorem actual_X_window75_root14_forward_carrier
   obtain ⟨carrier⟩ := hcarrier
   exact ⟨P, N, carrier, hplanprefix⟩
 
-#print axioms actual_X_window75_root14_forward_carrier
 
 end
 end F7Manuscript.ActualW16Window75ActualForward

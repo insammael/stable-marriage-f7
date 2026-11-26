@@ -32,5 +32,4 @@ theorem actual_forbidden_branch (i : Fin 155) (edge : Nat × Nat) (word : List B
     exact C
   exact (terminalEntry j).reject (checked_terminal_alignment j) actual binary
 
-#print axioms actual_forbidden_branch
 end F7Manuscript.R21LongWindow.DatedBoardSteps

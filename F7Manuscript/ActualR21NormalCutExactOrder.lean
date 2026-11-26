@@ -68,7 +68,5 @@ theorem actual_r21_normal_cut_exact_cost (i : K) :
   change NeutralCore.aOn Q = (S.q : ℤ) + (min S.m 2 : ℕ) + S.s - 2
   exact (NeutralCore.Induced.a_eq Q).symm.trans h
 
-#print axioms actual_r21_first_last_normal_cut_extras_zero
-#print axioms actual_r21_normal_cut_exact_cost
 end
 end F7Manuscript.TripleCoordinateLattice

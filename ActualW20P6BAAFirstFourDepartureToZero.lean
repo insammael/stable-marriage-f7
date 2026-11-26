@@ -123,5 +123,4 @@ theorem actual_BAA_firstB4_departure_6_to_0
     | inr h => exact Or.inr h.symm
   exact ⟨e,k0,k1,k2,hlist,h01,h12,by omega,hpre6,hpart',hsupport,hpre0⟩
 
-#print axioms actual_BAA_firstB4_departure_6_to_0
 end F7Manuscript.ActualW20P6BAAFirstFourDepartureToZero

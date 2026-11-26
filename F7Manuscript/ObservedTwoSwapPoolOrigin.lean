@@ -140,9 +140,6 @@ theorem observed_two_swap_pool_cross
   · exact hnotb hd
   · exact hnotc hd
 
-#print axioms observed_two_swap_base_off_fixed
-#print axioms observed_two_swap_pool_past
-#print axioms observed_two_swap_pool_cross
 
 end
 end F7Manuscript.OneGap

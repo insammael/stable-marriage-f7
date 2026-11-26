@@ -60,7 +60,6 @@ theorem a572_a228_selected_canonical_pair_ledger
   rw [hk] at hledger
   simpa only [hprov] using! hledger
 
-#print axioms a572_a228_selected_canonical_pair_ledger
 
 end
 

@@ -42,7 +42,6 @@ theorem actual_X_oriented_dlist_mem_words
   change _ ∧ DListSpec X.m X.q (orientColumn X.before X.after X.levels) ∧ _ at h
   exact dlist_mem_dsWords h.2.1
 
-#print axioms actual_X_oriented_dlist_mem_words
 
 end
 end W7ActualXOrientedDListMembership

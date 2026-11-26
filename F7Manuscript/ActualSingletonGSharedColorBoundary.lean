@@ -67,7 +67,6 @@ variable {I : Profile 7}
   rw [hjoin] at hgstep
   exact hnstep.symm.trans hgstep.symm
 
-#print axioms singleton_G_omitted_color_boundary_same
 
 end
 end F7Manuscript.TripleCoordinateLattice

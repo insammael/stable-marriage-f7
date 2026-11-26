@@ -74,7 +74,6 @@ theorem endpoint_unit_two_pivot_some_false_long
   rw [hnone] at hz
   cases hz
 
-#print axioms endpoint_unit_two_pivot_some_false_long
 
 end
 end F7Manuscript.ActualW17U3Q1S3PaidOneFrontierLong

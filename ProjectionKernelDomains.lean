@@ -31,5 +31,4 @@ theorem mem_domainsKernel_of_mem {B : Board} {p : Actor} {m : Nat}
  · exact List.mem_permutations'.mpr (List.mem_permutations.mp horder)
  · rwa [productsKernel_eq]
 
-#print axioms mem_domainsKernel_of_mem
 end F7Manuscript.R21NormalEndpoint.Projection

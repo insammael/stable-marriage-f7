@@ -180,4 +180,3 @@ theorem afterPaired_valid (f : SupportFrame)
 
 end F7Manuscript.N4FullDualRouteInduction
 
-#print axioms F7Manuscript.N4FullDualRouteInduction.afterPaired_valid

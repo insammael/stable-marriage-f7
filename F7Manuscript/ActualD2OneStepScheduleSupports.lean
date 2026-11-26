@@ -74,8 +74,6 @@ theorem subsetNormalPairedOneStepSchedule_supports_of_length_eq_one
           refine ⟨cross, label, h₀, ?_, rfl⟩
           exact h₁
 
-#print axioms subsetNormalPairedOneStepSchedule_supports_of_length_eq_one
-#print axioms subsetNormalPairedRunSchedule_time_bound
 
 end
 end F7Manuscript.TripleCoordinateLattice

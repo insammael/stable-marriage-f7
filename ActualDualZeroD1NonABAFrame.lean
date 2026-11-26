@@ -134,7 +134,6 @@ theorem actual_dual_zero_d1_nonABA_frame_false
   exact F7Manuscript.ActualD2SaturatedCenterFreshness.actual_center_swap_contradicts_saturated_old_pool
     R e n W idleFour candidate hidleNonzero hcenterStart hsupport hpast
 
-#print axioms actual_dual_zero_d1_nonABA_frame_false
 
 end
 end F7Manuscript.ActualInputS11DualZeroD1NonABAFrame

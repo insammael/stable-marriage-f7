@@ -97,7 +97,6 @@ theorem reverse_paired_rows_route_exists
       exact ⟨g, ⟨.step cross label hvnext hrow hnext'
         (Classical.choice htail)⟩, hfinal, hvalid, hgLast⟩
 
-#print axioms reverse_paired_rows_route_exists
 
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW33RContextPairedRoute

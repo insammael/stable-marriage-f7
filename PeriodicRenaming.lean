@@ -203,8 +203,4 @@ theorem periodic_length_le_fifteen {m : Nat} (H : PeriodicRun m) : m≤15 := by
     fresh_past := fun n hn j hj => H.fresh_past n (by omega) j hj }
   exact no_normalized_sixteen (normalize_run G)
 
-#print axioms step_rename
-#print axioms normalize_third
-#print axioms normalize_prefix_tokens
-#print axioms periodic_length_le_fifteen
 end F7Periodic

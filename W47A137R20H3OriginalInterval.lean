@@ -116,8 +116,6 @@ theorem m08_h3_2_canonical_original_interval_of_neighbor_census
   · exact original_outsider_Icc_eq_three
       I C x u0 u1 u2 hout h01 h12 hN
 
-#print axioms original_outsider_Icc_eq_three
-#print axioms m08_h3_2_canonical_original_interval_of_neighbor_census
 
 end
 end F7Manuscript.ActualR20H3

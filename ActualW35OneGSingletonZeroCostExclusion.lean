@@ -61,7 +61,5 @@ theorem actual_singleton_low_core_fixed_boundary
   · exact Or.inr hpost
   · exact False.elim (actual_oneG_singleton_zero_cost_false C h221 h311 hu hG hT hn hmPre hzero)
 
-#print axioms actual_oneG_singleton_zero_cost_false
-#print axioms actual_singleton_low_core_fixed_boundary
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW35OneGSingletonZeroCostExclusion

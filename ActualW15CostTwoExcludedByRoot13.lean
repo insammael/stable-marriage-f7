@@ -235,7 +235,6 @@ theorem actual_X_q_plus_s_ge_three
       C hn hδ hdeficit hpos h221 h311 hG hT X hcost
   exact cost_two_key_false C hn hδ hdeficit hpos h221 h311 hG hT X i hikey hcolors hD hv
 
-#print axioms actual_X_q_plus_s_ge_three
 
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW15CostTwoExcludedByRoot13

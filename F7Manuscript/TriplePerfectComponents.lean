@@ -204,10 +204,6 @@ theorem perfect_normal_vertex_count (h221 : NoInduced221 (V := V))
     2 * (activeDouble C).card
   omega
 
-#print axioms perfect_component_center
-#print axioms perfectCenterEquiv
-#print axioms perfect_normal_vertex_count
-#print axioms activeDouble_eq_sum_leaves
 
 end
 end F7Manuscript.TripleCoordinateLattice

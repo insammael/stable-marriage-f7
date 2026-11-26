@@ -185,9 +185,6 @@ theorem controlledReverseRetirementCoreRun_past
   exact F7Manuscript.N4ReverseHistoryReceipts.reverse_past_iff_original_suffix
     (controlledForwardRetirementCoreRun Q B h221 h311 hz a p hQ) t a0 w
 
-#print axioms controlledRetirementCoreEnumeration
-#print axioms controlledReverseRetirementCoreRun_support_slot
-#print axioms controlledReverseRetirementCoreRun_past
 
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW33ControlledReverseCoreRun

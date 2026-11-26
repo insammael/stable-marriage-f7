@@ -190,7 +190,5 @@ theorem right_unique (hn : Fintype.card (Event I) = 21)
   · simpa only [hp2,hp3] using! hab
   · simpa only [hp0,hp1] using! hxy
 
-#print axioms left_unique
-#print axioms right_unique
 end
 end F7Manuscript.TripleCoordinateLattice.GSlotOuterIncidence

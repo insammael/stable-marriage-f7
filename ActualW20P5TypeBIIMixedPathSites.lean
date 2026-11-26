@@ -78,6 +78,5 @@ theorem p5_mutual_crossed_sites
           (T.state m.castSucc).injective (hpreX.trans h.1.symm)
         exact hy.trans hx.symm
 
-#print axioms p5_mutual_crossed_sites
 end F7Manuscript.ActualW20P5TypeBIIMixedPathSites
 

@@ -88,8 +88,6 @@ theorem actual_X_p310_root13_reverse_threshold
     omega
   simpa only [b, hclock, extra] using! hNat
 
-#print axioms actual_X_p310_root13_forward_threshold
-#print axioms actual_X_p310_root13_reverse_threshold
 
 end
 end F7Manuscript.ActualW15P310SameXThresholds

@@ -68,7 +68,6 @@ theorem actual_global_normal_run_census
       2*(∑ i : Fin (m+1), ((S i).q : ℤ))+((outsideTripleVertices A).card : ℤ)
   omega
 
-#print axioms actual_global_normal_run_census
 
 /-- The nonempty-run premise of R2 S10's line ledger follows from the
 actual run windows and the small triple-deficit hypothesis. -/
@@ -102,7 +101,6 @@ theorem actual_global_normal_run_census_occupied
     (globalNormalRunInterval A (globalThresholdEnumeration A h221 h311) i).right).card at hcard
   omega
 
-#print axioms actual_global_normal_run_census_occupied
 
 /-- Insert the actual run-chart cost into the exact global prefix sum.
 The R2 reset and macro estimates are applied later to the two explicit
@@ -152,6 +150,5 @@ theorem actual_global_normal_run_cost_with_corrections
     (∑ j : Fin m, macroIntroductionCredit A E j) ≤ pairDeficit (tripleVertices A)
   omega
 
-#print axioms actual_global_normal_run_cost_with_corrections
 end
 end F7Manuscript.TripleCoordinateLattice

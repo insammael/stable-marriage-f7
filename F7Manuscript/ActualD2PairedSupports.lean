@@ -91,8 +91,6 @@ theorem subsetNormalPairedTwoStepSchedule_supports_of_length_eq_two
   subst n
   exact subsetNormalPairedTwoStepSchedule_supports Q hQ B h221 h311 hz H t S hroom
 
-#print axioms subsetNormalPairedTwoStepSchedule_supports
-#print axioms subsetNormalPairedTwoStepSchedule_supports_of_length_eq_two
 
 end
 end F7Manuscript.TripleCoordinateLattice

@@ -99,8 +99,5 @@ theorem original_actual_levels_q_mass
   rw [←q_eq_pairedTotal S] at size
   exact ⟨doubles,levels,qbound,by omega⟩
 
-#print axioms mixedPlan_double_subword
-#print axioms original_actual_double_le_one
-#print axioms original_actual_levels_q_mass
 end
 end F7Manuscript.R21LongWindow.PairedSubpatterns

@@ -103,8 +103,6 @@ theorem canonical_color_chart_raw_cut (R : TokenRun Site W q) (m : ℕ)
   obtain ⟨C, _⟩ := canonical_color_chart_extraction R m H hinit
   exact ⟨C⟩
 
-#print axioms canonical_color_chart_raw_cut
-#print axioms canonical_color_chart_extraction
 
 end
 end F7Manuscript.PartnerGraph.Periodic

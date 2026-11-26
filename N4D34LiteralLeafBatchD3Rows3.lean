@@ -53,11 +53,6 @@ theorem d3l11_actual_leaf_length_le_eighteen
   exact literal_prefix_barrier_length_le_eighteen
     H cut hcut d3l11ExactWord hword d3l11R hcurrent hsub hQ hfive
 
-#print axioms d3l11ExactWord
-#print axioms d3l11_word_length
-#print axioms d3l11_wordAvailable_eq_literalA
-#print axioms d3l11_word_current_in_literalR
-#print axioms d3l11_actual_leaf_length_le_eighteen
 
 /-- Exact D3 L12: accepted canonical root plus the only listed continuation `C21 C00 C11 C01 D0`. -/
 def d3l12ExactWord : List F7Local.Pair := d3AWord ++ [(4,6), (0,1), (3,5), (1,2), (3,4), (5,6)]
@@ -95,11 +90,6 @@ theorem d3l12_actual_leaf_length_le_eighteen
   exact literal_prefix_barrier_length_le_eighteen
     H cut hcut d3l12ExactWord hword d3l12R hcurrent hsub hQ hfive
 
-#print axioms d3l12ExactWord
-#print axioms d3l12_word_length
-#print axioms d3l12_wordAvailable_eq_literalA
-#print axioms d3l12_word_current_in_literalR
-#print axioms d3l12_actual_leaf_length_le_eighteen
 
 /-- Exact D3 L13: accepted canonical root plus the only listed continuation `C21 C00 C20 C00 C10 C20`. -/
 def d3l13ExactWord : List F7Local.Pair := d3AWord ++ [(4,6), (0,1), (4,5), (0,6), (2,1), (4,3)]
@@ -137,11 +127,6 @@ theorem d3l13_actual_leaf_length_le_eighteen
   exact literal_prefix_barrier_length_le_eighteen
     H cut hcut d3l13ExactWord hword d3l13R hcurrent hsub hQ hfive
 
-#print axioms d3l13ExactWord
-#print axioms d3l13_word_length
-#print axioms d3l13_wordAvailable_eq_literalA
-#print axioms d3l13_word_current_in_literalR
-#print axioms d3l13_actual_leaf_length_le_eighteen
 
 /-- Exact D3 L14: accepted canonical root plus the only listed continuation `C21 C00 C20 C00 C10 C21`. -/
 def d3l14ExactWord : List F7Local.Pair := d3AWord ++ [(4,6), (0,1), (4,5), (0,6), (2,1), (5,3)]
@@ -179,11 +164,6 @@ theorem d3l14_actual_leaf_length_le_eighteen
   exact literal_prefix_barrier_length_le_eighteen
     H cut hcut d3l14ExactWord hword d3l14R hcurrent hsub hQ hfive
 
-#print axioms d3l14ExactWord
-#print axioms d3l14_word_length
-#print axioms d3l14_wordAvailable_eq_literalA
-#print axioms d3l14_word_current_in_literalR
-#print axioms d3l14_actual_leaf_length_le_eighteen
 
 /-- Exact D3 L15: accepted canonical root plus the only listed continuation `C21 C01 C10 C20 C00`. -/
 def d3l15ExactWord : List F7Local.Pair := d3AWord ++ [(4,6), (5,1), (2,0), (4,3), (5,6)]
@@ -221,10 +201,5 @@ theorem d3l15_actual_leaf_length_le_eighteen
   exact literal_prefix_barrier_length_le_eighteen
     H cut hcut d3l15ExactWord hword d3l15R hcurrent hsub hQ hfive
 
-#print axioms d3l15ExactWord
-#print axioms d3l15_word_length
-#print axioms d3l15_wordAvailable_eq_literalA
-#print axioms d3l15_word_current_in_literalR
-#print axioms d3l15_actual_leaf_length_le_eighteen
 
 end F7Manuscript.N4D34LiteralLeafBatchD3Rows3

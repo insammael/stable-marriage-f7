@@ -79,7 +79,6 @@ theorem actual_X_ordinal45_raw_reverse_after_ge_three
     simpa [hclock] using! hK18
   omega
 
-#print axioms actual_X_ordinal45_raw_reverse_after_ge_three
 
 end
 end F7Manuscript.ActualW17Saved45ReverseEndpointK18

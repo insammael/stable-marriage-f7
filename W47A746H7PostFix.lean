@@ -270,7 +270,6 @@ theorem h7_original_pure14_post_core_exclusion
     exact (lt_irrefl _ hchain)
   · exact (B.property (color C z) c hcol).1 hchain.le
 
-#print axioms h7_original_pure14_post_core_exclusion
 
 end
 

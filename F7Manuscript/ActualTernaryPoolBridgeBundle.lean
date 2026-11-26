@@ -178,8 +178,6 @@ theorem actual_mixed_capacity_of_disjoint_prehistory
     _ = actorDegree word a := (actorDegree_eq_localParticipation word a).symm
     _ ≤ if a ∈ K then 4 else 5 := hdeg a
 
-#print axioms actual_uniform_capacity_of_disjoint_prehistory
-#print axioms actual_mixed_capacity_of_disjoint_prehistory
 
 end
 end F7Manuscript.OneGap
@@ -290,9 +288,6 @@ theorem threePoolMemory_of_separated_ternary_steps
       R K hK i j hij hsi hsj hno a ha _ (hpool o ho)
   exact ⟨u, hu.trans (by change j.val + 1 ≤ L; exact hj), hstate⟩
 
-#print axioms threePoolMemory_of_actual_word
-#print axioms threePoolMemory_of_separated_ternary_steps
-#print axioms separated_ternary_history_origin
 
 end
 end F7Manuscript.ActualTernaryPoolMemory
@@ -382,8 +377,6 @@ theorem actual_covered_ternary_pool_no_return
     exact hmove
   exact F7Manuscript.PartnerGraph.Periodic.past_ne_after R k a ham t htk (htw.trans how)
 
-#print axioms actual_covered_ternary_pool_history
-#print axioms actual_covered_ternary_pool_no_return
 
 end
 end F7Manuscript.ConvexExecution
@@ -485,7 +478,6 @@ theorem actual_covered_ternary_source_pool_memory
       R K hK i j hij (by rw [hs, hsi]) (by rw [hs, hsj]) hno a ha c' hc'
   exact ⟨t, ht.trans (by change j.val + 1 ≤ L; exact hjL), hstate.trans hcw⟩
 
-#print axioms actual_covered_ternary_source_pool_memory
 
 end
 end F7Manuscript.ConvexExecution
@@ -570,8 +562,6 @@ theorem actual_mixed_capacity_of_prefix_covers
     R plan bits ι hι hsupport (U ∪ V) hdis K
     (typed_actual_prehistory_participation R U V hUV K hU hV)
 
-#print axioms typed_actual_prehistory_participation
-#print axioms actual_mixed_capacity_of_prefix_covers
 
 end
 end F7Manuscript.ActualTernaryPrehistoryCapacity

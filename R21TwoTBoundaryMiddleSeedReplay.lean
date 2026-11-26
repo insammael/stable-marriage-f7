@@ -21,7 +21,6 @@ theorem LeftA_seed_frame_replay (B : Board) (p : Fin 6) (bits : Fin 8) (last : F
     replay B (startingPairs (seedFrame seedLeftA 6 p bits last))=replay B seedLeftA := by
   rw [frame_matching_replay B _ hv,LeftA_seed_frame_matching]
 
-#print axioms LeftA_seed_frame_replay
 
 theorem LeftB_seed_frame_matching : ∀ (p : Fin 6) (bits : Fin 8) (last : Fin 3),
     frameMatching (seedFrame seedLeftB 6 p bits last)=seedLeftB := by decide
@@ -31,7 +30,6 @@ theorem LeftB_seed_frame_replay (B : Board) (p : Fin 6) (bits : Fin 8) (last : F
     replay B (startingPairs (seedFrame seedLeftB 6 p bits last))=replay B seedLeftB := by
   rw [frame_matching_replay B _ hv,LeftB_seed_frame_matching]
 
-#print axioms LeftB_seed_frame_replay
 
 theorem RightA_seed_frame_matching : ∀ (p : Fin 6) (bits : Fin 8) (last : Fin 3),
     frameMatching (seedFrame seedRightA 1 p bits last)=seedRightA := by decide
@@ -41,7 +39,6 @@ theorem RightA_seed_frame_replay (B : Board) (p : Fin 6) (bits : Fin 8) (last : 
     replay B (startingPairs (seedFrame seedRightA 1 p bits last))=replay B seedRightA := by
   rw [frame_matching_replay B _ hv,RightA_seed_frame_matching]
 
-#print axioms RightA_seed_frame_replay
 
 theorem RightB_seed_frame_matching : ∀ (p : Fin 6) (bits : Fin 8) (last : Fin 3),
     frameMatching (seedFrame seedRightB 2 p bits last)=seedRightB := by decide
@@ -51,7 +48,6 @@ theorem RightB_seed_frame_replay (B : Board) (p : Fin 6) (bits : Fin 8) (last : 
     replay B (startingPairs (seedFrame seedRightB 2 p bits last))=replay B seedRightB := by
   rw [frame_matching_replay B _ hv,RightB_seed_frame_matching]
 
-#print axioms RightB_seed_frame_replay
 
 theorem actual_middle_ALeft_replay (fL fR : SupportFrame)
     (hvL : ValidLayout (stateOfFrame fL)) (hvR : ValidLayout (stateOfFrame fR))
@@ -67,7 +63,6 @@ theorem actual_middle_ALeft_replay (fL fR : SupportFrame)
     exact RightA_seed_frame_replay B pr br fR.last (heR ▸ hvR)
   simp only [middleLeft,middleAL,hL,hR]
 
-#print axioms actual_middle_ALeft_replay
 
 theorem actual_middle_ARight_replay (fL fR : SupportFrame)
     (hvL : ValidLayout (stateOfFrame fL)) (hvR : ValidLayout (stateOfFrame fR))
@@ -83,7 +78,6 @@ theorem actual_middle_ARight_replay (fL fR : SupportFrame)
     exact RightA_seed_frame_replay B pr br fR.last (heR ▸ hvR)
   simp only [middleRight,middleAR,hL,hR]
 
-#print axioms actual_middle_ARight_replay
 
 theorem actual_middle_BLeft_replay (fL fR : SupportFrame)
     (hvL : ValidLayout (stateOfFrame fL)) (hvR : ValidLayout (stateOfFrame fR))
@@ -99,7 +93,6 @@ theorem actual_middle_BLeft_replay (fL fR : SupportFrame)
     exact RightB_seed_frame_replay B pr br fR.last (heR ▸ hvR)
   simp only [middleLeft,middleBL,hL,hR]
 
-#print axioms actual_middle_BLeft_replay
 
 theorem actual_middle_BRight_replay (fL fR : SupportFrame)
     (hvL : ValidLayout (stateOfFrame fL)) (hvR : ValidLayout (stateOfFrame fR))
@@ -115,5 +108,4 @@ theorem actual_middle_BRight_replay (fL fR : SupportFrame)
     exact RightB_seed_frame_replay B pr br fR.last (heR ▸ hvR)
   simp only [middleRight,middleBR,hL,hR]
 
-#print axioms actual_middle_BRight_replay
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

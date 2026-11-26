@@ -108,7 +108,6 @@ theorem r20_a113_a116_same_boundary_occupancies
 
   exact ⟨S, k, H, hG, hSn, hSform, hScap, hocc.1, hocc.2⟩
 
-#print axioms r20_a113_a116_same_boundary_occupancies
 
 end
 end F7Manuscript.TripleCoordinateLattice

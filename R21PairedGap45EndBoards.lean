@@ -41,7 +41,6 @@ theorem noActual_row2048 (R : TokenRun Site (Agent 7) 21) {off : Nat}
     (leftBudget : offset w.rev off 12 ≤ 1) : False := by
   exact noActualOfBoundedLeaf R binary obs checked0 image 1 21 leaf0 empty0
     leftBudget (by omega)
-#print axioms noActual_row2048
 
 /-- Printed paid-pair board 2049, with actual left exterior at most one. -/
 def row2049 : Board := makeBoard 10 [4,2,6,5,1,3,0] [[2],[4,6],[4],[0,1,6],[0,2],[0,1,6],[2,3,4,5]]
@@ -60,7 +59,6 @@ theorem noActual_row2049 (R : TokenRun Site (Agent 7) 21) {off : Nat}
     (leftBudget : offset w.rev off 13 ≤ 1) : False := by
   exact noActualOfBoundedLeaf R binary obs checked1 image 1 21 leaf1 empty1
     leftBudget (by omega)
-#print axioms noActual_row2049
 
 /-- Printed paid-pair board 2050, with actual left exterior at most one. -/
 def row2050 : Board := makeBoard 9 [3,4,1,0,2,6,5] [[2,4,5],[2,3,6],[4,6],[5,6],[0,1],[0,1,3],[0,2,3]]
@@ -79,7 +77,6 @@ theorem noActual_row2050 (R : TokenRun Site (Agent 7) 21) {off : Nat}
     (leftBudget : offset w.rev off 12 ≤ 1) : False := by
   exact noActualOfBoundedLeaf R binary obs checked2 image 1 21 leaf2 empty2
     leftBudget (by omega)
-#print axioms noActual_row2050
 
 /-- Printed paid-pair board 2051, with actual left exterior at most one. -/
 def row2051 : Board := makeBoard 9 [2,4,1,0,6,3,5] [[4,5],[2,3,6],[4,6],[5,6],[0,1,2],[0,1,6],[0,2,3]]
@@ -98,7 +95,6 @@ theorem noActual_row2051 (R : TokenRun Site (Agent 7) 21) {off : Nat}
     (leftBudget : offset w.rev off 12 ≤ 1) : False := by
   exact noActualOfBoundedLeaf R binary obs checked3 image 1 21 leaf3 empty3
     leftBudget (by omega)
-#print axioms noActual_row2051
 
 /-- Printed paid-pair board 2052, with actual left exterior at most one. -/
 def row2052 : Board := makeBoard 9 [2,4,0,5,1,6,3] [[4,5],[2,3,6],[1,4,6],[0,1,6],[0,2],[0,3],[0,4,5]]
@@ -117,7 +113,6 @@ theorem noActual_row2052 (R : TokenRun Site (Agent 7) 21) {off : Nat}
     (leftBudget : offset w.rev off 12 ≤ 1) : False := by
   exact noActualOfBoundedLeaf R binary obs checked4 image 1 21 leaf4 empty4
     leftBudget (by omega)
-#print axioms noActual_row2052
 
 /-- Printed paid-pair board 2053, with actual left exterior at most one. -/
 def row2053 : Board := makeBoard 9 [2,5,4,0,1,6,3] [[4,5],[2,3,4,6],[1,6],[1,5,6],[0,2],[0,3],[0,4,5]]
@@ -136,7 +131,6 @@ theorem noActual_row2053 (R : TokenRun Site (Agent 7) 21) {off : Nat}
     (leftBudget : offset w.rev off 12 ≤ 1) : False := by
   exact noActualOfBoundedLeaf R binary obs checked5 image 1 21 leaf5 empty5
     leftBudget (by omega)
-#print axioms noActual_row2053
 
 /-- Printed paid-pair board 2054, with actual left exterior at most one. -/
 def row2054 : Board := makeBoard 9 [5,4,6,0,1,3,2] [[2,3],[2,3,6],[1,4],[1,5],[0,6],[0,1,6],[0,3,4,5]]
@@ -155,7 +149,6 @@ theorem noActual_row2054 (R : TokenRun Site (Agent 7) 21) {off : Nat}
     (leftBudget : offset w.rev off 12 ≤ 1) : False := by
   exact noActualOfBoundedLeaf R binary obs checked6 image 1 21 leaf6 empty6
     leftBudget (by omega)
-#print axioms noActual_row2054
 
 /-- Printed paid-pair board 2055, with actual left exterior at most one. -/
 def row2055 : Board := makeBoard 9 [5,4,6,0,2,1,3] [[2,3],[2,3,6],[1,4],[1,5],[0,1,6],[0,6],[0,2,4,5]]
@@ -174,5 +167,4 @@ theorem noActual_row2055 (R : TokenRun Site (Agent 7) 21) {off : Nat}
     (leftBudget : offset w.rev off 12 ≤ 1) : False := by
   exact noActualOfBoundedLeaf R binary obs checked7 image 1 21 leaf7 empty7
     leftBudget (by omega)
-#print axioms noActual_row2055
 end F7Manuscript.R21NormalEndpoint.BoundaryAtlas.PairedGap45EndBoards

@@ -44,6 +44,5 @@ theorem SupportsStages.append {W : Type*} [Fintype W] {q : ℕ}
         SupportsStages.cons s index start mv (tail ++ post) hbound hrows
           (ih hpost)
 
-#print axioms SupportsStages.append
 
 end F7Manuscript.OneGap

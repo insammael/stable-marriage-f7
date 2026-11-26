@@ -47,7 +47,5 @@ theorem actual_context_support_of_saved_atom
   rw [natSupport_contextActorRelabel,hactual]
   exact atomSupport_context_compose pre g s hs p h₁ h₂
 
-#print axioms natSupport_contextActorRelabel
-#print axioms actual_context_support_of_saved_atom
 end
 end F7Manuscript.TripleCoordinateLattice

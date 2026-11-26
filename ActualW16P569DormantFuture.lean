@@ -109,7 +109,5 @@ theorem P569B14_future_from_observed_prefix {W : Type*} [Fintype W] {q : ℕ}
   rw [P569B14_prefixFresh_eq] at transported
   exact P569B14_future_le_six_transpose transported
 
-#print axioms P569A14_future_from_observed_prefix
-#print axioms P569B14_future_from_observed_prefix
 
 end F7Manuscript.ActualW16P569DormantFuture

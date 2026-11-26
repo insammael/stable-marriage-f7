@@ -187,8 +187,5 @@ theorem actual_one_T_binary_both_long_samecrew_classification
     (globalThresholdEnumeration C h221 h311)
     (macroPosition C (globalThresholdEnumeration C h221 h311) j) hT hOld hNew
 
-#print axioms actual_binary_T_crew_or_center_of_rows
-#print axioms actual_one_T_binary_singleton_samecrew_classification
-#print axioms actual_one_T_binary_both_long_samecrew_classification
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW36BinaryTActualSameCrewClassification

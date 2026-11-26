@@ -92,6 +92,5 @@ theorem actual_core_first_leaf_prefix_dominated
   rw [hlabel]
   simpa [D, h221D, h311D, hzD] using! hdom
 
-#print axioms actual_core_first_leaf_prefix_dominated
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW28R20PrefixFrontierSpan

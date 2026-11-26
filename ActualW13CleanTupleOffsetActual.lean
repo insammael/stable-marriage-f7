@@ -60,7 +60,6 @@ theorem actual_chart_shifted_offset_clean
   dsimp -failIfUnchanged [shiftedOffset, rootOffset, tupleOffset, K]
   rw [hsum]
 
-#print axioms actual_chart_shifted_offset_clean
 
 end
 end F7Manuscript.ActualW13CleanTupleOffsetActual

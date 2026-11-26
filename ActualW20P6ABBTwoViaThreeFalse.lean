@@ -137,5 +137,4 @@ theorem actual_ABB_two_via_three_false
   exact p6_three_distinct_unused_false tr (4,5) (4,6) (5,6)
     (by decide) (by decide) (by decide) hu45 hu46 hu56
 
-#print axioms actual_ABB_two_via_three_false
 end F7Manuscript.ActualW20P6ABBTwoViaThreeFalse

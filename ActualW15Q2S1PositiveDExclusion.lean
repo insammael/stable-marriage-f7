@@ -143,7 +143,6 @@ theorem actual_X_q2_s1_false
   exact F7Manuscript.ActualW15PositiveDOneCost.positive_D_one_cost_no_two_partial_somes
     W D X.m hm hWlen hDlen hDsum hcost' hforward hreverse
 
-#print axioms actual_X_q2_s1_false
 
 end
 end ActualW15Q2S1PositiveDExclusion

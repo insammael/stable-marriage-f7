@@ -76,6 +76,5 @@ theorem CanonicalDoublePairExcluded_of_observation_exclusion
      refine ⟨v,(hm1.1 a).symm,?_⟩
      exact (Equiv.apply_symm_apply (X.state 0) (X.state ⟨8,by decide⟩ a)).symm
 
-#print axioms CanonicalDoublePairExcluded_of_observation_exclusion
 end
 end F7Manuscript.R21PhysicalWindowWords

@@ -35,5 +35,4 @@ theorem hand_one_ordered_score_or_free_five (ml ql sl mr qr sr : Nat)
       omega
     · exact h
 
-#print axioms hand_one_ordered_score_or_free_five
 end F7Manuscript.TripleCoordinateLattice.R21BareT

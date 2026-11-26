@@ -48,6 +48,4 @@ theorem canonical_boundary {R : TokenRun Site Site 21} {off len : Nat} {bound : 
     rw [aligned.2.2.1]
     exact matching.hole a v
 
-#print axioms checked_root_alignment
-#print axioms canonical_boundary
 end F7Manuscript.R21LongWindow.PureRootCoverage

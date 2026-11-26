@@ -84,6 +84,5 @@ theorem actual_zero_cost_pre_endpoint_for_specified_map
     _ = mapSupportFrame e (recolorCenterFrame a T.finalFrame) :=
       congrArg (fun f => mapSupportFrame e (recolorCenterFrame a f)) htrace
 
-#print axioms actual_zero_cost_pre_endpoint_for_specified_map
 end
 end F7Manuscript.TripleCoordinateLattice

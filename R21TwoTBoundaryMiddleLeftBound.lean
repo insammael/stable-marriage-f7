@@ -96,6 +96,5 @@ theorem middle_pure_five_left_mass_le_one (A B D : NormalSkeleton.Chart)
    have hbound:=middle_BL_bound pl bl fL.last hl
    omega
 
-#print axioms middle_pure_five_left_mass_le_one
 end
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

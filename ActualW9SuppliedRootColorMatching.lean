@@ -88,7 +88,6 @@ theorem supplied_permutation_matches_root
     hlenMapped hpivMapped
   simpa [mapped] using! hroot
 
-#print axioms supplied_permutation_matches_root
 
 #eval IO.eprintln "W9 supplied root color matching checked"
 

@@ -660,7 +660,5 @@ def controlTree : BinaryChoice.Tree (WindowControlCertificate.Leaf 1) := control
 theorem controlTree_valid : BinaryChoice.AllLeaves (WindowControlCertificate.BoundedValid table1 plan29 18) [false] controlTree := by
   simpa [controlTree] using! control_94_valid
 
-#print axioms table1_checked
-#print axioms controlTree_valid
 
 end F7Manuscript.ActualW21Selected29TypedRootTree

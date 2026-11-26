@@ -29,7 +29,6 @@ theorem prefixRoot_future_bound_of_anchors {N n : ℕ} {F : Rel}
     simpa using! hg.trans he
   exact checked_table_bound_of_anchors T checked (future.rename e) r.target hused named
 
-#print axioms prefixRoot_future_bound_of_anchors
 end F7Manuscript.PartnerGraph.Sized
 
 namespace F7Manuscript.WindowControlCertificate
@@ -99,7 +98,5 @@ theorem observed_control_excludes_saturated_prefix_of_anchors
     change r.prefix.length+(T r.target).budget ≤ K at hbudget
     omega
 
-#print axioms bounded_graph_leaf_of_noReturn_prefix
-#print axioms observed_control_excludes_saturated_prefix_of_anchors
 end
 end F7Manuscript.WindowControlCertificate

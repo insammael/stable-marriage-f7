@@ -48,7 +48,4 @@ theorem r21_delta3_ge_seven_total_ge_twelve (hClass : PairClass (V:=V))
   unfold D delta3 at *
   omega
 
-#print axioms universal_difference_le_two
-#print axioms universal_difference_le_two_univ
-#print axioms r21_delta3_ge_seven_total_ge_twelve
 end NeutralCore

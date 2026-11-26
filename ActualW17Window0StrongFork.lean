@@ -377,7 +377,6 @@ theorem fork_receipt_three_mark_edge_bound {F : Rel} {n : ℕ}
                 simpa [p] using! hbound
               omega
 
-#print axioms fork_receipt_three_mark_edge_bound
 
 end
 end F7Manuscript.ActualW17Window0StrongFork

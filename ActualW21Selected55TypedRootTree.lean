@@ -476,7 +476,5 @@ def controlTree : BinaryChoice.Tree (WindowControlCertificate.Leaf 14) := .branc
 theorem controlTree_valid : BinaryChoice.AllLeaves (WindowControlCertificate.BoundedValid table14 plan55 17) [false] controlTree := by
   decide +kernel
 
-#print axioms table14_checked
-#print axioms controlTree_valid
 
 end F7Manuscript.ActualW21Selected55TypedRootTree

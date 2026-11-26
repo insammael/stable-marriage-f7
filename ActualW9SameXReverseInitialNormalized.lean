@@ -177,10 +177,6 @@ theorem actual_X_sameX_reverse_initial_d2
   have hresP : P.levels 0-extra = 2 := by rw [hlevel]; exact hres
   exact ⟨P, d2_of_initial_packet P hm hresP⟩
 
-#print axioms norm3_of_initial_packet
-#print axioms d2_of_initial_packet
-#print axioms actual_X_sameX_reverse_initial_norm3
-#print axioms actual_X_sameX_reverse_initial_d2
 
 end
 end F7Manuscript.ActualW9SameXReverseInitialNormalized

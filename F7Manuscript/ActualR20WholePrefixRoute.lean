@@ -102,7 +102,6 @@ private theorem enumeration_transport_point
   exact actual_subset_normal_route_in_whole_run Q hQ B h221 h311 hz hm T
     (hUF ▸ H) hpoints
 
-#print axioms actual_r20_pre_route_from_whole_enumeration
 
 end
 end F7Manuscript.TripleCoordinateLattice

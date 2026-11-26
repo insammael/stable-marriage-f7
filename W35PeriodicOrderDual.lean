@@ -96,8 +96,5 @@ theorem reverse_enumeration_periodic (phi : W ≃o OrderDual V) (Q : Finset V)
     rw [h0,h3]
     exact h.third_cover n hn'
 
-#print axioms reverse_periodic_order
-#print axioms reverse_enumeration
-#print axioms reverse_enumeration_periodic
 end
 end F7Manuscript.TripleCoordinateLattice.W35PeriodicOrderDual

@@ -104,7 +104,5 @@ theorem actual_X_q0_four_pivot_word
     h221 h311 hG hT X hq hm
   exact ⟨hD,by simpa [hpiv] using! hW⟩
 
-#print axioms actual_X_q0_canonical_word
-#print axioms actual_X_q0_four_pivot_word
 end
 end F7Manuscript.ActualW20Q0CanonicalWord

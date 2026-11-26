@@ -85,5 +85,4 @@ theorem actual_ABB_first_two_direct
       exact hfirst6
     exact False.elim (actual_ABB_first_six_false tr hword hfirst6fun)
 
-#print axioms actual_ABB_first_two_direct
 end F7Manuscript.ActualW20P6ABBFirstTwoDirect

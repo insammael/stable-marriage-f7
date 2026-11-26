@@ -112,8 +112,6 @@ theorem double_partition_card :
   classical
   exact Finset.card_filter_add_card_filter_not (s := byLabel C 2) (fun h => ∃ k, Inc h k)
 
-#print axioms threshold_A2_eq_activeDouble
-#print axioms double_partition_card
 
 end
 end F7Manuscript.TripleCoordinateLattice

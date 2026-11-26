@@ -101,6 +101,5 @@ theorem plan56_bit6_eq_bit2
       (by rw [h2] at h34; exact h34) (by rw [h2] at h35; exact h35) h6 N)
   · rfl
 
-#print axioms plan56_bit6_eq_bit2
 
 end F7Manuscript.ActualW15Word56Bit6Forcing

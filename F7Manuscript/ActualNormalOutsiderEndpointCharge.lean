@@ -103,8 +103,5 @@ theorem actual_normal_outsider_budget_case
   · exact normal_outsider_budget_cases_unoriented _ _ _ hpos hmax hsum
   · exact actual_normal_outsider_low_deficit_budget C hn hδ hG hT hD
 
-#print axioms actual_normal_outsider_endpoint_charge
-#print axioms actual_normal_outsider_low_deficit_budget
-#print axioms actual_normal_outsider_budget_case
 end
 end F7Manuscript.TripleCoordinateLattice

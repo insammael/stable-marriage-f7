@@ -159,6 +159,5 @@ theorem actual_reverse_paired_rows_frame
   exact ⟨cross, label, hrows,
     ActualPairedFrameValidity.afterPaired_stateOfFrame_valid f hv cross label⟩
 
-#print axioms actual_reverse_paired_rows_frame
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW29R20ReversePairedRowsFrame

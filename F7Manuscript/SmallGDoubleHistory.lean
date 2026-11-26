@@ -87,7 +87,5 @@ theorem normalize_six_G_history {W : Type*} [Fintype W]
     hAB hAD hBD hXB hXD hXY hYA hUV hUA hVA
   exact ⟨e,H,hH⟩
 
-#print axioms normalize_six_G_history_with_fixed
-#print axioms normalize_six_G_history
 end
 end F7Manuscript.SmallGDoubleHistory

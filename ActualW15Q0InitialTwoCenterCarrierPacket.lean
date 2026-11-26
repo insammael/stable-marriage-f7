@@ -144,7 +144,6 @@ def initial_two_center_carrier_packet
   · simpa only [out', hshape, e] using!
       (initial_two_center_endpoint_normalization tail C.out)
 
-#print axioms initial_two_center_carrier_packet
 
 end
 end F7Manuscript.ActualW15Q0InitialTwoCenterCarrierPacket

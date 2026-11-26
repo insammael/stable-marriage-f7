@@ -82,9 +82,3 @@ theorem actual_q_zero
 
 end F7Manuscript.TripleCoordinateLattice.H7PostArithmetic
 
-#print axioms F7Manuscript.TripleCoordinateLattice.H7PostArithmetic.fin_eq_of_card_one
-#print axioms F7Manuscript.TripleCoordinateLattice.H7PostArithmetic.pre_m_eq_zero
-#print axioms F7Manuscript.TripleCoordinateLattice.H7PostArithmetic.charge_le_four
-#print axioms F7Manuscript.TripleCoordinateLattice.H7PostArithmetic.pre_cost_lower
-#print axioms F7Manuscript.TripleCoordinateLattice.H7PostArithmetic.post_cost_nonpos
-#print axioms F7Manuscript.TripleCoordinateLattice.H7PostArithmetic.actual_q_zero

@@ -147,6 +147,5 @@ theorem routePrefix_center_only_reorient
       | paired =>
           exact False.elim (hcenterOnly (List.mem_cons_self))
 
-#print axioms routePrefix_center_only_reorient
 
 end F7Manuscript.N4CenterOnlySupportReorientation

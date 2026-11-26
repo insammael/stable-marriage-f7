@@ -43,6 +43,5 @@ theorem actual_reflected_pure_prefix_cuts
   exact F7Manuscript.ActualW33SuffixCutsReflection.q0Cuts_suffix_to_reflected_prefix
     (S) lo (actual_pure_suffix_cuts C h221 h311 hG hT hQ lo hzero)
 
-#print axioms actual_reflected_pure_prefix_cuts
 end
 end F7Manuscript.ActualW33ReflectedPurePrefixCuts

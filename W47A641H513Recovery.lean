@@ -123,11 +123,6 @@ theorem a638_selected_13_1_canonical_recovery
     _ _ _ _ _ _ _
     heq0 heq1 hledger hdef
 
-#print axioms a381_a228_selected_13_1_run_cards
-#print axioms a389_canonical_run_card_arithmetic
-#print axioms a572_a228_selected_canonical_pair_ledger
-#print axioms a638_forward_13_1_arithmetic
-#print axioms a638_selected_13_1_canonical_recovery
 
 end
 

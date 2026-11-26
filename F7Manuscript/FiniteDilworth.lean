@@ -251,4 +251,3 @@ theorem coloring_of_width (P : Finset V) (k : ℕ)
 end
 end F7Manuscript.FiniteDilworthProof
 
-#print axioms F7Manuscript.FiniteDilworthProof.coloring_of_width

@@ -24,5 +24,4 @@ theorem allKeys_of_children {T : Dict} {p : Nat -> Nat -> Bool}
   change allKeys p r=true at right
   simp only [allKeys,head,left,right,Bool.true_and]
 
-#print axioms allKeys_of_children
 end F7Manuscript.R21NormalEndpoint.Projection.Snapshots

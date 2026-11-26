@@ -30,6 +30,4 @@ run_cmd do
       logInfo m!"Public alias {publicName} reuses {originalName}"
     | _ => throwError "Expected exactly one frozen declaration for {suffix}; got {foundMatches.size}"
 
-#print axioms F7Manuscript.ActualW20P6BBSource3Export.bb_source3_impossible
-#print axioms F7Manuscript.ActualW20P6BBSource3Export.token_A_freezes_at_3
 

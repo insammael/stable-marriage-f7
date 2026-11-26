@@ -111,7 +111,5 @@ theorem actual_T_saved_row_context_supports
   exact actual_context_support_of_saved_atom e pre g hg s hs _
     (row.getD i.val (0,0)) hbounds.1 hbounds.2 hbase
 
-#print axioms actual_T_saved_outsider_context_supports
-#print axioms actual_T_saved_row_context_supports
 end
 end F7Manuscript.TripleCoordinateLattice

@@ -39,6 +39,5 @@ theorem double_zero_cost_three_impossible (t : Matching) (bits : Nat → Bool)
       simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
     exact (h.fresh 9 (by decide) 5 hp 0 (by decide)) hEq
 
-#print axioms double_zero_cost_three_impossible
 
 end F7Local

@@ -159,7 +159,6 @@ theorem boundary_short_route_with_endpoint
     GenericNormal.actualNormalLabel_initial_eq_bot B h221 h311 hz c] at heq
   exact heq.trans (hrow c)
 
-#print axioms boundary_short_route_with_endpoint
 end Saturated
 end
 end F7Manuscript.TripleCoordinateLattice

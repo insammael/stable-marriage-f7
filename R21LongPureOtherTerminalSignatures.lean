@@ -285,6 +285,4 @@ theorem noClosedOutward (i : Fin 22)
   let f := fixed[i.val]'(by simpa [fixed] using! i.isLt)
   exact Projection.contradiction_of_leaf walk.coherent
     (walk.tracks_closed f.closedL f.closedR leftEmpty rightEmpty) f.leaf (certificate i)
-#print axioms certificate
-#print axioms noClosedOutward
 end F7Manuscript.R21LongWindow.PureOtherTerminalSignatures

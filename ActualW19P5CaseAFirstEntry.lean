@@ -54,6 +54,5 @@ theorem p5_caseA_first_special_boundary_entry_at_three
   subst x
   exact ⟨y, hxy, hentry⟩
 
-#print axioms p5_caseA_first_special_boundary_entry_at_three
 
 end F7Manuscript.ActualW19P5CaseAFirstEntry

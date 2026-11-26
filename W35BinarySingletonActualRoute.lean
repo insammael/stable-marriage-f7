@@ -178,9 +178,6 @@ theorem actual_binary_singleton_mixed_run_identity
   unfold actual_binary_singleton_mixed_run
   rfl
 
-#print axioms binary_singleton_first_actual_route
-#print axioms actual_binary_singleton_mixed_run
-#print axioms actual_binary_singleton_mixed_run_identity
 
 end
 end F7Manuscript.TripleCoordinateLattice.W35BinarySingletonActualRoute

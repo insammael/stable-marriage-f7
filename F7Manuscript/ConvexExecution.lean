@@ -283,11 +283,6 @@ theorem actual_event_count_le_twenty_one (I : Profile 7)
   have hconvex : OrderConvex (Finset.univ : Finset (Event I)) := by simp [OrderConvex]
   simpa using! seven_event_card_le I Finset.univ hconvex
 
-#print axioms run
-#print axioms step_support
-#print axioms actualSupportModel
-#print axioms actual_pairClass
-#print axioms actual_event_count_le_twenty_one
 
 end
 

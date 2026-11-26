@@ -127,6 +127,5 @@ theorem fourCenter_join_centerColorAdmissible
     · simpa only [f, pre, Nat.zero_add] using! hrest
   simpa [pre, mid, post, z, List.append_assoc] using! hjoined
 
-#print axioms fourCenter_join_centerColorAdmissible
 end
 end F7Manuscript.W38FourCenterJoinAdmissibility

@@ -113,7 +113,3 @@ end
 
 end F7Manuscript.TripleCoordinateLattice.A136
 
-#print axioms F7Manuscript.SupportBridge.orderConvex_of_four_intervals
-#print axioms F7Manuscript.SupportBridge.orderConvex_five_of_four_exact_Icc
-#print axioms F7Manuscript.TripleCoordinateLattice.A136.canonical_singleton_four_Icc
-#print axioms F7Manuscript.TripleCoordinateLattice.A136.canonical_singleton_five_orderConvex

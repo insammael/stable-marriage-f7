@@ -51,8 +51,6 @@ theorem r21_one_outsider_one_G_original (I : Profile 7) [Nonempty (StableMatchin
   intro j
   exact Finset.card_eq_zero.mpr (hempty (macroPosition C (globalThresholdEnumeration C h221 h311) j))
 
-#print axioms count_of_all_outsiders_at_single_G_ends
-#print axioms r21_one_outsider_one_G_original
 end
 end F7Manuscript.ActualPositiveDeficitCoverAssembly
 

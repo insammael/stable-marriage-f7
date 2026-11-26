@@ -90,7 +90,5 @@ theorem pair_after_cut (hn : Fintype.card (Event I)=21)
   rw [finish] at ha hb'
   exact ⟨a,b,hab,ha,hb'⟩
 
-#print axioms pair_before_cut
-#print axioms pair_after_cut
 end
 end F7Manuscript.TripleCoordinateLattice.R21BareT

@@ -51,7 +51,4 @@ theorem new102Geometry_plan_eq_root :
           (new102Geometry.colors.length-1) := by
   decide +kernel
 
-#print axioms new102Geometry_norm_eq
-#print axioms new102Geometry_data
-#print axioms new102Geometry_plan_eq_root
 end F7Manuscript.ActualW13New102Geometry

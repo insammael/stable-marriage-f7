@@ -57,8 +57,5 @@ theorem model_is_one_of_five (f g : Flag) :
   rw [←hf,←hg]
   exact ⟨renameModel e f g⟩
 
-#print axioms renameModel
-#print axioms flag_normalization
-#print axioms model_is_one_of_five
 
 end NeutralCore

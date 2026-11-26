@@ -145,7 +145,5 @@ theorem actual_q0_positive_window_patterns_false
     rw [window41_value] at hv
     omega
 
-#print axioms q0_cut_value_le_partial
-#print axioms actual_q0_positive_window_patterns_false
 end
 end F7Manuscript.ActualW21Q0PositiveWindowExclusions

@@ -119,6 +119,5 @@ theorem p5_two_pre_mutual_paths_have_common_entry
   exact p5_unique_third_site a2 a6 (T.left m) (T.rightSite m)
     ha2 ha6 hleftS hrightS hLR h2notLeft h2notRight h6notLeft h6notRight
 
-#print axioms p5_two_pre_mutual_paths_have_common_entry
 
 end F7Manuscript.ActualW20P5CommonThirdEntrySite

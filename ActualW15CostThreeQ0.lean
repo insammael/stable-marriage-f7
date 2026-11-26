@@ -67,7 +67,6 @@ theorem actual_X_cost_three_q_zero
       (ActualW15Q1S2EndpointExclusion.actual_X_q1_s2_endpoint_false
         C hn hδ hdeficit hpos h221 h311 hG hT X hu hq1 hs hDint)
 
-#print axioms actual_X_cost_three_q_zero
 
 end
 end ActualW15CostThreeQ0

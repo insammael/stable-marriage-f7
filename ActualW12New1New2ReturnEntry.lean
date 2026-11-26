@@ -81,10 +81,6 @@ theorem new2_metadata :
     new2_return_entry.D.length = new2_return_entry.colors.length ∧
     new2_return_entry.D[0]! ≤ 2 := metadata_shape new2_return_entry (Or.inr rfl)
 
-#print axioms new1_return_entry
-#print axioms new2_return_entry
-#print axioms new1_metadata
-#print axioms new2_metadata
 
 #eval IO.eprintln "W12 NEW1/NEW2 return-entry checked"
 

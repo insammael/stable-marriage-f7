@@ -33,7 +33,6 @@ theorem positive_post_scalar_residual
       Spost hmPost6 hqPos hs0 A
   omega
 
-#print axioms positive_post_scalar_residual
 
 end
 end F7Manuscript.W37PositivePostScalar

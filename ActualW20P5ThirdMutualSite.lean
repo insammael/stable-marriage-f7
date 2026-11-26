@@ -50,6 +50,5 @@ theorem p5_third_mutual_site (L R : Site) (hL : L ∈ S) (hR : R ∈ S)
   have hyPair : y ∈ ({L,R} : Finset Site) := by rw [hpairEq]; exact hyErase
   simpa only [Finset.mem_insert, Finset.mem_singleton] using hyPair
 
-#print axioms p5_third_mutual_site
 
 end F7Manuscript.ActualW20P5ThirdMutualSite

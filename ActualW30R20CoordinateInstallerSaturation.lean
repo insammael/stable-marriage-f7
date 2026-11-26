@@ -92,7 +92,5 @@ theorem coordinate_installers_give_saturation
     f R e k hk beta₀ beta₁ hbeta₀ hbeta₁ hprefix hno₀ hno₁ hmap₀ hmap₁
     hfull k₁ k₂ hk₁ hk₂ hnewPool⟩
 
-#print axioms coordinate_frontier_no_later_contact
-#print axioms coordinate_installers_give_saturation
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW30R20CoordinateInstallerSaturation

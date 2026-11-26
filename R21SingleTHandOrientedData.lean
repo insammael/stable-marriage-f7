@@ -40,7 +40,5 @@ theorem oriented_postSeed_correct : ∀ (phase : Bool) (p s : Fin 6),
 theorem oriented_postSeed_member : ∀ (phase : Bool) (p s : Fin 6),
     physical (postSeedOfFrame (mapSupportFrame (crownSymm s) (orientedRightFrame phase p)))∈handSeedStates := by decide
 
-#print axioms oriented_first_two_cover
-#print axioms oriented_postSeed_member
 end
 end F7Manuscript.R21SingleTHand

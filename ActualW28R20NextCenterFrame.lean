@@ -126,7 +126,5 @@ theorem core_normal_next_center_frame
   · simpa [jnext, fnext] using! hnext
   · exact hsupport.trans (congrArg F7Local.pairSupport hfront)
 
-#print axioms core_normal_block_boundary_row_eq_w28
-#print axioms core_normal_next_center_frame
 end
 end F7Manuscript.TripleCoordinateLattice.CoreActual

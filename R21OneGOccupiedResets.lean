@@ -116,6 +116,5 @@ theorem occupied_G_exclusive_resets
     · exact ⟨x,hx,lt_of_le_of_ne h (fun heq => (hfixed x hx).1
         (heq.symm ▸ (he.le.trans (Finset.mem_filter.mp hs).2.1)))⟩
 
-#print axioms occupied_G_exclusive_resets
 end
 end F7Manuscript.TripleCoordinateLattice.R21OneGOccupied

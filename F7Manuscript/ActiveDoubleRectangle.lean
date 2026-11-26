@@ -191,6 +191,5 @@ theorem active_double_global_rectangle
     (globalBeforeThreshold_predecessors C h221 h311 h)
     hk ((mem_activeDouble C h).mp ha).1 hkh
 
-#print axioms active_double_global_rectangle
 end
 end F7Manuscript.TripleCoordinateLattice

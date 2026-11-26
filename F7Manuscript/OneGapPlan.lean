@@ -211,5 +211,4 @@ theorem history_return_excludes_prefix {W : Type*} [Fintype W] {q : ℕ}
   intro h
   exact HistoryReturnCertificate.valid_excludes L hL _ (realizes_takeRun R L.word h)
 
-#print axioms history_return_excludes_prefix
 end F7Manuscript.OneGap

@@ -66,7 +66,6 @@ theorem actual_X_u3_q1_s3_forward_ordinal45_anchor8_false
     simpa [Nat.min_eq_left hforward] using! hmin
   omega
 
-#print axioms actual_X_u3_q1_s3_forward_ordinal45_anchor8_false
 
 end
 end F7Manuscript.ActualW17Saved45ActualFalse

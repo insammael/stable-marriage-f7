@@ -252,7 +252,6 @@ theorem actual_u3_cost_three_first14_frontend
   · simpa [W] using! hPabc
   · simpa [W] using! htake
 
-#print axioms actual_u3_cost_three_first14_frontend
 
 end
 end F7Manuscript.ActualW16U3First14Frontend

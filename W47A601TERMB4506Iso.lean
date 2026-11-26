@@ -383,6 +383,5 @@ theorem terminal_B45_06 :
   rcases hc with ⟨hs, hx, hf⟩
   exact check_all c ⟨hs, hx, hf⟩
 
-#print axioms terminal_B45_06
 
 end F7Manuscript.PartnerGraph.G1Frozen13.CertW601

@@ -94,7 +94,6 @@ theorem actual_scheduled_one_d1_cross_row
         · rw [hframe]
           simp [afterPaired, afterCenter]
 
-#print axioms actual_scheduled_one_d1_cross_row
 
 end
 end F7Manuscript.TripleCoordinateLattice

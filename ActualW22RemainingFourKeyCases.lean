@@ -79,5 +79,4 @@ theorem mem_survivingQueryKeys4_cases (k : QueryKey) (hk : k ∈ survivingQueryK
   have hp : keepFour k := ⟨p15,p10,p9,p8,p7,p5,p4⟩
   exact (of_decide_eq_true ((List.all_eq_true.mp queryKeys_keepFour_cases) k h15.1)) hp
 
-#print axioms mem_survivingQueryKeys4_cases
 end F7Manuscript.ActualW22RemainingFourKeyCases

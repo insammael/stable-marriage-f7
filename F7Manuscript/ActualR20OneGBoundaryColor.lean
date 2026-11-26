@@ -88,6 +88,5 @@ theorem actual_r20_one_G_low_deficit_boundary_color
   have hD4 : pairDeficit (tripleVertices C) ≤ 4 := hcore
   omega
 
-#print axioms actual_r20_one_G_low_deficit_boundary_color
 end
 end F7Manuscript.TripleCoordinateLattice

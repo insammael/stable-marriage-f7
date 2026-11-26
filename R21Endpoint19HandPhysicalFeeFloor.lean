@@ -45,6 +45,5 @@ theorem actual_window_fee_floor {length : Nat} (C : Chart)
    have eq7 : x≠7 := by omega
    simpa [localFeeFloor,h6,h10,h12,eq6,eq7] using! fee
 
-#print axioms actual_window_fee_floor
 end
 end F7Manuscript.R21Endpoint19Hand

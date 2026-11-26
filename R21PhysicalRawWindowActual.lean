@@ -89,6 +89,5 @@ theorem raw_normal_word_has_actual_window (C : Chart) (positive : 1<=C.m)
  rw [runEq]
  rfl
 
-#print axioms raw_normal_word_has_actual_window
 end
 end F7Manuscript.R21PhysicalWindowWords

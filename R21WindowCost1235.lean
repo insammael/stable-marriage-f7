@@ -41,7 +41,6 @@ theorem actual_r21_normal_window_cost_of_long_exclusions
         C hn h221 h311 exclude12 exclude13 i atLeastTwelve
   · simp [windowCost, below, notSix, notSeven, short, within]
 
-#print axioms actual_r21_normal_window_cost_of_long_exclusions
 
 end
 end F7Manuscript.TripleCoordinateLattice

@@ -78,6 +78,5 @@ theorem DatedPlan.reseedAfterCenters (n : Nat) :
       refine ⟨cyclicCompose p q,S2,bnew,?_,bin2⟩
       simpa only [offEq,lenEq,recolor_compose,bitEq] using! D2
 
-#print axioms DatedPlan.reseedAfterCenters
 end
 end F7Manuscript.R21NormalEndpoint.ReseededObservation

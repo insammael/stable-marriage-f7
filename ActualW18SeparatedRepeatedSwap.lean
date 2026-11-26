@@ -81,7 +81,5 @@ theorem fixedTokenSwapTrace_separated_repeated_swap_false
   have hnr := T.no_return l a ha k.castSucc (by simp only [Fin.val_castSucc, Fin.val_castSucc]; omega)
   exact hnr hrepeat
 
-#print axioms fixedTokenSwapTrace_interval_unchanged
-#print axioms fixedTokenSwapTrace_separated_repeated_swap_false
 
 end F7Manuscript.PartnerGraph

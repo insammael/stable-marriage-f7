@@ -68,8 +68,6 @@ theorem actual_gap_matching_choices_of_initial_three
     (by simpa using! hXbinary) (by simpa using! hYbinary)
     (by simpa using! hdisj) (by simpa using! hXfixed) (by simpa using! hYfixed)
 
-#print axioms observed_prefix_of_initial_three
-#print axioms actual_gap_matching_choices_of_initial_three
 
 end
 end F7Manuscript.OneGap

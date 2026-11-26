@@ -126,7 +126,5 @@ theorem actual_no_outsider_nonbinary_boundary_run_short
   · exact hc hb.1
   · exact hc hb.2
 
-#print axioms actual_no_outsider_normal_run_boundaries_binary
-#print axioms actual_no_outsider_nonbinary_boundary_run_short
 end
 end F7Manuscript.TripleCoordinateLattice

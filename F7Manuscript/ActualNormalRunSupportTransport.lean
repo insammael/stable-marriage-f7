@@ -120,8 +120,6 @@ theorem rowsMatch_recolored_frames_share_actor_coordinates
     rw [hax]
     exact eG.symm_apply_apply x
 
-#print axioms rowsMatch_recolored_actorRelabel_support
-#print axioms rowsMatch_recolored_frames_share_actor_coordinates
 
 end
 end F7Manuscript.TripleCoordinateLattice

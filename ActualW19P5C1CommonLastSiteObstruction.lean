@@ -53,6 +53,5 @@ theorem p5_mutual_common_last_site_obstruction
   exact no_two_tokens_share_common_last_site T S k 2 6 r hr (by decide)
     hseen2 hseen6 hstays2 hstays6 hfuture2 hfuture6
 
-#print axioms p5_mutual_common_last_site_obstruction
 
 end F7Manuscript.ActualW19P5C1CommonLastSiteObstruction

@@ -71,8 +71,6 @@ theorem actual_pure_combined_tuple_requirement_endpoint
   refine ⟨max r13 r102, ?_, max_le hbound13 hbound102⟩
   simp [pureCombinedTupleRequirement, hr13, hr102]
 
-#print axioms pureCombinedTupleRequirement_none_iff
-#print axioms actual_pure_combined_tuple_requirement_endpoint
 
 end
 end F7Manuscript.ActualW14CombinedTupleFilter

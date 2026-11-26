@@ -33,6 +33,5 @@ theorem good_event12_pair
         select,other,put,Fin.ofNat,hfirst 0 (by decide),hfirst 1 (by decide),
         hfirst 2 (by decide),h4,hz,hx,h6,h7,h8]
 
-#print axioms good_event12_pair
 
 end F7Manuscript.ActualW12New1213GoodEvent12

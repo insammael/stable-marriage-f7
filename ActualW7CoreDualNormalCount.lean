@@ -34,7 +34,6 @@ theorem coreDual_normalBlockCount :
   simpa [w7ComapPartition] using!
     (normalBlockCount_comap (dualPartition (corePartition C)) (coreDualOrderIso C))
 
-#print axioms coreDual_normalBlockCount
 
 end
 end F7Manuscript.ActualW7CoreDualNormalCount

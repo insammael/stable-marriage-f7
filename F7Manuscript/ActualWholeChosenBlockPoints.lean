@@ -69,7 +69,5 @@ theorem chosen_future_points_of_whole_concatenation
   have h := hptsWhole ⟨U.card+i.val, hi⟩
   simpa only [concatenateMap, dif_neg hnlt, Nat.add_sub_cancel_left] using! h
 
-#print axioms chosen_gap_points_of_whole_concatenation
-#print axioms chosen_future_points_of_whole_concatenation
 end
 end F7Manuscript.TripleCoordinateLattice

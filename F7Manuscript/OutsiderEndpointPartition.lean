@@ -178,7 +178,5 @@ theorem before_core_neighbors_monotone {x y : V}
   apply mem_incNeighbors.mpr
   exact ⟨hzcore,hy z hzcore,fun hyz => hzx.2 (hxy.trans hyz)⟩
 
-#print axioms outsider_total_endpoint_charge_le
-#print axioms after_core_neighbors_antitone
 end
 end F7Manuscript.TripleCoordinateLattice

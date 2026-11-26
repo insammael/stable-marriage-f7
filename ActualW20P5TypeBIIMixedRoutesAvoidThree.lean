@@ -70,6 +70,5 @@ theorem p5_mixed_residual_routes_avoid_three
       rw [hXpreB, htx5, hYpostB, hty5]
     exact (T.no_return qy B hBleftY qx.castSucc htime) hret.symm
 
-#print axioms p5_mixed_residual_routes_avoid_three
 end F7Manuscript.ActualW20P5TypeBIIMixedRoutesAvoidThree
 

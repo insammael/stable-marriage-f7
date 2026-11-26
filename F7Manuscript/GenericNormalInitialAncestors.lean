@@ -66,7 +66,6 @@ theorem normal_point_initial_or_first_center_or_majority (x : V) :
         rw [actualNormalLabel_initial_eq_bot C h221 h311 hz b] at h
         exact h
 
-#print axioms normal_point_initial_or_first_center_or_majority
 
 theorem first_center_initial_row_relations (j : Fin (normalBlockCount C))
     (hj : j.val = 0) :
@@ -97,6 +96,5 @@ theorem first_center_initial_row_relations (j : Fin (normalBlockCount C))
       normalUpperLower_other_coordinate_eq C h221 h311 hz j ⟨0,by omega⟩ d hd,hinit'] at h
     simpa only [centerVertex,actualNormalLabel_center] using! h
 
-#print axioms first_center_initial_row_relations
 end
 end F7Manuscript.TripleCoordinateLattice.GenericNormal

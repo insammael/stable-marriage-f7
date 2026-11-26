@@ -46,6 +46,5 @@ theorem p5_boundary_token_visits_both_mutual_endpoints
   · exact Or.inl ⟨hL.1, hL.2, hswap.2.trans hL.1⟩
   · exact Or.inr ⟨hR.1, hR.2, hswap.1.trans hR.1⟩
 
-#print axioms p5_boundary_token_visits_both_mutual_endpoints
 
 end F7Manuscript.ActualW20P5BoundaryMutualVisitBundle

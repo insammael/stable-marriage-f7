@@ -124,8 +124,6 @@ theorem original_mixed_counter_boundary_recovery
       S0.m S1.m S0.q S1.q S0.s S1.s 2
       hcard0 hcard1 hcap0 hcap1 hledgerN le_rfl
 
-#print axioms original_mixed_counter_pairDeficit_le_two
-#print axioms original_mixed_counter_boundary_recovery
 
 end
 

@@ -94,7 +94,5 @@ theorem global_isolated_G_exclusive_reset
     rw [if_pos hd] at hcoord
     exact hreset.trans (congrArg (fun z : V => ({z} : Finset V)) hcoord.symm)
 
-#print axioms global_G_fixed_exclusive_reset
-#print axioms global_isolated_G_exclusive_reset
 end
 end F7Manuscript.TripleCoordinateLattice

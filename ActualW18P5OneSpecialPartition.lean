@@ -305,6 +305,4 @@ theorem p5_internal_special_count (T : FixedTokenSwapTrace (graphRel p5G0) 13) :
   rw [hb, hd] at ht
   omega
 
-#print axioms p5_one_special_count_partition
-#print axioms p5_internal_special_count
 end F7Manuscript.ActualW18P5OneSpecialPartition

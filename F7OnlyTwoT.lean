@@ -20,6 +20,5 @@ theorem f7_eq_85_of_two_bare_T
   · exact r21_two_outsiders_one_G_original I
   · exact twoT I
 
-#print axioms f7_eq_85_of_two_bare_T
 end
 end F7Manuscript.ActualPositiveDeficitCoverAssembly

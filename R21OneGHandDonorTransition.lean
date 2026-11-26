@@ -49,6 +49,5 @@ theorem future_transition_snapshot_donor
         exact eq (state_eq_of_rank_eq R j t k.castSucc future equal)
       exact strict
 
-#print axioms future_transition_snapshot_donor
 end
 end F7Manuscript.R21OneGHandDonor

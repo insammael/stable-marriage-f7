@@ -200,7 +200,6 @@ noncomputable def rawRun
 
 end SubsetNormalMixedTrace
 
-#print axioms subsetNormal_mixed_trace_exists
 
 end
 end F7Manuscript.TripleCoordinateLattice

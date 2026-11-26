@@ -106,7 +106,5 @@ include hn in
   rw [reverseCosts.1,reverseCosts.2.1,reverseCosts.2.2] at score
   exact score
 
-#print axioms actual_window_strong_from_exclusions
-#print axioms original_bare_T_fee_one_from_exclusions
 end
 end F7Manuscript.TripleCoordinateLattice.R21BareT

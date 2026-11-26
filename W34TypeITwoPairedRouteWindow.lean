@@ -117,7 +117,5 @@ theorem actual_two_paired_fixed_center_after_valid_mixed_prefix
                   apply ih _ _ _ rest Vrest
                   simpa [eventCount, supportsRouteFinal] using! Mnext
 
-#print axioms actual_two_paired_fixed_center_route_impossible
-#print axioms actual_two_paired_fixed_center_after_valid_mixed_prefix
 end
 end F7Manuscript.TripleCoordinateLattice.W34TypeITwoPairedRouteWindow

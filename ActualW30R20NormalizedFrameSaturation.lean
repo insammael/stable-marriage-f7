@@ -44,6 +44,5 @@ theorem saturated_witness_refit_to_next_center_frame
       f ρ e1 cAnchor cRetired hAnchor hRetired hpool1
   exact saturated_witness_refit R finish W e0 e1 rawPool hmap0 hmap1 htok hpast
 
-#print axioms saturated_witness_refit_to_next_center_frame
 end
 end F7Manuscript.ActualW30R20NormalizedFrameSaturation

@@ -404,7 +404,6 @@ theorem actual_macro_q1_mixed_capacity
       ((reindexRun (run I Qpost hQpost Epost).toTokenRun e).firstSteps 14 hQcard) hreal
   exact ⟨e,b,f,hfixed,hcap,hmemory,hbits0,hnoReturn⟩
 
-#print axioms actual_macro_q1_mixed_capacity
 
 end
 end F7Manuscript.TripleCoordinateLattice

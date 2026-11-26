@@ -131,5 +131,4 @@ theorem p5_CII_A4_actual_route_impossible
   exact p5_CII_A4_actual_receipt_contradiction T hsat b2 b6 m hb2arr hpost4
     hb6m hb6post3 hmPre3 hmPost3 hvisited2 r1 h1time h1
 
-#print axioms p5_CII_A4_actual_route_impossible
 end F7Manuscript.ActualW20P5CIIA4RouteClosure

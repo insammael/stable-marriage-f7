@@ -102,5 +102,4 @@ theorem p5_saturated_receipt_index_is_residual
       exact False.elim (hrR hrsame)
   · exact hq
 
-#print axioms p5_saturated_receipt_index_is_residual
 end F7Manuscript.ActualW20P5ResidualReceiptIndex

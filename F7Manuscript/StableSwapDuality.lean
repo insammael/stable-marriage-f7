@@ -236,8 +236,3 @@ end Events
 end
 end F7Manuscript
 
-#print axioms F7Manuscript.LatticeKappa.kappaIso
-#print axioms F7Manuscript.female_le_of_le
-#print axioms F7Manuscript.swapStableIso
-#print axioms F7Manuscript.eventSwapIso
-#print axioms F7Manuscript.event_card_swap

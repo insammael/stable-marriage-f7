@@ -170,9 +170,6 @@ theorem twelve_cost_one_periodic_enumeration
     rw [hpoint]
     exact introduction_initial G c
 
-#print axioms periodic_introduction_order
-#print axioms twelve_cost_one_backtrack_free
-#print axioms twelve_cost_one_periodic_enumeration
 
 theorem cost_one_periodic_enumeration_of_twelve {m : Nat}
     (Q : Finset (Event I)) (hQ : OrderConvex Q) (H : FrontierChart I m)
@@ -250,9 +247,6 @@ theorem actual_normal_q0_twelve_periodic_enumeration
   rw [hinit, hHinitial]
   exact actual_normal_run_initial_row_label C h221 h311 hu Eglobal R (α.symm c)
 
-#print axioms cost_one_periodic_enumeration_of_twelve
-#print axioms q0_chart_with_initial_labels_same_decisions
-#print axioms actual_normal_q0_twelve_periodic_enumeration
 
 end
 end F7Manuscript.ActualQ1PostPeriodicEnumeration

@@ -40,5 +40,4 @@ theorem q0Cuts_suffix_to_reflected_prefix (S : Chart) (lo : Fin S.m)
   simp [Fin.rev] <;> omega
 
 
-#print axioms q0Cuts_suffix_to_reflected_prefix
 end F7Manuscript.ActualW33SuffixCutsReflection

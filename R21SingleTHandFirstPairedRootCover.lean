@@ -49,7 +49,5 @@ theorem firstPaired_root_cover (c : Fin 3) (b cross label : Bool) (u : State)
  | none => simp [hv] at hs
  | some v => exact ⟨s,v,hv,of_decide_eq_true (by simpa [hv] using! hs)⟩
 
-#print axioms firstPairedRootChecked
-#print axioms firstPaired_root_cover
 end
 end F7Manuscript.R21SingleTHand

@@ -30,7 +30,5 @@ theorem selected29_profile_metadata :
       totalBudget29 = eventBudget29 + branchBudget29 ∧ totalBudget29 = 18 := by
   decide
 
-#print axioms selected29_old_frontier
-#print axioms selected29_profile_metadata
 
 end F7Manuscript.ActualW21Selected29OldFrontier

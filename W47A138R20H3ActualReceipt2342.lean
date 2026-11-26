@@ -177,10 +177,6 @@ theorem a131_section82_whole_execution_false
         omega)
       hreturn.symm
 
-#print axioms F7Manuscript.ConvexExecution.step_exchange_of_support_pair
-#print axioms F7Manuscript.ConvexExecution.step_three_cycle_of_support_triple
-#print axioms whole_original_state_receipt_false
-#print axioms a131_section82_whole_execution_false
 
 end
 

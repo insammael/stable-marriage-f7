@@ -77,7 +77,5 @@ theorem firstD34_actual_full_controls_A
   rw [hhead]
   exact hnorm
 
-#print axioms actual_mixedPlan_head_firstTwo
-#print axioms firstD34_actual_full_controls_A
 
 end F7Manuscript.N4FirstD34ActualFullControls

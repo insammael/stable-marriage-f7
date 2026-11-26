@@ -93,7 +93,6 @@ theorem actual_dual_core_columns_as_comap
     ⟨jD.val, by rw [normalBlockCount_comap D (coreDualOrderIso C)]; exact jD.isLt⟩
   exact ⟨hpart, jW, rfl, htransport.1, htransport.2⟩
 
-#print axioms actual_dual_core_columns_as_comap
 
 end
 end F7Manuscript.ActualW7CoreDualNormalColumns

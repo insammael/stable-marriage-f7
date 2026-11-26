@@ -114,13 +114,6 @@ theorem observed_V1_future_length_le_two
     (future : Sized.Future (renamed (Fresh R t) permVx1) 2 n) : n ≤ 2 := by
   exact observed_Vx1_future_length_le_two R t (observed_Vx1_of_wordV1 R t H) future
 
-#print axioms observedPrefix_transfer
-#print axioms wordU0_terminal_origins
-#print axioms wordU0_prefix_origins
-#print axioms wordV1_terminal_origins
-#print axioms wordV1_prefix_origins
-#print axioms observed_U0_future_length_le_two
-#print axioms observed_V1_future_length_le_two
 #eval IO.eprintln "W12 NEW5/6 observed-prefix transfer checked"
 
 end F7Manuscript.ActualW12New56ObservedPrefixTransfer

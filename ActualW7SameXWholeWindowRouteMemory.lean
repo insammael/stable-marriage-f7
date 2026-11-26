@@ -136,7 +136,6 @@ theorem actual_sameX_whole_window_route_memory
   refine ⟨A,R,?_,hrouteMemory.1,hrouteMemory.2⟩
   exact ⟨hsize,hpre,hcycles,hbinary⟩
 
-#print axioms actual_sameX_whole_window_route_memory
 
 end
 end F7Manuscript.ActualW7SameXWholeWindowRouteMemory

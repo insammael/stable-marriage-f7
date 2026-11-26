@@ -74,9 +74,5 @@ theorem source14_B1 (bits : Nat → Bool)
     h0, h1, h2, h3, h4, h5, h6, h7, h8, h9]
   decide
 
-#print axioms source14_A0
-#print axioms source14_A1
-#print axioms source14_B0
-#print axioms source14_B1
 
 end F7Manuscript.ActualW16Window30ScheduleWords

@@ -26,6 +26,5 @@ theorem qpos19_cost_le_three_cases
     simpa [Chart.n] using hn.symm
   omega
 
-#print axioms qpos19_cost_le_three_cases
 
 end F7Manuscript.ActualW24R20QPosChartCaseReduction

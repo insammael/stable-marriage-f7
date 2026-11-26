@@ -85,6 +85,5 @@ theorem original_free_five_seed_root
   · intro i
     simpa only [pcard] using! hNewPoints i
 
-#print axioms original_free_five_seed_root
 end
 end F7Manuscript.TripleCoordinateLattice.R21OneGHandActual

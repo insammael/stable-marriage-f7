@@ -75,6 +75,5 @@ theorem LeftCenterTrace.dual
       exact different (eq.trans geometry.2.2.symm)
     exact .center chosen pos bound different' flippedSupport next
 
-#print axioms LeftCenterTrace.dual
 end
 end F7Manuscript.R21NormalEndpoint.ReseededObservation

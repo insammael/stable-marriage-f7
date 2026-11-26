@@ -63,5 +63,4 @@ theorem p5_CI_boundary_reentries
     exact hfeq
   exact ⟨e5,e4,harr5,harr4,he5unique,he4unique⟩
 
-#print axioms p5_CI_boundary_reentries
 end F7Manuscript.ActualW20P5CIBoundaryReentries

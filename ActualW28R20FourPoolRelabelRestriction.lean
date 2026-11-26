@@ -58,6 +58,5 @@ theorem canonical_four_pool_restriction
   have hsurj : Function.Surjective f := Finite.surjective_of_injective hinj
   exact ⟨Equiv.ofBijective f ⟨hinj, hsurj⟩, hcompat⟩
 
-#print axioms canonical_four_pool_restriction
 end
 end F7Manuscript.ActualW28R20FourPoolRelabelRestriction

@@ -41,7 +41,6 @@ theorem noActual_A (R : TokenRun Site (Agent 7) 21) {off : Nat}
     (image : ExactImage 9 s boardA w) : False := by
   obtain ⟨walk⟩ := physicalWalkBuilder R binary obs checkedA image
   exact Projection.contradiction_of_leaf walk.coherent (tracksStructural walk.tracks) leafA emptyA
-#print axioms noActual_A
 
 -- Exact manuscript representative B, HAND_PROOF.md lines1691-1692.
 def boardB : Board := makeBoard [5,4,6,0,2,1,3] [[2,3],[2,3,6],[1,4],[1,5],[0,1,6],[0,3,6],[0,4,5]]
@@ -60,5 +59,4 @@ theorem noActual_B (R : TokenRun Site (Agent 7) 21) {off : Nat}
     (image : ExactImage 9 s boardB w) : False := by
   obtain ⟨walk⟩ := physicalWalkBuilder R binary obs checkedB image
   exact Projection.contradiction_of_leaf walk.coherent (tracksStructural walk.tracks) leafB emptyB
-#print axioms noActual_B
 end F7Manuscript.R21NormalEndpoint.BoundaryAtlas.PairedTripleBoards

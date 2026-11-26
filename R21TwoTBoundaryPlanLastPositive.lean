@@ -45,5 +45,4 @@ theorem mixed_plan_last_positive (word : ℕ→Fin 3) (levels : ℕ→ℕ) (star
    · simp only [List.append_nil]
    · intro mv hm; simp at hm
 
-#print axioms mixed_plan_last_positive
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

@@ -73,6 +73,5 @@ theorem initial_frontier_memory
       rw [hidx3, ← hout3]
       rfl
 
-#print axioms initial_frontier_memory
 
 end F7Manuscript.ActualMixedLastSupport

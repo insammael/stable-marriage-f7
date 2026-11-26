@@ -61,7 +61,5 @@ theorem G262B_future_le_two {n : Nat} (future : Sized.Future G262B 2 n) : n ≤ 
   · decide
 
 
-#print axioms G262A_future_le_three
-#print axioms G262B_future_le_two
 
 end F7Manuscript.ActualW13New102G262Components

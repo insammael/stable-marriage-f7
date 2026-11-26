@@ -322,6 +322,5 @@ theorem noReturn_source14_two_words (bits : Nat → Bool)
         · exact False.elim (B_c0_53_c1_06_c2_34 bits h0 h1 h2 h3t h4t h5t h6t h7 h8 h9 N)
       · exact False.elim (B_c0_53_c1_46 bits h0 h1 h2 h3t h4t h5t h6t h7 h8 N)
 
-#print axioms noReturn_source14_two_words
 
 end F7Manuscript.ActualW16P569Returns

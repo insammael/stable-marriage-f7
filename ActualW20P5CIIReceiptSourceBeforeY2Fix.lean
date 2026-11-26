@@ -93,5 +93,4 @@ theorem p5_actual_CII_receipt_three_five_before_Y2_forces_source_one
   · subst y
     exact (by decide : (2 : Site) ≠ 5) (h2d.symm.trans hpred)
 
-#print axioms p5_actual_CII_receipt_three_five_before_Y2_forces_source_one
 end F7Manuscript.ActualW20P5CIIReceiptSourceBeforeY2Fix

@@ -90,5 +90,4 @@ theorem p6_five_exit_corridor_unused_one_three
         change tr.state r.succ (tr.rightSite r) = 3 at hy
         exact hnever r (Or.inr hx.symm) (by simpa [hx] using! hy)
 
-#print axioms p6_five_exit_corridor_unused_one_three
 end F7Manuscript.ActualW20P6FiveExitCorridor

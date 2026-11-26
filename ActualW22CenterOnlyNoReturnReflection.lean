@@ -106,8 +106,5 @@ theorem fresh_sourcePrefix_reflect_center_only
     simp [F7Local.initialWord]
   simpa [sourcePrefix, hcount, htake] using! h
 
-#print axioms routePrefix_map_center_recolor
-#print axioms mapped_sourcePrefix_center_only
-#print axioms fresh_sourcePrefix_reflect_center_only
 
 end F7Manuscript.ActualW22CenterOnlyNoReturnReflection

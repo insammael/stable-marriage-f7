@@ -121,7 +121,6 @@ theorem actual_rectangle_six_binary_history
     exact hbinA k
   · simpa only [h2,h3] using! hdis
 
-#print axioms actual_rectangle_six_binary_history
 end
 end F7Manuscript.ActualGlobalCoverAssembly
 
@@ -252,6 +251,5 @@ theorem r20_q1_shared_slot_original_history
     (by ext z; rw [hQeq]; simp only [Finset.mem_insert,Finset.mem_singleton])
     hold hnew hxy hix hjx hiy hjy hpool
 
-#print axioms r20_q1_shared_slot_original_history
 end
 end F7Manuscript.TripleCoordinateLattice

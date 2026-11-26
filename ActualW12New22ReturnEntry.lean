@@ -51,8 +51,6 @@ theorem new22_metadata :
     have hi' : i < 7 := by omega
     interval_cases i <;> decide
 
-#print axioms new22_return_entry
-#print axioms new22_metadata
 
 #eval IO.eprintln "W12 NEW22 return-entry checked"
 

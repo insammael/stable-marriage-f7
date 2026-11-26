@@ -130,8 +130,5 @@ theorem triple_replacement_differences (T U : Finset V)
       _ = {d} := by rw [hde]
   exact ⟨a, d, hTdiffEq, hUdiffEq, haT, haU, hdU, hdT, had⟩
 
-#print axioms triple_replacement
-#print axioms interval_step_replacement
-#print axioms triple_replacement_differences
 
 end F7Manuscript.TripleReplacement

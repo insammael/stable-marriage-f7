@@ -52,5 +52,4 @@ theorem p5_actual_CII_prefix_obstruction_from_route
   exact p5_actual_CII_receipt_three_five_before_Y2_forces_source_one
     T hsat e heends hepre2 hepre3 r hrlt hrcell hno
 
-#print axioms p5_actual_CII_prefix_obstruction_from_route
 end F7Manuscript.ActualW20P5CIIActualPrefixBlockFix2

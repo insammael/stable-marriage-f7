@@ -110,6 +110,5 @@ theorem actual_canonical_center_after
   refine ⟨t, rfl, ?_⟩
   exact hrun.trans (congrArg (support I) hlabel)
 
-#print axioms actual_canonical_center_after
 end
 end F7Manuscript.ActualW28R20CanonicalCenterAfter

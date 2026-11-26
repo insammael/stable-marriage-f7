@@ -187,7 +187,6 @@ theorem actual_oriented_X_word_eq_macroColors
     have hrevmacro := normalized_reverse_eq_macro a b tail hab hval hadj
     simpa [orientAndNormalizeColors, orientColumn, hor, hrev] using! hrevmacro
 
-#print axioms actual_oriented_X_word_eq_macroColors
 
 end
 end W7ActualOrientedXMacroColorReconstruction

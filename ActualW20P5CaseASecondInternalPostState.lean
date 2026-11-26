@@ -56,6 +56,5 @@ theorem p5_caseA_four_five_post_state
     · rw [T.step e 5, hswap5]
       exact hpre4
 
-#print axioms p5_caseA_four_five_post_state
 
 end F7Manuscript.ActualW20P5CaseASecondInternalPostState

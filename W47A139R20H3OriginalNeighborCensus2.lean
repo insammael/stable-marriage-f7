@@ -263,9 +263,6 @@ theorem m08_h3_1_canonical_original_neighbor_census_of_no_T
       I C h311 x hx s t f hs ht hf hinc
   exact ⟨n, hs, ht, f, hf, hinc, hcross, hfixed, hcensus⟩
 
-#print axioms original_retained_switch_core_neighbor_census
-#print axioms m08_h3_1_canonical_original_core_neighbors_le_three_of_no_T
-#print axioms m08_h3_1_canonical_original_neighbor_census_of_no_T
 
 end
 end F7Manuscript.ActualR20H3

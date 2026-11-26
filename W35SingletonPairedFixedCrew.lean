@@ -408,8 +408,5 @@ theorem first_after_singleton_paired_distinct_three
   · exact first_after_singleton_three_paired_distinct R hq h0 h1 h2 h3 tail bits
       (by simpa using! H)
 
-#print axioms fixed_center_three_paired_rows_of_frames
-#print axioms actual_three_paired_fixed_center_route_impossible
-#print axioms first_after_singleton_three_paired_distinct
 end
 end F7Manuscript.TripleCoordinateLattice.W35SingletonPairedFixedCrew

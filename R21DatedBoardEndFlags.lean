@@ -63,8 +63,4 @@ def BudgetContext.closeRight
   rw [empty,List.length_nil,exterior] at dates
   exact ⟨C.routes.closeRight (by omega),C.leftDates,C.rightDates⟩
 
-#print axioms TwoRouteContext.closeLeft
-#print axioms TwoRouteContext.closeRight
-#print axioms BudgetContext.closeLeft
-#print axioms BudgetContext.closeRight
 end F7Manuscript.R21LongWindow.DatedBoardSteps

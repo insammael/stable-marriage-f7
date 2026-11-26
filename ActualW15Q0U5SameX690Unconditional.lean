@@ -270,7 +270,6 @@ theorem actual_X_q0_u5_s2_min0_key690
     · rw [hi690]
       simp [diagram690, hcore]
 
-#print axioms actual_X_q0_u5_s2_min0_key690
 
 end
 end ActualW15Q0U5SameX690Unconditional

@@ -107,7 +107,5 @@ theorem retired_center_support_from_block
   rw [hstart, ← hcenterRow]
   simpa [a, F7Local.afterCenter, F7Local.put] using! hrow
 
-#print axioms controls_eq_firstBit_pairedRoute
-#print axioms retired_center_support_from_block
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW33RContextBlockExtraction

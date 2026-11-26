@@ -107,6 +107,4 @@ def producerBits (B : Board) (cell : Nat) : List Nat :=
   (numbered B).filterMap fun rk =>
     if rk.1.a = cell ∨ rk.1.b = cell then some (2^rk.2) else none
 
-#print axioms mem_products_of_choices
-#print axioms mem_domains_of_visits
 end F7Manuscript.R21NormalEndpoint.Projection

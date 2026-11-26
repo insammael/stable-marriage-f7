@@ -94,7 +94,6 @@ theorem actual_X_u5_s2_min0_key690_no_q_hyp
   exact F7Manuscript.TripleCoordinateLattice.ActualW15Q0U5SameX690Leaf.actual_X_q0_u5_s2_min0_key690
     C hn hδ hdeficit hpos h221 h311 hG hT X hu hq hs hmin fixedGraphFutureBound
 
-#print axioms actual_X_u5_s2_min0_key690_no_q_hyp
 
 end
 end ActualW15Q0U5SameX690NoQHyp

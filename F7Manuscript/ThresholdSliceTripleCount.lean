@@ -142,7 +142,5 @@ theorem pathSegment_induced_A3_thresholdSlice
   rw [← hleft]
   convert hcard
 
-#print axioms tripleSliceIdealEquiv
-#print axioms pathSegment_induced_A3_thresholdSlice
 end
 end F7Manuscript.TripleCoordinateLattice

@@ -32,8 +32,5 @@ theorem BoundaryCoreContext.futureSet_inc (H : BoundaryCoreContext C t u)
   have hD := H.future.retired_inc s hs d hd
   exact ⟨hD.2,hD.1⟩
 
-#print axioms BoundaryCoreContext.futureSet_card_le_one
-#print axioms BoundaryCoreContext.futureSet_lt
-#print axioms BoundaryCoreContext.futureSet_inc
 end
 end F7Manuscript.TripleCoordinateLattice

@@ -49,6 +49,4 @@ theorem witness_false_of_singleton
   exact singleton_normal_joined_actual_twenty_false R C D a b c
     hC hmD ha hbudget W.bits W.h0 W.h1 W.h2 W.h3 W.eventSize W.route
 
-#print axioms JoinedNormalRouteWitness.mk
-#print axioms witness_false_of_singleton
 end F7Manuscript.W36TypeIJoinedWitness

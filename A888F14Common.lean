@@ -42,4 +42,3 @@ def rankB4 : Site → Nat := listRank [5,6,0,1,2,3,4]
 
 end F7Manuscript.A156Frozen14ShortExtension
 
-#print axioms F7Manuscript.A156Frozen14ShortExtension.reach_rank_le

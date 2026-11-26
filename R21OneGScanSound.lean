@@ -87,6 +87,4 @@ theorem no_low_G_endpoints (checked : checkOneG = true)
   change (!_) = true at absent
   simp [present] at absent
 
-#print axioms scan_G_half
-#print axioms no_low_G_endpoints
 end F7Manuscript.R21OneGMachine

@@ -121,7 +121,6 @@ theorem singleton_whole_profile_prehistory
   · change ∀ a ∈ B, 1 ≤ (R.participationSteps a ∩ U).card
     simpa only [U] using! hcounts.2
 
-#print axioms singleton_whole_profile_prehistory
 
 end
 end F7Manuscript.ActualQ0WholeProfilePrehistory

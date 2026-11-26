@@ -58,6 +58,5 @@ theorem actual_both_long_post_q_zero
   exact F7Manuscript.W38BothLongPostZero.both_long_post_zero
     (Spre) (Spost) hsize (by omega) hshort Aactual
 
-#print axioms actual_both_long_post_q_zero
 end
 end F7Manuscript.TripleCoordinateLattice.W38ActualBothLongPostZero

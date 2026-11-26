@@ -74,6 +74,5 @@ theorem original_right_side_selected_history
     · exact reorder_three_seed_supports Y₁ pre post f₁ hv₁ j i c hij.symm hcj hci u v _ hu hv fix input
   refine ⟨n,i,j,c,f₀,f₁,b₀,b₁,Y₂,hij,hci,hcj,hlab,hR,hv₀,hv₁,hrow₀,hrow₁,?_⟩
   simpa only [cutWord,List.reverse_append,normalTailWord,pre,post,List.append_assoc] using! hY₂
-#print axioms original_right_side_selected_history
 end
 end F7Manuscript.TripleCoordinateLattice.R21OneGHandActual

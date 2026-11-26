@@ -235,21 +235,10 @@ theorem actual_person_six_vertex_wire_path (R : TokenRun Site W 21)
   have hhi : r.val < k.val+1 := hhigh'
   omega
 
-#print axioms actual_person_six_vertex_wire_path
 
-#print axioms successive_person_moves_follow_actual_wire
 
-#print axioms input_cell_token_moves
-#print axioms token_gap_state_eq
 
-#print axioms saturated_person_participation_is_six
-#print axioms fixed_cell_token_not_moving
-#print axioms output_cell_person_moves
 
-#print axioms initial_idle_cell_unmoved
-#print axioms state_eq_of_no_support
 
-#print axioms input_output_share_person
-#print axioms onCell_transport
 end
 end F7Manuscript.R21LongWindow.Mass18Endpoint

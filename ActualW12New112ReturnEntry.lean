@@ -53,8 +53,6 @@ theorem new112_metadata :
     have hi' : i < 9 := by omega
     interval_cases i <;> decide
 
-#print axioms new112_return_entry
-#print axioms new112_metadata
 
 #eval IO.eprintln "W12 NEW112 return-entry checked"
 

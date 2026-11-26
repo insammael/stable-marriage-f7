@@ -163,8 +163,6 @@ theorem r21_single_T_original_cut_geometry
     rw [hR0, hL1]
     exact r21_t_boundary_cross_card C hn hu E n hlabel
 
-#print axioms r21_t_boundary_cross_card
-#print axioms r21_single_T_original_cut_geometry
 
 end
 end F7Manuscript.TripleCoordinateLattice

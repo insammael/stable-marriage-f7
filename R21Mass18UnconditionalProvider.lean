@@ -44,7 +44,5 @@ theorem mass18_lower_provider (S : Chart)
     11 ≤ S.q+S.s := by
   exact mass18_dated_cost_ge_eleven S A A.run (fun _ => rfl) (actual_twenty_one_binary S A)
 
-#print axioms actual_twenty_one_binary
-#print axioms mass18_lower_provider
 end
 end F7Manuscript.TripleCoordinateLattice.Mass18.Unconditional

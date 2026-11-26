@@ -90,5 +90,4 @@ theorem append_pre_center_route
     exact F7Manuscript.TripleCoordinateLattice.supportsRoute_append Hpre' Hcenter'
   exact ⟨newBits, hpreBits, hnewAt, Hext⟩
 
-#print axioms append_pre_center_route
 end F7Manuscript.W37TypeVPreCenterRoute

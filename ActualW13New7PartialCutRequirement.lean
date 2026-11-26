@@ -160,10 +160,6 @@ theorem actual_partial_new7_cut_requirement_endpoint
   refine ⟨max r ((new7ActualCutValues X dual).foldl max 0), ?_, max_le hbase hfold⟩
   simp [partialNew7CutRequirement, hr]
 
-#print axioms new7ActualCutValue
-#print axioms new7ActualCutValues
-#print axioms partialNew7CutRequirement
-#print axioms actual_partial_new7_cut_requirement_endpoint
 #eval IO.eprintln "W13 NEW7 positive partial requirement checked"
 
 end

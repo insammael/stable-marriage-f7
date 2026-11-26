@@ -82,6 +82,4 @@ theorem no_dated_pp_with_both_centers_at_right_end
   have obs' : WindowObservation R off (3+8) bound' out := by simpa only [size] using! obs
   exact blocked_impossible 8 out hit R binary obs' budget
 
-#print axioms no_dated_pp_at_right_end
-#print axioms no_dated_pp_with_both_centers_at_right_end
 end F7Manuscript.R21NormalEndpoint.PPRightEndDated

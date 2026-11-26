@@ -60,8 +60,5 @@ theorem outsider_belowTriple_antitone
   · exact hs
   · exact False.elim (not_above_below_of_triple_le C hst hs ht)
 
-#print axioms induced_cover_lifts_of_target_not_above_outsider
-#print axioms core_cover_lifts_from_below_row
-#print axioms outsider_belowTriple_antitone
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW29R20PrefixCoverLift

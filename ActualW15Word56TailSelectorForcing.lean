@@ -168,6 +168,5 @@ theorem plan56_bit5_eq_bit2
   · rfl
   · rfl
 
-#print axioms plan56_bit5_eq_bit2
 
 end F7Manuscript.ActualW15Word56TailSelectorForcing

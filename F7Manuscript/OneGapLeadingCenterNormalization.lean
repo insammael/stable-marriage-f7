@@ -36,6 +36,4 @@ theorem sourceWord_normalize_two_leading_centers
       congrArg (fun w => F7Local.initialWord ++ [centerPair initialSupport c false] ++
         [centerPair (afterCenter initialSupport c false) d false] ++ w) hr
 
-#print axioms sourceWord_normalize_one_leading_center
-#print axioms sourceWord_normalize_two_leading_centers
 end F7Manuscript.OneGap

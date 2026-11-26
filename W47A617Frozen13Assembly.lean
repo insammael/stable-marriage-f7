@@ -366,27 +366,8 @@ theorem periodic_short_extension_after_13_le_two
   | false => exact fresh13B_future_le_two k h
   | true => exact fresh13A_future_le_two k h
 
-#print axioms A_first_complete
-#print axioms B_first_complete
-#print axioms A12_second_complete
-#print axioms A34_second_complete
-#print axioms A1356_second_complete
-#print axioms B06_second_complete
-#print axioms B45_second_complete
-#print axioms B1643_second_complete
-#print axioms periodic_short_extension_after_13_le_two
 
 -- Additional A615 terminal-certificate audit.
-#print axioms terminal_A12_34
-#print axioms terminal_A12_1356
-#print axioms terminal_A34_12
-#print axioms terminal_A1356_26
-#print axioms terminal_B06_45
-#print axioms terminal_B45_06
-#print axioms terminal_B45_1653
-#print axioms terminal_B1643_45
 
-#print axioms fresh13A_future_le_two
-#print axioms fresh13B_future_le_two
 
 end F7Manuscript.PartnerGraph.G1Frozen13

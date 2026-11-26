@@ -174,6 +174,5 @@ theorem actualNormalLabel_fullChronological_mono
               subst t
               exact le_rfl
 
-#print axioms actualNormalLabel_fullChronological_mono
 end
 end F7Manuscript.TripleCoordinateLattice

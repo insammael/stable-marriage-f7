@@ -141,5 +141,4 @@ theorem exclude_window {mass budget n c : Nat} (h : check mass budget=true) (hn 
   have hx := predicate_of_trace tr (hcost.trans_le hc) h
   exact all_exteriors_exclude_original R bound obs binary (ex ▸ positions_sound _ s hx)
 
-#print axioms exclude_window
 end F7Manuscript.R21NormalEndpoint.Fast

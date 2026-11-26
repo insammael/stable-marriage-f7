@@ -546,7 +546,6 @@ private theorem force_center7
             exact (noReturn_forbidden_incoming (new314Plan 2) bits 12 N
               (by simp [new314Plan,eventCount]) 5 6 (by decide) (Or.inl hp) hs).elim
 
-#print axioms force_center6
 
 private theorem close_terminal_zfalse
     (c : Color) (hc : c = 0 ∨ c = 2) (bits : Nat → Bool)
@@ -728,8 +727,6 @@ theorem new314_noReturn_impossible
     have h7b : bits 7 = true := by simpa [h5b] using! h7
     exact close_terminal_ztrue c hc bits hfirst N h4 h5b h6b h7b
 
-#print axioms new314_noReturn_impossible
 
-#print axioms force_label
 
 end F7Manuscript.ActualW12New3New14CompleteHand

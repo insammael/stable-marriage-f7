@@ -94,7 +94,6 @@ theorem actual_X_pre_cut_candidate
     exact hmacro.1
   refine ⟨hcolors, hDmem, hsepF, hsepB, hcost', hflagsLength', hflagsIndex', rfl, rfl⟩
 
-#print axioms actual_X_pre_cut_candidate
 
 end
 end W7ActualXRunVariantCandidate

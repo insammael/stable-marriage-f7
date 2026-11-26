@@ -57,7 +57,6 @@ theorem actual_u3_q2_s2_false
         C hn hδ hdeficit hpos h221 h311 hG hT X hu hq hs
         (by simpa [D, paid] using! htwo)
 
-#print axioms actual_u3_q2_s2_false
 
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW17U3Q2S2Dispatcher

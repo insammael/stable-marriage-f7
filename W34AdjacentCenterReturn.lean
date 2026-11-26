@@ -142,7 +142,5 @@ theorem adjacent_centers_after_valid_mixed_prefix_false
   adjacent_centers_after_valid_mixed_prefix_of_validity R t f bits i before tail c H
     (supportsRoute_validity_of_initial_valid H M.valid) M
 
-#print axioms adjacent_centers_return_false
-#print axioms adjacent_centers_after_valid_mixed_prefix_false
 end
 end F7Manuscript.TripleCoordinateLattice.W34AdjacentCenterReturn

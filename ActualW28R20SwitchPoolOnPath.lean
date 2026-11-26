@@ -90,6 +90,5 @@ theorem actual_normal_switch_pool_on_path
   exact F7Manuscript.TripleCoordinateLattice.ActualW28R20ActualSwitchPool.actual_normal_switch_pool
     A h221A h311A hG hT j r hb ha
 
-#print axioms actual_normal_switch_pool_on_path
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW28R20SwitchPoolOnPath

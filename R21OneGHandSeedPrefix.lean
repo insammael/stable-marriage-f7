@@ -152,8 +152,5 @@ theorem original_left_cut_then_G_seeds
     let a : Fin 21 := ⟨k.val,by have h := k.isLt; simpa only [Finset.card_univ,hn] using! h⟩
     exact ⟨a,hk.trans hj,hId'.trans hId⟩
 
-#print axioms join_event_words_with_points
-#print axioms introduced_past_before_empty
-#print axioms original_left_cut_then_G_seeds
 end
 end F7Manuscript.TripleCoordinateLattice.R21OneGHandActual

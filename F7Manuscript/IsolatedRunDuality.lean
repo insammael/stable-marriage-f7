@@ -170,10 +170,3 @@ end Segments
 end
 end F7Manuscript.TripleCoordinateLattice
 
-#print axioms F7Manuscript.TripleCoordinateLattice.normalBlockCount_dual'
-#print axioms F7Manuscript.TripleCoordinateLattice.normalBlockCount_comap
-#print axioms F7Manuscript.TripleCoordinateLattice.pathSegment_before_isolated
-#print axioms F7Manuscript.TripleCoordinateLattice.pathSegment_after_isolated
-#print axioms F7Manuscript.TripleCoordinateLattice.verticesWhere_dual_not_above
-#print axioms F7Manuscript.TripleCoordinateLattice.verticesWhere_dual_above
-#print axioms F7Manuscript.TripleCoordinateLattice.verticesWhere_comap

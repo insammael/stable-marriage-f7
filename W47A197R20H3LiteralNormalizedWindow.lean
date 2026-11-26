@@ -118,4 +118,3 @@ end
 
 end F7Manuscript.ActualR20H3
 
-#print axioms F7Manuscript.ActualR20H3.A195_original_literal_actor_chart

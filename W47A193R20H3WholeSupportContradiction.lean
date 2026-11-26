@@ -128,4 +128,3 @@ theorem a131_whole_execution_actual_supports_false
 
 end F7Manuscript.OriginalStateReceipt.A131WholeExecutionDispatcher
 
-#print axioms F7Manuscript.OriginalStateReceipt.A131WholeExecutionDispatcher.a131_whole_execution_actual_supports_false

@@ -71,8 +71,6 @@ theorem path_word_deciders (de : DecidableEq (Event I)) (dl : DecidableLE (Event
   letI : Nonempty (Triple B) := ht
   exact original_path_endpoint_word (I:=I) C a c u E R Q rfl B rfl hQ a' c' z hm size
 
-#print axioms original_path_endpoint_word
-#print axioms path_word_deciders
 end
 end F7Manuscript.TripleCoordinateLattice.R21FourEndpoint
 

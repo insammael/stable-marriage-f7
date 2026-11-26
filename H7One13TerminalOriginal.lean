@@ -114,11 +114,6 @@ theorem h7_one13_original_post_eq_terminal
       C h221 h311 hR20 houtside hGcard hTcard E hE)
     hGcard hTcard
 
-#print axioms h7_one13_original_macroPositions_card
-#print axioms h7_one13_original_post_left
-#print axioms h7_one13_original_post_right
-#print axioms h7_one13_original_checked_post_eq_terminal
-#print axioms h7_one13_original_post_eq_terminal
 
 -- These expose the remaining application interface.
 #print a331_terminal_path_exclusion

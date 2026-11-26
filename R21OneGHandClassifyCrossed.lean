@@ -23,7 +23,6 @@ theorem classify_crossed_A (fixed : Finset (Fin 7)) (u v : Swap)
   rcases crossed_A_new_seeds k u.1 u.2 v.1 v.2 cr fresh with ⟨h,hs⟩|⟨h,hs⟩
   · subst k;exact Or.inl ⟨hk.symm,hs⟩
   · subst k;exact Or.inr ⟨hk.symm,hs⟩
-#print axioms classify_crossed_A
 theorem classify_crossed_B (fixed : Finset (Fin 7)) (u v : Swap)
     (cross : CrossedNewCrew oldCrewB fixed (pairSupport u) (pairSupport v))
     (fresh : freshWord boardB [u,v]=true) :
@@ -41,7 +40,6 @@ theorem classify_crossed_B (fixed : Finset (Fin 7)) (u v : Swap)
   rcases crossed_B_new_seeds k u.1 u.2 v.1 v.2 cr fresh with ⟨h,hs⟩|⟨h,hs⟩
   · subst k;exact Or.inl ⟨hk.symm,hs⟩
   · subst k;exact Or.inr ⟨hk.symm,hs⟩
-#print axioms classify_crossed_B
 
 theorem CrossedNewCrew.swap {crew : Finset (Finset (Fin 7))} {F X Y : Finset (Fin 7)}
     (h : CrossedNewCrew crew F X Y) : CrossedNewCrew crew F Y X := by

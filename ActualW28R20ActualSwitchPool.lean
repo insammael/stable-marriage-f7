@@ -190,6 +190,5 @@ theorem actual_normal_switch_pool
     support I ((normalRowValue D h221D h311D hzD j r.val c₁).val)).card = 4
   rw [Finset.card_union_of_disjoint hd, hs.1, hs.2.1]
 
-#print axioms actual_normal_switch_pool
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW28R20ActualSwitchPool

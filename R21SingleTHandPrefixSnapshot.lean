@@ -48,6 +48,5 @@ theorem PrefixWord.snapshot {n : ℕ} (R : TokenRun Site Site n) {w : List Swap}
   · intro a b hseen
     exact (hs.2 a b).mpr ((hw.anchor_seen_iff R k hk a b).mp hseen)
 
-#print axioms PrefixWord.snapshot
 end
 end F7Manuscript.R21SingleTHand

@@ -89,8 +89,6 @@ theorem actual_r20_one_outsider_leaf_of_actual_q1
     h221 h311 hG hT
   omega
 
-#print axioms actual_all_q_cost_floor_of_actual_q1
-#print axioms actual_r20_one_outsider_leaf_of_actual_q1
 
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW31R20OneOutsiderOfActualQOne

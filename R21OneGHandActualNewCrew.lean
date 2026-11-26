@@ -46,6 +46,5 @@ theorem actual_new_row_crew
   rw [←row c,←row i,←row j,hfix]
 
 
-#print axioms actual_new_row_crew
 end
 end F7Manuscript.TripleCoordinateLattice.R21OneGHandActual

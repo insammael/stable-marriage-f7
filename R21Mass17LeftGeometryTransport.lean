@@ -92,9 +92,5 @@ theorem normalized_before_geometry (f : SupportFrame) (c : Color) (b : Bool)
       (normalizeCenterColor c).perm.injective ((Equiv.apply_symm_apply _ 0).trans (normalizeCenterColor_self c).symm)
     simpa [mapSupportFrame,recolorSupportFrame,withLast,afterCenter,put,inv,centerPair,mapSupportPair,initialSupport,normalSeedFrame] using! sndEq
 
-#print axioms SamePairGeometry.valid
-#print axioms normalSeedFrame_valid
-#print axioms LeftCenterTrace.mapRecolor
-#print axioms normalized_before_geometry
 end
 end F7Manuscript.R21NormalEndpoint.ReseededObservation

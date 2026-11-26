@@ -53,6 +53,5 @@ theorem actual_center_support_from_block
   rw [reverse_center_support Q hQ B h221 h311 hz a p jR]
   exact retired_center_support_from_block Q B h221 h311 hz hd H
 
-#print axioms actual_center_support_from_block
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW33RContextRetiredCenterSupport

@@ -57,6 +57,4 @@ theorem ClosedFourRowRun.levels_le_two {d : Nat} (R : ClosedFourRowRun d) :
   have hnum : d+2 ≤ 4 := by simpa using hcard
   omega
 
-#print axioms ClosedFourRowRun.token_origin
-#print axioms ClosedFourRowRun.levels_le_two
 end F7Paired

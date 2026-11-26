@@ -85,6 +85,5 @@ theorem retired_original_block_schedule
   exact retired_block_schedule Q hQ B h221 h311 hz a p hR
     jR hbound H hdoubleR tCenter htCenter hcenterStartR hpR hpairRoom
 
-#print axioms retired_original_block_schedule
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW33RContextRetiredOriginalBlockSchedule

@@ -59,6 +59,5 @@ theorem d3_reflected_D_endpoint_sameFrontier (bits : Nat → Bool) :
   rw [hpre, hroot] at h
   simpa [d3OppositeLabelBits] using! h
 
-#print axioms d3_reflected_D_endpoint_sameFrontier
 
 end F7Manuscript.N4D34OppositeColorD3Endpoint

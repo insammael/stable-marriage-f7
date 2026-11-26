@@ -297,8 +297,5 @@ theorem d3_actual_center_trace_length_le_eighteen
       d3APlan_eventCount, eventCount_centerPlanFrom]
   omega
 
-#print axioms centerWord_actualChoices
-#print axioms sourcePrefix_centerTail
-#print axioms d3_actual_center_trace_length_le_eighteen
 
 end F7Manuscript.N4D3ActualCenterTrace

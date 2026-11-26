@@ -60,6 +60,5 @@ theorem controlled_reverse_support_at_vertex
   rw [controlled_event_at_tag] at H
   exact H
 
-#print axioms controlled_reverse_support_at_vertex
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW33ControlledRetirementSupports

@@ -1,5 +1,6 @@
 module
 
+public import Mathlib
 public import F7Manuscript.ReturnCertificate
 public import Mathlib.Data.List.OfFn
 
@@ -86,6 +87,5 @@ theorem binaryWord_pair_eq (R : TokenRun Site W q)
   apply ordered_pair_unique _ p (binaryWord_ordered R hbin i) hp
   exact ((binaryWord_realizes R hbin).2 i).symm.trans hs
 
-#print axioms binaryWord_realizes
 end
 end F7Manuscript.ReturnWordExtraction

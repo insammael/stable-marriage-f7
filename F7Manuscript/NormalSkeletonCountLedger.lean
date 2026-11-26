@@ -46,7 +46,5 @@ theorem A2_eq_initial_centers_pairs (C : Chart) :
   rw [hinit,hpair]
   omega
 
-#print axioms A2_eq_earlier_sum
-#print axioms A2_eq_initial_centers_pairs
 end
 end F7Manuscript.NormalSkeleton.Chart

@@ -50,6 +50,4 @@ theorem actual_AABB_row_four_missing_two
   · exact fixedTokenSwapTrace_origin_site_frozen_unused tr k 4 6 5 hpre hfreeze
       (by decide) (by simp [graphRel,p6G0,ofEdges])
 
-#print axioms actual_AABB_six_freezes_at_four
-#print axioms actual_AABB_row_four_missing_two
 end F7Manuscript.ActualW20P6AABBRowFourFrozen

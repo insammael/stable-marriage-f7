@@ -67,6 +67,5 @@ theorem d4_reflected_D_endpoint_sameFrontier (bits : Nat → Bool) :
   simpa [d4OppositeLabelBits] using! h
 
 
-#print axioms d4_reflected_D_endpoint_sameFrontier
 
 end F7Manuscript.N4D34OppositeColorNormalization

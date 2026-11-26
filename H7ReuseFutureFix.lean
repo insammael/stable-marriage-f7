@@ -51,7 +51,6 @@ theorem rawCut14_future
 
   exact ⟨beta, by simpa [fresh14] using! hfrozen⟩
 
-#print axioms rawCut14_future
 
 end F7Manuscript.PartnerGraph.Periodic
 
@@ -77,6 +76,5 @@ theorem rawCut14_produced_offset_contradiction
       beta (3 - b) hfuture
   omega
 
-#print axioms rawCut14_produced_offset_contradiction
 
 end F7Manuscript.H7Future

@@ -43,6 +43,5 @@ theorem bad_i10_t0_z0_x0_w1 (bits : Nat → Bool)
     exact noReturn_forbidden_incoming new98Plan bits 10 N
       (by simp [new98Plan,eventCount]) 6 2 (by decide) (Or.inl hp) hs
 
-#print axioms bad_i10_t0_z0_x0_w1
 
 end F7Manuscript.ActualW13New98ControlWitnesses

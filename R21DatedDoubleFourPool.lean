@@ -72,7 +72,5 @@ theorem DatedPlan.no_double_paired
         rw [eq,parts a ha]
       · exact binary
 
-#print axioms double_supports_four_pool
-#print axioms DatedPlan.no_double_paired
 end
 end F7Manuscript.R21NormalEndpoint.ReseededObservation

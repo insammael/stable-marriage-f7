@@ -28,6 +28,5 @@ theorem retiredPlanWord_mapped (e : Equiv.Perm Site) (f : SupportFrame)
    rw [←mapSupportFrame_afterPaired,ih]
    rfl
 
-#print axioms retiredPlanWord_mapped
 end
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

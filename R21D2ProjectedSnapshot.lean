@@ -46,5 +46,4 @@ theorem refuteProjected_all (f : Actor -> Nat) (h : Tracks f (domains board))
  · exact refuteProjected_15 f h coh hs
 theorem no_outward_walks : ¬Nonempty (OutwardWalks board) :=
  no_walk_of_split_snapshot 13 (by decide +kernel) refuteProjected_all
-#print axioms no_outward_walks
 end F7Manuscript.R21NormalEndpoint.Projection.Snapshots.PhysicalD2.Projected

@@ -149,6 +149,5 @@ theorem actual_first_row_actor_active_before_later_cut
     · rw [hsupport]
       exact hmem1
 
-#print axioms actual_first_row_actor_active_before_later_cut
 end
 end F7Manuscript.ActualW28R20FirstRowActive

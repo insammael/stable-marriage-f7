@@ -110,13 +110,5 @@ theorem source_fresh (plan : List Move) (bits : Nat → Bool)
     Fresh (sourcePrefix plan bits (4 + eventCount plan)) :=
   sourcePrefix_fresh_of_noReturn plan bits H
 
-#print axioms initial_dual_frame_alignment
-#print axioms dualControlMask_before
-#print axioms dualBitsAt_center_at
-#print axioms dualBitsAt_paired_cross_at
-#print axioms dualBitsAt_paired_label_at
-#print axioms dualBitsAt_center_tail
-#print axioms dualBitsAt_paired_tail
-#print axioms source_fresh
 
 end F7Manuscript.N4FullPairedDualNormalization

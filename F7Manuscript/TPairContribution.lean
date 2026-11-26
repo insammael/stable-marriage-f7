@@ -127,8 +127,5 @@ theorem triple_threshold_pair_contribution_le_six
   unfold TPairContribution
   omega
 
-#print axioms triple_threshold_past_pair_sum_le_exclusive_sum
-#print axioms triple_threshold_pair_contribution_le_seven
-#print axioms triple_threshold_pair_contribution_le_six
 end
 end F7Manuscript.TripleCoordinateLattice

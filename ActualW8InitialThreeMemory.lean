@@ -84,8 +84,6 @@ theorem prepend_actual_first_center {W : Type*} [Fintype W] {q : Nat}
   · simpa [lead, centerPair, canonicalPairedFrame, select, pairSupport] using! h3
   · simpa only [show lead 0 = false from rfl, hframe] using! Htail
 
-#print axioms initial_three_memory
-#print axioms prepend_actual_first_center
 
 end
 end F7Manuscript.ActualW8InitialThreeMemory

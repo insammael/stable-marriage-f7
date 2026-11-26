@@ -137,6 +137,5 @@ def upperFlag : CoreKind → Flag
 
 abbrev Core (k : CoreKind) := Point (lowerFlag k) (upperFlag k)
 
-#print axioms model_trans
 
 end NeutralCore

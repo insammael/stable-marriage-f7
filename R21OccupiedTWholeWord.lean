@@ -49,6 +49,5 @@ theorem single_T_chronology (hG : (isolatedDouble C).card=0) (hT : (byLabel C 3)
   exact ⟨j,l,k,r,f,g,b,d,hl.1,hk.1,hr.1,by simpa only [hl.1,hk.1,hr.1] using! hs,
     hf,hg,by simpa only [List.append_assoc] using! len,by simpa only [List.append_assoc] using! H⟩
 
-#print axioms single_T_chronology
 end
 end F7Manuscript.TripleCoordinateLattice.R21OccupiedT

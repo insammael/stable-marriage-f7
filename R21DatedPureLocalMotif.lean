@@ -83,6 +83,5 @@ theorem DatedPlan.noLocalFiveMotif {R : TokenRun Site Site 21} {off len : Nat} {
   · exact rules
   · exact low
 
-#print axioms DatedPlan.noLocalFiveMotif
 end
 end F7Manuscript.R21LongWindow.PureRootCoverage

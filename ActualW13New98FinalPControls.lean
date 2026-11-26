@@ -97,6 +97,5 @@ theorem new98_finalp_controls (bits : Nat → Bool)
         · exfalso
           new98_finalp_incoming (13, 2, new98B (bits 2), 0) bits N h0 h3 h5 h6 h7 h8 hx hy ht hc
 
-#print axioms new98_finalp_controls
 
 end F7Manuscript.ActualW13New98FinalPControls

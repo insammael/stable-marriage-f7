@@ -51,6 +51,5 @@ theorem p5_no_singleton_event_holding_interval
   rw [T.step e x, hfix]
   exact hpre
 
-#print axioms p5_no_singleton_event_holding_interval
 
 end F7Manuscript.ActualW20P5SingletonHoldingInterval

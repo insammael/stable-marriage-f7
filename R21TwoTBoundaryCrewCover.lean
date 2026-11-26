@@ -40,6 +40,4 @@ theorem canonical_matching_covered (e : Equiv.Perm ReturnCertificate.Site) :
   change decide (rowMatching (List.ofFn e)∈pairings 3 ((List.finRange 7).erase ((List.ofFn e).getD 6 0)))=true at h
   exact of_decide_eq_true (by simpa only [rowMatching,canonicalMatching,hr,h6] using! h)
 
-#print axioms labelled_matching_cover_checked
-#print axioms canonical_matching_covered
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

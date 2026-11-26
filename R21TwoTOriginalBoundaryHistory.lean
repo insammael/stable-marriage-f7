@@ -87,7 +87,5 @@ theorem original_three_boundary_history_of_long
   intro i
   exact original_endpoint_word C hn h221 h311 hu i (long i)
 
-#print axioms original_three_boundary_history_of_literal_endpoints
-#print axioms original_three_boundary_history_of_long
 end
 end F7Manuscript.TripleCoordinateLattice.R21TwoT

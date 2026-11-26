@@ -46,6 +46,4 @@ theorem mass18_cost_of_qzero (S : Chart)
     binary hq i (by omega) (by omega) (by omega) (by omega) (by omega)
   exact rule
 
-#print axioms mass17_cost_of_qzero
-#print axioms mass18_cost_of_qzero
 end F7Manuscript.R21LongWindow.PureRootCoverage

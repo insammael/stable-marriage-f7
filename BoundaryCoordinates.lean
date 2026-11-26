@@ -164,6 +164,5 @@ theorem boundary_coordinates {A : Finset V} (G : ThreeMaxBoundary A) (f : Flag)
   | some i =>
     exact boundary_coordinates_some G i (by simpa [flagCost] using! hcard) (hSome i rfl)
 
-#print axioms boundary_coordinates
 
 end NeutralCore

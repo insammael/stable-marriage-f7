@@ -18,7 +18,7 @@ theorem node20_three_complete (a b c : Site) :
     ∃ e ∈ (table 20).edges, Matches (.three a b c) e.cycle := by
   intro hlegal
   have hb := hlegal.2.1
-  have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by simpa [table, node20] using! hb
+  have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by exact hb
   norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
 theorem node20_four_complete (a b c d : Site) :
@@ -26,7 +26,7 @@ theorem node20_four_complete (a b c d : Site) :
     ∃ e ∈ (table 20).edges, Matches (.four a b c d) e.cycle := by
   intro hlegal
   have hb := hlegal.2.1
-  have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by simpa [table, node20] using! hb
+  have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by exact hb
   norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
 theorem node20_valid : PartnerGraph.Sized.ValidNode table 20 := by
@@ -46,7 +46,7 @@ theorem node21_three_complete (a b c : Site) :
     ∃ e ∈ (table 21).edges, Matches (.three a b c) e.cycle := by
   intro hlegal
   have hb := hlegal.2.1
-  have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by simpa [table, node21] using! hb
+  have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by exact hb
   norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
 theorem node21_four_complete (a b c d : Site) :
@@ -54,7 +54,7 @@ theorem node21_four_complete (a b c d : Site) :
     ∃ e ∈ (table 21).edges, Matches (.four a b c d) e.cycle := by
   intro hlegal
   have hb := hlegal.2.1
-  have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by simpa [table, node21] using! hb
+  have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by exact hb
   norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
 theorem node21_valid : PartnerGraph.Sized.ValidNode table 21 := by
@@ -74,7 +74,7 @@ theorem node22_three_complete (a b c : Site) :
     ∃ e ∈ (table 22).edges, Matches (.three a b c) e.cycle := by
   intro hlegal
   have hb := hlegal.2.1
-  have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by simpa [table, node22] using! hb
+  have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by exact hb
   norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
 theorem node22_four_complete (a b c d : Site) :
@@ -82,7 +82,7 @@ theorem node22_four_complete (a b c d : Site) :
     ∃ e ∈ (table 22).edges, Matches (.four a b c d) e.cycle := by
   intro hlegal
   have hb := hlegal.2.1
-  have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by simpa [table, node22] using! hb
+  have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by exact hb
   norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
 theorem node22_valid : PartnerGraph.Sized.ValidNode table 22 := by
@@ -102,7 +102,7 @@ theorem node23_three_complete (a b c : Site) :
     ∃ e ∈ (table 23).edges, Matches (.three a b c) e.cycle := by
   intro hlegal
   have hb := hlegal.2.1
-  have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by simpa [table, node23] using! hb
+  have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by exact hb
   norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
 theorem node23_four_complete (a b c d : Site) :
@@ -110,7 +110,7 @@ theorem node23_four_complete (a b c d : Site) :
     ∃ e ∈ (table 23).edges, Matches (.four a b c d) e.cycle := by
   intro hlegal
   have hb := hlegal.2.1
-  have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by simpa [table, node23] using! hb
+  have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by exact hb
   norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
 theorem node23_valid : PartnerGraph.Sized.ValidNode table 23 := by
@@ -130,7 +130,7 @@ theorem node24_three_complete (a b c : Site) :
     ∃ e ∈ (table 24).edges, Matches (.three a b c) e.cycle := by
   intro hlegal
   have hb := hlegal.2.1
-  have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by simpa [table, node24] using! hb
+  have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by exact hb
   norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
 theorem node24_four_complete (a b c d : Site) :
@@ -138,7 +138,7 @@ theorem node24_four_complete (a b c d : Site) :
     ∃ e ∈ (table 24).edges, Matches (.four a b c d) e.cycle := by
   intro hlegal
   have hb := hlegal.2.1
-  have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by simpa [table, node24] using! hb
+  have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by exact hb
   norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
 theorem node24_valid : PartnerGraph.Sized.ValidNode table 24 := by
@@ -158,7 +158,7 @@ theorem node25_three_complete (a b c : Site) :
     ∃ e ∈ (table 25).edges, Matches (.three a b c) e.cycle := by
   intro hlegal
   have hb := hlegal.2.1
-  have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by simpa [table, node25] using! hb
+  have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by exact hb
   norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
 theorem node25_four_complete (a b c d : Site) :
@@ -166,7 +166,7 @@ theorem node25_four_complete (a b c d : Site) :
     ∃ e ∈ (table 25).edges, Matches (.four a b c d) e.cycle := by
   intro hlegal
   have hb := hlegal.2.1
-  have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by simpa [table, node25] using! hb
+  have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by exact hb
   norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
 theorem node25_valid : PartnerGraph.Sized.ValidNode table 25 := by
@@ -186,7 +186,7 @@ theorem node26_three_complete (a b c : Site) :
     ∃ e ∈ (table 26).edges, Matches (.three a b c) e.cycle := by
   intro hlegal
   have hb := hlegal.2.1
-  have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by simpa [table, node26] using! hb
+  have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by exact hb
   norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
 theorem node26_four_complete (a b c d : Site) :
@@ -194,7 +194,7 @@ theorem node26_four_complete (a b c d : Site) :
     ∃ e ∈ (table 26).edges, Matches (.four a b c d) e.cycle := by
   intro hlegal
   have hb := hlegal.2.1
-  have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by simpa [table, node26] using! hb
+  have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by exact hb
   norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
 theorem node26_valid : PartnerGraph.Sized.ValidNode table 26 := by
@@ -214,7 +214,7 @@ theorem node27_three_complete (a b c : Site) :
     ∃ e ∈ (table 27).edges, Matches (.three a b c) e.cycle := by
   intro hlegal
   have hb := hlegal.2.1
-  have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by simpa [table, node27] using! hb
+  have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by exact hb
   norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
 theorem node27_four_complete (a b c d : Site) :
@@ -222,7 +222,7 @@ theorem node27_four_complete (a b c d : Site) :
     ∃ e ∈ (table 27).edges, Matches (.four a b c d) e.cycle := by
   intro hlegal
   have hb := hlegal.2.1
-  have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by simpa [table, node27] using! hb
+  have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by exact hb
   norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
 theorem node27_valid : PartnerGraph.Sized.ValidNode table 27 := by
@@ -242,7 +242,7 @@ theorem node28_three_complete (a b c : Site) :
     ∃ e ∈ (table 28).edges, Matches (.three a b c) e.cycle := by
   intro hlegal
   have hb := hlegal.2.1
-  have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by simpa [table, node28] using! hb
+  have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by exact hb
   norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
 theorem node28_four_complete (a b c d : Site) :
@@ -250,7 +250,7 @@ theorem node28_four_complete (a b c d : Site) :
     ∃ e ∈ (table 28).edges, Matches (.four a b c d) e.cycle := by
   intro hlegal
   have hb := hlegal.2.1
-  have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by simpa [table, node28] using! hb
+  have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by exact hb
   norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
 theorem node28_valid : PartnerGraph.Sized.ValidNode table 28 := by
@@ -270,7 +270,7 @@ theorem node29_three_complete (a b c : Site) :
     ∃ e ∈ (table 29).edges, Matches (.three a b c) e.cycle := by
   intro hlegal
   have hb := hlegal.2.1
-  have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by simpa [table, node29] using! hb
+  have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by exact hb
   norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
 theorem node29_four_complete (a b c d : Site) :
@@ -278,7 +278,7 @@ theorem node29_four_complete (a b c d : Site) :
     ∃ e ∈ (table 29).edges, Matches (.four a b c d) e.cycle := by
   intro hlegal
   have hb := hlegal.2.1
-  have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by simpa [table, node29] using! hb
+  have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by exact hb
   norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
 theorem node29_valid : PartnerGraph.Sized.ValidNode table 29 := by
@@ -298,7 +298,7 @@ theorem node30_three_complete (a b c : Site) :
     ∃ e ∈ (table 30).edges, Matches (.three a b c) e.cycle := by
   intro hlegal
   have hb := hlegal.2.1
-  have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by simpa [table, node30] using! hb
+  have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by exact hb
   norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
 theorem node30_four_complete (a b c d : Site) :
@@ -306,7 +306,7 @@ theorem node30_four_complete (a b c d : Site) :
     ∃ e ∈ (table 30).edges, Matches (.four a b c d) e.cycle := by
   intro hlegal
   have hb := hlegal.2.1
-  have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by simpa [table, node30] using! hb
+  have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by exact hb
   norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
 theorem node30_valid : PartnerGraph.Sized.ValidNode table 30 := by
@@ -326,7 +326,7 @@ theorem node31_three_complete (a b c : Site) :
     ∃ e ∈ (table 31).edges, Matches (.three a b c) e.cycle := by
   intro hlegal
   have hb := hlegal.2.1
-  have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by simpa [table, node31] using! hb
+  have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by exact hb
   norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
 theorem node31_four_complete (a b c d : Site) :
@@ -334,7 +334,7 @@ theorem node31_four_complete (a b c d : Site) :
     ∃ e ∈ (table 31).edges, Matches (.four a b c d) e.cycle := by
   intro hlegal
   have hb := hlegal.2.1
-  have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by simpa [table, node31] using! hb
+  have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by exact hb
   norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
 theorem node31_valid : PartnerGraph.Sized.ValidNode table 31 := by
@@ -354,7 +354,7 @@ theorem node32_three_complete (a b c : Site) :
     ∃ e ∈ (table 32).edges, Matches (.three a b c) e.cycle := by
   intro hlegal
   have hb := hlegal.2.1
-  have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by simpa [table, node32] using! hb
+  have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by exact hb
   norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
 theorem node32_four_complete (a b c d : Site) :
@@ -362,7 +362,7 @@ theorem node32_four_complete (a b c d : Site) :
     ∃ e ∈ (table 32).edges, Matches (.four a b c d) e.cycle := by
   intro hlegal
   have hb := hlegal.2.1
-  have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by simpa [table, node32] using! hb
+  have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by exact hb
   norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
 theorem node32_valid : PartnerGraph.Sized.ValidNode table 32 := by
@@ -382,7 +382,7 @@ theorem node33_three_complete (a b c : Site) :
     ∃ e ∈ (table 33).edges, Matches (.three a b c) e.cycle := by
   intro hlegal
   have hb := hlegal.2.1
-  have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by simpa [table, node33] using! hb
+  have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by exact hb
   norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
 theorem node33_four_complete (a b c d : Site) :
@@ -390,7 +390,7 @@ theorem node33_four_complete (a b c d : Site) :
     ∃ e ∈ (table 33).edges, Matches (.four a b c d) e.cycle := by
   intro hlegal
   have hb := hlegal.2.1
-  have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by simpa [table, node33] using! hb
+  have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by exact hb
   norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
 theorem node33_valid : PartnerGraph.Sized.ValidNode table 33 := by
@@ -410,7 +410,7 @@ theorem node34_three_complete (a b c : Site) :
     ∃ e ∈ (table 34).edges, Matches (.three a b c) e.cycle := by
   intro hlegal
   have hb := hlegal.2.1
-  have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by simpa [table, node34] using! hb
+  have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by exact hb
   norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
 theorem node34_four_complete (a b c d : Site) :
@@ -418,7 +418,7 @@ theorem node34_four_complete (a b c d : Site) :
     ∃ e ∈ (table 34).edges, Matches (.four a b c d) e.cycle := by
   intro hlegal
   have hb := hlegal.2.1
-  have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by simpa [table, node34] using! hb
+  have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by exact hb
   norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
 theorem node34_valid : PartnerGraph.Sized.ValidNode table 34 := by
@@ -438,7 +438,7 @@ theorem node35_three_complete (a b c : Site) :
     ∃ e ∈ (table 35).edges, Matches (.three a b c) e.cycle := by
   intro hlegal
   have hb := hlegal.2.1
-  have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by simpa [table, node35] using! hb
+  have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by exact hb
   norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
 theorem node35_four_complete (a b c d : Site) :
@@ -446,7 +446,7 @@ theorem node35_four_complete (a b c d : Site) :
     ∃ e ∈ (table 35).edges, Matches (.four a b c d) e.cycle := by
   intro hlegal
   have hb := hlegal.2.1
-  have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by simpa [table, node35] using! hb
+  have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by exact hb
   norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
 theorem node35_valid : PartnerGraph.Sized.ValidNode table 35 := by
@@ -466,7 +466,7 @@ theorem node36_three_complete (a b c : Site) :
     ∃ e ∈ (table 36).edges, Matches (.three a b c) e.cycle := by
   intro hlegal
   have hb := hlegal.2.1
-  have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by simpa [table, node36] using! hb
+  have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by exact hb
   norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
 theorem node36_four_complete (a b c d : Site) :
@@ -474,7 +474,7 @@ theorem node36_four_complete (a b c d : Site) :
     ∃ e ∈ (table 36).edges, Matches (.four a b c d) e.cycle := by
   intro hlegal
   have hb := hlegal.2.1
-  have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by simpa [table, node36] using! hb
+  have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by exact hb
   norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
 theorem node36_valid : PartnerGraph.Sized.ValidNode table 36 := by
@@ -494,7 +494,7 @@ theorem node37_three_complete (a b c : Site) :
     ∃ e ∈ (table 37).edges, Matches (.three a b c) e.cycle := by
   intro hlegal
   have hb := hlegal.2.1
-  have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by simpa [table, node37] using! hb
+  have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by exact hb
   norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
 theorem node37_four_complete (a b c d : Site) :
@@ -502,7 +502,7 @@ theorem node37_four_complete (a b c d : Site) :
     ∃ e ∈ (table 37).edges, Matches (.four a b c d) e.cycle := by
   intro hlegal
   have hb := hlegal.2.1
-  have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by simpa [table, node37] using! hb
+  have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by exact hb
   norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
 theorem node37_valid : PartnerGraph.Sized.ValidNode table 37 := by
@@ -522,7 +522,7 @@ theorem node38_three_complete (a b c : Site) :
     ∃ e ∈ (table 38).edges, Matches (.three a b c) e.cycle := by
   intro hlegal
   have hb := hlegal.2.1
-  have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by simpa [table, node38] using! hb
+  have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by exact hb
   norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
 theorem node38_four_complete (a b c d : Site) :
@@ -530,7 +530,7 @@ theorem node38_four_complete (a b c d : Site) :
     ∃ e ∈ (table 38).edges, Matches (.four a b c d) e.cycle := by
   intro hlegal
   have hb := hlegal.2.1
-  have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by simpa [table, node38] using! hb
+  have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by exact hb
   norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
 theorem node38_valid : PartnerGraph.Sized.ValidNode table 38 := by
@@ -550,7 +550,7 @@ theorem node39_three_complete (a b c : Site) :
     ∃ e ∈ (table 39).edges, Matches (.three a b c) e.cycle := by
   intro hlegal
   have hb := hlegal.2.1
-  have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by simpa [table, node39] using! hb
+  have hb' : 2 + CycleSpec.cost (.three a b c) ≤ 2 := by exact hb
   norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
 theorem node39_four_complete (a b c d : Site) :
@@ -558,7 +558,7 @@ theorem node39_four_complete (a b c d : Site) :
     ∃ e ∈ (table 39).edges, Matches (.four a b c d) e.cycle := by
   intro hlegal
   have hb := hlegal.2.1
-  have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by simpa [table, node39] using! hb
+  have hb' : 2 + CycleSpec.cost (.four a b c d) ≤ 2 := by exact hb
   norm_num [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hb'
 
 theorem node39_valid : PartnerGraph.Sized.ValidNode table 39 := by

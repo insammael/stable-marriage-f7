@@ -149,6 +149,4 @@ theorem centerTypeWord_not_BA
   intro h
   exact two_word_conflicts_with_short_final_switch tr false (by simpa using! h)
 
-#print axioms centerTypeWord_not_AB
-#print axioms centerTypeWord_not_BA
 end F7Manuscript.ActualW19P6TwoWordExclusions

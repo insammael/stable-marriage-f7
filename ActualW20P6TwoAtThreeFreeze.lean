@@ -66,6 +66,4 @@ theorem actual_AABB_two_freezes_after_center_six
   exact token_two_at_three_freezes tr k1.succ k0.succ (by simp;omega) hpost3 hfirst
     (actual_AABB_row_four_missing_two tr hword).1
 
-#print axioms token_two_at_three_freezes
-#print axioms actual_AABB_two_freezes_after_center_six
 end F7Manuscript.ActualW20P6TwoAtThreeFreeze

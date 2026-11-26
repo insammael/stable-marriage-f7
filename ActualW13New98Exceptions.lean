@@ -131,7 +131,5 @@ theorem exceptionB_false (bits : Nat → Bool)
     exact noReturn_forbidden_incoming new98Plan bits 11 N
       (by simp [new98Plan,eventCount]) 0 2 (by decide) hp hs
 
-#print axioms exceptionA_false
-#print axioms exceptionB_false
 
 end F7Manuscript.ActualW13New98Exceptions

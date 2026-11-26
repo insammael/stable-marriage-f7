@@ -29,7 +29,5 @@ theorem actual_count_le_85_of_event_card_le_twenty (I : Profile 7) [Nonempty (St
   have hcard : Fintype.card (Event I) = 21 := h21
   omega
 
-#print axioms r20_positive_delta_original
-#print axioms actual_count_le_85_of_event_card_le_twenty
 end
 end F7Manuscript.ActualPositiveDeficitCoverAssembly

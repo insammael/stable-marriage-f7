@@ -62,7 +62,6 @@ theorem normalize_whole_run_first_choice
   simp only [reindex_support]
   rw [hprefix t]
 
-#print axioms normalize_whole_run_first_choice
 
 end
 end F7Manuscript.W7ActualOffset0FirstChoicePacket

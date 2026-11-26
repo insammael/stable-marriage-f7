@@ -59,9 +59,6 @@ theorem r20_original_mixed_stableCount_le_85_without_enumeration_assumptions
       rfl
       x hout hmixed
 
-#print axioms F7Manuscript.ConvexExecution.enumeration
-#print axioms globalThresholdEnumeration
-#print axioms r20_original_mixed_stableCount_le_85_without_enumeration_assumptions
 
 end
 

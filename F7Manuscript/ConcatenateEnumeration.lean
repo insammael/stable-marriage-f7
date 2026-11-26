@@ -106,6 +106,5 @@ theorem concatenate_enumeration_points (Q R : Finset V)
   exact ⟨hc,enumerationOfOrderedImage (Q.card+R.card) f hf ho (Q ∪ R) himage,
     enumerationOfOrderedImage_point (Q.card+R.card) f hf ho (Q ∪ R) himage⟩
 
-#print axioms concatenate_enumeration_points
 end
 end F7Manuscript.ConvexExecution

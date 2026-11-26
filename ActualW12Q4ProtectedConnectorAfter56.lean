@@ -76,6 +76,5 @@ theorem after56_future_bound {F : Rel} {n : ℕ}
   future_le_two_of_three_mutual future env 2 3 4 5 4 6 after56_mutual
     after56_23_future_bound after56_45_future_bound after56_46_future_bound
 
-#print axioms after56_future_bound
 
 end F7Manuscript.ActualW12Q4ProtectedConnectorsHandBound

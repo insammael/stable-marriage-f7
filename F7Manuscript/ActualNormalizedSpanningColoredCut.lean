@@ -137,8 +137,6 @@ theorem actual_normalized_spanning_colored_cut
     rw [hidx]
     simpa [H', renameColors_added] using! EventFrontierEnumeration.enumeration_added H' j hj
 
-#print axioms normalizedCut_firstTwo_composed
-#print axioms actual_normalized_spanning_colored_cut
 
 end
 end F7Manuscript.ActualNormalizedSpanningColoredCut

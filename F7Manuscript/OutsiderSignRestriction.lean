@@ -138,7 +138,5 @@ theorem outsider_paired_switch_force_two_neighbors
   exact outsider_two_sided_signs_force_two_neighbors C h311 hx hixa hixb hcenter
     t₀ s₁ c c (congrArg Subtype.val hlower.symm) rfl ht₀ hs hzcore hz
 
-#print axioms outsider_two_sided_signs_force_two_neighbors
-#print axioms outsider_paired_switch_force_two_neighbors
 end
 end F7Manuscript.TripleCoordinateLattice

@@ -285,9 +285,5 @@ theorem actual_G2_post_pairIncrement_eq_baseline
 
 end Actual
 
-#print axioms prefix_point_below_new_moving_of_fixed_reset
-#print axioms actual_prefix_below_new_moving_of_fixed_G2
-#print axioms actual_G2_post_crossEdges_eq_empty
-#print axioms actual_G2_post_pairIncrement_eq_baseline
 end
 end F7Manuscript.TripleCoordinateLattice

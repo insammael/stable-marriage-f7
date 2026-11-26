@@ -83,6 +83,5 @@ theorem observed_control_excludes_saturated_prefix
     change r.prefix.length+(T r.target).budget ≤ K at hbudget
     omega
 
-#print axioms observed_control_excludes_saturated_prefix
 end
 end F7Manuscript.WindowControlCertificate

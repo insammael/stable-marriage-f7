@@ -48,6 +48,4 @@ theorem fixed_free_five_A_no_normal_seven (p : Fin 6) (bits : Fin 8) (last : Fin
     ¬NormalMassPath 7 endA (seedFrame seedRightA 1 p bits last) false :=
   rejectMass_sound (fixed_free_five_A_no_mass_seven p bits last)
 
-#print axioms rejectMass_sound
-#print axioms fixed_free_five_A_no_normal_seven
 end F7Manuscript.TripleCoordinateLattice.R21BareTHandFive

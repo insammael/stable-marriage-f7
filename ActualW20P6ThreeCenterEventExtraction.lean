@@ -71,5 +71,4 @@ theorem three_center_event_indices
           exact ⟨k0,k1,k2,rfl,h01,h12,he0,he1,he2,h0,h1,h2⟩
         | cons _ _ => rw [hlist] at hlenEvents; simp at hlenEvents
 
-#print axioms three_center_event_indices
 end F7Manuscript.ActualW20P6ThreeCenterEventExtraction

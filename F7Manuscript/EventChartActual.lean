@@ -120,11 +120,6 @@ theorem actual_spanning_noABA_graph_excludes_twenty (Q : Finset (Event I))
   intro i
   exact reindex_atomic _ e i (ConvexCoverCycle.run_donor_cycle I Q hQ E i)
 
-#print axioms actual_spanning_colored_cut
-#print axioms actual_path_colored_run
-#print axioms actual_spanning_noABA_cut
-#print axioms actual_spanning_noABA_length_bound
-#print axioms actual_spanning_noABA_graph_excludes_twenty
 
 end
 end F7Manuscript.EventChartActual

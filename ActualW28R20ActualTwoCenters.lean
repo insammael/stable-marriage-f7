@@ -270,6 +270,5 @@ theorem actual_singleton_switch_has_two_centers
   · simpa [f2, j2] using! hrow2
   · rfl
 
-#print axioms actual_singleton_switch_has_two_centers
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW28R20ActualTwoCenters

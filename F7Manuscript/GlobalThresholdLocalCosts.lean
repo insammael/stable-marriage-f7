@@ -177,8 +177,5 @@ theorem global_T_introduction_credit
     rw [threshold_introduction_T_eq C E n hT,vertices_card]
   omega
 
-#print axioms core_deficit_introduction_ledger
-#print axioms global_G_introduction_credit
-#print axioms global_T_introduction_credit
 end
 end F7Manuscript.TripleCoordinateLattice

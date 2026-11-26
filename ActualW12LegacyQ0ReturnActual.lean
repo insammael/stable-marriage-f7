@@ -69,9 +69,6 @@ theorem q0_registry_entry_oriented_source_false
   exact actual_X_any_return_root_oriented_source_false C hn hδ h221 h311 hG hT X entry
     (q0_entry_color_facts entry he) dual j hfit
 
-#print axioms q0_entry_color_facts
-#print axioms q0_registry_entry_all_cuts_false
-#print axioms q0_registry_entry_oriented_source_false
 
 #eval IO.eprintln "W12 legacy Q0 actual adapter checked"
 

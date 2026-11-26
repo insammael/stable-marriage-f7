@@ -947,13 +947,6 @@ theorem cyclic_six_centers_then_D_prefix_false (t : Matching) (plan : List Move)
   · exact six_centers_then_D_prefix_false t plan bits hp H
   · exact opposite_six_centers_then_D_prefix_false t plan bits hp H
 
-#print axioms forward_first_two_normalization
-#print axioms forward_mode_dual_normalization
-#print axioms forward_strong_normalization
-#print axioms six_centers_then_D_false
-#print axioms opposite_to_forward_noReturn
-#print axioms opposite_six_centers_then_D_false
-#print axioms cyclic_six_centers_then_D_prefix_false
 
 end
 end F7Manuscript.WForwardNormalization

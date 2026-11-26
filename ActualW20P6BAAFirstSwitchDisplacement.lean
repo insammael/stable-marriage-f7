@@ -94,5 +94,4 @@ theorem baa_first_B_token_displaced_to_six
   rw [← hcontinuity] at hpost6
   exact ⟨k0,k1,k2,hlist,h01,h12,hcontinuity,hcenterpost,hpost6,hpre6⟩
 
-#print axioms baa_first_B_token_displaced_to_six
 end F7Manuscript.ActualW20P6BAAFirstSwitchDisplacement

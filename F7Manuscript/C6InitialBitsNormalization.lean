@@ -282,9 +282,5 @@ theorem c6InitialBits_endpoint {k : Nat} (hk : 2 ≤ k) (bits : Nat → Bool) :
     rw [c6LeftPlan_two]
     simpa [c6SupportAfter] using! c6InitialPerm_one_center bits
 
-#print axioms c6_initial_supports_fixed
-#print axioms c6InitialPerm_initial_support
-#print axioms c6InitialBits_route
-#print axioms c6InitialBits_endpoint
 end
 end F7Manuscript.C6InitialBitsNormalization

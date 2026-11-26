@@ -40,6 +40,5 @@ theorem fixedTokenSwapTrace_after_last_site_event
   intro t ht
   exact haux t.val t rfl ht
 
-#print axioms fixedTokenSwapTrace_after_last_site_event
 
 end F7Manuscript.PartnerGraph

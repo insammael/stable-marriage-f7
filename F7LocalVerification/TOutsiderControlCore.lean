@@ -39,6 +39,4 @@ def templateCheck (z : Nat) (outs row : List Atom) : Bool :=
     (List.range 6).all (fun choice =>
       localTransferCheck z pre true (contextWord pre sym outs row (some choice)))))
 
-#print axioms symmetry_table_length
-#print axioms symmetry_table_valid
 end F7TOutsider

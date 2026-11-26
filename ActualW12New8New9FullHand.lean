@@ -136,7 +136,6 @@ private theorem phase_locked
       | true => rfl
   exact ⟨h34,h35,h36⟩
 
-#print axioms phase_locked
 
 private theorem center_self_return
     (c : Color) (bits : Nat → Bool) (N : NoReturn id (new89Plan c) bits)
@@ -545,6 +544,5 @@ theorem new89_noReturn_impossible
       · exact close_frame1B 2 bits hfirst N h3 h4' h5' h6' h8' (Or.inr ⟨rfl,h7⟩)
       · exact close_frame1A 2 bits hfirst N h3 h4' h5' h6' h8' (Or.inr ⟨rfl,h7⟩)
 
-#print axioms new89_noReturn_impossible
 
 end F7Manuscript.ActualW12New8New9FullHand

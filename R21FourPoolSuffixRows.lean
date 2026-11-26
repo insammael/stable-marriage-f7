@@ -88,7 +88,5 @@ theorem covered_pool_two_rows_touch_five (R : TokenRun Site W 21)
     (covered_pool_no_offdiag_after R cut K covered a b ha hb ne)
     (covered_pool_no_offdiag_after R cut K covered b a hb ha ne.symm)
 
-#print axioms covered_pool_two_rows_touch_five
-#print axioms suffix_three_of_window_cap_and_fixed_prefix
 end
 end F7Manuscript.R21LongWindow.FourPoolCapacity

@@ -35,7 +35,5 @@ theorem original_two_outsiders_of_overlap_ledgers
  ActualPositiveDeficitCoverAssembly.r21_two_outsiders_no_macro_of_mass16
  (physical_mass16_of_overlap_ledgers ledgers) I
 
-#print axioms physical_mass16_of_overlap_ledgers
-#print axioms original_two_outsiders_of_overlap_ledgers
 end
 end F7Manuscript.R21Endpoint19Hand

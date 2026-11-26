@@ -166,7 +166,6 @@ theorem normalizeColors_eq_root_of_same_pivots
     normalizeColors raw = xs.map (fun c => (ρ c).val) := hnormMap
     _ = root := hmapped
 
-#print axioms normalizeColors_eq_root_of_same_pivots
 
 #eval IO.eprintln "W10 raw-root-color-key checked"
 

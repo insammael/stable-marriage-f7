@@ -27,7 +27,5 @@ theorem f7_eq_85_of_six_R21
     exact r21_one_outsider_two_T_leaf I
   exact remaining I u b c (by simp [r21RemainingSix,hmem,h])
 
-#print axioms remaining_six_length
-#print axioms f7_eq_85_of_six_R21
 end
 end F7Manuscript.ActualPositiveDeficitCoverAssembly

@@ -151,8 +151,6 @@ theorem reflect_finite_plan {W : Type*} [Fintype W] {q : Nat}
               · simp only [readWord, controlWord, h0, h1]
                 exact congrArg (List.cons x') (congrArg (List.cons label') hword')
 
-#print axioms readWord_congr_from
-#print axioms reflect_finite_plan
 
 end
 end F7Manuscript.ActualW8MixedPlanReflection

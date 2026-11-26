@@ -42,11 +42,3 @@ theorem after56_24_46_mutual (a b : Site) (hab : after56_24_46 a b) (hba : after
 
 end F7Manuscript.ActualW12Q4Node22HandBound
 
-#print axioms F7Manuscript.ActualW12Q4Node22HandBound.after24_56_mutual
-#print axioms F7Manuscript.ActualW12Q4Node22HandBound.after24_56_23_mutual
-#print axioms F7Manuscript.ActualW12Q4Node22HandBound.after24_56_46_mutual
-#print axioms F7Manuscript.ActualW12Q4Node22HandBound.after35_mutual
-#print axioms F7Manuscript.ActualW12Q4Node22HandBound.after56_mutual
-#print axioms F7Manuscript.ActualW12Q4Node22HandBound.after56_24_mutual
-#print axioms F7Manuscript.ActualW12Q4Node22HandBound.after56_24_23_mutual
-#print axioms F7Manuscript.ActualW12Q4Node22HandBound.after56_24_46_mutual

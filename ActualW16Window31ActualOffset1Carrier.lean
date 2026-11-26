@@ -317,10 +317,6 @@ theorem actual_X_window31_pivots1310_forward_false
   rw [hclock, hbefore] at hbudget
   omega
 
-#print axioms actual_X_window31_offset1_carrier
-#print axioms window31_normalized_slice_of_global_pivots1310
-#print axioms actual_X_window31_offset1_carrier_of_pivots1310
-#print axioms actual_X_window31_pivots1310_forward_false
 
 end
 end F7Manuscript.ActualW16Window31ActualOffset1Carrier

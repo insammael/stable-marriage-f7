@@ -112,9 +112,6 @@ theorem three_outsiders_two_at_G
   clear * - hcharge hscore
   omega
 
-#print axioms one_G_chart_size
-#print axioms two_G_true_charge
-#print axioms three_outsiders_two_at_G
 end
 end F7Manuscript.TripleCoordinateLattice.R21OneGOccupied
 

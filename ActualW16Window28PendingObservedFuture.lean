@@ -73,7 +73,5 @@ theorem W28B0Pending_future_from_observed_prefix {W : Type*} [Fintype W] {q : â„
   rw [W28B0_prefixFresh_eq] at transported
   exact W28B0Pending_future_le_six transported
 
-#print axioms W28A1Pending_future_from_observed_prefix
-#print axioms W28B0Pending_future_from_observed_prefix
 
 end F7Manuscript.ActualW16Window28PendingObservedFuture

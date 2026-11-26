@@ -16,5 +16,4 @@ theorem five_seed_certificate : ∀s∈(upper 5).powerset,
       (aval s=0 → s∈zeroSeeds) ∧ (dval s=2 → s∈twoSeeds) := by decide +kernel
 
 
-#print axioms five_seed_certificate
 end NeutralCore.SmallSeed

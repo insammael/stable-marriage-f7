@@ -568,25 +568,5 @@ theorem node19_valid : PartnerGraph.Sized.ValidNode table 19 := by
   | three a b c => exact node19_three_complete a b c
   | four a b c d => exact node19_four_complete a b c d
 
-#print axioms node0_valid
-#print axioms node1_valid
-#print axioms node2_valid
-#print axioms node3_valid
-#print axioms node4_valid
-#print axioms node5_valid
-#print axioms node6_valid
-#print axioms node7_valid
-#print axioms node8_valid
-#print axioms node9_valid
-#print axioms node10_valid
-#print axioms node11_valid
-#print axioms node12_valid
-#print axioms node13_valid
-#print axioms node14_valid
-#print axioms node15_valid
-#print axioms node16_valid
-#print axioms node17_valid
-#print axioms node18_valid
-#print axioms node19_valid
 
 end F7Manuscript.PartnerGraph.NormalOutsider

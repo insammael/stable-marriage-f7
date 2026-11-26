@@ -63,6 +63,5 @@ theorem global_G_pair_increment_le_four_uniform
     · exact hbase
     · exact hcomp
 
-#print axioms global_G_pair_increment_le_four_uniform
 end
 end F7Manuscript.TripleCoordinateLattice

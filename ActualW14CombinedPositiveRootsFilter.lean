@@ -97,8 +97,6 @@ theorem actual_pure_combined_positive_roots_endpoint
   refine ⟨max (max (max rBase r7) r98) r1520, ?_, hbound⟩
   simp [pureCombinedPositiveRootsRequirement, hrBase, hr7, hr98, hr1520]
 
-#print axioms pureCombinedPositiveRootsRequirement_none_iff
-#print axioms actual_pure_combined_positive_roots_endpoint
 
 end
 end F7Manuscript.ActualW14CombinedPositiveRootsFilter

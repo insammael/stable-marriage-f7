@@ -51,8 +51,4 @@ theorem projected9s7_keep_leaf_lr : allKeys projected9s7_keep_predicate (dictAt 
  exact allKeys_of_children h0
   (allKeys_of_children hL endpoint_arc_C09Check02Part01_3_ll endpoint_arc_C09Check02Part01_3_lr)
   (allKeys_of_children hR endpoint_arc_C09Check02Part01_3_rl endpoint_arc_C09Check02Part01_3_rr)
-#print axioms projected9s6_keep_leaf_rl
-#print axioms projected9s6_keep_leaf_rr
-#print axioms projected9s7_keep_leaf_ll
-#print axioms projected9s7_keep_leaf_lr
 end F7Manuscript.R21NormalEndpoint.Projection.Snapshots.PhysicalD2.Projected

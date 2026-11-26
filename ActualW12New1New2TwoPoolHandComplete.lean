@@ -607,7 +607,6 @@ theorem new12_noReturn_impossible (c : Color) (hc : c = 0 ∨ c = 2)
     have hsel := pool_forced_if_ytrue c hc bits hfirst h4 h6 N h5
     exact final_pair_ytrue c bits hfirst h4 h5 h6 N hsel
 
-#print axioms new12_noReturn_impossible
 
 end F7Manuscript.ActualW12New1New2TwoPoolHandComplete
 

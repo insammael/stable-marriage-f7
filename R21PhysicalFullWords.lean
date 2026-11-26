@@ -76,7 +76,5 @@ theorem full_normal_word_eq_raw (C : Chart) (positive : 1<=C.m) (f : SupportFram
  unfold fullNormalWord rawNormalWord
  rw [hplan,forward_center,<-forward_shift _ _ bits 1 0]
 
-#print axioms full_normal_word_eq_raw
-#print axioms forward_append
 end
 end F7Manuscript.R21PhysicalWindowWords

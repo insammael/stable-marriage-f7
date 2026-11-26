@@ -102,6 +102,5 @@ theorem active_double_global_prefix_center
     singleton_center_mem_globalBefore C h221 h311 hk hh (inc_symm hinc),
     singleton_center_maximal_globalBefore C h221 h311 hk (inc_symm hinc)⟩
 
-#print axioms active_double_global_prefix_center
 end
 end F7Manuscript.TripleCoordinateLattice

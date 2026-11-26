@@ -77,7 +77,6 @@ theorem actual_oriented_fit_iff_normalized_tuple_fit
   unfold New1520OrientedFitAt new1520TupleFit
   rw [hWlen]
 
-#print axioms actual_oriented_fit_iff_normalized_tuple_fit
 
 end
 end F7Manuscript.ActualW14New1520ActualTupleFit

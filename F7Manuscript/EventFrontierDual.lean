@@ -199,10 +199,6 @@ theorem actual_reverse_colored_cut (H : FrontierChart I m) (hm : 2 ≤ m)
     · simpa [coloredInitialWord, ReturnCertificate.pairAt] using! h2)
   exact ⟨e, C, hw⟩
 
-#print axioms reverse_events
-#print axioms forwardOfDual
-#print axioms reverse_run_event_support
-#print axioms actual_reverse_colored_cut
 
 end
 end F7Manuscript.EventFrontierDual

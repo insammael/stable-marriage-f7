@@ -64,5 +64,4 @@ theorem OutwardWalks.tracks_closed {B : Board} (w : OutwardWalks B)
     simpa [OutwardWalks.signature,actorMask,actorBits,List.filterMap_append] using! selected
   exact List.mem_flatMap.mpr ⟨order,allowed,List.mem_flatMap.mpr ⟨cut,cutAllowed,selected'⟩⟩
 
-#print axioms OutwardWalks.tracks_closed
 end F7Manuscript.R21NormalEndpoint.Projection

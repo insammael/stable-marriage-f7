@@ -97,9 +97,4 @@ theorem five_core_classification_one_input (H : OneHumanInput V) :
     BadNeutral (V:=V) ↔ ∃!k : CoreKind, Nonempty (V ≃o Core k) :=
   five_core_classification_two_inputs H.toTwoInputs
 
-#print axioms ActualDirectedPaths.support_eq
-#print axioms ActualDirectedPaths.toOverlap
-#print axioms ActualDirectedPaths.toOverlap_separated
-#print axioms five_core_classification_one_input
-#check OneHumanInput
 end NeutralCore

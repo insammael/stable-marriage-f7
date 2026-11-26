@@ -61,7 +61,4 @@ theorem pairClass_deficit_nonnegative (hClass : PairClass (V := V))
   unfold a A2
   omega
 
-#print axioms pairClass_ordered_pair_budget
-#print axioms pairClass_unordered_pair_bound
-#print axioms pairClass_deficit_nonnegative
 end NeutralCore

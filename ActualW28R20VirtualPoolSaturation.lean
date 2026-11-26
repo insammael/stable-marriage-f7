@@ -161,6 +161,5 @@ theorem actual_virtual_pool_saturation
         exact Nat.lt_succ_of_le ht'⟩, Finset.mem_univ _, ?_⟩
       rfl
 
-#print axioms actual_virtual_pool_saturation
 end
 end F7Manuscript.ActualW28R20VirtualPoolSaturation

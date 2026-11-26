@@ -234,7 +234,5 @@ theorem fourActorRectangleInterval_remaining_card_le_two_of_centers
   rw [hfour] at hcard
   omega
 
-#print axioms fourActorRectangleInterval_card_le_six
-#print axioms fourActorRectangleInterval_remaining_card_le_two
 end
 end F7Manuscript.ActualGlobalCoverAssembly

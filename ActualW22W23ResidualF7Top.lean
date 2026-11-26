@@ -29,7 +29,6 @@ theorem f7_eq_85_of_positive_delta_residuals
   intro I
   exact actual_count_le_85_with_positive_delta_residuals I (r20 I) (r21 I)
 
-#print axioms f7_eq_85_of_positive_delta_residuals
 
 end
 end F7Manuscript.ActualW22W23ResidualF7Top

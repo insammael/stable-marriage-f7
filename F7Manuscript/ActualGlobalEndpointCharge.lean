@@ -163,9 +163,5 @@ theorem actual_global_last_slot_charge_le_twice
   exact (actual_global_terminal_endpoint_charge C hn h221 h311).trans
     (endpointCharge_le_twice_of_le_three _ hw)
 
-#print axioms actual_global_terminal_h2_unique
-#print axioms actual_global_initial_h2_unique
-#print axioms actual_global_terminal_endpoint_charge
-#print axioms actual_global_initial_endpoint_charge
 end
 end F7Manuscript.TripleCoordinateLattice

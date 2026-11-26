@@ -95,6 +95,5 @@ theorem actual_profile_target_of_disjoint_prehistory
   exact profileTarget_of_typed_capacity word hlen hpairs capacity hdegree hsum
     fixed hfixed hcap₁ hcap₂
 
-#print axioms actual_profile_target_of_disjoint_prehistory
 end
 end F7Manuscript.OneGap

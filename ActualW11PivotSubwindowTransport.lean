@@ -176,9 +176,5 @@ theorem pivotsOf_subwindow_eq
       simpa only [show start+p-1 = start+(p-1) by omega,
         show start+p+1 = start+(p+1) by omega] using! heqX
 
-#print axioms pivotsOf_eq_of_pointwise
-#print axioms pivotsOf_reverse_image
-#print axioms pivotsOf_reverse_eq_of_eq
-#print axioms pivotsOf_subwindow_eq
 
 end F7Manuscript.ActualW11PivotSubwindowTransport

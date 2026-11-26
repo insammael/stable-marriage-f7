@@ -76,6 +76,5 @@ theorem four_not_at_zero_before_fresh_center_with_initial_six
         simpa [Equiv.swap_apply_def,hr.symm,tr.distinct e] using! hepost
       exact hsource_impossible (tr.left e) (Or.inr ⟨rfl,hr.symm⟩) hpre
 
-#print axioms four_not_at_zero_before_fresh_center_with_initial_six
 
 end F7Manuscript.ActualW20P6FourCannotVisitZeroBeforeCenter

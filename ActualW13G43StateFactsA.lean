@@ -51,6 +51,3 @@ theorem after35_mutual (a b : Site) (hab : after35 a b) (hba : after35 b a) :
 
 end F7Manuscript.ActualW12Q4Node43HandBound
 
-#print axioms F7Manuscript.ActualW12Q4Node43HandBound.initial_mutual
-#print axioms F7Manuscript.ActualW12Q4Node43HandBound.after26_mutual
-#print axioms F7Manuscript.ActualW12Q4Node43HandBound.after35_mutual

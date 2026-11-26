@@ -54,7 +54,5 @@ theorem firstD4_actual_normalized_word
     rootFirstTwoBits_tail bits 3 (by omega),
     rootFirstTwoBits_tail bits 4 (by omega)] using! h
 
-#print axioms firstD3_actual_normalized_word
-#print axioms firstD4_actual_normalized_word
 
 end F7Manuscript.N4FirstD34ActualRootWords

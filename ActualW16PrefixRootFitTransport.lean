@@ -195,9 +195,6 @@ theorem prefix_old_root_fit_impossible_of_partial_some
   rw [hnone] at hr
   cases hr
 
-#print axioms oriented_root_fit_of_prefix_drop_fit
-#print axioms oriented_root_fit_of_take14_fit
-#print axioms prefix_old_root_fit_impossible_of_partial_some
 
 end
 end F7Manuscript.ActualW16PrefixRootFitTransport

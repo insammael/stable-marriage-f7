@@ -56,6 +56,5 @@ theorem r21_one_G_canonical_geometry :
   · simpa only [hR] using! hOld
   · simpa only [hL] using! hNew
 
-#print axioms r21_one_G_canonical_geometry
 end
 end F7Manuscript.TripleCoordinateLattice.R21OneGCanonicalGeometry

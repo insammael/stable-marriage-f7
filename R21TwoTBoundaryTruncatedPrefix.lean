@@ -56,6 +56,4 @@ theorem B_no_three_prefix (p : Fin 6) (bits : Fin 8) (last : Fin 3) :
  ¬FirstTOrPrefix 3 endB (seedFrame seedRightB 2 p bits last) :=
  rejectPrefix_truncated_sound 3 _ _ (B_end_prefix_checked p bits last)
 
-#print axioms A_no_three_prefix
-#print axioms B_no_three_prefix
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

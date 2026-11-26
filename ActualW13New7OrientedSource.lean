@@ -228,8 +228,6 @@ theorem actual_X_new7_oriented_structural_threshold
     physicalDual j hfitActual
   simpa [physicalDual] using! hthreshold
 
-#print axioms New7OrientedFitAt
-#print axioms actual_X_new7_oriented_structural_threshold
 #eval IO.eprintln "W13 NEW7 oriented source checked"
 
 end

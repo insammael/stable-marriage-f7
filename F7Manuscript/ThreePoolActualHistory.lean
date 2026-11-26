@@ -1,5 +1,6 @@
 module
 
+public import Mathlib
 public import F6SmallBlockTokenCapacity
 
 @[expose] public section
@@ -98,4 +99,3 @@ theorem two_step_pool_covers
 
 end F7Manuscript.ThreePoolActualHistory
 
-#print axioms F7Manuscript.ThreePoolActualHistory.two_step_pool_covers

@@ -188,7 +188,6 @@ theorem actual_u3_q3_s1_m9_central_frontier
     have hpiv4 : pivotsOf W ⊆ {4} := by simpa using! hpivSub
     exact ⟨hm9, hmin, hDsum, hD4, hDzero4, hpiv4, hDle⟩
 
-#print axioms actual_u3_q3_s1_m9_central_frontier
 
 end
 end F7Manuscript.ActualW16U3Q3S1M9CentralFrontier

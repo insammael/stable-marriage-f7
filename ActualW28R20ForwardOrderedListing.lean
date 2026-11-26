@@ -69,7 +69,5 @@ theorem forwardOrderedRun20_support_at
   rw [hidx]
   exact congrArg (support I) hpoint
 
-#print axioms forwardOrderedRun20
-#print axioms forwardOrderedRun20_support_at
 end
 end F7Manuscript.ActualW28R20ForwardOrderedListing

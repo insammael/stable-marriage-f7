@@ -243,7 +243,5 @@ theorem actual_initial_two_neighbor_outsiders_card_le_one
     ((beforeOutsiders C).filter (fun x => coreNeighborCount C x = 2)).card ≤ 1 :=
   actual_initial_two_neighbor_outsiders_card_le_one_of_boundary C hn h311 B
 
-#print axioms actual_initial_two_neighbor_outsiders_card_le_one_of_boundary
-#print axioms actual_initial_two_neighbor_outsiders_card_le_one
 end
 end F7Manuscript.TripleCoordinateLattice

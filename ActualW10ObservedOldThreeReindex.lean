@@ -47,7 +47,5 @@ def observed_normalize (W : Type*) [Fintype W] {q : Nat}
     rw [normalize_origins_commute a b c s x]
     exact hseen
 
-#print axioms normalize_origins_commute
-#print axioms observed_normalize
 
 end F7Manuscript.ActualW10ObservedOldThreeReindex

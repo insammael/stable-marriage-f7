@@ -33,6 +33,5 @@ theorem original_right_cut_no_five :
     (S (firstMacro C h221 h311 hG hT).succ) (S (Fin.last M)) at hist
   exact R21TwoTBoundaryFinite.right_pure_five_impossible _ _ _ hist hpure
 
-#print axioms original_right_cut_no_five
 end
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundary

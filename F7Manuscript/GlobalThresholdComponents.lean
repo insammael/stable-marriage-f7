@@ -116,6 +116,5 @@ theorem global_component_three_shapes
       have h3 : (labels C h).card = 3 := by omega
       exact Finset.mem_filter.mpr ⟨Finset.mem_univ _,h3⟩
 
-#print axioms global_component_three_shapes
 end
 end F7Manuscript.TripleCoordinateLattice

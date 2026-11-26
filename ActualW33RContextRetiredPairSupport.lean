@@ -98,6 +98,5 @@ theorem retired_pair_cell
         (movingColor (normalCenterColor B h221 h311 hz j) s)).val := by
           rw [hblock, hpair]
 
-#print axioms retired_pair_cell
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW33RContextRetiredPairSupport

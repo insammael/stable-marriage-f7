@@ -48,6 +48,5 @@ theorem route_rebase {W : Type*} [Fintype W] {q : Nat}
     SupportsRoute R t f plan (fun k => bits (i+k)) 0 := by
   exact route_congr_indices H (fun k => bits (i+k)) 0 (fun k => by simp)
 
-#print axioms route_rebase
 
 end F7Manuscript.ActualW8RouteControlRebase

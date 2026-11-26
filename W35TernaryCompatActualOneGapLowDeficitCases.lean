@@ -91,7 +91,6 @@ theorem actual_one_G_low_deficit_short_long_cases
     · have hlong : S0.m = 10 := by rw [hm1, hq] at hsum; omega
       exact Or.inr (Or.inr (Or.inr (Or.inr (Or.inr ⟨hq, hm1, hlong⟩))))
 
-#print axioms actual_one_G_low_deficit_short_long_cases
 
 end
 end F7Manuscript.TripleCoordinateLattice.W35TernaryCompat

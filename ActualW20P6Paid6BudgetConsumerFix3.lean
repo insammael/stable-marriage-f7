@@ -86,7 +86,5 @@ theorem actual_X_paid6_reverse_false_of_abb_exclusion
   exact actual_X_paid6_p6_reverse_false C hn hδ h221 h311 hG hT X hu hq hs
     hpaid hchoice hreverse (F7Manuscript.ActualW20P6PureBudget10Fix.p6_pure_budget10_of_abb_exclusion hABBClose)
 
-#print axioms actual_X_paid6_forward_false_of_abb_exclusion
-#print axioms actual_X_paid6_reverse_false_of_abb_exclusion
 end
 end F7Manuscript.ActualW20P6Paid6BudgetConsumerFix3

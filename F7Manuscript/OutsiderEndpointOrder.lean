@@ -96,6 +96,5 @@ theorem triple_core_convex_of_constant_signs
   · exact Or.inr (below_all_triples_after_core C hafter)
   · exact Or.inl (above_all_triples_before_core C hbefore)
 
-#print axioms triple_core_convex_of_constant_signs
 end
 end F7Manuscript.TripleCoordinateLattice

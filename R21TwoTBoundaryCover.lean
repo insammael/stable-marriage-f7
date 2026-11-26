@@ -26,5 +26,4 @@ theorem boundary_word_cover_of_middle_left_mass_bound
  have hq:=h.2.1
  omega
 
-#print axioms boundary_word_cover_of_middle_left_mass_bound
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

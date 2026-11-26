@@ -69,7 +69,6 @@ theorem actual_X_run_variant_inputs
   · apply mem_boolWords
     simp [flags]
 
-#print axioms actual_X_run_variant_inputs
 
 end
 end W7ActualXRunVariantInputs

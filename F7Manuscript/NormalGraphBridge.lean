@@ -71,8 +71,5 @@ theorem actual_no_twenty_raw_cut (I : Profile 7)
   apply no_twenty_raw_cut _ hq
   exact ConvexCoverCycle.run_donor_cycle I Q hQ E
 
-#print axioms raw_cut_graph_bound
-#print axioms placed_raw_cut_bound
-#print axioms actual_no_twenty_raw_cut
 
 end F7Manuscript.PartnerGraph.Periodic

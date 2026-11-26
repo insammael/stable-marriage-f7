@@ -61,6 +61,5 @@ theorem adjacent_cross_relation_is_cover {C : Partition (V := V)} {N : ℕ}
     · have hanti := (T k.succ).property (color C z) j hcolor
       exact (hanti.1 (hnewz.trans hzy)).elim
 
-#print axioms adjacent_cross_relation_is_cover
 
 end F7Manuscript.BlockFrontierEnumeration

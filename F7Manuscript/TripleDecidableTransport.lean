@@ -17,6 +17,5 @@ theorem triple_nonempty_change_decidableEq
     (h : Nonempty (@Triple V _ _ d C)) : Nonempty (@Triple V _ _ e C) := by
   exact h
 
-#print axioms triple_nonempty_change_decidableEq
 end
 end F7Manuscript.TripleCoordinateLattice

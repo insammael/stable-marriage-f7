@@ -35,7 +35,6 @@ theorem r21_three_outsiders_one_G_original (I : Profile 7) [Nonempty (StableMatc
   · exact three_outsiders_two_at_G C hn h221 h311 hu hG hT (fun k => hj k ▸ h)
   · exact three_outsiders_all_at_G C hn h221 h311 hu hG hT j h
 
-#print axioms r21_three_outsiders_one_G_original
 end
 end F7Manuscript.ActualPositiveDeficitCoverAssembly
 

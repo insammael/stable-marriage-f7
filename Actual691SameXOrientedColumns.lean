@@ -109,8 +109,5 @@ theorem actual_oriented_colors_single_permutation_of_shape
     hn hδ hD hpos X
     (actual_oriented_raw_shape_has_two_columns C h221 h311 hG hT hn hδ X)
 
-#print axioms actual_oriented_raw_shape_has_two_columns
-#print axioms actual_oriented_raw_columns_of_shape
-#print axioms actual_oriented_colors_single_permutation_of_shape
 end
 end F7Manuscript.TripleCoordinateLattice

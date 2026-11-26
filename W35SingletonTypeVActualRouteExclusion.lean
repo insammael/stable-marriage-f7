@@ -68,7 +68,5 @@ theorem singleton_typeV_actual_joined_route_false
   exact W35SingletonTypeVJoinedExclusion.typeV_singleton_joined_actual_twenty_false
     R C D a b g0 g1 hmC hmD ha hbudget bits h0 h1 h2 h3 hq H hguard
 
-#print axioms singleton_plan_eq_paired
-#print axioms singleton_typeV_actual_joined_route_false
 end
 end F7Manuscript.W35SingletonTypeVActualRouteExclusion

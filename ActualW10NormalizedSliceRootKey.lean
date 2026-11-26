@@ -95,7 +95,6 @@ theorem raw_normalization_representation
       simp [hi, hiXs, hiNorm, xs]
   exact ⟨xs, ρ, hxsraw, hnormMap⟩
 
-#print axioms raw_normalization_representation
 
 /-- A fixed permutation does not change ABA pivots after selecting any slice. -/
 theorem pivotsOf_slice_map_perm
@@ -105,7 +104,6 @@ theorem pivotsOf_slice_map_perm
   have h := pivotsOf_map_perm ((xs.drop j).take n) ρ
   simpa only [List.map_take, List.map_drop] using! h
 
-#print axioms pivotsOf_slice_map_perm
 
 /-- The same fixed-permutation slice transport holds after reversing the
     represented sequence, matching the reverse window convention. -/
@@ -116,7 +114,6 @@ theorem pivotsOf_reverse_slice_map_perm
   have h := pivotsOf_map_perm (((xs.reverse).drop j).take n) ρ
   simpa only [List.map_take, List.map_drop, List.map_reverse] using! h
 
-#print axioms pivotsOf_reverse_slice_map_perm
 
 /-- Raw-to-normalized ABA pivots agree on every forward slice. -/
 theorem normalized_raw_slice_pivots
@@ -138,7 +135,6 @@ theorem normalized_raw_slice_pivots
       rw [← hxsraw]
       simp only [List.map_take, List.map_drop]
 
-#print axioms normalized_raw_slice_pivots
 
 /-- Raw-to-normalized ABA pivots agree on every reverse slice. -/
 theorem normalized_raw_reverse_slice_pivots
@@ -170,7 +166,6 @@ theorem normalized_raw_reverse_slice_pivots
           simp only [List.map_take, List.map_drop]
         _ = (((raw.reverse).drop j).take n) := by rw [hrawRev]
 
-#print axioms normalized_raw_reverse_slice_pivots
 
 
 /-- A normalized raw slice equals a normalized root when the slice carries
@@ -205,7 +200,6 @@ theorem normalized_slice_eq_root_of_slice_key
         (normalized_raw_slice_pivots raw hrawval hrawadj hrawTwo j n).symm
       _ = pivotsOf root := hpiv
 
-#print axioms normalized_slice_eq_root_of_slice_key
 
 /-- The same root-key implication for the reverse-first slice convention. -/
 theorem normalized_reverse_slice_eq_root_of_slice_key
@@ -239,6 +233,5 @@ theorem normalized_reverse_slice_eq_root_of_slice_key
         (normalized_raw_reverse_slice_pivots raw hrawval hrawadj hrawTwo j n).symm
       _ = pivotsOf root := hpiv
 
-#print axioms normalized_reverse_slice_eq_root_of_slice_key
 
 end F7Manuscript.ActualW10NormalizedSliceRootKey

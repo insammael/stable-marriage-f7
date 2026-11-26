@@ -24,5 +24,4 @@ theorem centerWord_length_le_four
       exact centerWord_entries_allowed T x hmem
     _ = 4 := by decide
 
-#print axioms centerWord_length_le_four
 end F7Manuscript.ActualW19P6CenterWord

@@ -142,7 +142,5 @@ theorem actual_canonical_positive_T_joint_charge
       ((2*z+6 : ℕ) : ℤ)-(p : ℤ)-(q : ℤ) ≤ k := by omega
   exact bound _ _ _ _ _ _ hocc.1 hocc.2 hlocal
 
-#print axioms actual_canonical_bare_T_joint_charge
-#print axioms actual_canonical_positive_T_joint_charge
 end
 end F7Manuscript.TripleCoordinateLattice

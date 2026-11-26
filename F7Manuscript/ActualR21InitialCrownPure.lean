@@ -132,9 +132,6 @@ theorem actual_initial_crown_seed
     rw [hp]
     exact ((R.state 0).injective.eq_iff).symm
 
-#print axioms crown_relabel_to_initial_frame
-#print axioms actual_initial_crown_seed
-#print axioms F7Manuscript.TripleCoordinateLattice.r21_single_T_initial_crown_shape
 end F7Manuscript.R21PureInitialCrown
 
 namespace F7Manuscript.TripleCoordinateLattice
@@ -179,6 +176,5 @@ theorem actual_T_initial_crown_supports
       crownRow 6 (p (coordinatePermutation s c))
     rw [← Finset.map_map, hnew c, hnorm]
 
-#print axioms actual_T_initial_crown_supports
 end
 end F7Manuscript.TripleCoordinateLattice

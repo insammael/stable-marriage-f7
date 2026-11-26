@@ -76,6 +76,5 @@ theorem original_three_cut_fresh :
   obtain ⟨H,hw⟩ := join_event_words hw₀₁ hw₂ (Finset.disjoint_union_left.mpr ⟨hd₀₂,hd₁₂⟩) h₁₂
   exact ⟨f₀,f₁,f₂,b₀,b₁,b₂,hv₀,hv₁,hv₂,full_event_word_fresh hfull H _ hw⟩
 
-#print axioms original_three_cut_fresh
 end
 end F7Manuscript.TripleCoordinateLattice.R21TwoT

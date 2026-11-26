@@ -94,8 +94,5 @@ theorem actual_pure_suffix_cuts
     (actualPureSuffixFrontierChart Q B h221B h311B hzB lo hzero)
     (actual_pure_suffix_chart_convex Q B h221B h311B hzB hQ lo hzero)
 
-#print axioms pure_suffix_events_subset
-#print axioms actual_pure_suffix_chart_convex
-#print axioms actual_pure_suffix_cuts
 end
 end F7Manuscript.W35SubsetPureSuffixConvex

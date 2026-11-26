@@ -125,5 +125,3 @@ end
 
 end F7Manuscript.TripleCoordinateLattice
 
-#print axioms F7Manuscript.TripleCoordinateLattice.literalLift_exact_two_threshold_seed
-#print axioms F7Manuscript.TripleCoordinateLattice.normalRun_internal_double_exact_induced_seed

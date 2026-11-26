@@ -60,8 +60,4 @@ theorem no_six_move_idle_seventh_wire {xs : List (Fin 18)}
   have h := idle_seventh_wire_length_le_five path
   omega
 
-#print axioms reachable_output_table
-#print axioms wirePath_length_le
-#print axioms idle_seventh_wire_length_le_five
-#print axioms no_six_move_idle_seventh_wire
 end F7Manuscript.R21LongWindow.Mass18Endpoint

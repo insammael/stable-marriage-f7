@@ -212,6 +212,5 @@ theorem actual_q0_chosen_whole_typeV_splice
     exact hpreBitsFalse k hk
   exact ⟨e',Hwhole,bits,hnormBits,hbit,hstages⟩
 
-#print axioms actual_q0_chosen_whole_typeV_splice
 end
 end F7Manuscript.TripleCoordinateLattice

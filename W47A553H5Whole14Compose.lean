@@ -155,7 +155,6 @@ theorem actual_zero_cost_cut14_same_original_whole
     rw [hCutBits]
     exact hbits j hj
 
-#print axioms actual_zero_cost_cut14_same_original_whole
 
 end
 

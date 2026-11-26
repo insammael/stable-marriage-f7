@@ -30,6 +30,5 @@ def W28B1FixedWord : List Pair :=
   [(0,1),(2,3),(4,5),(0,6),(2,1),(4,3),(6,5),(3,0),
    (5,4),(2,6),(0,1),(4,3),(6,5),(1,2)]
 
-#print axioms F7Manuscript.ActualW16Window28Plan.window28Plan_eventCount
 
 end F7Manuscript.ActualW16Window28FixedWords

@@ -261,7 +261,6 @@ theorem actual_q0_pivots34810_selected7_min_le_one_false
     rw [hb, hL] at hthreshold
     omega
 
-#print axioms actual_q0_pivots34810_selected7_min_le_one_false
 
 end
 end F7Manuscript.ActualW21Selected7MinLeOneCaller

@@ -199,5 +199,4 @@ theorem p5_actual_positive_CII_removed_from_trace
       hb2post hq2pre hq2post hm2pre hm2post hyz hm6pre hm6post hq6pre hq6post
       hx6eq hw2eq hw6eq
 
-#print axioms p5_actual_positive_CII_removed_from_trace
 end F7Manuscript.ActualW20P5CIIPositiveClosure

@@ -120,7 +120,6 @@ theorem actual_q1_post_row_observed_prefix_of_whole_points
     F7Manuscript.PartnerGraph.Sized.actual_whole_row_observed_prefix
       C D e row hanti k hklabel hkSupport t hcut hprefix⟩⟩
 
-#print axioms actual_q1_post_row_observed_prefix_of_whole_points
 
 /-- The same q=1 chart alignment returns both the observed whole-run prefix
 and the three normalized post-row support pairs.  Keeping these outputs in
@@ -208,7 +207,6 @@ theorem actual_q1_post_row_whole_points_with_supports
       C D e row hanti k hklabel hkSupport t hcut hprefix
   exact ⟨e,b,⟨hObserved⟩,hlocalSupport⟩
 
-#print axioms actual_q1_post_row_whole_points_with_supports
 
 /-- The same whole-point construction retains the complete fourteen support
 equations from the selected post-chart normalization.  In particular the
@@ -301,7 +299,6 @@ theorem actual_q1_post_row_whole_points_with_all_supports
       C D e row hanti k hklabel hkSupport t hcut hprefix
   exact ⟨e,b,⟨hObserved⟩,hlocalSupport,hlocal⟩
 
-#print axioms actual_q1_post_row_whole_points_with_all_supports
 
 /-- The point-map obligations above are automatic when the whole enumeration
 is formed from an explicit prefix enumeration of the row-past set. This is the
@@ -375,7 +372,6 @@ theorem actual_q1_post_row_observed_prefix_of_actual_prefix
   exact actual_q1_post_row_observed_prefix_of_whole_points
     C Q hQ E Hperiodic hQcard D ι hpoints row hrow hanti t hcut hprefix
 
-#print axioms actual_q1_post_row_observed_prefix_of_actual_prefix
 
 /-- Specialize the prefix construction to the exact two-block enumeration
 used by the one-G whole-profile producer. The prefix point equation follows
@@ -493,7 +489,6 @@ theorem actual_q1_post_row_observed_prefix_of_whole_concatenation
     C Q hQ E Hperiodic hQcard D ι hpoints row hrow hanti
     ⟨U.card,Nat.lt_succ_of_le hUle⟩ hcut hprefix
 
-#print axioms actual_q1_post_row_observed_prefix_of_whole_concatenation
 
 /-- Actual threshold-path specialization: the old row, its inclusion in the
 global prefix, its antichain property, and the prefix-to-row-past identity are
@@ -548,7 +543,6 @@ theorem actual_q1_post_row_observed_prefix_of_threshold_path
     C Q hQ E Hperiodic hQcard U F hUF H hwholeCard HU HF hwholePoints
     row hrow hrowU hanti hUrowPast
 
-#print axioms actual_q1_post_row_observed_prefix_of_threshold_path
 
 /-- Color-permuted form of the whole-row observation.  The post chart's
 first row may begin at any actual color; `α` records that phase explicitly,
@@ -602,7 +596,6 @@ theorem actual_q1_post_row_whole_points_with_all_supports_color_perm
     simpa only [row', Equiv.symm_apply_apply] using! h
   exact ⟨e,b,hObserved,hrowActual,hlocal⟩
 
-#print axioms actual_q1_post_row_whole_points_with_all_supports_color_perm
 
 end
 end F7Manuscript.TripleCoordinateLattice

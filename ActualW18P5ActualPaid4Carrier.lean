@@ -319,8 +319,6 @@ theorem actual_X_paid4_p5_forward_false
   rw [hfirst] at hrunbound'
   omega
 
-#print axioms actual_X_paid4_p5_forward_carrier
-#print axioms actual_X_paid4_p5_forward_false
 
 end
 end F7Manuscript.ActualW18P5ActualPaid4Carrier

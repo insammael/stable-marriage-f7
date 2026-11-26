@@ -113,7 +113,4 @@ noncomputable def ColoredRun.toPeriodic {m : Nat} (H : ColoredRun m) (h : Backtr
     rw [←normalized_word_is_periodic h h0 h1 h2 n hn]
     exact H.fresh_past n hn j hj
 
-#print axioms word_period_three
-#print axioms normalized_word_is_periodic
-#print axioms renamed_word_is_periodic
 end F7Periodic

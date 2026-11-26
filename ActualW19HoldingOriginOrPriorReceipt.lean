@@ -42,6 +42,5 @@ theorem fixedTokenSwapTrace_holding_origin_or_prior_receipt
           · exact Or.inr ⟨r, by simp at hr ⊢; omega, hrpart, hrpost⟩
   exact hmain t x j h
 
-#print axioms fixedTokenSwapTrace_holding_origin_or_prior_receipt
 
 end F7Manuscript.PartnerGraph

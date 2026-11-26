@@ -49,6 +49,5 @@ theorem p5_special_freezes_at_four_after_visiting_three_five_four
   exact fixedTokenSwapTrace_freeze_after_pool_visited T S tok 4 t2 hvisit4
     hseen hstays
 
-#print axioms p5_special_freezes_at_four_after_visiting_three_five_four
 
 end F7Manuscript.ActualW19P5CompleteSpecialFreeze

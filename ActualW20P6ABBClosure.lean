@@ -121,5 +121,4 @@ theorem actual_ABB_center_word_false
     (by decide) (by decide) (by decide)
     (actual_ABB_cell45_unused tr hword) (abb_center_cell56_unused tr hword) h13
 
-#print axioms actual_ABB_center_word_false
 end F7Manuscript.ActualW20P6ABBClosure

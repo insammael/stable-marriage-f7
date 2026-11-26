@@ -89,7 +89,5 @@ theorem classify_bad_neutral_with_explicit_frontend
     exact classify_raw_two_paths PA PB hAB hCover hbudget hwidth h311 h221 h33
       hDir hMixA hMixB hDef
 
-#print axioms classify_bad_neutral_with_explicit_frontend
-#check classify_bad_neutral_with_explicit_frontend
 
 end NeutralCore

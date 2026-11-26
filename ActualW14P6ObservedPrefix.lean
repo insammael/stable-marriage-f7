@@ -182,6 +182,5 @@ theorem carrier_has_observed_P6_root_prefix
     exact hs
   exact ⟨e, b, hfull', hrealizes⟩
 
-#print axioms carrier_has_observed_P6_root_prefix
 
 end F7Manuscript.ActualW14P6ObservedPrefix

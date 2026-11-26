@@ -37,6 +37,5 @@ theorem frame_of_crew_cover (f : SupportFrame) (hv : ValidLayout (stateOfFrame f
   cases b
   · exact Or.inl hb
   · exact Or.inr hb
-#print axioms frame_of_crew_cover
 end
 end F7Manuscript.TripleCoordinateLattice.R21OneGHandCrew

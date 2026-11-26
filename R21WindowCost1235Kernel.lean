@@ -29,7 +29,6 @@ theorem actual_r21_normal_window_cost_kernel
     Mass12Fee34.noActualTerminal_mass12_feeAtMostFour
     Mass13Fee34.noActualTerminal_mass13_feeAtMostFour i
 
-#print axioms actual_r21_normal_window_cost_kernel
 
 end
 end F7Manuscript.TripleCoordinateLattice

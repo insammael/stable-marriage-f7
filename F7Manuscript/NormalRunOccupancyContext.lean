@@ -106,8 +106,5 @@ theorem globalNormalRun_incoming_context_card_le_occupancy_of_row_eq
   subst currentRow
   exact globalNormalRun_incoming_context_card_le_occupancy C E i S hsize hform hcap futureRow H
 
-#print axioms pathSegment_endpoints_eq_of_card_three
-#print axioms FrontierPastContext.retired_eq_empty_of_singleton_reset
-#print axioms globalNormalRun_incoming_context_card_le_occupancy
 end
 end F7Manuscript.TripleCoordinateLattice

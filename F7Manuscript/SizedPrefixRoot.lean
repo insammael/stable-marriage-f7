@@ -56,5 +56,4 @@ theorem prefixRoot_token_bound {W : Type*} [Fintype W] {q N : ℕ}
   exact checked_table_bound T checked ((coreFuture_to_sized future).rename e)
     r.target hused named
 
-#print axioms prefixRoot_token_bound
 end F7Manuscript.PartnerGraph.Sized

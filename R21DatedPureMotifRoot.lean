@@ -88,6 +88,5 @@ theorem DatedPlan.noFiveCenterMotif {R : TokenRun Site Site 21} {off len : Nat} 
   · exact protectedR
   · exact rules
 
-#print axioms DatedPlan.noFiveCenterMotif
 end
 end F7Manuscript.R21LongWindow.PureRootCoverage

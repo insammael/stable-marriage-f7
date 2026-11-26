@@ -33,6 +33,4 @@ theorem p5_future_bound_1_of_no_13
   intro n hfuture
   exact p5_budget_0_to_1 (p5_future_bound_of_no_13 hno13) hfuture
 
-#print axioms p5_future_bound_of_no_13
-#print axioms p5_future_bound_1_of_no_13
 end F7Manuscript.ActualW20P5PureBudget12Bridge

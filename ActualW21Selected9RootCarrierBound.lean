@@ -31,6 +31,5 @@ theorem selected9_root_carrier_bound
     (table1_checked node_44677462499328_futureBound) 19 controlTree controlTree_valid
     selected9_old_frontier
 
-#print axioms selected9_root_carrier_bound
 
 end F7Manuscript.ActualW21Selected9RootCarrierBound

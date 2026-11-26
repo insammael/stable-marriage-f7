@@ -81,7 +81,6 @@ theorem normalizeColors_eq_supplied_first_two
     hget i hi, ha, hb]
   exact w6_normalizeAt_eq_perm e (w 0) (w 1) (w i) h0 h1
 
-#print axioms normalizeColors_eq_supplied_first_two
 
 end
 end F7Manuscript.TripleCoordinateLattice

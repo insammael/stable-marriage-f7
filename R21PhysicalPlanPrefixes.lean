@@ -55,6 +55,5 @@ theorem mixed_plan_prefix_split (C : Chart) (k : Nat) (positive : 1<=k) (bound :
  rw [hm,mixed_from_append]
  simp only [show 1+(k-1)=k by omega,List.append_assoc]
 
-#print axioms mixed_plan_prefix_split
 end
 end F7Manuscript.R21PhysicalChartSlices

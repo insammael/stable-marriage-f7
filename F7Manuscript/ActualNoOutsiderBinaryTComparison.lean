@@ -86,7 +86,5 @@ theorem actual_no_outsider_same_crew_T_retired_lt_next_center
     (H.past.retired_lt r hr) (H.past.retired_inc r hr) hlt
     (fun c hc => BoundaryCoreContext.futureSet_inc C H s hs c hc)
 
-#print axioms actual_no_outsider_two_long_covered_rows_same_crew
-#print axioms actual_no_outsider_same_crew_T_retired_lt_next_center
 end
 end F7Manuscript.TripleCoordinateLattice

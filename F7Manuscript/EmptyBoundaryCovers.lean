@@ -153,8 +153,5 @@ theorem emptyBoundary_triple_new_two_covers
       exact hcross
     · exact labelled_new_coordinate_ne_old C E n c d hd
 
-#print axioms empty_slot_cross_relation_cover
-#print axioms emptyBoundary_double_coordinate_cover
-#print axioms emptyBoundary_triple_new_two_covers
 end
 end F7Manuscript.TripleCoordinateLattice

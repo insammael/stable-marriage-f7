@@ -194,7 +194,6 @@ theorem actual_r20_classifier_from_macro_counts
   refine ⟨j,hmacros,hG,hempty,hOldBinary,hNewBinary,hQpre,h221pre,h311pre,hzpre,?_⟩
   simpa only [E,Rpre,Qpre,Bpre] using! hclass
 
-#print axioms actual_r20_classifier_from_macro_counts
 
 end
 end F7Manuscript.TripleCoordinateLattice

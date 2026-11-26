@@ -110,7 +110,5 @@ theorem p5_receipt35_is_internal_one
     have hR : tr.state e.castSucc (tr.rightSite e) ∈ J := by simpa [hr] using! hJ
     exact fun he => hL (he.mpr hR)
 
-#print axioms p5_receipt35_internal_preholders
-#print axioms p5_receipt35_is_internal_one
 
 end F7Manuscript.ActualW20P5Receipt35Internal

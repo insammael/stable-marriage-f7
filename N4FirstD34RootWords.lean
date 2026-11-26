@@ -163,6 +163,5 @@ theorem firstD34_color_cycle
         omega
       exact Or.inr ⟨hw1,hw2,hw3,Or.inr (Fin.ext h4val)⟩
 
-#print axioms firstD34_color_cycle
 
 end F7Manuscript.N4FirstD34RootWords

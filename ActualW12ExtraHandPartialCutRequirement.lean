@@ -118,9 +118,6 @@ theorem actual_partial_extra_hand_cut_requirement_endpoint
   refine ⟨r, ?_, hbound⟩
   simp [partialExtraHandCutRequirement, hextraActual, hr]
 
-#print axioms extraHandReturnHit
-#print axioms partialExtraHandCutRequirement
-#print axioms actual_partial_extra_hand_cut_requirement_endpoint
 #eval IO.eprintln "W12 extra-hand partial-cut checked"
 
 end

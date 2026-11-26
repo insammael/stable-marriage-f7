@@ -140,7 +140,6 @@ def normalPairedRectangle
     rightCover := core_covBy_to_ambient A hQ
       (GenericNormal.normal_pair_actual_cover C h221 h311 hz j r 1 0) }
 
-#print axioms normalPairedRectangle
 
 end
 end F7Manuscript.TripleCoordinateLattice.CoreActual

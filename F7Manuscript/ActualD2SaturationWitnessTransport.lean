@@ -178,8 +178,5 @@ theorem actual_witness_transport
     rw [← hcomp]
     exact hstate
 
-#print axioms transportWitness
-#print axioms centerRelabel_actual_moving_pool_eq_four
-#print axioms actual_witness_transport
 
 end F7Manuscript.ActualD2SaturationWitnessTransport

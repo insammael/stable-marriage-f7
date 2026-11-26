@@ -87,7 +87,5 @@ theorem DatedPlan.reseedPureWordContextActual
     (.nil off normalSeedFrame) binary
   exact ⟨p,S,b,ls,P,bin,tr,by simpa using! len2,by simpa using! word⟩
 
-#print axioms DatedPlan.reseedPureWordContext
-#print axioms DatedPlan.reseedPureWordContextActual
 end
 end F7Manuscript.R21NormalEndpoint.ReseededObservation

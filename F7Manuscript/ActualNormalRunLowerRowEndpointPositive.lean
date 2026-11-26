@@ -58,6 +58,5 @@ theorem actual_normal_run_lower_row_eq_global_of_positive_blocks
       using! congrArg Subtype.val hfront.symm
   exact hrow.trans hlabel
 
-#print axioms actual_normal_run_lower_row_eq_global_of_positive_blocks
 end
 end F7Manuscript.TripleCoordinateLattice

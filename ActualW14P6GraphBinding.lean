@@ -128,8 +128,5 @@ theorem carrier_has_observed_P6_target_graph_envelope
     (reindexRun C.S e)
     ⟨L+9, by have := carrier_P6_center_prefix_bound C hp; omega⟩ b H
 
-#print axioms p6_target_graph_eq_renamed_prefixFresh
-#print axioms observed_P6_prefix_target_graph_envelope
-#print axioms carrier_has_observed_P6_target_graph_envelope
 
 end F7Manuscript.ActualW14P6GraphBinding

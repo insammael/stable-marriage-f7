@@ -168,7 +168,5 @@ theorem r20_q1_literal_first_deficit_one_endpoint_wall
   r20_q1_literal_first_core_deficit_one_excluded_of_convex C h221 h311 hG hT
     hn hu hq hpos hcost (triple_core_convex_of_endpoint_outsiders C hend)
 
-#print axioms r20_q1_literal_first_core_deficit_one_excluded_of_convex
-#print axioms r20_q1_literal_first_deficit_one_endpoint_wall
 end
 end F7Manuscript.TripleCoordinateLattice

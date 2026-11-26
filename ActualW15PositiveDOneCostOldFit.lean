@@ -218,9 +218,6 @@ private theorem list_exists_pos_of_sum_pos (xs : List Nat) (h : 0 < xs.sum) :
         obtain ⟨i, hi, hp⟩ := ih ht
         exact ⟨i+1, by simp [hi], by simpa using! hp⟩
 
-#print axioms old_root_fit_of_source_key
-#print axioms old_legacy_entry_for_position
-#print axioms list_exists_pos_of_sum_pos
 
 /-- If all positive D is at an endpoint, one can orient the source so that
     an OLD0--4 row begins at that endpoint and captures the unique pivot. -/
@@ -376,6 +373,5 @@ theorem endpoint_positive_onepivot_oldfit_false
     rw [hnone] at hz
     cases hz
 
-#print axioms endpoint_positive_onepivot_oldfit_false
 end
 end F7Manuscript.ActualW15PositiveDOneCostOldFit

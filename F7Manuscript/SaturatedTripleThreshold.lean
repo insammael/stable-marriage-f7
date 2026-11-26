@@ -95,6 +95,5 @@ theorem saturated_triple_past_in_two_old_coordinates
       ((GenericThresholdPath.path C E n.castSucc).val c).property] using! hcolor
   exact hcd hdc.symm
 
-#print axioms saturated_triple_past_in_two_old_coordinates
 end
 end F7Manuscript.TripleCoordinateLattice

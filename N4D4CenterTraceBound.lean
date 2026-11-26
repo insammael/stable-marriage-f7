@@ -83,8 +83,4 @@ theorem d4_center_trace_length_le_eighteen
    rw [he] at hleaf
    exact d4l8_actual_leaf_length_le_eighteen H hleaf.1 hleaf.2
 
-#print axioms centerWord_append
-#print axioms fullWord_prefix
-#print axioms sourcePrefix_of_full_literal_prefix
-#print axioms d4_center_trace_length_le_eighteen
 end F7Manuscript.N4D4CenterTraceBound

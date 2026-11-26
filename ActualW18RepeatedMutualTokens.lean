@@ -216,6 +216,5 @@ theorem fixedTokenSwapTrace_repeated_mutual_tokens_false
       · exact (hinter r hkr hrl).2.2.2 hv'
   exact fixedTokenSwapTrace_separated_repeated_swap_false T hkl hsites hinterSites
 
-#print axioms fixedTokenSwapTrace_repeated_mutual_tokens_false
 
 end F7Manuscript.PartnerGraph

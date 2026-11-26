@@ -339,61 +339,33 @@ def table : TableN := fun j =>
 
 
 theorem node_0_valid : Sized.ValidNode table ⟨0, by decide⟩ := by decide +kernel
-#print axioms node_0_valid
 theorem node_2_valid : Sized.ValidNode table ⟨2, by decide⟩ := by decide +kernel
-#print axioms node_2_valid
 theorem node_3_valid : Sized.ValidNode table ⟨3, by decide⟩ := by decide +kernel
-#print axioms node_3_valid
 theorem node_4_valid : Sized.ValidNode table ⟨4, by decide⟩ := by decide +kernel
-#print axioms node_4_valid
 theorem node_7_valid : Sized.ValidNode table ⟨7, by decide⟩ := by decide +kernel
-#print axioms node_7_valid
 theorem node_9_valid : Sized.ValidNode table ⟨9, by decide⟩ := by decide +kernel
-#print axioms node_9_valid
 theorem node_10_valid : Sized.ValidNode table ⟨10, by decide⟩ := by decide +kernel
-#print axioms node_10_valid
 theorem node_12_valid : Sized.ValidNode table ⟨12, by decide⟩ := by decide +kernel
-#print axioms node_12_valid
 theorem node_13_valid : Sized.ValidNode table ⟨13, by decide⟩ := by decide +kernel
-#print axioms node_13_valid
 theorem node_15_valid : Sized.ValidNode table ⟨15, by decide⟩ := by decide +kernel
-#print axioms node_15_valid
 theorem node_16_valid : Sized.ValidNode table ⟨16, by decide⟩ := by decide +kernel
-#print axioms node_16_valid
 theorem node_17_valid : Sized.ValidNode table ⟨17, by decide⟩ := by decide +kernel
-#print axioms node_17_valid
 theorem node_18_valid : Sized.ValidNode table ⟨18, by decide⟩ := by decide +kernel
-#print axioms node_18_valid
 theorem node_19_valid : Sized.ValidNode table ⟨19, by decide⟩ := by decide +kernel
-#print axioms node_19_valid
 theorem node_20_valid : Sized.ValidNode table ⟨20, by decide⟩ := by decide +kernel
-#print axioms node_20_valid
 theorem node_23_valid : Sized.ValidNode table ⟨23, by decide⟩ := by decide +kernel
-#print axioms node_23_valid
 theorem node_24_valid : Sized.ValidNode table ⟨24, by decide⟩ := by decide +kernel
-#print axioms node_24_valid
 theorem node_26_valid : Sized.ValidNode table ⟨26, by decide⟩ := by decide +kernel
-#print axioms node_26_valid
 theorem node_30_valid : Sized.ValidNode table ⟨30, by decide⟩ := by decide +kernel
-#print axioms node_30_valid
 theorem node_32_valid : Sized.ValidNode table ⟨32, by decide⟩ := by decide +kernel
-#print axioms node_32_valid
 theorem node_33_valid : Sized.ValidNode table ⟨33, by decide⟩ := by decide +kernel
-#print axioms node_33_valid
 theorem node_35_valid : Sized.ValidNode table ⟨35, by decide⟩ := by decide +kernel
-#print axioms node_35_valid
 theorem node_36_valid : Sized.ValidNode table ⟨36, by decide⟩ := by decide +kernel
-#print axioms node_36_valid
 theorem node_38_valid : Sized.ValidNode table ⟨38, by decide⟩ := by decide +kernel
-#print axioms node_38_valid
 theorem node_39_valid : Sized.ValidNode table ⟨39, by decide⟩ := by decide +kernel
-#print axioms node_39_valid
 theorem node_40_valid : Sized.ValidNode table ⟨40, by decide⟩ := by decide +kernel
-#print axioms node_40_valid
 theorem node_41_valid : Sized.ValidNode table ⟨41, by decide⟩ := by decide +kernel
-#print axioms node_41_valid
 theorem node_42_valid : Sized.ValidNode table ⟨42, by decide⟩ := by decide +kernel
-#print axioms node_42_valid
 
 theorem transportNodeFutureBound {m n : Nat} (T : Sized.Table m) (i : Fin m)
     (hbound : Sized.NodeFutureBound T i) (S : Sized.Table n) (j : Fin n)
@@ -452,7 +424,6 @@ theorem table_checked : ∀ j, Sized.ValidNode table j ∨ Sized.NodeFutureBound
   · exact Or.inl node_41_valid
   · exact Or.inl node_42_valid
   · exact Or.inr (transportNodeFutureBound F7Manuscript.ActualW22Selected16BudgetAnchor248782835154944.table ⟨0, by decide⟩ F7Manuscript.ActualW22Selected16BudgetAnchor248782835154944.anchor248782835154944_futureBound table ⟨43, by decide⟩ (by decide) (by decide) (by decide))
-#print axioms table_checked
 
 def roots : List Nat := [16, 18, 39, 40]
 def savedEdgeCount : Nat := 69

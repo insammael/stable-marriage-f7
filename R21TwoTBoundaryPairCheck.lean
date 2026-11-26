@@ -33,6 +33,4 @@ theorem noPairedAfterCenters_step (n : Nat) (B : Board) (f : SupportFrame)
  · exact False.elim (collided_excludes _ ht hfinal)
  · exact ht
 
-#print axioms noPairedAfterCenters_head
-#print axioms noPairedAfterCenters_step
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

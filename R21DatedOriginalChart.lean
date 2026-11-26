@@ -52,6 +52,5 @@ theorem DatedPlan.ofOriginalChart
   exact ⟨⟨size, initial0, initial1, initial2, initial3, route, colors⟩,
     runCost_normalPlan C A.colorPerm A.one_block A.firstColor⟩
 
-#print axioms DatedPlan.ofOriginalChart
 
 end F7Manuscript.R21NormalEndpoint.ReseededObservation

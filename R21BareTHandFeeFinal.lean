@@ -48,6 +48,5 @@ theorem original_bare_T_fee_hand (u : Nat) (lo : 1≤u) (hi : u≤3)
     have joint : (N 0).m+(N (Fin.last k)).m+2*((N 0).q+(N (Fin.last k)).q)+u=15 := by omega
     exact original_bare_T_fee_two_three C hn h221 h311 u (by omega) joint
 
-#print axioms original_bare_T_fee_hand
 end
 end F7Manuscript.TripleCoordinateLattice.R21BareT

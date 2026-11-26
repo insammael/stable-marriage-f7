@@ -444,5 +444,4 @@ theorem fresh_adjacent_disjoint_swap (pre post : List Swap) (p q : Swap)
           hpair (by intro a ha; exact hhist' a) (by intro a ha; exact hafter a) hs
         simpa [v, List.append_assoc] using! htarget
 
-#print axioms fresh_adjacent_disjoint_swap
 end F7Manuscript.FreshWordCommutation

@@ -80,6 +80,5 @@ theorem p5_two_residuals_cannot_share_entry_three
       omega
     exact (T.no_return q2 3 hsite2 q6.succ hbound) (hpost2.trans hpost6.symm)
 
-#print axioms p5_two_residuals_cannot_share_entry_three
 
 end F7Manuscript.ActualW20P5BothResidualsAtThreeImpossible

@@ -397,7 +397,6 @@ theorem pure_q1_s3_m13_paid_one_geometry
                   exact False.elim (refute_zero W D true i (12-i) hW hD hi12 (by simp)
                     hDi hDo (by omega) hNo hSomeR)
 
-#print axioms pure_q1_s3_m13_paid_one_geometry
 
 end
 end F7Manuscript.ActualW17U3Q1S3PaidOneFrontierGeometry

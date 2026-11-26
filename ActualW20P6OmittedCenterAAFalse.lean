@@ -249,7 +249,5 @@ theorem p6_omitted_center_AA_false
   rcases hsite0 with ⟨r,hr⟩
   exact (hmiss r).1 hr
 
-#print axioms row6_no_zero_or_three
-#print axioms p6_omitted_center_AA_false
 
 end F7Manuscript.ActualW20P6OmittedCenterAAFalse

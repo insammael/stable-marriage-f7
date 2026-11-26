@@ -68,6 +68,5 @@ theorem actual_whole_introduction_supports
       omega⟩]
   exact congrArg (support I) (hpoints i)
 
-#print axioms actual_whole_introduction_supports
 end
 end F7Manuscript.ActualW36WholeIntroductionSupports

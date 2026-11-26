@@ -180,6 +180,5 @@ theorem actual_no_late_canonical_switch
       firstPair hfirstLowerK0 hfirstUpper hfirstActive
       k2 (by omega) (by omega) hnextActive
 
-#print axioms actual_no_late_canonical_switch
 end
 end F7Manuscript.ActualW28R20NoLateCanonicalSwitch

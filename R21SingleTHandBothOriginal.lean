@@ -94,6 +94,5 @@ theorem oriented_both_first_paired_impossible {phase order n m S T}
  simp -failIfUnchanged only [eventCount] at countR
  omega
 
-#print axioms oriented_both_first_paired_impossible
 end
 end F7Manuscript.R21SingleTHand

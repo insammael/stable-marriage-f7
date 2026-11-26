@@ -102,8 +102,5 @@ theorem word_prefix_mapped (e : Equiv.Perm ReturnCertificate.Site)
   · simp only [hword,List.map_append,wp_paired_map]
   · simpa only [List.map_append,wp_paired_map,mapSupportFrame_afterPaired] using! ih
 
-#print axioms word_prefix_mapped
-#print axioms actual_word_prefix_to_board_prefix
-#print axioms checked_actual_word_prefix_impossible
 end
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

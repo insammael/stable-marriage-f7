@@ -139,7 +139,5 @@ theorem neutral_double_support_nonempty {P : Finset V} {yi yj yk : V}
     (degree P yk) (neighborPairs P yk) ⟨hS1,hS2⟩ ⟨hR1,hR2⟩ hbig hd he
   exact hcharged.2.2 (hneutral hcharged.1 hcharged.2.1)
 
-#print axioms empty_double_support_partition
-#print axioms neutral_double_support_nonempty
 
 end ConditionalUL

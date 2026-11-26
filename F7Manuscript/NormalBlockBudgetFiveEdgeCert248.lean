@@ -6449,5 +6449,4 @@ namespace F7Manuscript.NormalBlockBudgetFive
 theorem noCostFiveCompletion : safe 5 16 initial = true :=
   F7Manuscript.NormalBlockBudgetFiveEdgeCert.safeRoot
 
-#print axioms noCostFiveCompletion
 end F7Manuscript.NormalBlockBudgetFive

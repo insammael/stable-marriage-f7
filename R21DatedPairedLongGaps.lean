@@ -60,7 +60,4 @@ theorem no_gap_four_five_anywhere {R : TokenRun Site (Agent 7) 21} {off len : Na
       · simp only [recolorPlan,recolorMove,List.map_cons,List.map_append,List.map_map,Function.comp_def]
       · exact bin
 
-#print axioms no_pure_seven_after_anywhere
-#print axioms no_pure_seven_before_anywhere
-#print axioms no_gap_four_five_anywhere
 end F7Manuscript.R21LongWindow.PairedSubpatterns

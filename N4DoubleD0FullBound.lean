@@ -51,6 +51,5 @@ theorem doubleD0_full_length_le_eighteen (post : List Move) (bits : Nat → Bool
     exact separated_columns bits h2 a ha x hx
   · exact H
 
-#print axioms doubleD0_full_length_le_eighteen
 
 end F7Manuscript.N4DoubleD0FullBound

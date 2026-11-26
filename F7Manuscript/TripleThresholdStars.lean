@@ -132,8 +132,6 @@ theorem double_has_unique_neighbor (h221 : NoInduced221 (V := V))
         (lt_of_le_of_ne hlk (Ne.symm hn))
     · exact not_three_incomparable C h221 h k l hk hl ⟨hkl, hlk⟩
 
-#print axioms double_neighbor_chain_obstruction
-#print axioms double_has_unique_neighbor
 
 end
 end F7Manuscript.TripleCoordinateLattice

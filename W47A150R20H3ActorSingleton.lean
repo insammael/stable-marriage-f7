@@ -28,4 +28,3 @@ theorem exists_sdiff_singleton
       _ = {beta} ∪ F := by rw [hbeta]
       _ = F ∪ {beta} := Finset.union_comm _ _
 
-#print axioms exists_sdiff_singleton

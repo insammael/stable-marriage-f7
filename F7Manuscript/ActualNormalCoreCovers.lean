@@ -49,7 +49,5 @@ theorem normalCore_center_actual_cover
     (core_no_induced221 C h221) (core_no_induced311 C h311)
     (core_delta_zero_of_normal C h221 h311 hG hT) j
 
-#print axioms core_covBy_to_ambient
-#print axioms normalCore_center_actual_cover
 end
 end F7Manuscript.TripleCoordinateLattice

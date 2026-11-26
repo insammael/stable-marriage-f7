@@ -147,10 +147,6 @@ def new175_budget_root_entry : BudgetRootEntry where
       F7Manuscript.NormalQ0WindowTrees.tree1 hv hb
   old := by decide +kernel
 
-#print axioms allLeaves_boundedValid_of_valid_and_lengthBudget
-#print axioms carrier_prefix_matches_false
-#print axioms budget_root_entry_threshold_le
-#print axioms new175_budget_root_entry
 
 end
 end F7Manuscript.ActualW12LegacyBudgetCarrier

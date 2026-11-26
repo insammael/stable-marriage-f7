@@ -121,9 +121,5 @@ theorem cut12_z1_x1
       pairedPairs,afterPaired,afterCenter,initialSupport,centerPair,leftCoord,rightCoord,
       select,other,put,Fin.ofNat,F7Paired.tokenSwap,h0,h1,h2,h3,h4b,h5,h6,h7]
 
-#print axioms cut12_z0_x0
-#print axioms cut12_z0_x1
-#print axioms cut12_z1_x0
-#print axioms cut12_z1_x1
 
 end F7Manuscript.ActualW13New1213CutState

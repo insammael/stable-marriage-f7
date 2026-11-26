@@ -56,5 +56,4 @@ theorem actual_BAA_refined_first_6_to_0
         exact False.elim ((by decide : (0 : Site) ≠ 6) heq)
   exact ⟨e,k0,k1,k2,hlist,h01,h12,he,hpre6,hpart,hsupport,hpre0⟩
 
-#print axioms actual_BAA_refined_first_6_to_0
 end F7Manuscript.ActualW20P6BAAFirstFourZeroEntryRefined

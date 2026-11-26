@@ -74,5 +74,4 @@ theorem reflected_paired_same_frontier (f : SupportFrame) (cross label : Bool) :
        rfl
  · rfl
 
-#print axioms reflected_paired_same_frontier
 end F7Manuscript.N4SpatialPairedSupportFrame

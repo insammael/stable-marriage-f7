@@ -116,9 +116,5 @@ theorem initial_two_center_endpoint_normalization (tail : List Move) (bits : ℕ
   intro k _
   exact c6InitialBits_eq_of_ge (k := 3) bits (by omega)
 
-#print axioms initial_one_center_route_normalization
-#print axioms initial_two_center_route_normalization
-#print axioms initial_one_center_endpoint_normalization
-#print axioms initial_two_center_endpoint_normalization
 end
 end F7Manuscript.TripleCoordinateLattice

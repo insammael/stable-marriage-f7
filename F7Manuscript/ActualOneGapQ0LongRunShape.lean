@@ -241,8 +241,6 @@ theorem actual_one_G_q0_fourteen_normalized_cut
       _ = ((GenericThresholdPath.path C E R.left).val (a.symm c)).val :=
         hfrontGlobal (a.symm c)
 
-#print axioms actual_one_G_q0_fourteen_run_pivots
-#print axioms actual_one_G_q0_fourteen_normalized_cut
 
 end
 end F7Manuscript.TripleCoordinateLattice

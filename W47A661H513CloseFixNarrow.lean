@@ -299,7 +299,6 @@ theorem original_13_1_low_deficit_contradiction_of_pre_seed
   obtain ⟨EStar, hdated⟩ := hsplice EQ
   exact hfinish EStar hdated
 
-#print axioms original_13_1_low_deficit_contradiction_of_pre_seed
 
 end
 

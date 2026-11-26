@@ -235,6 +235,5 @@ theorem one_T_swap_segments (C : Partition (V := Event I)) [Nonempty (Triple C)]
       (fun t => hpred id t) x
   exact ⟨hQ0'', hQ1''⟩
 
-#print axioms one_T_swap_segments
 end
 end F7Manuscript.TripleCoordinateLattice

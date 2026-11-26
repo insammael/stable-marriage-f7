@@ -290,7 +290,6 @@ theorem actual_zero_d1_nonABA_third_center_false
   exact F7Manuscript.ActualD2SaturatedCenterFreshness.actual_center_swap_contradicts_saturated_old_pool
     R e n2 W idleFour candidate hidle hcenterState hsupport2' hpast
 
-#print axioms actual_zero_d1_nonABA_third_center_false
 
 end
 end F7Manuscript.W7ActualD2ZeroD1NonABABlocked

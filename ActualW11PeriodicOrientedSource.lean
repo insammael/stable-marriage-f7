@@ -231,8 +231,6 @@ theorem actual_X_periodic_oriented_source_threshold
     exact hbound
   exact hbound'
 
-#print axioms OrientedPeriodicFitAt
-#print axioms actual_X_periodic_oriented_source_threshold
 
 end
 end F7Manuscript.ActualW11PeriodicOrientedSource

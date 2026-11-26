@@ -207,9 +207,6 @@ theorem cover_donor_cycle (μ ν : StableMatching I) (h : μ ⋖ ν) :
   rw [hd]
   exact hpc
 
-#print axioms successors
-#print axioms eliminate_stable
-#print axioms cover_donor_cycle
 
 end
 end F7Manuscript.StableCoverCycle

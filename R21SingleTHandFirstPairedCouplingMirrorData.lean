@@ -45,6 +45,4 @@ theorem firstPaired_mirror_coupling_tail_bound {plan : List Move} {s t : Physica
  (trace : PhysicalTrace (graphGuard couplingMirrorCompatible couplingMirrorRejected) plan s t)
  (root : s∈(couplingMirrorDAG 0).states) : eventCount plan+3≤7 :=
  handGraph_trace_bound couplingMirrorDAG couplingMirrorCompatible couplingMirrorRejected 7 couplingMirrorDAG_checked couplingMirrorDAG_bound trace 0 root
-#print axioms couplingMirrorDAG_checked
-#print axioms firstPaired_mirror_coupling_tail_bound
 end F7Manuscript.R21SingleTHand

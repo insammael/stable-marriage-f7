@@ -60,5 +60,4 @@ theorem DatedPlan.permutedShortRules {R : TokenRun Site (Agent 7) 21}
     PureShortRules (((0::cs).map ρ).map Fin.val) :=
   color_short_nat _ (color_short_map _ ρ (DatedPlan.colorShortRules D binary))
 
-#print axioms DatedPlan.permutedShortRules
 end F7Manuscript.R21LongWindow.PureRootCoverage

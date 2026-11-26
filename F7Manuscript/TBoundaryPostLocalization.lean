@@ -164,8 +164,5 @@ theorem T_boundary_future_context_eq_empty
       exact (H.future.retired_inc s hs j hjc).1 (hcross.trans hd)
     · exact (H.future.retired_inc s hs d hdc).1 (hown.trans hd)
 
-#print axioms T_post_pairIncrement_eq_context
-#print axioms future_context_post_increment_baseline
-#print axioms T_boundary_future_context_eq_empty
 end
 end F7Manuscript.TripleCoordinateLattice

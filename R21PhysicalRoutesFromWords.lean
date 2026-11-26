@@ -51,6 +51,5 @@ theorem route_of_aligned_word {q : Nat} (R : TokenRun Site W q)
    have h:=align ⟨k.val+2,by simp [eventCount];omega⟩
    simpa [hword,pairAt,Nat.add_assoc,Nat.add_comm,Nat.add_left_comm] using! h
 
-#print axioms route_of_aligned_word
 end
 end F7Manuscript.R21PhysicalWindowWords

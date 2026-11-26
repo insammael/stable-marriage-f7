@@ -125,7 +125,5 @@ theorem actual_no_outsider_T_macro_credit_after_prior_weak
     rw [hf] at hocc
     split_ifs at hocc ⊢ <;> norm_num at hpriorB <;> omega
 
-#print axioms actual_T_post_cross_le_old_retired
-#print axioms actual_no_outsider_T_macro_credit_after_prior_weak
 end
 end F7Manuscript.TripleCoordinateLattice

@@ -189,6 +189,5 @@ theorem actual_shorter_pre_both_long_count_le_85
       SpreChart SpostChart alpha.perm beta (Or.inr ⟨hmSpre, hbudgetCharts⟩)
       hmSpost ha0 hsizeChart c₀ row bits h0 h1 h2 h3 Hroute)
 
-#print axioms actual_shorter_pre_both_long_count_le_85
 end
 end F7Manuscript.TripleCoordinateLattice.R20BothLongShorterPre

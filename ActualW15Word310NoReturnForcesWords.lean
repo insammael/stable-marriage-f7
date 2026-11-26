@@ -116,7 +116,5 @@ theorem plan310_future_le_two_of_observed_prefix
     exact F7Manuscript.PartnerGraph.PureShortCut.P310TerminalBinding.D_future_from_observed_prefix
       R cut H future
 
-#print axioms plan310_source16_eq_C_or_D
-#print axioms plan310_future_le_two_of_observed_prefix
 
 end F7Manuscript.ActualW15Word310NoReturnForcesWords

@@ -269,8 +269,6 @@ theorem actual_X_any_budget_root_oriented_source_threshold
   rw [← hcostInt, ← hendpointInt] at hthreshold
   exact hthreshold
 
-#print axioms AnyBudgetRootOrientedFitAt
-#print axioms actual_X_any_budget_root_oriented_source_threshold
 
 end
 end F7Manuscript.ActualW12LegacyAnyBudgetOrientedSource

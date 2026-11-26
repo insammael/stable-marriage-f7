@@ -76,5 +76,4 @@ theorem five_at_three_precedes_six_in_exclusive_pool
     · have h6 : tr.state v.succ 4 = 6 := by simpa [hx4] using! hx
       exact (by decide : (4 : Site) ≠ 6) (hfour.symm.trans h6)
 
-#print axioms five_at_three_precedes_six_in_exclusive_pool
 end F7Manuscript.ActualW20P6ExclusivePoolReceiptOrder

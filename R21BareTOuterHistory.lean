@@ -112,6 +112,5 @@ theorem original_outer_pair_and_history (hn : Fintype.card (Event I)=21)
           exact (not_lt_of_ge ordered) hi
       exact Or.inr ⟨a,b,hab,(fresh a b h₀).1,(fresh a b h₀).2,(fresh b a h₁).1,(fresh b a h₁).2⟩
 
-#print axioms original_outer_pair_and_history
 end
 end F7Manuscript.TripleCoordinateLattice.R21BareT

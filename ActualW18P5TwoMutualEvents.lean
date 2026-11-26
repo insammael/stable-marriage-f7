@@ -60,6 +60,5 @@ theorem p5_two_mutual_events
   · have hlt' : l.val < k.val := by omega
     exact ⟨l, k, hlt', hl, hk, by intro r hr; rcases hall r hr with h | h <;> simp [h]⟩
 
-#print axioms p5_two_mutual_events
 
 end F7Manuscript.ActualW18P5TwoMutualEvents

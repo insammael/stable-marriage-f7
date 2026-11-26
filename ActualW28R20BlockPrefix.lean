@@ -50,5 +50,4 @@ theorem fullChronologicalIndex_frontierBefore_lt
   (fullChronologicalIndex_before_block_iff C a p _ t).mpr
     (frontierBefore_chronological_lt C t ht c)
 
-#print axioms fullChronologicalIndex_frontierBefore_lt
 end F7Manuscript.NormalSkeleton.Chart

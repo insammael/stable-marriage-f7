@@ -75,7 +75,5 @@ theorem three_step_crossTok
     _ = F7Paired.crossTok (R.state k.castSucc) := by
           rfl
 
-#print axioms state_succ_eq_tokenSwap_of_support_pair
-#print axioms three_step_crossTok
 end
 end F7Manuscript.ActualW28R20BinarySwapAction

@@ -46,5 +46,4 @@ theorem p5_five_at_four_before_initial_two_has_visited_one
       have h5 : tr.state r.castSucc 2 = 5 := by simpa [hy2] using! hprey
       exact False.elim ((by decide : (2 : Site) ≠ 5) (hi.symm.trans h5))
 
-#print axioms p5_five_at_four_before_initial_two_has_visited_one
 end F7Manuscript.ActualW20P5A4PriorFiveAtOne

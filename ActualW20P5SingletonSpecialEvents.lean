@@ -89,7 +89,5 @@ theorem p5_singleton_event_set_card
   simpa [p5SingletonEvents, traceOneSpecialCount] using!
     p5_singleton_special_one_count T j hj
 
-#print axioms p5_singleton_special_one_count
-#print axioms p5_singleton_event_set_card
 
 end F7Manuscript.ActualW20P5SingletonSpecialEvents

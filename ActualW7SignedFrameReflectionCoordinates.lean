@@ -26,6 +26,5 @@ theorem reflection_left_right (f g : SupportFrame)
   generalize f.last = c
   fin_cases c <;> decide
 
-#print axioms reflection_left_right
 
 end F7Manuscript.W7SignedFrameReflectionCoordinates

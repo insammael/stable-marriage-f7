@@ -74,5 +74,4 @@ theorem actual_ABB_first_switch_packet
     k0.castSucc (by simp; omega)
   exact ⟨k0,k1,k2,hlist,h01,h12,hk0,hk1,hk2,hinit5,hA,hpre4k0,hpost4,hpre4⟩
 
-#print axioms actual_ABB_first_switch_packet
 end F7Manuscript.ActualW20P6ABBFirstSwitchPacket

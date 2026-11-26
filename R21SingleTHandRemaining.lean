@@ -142,9 +142,5 @@ theorem three_rows_same_remaining_impossible (h : SharedAnchor R₀ R₁)
     | exact hne₁₂ ((R₀.state _).injective (H₁.trans H₂.symm))
     | exact hne₁₂ ((R₁.state _).injective (H₁.trans H₂.symm))
 
-#print axioms remaining_eventually
-#print axioms remaining_suffixes_disjoint
-#print axioms singleton_remaining_at_end
-#print axioms three_rows_same_remaining_impossible
 end
 end F7Manuscript.R21SingleTHand

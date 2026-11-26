@@ -620,6 +620,5 @@ theorem noReturn_source14_words (t : Matching) (bits : Nat → Bool)
             · exact False.elim (b_wrong4_10 bits h0 h1 h2 h3 h4 h5 h6 h7 (by assumption))
             · exact False.elim (b_wrong4_11 bits h0 h1 h2 h3 h4 h5 h6 h7 (by assumption))
 
-#print axioms noReturn_source14_words
 
 end F7Manuscript.ActualW16Window30Returns

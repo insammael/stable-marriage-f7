@@ -84,6 +84,5 @@ theorem actual_normalRunPriorCross_le_future_increment_of_row_eq
         2 * ((BoundaryCoreContext.futureEvents A H).card : ℤ) := by
   exact actual_normalRunPriorCross_le_future_increment A hn h221 h311 i t currentRow hcurrent H
 
-#print axioms actual_normalRunPriorCross_le_future_increment
 end
 end F7Manuscript.TripleCoordinateLattice

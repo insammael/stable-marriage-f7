@@ -85,5 +85,4 @@ theorem p5_one_special_partner_at_four
       fin_cases a <;> simp [graphRel,p5G0,ofEdges,J] at hF4 hhold5 hnotJ hnot4 ⊢
     exact ⟨t,hpost4,Or.inr ⟨rfl,this⟩⟩
 
-#print axioms p5_one_special_partner_at_four
 end F7Manuscript.ActualW20P5OneSpecialPartnerAtFour

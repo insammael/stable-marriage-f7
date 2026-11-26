@@ -143,11 +143,6 @@ theorem original_mixed_counter_13_1_canonical_recovery
 
 end Forward13
 
-#print axioms CounterDeficitTransport.original_mixed_counter_hdef
-#print axioms PreAlignmentClosureBridge.original_pre_14_0_low_deficit_bridge
-#print axioms a638_selected_13_1_canonical_recovery
-#print axioms original_mixed_counter_pre_14_0_bridge
-#print axioms original_mixed_counter_13_1_canonical_recovery
 
 end
 

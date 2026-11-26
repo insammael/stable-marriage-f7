@@ -114,7 +114,6 @@ theorem subsetNormalPairedSchedule_frontier_memory
   have M' := supportsRoute_frontier_memory route V M
   simpa only [MixedPlanDefinition.eventCount_replicate_paired] using! M'
 
-#print axioms subsetNormalPairedSchedule_frontier_memory
 
 end
 end F7Manuscript.TripleCoordinateLattice

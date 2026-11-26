@@ -102,9 +102,6 @@ theorem interiorCostCount_perm_fin3
     · right
       exact congrArg e hw
 
-#print axioms interiorCostAt_reverse_iff
-#print axioms interiorCostCount_reverse
-#print axioms interiorCostCount_perm_fin3
 
 end
 end F7Manuscript.Actual691InteriorCostGeneric

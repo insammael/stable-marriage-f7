@@ -46,7 +46,5 @@ theorem plan56_source16_B (bits : Nat → Bool)
     select, other, put, Fin.ofNat, h0, h1, h2, h3, h4, h5, h6, h7, h8, h9, h10, h11]
   decide
 
-#print axioms plan56_source16_A
-#print axioms plan56_source16_B
 
 end F7Manuscript.ActualW15Word56TailControls

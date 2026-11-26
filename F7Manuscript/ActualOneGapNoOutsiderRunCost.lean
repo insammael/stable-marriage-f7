@@ -103,7 +103,6 @@ theorem actual_one_gap_no_outsider_run_cost
   dsimp -failIfUnchanged only [E,i₀,i₁,j₀,S₀,S₁,Q₀,Q₁,R₀,R₁] at hcost₀ hcost₁ hledger' ⊢
   omega
 
-#print axioms actual_one_gap_no_outsider_run_cost
 
 end
 end F7Manuscript.TripleCoordinateLattice

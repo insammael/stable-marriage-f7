@@ -72,6 +72,5 @@ theorem actual_q0_periodic_gap_patterns_false
   norm_num [Finset.sum_range_succ] at hb
   omega
 
-#print axioms actual_q0_periodic_gap_patterns_false
 end
 end F7Manuscript.ActualW21Q0PeriodicGapExclusions

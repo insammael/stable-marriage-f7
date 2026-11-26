@@ -11,6 +11,5 @@ def normalizeColors (cs : List Nat) : List Nat :=
   | a :: b :: _ => cs.map (fun c => if c == a then 0 else if c == b then 1 else 2)
   | _ => []
 
-#print axioms normalizeColors
 
 end F7Manuscript.NormalOutsiderCoverage

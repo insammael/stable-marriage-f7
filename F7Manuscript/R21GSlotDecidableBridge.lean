@@ -54,6 +54,5 @@ theorem actual_T_family_G_slot_all_deciders
   exact GSlotFamilyAssertion_transport d (Classical.decEq (Event I)) l
     (Classical.decRel (fun x y : Event I => x ≤ y)) C @hclass
 
-#print axioms actual_T_family_G_slot_all_deciders
 end
 end F7Manuscript.TripleCoordinateLattice

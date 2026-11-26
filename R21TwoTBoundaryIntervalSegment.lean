@@ -111,7 +111,5 @@ theorem interval_segment_left (R : TokenRun Site Site 21) (rename : Equiv.Perm S
  · simpa only [Fin.val_last,List.take_length] using! h.1
  · simpa only [Fin.val_last,List.take_length] using! h.2.1
 
-#print axioms interval_segment_left
-#print axioms interval_segment_right
 end
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

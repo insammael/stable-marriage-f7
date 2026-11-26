@@ -139,6 +139,5 @@ theorem endpoint_G_cut_geometry
         obtain ⟨z,hz,hxz⟩ := (mem_down P x).mp h
         exact (ha z (hPc hz) hxz).elim
 
-#print axioms endpoint_G_cut_geometry
 end
 end F7Manuscript.TripleCoordinateLattice.R21OneGEndpointCuts

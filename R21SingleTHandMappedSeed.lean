@@ -40,7 +40,5 @@ theorem mapped_postSeed_member : ∀ (s p : Fin 6),
 
 theorem handPreSnapshot_bound : seenBound handPreSnapshot := by unfold seenBound; decide
 
-#print axioms mapped_postSeed_correct
-#print axioms mapped_postSeed_member
 end
 end F7Manuscript.R21SingleTHand

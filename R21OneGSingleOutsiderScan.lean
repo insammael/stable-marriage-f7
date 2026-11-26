@@ -60,5 +60,4 @@ theorem no_low_overlap_endpoints {total budget : Nat} (checked : checkSharedBudg
   have hbound := List.all_eq_true.mp hnear _ (actual_low_footprint right hy)
   simpa [shared, Nat.not_le_of_gt cost] using! hbound
 
-#print axioms no_low_overlap_endpoints
 end F7Manuscript.R21OneGMachine

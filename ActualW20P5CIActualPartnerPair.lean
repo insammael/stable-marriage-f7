@@ -86,5 +86,4 @@ theorem p5_CI_actual_partner_pair
             exact False.elim ((T.no_return q2 4 hpart2 q6.succ htime) hret)
     · exact False.elim ((by decide : (3 : Site) ≠ 5) (hy63.symm.trans hbad6.1))
 
-#print axioms p5_CI_actual_partner_pair
 end F7Manuscript.ActualW20P5CIActualPartnerPair

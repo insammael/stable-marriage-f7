@@ -20,6 +20,5 @@ theorem pairedOppState_root : ∀mirror phase : Bool,∀p s : Fin 6,∀c d : Col
  intro mirror phase p
  cases mirror <;> cases phase <;> fin_cases p <;> decide +kernel
 
-#print axioms pairedOppState_root
 end
 end F7Manuscript.R21SingleTHand

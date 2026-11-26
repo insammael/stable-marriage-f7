@@ -81,9 +81,6 @@ theorem actual_outside_three_cost_four
   have hu : X.outsiders = 3 := by rw [X.outsiders_eq_actual, houtside]
   exact ⟨X, actual_u3_cost_four C hn hδ hdeficit hpos h221 h311 hG hT X hu⟩
 
-#print axioms actual_u3_cost_three_false
-#print axioms actual_u3_cost_four
-#print axioms actual_outside_three_cost_four
 
 end
 end F7Manuscript.ActualW16U3CostThreeFalseAndFour

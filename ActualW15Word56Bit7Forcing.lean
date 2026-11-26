@@ -224,6 +224,5 @@ theorem plan56_bit7_eq_not_bit2
       · exact False.elim (rejectB2 t b N h0 h1 h2 h3' h4' h5' h6' h7 h8 h9)
     · exact False.elim (rejectB0 t b N h0 h1 h2 h3' h4' h5' h6' h7 h8)
 
-#print axioms plan56_bit7_eq_not_bit2
 
 end F7Manuscript.ActualW15Word56Bit7Forcing

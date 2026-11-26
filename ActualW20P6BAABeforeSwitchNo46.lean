@@ -53,5 +53,4 @@ theorem no_four_six_swap_before_first_switch
     · exact (hnever.2 h46r.symm).elim
     · exact (hnever.1 h64l.symm).elim
 
-#print axioms no_four_six_swap_before_first_switch
 end F7Manuscript.ActualW20P6BAABeforeSwitchNo46

@@ -54,7 +54,5 @@ theorem saturated_tokenRun_binary (R : TokenRun (Fin 7) (Fin 7) 21) (i : Fin 21)
   have low := R.HMIN i
   omega
 
-#print axioms snapshot_unseen_iff_future_rank
-#print axioms saturated_tokenRun_binary
 end
 end F7Manuscript.R21OneGHandDonor

@@ -46,8 +46,5 @@ theorem RawColoredCut.root_prefix (R : TokenRun Site W q)
         (rootOf b).prefix :=
   RawCut.root_prefix R (C.asRawCut R hword)
 
-#print axioms rawColoredState_eq_rawState
-#print axioms RawColoredCut.asRawCut
-#print axioms RawColoredCut.root_prefix
 
 end F7Manuscript.PartnerGraph.Periodic

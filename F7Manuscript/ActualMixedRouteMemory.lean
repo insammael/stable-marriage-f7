@@ -55,6 +55,4 @@ theorem mixed_prefix_frontier_memory
   have Vp := supportsRoute_validity_of_initial_valid Hp M.valid
   exact supportsRoute_frontier_memory Hp Vp M
 
-#print axioms supportsRoute_validity_of_initial_valid
-#print axioms mixed_prefix_frontier_memory
 end F7Manuscript.ActualMixedRouteMemory

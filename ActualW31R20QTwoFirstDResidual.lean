@@ -52,8 +52,6 @@ theorem actual_constant_sign_q2_firstD_residual
   exact actual_q2_firstD_residual C h221 h311 hG hT
     (triple_core_convex_of_constant_signs C hconst) hn hq hs hf
 
-#print axioms actual_q2_firstD_residual
-#print axioms actual_constant_sign_q2_firstD_residual
 
 end
 end F7Manuscript.ActualW31R20QTwoFirstDResidual

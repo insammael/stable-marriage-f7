@@ -123,8 +123,5 @@ theorem actual_global_spanning_chart
   exact ⟨C,inferInstance,global_spanning_chart_exists C
     (actual_pairClass I).2.2.1 (actual_pairClass I).2.1⟩
 
-#print axioms globalSpanningLabelEquiv
-#print axioms global_spanning_chart_exists
-#print axioms actual_global_spanning_chart
 end
 end F7Manuscript.TripleCoordinateLattice

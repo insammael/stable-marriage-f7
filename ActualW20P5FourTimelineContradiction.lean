@@ -63,5 +63,4 @@ theorem p5_four_timeline_4261_impossible
       change tr.state e.succ (tr.rightSite e) = 5 at ht
       exact hnever e (Or.inr hx.symm) (by simpa [hx] using! ht)
 
-#print axioms p5_four_timeline_4261_impossible
 end F7Manuscript.ActualW20P5FourTimelineContradiction

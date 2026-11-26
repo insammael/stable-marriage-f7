@@ -82,6 +82,5 @@ theorem original_left_free_five_impossible
     · have newCrew : frameCrew f={{0,1},{3,6},{4,5}} := by
         rw [crew,fixed,newSets,sets]
       exact normalized_B01_impossible Y pre u' v' f (chartPlan S) b₁ hvNew root hRun planLong sets newCrew
-#print axioms original_left_free_five_impossible
 end
 end F7Manuscript.TripleCoordinateLattice.R21OneGHandActual

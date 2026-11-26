@@ -107,7 +107,6 @@ theorem convex_reverse_paired_rows_frame
   exact reverse_paired_rows_frame G a oldRow currentRow f hrow hv hlast
     hGoldLeft hGoldRight hGnewLeft hGnewRight hrest
 
-#print axioms convex_reverse_paired_rows_frame
 
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW33RContextPairedRowsConvex

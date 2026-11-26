@@ -41,6 +41,5 @@ theorem new102_future_length_le_five_of_observed
   exact F7Manuscript.ActualW13New102Q2Local31Envelopes.new102_future_length_le_five_of_observed
     (bits 1) (bits 2) (bits 3) (bits 6) R tok F Hword
 
-#print axioms new102_future_length_le_five_of_observed
 
 end F7Manuscript.ActualW13New102NoReturnFuture5

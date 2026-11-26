@@ -90,8 +90,5 @@ theorem canonical_six_ten_score
     rw [b] at r
     norm_num [baselineFee,windowFee,windowCost] at r
     omega
-#print axioms canonical_cut_cost_four
-#print axioms canonical_cut_score_six
-#print axioms canonical_six_ten_score
 end
 end F7Manuscript.TripleCoordinateLattice.R21OneGHandScore

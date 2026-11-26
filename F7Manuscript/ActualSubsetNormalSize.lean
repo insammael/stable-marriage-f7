@@ -59,6 +59,5 @@ theorem subset_normal_paired_count_le_twice_blocks :
       simpa only [normalLeafType,Fintype.card_coe] using! h
     _ = 2*normalBlockCount B := by simp [Nat.mul_comm]
 
-#print axioms subset_normal_paired_count_le_twice_blocks
 end
 end F7Manuscript.TripleCoordinateLattice

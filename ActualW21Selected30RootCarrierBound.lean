@@ -31,7 +31,6 @@ theorem selected30_root_carrier_bound
     ActualW21Selected30AnchorBridge.table10_checked 18 controlTree controlTree_valid
     selected30_old_frontier
 
-#print axioms selected30_root_carrier_bound
 
 end
 end F7Manuscript.ActualW21Selected30RootCarrierBound

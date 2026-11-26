@@ -158,7 +158,4 @@ theorem blocked_impossible (x : Nat) (s : State) (check : blocked x s=true)
       exact noBoard b (List.mem_of_getElem? hb) R binary obs' (by simpa only [size] using! facts.2)
         (by simpa only [facts.1,offset,Bool.false_eq_true,if_false] using! budget)
 
-#print axioms checked_core
-#print axioms checked_left_center
-#print axioms blocked_impossible
 end F7Manuscript.R21NormalEndpoint.BoundaryAtlas.PPOneEndCover

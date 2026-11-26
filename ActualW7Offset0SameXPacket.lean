@@ -140,7 +140,6 @@ theorem actual_X_offset0_first_choice_packet
   intro t
   simpa only [reindex_support] using! hprefix t
 
-#print axioms actual_X_offset0_first_choice_packet
 
 end
 end F7Manuscript.W7ActualOffset0SameXPacket

@@ -81,7 +81,5 @@ theorem p5_unique_mutual_event
   have : k ∈ ({m} : Finset (Fin 13)) := by rw [← hm]; exact hmem
   simpa using! this
 
-#print axioms p5_mutual_event_is_each_singleton
-#print axioms p5_unique_mutual_event
 
 end F7Manuscript.ActualW20P5MutualEventSingleton

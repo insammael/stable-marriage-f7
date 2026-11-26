@@ -84,6 +84,5 @@ theorem actual_mixed_run_of_retained_frame_route
   · rw [hmap, hfirst]
     exact h3
 
-#print axioms actual_mixed_run_of_retained_frame_route
 end
 end F7Manuscript.ActualW33MixedRunFromRetainedRoute

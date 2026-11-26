@@ -63,6 +63,5 @@ theorem DatedPlan.finalLeftWord (n : Nat) :
         simpa [List.reverse_cons,List.map_append,List.map_map,Function.comp_def,
           cyclicCompose,List.append_assoc] using! word
 
-#print axioms DatedPlan.finalLeftWord
 end
 end F7Manuscript.R21NormalEndpoint.ReseededObservation

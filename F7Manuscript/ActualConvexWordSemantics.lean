@@ -188,8 +188,5 @@ theorem actual_outsider_word_no_three
       omega
   exact (actual_convex_word_rows_exact hn Q hQ D fallback e word hreal z y).mpr ⟨hyz,hyz'⟩
 
-#print axioms actual_convex_word_rows_exact
-#print axioms actual_convex_word_fresh
-#print axioms actual_outsider_word_no_three
 end
 end F7Manuscript.ActualConvexWordSemantics

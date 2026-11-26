@@ -130,6 +130,4 @@ theorem rebase_replay (m : Memory) (e : Equiv.Perm Site) (w : List Swap) :
   | nil => rfl
   | cons p xs ih => simp only [List.map_cons,replay,rebase_allow,rebase_advance]; split <;> simp [ih]
 
-#print axioms replay_of_fresh
-#print axioms rebase_replay
 end F7Manuscript.TripleCoordinateLattice.R21LooseRows

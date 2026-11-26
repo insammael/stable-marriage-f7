@@ -48,6 +48,5 @@ local instance q0OrderedCountEventDecLe : DecidableLE (Event I) := Classical.dec
   exact actual_r20_one_G_q0_long_short_left_count_le_85 C h221 h311 hu hG hT
     hn hm0 hm1 hshort hqtotal
 
-#print axioms actual_r20_one_G_q0_long_pre_not_larger_count_le_85
 end
 end F7Manuscript.TripleCoordinateLattice

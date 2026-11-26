@@ -170,6 +170,4 @@ noncomputable def restoreUpper (P : Finset V) (p : V) (d z : Triple P)
       rw [hOldPath _ i hiOld,hComp]
       exact hi
 
-#print axioms component_survivor
-#print axioms restoreUpper
 end NeutralCore.PathExtraction

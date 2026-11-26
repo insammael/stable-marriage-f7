@@ -79,7 +79,5 @@ theorem checked_profile_leaf_excludes_typed_capacity
     (hf₁ : capacity fixed.1 = 6) (hf₂ : capacity fixed.2 = 6) : False :=
   hl.2 (profileTarget_of_typed_capacity l.word hlen hpairs capacity hle hsum fixed hfixed hf₁ hf₂)
 
-#print axioms sum_actorDegree
-#print axioms checked_profile_leaf_excludes_typed_capacity
 end
 end F7Manuscript.OneGap

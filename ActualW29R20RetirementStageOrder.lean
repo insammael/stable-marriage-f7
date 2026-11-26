@@ -236,7 +236,5 @@ theorem full_chronological_le_retirement_stage_key (C : Chart) (total : ℕ)
               (retirement_pair_key_range C total off j k s).2
               (retirement_pair_key_range C total off l m t).1
 
-#print axioms retirementStageKey
-#print axioms full_chronological_le_retirement_stage_key
 end
 end F7Manuscript.NormalSkeleton.Chart

@@ -74,6 +74,5 @@ theorem original_G_shared_visits
     rw [heq] at hpre
     exact Or.inr ((I.maleRank a).injective (le_antisymm hpost hpre))
 
-#print axioms original_G_shared_visits
 end
 end F7Manuscript.TripleCoordinateLattice.R21OneGSingleOutsiderHistory

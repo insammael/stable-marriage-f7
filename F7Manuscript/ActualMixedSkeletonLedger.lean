@@ -102,8 +102,5 @@ theorem actualMixedSkeleton_ledger
       exact actualMixedFiniteOrder_le C h221 h311 hz hxy)
     (actualMixedFiniteOrder_skeleton_cost C h221 h311 hz hm)
 
-#print axioms actualMixedFiniteOrder_le
-#print axioms actualMixedFiniteOrder_skeleton_cost
-#print axioms actualMixedSkeleton_ledger
 end
 end F7Manuscript.TripleCoordinateLattice

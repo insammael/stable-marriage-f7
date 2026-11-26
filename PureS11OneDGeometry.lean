@@ -178,8 +178,6 @@ theorem pure_s11_next_center_geometry
     pairMap E (centerPair mid c₂ b₂) = {candidate,1} := hcenter
     _ = {1,candidate} := Finset.pair_comm _ _
 
-#print axioms pure_s11_next_center_geometry
-#print axioms pure_s11_postCenter_rows
 
 end
 end F7Manuscript.ActualInputS11PureOneDGeometry

@@ -96,6 +96,4 @@ theorem p5_Y2_three_preholder_is_five
   exact p5_two_receipt_three_after_zero_then_five_displaces_five tr r0 r5 e2 m
     h05 h52 h2m hp5 hp2 hp6 hpost0 hpost5 hpost2 hpost6
 
-#print axioms p5_five_receipt_before_initial_two_has_source_one
-#print axioms p5_Y2_three_preholder_is_five
 end F7Manuscript.ActualW20P5Y2ThreePreHolder

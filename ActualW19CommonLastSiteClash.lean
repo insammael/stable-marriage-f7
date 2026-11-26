@@ -71,6 +71,5 @@ theorem no_two_tokens_share_common_last_site
   · exact clash12 h
   · exact clash21 h
 
-#print axioms no_two_tokens_share_common_last_site
 
 end F7Manuscript.ActualW19CommonLastSiteClash

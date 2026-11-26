@@ -232,7 +232,6 @@ theorem no_exact_of_trace_coverage {x c : Nat}
   have hlt := (List.getElem?_eq_some_iff.mp hi).choose
   exact no_outward_at i hlt (hb.symm ▸ model)
 
-#print axioms no_exact_of_trace_coverage
 
 end F7Manuscript.R21NormalEndpoint.BoundaryAtlas
 
@@ -248,5 +247,4 @@ theorem no_exact_of_verified_coverage {x c : Nat}
     ¬ ActualTerminal (3 + x) c :=
   no_exact_of_trace_coverage coverage physicalWalkBuilder
 
-#print axioms no_exact_of_verified_coverage
 end F7Manuscript.R21NormalEndpoint.BoundaryAtlas

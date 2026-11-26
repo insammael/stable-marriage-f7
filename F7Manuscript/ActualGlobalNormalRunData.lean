@@ -143,9 +143,5 @@ theorem actualGlobalNormalRunCanonicalBounds
     (S.q : ℤ)+(min S.m 2 : ℕ)+S.s-2 ≤ NeutralCore.aOn Q at hb
   exact hb
 
-#print axioms actualGlobalNormalRunSkeleton
-#print axioms actualGlobalNormalRunLabelEquiv
-#print axioms actualGlobalNormalRunLabel_reaches
-#print axioms actualGlobalNormalRunCanonicalBounds
 end
 end F7Manuscript.TripleCoordinateLattice

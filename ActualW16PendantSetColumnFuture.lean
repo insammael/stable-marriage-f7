@@ -178,7 +178,6 @@ theorem dormant_set_column_edge_bound {F : Rel} {n : ℕ}
             simpa [p] using! hbound
           omega
 
-#print axioms dormant_set_column_edge_bound
 
 end
 end F7Manuscript.ActualW16PendantSetColumnFuture

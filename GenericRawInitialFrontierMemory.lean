@@ -90,6 +90,5 @@ theorem raw_initial_frontier_memory_of_permuted_supports
         intro i hi hlater
         exact hno c i hi hlater x hx)
 
-#print axioms raw_initial_frontier_memory_of_permuted_supports
 
 end F7Manuscript.ActualMixedLastSupport

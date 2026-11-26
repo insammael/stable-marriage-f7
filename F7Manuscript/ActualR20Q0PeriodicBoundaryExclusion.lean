@@ -144,7 +144,5 @@ theorem r20_q0_s0_original_excluded
   exact (hactual d a).trans ((ReturnCertificate.state_eq_origins A _ hword d a).trans
     (hactual 0 _).symm)
 
-#print axioms F7Manuscript.PartnerGraph.Periodic.no_r20_periodic_boundary_donor
-#print axioms r20_q0_s0_original_excluded
 end
 end F7Manuscript.TripleCoordinateLattice

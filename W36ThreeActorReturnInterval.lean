@@ -96,5 +96,4 @@ theorem three_actor_return_interval_false
     rw [hreturn] at hm
     omega
 
-#print axioms three_actor_return_interval_false
 end F7Manuscript.W36ThreeActorReturnInterval

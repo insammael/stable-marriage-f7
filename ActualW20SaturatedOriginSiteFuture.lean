@@ -35,6 +35,5 @@ theorem fixedTokenSaturated_origin_site_future
     have hnot := fixedTokenSwapTrace_initialTokenUntouched tr t a hhome r (by omega)
     exact hnot.2 hs.symm
 
-#print axioms fixedTokenSaturated_origin_site_future
 
 end F7Manuscript.PartnerGraph

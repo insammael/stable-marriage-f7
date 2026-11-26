@@ -131,6 +131,5 @@ theorem whole_prefix_packet_from_actual_prefix
   exact F7Manuscript.TripleCoordinateLattice.W35BinarySingletonWholePrefixPacketCompat.actual_binary_singleton_whole_prefix_packet
     C h221 h311 hu E n hP B h221P h311P hzP hm1 hmOne T EG EF
 
-#print axioms whole_prefix_packet_from_actual_prefix
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW36WholePrefixPacketSpec

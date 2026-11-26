@@ -85,8 +85,5 @@ theorem carrier_periodic_total_budget
         C ⟨hk.1, hk10⟩ hp
     omega
 
-#print axioms periodicColors_length
-#print axioms zeroDPeriodicMixedRootPlan_eq_centerPlan
-#print axioms carrier_periodic_total_budget
 
 end F7Manuscript.ActualW11PeriodicCarrierTotalBudget

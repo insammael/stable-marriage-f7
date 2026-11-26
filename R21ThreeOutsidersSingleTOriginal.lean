@@ -28,6 +28,5 @@ theorem r21_three_outsiders_single_T_original (I : Profile 7) [Nonempty (StableM
     intro j
     exact Finset.not_nonempty_iff_eq_empty.mp (fun h => some ⟨j,h⟩)
 
-#print axioms r21_three_outsiders_single_T_original
 end
 end F7Manuscript.ActualPositiveDeficitCoverAssembly

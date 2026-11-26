@@ -606,9 +606,6 @@ theorem actual_d2_postpaired_center_obstruction_with_history
       hD₀ hD₁ hD₂ hD₃ c hc b n hn hcenter candidate hcandidate
   exact ⟨aColor,bOld,ha,W,hselect,hW,hnot,hpastFour,hpastAll⟩
 
-#print axioms actual_d2_postpaired_center_obstruction
-#print axioms actual_d2_postpaired_center_obstruction_with_history_and_color
-#print axioms actual_d2_postpaired_center_obstruction_with_history
 
 end
 end F7Manuscript.TripleCoordinateLattice

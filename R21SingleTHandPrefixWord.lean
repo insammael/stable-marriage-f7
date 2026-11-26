@@ -81,8 +81,5 @@ theorem remaining_transpose (k : Fin (n+1)) (l : Fin (m+1)) (a b : Site) :
   exact and_congr (not_congr (prefixSeen_transpose R k a b))
     (not_congr (prefixSeen_transpose Q l a b))
 
-#print axioms PrefixWord.state_eq
-#print axioms remaining_words
-#print axioms remaining_transpose
 end
 end F7Manuscript.R21SingleTHand

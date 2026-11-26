@@ -176,6 +176,5 @@ theorem actual_reverse_segment_schedule
         htailStart
       exact ⟨ReverseBlockSegmentRunSchedule.more hj t htailRoom blockSchedule tailSchedule⟩
 
-#print axioms actual_reverse_segment_schedule
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW33RContextSegmentScheduleActual

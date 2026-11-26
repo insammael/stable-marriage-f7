@@ -70,8 +70,5 @@ theorem selected29_budgeted_root_of_noReturn {bits : ℕ → Bool}
   have h := WindowControlCertificate.bounded_graph_leaf_of_noReturn ActualW21Selected29TypedRootTree.table1 plan29 18 controlTree controlTree_valid bits h0 hnr
   simpa only [plan29_eventCount] using! h
 
-#print axioms stateTable_checked
-#print axioms root_anchor_futureBound
-#print axioms selected29_budgeted_root_of_noReturn
 
 end F7Manuscript.ActualW21Selected29TwoDisjointStates

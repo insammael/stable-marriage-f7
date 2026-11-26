@@ -61,7 +61,6 @@ theorem ordinal45_reverse_carrier_after_le_two_false
   have hbound : 21-after ≤ 18 := by rw [← hclock]; exact hK18
   omega
 
-#print axioms ordinal45_reverse_carrier_after_le_two_false
 
 end
 end F7Manuscript.ActualW17Q1Saved45ReverseBranchFalse

@@ -133,6 +133,4 @@ theorem contextWord_bounded (pre : Bool) (sym : List ℕ)
       subst p
       exact postAtom_bounded _ (contextRow_bounded pre sym row) c
 
-#print axioms contextActor_perm_value
-#print axioms contextWord_bounded
 end F7Manuscript.TOutsiderContextWord

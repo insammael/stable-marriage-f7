@@ -205,7 +205,6 @@ theorem actual_r20_pre_post_routes_in_same_whole_run
   exact ⟨by simpa only [R,hconv] using! hpre',
     by simpa only [R,hconv] using! hpost⟩
 
-#print axioms actual_r20_pre_post_routes_in_same_whole_run
 
 end
 end F7Manuscript.TripleCoordinateLattice

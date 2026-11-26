@@ -397,7 +397,6 @@ theorem q6_pattern_00 (t : Matching) (bits : Nat → Bool)
             simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
           exact (h.fresh 10 (by decide) 1 hp 0 (by decide)) hEq
 
-#print axioms q6_pattern_00
 
 def plan_q6_pattern_01 : List Move := [Move.paired,Move.center (1 : Color),Move.paired,Move.center (2 : Color),Move.paired,Move.center (1 : Color),Move.paired]
 theorem q6_pattern_01 (t : Matching) (bits : Nat → Bool)
@@ -789,7 +788,6 @@ theorem q6_pattern_01 (t : Matching) (bits : Nat → Bool)
             simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
           exact (h.fresh 10 (by decide) 1 hp 0 (by decide)) hEq
 
-#print axioms q6_pattern_01
 
 def plan_q6_pattern_02 : List Move := [Move.paired,Move.center (1 : Color),Move.paired,Move.center (0 : Color),Move.paired,Move.center (1 : Color),Move.paired]
 theorem q6_pattern_02 (t : Matching) (bits : Nat → Bool)
@@ -1181,6 +1179,5 @@ theorem q6_pattern_02 (t : Matching) (bits : Nat → Bool)
           simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
         exact (h.fresh 9 (by decide) 4 hp 0 (by decide)) hEq
 
-#print axioms q6_pattern_02
 
 end F7Local

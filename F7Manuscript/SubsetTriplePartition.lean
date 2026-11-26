@@ -51,8 +51,5 @@ theorem subset_covBy_to_ambient (hQ : OrderConvex Q) {a b : Q} (hab : a ⋖ b) :
   · exact Or.inl (congrArg Subtype.val ha)
   · exact Or.inr (congrArg Subtype.val hb)
 
-#print axioms subsetTripleLift
-#print axioms subsetTripleLift_eq_bot_of_lower_bounds
-#print axioms subset_covBy_to_ambient
 end
 end F7Manuscript.TripleCoordinateLattice

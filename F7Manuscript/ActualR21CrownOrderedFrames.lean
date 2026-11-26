@@ -132,6 +132,5 @@ theorem r21_literal_T_ordered_crown_frames :
   · exact rowsMatch_pullback new (newOrderedCrownFrame s) e (fun c => by
       rw [new_ordered_crown_frame_support]; exact hn' c)
 
-#print axioms r21_literal_T_ordered_crown_frames
 end
 end F7Manuscript.TripleCoordinateLattice

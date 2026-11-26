@@ -104,9 +104,5 @@ theorem symmetry_row_pair_permutation (g : List Nat)
     decide
   exact of_decide_eq_true ((List.all_eq_true.mp hcheck) g hg)
 
-#print axioms composeSym_mem
-#print axioms rowSymmetryPerm
-#print axioms exists_symmetry_sends_retained_to_zero
-#print axioms symmetry_row_pair_permutation
 
 end F7Manuscript.TOutsiderSymmetryGroup

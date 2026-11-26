@@ -51,6 +51,5 @@ theorem b5_true (bits : Nat → Bool) (h0 : bits 0 = false)
           F7Manuscript.ActualPlanNoReturn.routePrefix_zero]
       exact forbidden bits 9 N (by norm_num [new102Plan,F7Manuscript.ActualW13New102ControlB4B5.new102Plan,eventCount]) a s (by simp [a,s,hx,hy,ht]) hp hs)
 
-#print axioms b5_true
 
 end F7Manuscript.ActualW13New102ControlB5

@@ -225,8 +225,6 @@ theorem subsetNormalBlockRunSchedule_final_frame {W : Type*} [Fintype W]
                   simpa only [Nat.zero_add] using! htail k hk')
         _ = g := hfinal
 
-#print axioms subsetNormalPairedRunSchedule_supportsRoute
-#print axioms subsetNormalBlockRunSchedule_final_frame
 
 end
 end F7Manuscript.TripleCoordinateLattice

@@ -1,5 +1,6 @@
 module
 
+public import Mathlib
 public import F7Manuscript.PartnerGraphCertificate
 
 @[expose] public section
@@ -1242,9 +1243,5 @@ def rootB : Root where
 
 theorem rootB_valid : ValidRoot rootB := by decide
 
-#print axioms table_valid
-#print axioms transition_count
-#print axioms rootA_valid
-#print axioms rootB_valid
 
 end F7Manuscript.PartnerGraph.Periodic

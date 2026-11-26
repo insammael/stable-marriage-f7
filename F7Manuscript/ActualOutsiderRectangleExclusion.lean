@@ -141,7 +141,5 @@ theorem actual_outsider_paired_sign_switch_excluded
     (s.property d e hde) (t.property d e hde) hac had hbc hbd
     hla hlb hlc hld hua hub huc hud hlu hx hxK
 
-#print axioms actual_outsider_rectangle_excluded
-#print axioms actual_outsider_paired_sign_switch_excluded
 end
 end F7Manuscript.TripleCoordinateLattice

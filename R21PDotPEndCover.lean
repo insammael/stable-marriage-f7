@@ -198,7 +198,4 @@ theorem blocked_impossible (rev : Bool) (s : State) (check : blocked rev s = tru
       exact noBoard b (List.mem_of_getElem? hb) R binary obs facts.2
         (by simpa only [facts.1] using! budget)
 
-#print axioms checked_left
-#print axioms checked_right
-#print axioms blocked_impossible
 end F7Manuscript.R21NormalEndpoint.BoundaryAtlas.PDotPEndCover

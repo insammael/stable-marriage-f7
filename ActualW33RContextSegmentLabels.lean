@@ -65,8 +65,5 @@ theorem segment_side_more_tail {n : Nat} {j : Fin (normalBlockCount B)}
       segmentSideOrder Q B h221 h311 hz tail k r := by
   simp only [segmentSideOrder, dif_neg hk]
 
-#print axioms segment_side_one
-#print axioms segment_side_more_head
-#print axioms segment_side_more_tail
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW33RContextSegmentLabels

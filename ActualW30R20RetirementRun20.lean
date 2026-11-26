@@ -134,8 +134,5 @@ theorem actual_retirement_run20_from_switch
     exact actualRunFromCoreWithOutsider_support_at
       A 19 E x hout k hcore hbefore hafter i
 
-#print axioms actual_retirement_core_listing
-#print axioms actualRetirement19
-#print axioms actual_retirement_run20_from_switch
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW30R20RetirementRun20

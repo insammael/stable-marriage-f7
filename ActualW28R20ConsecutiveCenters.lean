@@ -98,6 +98,5 @@ theorem actual_consecutive_centers
   refine ⟨t, u, htS, ?_, hsupportT, hsupportU⟩
   rw [hu, htS, hnextIdx]
 
-#print axioms actual_consecutive_centers
 end
 end F7Manuscript.ActualW28R20ConsecutiveCenters

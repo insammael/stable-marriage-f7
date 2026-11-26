@@ -61,7 +61,6 @@ theorem move_center_and_supply_cut {W : Type*} [Fintype W] {q : Nat}
     at hclock Hcut Mcut
   exact ⟨S, out, hclock, hc, Hcut, Mcut, paired_prefix_last _ _ _ _, hbit, hafter⟩
 
-#print axioms move_center_and_supply_cut
 
 end
 end F7Manuscript.ActualW8MovedCenterCutMemory

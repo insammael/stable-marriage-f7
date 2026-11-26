@@ -93,6 +93,5 @@ theorem plan56_bit3_eq_bit2
   · exact False.elim (true_false_contradicts_fresh t bits h0 h1 h2 h3 N)
   · rfl
 
-#print axioms plan56_bit3_eq_bit2
 
 end F7Manuscript.ActualW15Word56BranchControls

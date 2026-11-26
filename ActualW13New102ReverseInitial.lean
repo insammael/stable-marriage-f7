@@ -187,5 +187,4 @@ theorem actual_X_new102_reverse_initial_structural_threshold
   rw [hclock] at hthreshold
   simpa [extra] using! hthreshold
 
-#print axioms actual_X_new102_reverse_initial_structural_threshold
 

@@ -53,5 +53,4 @@ theorem exists_representative_order
   have hi : i.val < representative.length := by omega
   simpa only [List.get_eq_getElem,List.getD_eq_getElem representative (0,0) hi, f] using! hσ i
 
-#print axioms exists_representative_order
 end F7Manuscript.TOutsiderDisjointRows

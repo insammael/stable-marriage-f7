@@ -72,6 +72,5 @@ theorem actual_nat_word_realizes
     _ = atomSupport (atoms.getD i.val (0,0)) := hsupport i
     _ = _ := htyped.symm
 
-#print axioms actual_nat_word_realizes
 end
 end F7Manuscript.ActualNatWordRealization

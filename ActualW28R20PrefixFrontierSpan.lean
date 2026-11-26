@@ -57,6 +57,5 @@ theorem first_leaf_prefix_dominated
   rw [← hsource]
   exact hm c
 
-#print axioms first_leaf_prefix_dominated
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW28R20PrefixFrontierSpan

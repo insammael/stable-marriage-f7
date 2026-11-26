@@ -35,9 +35,6 @@ theorem r21_one_outsider_two_G_one_T_leaf (I : Profile 7) [Nonempty (StableMatch
 theorem r21_two_outsiders_one_G_one_T_leaf (I : Profile 7) [Nonempty (StableMatching I)] :
     R21LeafObligation I 2 1 1 := r21_original_mixed_by_weight I 2 1 1 (by decide) (by decide)
 
-#print axioms r21_original_mixed_by_weight
-#print axioms r21_one_outsider_two_G_one_T_leaf
-#print axioms r21_two_outsiders_one_G_one_T_leaf
 end
 end F7Manuscript.ActualPositiveDeficitCoverAssembly
 

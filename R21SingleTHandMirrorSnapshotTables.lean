@@ -53,7 +53,5 @@ theorem mirrorRejectedSnapshot_excludes {n m : ℕ}
     simpa only [WordSnapshotCorrect,htok,hseen] using! (mirrorSnapshot_correct C hC).2
   exact C.excludes_snapshots L R h hbL hbR k l s t hLs hLv hRs hRv hpreC hpostC
 
-#print axioms mirrorSnapshotCheck_true
-#print axioms mirrorRejectedSnapshot_excludes
 end
 end F7Manuscript.R21SingleTHand

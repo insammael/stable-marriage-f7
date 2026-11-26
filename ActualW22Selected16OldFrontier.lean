@@ -16,7 +16,6 @@ open F7Manuscript.ActualW22Selected16TypedRootTree
 
 theorem selected16_old_frontier :
     AllLeaves (fun _ leaf => OldFrontierIncluded leaf) [false] controlTree := by decide +kernel
-#print axioms selected16_old_frontier
 
 def eventBudget : ℕ := 14
 def branchBudget : ℕ := 4
@@ -31,6 +30,5 @@ theorem selected16_profile_metadata :
       eventBudget = 4 + F7Local.eventCount plan ∧
       totalBudget = eventBudget + branchBudget ∧ totalBudget = 18 := by
   decide +kernel
-#print axioms selected16_profile_metadata
 
 end F7Manuscript.ActualW22Selected16OldFrontier

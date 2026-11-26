@@ -115,4 +115,3 @@ theorem separated_three_pool_covers
 
 end F7Manuscript.SeparatedThreePoolActualHistory
 
-#print axioms F7Manuscript.SeparatedThreePoolActualHistory.separated_three_pool_covers

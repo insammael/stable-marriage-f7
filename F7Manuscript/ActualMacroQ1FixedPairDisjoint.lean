@@ -167,7 +167,6 @@ theorem actual_macro_q1_fixed_pair_disjoint_from_singleton_pool
     (Q := globalIntroducedPast C E n.val) Bpre h221pre h311pre hzpre hmPre hK
     x hxmem hOldBinary targetColor e hmapped
 
-#print axioms actual_macro_q1_fixed_pair_disjoint_from_singleton_pool
 
 end
 end F7Manuscript.TripleCoordinateLattice

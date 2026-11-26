@@ -179,7 +179,6 @@ theorem actual_dual_raw_initial_memory_all_segment_windows
         hjval, hj₁, hj₂, htEq, ht₁, ht₂, ?_⟩
       simpa [ctrl] using! hbitsWindow
 
-#print axioms actual_dual_raw_initial_memory_all_segment_windows
 
 end
 end F7Manuscript.ActualDualNormalPostCenterRoute

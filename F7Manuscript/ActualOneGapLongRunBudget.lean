@@ -121,6 +121,5 @@ theorem actual_one_G_low_core_deficit_long_run_budget
   rw [hmin0',hmin1',if_pos hpos0,if_pos hpos1] at hweak
   omega
 
-#print axioms actual_one_G_low_core_deficit_long_run_budget
 end
 end F7Manuscript.TripleCoordinateLattice

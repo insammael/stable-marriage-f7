@@ -122,7 +122,6 @@ private theorem endpoint_three_pivot_some_false
   rw [hnone] at hz
   cases hz
 
-#print axioms endpoint_three_pivot_some_false
 
 /-- Endpoint-sum split for a length-thirteen paid-zero row. Whichever end
     contains the unique unit is oriented to the OLD selector's start. -/
@@ -157,6 +156,5 @@ theorem m13_endpoint_three_pivot_paid_zero_false
       (by simpa using! hrev0) (by simpa using! hrevInt)
       (by simpa using! hpivR) hSomeR
 
-#print axioms m13_endpoint_three_pivot_paid_zero_false
 end
 end F7Manuscript.ActualW17U3Q1S3PaidZeroFalseV2

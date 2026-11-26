@@ -78,7 +78,6 @@ theorem actual_binary_singleton_whole_chronology
     actual_macro_core_block_enumeration_with_inputs C h221 h311 hu E n EP EG F rfl EF
   exact ⟨hPG, HPG, hptsPG, Hraw, hUF, hptsWhole⟩
 
-#print axioms actual_binary_singleton_whole_chronology
 
 end
 end F7Manuscript.TripleCoordinateLattice.W35BinarySingletonActualWholeChronology

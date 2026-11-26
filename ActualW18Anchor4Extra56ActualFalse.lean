@@ -123,6 +123,5 @@ theorem actual_u3_q1_s3_anchor4_extra56_max_le_two_false
     (by simpa [W] using! hSupport)
     hmax
 
-#print axioms actual_u3_q1_s3_anchor4_extra56_max_le_two_false
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW18Anchor4Extra56ActualFalse

@@ -122,9 +122,5 @@ theorem actualD2CanonicalCenterRelabel_support
     actualD2CanonicalCenterRelabel_selected f hv c b hc,
     actualD2CanonicalCenterRelabel_idle]
 
-#print axioms actualD2CanonicalCenterRelabel_selected
-#print axioms actualD2CanonicalCenterRelabel_other
-#print axioms actualD2CanonicalCenterRelabel_idle
-#print axioms actualD2CanonicalCenterRelabel_support
 
 end F7Manuscript.TripleCoordinateLattice

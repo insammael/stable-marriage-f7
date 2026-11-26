@@ -53,6 +53,5 @@ theorem fixedTokenSwapTrace_initial_final_unused
       apply hnever r
       simpa [hs] using! ht
 
-#print axioms fixedTokenSwapTrace_initial_final_unused
 
 end F7Manuscript.PartnerGraph

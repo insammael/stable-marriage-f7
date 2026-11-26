@@ -60,7 +60,5 @@ theorem actual_pre_block_count_one
   rw [← actual_pre_skeleton_m_eq C h221 h311 hu E R]
   exact hmPreOne
 
-#print axioms actual_pre_skeleton_m_eq
-#print axioms actual_pre_block_count_one
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW35BinarySingletonSkeletonM

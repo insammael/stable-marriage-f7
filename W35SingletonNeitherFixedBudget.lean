@@ -151,4 +151,3 @@ theorem actual_one_G_singleton_pre_neither_fixed_zero_cost
 end
 end F7Manuscript.TripleCoordinateLattice.W35SingletonNeitherFixedBudget
 
-#print axioms F7Manuscript.TripleCoordinateLattice.W35SingletonNeitherFixedBudget.actual_one_G_singleton_pre_neither_fixed_zero_cost

@@ -841,6 +841,5 @@ theorem d3_opposite_full_normalize
   obtain ⟨bitsA, hA, _⟩ := d3_opposite_full_normalize_with_prefix bits hcenters H
   exact ⟨bitsA, hA⟩
 
-#print axioms d3_opposite_full_normalize
 
 end F7Manuscript.N4D3OppositeFullHistory

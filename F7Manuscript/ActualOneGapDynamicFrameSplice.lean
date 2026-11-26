@@ -50,7 +50,6 @@ theorem stagesOfMovePlanCenter_endFrame_eq_supportsRouteFinal
             Stage.controlCount, pairedFrame,
             F7Manuscript.TripleCoordinateLattice.supportsRouteFinal, ih]
 
-#print axioms stagesOfMovePlanCenter_endFrame_eq_supportsRouteFinal
 
 private theorem stagesOfMovePlanCenter_eventCount (bits : ℕ → Bool)
     (s : SupportFrame) (i : ℕ) (plan : List Move) :
@@ -246,6 +245,5 @@ theorem actual_mixed_typeV_dynamic_frame_splice_with_post_center
   refine ⟨hfinal, ?_⟩
   exact supportsStages_realizesPrefix R _ bits hfinal hinit₀ hinit₁ hinit₂ hinit₃
 
-#print axioms actual_mixed_typeV_dynamic_frame_splice_with_post_center
 
 end F7Manuscript.OneGap

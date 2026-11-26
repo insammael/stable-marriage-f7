@@ -158,7 +158,6 @@ theorem actual_X_u4_cost_three_pivots267_min_endpoint_zero_false
     rw [hclock,hafter] at hbudget
     omega
 
-#print axioms actual_X_u4_cost_three_pivots267_min_endpoint_zero_false
 
 end
 end F7Manuscript.ActualW16Window30ActualP267Caller

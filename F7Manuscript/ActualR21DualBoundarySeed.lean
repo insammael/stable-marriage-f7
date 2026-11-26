@@ -54,6 +54,5 @@ theorem actual_dual_cut_bottom_eq_terminal_row
   have hcoord := dual_bottom_coordinate B row hrow c
   exact congrArg Subtype.val hcoord
 
-#print axioms actual_dual_cut_bottom_eq_terminal_row
 end
 end F7Manuscript.TripleCoordinateLattice

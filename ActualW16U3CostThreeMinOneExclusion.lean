@@ -202,7 +202,6 @@ theorem actual_u3_cost_three_min_one_false
     simp [reflect15, ar, br, cr]
   exact (reflect15_retained15_disjoint (a,b,c) hForward) (hReflect ▸ hReverse)
 
-#print axioms actual_u3_cost_three_min_one_false
 
 end
 end F7Manuscript.ActualW16U3CostThreeMinOneExclusion

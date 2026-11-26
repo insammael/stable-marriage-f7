@@ -86,8 +86,5 @@ theorem outsider_strictly_below_all_three {x y1 y2 y3 : V}
     lt_of_le_not_ge hx2 (fun hy2x => h12.2 (hy2x.trans hx1)),
     lt_of_le_not_ge hx3 (fun hy3x => h13.2 (hy3x.trans hx1))⟩
 
-#print axioms single_support_outsider_contradiction
-#print axioms double_support_outsider_contradiction
-#print axioms outsider_strictly_below_all_three
 
 end ConditionalUL

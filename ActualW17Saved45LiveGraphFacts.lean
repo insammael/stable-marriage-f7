@@ -291,8 +291,5 @@ theorem saved45B33_pruned_loopless : loopless saved45PrunedB33 := by
   unfold loopless saved45PrunedB33 pruneGraph saved45B33Graph ofEdges
   decide
 
-#print axioms saved45A6_prefixFresh_eq
-#print axioms saved45A6_prune_future
-#print axioms saved45B13_prune_future
 
 end F7Manuscript.ActualW17Saved45LiveGraphFacts

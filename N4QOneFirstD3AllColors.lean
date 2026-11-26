@@ -106,6 +106,5 @@ theorem q1_firstD3_all_colors_impossible
         hB.1, hB.2.1, hB.2.2.1, Equiv.swap_apply_def]
     exact q1_firstD3_A_impossible hn hq hj hj3 rhoA bitsA Hcanonical hcolorsA
 
-#print axioms q1_firstD3_all_colors_impossible
 
 end F7Manuscript.N4QOneFirstD3AllColors

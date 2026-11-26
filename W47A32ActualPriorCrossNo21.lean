@@ -83,7 +83,6 @@ theorem a32_actual_globalNormalRun_prior_cross_le_future_context_no21
     hpair.2.2.1 hpair.2.1 hz
     (globalNormalRun_initial_exclusive_reset C E i) t u hu H
 
-#print axioms a32_actual_globalNormalRun_prior_cross_le_future_context_no21
 
 end ActualPriorCross
 end

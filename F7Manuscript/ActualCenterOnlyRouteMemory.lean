@@ -81,6 +81,5 @@ theorem center_only_prefix_frontier_memory
   have Vp := supportsRoute_validity_of_no_paired Hp htake M.valid
   exact supportsRoute_frontier_memory Hp Vp M
 
-#print axioms center_only_prefix_frontier_memory
 end
 end F7Manuscript.ActualCenterOnlyRouteMemory

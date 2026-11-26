@@ -86,8 +86,4 @@ theorem DatedPlan.full_route {q off len : Nat} {R : TokenRun Site W q}
   · intro d hd
     rfl
 
-#print axioms pure_route_split
-#print axioms pure_admissible_split
-#print axioms pure_route_split_with_colors
-#print axioms DatedPlan.full_route
 end F7Manuscript.R21NormalEndpoint.ReseededObservation

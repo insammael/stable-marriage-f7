@@ -177,9 +177,5 @@ theorem global_T_incoming_context
     obtain ⟨i,j,hij,hi,hj⟩ := hb
     exact ⟨i,j,hij,hi.le,hj.le⟩
 
-#print axioms frontier_past_context_exists
-#print axioms row_neighbors_card_le_one_of_above_two
-#print axioms majority_above_nonfrontier_neighbors_eq_empty
-#print axioms global_T_incoming_context
 end
 end F7Manuscript.TripleCoordinateLattice

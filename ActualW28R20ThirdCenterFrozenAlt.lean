@@ -135,7 +135,5 @@ theorem third_center_34_alt_freezes_two
     simp [π, F7Paired.embedFour, Equiv.swap_apply_def]
   exact hfreeze k hcut hmapped
 
-#print axioms third_center_24_alt_freezes_three
-#print axioms third_center_34_alt_freezes_two
 end
 end F7Manuscript.ActualW28R20ThirdCenterFrozenAlt

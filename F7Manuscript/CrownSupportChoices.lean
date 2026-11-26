@@ -77,6 +77,5 @@ theorem saturated_allTriple_T_crown_choices
     exact Finset.disjoint_left.mp
       (support_disjoint (actualSupportModel I) (old.property j i hji)) haj hanew
 
-#print axioms saturated_allTriple_T_crown_choices
 end
 end F7Manuscript.TripleCoordinateLattice

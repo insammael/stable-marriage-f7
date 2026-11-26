@@ -74,8 +74,6 @@ theorem memory_reflection {W : Type*} [Fintype W] {q n : Nat}
     subst b
     exact M.state_eq (flip c) (oldColorReflection.symm a) hb
 
-#print axioms reflection_initial_snapshot
-#print axioms memory_reflection
 
 end
 end F7Manuscript.ActualW8ReflectedOldObservation

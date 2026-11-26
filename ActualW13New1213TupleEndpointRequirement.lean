@@ -296,7 +296,6 @@ theorem actual_pure_new1213_requirement_endpoint
     (orientColumn X.before X.after X.levels) dual), ?_, max_le hbase hfold⟩
   simp [pureNew1213Requirement, hr]
 
-#print axioms actual_pure_new1213_requirement_endpoint
 
 end
 end F7Manuscript.ActualW13New1213TupleEndpointRequirement

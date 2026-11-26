@@ -30,5 +30,4 @@ theorem endpoint_G_score_of_check {length score : Nat}
   by_contra! tooLow
   exact no_low_overlap_endpoints checked D.order hx hy (by omega) (by omega) masks
 
-#print axioms endpoint_G_score_of_check
 end F7Manuscript.R21OneGMachine

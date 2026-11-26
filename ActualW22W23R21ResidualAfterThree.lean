@@ -29,6 +29,5 @@ theorem r21_positive_delta_of_leaves_except_outside_three
     exact r21_outside_three_leaf_closed I
   · exact hrest u b c hmem hne hmacro h3
 
-#print axioms r21_positive_delta_of_leaves_except_outside_three
 end
 end F7Manuscript.ActualPositiveDeficitCoverAssembly

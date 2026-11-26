@@ -304,8 +304,6 @@ theorem actual_X_q0_p6_initial_pivot_reverse_false
   rw [hzero] at hrunupper
   omega
 
-#print axioms actual_X_q0_p6_reverse_initial_pivot_carrier
-#print axioms actual_X_q0_p6_initial_pivot_reverse_false
 
 end
 end F7Manuscript.ActualW18Q0P6InitialPivotReverse

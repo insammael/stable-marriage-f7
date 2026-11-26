@@ -124,7 +124,6 @@ theorem normalColumns_comap
     exact (inc_thresholdComap φ C p h).symm
   exact ⟨j', rfl, hcolor, hleaves⟩
 
-#print axioms normalColumns_comap
 
 end
 end F7Manuscript.ActualW7NormalColumnsComap

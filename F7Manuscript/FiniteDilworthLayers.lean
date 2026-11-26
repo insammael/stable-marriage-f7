@@ -120,8 +120,6 @@ theorem above_anchor {P A : Finset V} (hA : AntichainOn (A : Set V))
     exact he ▸ hbx
   · exact h
 
-#print axioms maximum_antichain_exists
-#print axioms layers_cover
 
 end
 end F7Manuscript.FiniteDilworth

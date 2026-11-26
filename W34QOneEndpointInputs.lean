@@ -47,5 +47,4 @@ theorem q1_s0_endpoint_inputs {S : Chart}
       simp only [Chart.naturalLevels, dif_pos j.isLt, if_neg hj]
       exact hz
 
-#print axioms q1_s0_endpoint_inputs
 end F7Manuscript.W34QOneEndpointInputs

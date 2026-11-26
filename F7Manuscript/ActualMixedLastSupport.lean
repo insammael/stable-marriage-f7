@@ -362,6 +362,5 @@ theorem supportsRoute_frontier_memory
           have hrest := ih Vrest M'
           simpa [eventCount, supportsRouteFinal, Nat.add_assoc] using! hrest
 
-#print axioms supportsRoute_frontier_memory
 
 end F7Manuscript.ActualMixedLastSupport

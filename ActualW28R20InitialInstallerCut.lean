@@ -197,6 +197,5 @@ theorem actual_initial_installer_cut
   exact ⟨k0, beta, mateActor, actor, by rfl, hk0, hbetaK0, hmate, hmatePool,
     hactorPool, hstate.symm⟩
 
-#print axioms actual_initial_installer_cut
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW28R20InitialInstallerCut

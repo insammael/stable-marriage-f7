@@ -146,6 +146,5 @@ theorem actual_binary_singleton_gap_index
     rw [hi,normalRunRight_last]
   exact ⟨j,hmacros,hG,hempty,hOldBinary,hNewBinary,hpreRight,hpostLeft,hpostRight⟩
 
-#print axioms actual_binary_singleton_gap_index
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW35BinarySingletonGapIndex

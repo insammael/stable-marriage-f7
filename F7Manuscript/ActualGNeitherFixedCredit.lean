@@ -168,7 +168,6 @@ theorem actual_no_outsider_G_neither_fixed_credit_after_prior
   rw [hcredit]
   omega
 
-#print axioms actual_no_outsider_G_neither_fixed_credit_after_prior
 
 end
 end F7Manuscript.TripleCoordinateLattice

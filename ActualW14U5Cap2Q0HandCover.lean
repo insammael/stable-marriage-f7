@@ -126,9 +126,6 @@ private theorem root182_mem : entry_182 ∈ combinedRegistry := by
   change entry_182 ∈ legacyRegistry ++ remainingRegistry122
   exact List.mem_append_right _ (by simp [remainingRegistry122])
 
-#print axioms root154_pivots
-#print axioms root154_entryD_zero
-#print axioms periodic_fit_of_empty_window_pivots
 
 end
 end F7Manuscript.ActualW14U5Cap2HandCover

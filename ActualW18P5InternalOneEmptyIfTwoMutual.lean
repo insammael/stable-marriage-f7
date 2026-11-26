@@ -36,6 +36,5 @@ theorem p5_internal_one_empty_of_two_mutual
     exact hdZero
   exact ⟨hinternalZero, Finset.card_eq_zero.mp hinternalZero⟩
 
-#print axioms p5_internal_one_empty_of_two_mutual
 
 end F7Manuscript.ActualW18P5InternalOneEmptyIfTwoMutual

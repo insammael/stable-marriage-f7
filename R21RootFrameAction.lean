@@ -45,7 +45,5 @@ theorem right_frame_action {R : TokenRun Site Site 21} {off len : Nat} {bound : 
   cases d : im.dual <;>
     simp [actionFrame,finiteRightFrame,rawMapFrame,mapSupportFrame,mapSupportPair,siteOf,nameMap,renEquiv,BoundaryAtlas.ren,state,d]
 
-#print axioms left_frame_action
-#print axioms right_frame_action
 end
 end F7Manuscript.R21LongWindow.PureRootCoverage

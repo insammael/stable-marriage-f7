@@ -351,8 +351,6 @@ theorem actual_X_p478_offset1_forward_p367_carrier
   simpa [hoffset] using! hrestricted
 
 
-#print axioms actual_X_p478_offset1_forward_p367_carrier
-#print axioms actual_X_p478_offset1_reverse_p367_carrier
 
 end
 end F7Manuscript.ActualW16P478Offset1P367

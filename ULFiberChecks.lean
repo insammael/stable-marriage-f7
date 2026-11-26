@@ -184,12 +184,5 @@ theorem outsider_O2 {B : Set V} {ai al bj bk z x : V}
     haial haix haibk (inc_symm halbj) hbjx hbjbk
     (inc_symm halz) hzx (single_lower_inc_other hz hbj hbk hkj)
 
-#print axioms chain_upset_single_upper
-#print axioms single_upper_no_three
-#print axioms no_two_large_single_upper
-#print axioms full_channel_excludes_other_root
-#print axioms outsider_O1
-#print axioms outsider_O2
-#print axioms outsider_O3
 
 end ConditionalUL

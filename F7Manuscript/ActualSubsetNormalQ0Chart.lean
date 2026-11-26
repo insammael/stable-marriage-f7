@@ -135,8 +135,5 @@ theorem actualSubsetNormalQ0Chart_events (hq0 : (S).q = 0) :
     simp [NormalSkeleton.Chart.n, hq0]
   omega
 
-#print axioms subsetNormalQ0_double_zero
-#print axioms actualSubsetNormalQ0Chart
-#print axioms actualSubsetNormalQ0Chart_events
 end
 end F7Manuscript.TripleCoordinateLattice

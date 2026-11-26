@@ -119,7 +119,6 @@ theorem observed_source_prefix_of_carrier
     k hk hk3
   exact ⟨H⟩
 
-#print axioms observed_source_prefix_of_carrier
 
 end
 end F7Manuscript.ActualW10CarrierObservedSourcePrefix

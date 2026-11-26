@@ -131,8 +131,6 @@ theorem endpoint_unit_one_pivot_some_false
     (by omega) (by omega) hmem hlen hD0 hDtail hsourceD0
     (by intro q hq hqn; exact hsourceDtail q hq (by omega)) hwindow hSome
 
-#print axioms endpoint_unit_zero_pivot_some_false
-#print axioms endpoint_unit_one_pivot_some_false
 
 end
 end F7Manuscript.ActualW17U3Q1S3M13EndpointFits

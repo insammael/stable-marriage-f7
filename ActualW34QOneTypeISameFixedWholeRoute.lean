@@ -164,6 +164,5 @@ theorem actual_typeI_q1_whole_route_context
       hnewLower cross σ hσleft0 hσright0 hpostLower0
   exact ⟨Hwhole, e, bits, h1, h2, h3, hroute⟩
 
-#print axioms actual_typeI_q1_whole_route_context
 end
 end F7Manuscript.TripleCoordinateLattice

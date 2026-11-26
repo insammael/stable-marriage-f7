@@ -61,7 +61,6 @@ theorem normalColumns_comap_at_reverse_index
   have hleavesD := normalLeaves_card_thresholdDual C h221 h311 hz i
   exact ⟨hcolor.trans hcolorD, hleaves.trans hleavesD⟩
 
-#print axioms normalColumns_comap_at_reverse_index
 
 end
 end F7Manuscript.ActualW7ComapReverseNormalColumns

@@ -313,7 +313,6 @@ theorem sparse_cut_02 (t : Matching) (bits : Nat → Bool)
               simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
             exact (h.fresh 11 (by decide) 2 hp 2 (by decide)) hEq
 
-#print axioms sparse_cut_02
 
 def plan_sparse_cut_03 : List Move := [Move.paired,Move.center (1 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.paired,Move.center (2 : Color),Move.paired]
 theorem sparse_cut_03 (t : Matching) (bits : Nat → Bool)
@@ -621,6 +620,5 @@ theorem sparse_cut_03 (t : Matching) (bits : Nat → Bool)
               simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
             exact (h.fresh 11 (by decide) 0 hp 0 (by decide)) hEq
 
-#print axioms sparse_cut_03
 
 end F7Local

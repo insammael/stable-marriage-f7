@@ -179,6 +179,5 @@ theorem actual_typeI_post_lower_frame
   exact ⟨d,c,e,k,inputLabel,bit,hnew,hmove₀,hmove₁,hpost₀,hpost₁,hfixed,
     hcenter,hidle,hLast,hpostFrame⟩
 
-#print axioms actual_typeI_post_lower_frame
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW36TypeIPostFrameConsumer

@@ -71,8 +71,5 @@ theorem G443_future_le_five {F : Rel} {n : Nat}
     (by intro m h; exact F7Manuscript.ActualW13New102G443Components.G443B_le_three h)
   omega
 
-#print axioms G262_future_le_five
-#print axioms G376_future_le_four
-#print axioms G443_future_le_five
 
 end F7Manuscript.ActualW13New102FiveGraphBounds

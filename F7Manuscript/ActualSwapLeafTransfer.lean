@@ -81,6 +81,3 @@ theorem r21LeafObligation_of_swap {u b c : ℕ} (h : R21LeafObligation I.swap u 
 end
 end F7Manuscript.ActualPositiveDeficitCoverAssembly
 
-#print axioms F7Manuscript.ActualPositiveDeficitCoverAssembly.swapPartition_census
-#print axioms F7Manuscript.ActualPositiveDeficitCoverAssembly.r20LeafObligation_of_swap
-#print axioms F7Manuscript.ActualPositiveDeficitCoverAssembly.r21LeafObligation_of_swap

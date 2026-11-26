@@ -52,6 +52,5 @@ theorem mixedPlanFrom_last_D_prefix (word : Nat → Color)
               rw [h0,hrest]
               simp only [mixedPlanFrom,List.append_assoc]
 
-#print axioms mixedPlanFrom_last_D_prefix
 
 end F7Manuscript.ActualW8LastDPlanPrefix

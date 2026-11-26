@@ -76,5 +76,4 @@ theorem p5_actual_CII_selected_A4_impossible
     hb2post hq2pre hq2post hm2pre hm2post hyz hb6post hm6pre hm6post hx6eq hw2eq hw6eq
     r1 h1time h1
 
-#print axioms p5_actual_CII_selected_A4_impossible
 end F7Manuscript.ActualW20P5CIIA4SelectedRouteClosure

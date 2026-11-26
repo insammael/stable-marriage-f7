@@ -80,7 +80,5 @@ theorem actual_r20_one_G_short_left_q1_post_periodic_data
   exact F7Manuscript.ActualQ1PostPeriodicEnumeration.actual_normal_q0_twelve_periodic_enumeration
     C h221 h311 hu E Rpost hq hm hs
 
-#print axioms actual_r20_one_G_short_left_q1_post_data
-#print axioms actual_r20_one_G_short_left_q1_post_periodic_data
 end
 end F7Manuscript.TripleCoordinateLattice.W35TernaryCompat

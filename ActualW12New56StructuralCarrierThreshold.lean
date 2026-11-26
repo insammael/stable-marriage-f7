@@ -136,8 +136,6 @@ theorem new56_actual_saved_structural_threshold_le
     (by intro i hi; exact C.binary i)
   omega
 
-#print axioms actual_route_support_prefix
-#print axioms new56_actual_saved_structural_threshold_le
 #eval IO.eprintln "W12 NEW5/6 structural carrier threshold checked"
 
 end

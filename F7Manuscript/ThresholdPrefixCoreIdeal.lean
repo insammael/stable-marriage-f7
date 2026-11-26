@@ -79,6 +79,5 @@ theorem threshold_block_prefix_eq_core_down_row
         GenericThresholdPath.at_rank]
       exact Finset.mem_image.mpr ⟨i,hi,hiz⟩
 
-#print axioms threshold_block_prefix_eq_core_down_row
 end
 end F7Manuscript.TripleCoordinateLattice

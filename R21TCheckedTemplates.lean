@@ -38,4 +38,3 @@ theorem necessary_word_has_checked_template
 
 end F7Manuscript.TOutsiderNecessaryTransfer
 
-#print axioms F7Manuscript.TOutsiderNecessaryTransfer.necessary_word_has_checked_template

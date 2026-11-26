@@ -163,10 +163,6 @@ theorem pro14_same_original_runs_canonical_recovery
     heq0 heq1 hledger hdef
 
 -- Audit commands for the eventual build; no output is claimed here.
-#print axioms pro14_a228_selected_14_0_run_cards
-#print axioms pro14_forward_14_0_arithmetic
-#print axioms a389_canonical_run_card_arithmetic
-#print axioms pro14_same_original_runs_canonical_recovery
 
 end
 

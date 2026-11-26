@@ -52,8 +52,6 @@ theorem new0_metadata :
     have hi' : i < 6 := by omega
     interval_cases i <;> decide
 
-#print axioms new0_return_entry
-#print axioms new0_metadata
 
 #eval IO.eprintln "W12 NEW0 return-entry checked"
 

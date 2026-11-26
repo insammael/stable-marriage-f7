@@ -32,6 +32,5 @@ theorem bit4_forced (c : Bool) (bits : Nat → Bool)
   exact False.elim (noReturn_forbidden_incoming (Plan c) bits 8 N hbound
     0 2 (by decide) hp hs)
 
-#print axioms bit4_forced
 
 end F7Manuscript.ActualW13New1520SelectorMore

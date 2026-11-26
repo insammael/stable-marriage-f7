@@ -58,9 +58,5 @@ theorem reflected_zero_center_successor_gap (C : Chart)
       (reflectedCenterAddress C r).val + 1 := by
   rw [reflected_center_successor_gap C r hr, hzero]
 
-#print axioms reflected_center_address_value
-#print axioms reflected_pair_address_value
-#print axioms reflected_center_successor_gap
-#print axioms reflected_zero_center_successor_gap
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW30R20RetirementSuccessorClock

@@ -66,6 +66,5 @@ theorem complement_saturation_iff
       simp only [Fintype.card_fin, hFA]
     exact Finset.eq_of_subset_of_card_le hsubset (by omega)
 
-#print axioms complement_saturation_iff
 
 end A140ComplementSaturation

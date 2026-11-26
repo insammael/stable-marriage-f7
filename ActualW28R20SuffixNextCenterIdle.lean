@@ -132,6 +132,5 @@ theorem actual_suffix_idle_in_next_center
   rw [hactualSupport]
   exact hidleActual
 
-#print axioms actual_suffix_idle_in_next_center
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW28R20SuffixNextCenterIdle

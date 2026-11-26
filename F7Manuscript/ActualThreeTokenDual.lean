@@ -110,8 +110,5 @@ theorem no_two_then_three_of_support_union {n : ℕ} {I : Profile n}
   apply no_two_then_three_confined R B hconf ?_ hfirst hsecond
   simpa [B] using! hunion
 
-#print axioms no_two_then_three
-#print axioms no_two_then_three_confined
-#print axioms no_two_then_three_of_support_union
 
 end F7Manuscript.ActualThreeTokenDual

@@ -101,8 +101,6 @@ theorem actual_all_binary (e : Fin r → Event I) (H : PeriodicOrder e) (hr : 5 
 
 end Actual
 
-#print axioms middle_binary
-#print axioms actual_all_binary
 
 end
 end F7Manuscript.PeriodicNormalGeometry

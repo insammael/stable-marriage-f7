@@ -64,6 +64,5 @@ theorem actual_two_normal_q0_saved_geometry
     HL HR hconvL hconvR hmL hmL7 hsum hcost'
   simpa only [hwL,hwR] using! h
 
-#print axioms actual_two_normal_q0_saved_geometry
 end
 end F7Manuscript.TripleCoordinateLattice

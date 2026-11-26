@@ -120,6 +120,4 @@ theorem disjoint_three_boundaries_six (P : Finset V)
   have hle := Finset.card_le_card (Finset.union_subset hSubs.1 hSubs.2)
   omega
 
-#print axioms neutral_boundaries_disjoint
-#print axioms neutral_three_boundaries
 end NeutralCore

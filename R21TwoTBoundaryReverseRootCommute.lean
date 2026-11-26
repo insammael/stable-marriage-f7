@@ -55,6 +55,4 @@ theorem pure_five_reverse_root (S : Chart) (f : SupportFrame) (b : ℕ→Bool)
    hg,?_,reverse_root_seed_commute p f b hv,hw,rfl,hi⟩
  exact ⟨rfl,rfl,rfl⟩
 
-#print axioms pure_five_reverse_root
-#print axioms reverse_root_seed_commute
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

@@ -963,6 +963,5 @@ theorem table_checked (j : Fin 52) : PartnerGraph.Sized.ValidNode table j := by
   · exact node50_valid
   · exact node51_valid
 
-#print axioms table_checked
 
 end F7Manuscript.PartnerGraph.NormalOutsider

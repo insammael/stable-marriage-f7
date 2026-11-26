@@ -30,5 +30,4 @@ theorem fixedTokenSwapTrace_initial_origin_event_unique
     · exact False.elim (hn.1 h)
     · exact False.elim (hn.2 h)
 
-#print axioms fixedTokenSwapTrace_initial_origin_event_unique
 end F7Manuscript.PartnerGraph

@@ -245,8 +245,5 @@ theorem actual_extremal_peeling {P : Finset V} (G : ThreeMaxBoundary P)
   exact ⟨⟨hBad,three_boundaries_automatic_neutrality hClass _ hBad hlQ huQ hDisQ⟩,
     by omega,by omega,hMin,hMax⟩
 
-#print axioms singleton_upper_not_minimal
-#print axioms doubled_maximum_only_triple
-#print axioms actual_extremal_peeling
 end Peeling
 end NeutralCore

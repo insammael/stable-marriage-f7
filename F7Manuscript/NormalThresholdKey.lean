@@ -110,7 +110,5 @@ theorem labelled_coordinate_not_le_initial
     GenericThresholdPath.initial_coordinate_firstStage C E d] at hnat
   omega
 
-#print axioms labelled_coordinate_globalKey_mono
-#print axioms labelled_coordinate_not_le_initial
 end
 end F7Manuscript.TripleCoordinateLattice

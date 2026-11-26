@@ -424,8 +424,6 @@ theorem endpoint_unit_two_pivot_some_false
     (by intro q hq hqn; exact hsourceDtail q hq (by omega)) hwindow hSome
 
 
-#print axioms pick_endpointD_two_pivot_old_entry_refined
-#print axioms endpoint_unit_two_pivot_some_false
 
 end
 end F7Manuscript.ActualW17U3Q1S3M13EndpointFitsRefined

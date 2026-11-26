@@ -232,9 +232,6 @@ noncomputable def actual_dual_normal_d2_block_saturated
     Q hQ B h221 h311 hz hn j H hd S bits i hbits M
   exact Classical.choose (Classical.choose_spec (Classical.choose_spec h))
 
-#print axioms actual_dual_normal_d2_block_saturated_with_relabel
-#print axioms actual_dual_normal_d2_block_saturated
-#print axioms dualPairedTwoStepSchedule_supports_of_eq_two
 
 end
 end F7Manuscript.ActualDualD2BlockSaturation

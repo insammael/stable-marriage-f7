@@ -55,7 +55,6 @@ theorem template_fit_direct_compose
         (!sourceDual) (m-(j+outer.colors.length)) ell
         hWlen hDlen hmatch houterRev
 
-#print axioms template_fit_direct_compose
 
 #eval IO.eprintln "W11 reverse-forward template composition checked"
 

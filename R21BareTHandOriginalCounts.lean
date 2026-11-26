@@ -98,7 +98,5 @@ theorem original_count_bare_T_outsiders_two_three (u : Nat) (hu23 : u=2 ∨ u=3)
   exact count_bare_T_of_fee C hn h221 h311 u (by omega) hu hG hT bare
     (original_bare_T_fee_two_three C hn h221 h311 u hu23 joint)
 
-#print axioms count_bare_T_of_fee
-#print axioms original_count_bare_T_outsiders_two_three
 end
 end F7Manuscript.TripleCoordinateLattice.R21BareT

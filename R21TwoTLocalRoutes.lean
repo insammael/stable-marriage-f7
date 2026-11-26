@@ -185,6 +185,5 @@ theorem canonical_forward_cut_exists (i : Fin (M+1)) :
   have hf : RowsMatch row f := rowState_rowsMatch row hbin hinc 0
   exact ⟨f,hv,hf,canonical_forward_cut_route C hn h221 h311 i _ f hv hf⟩
 
-#print axioms canonical_forward_cut_exists
 end
 end F7Manuscript.TripleCoordinateLattice.R21TwoT

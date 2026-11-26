@@ -77,6 +77,3 @@ end
 
 end F7Manuscript.TripleCoordinateLattice
 
-#print axioms F7Manuscript.TripleCoordinateLattice.normalRun_eventAt_not_le_path_left
-#print axioms F7Manuscript.TripleCoordinateLattice.normalRun_path_left_lt_eventAt
-#print axioms F7Manuscript.TripleCoordinateLattice.normalRun_internal_event_lift_ne_bot

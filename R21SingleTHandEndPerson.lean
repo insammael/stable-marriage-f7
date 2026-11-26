@@ -74,7 +74,5 @@ structure LastFrameCertificate where
     (a,b)∈(tokens u).ends → (b,a)∈(tokens v).ends →
     Touches witness₀ a b u v ∨ Touches witness₁ a b u v
 
-#print axioms EndedPerson.mem_of_allowed
-#print axioms last_date_after_missing
 end
 end F7Manuscript.R21SingleTHand

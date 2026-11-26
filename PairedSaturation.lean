@@ -140,10 +140,4 @@ theorem SaturatedCenterCut.no_single_paired {d : Nat} {returns : Prop}
   rw [C.after_one hd] at hf
   exact C.saturated.one_D_blocks_third C.candidate (C.one_target hd) hf
 
-#print axioms ClosedFourRowRun.saturated
-#print axioms SaturatedWitness.spent
-#print axioms SaturatedWitness.no_D_third
-#print axioms SaturatedWitness.one_D_blocks_third
-#print axioms SaturatedCenterCut.neighbor_charge
-#print axioms SaturatedCenterCut.no_single_paired
 end F7Paired

@@ -614,8 +614,4 @@ theorem covered_prefix {n x : Nat} {s t : State}
       obtain ⟨k,bound,v,pretrace,hit⟩ := ih pass
       exact ⟨k+1,by omega,v,.step c keep exchange pretrace,by simpa [Nat.add_assoc,Nat.add_comm,Nat.add_left_comm] using! hit⟩
 
-#print axioms checked_all_paired_seven
-#print axioms noBoard
-#print axioms blocked_impossible
-#print axioms covered_prefix
 end F7Manuscript.R21NormalEndpoint.BoundaryAtlas.PairedSevenCover

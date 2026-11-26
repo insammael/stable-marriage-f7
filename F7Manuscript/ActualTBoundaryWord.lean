@@ -190,7 +190,5 @@ theorem actual_T_boundary_literal_word
     actual_T_boundary_literal_word_permuted C hn E n hT D (Equiv.refl _)
   exact ⟨H,e,word,by simpa only [Equiv.refl_apply] using! hproof⟩
 
-#print axioms actual_T_boundary_literal_word
-#print axioms actual_T_boundary_literal_word_permuted
 end
 end F7Manuscript.TripleCoordinateLattice

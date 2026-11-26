@@ -72,5 +72,4 @@ theorem normalized_colors_eq_first_two_perm
   rw [hcs,normalizeColors_cons_get a b tail i hi',← hcs,hget i hi,ha,hb]
   exact normalizeAt_eq_perm e (w 0) (w 1) (w i) h0 h1
 
-#print axioms normalized_colors_eq_first_two_perm
 end F7Manuscript.NormalOutsiderCoverage

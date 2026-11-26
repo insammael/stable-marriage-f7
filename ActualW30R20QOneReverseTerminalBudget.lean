@@ -51,6 +51,5 @@ theorem actual_q_one_reverse_terminal_budget
   exact three_predecessor_returns_force_budget_four S j hj4 e hq
     hcenters.1 hcenters.2.1 hcenters.2.2
 
-#print axioms actual_q_one_reverse_terminal_budget
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW30R20QOneReverseTerminalBudget

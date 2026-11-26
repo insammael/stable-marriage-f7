@@ -55,5 +55,4 @@ theorem actual_BAA_suffix_pair_occupancy
   · simpa using! h.1
   · simpa using! h.2
 
-#print axioms actual_BAA_suffix_pair_occupancy
 end F7Manuscript.ActualW20P6BAASuffixPairPool

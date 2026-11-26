@@ -96,6 +96,5 @@ theorem single_T_outsiders_of_window_costs (u : Nat) (small : u=1 ∨ u=2)
     rw [stableCount_eq_idealCount I]
     omega
 
-#print axioms single_T_outsiders_of_window_costs
 end
 end F7Manuscript.TripleCoordinateLattice.R21OccupiedT

@@ -88,7 +88,6 @@ theorem realized_window_embeds_into_whole_enumeration
     exact (hU (ι i) hju) hmem
   exact ⟨ι, hι, hsupport, hdisj⟩
 
-#print axioms realized_window_embeds_into_whole_enumeration
 
 end
 end F7Manuscript.ActualWordWholeProfileEmbedding

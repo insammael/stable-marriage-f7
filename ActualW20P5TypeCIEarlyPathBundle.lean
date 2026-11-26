@@ -87,5 +87,4 @@ theorem p5_actual_CI_early_path_bundle
   · obtain ⟨_,_,_,_,_,_,_,_,_,_,_,_,_,_,hbad2⟩ := hbad
     omega
 
-#print axioms p5_actual_CI_early_path_bundle
 end F7Manuscript.ActualW20P5TypeCIEarlyPathBundle

@@ -79,7 +79,5 @@ theorem p5_relation_cells_saturated :
     (relationCells (graphRel p5G0)).card = 2 * 13 := by
   rw [p5_relationCells_eq, p5_cells_card]
 
-#print axioms fixedTokenSaturated_cell_future
-#print axioms p5_relation_cells_saturated
 
 end F7Manuscript.ActualW19SaturatedInitialFuture

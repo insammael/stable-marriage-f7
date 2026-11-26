@@ -95,8 +95,6 @@ theorem convex_actual_run_suffix
       (H.equiv ⟨L+t.val, by omega⟩).val
   refine ⟨H,R,by omega,hprefix',hcycle,hbinary⟩
 
-#print axioms actual_window_card_bound
-#print axioms convex_actual_run_suffix
 
 end
 end F7Manuscript.ConvexExecution

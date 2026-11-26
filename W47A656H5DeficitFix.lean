@@ -105,8 +105,6 @@ theorem original_mixed_counter_hdef
       (original_bound C)
   exact @hb hC E h221 h311 hR20 hG hnoT x hout hmixed hcounter
 
-#print axioms original_mixed_counter_pairDeficit_le_two
-#print axioms original_mixed_counter_hdef
 
 end
 

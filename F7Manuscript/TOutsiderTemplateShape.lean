@@ -29,5 +29,4 @@ theorem saved_template_shape (z : ℕ) (hz : z = 1 ∨ z = 2 ∨ z = 3)
   intro p hp
   exact of_decide_eq_true ((List.all_eq_true.mp htcheck.2) p hp)
 
-#print axioms saved_template_shape
 end F7Manuscript.TOutsiderSavedTemplateCatalog

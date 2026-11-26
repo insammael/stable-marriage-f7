@@ -51,6 +51,5 @@ theorem binary_T_normal_join_color_admissible
   refine ⟨fun h => hleft (Fin.ext h), fun h => hright (Fin.ext h), ?_⟩
   simpa only [Nat.zero_add, Nat.add_assoc] using! hpost
 
-#print axioms binary_T_normal_join_color_admissible
 end
 end F7Manuscript.W36BinaryTNormalJoinAdmissibility

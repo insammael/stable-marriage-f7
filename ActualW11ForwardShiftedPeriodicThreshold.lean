@@ -147,7 +147,6 @@ theorem actual_X_forward_shifted_periodic_threshold
     simpa only [K] using! hNatX
   omega
 
-#print axioms actual_X_forward_shifted_periodic_threshold
 
 end
 end F7Manuscript.ActualW11ForwardShiftedPeriodicThreshold

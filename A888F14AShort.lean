@@ -34,6 +34,4 @@ theorem classify_A_three (a b d : Site) :
 
 end F7Manuscript.A156Frozen14ShortExtension
 
-#print axioms F7Manuscript.A156Frozen14ShortExtension.classify_A_two
 
-#print axioms F7Manuscript.A156Frozen14ShortExtension.classify_A_three

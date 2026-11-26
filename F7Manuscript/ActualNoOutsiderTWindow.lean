@@ -92,7 +92,5 @@ theorem actual_no_outsider_T_window_geometry
   · simpa only [p,adjacent_threshold_path_segment_eq_rows] using! hconv
   · rw [Finset.card_union_of_disjoint hdis,vertices_card,vertices_card]
 
-#print axioms adjacent_threshold_path_segment_eq_rows
-#print axioms actual_no_outsider_T_window_geometry
 end
 end F7Manuscript.TripleCoordinateLattice

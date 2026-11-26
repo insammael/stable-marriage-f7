@@ -116,9 +116,5 @@ theorem componentEquiv_le_iff (e : V ≃ W)
     · exact Or.inl ((sameComponent_iff_map e hanti x y).mpr (sameComponent_symm hs))
     · exact Or.inr ((hanti x y).mpr hyx)
 
-#print axioms sameComponent_map
-#print axioms sameComponent_iff_map
-#print axioms componentEquiv
-#print axioms componentEquiv_le_iff
 
 end F7Manuscript.IncomparabilityComponents

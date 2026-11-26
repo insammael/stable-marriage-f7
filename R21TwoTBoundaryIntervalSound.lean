@@ -149,10 +149,5 @@ theorem knownWithin_left_step (R : TokenRun Site Site 21) (rename : Equiv.Perm S
    exact ⟨i.castSucc,le_rfl,by change i.val ≤ hi.val; change i.val+1 ≤ hi.val at hhi; omega,(hm a).symm.trans hr.symm⟩
  · exact knownWithin_widen R rename hk (by change i.val ≤ i.val+1; omega) le_rfl a t hold
 
-#print axioms interval_initial
-#print axioms fresh_right_interval
-#print axioms fresh_left_interval
-#print axioms knownWithin_right_step
-#print axioms knownWithin_left_step
 end
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

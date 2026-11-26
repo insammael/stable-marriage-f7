@@ -40,7 +40,6 @@ theorem noReturn_of_normalized_carrier_prefix
   exact (noReturn_and_fresh_of_observed_route C.S L savedPlan C.out
     hboundSaved C.observed C.first06 Hsaved).1
 
-#print axioms noReturn_of_normalized_carrier_prefix
 
 end
 end F7Manuscript.ActualW10NormalizedRootCarrierNoReturn

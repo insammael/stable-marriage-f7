@@ -124,6 +124,5 @@ theorem actual_one_T_no_outsider_run_census
   omega
 
 
-#print axioms actual_one_T_no_outsider_run_census
 end
 end F7Manuscript.TripleCoordinateLattice

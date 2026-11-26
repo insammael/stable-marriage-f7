@@ -98,6 +98,5 @@ theorem actual_r21_single_T_count_of_check
   obtain ⟨_, ⟨R⟩⟩ := r21_literal_T_ordered_crown_runs C hn h221 h311 hu hG hT
   exact check_excludes_ordered_runs hcheck R hl₀ hl₁ hcap₀ hcap₁ htotal hcost
 
-#print axioms actual_r21_single_T_count_of_check
 end
 end F7Manuscript.ActualPositiveDeficitCoverAssembly

@@ -40,6 +40,5 @@ theorem NormalWord.toLocalNormal {f last : SupportFrame} {w : List Swap} {n : Na
   have ht:=freshWord_suffix B (pairWord f cross) w hf
   simpa only [Nat.add_comm] using! LocalNormal.paired cross label hh (ih _ ht)
 
-#print axioms NormalWord.toLocalNormal
 end
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

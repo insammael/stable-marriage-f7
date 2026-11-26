@@ -308,6 +308,5 @@ theorem new72_noReturn_impossible (bits : Nat → Bool)
                       h0,h1,h2,h3,h4,h5,h6,h7,h8,h9]
                   exact noReturn_conflict bits N 14 5 3 (by simp [handPlan,new72Plan,eventCount]) hm heq (by omega)
 
-#print axioms new72_noReturn_impossible
 
 end F7Manuscript.ActualW12New72HandComplete

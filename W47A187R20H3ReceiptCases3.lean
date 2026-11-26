@@ -132,4 +132,3 @@ theorem a131_sections81_84_whole_execution_false
 
 end F7Manuscript.OriginalStateReceipt.A131WholeExecutionDispatcher
 
-#print axioms F7Manuscript.OriginalStateReceipt.A131WholeExecutionDispatcher.a131_sections81_84_whole_execution_false

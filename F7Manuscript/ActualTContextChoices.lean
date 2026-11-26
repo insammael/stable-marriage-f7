@@ -91,7 +91,5 @@ theorem actual_T_post_context_choice
     have hxs : x = s := by simpa only [hF,Finset.mem_singleton] using! hx
     exact ⟨choice,rfl,by simpa only [hxs] using! hsupport.symm⟩
 
-#print axioms actual_T_pre_context_choice
-#print axioms actual_T_post_context_choice
 end
 end F7Manuscript.TripleCoordinateLattice

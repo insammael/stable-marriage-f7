@@ -766,6 +766,4 @@ theorem noClosedOutward (i : Fin 61)
   exact Projection.contradiction_of_leaf walk.coherent
     (walk.tracks_closed f.closedL f.closedR leftEmpty rightEmpty) f.leaf (certificate i)
 
-#print axioms certificate
-#print axioms noClosedOutward
 end F7Manuscript.R21LongWindow.PureTerminalSignatures

@@ -69,6 +69,5 @@ theorem WindowObservation.commuteInternal
     obtain ⟨v, key, last⟩ := obs.last a
     exact ⟨v, key, by rw [atEnd, atStart]; exact last⟩
 
-#print axioms WindowObservation.commuteInternal
 
 end F7Manuscript.R21NormalEndpoint

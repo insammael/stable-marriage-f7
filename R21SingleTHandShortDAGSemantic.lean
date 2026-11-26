@@ -77,6 +77,5 @@ theorem actual_short_graphGuard {n m : ℕ} (mirror : Bool) (b : Fin 5)
     | false => rfl
     | true => exact (shortRejected_excludes mirror b L R h hb k s t hLs hLv hRs hRv ht f M hr).elim
 
-#print axioms actual_short_graphGuard
 end
 end F7Manuscript.R21SingleTHand

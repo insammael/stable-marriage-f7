@@ -37,5 +37,4 @@ theorem bb_actual_trace_impossible
       have ht : T.state k.succ 1 = 3 := by simpa [hs] using! congrArg Prod.snd hp
       exact hnot k (Or.inr hs.symm) ht
 
-#print axioms bb_actual_trace_impossible
 end F7Manuscript.ActualW20P6BBActualContradiction

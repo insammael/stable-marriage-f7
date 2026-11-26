@@ -117,5 +117,4 @@ theorem p5_CI_short_from_actual_partners
   exact p5_CI_short_actual_impossible T hsat b2 q2 q6 hb2arr hb2post4 hb2q2
     hq6ne hroute hno35.1
 
-#print axioms p5_CI_short_from_actual_partners
 end F7Manuscript.ActualW20P5CIShortFromPartners

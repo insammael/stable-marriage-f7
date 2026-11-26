@@ -121,6 +121,5 @@ theorem actual_center_gap_old_fixed_pair
     change P = {1,6}
     exact hPab.trans h
 
-#print axioms actual_center_gap_old_fixed_pair
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW36TCenterGapOldFixedPair

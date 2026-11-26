@@ -214,13 +214,6 @@ theorem local_raw_cut14_to_frozen_original
 
 end FrozenTransport14
 
-#print axioms originalSpan17
-#print axioms normalizedBlock17_state
-#print axioms normalizedBlock17_support
-#print axioms coordinateState17_baseline
-#print axioms normalizedBlock17_zero
-#print axioms frozen_event_support17
-#print axioms local_raw_cut14_to_frozen_original
 
 end
 

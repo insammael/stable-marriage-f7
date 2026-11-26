@@ -28,7 +28,5 @@ theorem valid_mem_positiveOutsiderPositiveTripleFamilies
   rcases hx with ⟨hu, _, _, hc, _, hbudget, _, _, _, _, _, _, _, _, _, _, _⟩
   exact positiveOutsiderPositiveTripleFamily_mem x.u x.b x.c hu hc hbudget
 
-#print axioms positiveOutsiderPositiveTripleFamily_mem
-#print axioms valid_mem_positiveOutsiderPositiveTripleFamilies
 
 end F7Manuscript.FinalJointScalar

@@ -25,7 +25,6 @@ theorem actual_r21_normal_cost_small
   actual_r21_normal_cost_small_of_boundary_exclusions C hn h221 h311
     not_actualTerminal_9_0 not_actualTerminal_10_1 not_actualTerminal_11_2 i
 
-#print axioms actual_r21_normal_cost_small
 
 end
 end F7Manuscript.TripleCoordinateLattice

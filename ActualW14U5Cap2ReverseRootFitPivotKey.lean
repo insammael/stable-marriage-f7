@@ -81,7 +81,5 @@ theorem mem_pivotsOf_reverse_iff (W : List Nat) (m : Nat)
         _ = W.reverse[p + 1]! := by rw [hright, hidxRight]
     exact ⟨by rw [List.length_reverse, hWlen]; omega, hpPos, hpEnd, hEq⟩
 
-#print axioms oriented_root_fit_reverse_of_slice_pivot_equiv
-#print axioms mem_pivotsOf_reverse_iff
 end
 end F7Manuscript.ActualW14U5Cap2ReverseRootFitPivotKey

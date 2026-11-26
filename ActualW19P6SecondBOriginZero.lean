@@ -108,5 +108,4 @@ theorem center_four_to_one_source_is_zero
       · exact False.elim (hpartner_ne_six h6)
   exact ⟨hpartner_zero, by simpa [hpartner_zero] using! hsource⟩
 
-#print axioms center_four_to_one_source_is_zero
 end F7Manuscript.ActualW19P6SecondBOriginZero

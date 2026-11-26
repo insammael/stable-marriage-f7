@@ -32,7 +32,5 @@ theorem remaining_R21_tuple_count :
       t != (0,0,0) && !(t.1 == 0 && decide (3 ≤ t.2.1+t.2.2)) &&
       !(decide (3 ≤ t.1) && t.2.1 == 0 && t.2.2 == 0) && t != (0,0,1)).length = 23 := by decide
 
-#print axioms f7_eq_85_of_single_T_and_remaining_R21
-#print axioms remaining_R21_tuple_count
 end
 end F7Manuscript.ActualPositiveDeficitCoverAssembly

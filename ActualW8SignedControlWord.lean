@@ -103,8 +103,5 @@ theorem first_false_of_zero_signs (s : SignState) (hz : ∀ c, s.eps c = false)
   | cons mv tail =>
       cases mv <;> simp [controlWord, pairedCross, signedCenterBit, hz, hbit]
 
-#print axioms controlWord_length
-#print axioms decode_controlWord
-#print axioms first_false_of_zero_signs
 
 end F7Manuscript.ActualW8SignedControlWord

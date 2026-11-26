@@ -112,7 +112,5 @@ theorem globalThresholdEnumeration_rank_le_iff
   simpa only [globalThresholdEnumeration] using!
     (Fin.le_iff_val_le_val).symm.trans hh
 
-#print axioms globalThresholdKey_injective
-#print axioms globalThresholdKey_mono
 end
 end F7Manuscript.TripleCoordinateLattice

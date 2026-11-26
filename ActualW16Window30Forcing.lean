@@ -25,6 +25,5 @@ theorem noReturn_source14_words (bits : Nat → Bool)
     F7Manuscript.ActualW16Window30Returns.noReturn_source14_words
       identityMatching bits h0 h1 N
 
-#print axioms noReturn_source14_words
 
 end F7Manuscript.ActualW16Window30Forcing

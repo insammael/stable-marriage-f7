@@ -68,7 +68,4 @@ theorem two_seed_values : ∀s∈twoSeeds, aval s=1 ∧ dval s=2 ∧ (tripleSet 
 theorem six_seed_values : ∀s∈sixSeeds, aval s=2 ∧ dval s=2 ∧ (tripleSet s).card=0 := by decide +kernel
 
 
-#print axioms zero_seed_values
-#print axioms two_seed_values
-#print axioms six_seed_values
 end NeutralCore.SmallSeed

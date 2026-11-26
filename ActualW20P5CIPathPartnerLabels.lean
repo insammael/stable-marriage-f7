@@ -98,5 +98,4 @@ theorem p5_CI_path_partner_labels
     (by simpa [hcommon.1] using! hq2pre) (by simpa [hcommon.2] using! hq6pre)
     l2 l6 hends2 hends6 hy2 hy6 hl2l6 horder
 
-#print axioms p5_CI_path_partner_labels
 end F7Manuscript.ActualW20P5CIPathPartnerLabels

@@ -149,7 +149,6 @@ theorem actual_X_u4_cost_three_remaining_six
     · exact (hclosed5612 h13).elim
     · simp at hnil
 
-#print axioms actual_X_u4_cost_three_remaining_six
 
 end
 end F7Manuscript.ActualW16U4AggregationWindow0HANDRemainingSix
@@ -320,8 +319,6 @@ theorem actual_normal_outsider_five_endpoint_rows
     · simp_all
   exact ⟨X, X.outsiders_eq_actual, huActual, hfive⟩
 
-#print axioms actual_outside_triple_vertices_card_le_three
-#print axioms actual_normal_outsider_five_endpoint_rows
 
 end
 end F7Manuscript.ActualW16U4AggregationWindow0HAND

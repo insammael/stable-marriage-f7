@@ -210,16 +210,8 @@ theorem h7_original_extreme_pairs_iff_mixed13
 end Original
 
 -- New declarations.
-#print axioms h7_mixed13_selected_run_cards
-#print axioms h7_mixed13_canonical_recovery
-#print axioms h7_mixed13_reverse_residual_cases
-#print axioms h7_mixed13_reverse_suffix_false
-#print axioms h7_mixed13_no_reverse_suffix_packet
-#print axioms h7_original_extreme_pairs_iff_mixed13
 
 -- Imported endpoints used by the composition.
-#print axioms h7_original_pure14_same_K_contradiction
-#print axioms F7Manuscript.PartnerGraph.G1Frozen13.periodic_short_extension_after_13_le_two
 
 end
 

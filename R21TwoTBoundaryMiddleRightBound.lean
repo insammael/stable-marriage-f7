@@ -109,7 +109,5 @@ theorem middle_pure_five_right_mass_le_one (A B D : NormalSkeleton.Chart)
    rw [hboardR,heR] at hn
    exact middle_BR_bound pr br fR.last hn
 
-#print axioms middle_pure_five_right_mass_le_one
-#print axioms actual_middle_right_normal
 end
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

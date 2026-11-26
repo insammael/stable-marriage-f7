@@ -104,7 +104,6 @@ theorem actual_u3_cost_three_first14_retained_or_endpoint
     have hyEq : b + y = c := by dsimp -failIfUnchanged [y]; omega
     exact Or.inr (by simpa [hxEq, hyEq] using! hret)
 
-#print axioms actual_u3_cost_three_first14_retained_or_endpoint
 
 end
 end F7Manuscript.ActualW16U3CostThreePrefix14Actual

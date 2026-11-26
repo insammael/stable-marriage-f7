@@ -93,5 +93,4 @@ theorem p6_no_actual_swap_between_one_four
   have hsites : (1 : Site) = 4 := (T.state e.castSucc).injective hsame
   exact (by decide : (1 : Site) ≠ 4) hsites
 
-#print axioms p6_no_actual_swap_between_one_four
 end F7Manuscript.ActualW20P6NoSwap14

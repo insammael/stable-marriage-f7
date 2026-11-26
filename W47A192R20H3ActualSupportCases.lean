@@ -94,8 +94,5 @@ theorem three_new_row_partitions_original_actors
     actor_map_symm_eq_iff, Finset.map_insert, Finset.map_singleton
   ] using! hcases
 
-#print axioms actor_map_symm_eq_iff
-#print axioms large_subsets_original_actors
-#print axioms three_new_row_partitions_original_actors
 
 end A131.Section44

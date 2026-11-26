@@ -90,6 +90,5 @@ theorem actual_q3_low_cost_switch_is_last_block
     rw [chargedSites_card_eq_chart_s] at hpos
     omega
 
-#print axioms actual_q3_low_cost_switch_is_last_block
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW28R20ActualQ3LastBlock

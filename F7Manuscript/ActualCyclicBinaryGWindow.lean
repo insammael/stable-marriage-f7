@@ -359,7 +359,6 @@ theorem actual_binary_G_window_cyclic_choices
     ⟨d0,d1,hd0,hd1,hd01,hslotX,hslotY⟩, ?_⟩
   exact ⟨hX,hY,hinit⟩
 
-#print axioms actual_binary_G_window_cyclic_choices
 
 end
 end F7Manuscript.TripleCoordinateLattice

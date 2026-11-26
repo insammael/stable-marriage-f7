@@ -94,6 +94,5 @@ theorem normal_core_first_leaf_phase
     have he := aboveTriple_not_ge C a' (normalIntroductionColor D h221 h311 hz v)
     simpa only [hsource v] using! he
 
-#print axioms normal_core_first_leaf_phase
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW28R20CorePhase

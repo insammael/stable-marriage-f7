@@ -69,7 +69,5 @@ theorem r20LeafObligation_one_one_zero : R20LeafObligation I 1 1 0 := by
   intro C hC h221 h311 hn hu hb hc _ _ _
   exact r20_110_original_core_at_least_three I C h221 h311 hn hu hb hc
 
-#print axioms r20_110_original_core_at_least_three
-#print axioms r20LeafObligation_one_one_zero
 end
 end F7Manuscript.ActualPositiveDeficitCoverAssembly

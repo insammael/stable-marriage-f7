@@ -37,4 +37,3 @@ theorem actual_outsider_support_subset
 
 end F7Manuscript.SupportBridge
 
-#print axioms F7Manuscript.SupportBridge.actual_outsider_support_subset

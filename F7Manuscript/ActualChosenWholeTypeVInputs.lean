@@ -170,6 +170,5 @@ theorem actual_chosen_whole_typeV_post_inputs
   · exact (WholeEnumerationRetarget.support hUF hraw hwhole H U.card
       (by rw [hrawCard]; omega) (by omega)).trans hcRaw
 
-#print axioms actual_chosen_whole_typeV_post_inputs
 end
 end F7Manuscript.TripleCoordinateLattice

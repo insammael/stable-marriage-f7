@@ -92,7 +92,5 @@ theorem carrier_P6_conditional_run_bound
   have h := carrier_P6_conditional_suffix_bound C hp targetFutureBound
   omega
 
-#print axioms carrier_P6_conditional_suffix_bound
-#print axioms carrier_P6_conditional_run_bound
 
 end F7Manuscript.ActualW14P6ConditionalSuffixConsumer

@@ -84,6 +84,5 @@ theorem actual_W36_binary_T_whole_chronology
     exact hwhole
   exact ⟨hc, EG, hEG, hwhole'⟩
 
-#print axioms actual_W36_binary_T_whole_chronology
 end
 end F7Manuscript.TripleCoordinateLattice

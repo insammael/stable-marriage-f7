@@ -634,7 +634,6 @@ theorem q0_one_none_sixteen_impossible (t : Matching) (bits : Nat → Bool)
                                 simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
                               exact (h.fresh 18 (by decide) 1 hp 0 (by decide)) hEq
 
-#print axioms q0_one_none_sixteen_impossible
 
 def plan_q0_one_1_sixteen_impossible : List Move := [Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color)]
 theorem q0_one_1_sixteen_impossible (t : Matching) (bits : Nat → Bool)
@@ -1167,7 +1166,6 @@ theorem q0_one_1_sixteen_impossible (t : Matching) (bits : Nat → Bool)
                   simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
                 exact (h.fresh 11 (by decide) 1 hp 0 (by decide)) hEq
 
-#print axioms q0_one_1_sixteen_impossible
 
 def plan_q0_one_2_sixteen_impossible : List Move := [Move.center (1 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (1 : Color)]
 theorem q0_one_2_sixteen_impossible (t : Matching) (bits : Nat → Bool)
@@ -1652,7 +1650,6 @@ theorem q0_one_2_sixteen_impossible (t : Matching) (bits : Nat → Bool)
                 simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
               exact (h.fresh 10 (by decide) 1 hp 0 (by decide)) hEq
 
-#print axioms q0_one_2_sixteen_impossible
 
 def plan_q0_one_3_sixteen_impossible : List Move := [Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color)]
 theorem q0_one_3_sixteen_impossible (t : Matching) (bits : Nat → Bool)
@@ -2377,7 +2374,6 @@ theorem q0_one_3_sixteen_impossible (t : Matching) (bits : Nat → Bool)
                   simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
                 exact (h.fresh 11 (by decide) 3 hp 0 (by decide)) hEq
 
-#print axioms q0_one_3_sixteen_impossible
 
 def plan_q0_one_4_sixteen_impossible : List Move := [Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color)]
 theorem q0_one_4_sixteen_impossible (t : Matching) (bits : Nat → Bool)
@@ -2862,7 +2858,6 @@ theorem q0_one_4_sixteen_impossible (t : Matching) (bits : Nat → Bool)
                   simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
                 exact (h.fresh 11 (by decide) 1 hp 0 (by decide)) hEq
 
-#print axioms q0_one_4_sixteen_impossible
 
 def plan_q0_one_5_sixteen_impossible : List Move := [Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (1 : Color)]
 theorem q0_one_5_sixteen_impossible (t : Matching) (bits : Nat → Bool)
@@ -3251,7 +3246,6 @@ theorem q0_one_5_sixteen_impossible (t : Matching) (bits : Nat → Bool)
                 simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
               exact (h.fresh 10 (by decide) 1 hp 0 (by decide)) hEq
 
-#print axioms q0_one_5_sixteen_impossible
 
 def plan_q0_one_6_sixteen_impossible : List Move := [Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color)]
 theorem q0_one_6_sixteen_impossible (t : Matching) (bits : Nat → Bool)
@@ -3688,7 +3682,6 @@ theorem q0_one_6_sixteen_impossible (t : Matching) (bits : Nat → Bool)
                   simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
                 exact (h.fresh 11 (by decide) 0 hp 0 (by decide)) hEq
 
-#print axioms q0_one_6_sixteen_impossible
 
 def plan_q0_one_7_sixteen_impossible : List Move := [Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color)]
 theorem q0_one_7_sixteen_impossible (t : Matching) (bits : Nat → Bool)
@@ -4125,7 +4118,6 @@ theorem q0_one_7_sixteen_impossible (t : Matching) (bits : Nat → Bool)
                   simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
                 exact (h.fresh 11 (by decide) 1 hp 0 (by decide)) hEq
 
-#print axioms q0_one_7_sixteen_impossible
 
 def plan_q0_one_8_sixteen_impossible : List Move := [Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (1 : Color)]
 theorem q0_one_8_sixteen_impossible (t : Matching) (bits : Nat → Bool)
@@ -4466,7 +4458,6 @@ theorem q0_one_8_sixteen_impossible (t : Matching) (bits : Nat → Bool)
                     simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
                   exact (h.fresh 12 (by decide) 3 hp 0 (by decide)) hEq
 
-#print axioms q0_one_8_sixteen_impossible
 
 def plan_q0_one_9_sixteen_impossible : List Move := [Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color)]
 theorem q0_one_9_sixteen_impossible (t : Matching) (bits : Nat → Bool)
@@ -4855,7 +4846,6 @@ theorem q0_one_9_sixteen_impossible (t : Matching) (bits : Nat → Bool)
                       simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
                     exact (h.fresh 13 (by decide) 4 hp 0 (by decide)) hEq
 
-#print axioms q0_one_9_sixteen_impossible
 
 def plan_q0_one_10_sixteen_impossible : List Move := [Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color)]
 theorem q0_one_10_sixteen_impossible (t : Matching) (bits : Nat → Bool)
@@ -5292,7 +5282,6 @@ theorem q0_one_10_sixteen_impossible (t : Matching) (bits : Nat → Bool)
                         simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
                       exact (h.fresh 14 (by decide) 0 hp 1 (by decide)) hEq
 
-#print axioms q0_one_10_sixteen_impossible
 
 def plan_q0_one_11_sixteen_impossible : List Move := [Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (1 : Color)]
 theorem q0_one_11_sixteen_impossible (t : Matching) (bits : Nat → Bool)
@@ -5777,7 +5766,6 @@ theorem q0_one_11_sixteen_impossible (t : Matching) (bits : Nat → Bool)
                           simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
                         exact (h.fresh 15 (by decide) 2 hp 2 (by decide)) hEq
 
-#print axioms q0_one_11_sixteen_impossible
 
 def plan_q0_one_12_sixteen_impossible : List Move := [Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color)]
 theorem q0_one_12_sixteen_impossible (t : Matching) (bits : Nat → Bool)
@@ -6310,7 +6298,6 @@ theorem q0_one_12_sixteen_impossible (t : Matching) (bits : Nat → Bool)
                             simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
                           exact (h.fresh 16 (by decide) 0 hp 0 (by decide)) hEq
 
-#print axioms q0_one_12_sixteen_impossible
 
 def plan_q0_one_13_sixteen_impossible : List Move := [Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color)]
 theorem q0_one_13_sixteen_impossible (t : Matching) (bits : Nat → Bool)
@@ -6891,7 +6878,6 @@ theorem q0_one_13_sixteen_impossible (t : Matching) (bits : Nat → Bool)
                               simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
                             exact (h.fresh 17 (by decide) 2 hp 0 (by decide)) hEq
 
-#print axioms q0_one_13_sixteen_impossible
 
 def plan_q0_one_14_sixteen_impossible : List Move := [Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (2 : Color),Move.center (1 : Color)]
 theorem q0_one_14_sixteen_impossible (t : Matching) (bits : Nat → Bool)
@@ -7520,6 +7506,5 @@ theorem q0_one_14_sixteen_impossible (t : Matching) (bits : Nat → Bool)
                                 simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
                               exact (h.fresh 18 (by decide) 5 hp 0 (by decide)) hEq
 
-#print axioms q0_one_14_sixteen_impossible
 
 end F7Local

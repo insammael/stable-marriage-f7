@@ -59,6 +59,5 @@ theorem r20_q0_core_length_and_ABA_gap
   have hsmall : F7Local.prefixCost (wordTurns S.naturalWord) 13 ≤ 2 := hcost ▸ hs
   exact hcost.symm.trans (F7Local.q0_15_small_cost_zero _ hcuts hsmall)
 
-#print axioms r20_q0_core_length_and_ABA_gap
 end
 end F7Manuscript.TripleCoordinateLattice

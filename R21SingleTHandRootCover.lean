@@ -57,6 +57,4 @@ theorem hand_post_trace_bound {c d : Color} {tail : List Move} {s t : PhysicalSt
       simp only [eventCount]
       omega
 
-#print axioms hand_first_two_cover
-#print axioms hand_post_trace_bound
 end F7Manuscript.R21SingleTHand

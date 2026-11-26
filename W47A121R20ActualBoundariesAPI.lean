@@ -37,7 +37,6 @@ theorem w47_a121_exact_macro_count_of_single_g_no_t
   simpa only [hGcard, hTcard, Nat.add_zero] using!
     (macroPositions_card C E)
 
-#print axioms w47_a121_exact_macro_count_of_single_g_no_t
 
 private abbrev a121ExactBoundaryRun
     (E : Enumeration (thresholdEvents C))
@@ -131,7 +130,6 @@ theorem w47_a121_exact_boundary_actual_r20_L0_DL_of_single_g_no_t
     C h221 h311 hR20 houtside hGcard hTcard
     i j c hij hci hcj hlab hrow0 hmacro hGblock0
 
-#print axioms w47_a121_exact_boundary_actual_r20_L0_DL_of_single_g_no_t
 
 end
 end F7Manuscript.TripleCoordinateLattice

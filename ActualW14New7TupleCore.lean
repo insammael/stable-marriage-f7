@@ -44,8 +44,5 @@ theorem new7_positive_demand_implies_j_lt_five
   have hoff := new7_offset_ge_start W D dual j
   omega
 
-#print axioms new7TupleFit
-#print axioms new7TupleDemand
-#print axioms new7_positive_demand_implies_j_lt_five
 end
 end F7Manuscript.ActualW14New7TupleCore

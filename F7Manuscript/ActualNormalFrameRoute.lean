@@ -265,7 +265,5 @@ theorem normal_mixed_trace_exists (hm : 2 ≤ normalBlockCount C)
   refine ⟨mid,g,hfirst,hrow0',hsegment,?_,hv⟩
   simpa [j1] using! hrow
 
-#print axioms normal_center_coordinate_update
-#print axioms normal_paired_coordinate_update
 end
 end F7Manuscript.TripleCoordinateLattice

@@ -1,5 +1,6 @@
 module
 
+public import Mathlib
 public import ActualW20New110GraphData
 public import ActualW20New110GraphValid15
 public import ActualW20New110GraphValid16
@@ -120,6 +121,5 @@ theorem valid_chunk03 (i : Nat) (hi : i < 100) :
   · exact node398_valid
   · exact node399_valid
 
-#print axioms F7Manuscript.PartnerGraph.NormalQ123.valid_chunk03
 
 end F7Manuscript.PartnerGraph.NormalQ123

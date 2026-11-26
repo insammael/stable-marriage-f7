@@ -299,6 +299,5 @@ theorem plan56_late_bits
     · simp [h2, h11]
   exact ⟨h8, h9, h10, h11⟩
 
-#print axioms plan56_late_bits
 
 end F7Manuscript.ActualW15Word56LateSelectorForcing

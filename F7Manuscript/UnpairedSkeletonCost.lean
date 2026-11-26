@@ -56,8 +56,5 @@ theorem actualSkeleton_a_eq_zero_cost (H : FrontierChart I m)
   rw [skeleton_q_zero, skeleton_s_eq_zero_cost]
   simp
 
-#print axioms skeleton_q_zero
-#print axioms skeleton_s_eq_zero_cost
-#print axioms actualSkeleton_a_eq_zero_cost
 end
 end F7Manuscript.UnpairedSkeletonEmbedding

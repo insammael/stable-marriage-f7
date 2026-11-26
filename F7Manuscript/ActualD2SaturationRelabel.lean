@@ -68,7 +68,5 @@ theorem reindex_state_trans
       (reindexRun R e).state n (τ.symm x) := by
   simp [reindexRun]
 
-#print axioms relabel_saturated_witness
-#print axioms reindex_state_trans
 
 end F7Manuscript.ActualD2SaturationRelabel

@@ -42,5 +42,4 @@ theorem outsiderPrefixMembership_of_NecessaryLocalWord
       (fun p hp => hwell p (List.mem_append_left row hp))
   exact List.mem_filter.mpr ⟨hwords, hprefix⟩
 
-#print axioms outsiderPrefixMembership_of_NecessaryLocalWord
 end F7Manuscript.TOutsiderSavedTemplateCatalog

@@ -70,7 +70,5 @@ theorem seed_frontier_memory {n : ℕ} (L : TokenRun Site Site n) (seed : List S
     rw [h0,h1]
     exact congrArg (L.state 0) (hstate c a ha)
 
-#print axioms longTwoState_root
-#print axioms seed_frontier_memory
 end
 end F7Manuscript.R21SingleTHand

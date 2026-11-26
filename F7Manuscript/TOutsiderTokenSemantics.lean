@@ -393,10 +393,6 @@ theorem post_token_ne_initial {W : Type*}
   rw [hstate] at hlt
   exact (lt_irrefl _ hlt).elim
 
-#print axioms advance_fresh_of_origin_invariants
-#print axioms run_fresh_of_prefix_invariants
 
-#print axioms post_tokens_injective_on_actor
-#print axioms post_token_ne_initial
 
 end F7Manuscript.TOutsiderTokenSemantics

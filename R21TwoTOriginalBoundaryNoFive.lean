@@ -86,7 +86,6 @@ theorem pure_five_bits_code (p : Fin 6) (f : SupportFrame) (b0 b1 b2 b3 b4 : Boo
       cutWord (shortChart 5 p 0) f (fun k => (encode5 b0 b1 b2 b3 b4).val.testBit k) := by
   fin_cases p <;> cases b0 <;> cases b1 <;> cases b2 <;> cases b3 <;> cases b4 <;> rfl
 
-#print axioms pure_five_bits_code
 
 theorem pure_five_frame_bits (p : Fin 6) (f : SupportFrame) (b : ℕ → Bool) :
     supportsRouteFinal f (chartPlan (shortChart 5 p 0)) b 0 =
@@ -158,10 +157,6 @@ theorem original_no_five_of_endpoint_and_board_cover
   · exact h₁
   · exact h₂
 
-#print axioms original_no_five_of_endpoint_and_board_cover
 
-#print axioms chart_is_pure_five
-#print axioms pure_five_bits
-#print axioms pure_five_canonical_word
 end
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundary

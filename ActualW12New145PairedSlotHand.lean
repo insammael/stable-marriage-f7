@@ -259,9 +259,6 @@ theorem new145_noReturn_impossible (bits : Nat → Bool)
     exact noReturn_center_column_empty new145Plan bits 13 N (hi 13 (by omega)
       ) 5 2 3 (by decide) (by decide) hpair' hx hy
 
-#print axioms noReturn_center_row_empty
-#print axioms noReturn_center_column_empty
-#print axioms new145_noReturn_impossible
 
 #eval IO.eprintln "W12 NEW145 hand proof checked"
 

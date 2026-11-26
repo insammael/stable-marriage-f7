@@ -169,6 +169,4 @@ theorem binary_T_normal_join_cost_bound_of_singleton
     rw [F7Manuscript.NormalSkeleton.Chart.runCost_normalPlan C a hmC ha] at h
     simpa [pre, post, hpost, hq, hsD, Nat.add_assoc] using! h
 
-#print axioms binary_T_normal_join_cost_bound
-#print axioms binary_T_normal_join_cost_bound_of_singleton
 end F7Manuscript.W36BinaryTNormalJoinCost

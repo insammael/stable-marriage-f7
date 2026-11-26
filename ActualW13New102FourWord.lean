@@ -32,6 +32,5 @@ theorem new102_noReturn_sourcePrefix_is_savedWord
       initialSupport,centerPair,leftCoord,rightCoord,select,other,put,Fin.ofNat,
       h0,h4,h5,h7,h8,h9,hx,hy,ht,hh]
 
-#print axioms new102_noReturn_sourcePrefix_is_savedWord
 
 end F7Manuscript.ActualW13New102FourWord

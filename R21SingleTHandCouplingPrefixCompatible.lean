@@ -20,6 +20,5 @@ theorem snapshot_prefix_words_compatible {n m : ℕ}
  have hh:=cross_seen_is_anchor anchor a (L.state 0 b) ⟨i,hi⟩ ⟨j,by rw [anchor.1];exact hj⟩
  exact (L.state 0).injective hh
 
-#print axioms snapshot_prefix_words_compatible
 end
 end F7Manuscript.R21SingleTHand

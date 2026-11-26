@@ -96,6 +96,5 @@ def RawColoredCut.normalizeFirstTwo (R : TokenRun Site W q) (C : RawColoredCut R
     simpa only [Finset.map_insert, Finset.map_singleton] using!
       congrArg (fun p : Site × Site => ({p.1, p.2} : Finset Site)) hp
 
-#print axioms RawColoredCut.normalizeFirstTwo
 
 end F7Manuscript.PartnerGraph.Periodic

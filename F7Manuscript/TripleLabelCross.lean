@@ -98,7 +98,5 @@ theorem triple_label_new_cross (D : LowerSet (ThresholdEvent C)) (h : ThresholdE
     simpa only [w,wcoord,if_neg hji] using! ht
   exact threshold_label_not_le_ideal C D h hnot (hl j) hwj
 
-#print axioms triple_label_old_cross
-#print axioms triple_label_new_cross
 end
 end F7Manuscript.TripleCoordinateLattice

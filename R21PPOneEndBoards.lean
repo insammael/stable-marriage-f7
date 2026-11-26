@@ -30,7 +30,6 @@ theorem noActual0 (R : TokenRun Site (Agent 7) 21) {off : Nat}
     (image : ExactImage 7 s board0 w)
     (budget : offset w.rev off 10 ≤ 1) : False := by
   exact noActualOfBoundedLeaf R binary obs checked0 image 1 21 leaf0 empty0 budget (by omega)
-#print axioms noActual0
 
 -- Manuscript PP row L=None, R=46; exact left window boundary normalized to I.
 def board1 : Board := makeBoard 7 [4,5,0,6,2,1,3] [[2,3,5],[2,3,4,6],[1,4,6],[0,1,5],[0,1,6],[0,3,6],[0,4,5]]
@@ -49,7 +48,6 @@ theorem noActual1 (R : TokenRun Site (Agent 7) 21) {off : Nat}
     (image : ExactImage 7 s board1 w)
     (budget : offset w.rev off 10 ≤ 1) : False := by
   exact noActualOfBoundedLeaf R binary obs checked1 image 1 21 leaf1 empty1 budget (by omega)
-#print axioms noActual1
 
 -- Manuscript PP row L=46, R=45; exact left window boundary normalized to I.
 def board2 : Board := makeBoard 8 [6,5,0,4,1,3,2] [[2,3,5],[2,3,4,6],[1,4,6],[0,1,5],[0,2],[0,4],[0,3,5]]
@@ -68,7 +66,6 @@ theorem noActual2 (R : TokenRun Site (Agent 7) 21) {off : Nat}
     (image : ExactImage 8 s board2 w)
     (budget : offset w.rev off 11 ≤ 1) : False := by
   exact noActualOfBoundedLeaf R binary obs checked2 image 1 21 leaf2 empty2 budget (by omega)
-#print axioms noActual2
 
 -- Manuscript PP row L=46, R=46; exact left window boundary normalized to I.
 def board3 : Board := makeBoard 8 [6,5,0,4,2,1,3] [[2,3,5],[2,3,4,6],[1,4,6],[0,1,5],[0,1],[0,3,4],[0,5]]
@@ -87,7 +84,6 @@ theorem noActual3 (R : TokenRun Site (Agent 7) 21) {off : Nat}
     (image : ExactImage 8 s board3 w)
     (budget : offset w.rev off 11 ≤ 1) : False := by
   exact noActualOfBoundedLeaf R binary obs checked3 image 1 21 leaf3 empty3 budget (by omega)
-#print axioms noActual3
 
 -- Manuscript PP row L=56, R=45; exact left window boundary normalized to I.
 def board4 : Board := makeBoard 8 [4,6,0,5,1,3,2] [[2,3,6],[2,3,4,5],[1,4,5],[0,1,6],[0,2,5],[0],[0,3,4]]
@@ -106,7 +102,6 @@ theorem noActual4 (R : TokenRun Site (Agent 7) 21) {off : Nat}
     (image : ExactImage 8 s board4 w)
     (budget : offset w.rev off 11 ≤ 1) : False := by
   exact noActualOfBoundedLeaf R binary obs checked4 image 1 21 leaf4 empty4 budget (by omega)
-#print axioms noActual4
 
 -- Manuscript PP row L=56, R=46; exact left window boundary normalized to I.
 def board5 : Board := makeBoard 8 [4,6,0,5,2,1,3] [[2,3,6],[2,3,4,5],[1,4,5],[0,1,6],[0,1,5],[0,3],[0,4]]
@@ -125,5 +120,4 @@ theorem noActual5 (R : TokenRun Site (Agent 7) 21) {off : Nat}
     (image : ExactImage 8 s board5 w)
     (budget : offset w.rev off 11 ≤ 1) : False := by
   exact noActualOfBoundedLeaf R binary obs checked5 image 1 21 leaf5 empty5 budget (by omega)
-#print axioms noActual5
 end F7Manuscript.R21NormalEndpoint.BoundaryAtlas.PPOneEndBoards

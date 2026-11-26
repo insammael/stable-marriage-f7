@@ -180,6 +180,5 @@ theorem carrier_has_observed_short_root_prefix
   rw [htime] at hfull
   exact ⟨e, b, ⟨hfull⟩⟩
 
-#print axioms carrier_has_observed_short_root_prefix
 
 end F7Manuscript.ActualW11ObservedPeriodicShortPrefix

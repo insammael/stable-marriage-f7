@@ -62,6 +62,4 @@ theorem three_run_charge (a b c : Nat) (mass : a+b+c≤14) :
     (a+b+c=11 → 5≤windowFee a+windowFee b+windowFee c) :=
   table_three ⟨a,by omega⟩ ⟨b,by omega⟩ ⟨c,by omega⟩
 
-#print axioms two_run_charge
-#print axioms three_run_charge
 end F7Manuscript.R21NormalEndpoint

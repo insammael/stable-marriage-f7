@@ -2165,6 +2165,5 @@ theorem coverRowsWitness_all_except_495_525 (i : Fin 691)
                 · exact coverRowsWitness_range_618_690 i (by omega) h7 h495 h525
                 · omega
 
-#print axioms coverRowsWitness_all_except_495_525
 
 end F7Manuscript.NormalOutsiderCoverage

@@ -58,7 +58,5 @@ theorem noReturn_excludes_two_candidate_fork
     rw [atPrefix_zero]
     exact hcurrent_r
 
-#print axioms atPrefix_zero
-#print axioms noReturn_excludes_two_candidate_fork
 
 end F7Manuscript.ActualW12OwnReturnFork

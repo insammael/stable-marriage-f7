@@ -97,7 +97,6 @@ theorem actual_w34_q0_m15_small_cost_zero
   refine ⟨H, hEvents, ?_, hzero⟩
   simpa only [actualOneGapNormalRunSkeleton, S] using! hWord
 
-#print axioms actual_w34_q0_m15_small_cost_zero
 
 end
 end F7Manuscript.TripleCoordinateLattice

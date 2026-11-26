@@ -19,6 +19,5 @@ theorem new98_w_equals_t (bits : Nat → Bool)
   · exact False.elim (exceptionA_false bits h0 N h.1 h.2.1 h.2.2.1 h.2.2.2)
   · exact False.elim (exceptionB_false bits h0 N h.1 h.2.1 h.2.2.1 h.2.2.2)
 
-#print axioms new98_w_equals_t
 
 end F7Manuscript.ActualW13New98PoolControlResolved

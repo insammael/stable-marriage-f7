@@ -47,6 +47,5 @@ theorem p5_required_initial_future_visits_complete
     ⟨r3.succ, htime3, hvisit3⟩,
     ⟨r5.succ, htime5, hvisit5⟩⟩
 
-#print axioms p5_required_initial_future_visits_complete
 
 end F7Manuscript.ActualW19P5RequiredVisitsComplete

@@ -153,6 +153,5 @@ theorem saturated_h012_leaf_is_last
   exact saturated_actual_past_excludes_next_pool_event
     (reindexRun R e) t W htok' hpast' (by simpa using! hmappedPool)
 
-#print axioms saturated_h012_leaf_is_last
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW28R20SaturatedBlockEnd

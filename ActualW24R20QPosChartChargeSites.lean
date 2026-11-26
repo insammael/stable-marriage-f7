@@ -74,8 +74,5 @@ theorem s_zero_forbids_interior_aba
   rw [chargedSites_card_eq_chart_s, hs] at hpos
   omega
 
-#print axioms two_distinct_charged_sites_give_s_ge_two
-#print axioms s_zero_forbids_interior_double
-#print axioms s_zero_forbids_interior_aba
 
 end F7Manuscript.ActualW24R20QPosChartChargeSites

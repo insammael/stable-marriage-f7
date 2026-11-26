@@ -66,6 +66,4 @@ theorem no_two_B_to_A_center_switches
     (by decide) (by simpa [hl.1] using! hl.2.2)
   exact hstay
 
-#print axioms no_two_A_to_B_center_switches
-#print axioms no_two_B_to_A_center_switches
 end F7Manuscript.ActualW19P6CenterSwitchNoRepeat

@@ -111,7 +111,6 @@ theorem positive_D_one_cost_no_two_partial_somes
       W D m i hm hW hD ⟨hiFacts.2.1, hiFacts.2.2.1⟩ hiFacts.2.2.2 hDzero hpivSub
       hforward hreverse
 
-#print axioms positive_D_one_cost_no_two_partial_somes
 
 end
 end F7Manuscript.ActualW15PositiveDOneCost

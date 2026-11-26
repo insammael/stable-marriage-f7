@@ -179,6 +179,5 @@ theorem actual_r20_q0_typeV_case_with_derived_boundary_color
     Qgap hQgap Hgap hQgapCard hEG d0 d1 hslot0 hslot1 hnewLower fixed r
     hd0fixed hd1fixed hd01 hpostLower hcost hn hk7 hcolor
 
-#print axioms actual_r20_q0_typeV_case_with_derived_boundary_color
 end
 end F7Manuscript.TripleCoordinateLattice

@@ -38,5 +38,4 @@ theorem actual_q0_typeV_saved_impossible
     (q0TypeVPlan g.left g.right g.leftABA g.rightABA fixed row phase true)
     false tree hvalid bits' R Hsaved (by intro h; cases h)
 
-#print axioms actual_q0_typeV_saved_impossible
 end F7Manuscript.OneGap

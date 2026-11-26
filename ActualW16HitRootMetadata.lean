@@ -169,6 +169,5 @@ theorem hit_root_entry_facts (h : RootHit) (hh : h ∈ hitWitnesses) :
                   | exact root183mem | exact root193mem | exact root200mem | exact root201mem
                   | exact root202mem)
 
-#print axioms hit_root_entry_facts
 
 end F7Manuscript.ActualW16HitRootMetadata

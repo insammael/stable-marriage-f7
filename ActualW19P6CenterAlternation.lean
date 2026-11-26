@@ -255,5 +255,4 @@ theorem centerTypeWord_patterns
   exact centerTypeWord_candidate_patterns tr (centerTypeWord_not_ABAB tr)
     (centerTypeWord_not_BABA tr)
 
-#print axioms centerTypeWord_patterns
 end F7Manuscript.ActualW19P6CenterAlternation

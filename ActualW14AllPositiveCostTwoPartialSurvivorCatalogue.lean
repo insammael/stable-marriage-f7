@@ -59,7 +59,6 @@ theorem actual_X_mem_allPositiveCostTwoPartialSurvivorCatalogue
   exact actual_X_mem_costTwoPartialSurvivorCatalogue_of_cost_bound C hn hδ
     hdeficit hpos h221 h311 hG hT X hcostX
 
-#print axioms actual_X_mem_allPositiveCostTwoPartialSurvivorCatalogue
 
 end
 end F7Manuscript.ActualW14AllPositiveCostTwoPartialSurvivorCatalogue

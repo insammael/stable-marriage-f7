@@ -234,6 +234,5 @@ theorem B45_second_complete :
   | four a b d e =>
       exact Or.inr (check_four a b d e hs hpost)
 
-#print axioms B45_second_complete
 
 end F7Manuscript.PartnerGraph.G1Frozen13.CertW578

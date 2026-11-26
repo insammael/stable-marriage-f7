@@ -85,7 +85,6 @@ theorem actual_typed_cut_embeds_whole_window
       exact hsupport
   exact realized_window_embeds_into_whole_enumeration Q hQ E D e typedWord hfull U hU
 
-#print axioms actual_typed_cut_embeds_whole_window
 
 end
 end F7Manuscript.ActualTypedCutWholeWindow

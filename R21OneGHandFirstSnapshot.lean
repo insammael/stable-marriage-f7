@@ -51,7 +51,5 @@ theorem sound_snapshot_A05_15
   rw [←len,List.take_left,replay_concat,root] at hs
   exact hs
 
-#print axioms no_donor_path_snapshot_A05_15
-#print axioms sound_snapshot_A05_15
 end
 end F7Manuscript.R21OneGHandDonor

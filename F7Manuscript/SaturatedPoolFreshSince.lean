@@ -25,5 +25,4 @@ theorem no_old_pool_swap_after_center
   have hs := W.spent candidate idle
   simpa only [centerTok, tokenSwap, if_neg hi0, if_neg hi6] using hs
 
-#print axioms no_old_pool_swap_after_center
 end F7Manuscript.SaturatedPoolFreshSince

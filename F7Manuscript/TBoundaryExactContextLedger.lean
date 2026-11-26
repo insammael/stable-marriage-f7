@@ -114,7 +114,5 @@ theorem actual_T_context_joint_charge_with_post
     2*(H.future.retired.card : ℤ)
   omega
 
-#print axioms actual_T_context_increment_ledger
-#print axioms actual_T_context_joint_charge_with_post
 end
 end F7Manuscript.TripleCoordinateLattice

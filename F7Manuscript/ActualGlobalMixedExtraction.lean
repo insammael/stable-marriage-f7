@@ -144,6 +144,5 @@ theorem actual_global_mixed_extraction
   let h311 := (actual_pairClass I).2.1
   exact actual_global_mixed_extraction_from_chart C h221 h311 hz hn
 
-#print axioms actual_global_mixed_extraction
 end
 end F7Manuscript.TripleCoordinateLattice

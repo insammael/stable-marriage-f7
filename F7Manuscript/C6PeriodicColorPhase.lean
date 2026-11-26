@@ -64,8 +64,6 @@ theorem backtrack_free_word_has_c6_phase
         _ = c6PostColor p ((j-3)+3) := (c6PostColor_period_three p (j-3)).symm
         _ = c6PostColor p j := congrArg (c6PostColor p) heq.symm
 
-#print axioms c6PostColor_period_three
-#print axioms backtrack_free_word_has_c6_phase
 
 theorem normal_chart_q_zero_levels
     (C : NormalSkeleton.Chart) (hq : C.q = 0) (j : ℕ) :
@@ -107,7 +105,4 @@ theorem normal_zero_cost_word_has_c6_phase
   backtrack_free_word_has_c6_phase C.naturalWord C.m hm
     (normal_chart_s_zero_backtrack_free C hs)
 
-#print axioms normal_chart_q_zero_levels
-#print axioms normal_chart_s_zero_backtrack_free
-#print axioms normal_zero_cost_word_has_c6_phase
 end F7Manuscript.C6PeriodicColorPhase

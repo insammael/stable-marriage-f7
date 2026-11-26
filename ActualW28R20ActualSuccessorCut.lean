@@ -132,6 +132,5 @@ theorem actual_singleton_switch_has_canonical_successor_cut
   refine ⟨hsingle.1, hsingle.2, k, R, e, W, t, hcut, htval, hbefore, hafter,
     hsupport, htok', hpast', hmapPool⟩
 
-#print axioms actual_singleton_switch_has_canonical_successor_cut
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW28R20ActualSuccessorCut

@@ -94,9 +94,6 @@ theorem actual_seventeen_ABA_ge_six (H : FrontierChart I 17)
     6 ≤ F7Local.prefixCost (wordTurns H.word) 15 :=
   F7Local.q0_seventeen_ABA_ge_six _ (actual_q0_cuts H hQ)
 
-#print axioms actual_q0_cuts
-#print axioms actual_sixteen_ABA_ge_four
-#print axioms actual_seventeen_ABA_ge_six
 
 end
 end F7Manuscript.ActualQ0Cuts

@@ -69,6 +69,5 @@ theorem actual_second_next_pair_contradicts_saturation
   rw [hstart] at hfresh
   exact F7Paired.SaturatedWitness.second_next_moving_pair_not_fresh W keep b hb hfresh
 
-#print axioms actual_second_next_pair_contradicts_saturation
 
 end F7Manuscript.ActualD2SecondNextPairActual

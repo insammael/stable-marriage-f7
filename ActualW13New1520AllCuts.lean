@@ -259,8 +259,6 @@ theorem actual_X_new1520_all_cuts_structural_threshold
         hDint (by simpa [n] using! hlast)
       simpa [hd,hj0,n] using! hres
 
-#print axioms New1520FitAt
-#print axioms actual_X_new1520_all_cuts_structural_threshold
 
 end
 end F7Manuscript.ActualW13New1520AllCuts

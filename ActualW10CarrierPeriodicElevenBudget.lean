@@ -81,6 +81,5 @@ theorem carrier_periodic_eleven_budget
     (reindexRun C.S e) t Hobs hatomic hexcess
   simpa [t] using! hresult
 
-#print axioms carrier_periodic_eleven_budget
 
 end F7Manuscript.ActualW10CarrierPeriodicElevenBudget

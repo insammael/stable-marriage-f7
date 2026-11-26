@@ -78,6 +78,5 @@ theorem typeV_two_center_route
       rw [hb0,hb1]
       exact hG1.trans (W34TypeVTwoCenters.typeV_second_center_support f fixed row)
 
-#print axioms typeV_two_center_route
 end
 end F7Manuscript.TripleCoordinateLattice.W34TypeVTwoCenterRoute

@@ -99,7 +99,5 @@ theorem actual_no_outsider_T_two_long_runs_support_classification
     simpa only [globalNormalRunInterval,normalRunLeft_succ] using! h
   exact actual_no_outsider_binary_T_support_classification C hu E (macroPosition C E j) hT hOld hNew
 
-#print axioms actual_no_outsider_binary_T_support_classification
-#print axioms actual_no_outsider_T_two_long_runs_support_classification
 end
 end F7Manuscript.TripleCoordinateLattice

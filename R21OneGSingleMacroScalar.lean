@@ -81,7 +81,6 @@ theorem count_of_single_G_charges {u score : ℕ}
   clear * - haccount hd
   omega
 
-#print axioms count_of_single_G_charges
 end
 end F7Manuscript.TripleCoordinateLattice.R21OneGScalar
 

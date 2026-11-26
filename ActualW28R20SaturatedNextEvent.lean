@@ -67,6 +67,5 @@ theorem saturated_actual_past_excludes_next_pool_event
     exact hspent
   exact post_token_not_in_actual_past R k (embedFour p) hactive hpostmem
 
-#print axioms saturated_actual_past_excludes_next_pool_event
 end
 end F7Manuscript.ActualW28R20SaturatedNextEvent

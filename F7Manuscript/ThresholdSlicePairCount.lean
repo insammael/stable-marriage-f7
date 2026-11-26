@@ -113,7 +113,5 @@ theorem normal_thresholdSlice_weighted_count
     _ = Fintype.card W+A2 (V := W) := by
       rw [thresholdSlice_A2_eq_doubles C E left right h221 h311 hclosed]
 
-#print axioms thresholdSlice_A2_eq_doubles
-#print axioms normal_thresholdSlice_weighted_count
 end
 end F7Manuscript.TripleCoordinateLattice

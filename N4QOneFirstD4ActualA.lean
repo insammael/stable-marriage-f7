@@ -99,5 +99,4 @@ theorem q1_firstD4_A_impossible
    hroot hadj (by omega)
  omega
 
-#print axioms q1_firstD4_A_impossible
 end F7Manuscript.N4QOneFirstD4ActualA

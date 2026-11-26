@@ -95,6 +95,5 @@ theorem actual_r21_no_outsider_T_macro_credit_after_prior
     macroIntroductionCredit C E j-(normalRunPriorCross C E j.succ : ℤ)
   split_ifs at hprodZ ⊢ <;> omega
 
-#print axioms actual_r21_no_outsider_T_macro_credit_after_prior
 end
 end F7Manuscript.TripleCoordinateLattice

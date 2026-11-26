@@ -212,9 +212,6 @@ theorem forward_wall_of_full_noReturn
   let A := normalRunOfNoReturn S.naturalWord S.naturalLevels S.m hm rho hfirst bits H
   exact actual_forward_wall S A lo hi hle hA hzero hD
 
-#print axioms actual_six_then_D_false
-#print axioms actual_forward_wall
-#print axioms forward_wall_of_full_noReturn
 
 end
 end F7Manuscript.WForwardChart

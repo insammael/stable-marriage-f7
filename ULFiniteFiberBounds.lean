@@ -145,8 +145,5 @@ theorem exists_unique_large_flag [DecidableEq V] (F : Fin 3 → Finset V)
       omega
     · simp
 
-#print axioms upperFiber_card_le_two
-#print axioms not_two_large_upperFibers
-#print axioms exists_unique_large_flag
 
 end ConditionalUL

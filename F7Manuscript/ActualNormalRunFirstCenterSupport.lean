@@ -102,7 +102,6 @@ theorem actual_normal_run_first_center_support
     simpa only [i] using! hfirstCenter
   exact ⟨hD, hsupport⟩
 
-#print axioms actual_normal_run_first_center_support
 
 end
 end F7Manuscript.TripleCoordinateLattice

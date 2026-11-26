@@ -89,5 +89,4 @@ theorem centerTypeWord_three_letter_residual
   · rw [hABBT] at hlen; simp at hlen
   · rw [hBAAB] at hlen; simp at hlen
 
-#print axioms centerTypeWord_three_letter_residual
 end F7Manuscript.ActualW19P6CenterThreeWordExclusions

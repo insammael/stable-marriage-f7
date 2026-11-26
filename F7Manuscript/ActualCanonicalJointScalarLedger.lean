@@ -59,6 +59,5 @@ theorem actual_canonical_joint_scalar_endpoint_ledger
     (∑ j : Fin m, globalMacroJointCharge A E j (H j)) ≤ totalDeficit (V := Event I)
   omega
 
-#print axioms actual_canonical_joint_scalar_endpoint_ledger
 end
 end F7Manuscript.TripleCoordinateLattice

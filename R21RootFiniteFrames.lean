@@ -53,6 +53,4 @@ theorem finite_frames_of_input (input : Input) (o : Output) (im : Image)
   have check:=checked_finite_frames input
   simpa only [finiteFrameCheck,computed,motif,↓reduceIte,chosen,decide_eq_true_eq] using! check
 
-#print axioms checked_finite_frames
-#print axioms finite_frames_of_input
 end F7Manuscript.R21LongWindow.PureRootCoverage

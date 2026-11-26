@@ -131,7 +131,4 @@ theorem bad_neutral_component_direction (h : BadNeutral (V:=V))
     (∀b∈support Finset.univ D, ∀a∈support Finset.univ C, ¬a<b) :=
   component_direction C D (bad_neutral_support_separation h C D hCD)
 
-#print axioms regular_support_separation
-#print axioms bad_neutral_support_separation
-#print axioms bad_neutral_component_direction
 end NeutralCore.ActualOverlap

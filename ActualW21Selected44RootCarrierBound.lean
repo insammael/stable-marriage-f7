@@ -31,6 +31,5 @@ theorem selected44_root_carrier_bound
     (fun j => Or.inl (table2_checked j)) 16 controlTree controlTree_valid
     selected44_old_frontier
 
-#print axioms selected44_root_carrier_bound
 
 end F7Manuscript.ActualW21Selected44RootCarrierBound

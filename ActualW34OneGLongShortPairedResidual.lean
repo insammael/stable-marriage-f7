@@ -57,6 +57,5 @@ theorem actual_one_G_long_long_short_paired_residual
       C h221 h311 hu E Rone hm1 hq1 hs1
     exact Or.inr (Or.inr ⟨hq0,hq1,hs0,hs1,hshort,hsum⟩)
 
-#print axioms actual_one_G_long_long_short_paired_residual
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW34OneGLongShortPairedResidual

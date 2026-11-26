@@ -181,7 +181,5 @@ theorem table_future_bound (j : Fin 60) : NodeFutureBound table j := by
   intro F u k future used env
   exact Sized.checked_table_bound_of_anchors table table_anchors future j used env
 
-#print axioms nodeFutureBound_of_bound
-#print axioms table_future_bound
 
 end F7Manuscript.PartnerGraph.ThresholdShort

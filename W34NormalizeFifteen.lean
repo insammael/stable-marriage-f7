@@ -89,7 +89,5 @@ noncomputable def normalize_run15 (H : PeriodicRun 15) : NormalizedRun 15 where
     intro n hn
     simp [normalizedChoice15, hn]
 
-#print axioms normalized_tokens15
-#print axioms normalize_run15
 
 end F7Periodic.W34NormalizeFifteen

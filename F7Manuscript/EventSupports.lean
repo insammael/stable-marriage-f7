@@ -114,8 +114,5 @@ theorem support_share (ρ σ : Event I) (m : Agent n)
   have h4 := support_strict_worsening I σ m hσ
   exact (h3.trans_le h2).not_ge (h4.le.trans h1)
 
-#print axioms predecessor_covBy
-#print axioms support_minimum
-#print axioms support_share
 
 end F7Manuscript.EventSupports

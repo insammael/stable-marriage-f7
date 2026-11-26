@@ -468,9 +468,6 @@ theorem binary_future_pendant_edge_bound {F : Rel} {n : ℕ}
                     simpa [p] using! hbound
                   omega
 
-#print axioms dormant_pendant_edge_bound
-#print axioms empty_column_edge_bound
-#print axioms binary_future_pendant_edge_bound
 
 end
 end F7Manuscript.ActualW16PendantFuture

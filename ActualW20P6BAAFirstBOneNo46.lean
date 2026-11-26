@@ -75,5 +75,4 @@ theorem no_four_six_swap_firstB_one
     have hpostone : tr.state k1.succ 6 = 1 := hpost6.trans hfirst'
     exact (by decide : (1 : Site) ≠ 6) (hpostone.symm.trans h6earlier)
 
-#print axioms no_four_six_swap_firstB_one
 end F7Manuscript.ActualW20P6BAAFirstBOneNo46

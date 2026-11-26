@@ -119,6 +119,5 @@ theorem segment_plan_eq_mixedPlanFrom
       rw [hw0, hl0, htailPlan]
       simp only [List.cons_append]
 
-#print axioms segment_plan_eq_mixedPlanFrom
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW33RContextSegmentPlanReflection

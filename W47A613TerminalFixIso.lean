@@ -246,6 +246,5 @@ theorem terminal_B45_1653 :
       have hx : (2 : ℕ) + 2 ≤ 2 := hc.2.1
       exact (by decide : ¬ ((2 : ℕ) + 2 ≤ 2)) hx
 
-#print axioms terminal_B45_1653
 
 end F7Manuscript.PartnerGraph.G1Frozen13.CertW613

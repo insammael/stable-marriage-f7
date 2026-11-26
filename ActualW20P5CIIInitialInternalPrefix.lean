@@ -76,6 +76,4 @@ theorem p5_positive_CII_A4_prior_five_at_one
     T b2 hpre4 hpre2
     (p5_positive_CII_no_internal_before_b2 T hsat b2 q2 m q6 hbq hqm hmq hq2S hmS hq6S)
 
-#print axioms p5_positive_CII_no_internal_before_b2
-#print axioms p5_positive_CII_A4_prior_five_at_one
 end F7Manuscript.ActualW20P5CIIInitialInternalPrefix

@@ -177,8 +177,5 @@ def virtual_saturated_witness_reindexed
     exact Finset.mem_map.mpr ⟨embed person, hmem, hEmbed person⟩
   exact virtual_saturated_witness R' time finish row hupdate' hmono hstep' hfinish
 
-#print axioms virtual_closed_four_row_run
-#print axioms virtual_saturated_witness
-#print axioms virtual_saturated_witness_reindexed
 
 end F7Manuscript.ActualFourRowSaturation

@@ -29,6 +29,5 @@ theorem fixedTokenSaturated_origin_site_future_event
     · exact hnot.1 hl
     · exact hnot.2 hr
 
-#print axioms fixedTokenSaturated_origin_site_future_event
 
 end F7Manuscript.PartnerGraph

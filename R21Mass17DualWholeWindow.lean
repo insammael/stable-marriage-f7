@@ -73,7 +73,5 @@ theorem mass17_dual_off_one {Q : Finset (Event I)}
     (core : Q.card=20) (beforeZero : (before Q).card=0) :
     21-((before Q).card+Q.card)=1 := by omega
 
-#print axioms actual_dual_window_in_complete_run
-#print axioms mass17_dual_off_one
 end
 end F7Manuscript.R21Mass17Original

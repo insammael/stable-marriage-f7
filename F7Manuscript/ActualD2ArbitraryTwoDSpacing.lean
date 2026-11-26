@@ -474,7 +474,6 @@ theorem actual_arbitrary_offset_two_d2_false
                 (by show t₁.val + 3 + 3 ≤ Q.card; omega)
                 hpair0 hpair1 hcover hcandidate hPcenterFollowing hpastSecond
 
-#print axioms actual_arbitrary_offset_two_d2_false
 
 /-- The preceding local obstruction applies at every interior offset of the
 actual normalized mixed execution.  The extracted memory remains indexed by
@@ -585,7 +584,6 @@ theorem actual_mixed_trace_offset_two_d2_impossible
   exact actual_arbitrary_offset_two_d2_false Q hQ B h221 h311 hz hm a p
     H₀ hD₀ S₀' hM' H₁ hD₁ S₁ ht₁' H₂ S₂ ht₂' hj₁ hj₂
 
-#print axioms actual_mixed_trace_offset_two_d2_impossible
 
 end
 end F7Manuscript.TripleCoordinateLattice

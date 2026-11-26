@@ -86,10 +86,5 @@ theorem unorientedActualGlobalScalarKey_G_slot_empty_or_two
   exact actual_T_family_G_macro_slot_empty_or_two A hn h221 h311 hdelta hc
     (globalThresholdEnumeration A h221 h311) j hkind
 
-#print axioms unorientedActualGlobalScalarKey_kind_counts
-#print axioms unorientedActualGlobalScalarKey_macro_budget
-#print axioms unorientedActualGlobalScalarKey_positive_family
-#print axioms actual_T_family_G_macro_slot_empty_or_two
-#print axioms unorientedActualGlobalScalarKey_G_slot_empty_or_two
 end
 end F7Manuscript.TripleCoordinateLattice

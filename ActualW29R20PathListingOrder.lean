@@ -93,7 +93,5 @@ theorem stage_faces_exclude_listing_sides
       exact hpath c
     exact (aboveTriple_not_ge C habove c) (hle'.trans hle)
 
-#print axioms injective_monotone_path_order_reflecting
-#print axioms stage_faces_exclude_listing_sides
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW29R20PathListingOrder

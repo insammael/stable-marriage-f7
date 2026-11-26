@@ -48,6 +48,5 @@ theorem actual_singleton_color_in_following_event_of_ternary_row
   rw [hternaryAfter] at hbin
   omega
 
-#print axioms actual_singleton_color_in_following_event_of_ternary_row
 end
 end F7Manuscript.TripleCoordinateLattice

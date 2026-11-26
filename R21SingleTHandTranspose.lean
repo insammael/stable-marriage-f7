@@ -76,7 +76,5 @@ theorem transpose_sharedAnchor (h : SharedAnchor L Q) :
     rw [seen,seen,h.2]
     exact or_congr (by change Q.state 0 a=b ↔ (Q.state 0).symm b=a; rw [Equiv.symm_apply_eq]; exact eq_comm) Iff.rfl
 
-#print axioms transposeRun
-#print axioms transpose_sharedAnchor
 end
 end F7Manuscript.R21SingleTHand

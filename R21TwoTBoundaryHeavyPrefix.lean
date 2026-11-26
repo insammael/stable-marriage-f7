@@ -131,6 +131,5 @@ theorem retired_mixed_plan_heavy_word
      rw [hevent,hz.2,hz.1]
      rfl
 
-#print axioms retired_mixed_plan_heavy_word
 end
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

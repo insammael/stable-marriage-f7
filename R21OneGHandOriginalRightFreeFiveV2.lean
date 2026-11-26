@@ -128,6 +128,5 @@ theorem original_right_free_five_impossible
       exact normalized_B56_impossible Y pre u v f (chartPlan T) b₀ hvf root hRun planLong ss cf
     · have cf : frameCrew f={{0,1},{3,6},{4,5}} := by rw [crewF,fix,ss]
       exact normalized_B01_impossible Y pre u v f (chartPlan T) b₀ hvf root hRun planLong ss cf
-#print axioms original_right_free_five_impossible
 end
 end F7Manuscript.TripleCoordinateLattice.R21OneGHandActual

@@ -120,8 +120,5 @@ theorem saved45B33_observed_future_le_four
   exact saved45B33_pruned_future_le_four
     (saved45B33_future_from_observed_prefix R t H future)
 
-#print axioms saved45A6_future_le_four
-#print axioms saved45B13_future_le_four
-#print axioms saved45A6_observed_future_le_four
 
 end F7Manuscript.ActualW17Saved45FutureFour

@@ -191,6 +191,5 @@ theorem actual_oneD_mixed_tail_fresh
       exact ⟨e, bits', hbits, by simpa [pre] using! hf⟩
 
 end
-#print axioms actual_oneD_mixed_tail_fresh
 
 end F7Manuscript.ActualOneDMixedTailFresh

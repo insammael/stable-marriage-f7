@@ -111,6 +111,5 @@ theorem actual_core_any_leaf_prefix_dominated
     _ = ((P stage).val c).val := hsource.symm
     _ ≤ ((P n.castSucc).val c).val := hdom c
 
-#print axioms actual_core_any_leaf_prefix_dominated
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW28R20ActualAnyLeafPrefixSpan

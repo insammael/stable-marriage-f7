@@ -187,6 +187,5 @@ theorem supportsStages_realizesPrefix {W : Type*} [Fintype W] {q : ℕ}
           rw [hp]
           rfl
 
-#print axioms supportsStages_realizesPrefix
 
 end F7Manuscript.OneGap

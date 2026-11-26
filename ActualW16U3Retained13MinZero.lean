@@ -336,7 +336,6 @@ theorem actual_u3_retained13_min_endpoint_zero_false
     exact F7Manuscript.ActualW16P56P310GenericThresholdFalse.actual_X_p56_prefix_min_endpoint_zero_false
       C hn hδ h221 h311 hG hT X (by omega) hmin hnorm hDzero13
 
-#print axioms actual_u3_retained13_min_endpoint_zero_false
 
 end
 end F7Manuscript.ActualW16U3Retained13MinZero

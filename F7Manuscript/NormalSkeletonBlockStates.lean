@@ -79,8 +79,6 @@ theorem previousRetiredMask_succ (C : Chart) (j : Fin C.m)
   apply propext
   simp [previousRetiredMask, retiredMask]
 
-#print axioms levelCount_succ
-#print axioms levelCount_end
 
 end
 end F7Manuscript.NormalSkeleton.Chart

@@ -86,6 +86,5 @@ theorem pair_count_le_quarter_square (S : Finset V) (hw : WidthLE S 2) :
     omega
   exact hhalf.trans hprod
 
-#print axioms pair_count_le_quarter_square
 end
 end F7Manuscript.WidthTwoPairCount

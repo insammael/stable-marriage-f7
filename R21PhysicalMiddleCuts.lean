@@ -78,6 +78,5 @@ theorem actual_mass16_middle_cut {length unit : Nat} (C : Chart)
   overlap:=by omega }
  exact ⟨j,cut,rfl,rfl,rfl,rfl⟩
 
-#print axioms actual_mass16_middle_cut
 end
 end F7Manuscript.R21PhysicalWindowWords

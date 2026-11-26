@@ -105,7 +105,5 @@ theorem actual_dual_center_geometry
   · have fixed := (R.HOUT i _ retiredOutside).symm
     cases b <;> simpa [mapSupportFrame,afterCenter,other,mapSupportPair] using! fixed
 
-#print axioms exchanged_token_pair
-#print axioms actual_dual_center_geometry
 end
 end F7Manuscript.R21NormalEndpoint.ReseededObservation

@@ -185,9 +185,5 @@ theorem four_event_prefix_middle_disjoint {W : Type*} [Fintype W] {q : ℕ}
     Disjoint (R.support ⟨2,by omega⟩) (R.support ⟨3,by omega⟩) := by
   exact four_event_middle_disjoint (takeRun R 4 hq) hbin hold hpool
 
-#print axioms normalize_run
-#print axioms five_event_window_excluded
-#print axioms four_event_middle_disjoint
-#print axioms four_event_prefix_middle_disjoint
 end
 end F7Manuscript.FourActorWindowNormalization

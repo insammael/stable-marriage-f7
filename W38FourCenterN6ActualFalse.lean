@@ -115,6 +115,5 @@ theorem four_center_actual_twenty_false
       simpa only [pre, post, mid, plan, Nat.add_assoc, List.append_assoc] using! hrun
     omega
 
-#print axioms four_center_actual_twenty_false
 end
 end F7Manuscript.W38FourCenterN6ActualFalse

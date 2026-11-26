@@ -96,8 +96,6 @@ theorem h7_produced_tail13_atomic_cost_and_suffix
     (literalWholeReverse (I := I) W) (by omega)
     (b + 16) (4 - b) (by omega)
 
-#print axioms h7_produced_tail13_atomic_cost
-#print axioms h7_produced_tail13_atomic_cost_and_suffix
 
 end
 

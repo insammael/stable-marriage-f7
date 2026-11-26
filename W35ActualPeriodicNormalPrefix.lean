@@ -113,7 +113,5 @@ theorem actual_zero_cost_periodic_normal_prefix_false
   exact W35PeriodicWholePrefixExclusion.actual_periodic_whole_prefix_false
     P hPconv EP Hperiod h14 Hwhole (by simpa using! hn) hpoints
 
-#print axioms whole_enumeration_with_actual_prefix
-#print axioms actual_zero_cost_periodic_normal_prefix_false
 end
 end F7Manuscript.TripleCoordinateLattice.W35ActualPeriodicNormalPrefix

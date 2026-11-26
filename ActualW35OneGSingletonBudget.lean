@@ -83,4 +83,3 @@ theorem actual_oneG_singleton_pre_low_cost_budget
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW35OneGSingletonBudget
 
-#print axioms F7Manuscript.TripleCoordinateLattice.ActualW35OneGSingletonBudget.actual_oneG_singleton_pre_low_cost_budget

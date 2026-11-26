@@ -38,7 +38,6 @@ theorem dual_core_before_eq_after_of_constant_signs
         (beforeOutsiders (dualPartition C)).card := congrArg Finset.card hbefore
     _ = (afterOutsiders C).card := by rw [hout]
 
-#print axioms dual_core_before_eq_after_of_constant_signs
 
 end
 end F7Manuscript.ActualW7DualEndpointClock

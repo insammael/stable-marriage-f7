@@ -48,6 +48,5 @@ theorem firstPaired_from_route_seed (R : TokenRun Site W q)
    · simpa only [i,Nat.add_assoc] using! rest
 
 
-#print axioms firstPaired_from_route_seed
 end
 end F7Manuscript.R21SingleTHand

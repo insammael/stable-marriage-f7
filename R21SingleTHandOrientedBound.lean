@@ -117,7 +117,5 @@ theorem ordered_crown_two_unpaired_impossible {n m : ℕ} {S T : NormalSkeleton.
   have hS := oriented_unpaired_post_bound (oriented_swap_ordered R hn hm) ht hs hzT hzS
   omega
 
-#print axioms oriented_unpaired_post_bound
-#print axioms ordered_crown_two_unpaired_impossible
 end
 end F7Manuscript.R21SingleTHand

@@ -40,6 +40,5 @@ theorem actual_reverse_pure_five_root
   rw [hsupport]
  exact ⟨g,bits,Y,hg,hout,hi,hfinal⟩
 
-#print axioms actual_reverse_pure_five_root
 end
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

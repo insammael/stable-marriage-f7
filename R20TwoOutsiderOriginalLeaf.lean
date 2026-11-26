@@ -22,6 +22,5 @@ theorem r20LeafObligation_two_zero_zero (I : Profile 7) [Nonempty (StableMatchin
   intro a b c d
   exact r20_q1_four_covers_extremal C h221 h311 hG hT hm hq hs hD (a:=a) (b:=b) (c:=c) (d:=d)
 
-#print axioms r20LeafObligation_two_zero_zero
 end
 end F7Manuscript.ActualPositiveDeficitCoverAssembly

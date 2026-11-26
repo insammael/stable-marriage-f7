@@ -195,6 +195,5 @@ theorem actual_one_G_pre_q1_long_count_le_85
       hQgap Hgap hgapCard hEGgap d0 d1 hslot0 hslot1 hnewLower fixed row
       hd0fixed hd1fixed hd01 hlower
 
-#print axioms actual_one_G_pre_q1_long_count_le_85
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW34OneGPreQOneLongCount

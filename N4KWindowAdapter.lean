@@ -911,18 +911,6 @@ adapter. No D-containing consumer, actual Q0Cuts construction, global N4
 or actual-profile conclusion is supplied by this file alone.
 -/
 
-#check K_strong_normalization
-#check K_window_kernel
-#print axioms NoReturn.to_identity
-#print axioms sourceHistory
-#print axioms SwapHistory.transpose
-#print axioms SwapHistory.transpose_seen_iff
-#print axioms SwapHistory.rename_seen_iff
-#print axioms dualFrame_afterCenter_of_noncontact
-#print axioms noReturn_of_source_history
-#print axioms modeDualBits_involutive
-#print axioms K_strong_normalization
-#print axioms K_window_kernel
 
 end
 end F7Manuscript.N4KWindowAdapter

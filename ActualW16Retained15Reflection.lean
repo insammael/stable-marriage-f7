@@ -23,7 +23,6 @@ theorem reflect15_retained15_disjoint :
   simp [retained15, retained13, reflect15] at hp ⊢
   omega
 
-#print axioms reflect15_retained15_disjoint
 
 end
 end F7Manuscript.ActualW16Retained15Reflection

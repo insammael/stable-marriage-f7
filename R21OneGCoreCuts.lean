@@ -110,6 +110,5 @@ theorem core_G_cut_geometry
   · exact Finset.mem_insert.mpr (Or.inr (Finset.mem_sdiff.mpr
       ⟨(mem_down Q x).mpr ⟨y,hy,hxz.trans hzy⟩,hq⟩))
 
-#print axioms core_G_cut_geometry
 end
 end F7Manuscript.TripleCoordinateLattice.R21OneGCoreCuts

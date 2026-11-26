@@ -33,7 +33,6 @@ theorem noActual0 (R : TokenRun Site (Agent 7) 21) {off : Nat}
     (budget : offset w.rev off 11 ≤ 1) : False := by
   exact noActualOfBoundedLeaf R binary obs checked0 image 1 21 leaf0 empty0 budget (by omega)
 
-#print axioms noActual0
 
 /-- Manuscript right support 13. -/
 def board1 : Board := makeBoard [5,4,1,6,2,3,0] [[2,3,4],[2,3],[4,6],[0,1,5],[0,1,6],[0,1,6],[2,3,4,5]]
@@ -53,7 +52,6 @@ theorem noActual1 (R : TokenRun Site (Agent 7) 21) {off : Nat}
     (budget : offset w.rev off 11 ≤ 1) : False := by
   exact noActualOfBoundedLeaf R binary obs checked1 image 1 21 leaf1 empty1 budget (by omega)
 
-#print axioms noActual1
 
 /-- Manuscript right support 23. -/
 def board2 : Board := makeBoard [5,6,4,1,2,3,0] [[2,3,4],[2,3,4],[6],[0,5,6],[0,1,6],[0,1,6],[2,3,4,5]]
@@ -73,7 +71,6 @@ theorem noActual2 (R : TokenRun Site (Agent 7) 21) {off : Nat}
     (budget : offset w.rev off 11 ≤ 1) : False := by
   exact noActualOfBoundedLeaf R binary obs checked2 image 1 21 leaf2 empty2 budget (by omega)
 
-#print axioms noActual2
 
 /-- Manuscript right support 36. -/
 def board3 : Board := makeBoard [5,6,1,0,2,3,4] [[2,3,4],[2,3,4],[4,6],[1,5,6],[0,1,6],[0,1,6],[2,3,5]]
@@ -93,5 +90,4 @@ theorem noActual3 (R : TokenRun Site (Agent 7) 21) {off : Nat}
     (budget : offset w.rev off 11 ≤ 1) : False := by
   exact noActualOfBoundedLeaf R binary obs checked3 image 1 21 leaf3 empty3 budget (by omega)
 
-#print axioms noActual3
 end F7Manuscript.R21NormalEndpoint.BoundaryAtlas.PDotPEndBoards

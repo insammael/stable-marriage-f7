@@ -53,8 +53,6 @@ theorem tailD_pivot3_impossible (S : Chart) {n : Nat}
     (by dsimp -failIfUnchanged [lo, hi]; omega) ha hz hp10
   norm_num [lo, hi] at hb
 
-#print axioms aba_iff_local_pivot
-#print axioms tailD_pivot3_impossible
 
 end
 end F7Manuscript.W38ProTailDWallActual

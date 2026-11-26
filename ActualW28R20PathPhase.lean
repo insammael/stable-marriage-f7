@@ -58,8 +58,5 @@ theorem phase_slot_exclusions {N M : Nat}
     have h := aboveTriple_not_ge C hs (col i)
     simpa only [hsource i] using! h
 
-#print axioms below_before_switch
-#print axioms above_after_switch
-#print axioms phase_slot_exclusions
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW28R20PathPhase

@@ -611,6 +611,5 @@ theorem patterns_have_entries : ∀ pat ∈ patterns, Nonempty (PatternEntry pat
       positive := by decide +kernel
     }⟩
 
-#print axioms patterns_have_entries
 
 end F7Manuscript.ActualW21OldIntervalPatternEntries

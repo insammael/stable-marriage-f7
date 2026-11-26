@@ -171,9 +171,6 @@ theorem actual_switch_three_successor_charges
   change 4 ≤ S.q + S.s
   omega
 
-#print axioms three_successor_charged_sites_give_s_ge_three
-#print axioms three_successor_charges_force_budget_four
-#print axioms actual_switch_three_successor_charges
 
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW29R20ActualThreeSuccessorCharges

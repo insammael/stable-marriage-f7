@@ -214,6 +214,5 @@ theorem actual_oneG_singleton_pre_post_q_zero
     have hmGe : 12 ≤ SPost.m := by omega
     omega
 
-#print axioms actual_oneG_singleton_pre_post_q_zero
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW35OneGSingletonPostQZero

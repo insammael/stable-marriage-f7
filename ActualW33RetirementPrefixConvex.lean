@@ -32,5 +32,4 @@ theorem orderConvex_of_dual_rank_prefix
   have hzp := (hmem qz).mpr hqz
   simpa [qz] using! hzp
 
-#print axioms orderConvex_of_dual_rank_prefix
 end F7Manuscript.ActualW33RetirementPrefixConvex

@@ -78,5 +78,4 @@ theorem token_five_exits_three_to_one
   exact ⟨e,hqe,het,hends31,hpre3,hpre1,
     by simpa [hy1] using! hposty,hpost3.trans hpre1⟩
 
-#print axioms token_five_exits_three_to_one
 end F7Manuscript.ActualW20P6FiveThreeExitToOne

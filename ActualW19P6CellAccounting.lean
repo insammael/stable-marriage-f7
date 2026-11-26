@@ -53,8 +53,5 @@ theorem p6_three_distinct_unused_false
   rw [hcard, p6_unused_cells_card tr] at hle
   omega
 
-#print axioms p6_relation_cells_card
-#print axioms p6_unused_cells_card
-#print axioms p6_three_distinct_unused_false
 
 end F7Manuscript.ActualW19P6CellAccounting

@@ -203,5 +203,4 @@ theorem actual_BAA_token_one_enters_six_after_four
   exact ⟨e,k0,k1,k2,f,r,hlist,h01,h12,he,hrafter,hpre6,hpost6e,
     hdepartSupport,hf,hF0,hpost3,hsupportR,hpre1,hrpost,hpost1,hfreeze1⟩
 
-#print axioms actual_BAA_token_one_enters_six_after_four
 end F7Manuscript.ActualW20P6BAAB1ArrivalAfterFour

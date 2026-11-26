@@ -137,7 +137,6 @@ theorem subsetNormalBlockSchedule_validity
             | exact hvRoute
             | simpa [d, List.replicate_succ] using! hvRoute
 
-#print axioms subsetNormalBlockSchedule_validity
 
 end
 end F7Manuscript.TripleCoordinateLattice

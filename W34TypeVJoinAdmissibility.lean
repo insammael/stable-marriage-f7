@@ -67,6 +67,5 @@ theorem typeV_join_centerColorAdmissible
       ⟨hpre, by simpa only [Nat.zero_add] using! hrest⟩
   simpa [pre, mid, post, c, List.append_assoc] using! hjoined
 
-#print axioms typeV_join_centerColorAdmissible
 end
 end F7Manuscript.TripleCoordinateLattice.W34TypeVJoinAdmissibility

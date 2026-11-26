@@ -231,7 +231,6 @@ theorem saved_templates_have_shape :
     (templatesZ1 ++ templatesZ2 ++ templatesZ3).all templateShapeCheck = true := by
   decide
 
-#print axioms saved_templates_have_shape
 
 private theorem boundedPairs_length : boundedPairs.length = 21 := by decide +kernel
 private theorem boundedRows_length : boundedRows.length = 630 := by decide +kernel
@@ -243,7 +242,6 @@ theorem bounded_control_cardinalities :
       oldRowSymmetries.length = 48 := by
   exact ⟨boundedPairs_length, boundedRows_length, boundedSortedRows_length, F7TOutsider.symmetry_table_length⟩
 
-#print axioms bounded_control_cardinalities
 
 private theorem boundedPrefixWords_one_length : (boundedPrefixWords 1).length = 12 := by decide +kernel
 private theorem boundedPrefixWords_two_length : (boundedPrefixWords 2).length = 120 := by decide +kernel
@@ -255,6 +253,5 @@ theorem bounded_prefix_counts :
     (boundedPrefixWords 3).length = 1152 := by
   exact ⟨boundedPrefixWords_one_length, boundedPrefixWords_two_length, boundedPrefixWords_three_length⟩
 
-#print axioms bounded_prefix_counts
 
 end F7Manuscript.TOutsiderSavedTemplateCatalog

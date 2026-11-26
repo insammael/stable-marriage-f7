@@ -239,10 +239,5 @@ theorem r21_reversed_execution_source_chart_eq
       reversedNormalSkeleton B h221 h311 hz := rfl
 end Schedule
 
-#print axioms normal_reverse_center
-#print axioms normal_reverse_block_fields
-#print axioms normal_reversed_chart_costs
-#print axioms r21_single_T_reversed_PRE_cost
-#print axioms r21_reversed_execution_source_chart_eq
 end
 end F7Manuscript.TripleCoordinateLattice

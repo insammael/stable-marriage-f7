@@ -71,6 +71,4 @@ theorem actual_BAA_cell_04_has_receipt
   rcases Finset.mem_image.mp hreceipt with ⟨s,_,hs⟩
   exact ⟨s,hs⟩
 
-#print axioms actual_BAA_cell_01_unused
-#print axioms actual_BAA_cell_04_has_receipt
 end F7Manuscript.ActualW20P6BAACell01Cell04Receipt

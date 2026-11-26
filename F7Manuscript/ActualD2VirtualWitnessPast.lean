@@ -58,6 +58,5 @@ theorem actual_d2_virtual_witness_past_timestamp
   · exact Nat.le_of_lt_succ u.isLt
   · exact hu
 
-#print axioms actual_d2_virtual_witness_past_timestamp
 
 end F7Manuscript.TripleCoordinateLattice

@@ -63,6 +63,5 @@ theorem four_event_middle_binary (S : SupportModel V (Agent 7))
   · omega
   · constructor <;> omega
 
-#print axioms four_event_middle_binary
 
 end F7Manuscript.NormalSupportRigidity

@@ -143,7 +143,5 @@ theorem pathSegment_order_convex_of_empty_slots {N : ℕ}
     rw [hempty n hln hnr] at hzmem
     exact False.elim (Finset.notMem_empty z hzmem)
 
-#print axioms pathSegment_core_between
-#print axioms pathSegment_order_convex_of_empty_slots
 end
 end F7Manuscript.TripleCoordinateLattice

@@ -54,7 +54,6 @@ theorem actual_X_ordinal45_rawforward_before_ge_three
     simpa [hclock] using! hK18
   omega
 
-#print axioms actual_X_ordinal45_rawforward_before_ge_three
 
 end
 end F7Manuscript.ActualW17Saved45RawForwardEndpointK18

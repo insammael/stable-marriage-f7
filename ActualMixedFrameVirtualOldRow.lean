@@ -45,6 +45,5 @@ theorem actualFrame_frontierMemory_initialFrontierPast
   · simpa [B, e] using! he.2.1
   · simpa [D, e] using! he.2.2
 
-#print axioms actualFrame_frontierMemory_initialFrontierPast
 
 end F7Manuscript.PartnerGraph.Sized

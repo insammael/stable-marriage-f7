@@ -133,7 +133,5 @@ theorem classify_unique_with_explicit_frontend
   obtain ⟨F⟩ := hl
   exact (core_iso_kind_eq (E.symm.trans F)).symm
 
-#print axioms core_iso_kind_eq
-#print axioms classify_unique_with_explicit_frontend
 
 end NeutralCore

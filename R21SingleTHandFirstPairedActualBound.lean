@@ -86,6 +86,5 @@ theorem oriented_first_paired_mass_le_twelve {phase order n m S T}
  simp -failIfUnchanged only [eventCount] at count
  omega
 
-#print axioms oriented_first_paired_mass_le_twelve
 end
 end F7Manuscript.R21SingleTHand

@@ -82,6 +82,5 @@ theorem actual_one_T_binary_singleton_count_or_center_gap
         C hn h221 h311 hu hG hT hSingletonCrew)
   · exact Or.inr ⟨j0, hTj, hCenter⟩
 
-#print axioms actual_one_T_binary_singleton_count_or_center_gap
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW36BinaryTCountOrCenterGapSingleton

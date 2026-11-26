@@ -150,7 +150,5 @@ theorem U_from_independent_foundations [Fintype V]
   exact central_outsider_excludes_deficit_at_most_two hbudget h311 h33
     hA hB hC hchain hp hq hsmallCut
 
-#print axioms outsider_below_frame
-#print axioms U_from_independent_foundations
 
 end ConditionalUL

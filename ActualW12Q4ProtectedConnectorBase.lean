@@ -1,5 +1,6 @@
 module
 
+public import Mathlib
 public import F7Manuscript.SizedPartnerGraphCertificate
 
 @[expose] public section
@@ -217,13 +218,5 @@ theorem after56_mutual (a b : Site) (hab : after56 a b) (hba : after56 b a) :
   fin_cases a <;> fin_cases b <;> simp [after56, ProtectedConnectorModel, updateRel, Equiv.swap_apply_def, Fin.ext_iff] at hab hba ⊢
 
 
-#print axioms future_zero_of_no_mutual
-#print axioms future_le_one_of_two_mutual
-#print axioms future_le_two_of_three_mutual
-#print axioms initial_mutual
-#print axioms after23_mutual
-#print axioms after45_mutual
-#print axioms after46_mutual
-#print axioms after56_mutual
 
 end F7Manuscript.ActualW12Q4ProtectedConnectorsHandBound

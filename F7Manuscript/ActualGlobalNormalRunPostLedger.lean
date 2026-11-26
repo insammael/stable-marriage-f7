@@ -98,7 +98,5 @@ theorem actual_global_normal_run_cost_with_post_corrections
   rw [Finset.sum_sub_distrib] at hcost ⊢
   omega
 
-#print axioms actual_macro_next_run_prior_cross_le_post_correction
-#print axioms actual_global_normal_run_cost_with_post_corrections
 end
 end F7Manuscript.TripleCoordinateLattice

@@ -266,6 +266,5 @@ theorem actual_singleton_switch_second_next_block_zero
   exact no_two_event_cover_of_saturated_survivors
     R' t.castSucc W hpast' htok' q hroomQ hfinish hcoverSurvivors
 
-#print axioms actual_singleton_switch_second_next_block_zero
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW28R20ActualSecondNextBlockZero

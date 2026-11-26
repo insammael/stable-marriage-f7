@@ -121,6 +121,5 @@ def splice (h : SpliceHistory R Q) : TokenRun Site Site (n+m) where
       rw [hb,hc]
       exact joinRank_right_worse R Q h j a ha'
 
-#print axioms splice
 end
 end F7Manuscript.TripleCoordinateLattice.R21BareTHandSplice

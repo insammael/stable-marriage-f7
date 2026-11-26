@@ -69,7 +69,5 @@ theorem actual_pure_suffix_cuts
     (actualPureSuffixFrontierChart C h221 h311 hG hT lo hzero)
     (actual_pure_suffix_chart_convex C h221 h311 hG hT hQ lo hzero)
 
-#print axioms actual_pure_suffix_chart_convex
-#print axioms actual_pure_suffix_cuts
 end
 end F7Manuscript.ActualW33PureSuffixConvex

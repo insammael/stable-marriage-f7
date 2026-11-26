@@ -32,7 +32,6 @@ theorem selected16_root_carrier_bound
     F7Manuscript.ActualW22Selected16TypedGraph.table_checked
     18 controlTree controlTree_valid selected16_old_frontier
 
-#print axioms selected16_root_carrier_bound
 
 end
 end F7Manuscript.ActualW22Selected16RootCarrierBound

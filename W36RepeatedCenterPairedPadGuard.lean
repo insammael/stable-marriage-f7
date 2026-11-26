@@ -196,5 +196,4 @@ theorem repeated_center_paired_pad_return_false
   exact three_actor_return_interval_false R u i l a b z hui hil hab haz hbz
     hOld hmemA hmemB hFirst' haway nextBit hLast'
 
-#print axioms repeated_center_paired_pad_return_false
 end F7Manuscript.W36RepeatedCenterPairedPadGuard

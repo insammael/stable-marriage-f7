@@ -272,7 +272,5 @@ theorem impossible_of_root_witness (turns : Nat → Bool) (m : Nat)
   rw [hplan] at hNoReturn
   exact rootPlan_impossible r t bits hnorm hNoReturn
 
-#print axioms rootPlan_impossible
-#print axioms impossible_of_root_witness
 
 end F7Manuscript.NormalQ0PivotRootCatalog57

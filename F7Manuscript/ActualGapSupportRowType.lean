@@ -74,7 +74,6 @@ theorem actual_gap_support_row_type
       · by_cases hl : label <;> simpa [X, gapCanonicalRow, hpair, pairSupport, hl] using! hX
       · by_cases hl : label <;> simpa [Y, gapCanonicalRow, hpair, pairSupport, hl] using! hY
 
-#print axioms actual_gap_support_row_type
 
 end
 end F7Manuscript.OneGap

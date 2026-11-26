@@ -66,7 +66,6 @@ theorem same_events_reverse_periodic
     change e (H.word (13 - (n + 1))) = F7Periodic.color n
     simpa only [reverseWord, dif_pos hn] using! he n hn
 
-#print axioms same_events_reverse_periodic
 
 end Mixed13SameKReverseFrontier
 
@@ -127,7 +126,6 @@ theorem reverse_frontier_on_same_K
 
   exact ⟨H, hH.trans hA, hreverse.trans hA, hperiodic⟩
 
-#print axioms reverse_frontier_on_same_K
 
 end Mixed13SameKSourceMatching
 
@@ -193,7 +191,6 @@ private theorem mixed13_subset_same_K_reverse_frontier_exists
     Mixed13SameKSourceMatching.reverse_frontier_on_same_K
       K B h221K h311K hzK hm hq hs
 
-#print axioms mixed13_subset_same_K_reverse_frontier_exists
 
 section Original
 
@@ -289,7 +286,6 @@ theorem h7_original_mixed13_post_same_K_reverse_frontier_exists
       K B h221K h311K hzK
       hS.2.1 hS.2.2.1 hS.2.2.2
 
-#print axioms h7_original_mixed13_post_same_K_reverse_frontier_exists
 
 end Original
 

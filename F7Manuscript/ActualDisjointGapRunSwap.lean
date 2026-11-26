@@ -261,9 +261,5 @@ noncomputable def swapAdjacentRun_observedPrefix_after {W : Type*} [Fintype W] {
       swapAdjacentRun_observed_state_after R i j p r hji hP hR hdisj t ht a u hu
     exact ⟨v, hv, hvu.trans he⟩
 
-#print axioms swapAdjacentRun
-#print axioms swapAdjacentRun_observedPrefix_before
-#print axioms swapAdjacentRun_observed_state_after
-#print axioms swapAdjacentRun_observedPrefix_after
 
 end F7Manuscript.ActualDisjointGapRunSwap

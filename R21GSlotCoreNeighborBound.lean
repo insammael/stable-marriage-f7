@@ -170,6 +170,5 @@ theorem actual_fixed_slot_core_neighbor_sum_le_card_add_two
     intro d hne hdr
     exact hrx.2 ((hpos x hx d hne).2.le.trans hdr)
 
-#print axioms actual_fixed_slot_core_neighbor_sum_le_card_add_two
 end
 end F7Manuscript.TripleCoordinateLattice

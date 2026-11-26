@@ -135,9 +135,6 @@ theorem reflectedRetirementIndex_pair (C : Chart)
   simp [reflectedFullChronologicalEquiv, reflectedIdentitySidePerm,
     fullChronologicalEquiv]
 
-#print axioms reflectVertexEquiv
-#print axioms reflectedRetirementAddressEquiv
-#print axioms orderedRetirementSlotEquiv
 
 end F7Manuscript.NormalSkeleton.Chart
 
@@ -220,9 +217,5 @@ theorem actualOrderedRetirementEventEquiv_pair
       normalOldPair C h221 h311 hz j.rev k.rev s by rfl]
   exact actualNormalLabel_oldPair C h221 h311 hz j.rev k.rev s
 
-#print axioms actualOrderedRetirementEventEquiv
-#print axioms actualOrderedRetirementEventEquiv_initial
-#print axioms actualOrderedRetirementEventEquiv_center
-#print axioms actualOrderedRetirementEventEquiv_pair
 
 end F7Manuscript.TripleCoordinateLattice.GenericNormal

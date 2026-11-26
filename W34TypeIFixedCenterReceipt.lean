@@ -91,5 +91,4 @@ theorem fixed_center_middle_receipts_false
       rw [hreturn] at hmono
       omega
 
-#print axioms fixed_center_middle_receipts_false
 end F7Manuscript.W34TypeIFixedCenterReceipt

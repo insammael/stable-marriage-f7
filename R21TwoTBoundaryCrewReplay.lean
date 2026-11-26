@@ -40,6 +40,4 @@ theorem replay_eq_of_perm_of_commute {u v : List Swap} (h : u.Perm v)
     intro B p hp q hq
     exact hc B p (h1.mem_iff.mpr hp) q (h1.mem_iff.mpr hq)
 
-#print axioms step_flip
-#print axioms replay_eq_of_perm_of_commute
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

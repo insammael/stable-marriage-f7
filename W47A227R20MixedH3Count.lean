@@ -52,4 +52,3 @@ end
 
 end F7Manuscript.ActualR20H3
 
-#print axioms F7Manuscript.ActualR20H3.w47_a227_stableCount_le_85_of_original_mixed_no_T

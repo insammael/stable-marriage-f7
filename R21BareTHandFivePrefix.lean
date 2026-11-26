@@ -40,6 +40,4 @@ theorem normalMass_le_six {n B f started}
   · exact rejectMass_sound h7 hp
   · exact rejectMass_sound h8 hp
 
-#print axioms normalMass_prefix
-#print axioms normalMass_le_six
 end F7Manuscript.TripleCoordinateLattice.R21BareTHandFive

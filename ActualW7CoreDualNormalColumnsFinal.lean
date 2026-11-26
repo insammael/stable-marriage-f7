@@ -96,7 +96,6 @@ theorem actual_dual_core_columns_at_reverse_index
     (coreDualOrderIso C) h221A h311A hzA i
   exact ⟨hcongr.1.trans htransport.1, hcongr.2.trans htransport.2⟩
 
-#print axioms actual_dual_core_columns_at_reverse_index
 
 end
 end F7Manuscript.ActualW7CoreDualNormalColumnsFinal

@@ -262,6 +262,5 @@ theorem p5_typeB_II_actual_impossible
         hOneX hOneY (by intro heq; subst qY; omega)
   · omega
 
-#print axioms p5_typeB_II_actual_impossible
 end F7Manuscript.ActualW20P5TypeBIIActualContradiction
 

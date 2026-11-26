@@ -56,7 +56,6 @@ theorem actual_raw_shape_two_way_spacing
   · intro j hj2 hjm hlevel
     exact actual_raw_shape_backward_spacing C h221 h311 hG hT hn X j hj2 hjm hlevel
 
-#print axioms actual_raw_shape_two_way_spacing
 
 end
 end F7Manuscript.TripleCoordinateLattice

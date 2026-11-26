@@ -607,9 +607,5 @@ theorem A34_second_complete (c : CycleSpec)
     Matches c A12 := by
   exact (A34_second_iff c).mp hc
 
-#print axioms A12_second_iff
-#print axioms A34_second_iff
-#print axioms A12_second_complete
-#print axioms A34_second_complete
 
 end F7Manuscript.Frozen13A12A34Second

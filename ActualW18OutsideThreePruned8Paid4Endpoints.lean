@@ -88,6 +88,5 @@ theorem actual_outside_three_frontier_pruned8_paid4_endpoints
     exact Or.inr ⟨X,hq,hs,hm,hpaidCount,
       ⟨i,a,b,hab,hpaid,hextra,⟨hgeom,hendpoint⟩⟩⟩
 
-#print axioms actual_outside_three_frontier_pruned8_paid4_endpoints
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW18OutsideThreePruned8Paid4Endpoints

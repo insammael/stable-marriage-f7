@@ -76,6 +76,5 @@ theorem old_mate_token_is_in_actual_past
   simp only [Fin.val_castSucc]
   exact Nat.le_of_lt (hbeta p)
 
-#print axioms old_mate_token_is_in_actual_past
 end
 end F7Manuscript.ActualW28R20OldMateMemory

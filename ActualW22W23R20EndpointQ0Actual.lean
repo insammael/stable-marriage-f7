@@ -174,9 +174,6 @@ theorem actualNormalCoreQ0Chart_events
     simp [NormalSkeleton.Chart.n, hq0]
   omega
 
-#print axioms normalCoreQ0_double_zero
-#print axioms actualNormalCoreQ0Chart
-#print axioms actualNormalCoreQ0Chart_events
 end
 end F7Manuscript.TripleCoordinateLattice
 
@@ -247,6 +244,5 @@ theorem r20_endpoint_q0_core_cost_four
   change 4 ≤ (S).q + (S).s
   omega
 
-#print axioms r20_endpoint_q0_core_cost_four
 end
 end F7Manuscript.TripleCoordinateLattice

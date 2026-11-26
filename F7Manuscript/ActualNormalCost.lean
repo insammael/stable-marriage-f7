@@ -93,10 +93,6 @@ theorem r20_unpaired_actual_count_le_85
   rw [hn, hTriple] at hcount
   omega
 
-#print axioms actual_completion_ledger
-#print axioms actual_sixteen_unpaired_pair_deficit_ge_four
-#print axioms actual_seventeen_unpaired_pair_deficit_ge_six
-#print axioms r20_unpaired_actual_count_le_85
 
 end
 end F7Manuscript.ActualNormalCost

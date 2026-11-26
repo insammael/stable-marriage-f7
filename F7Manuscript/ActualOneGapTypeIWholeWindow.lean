@@ -492,7 +492,6 @@ theorem actual_typeI_gap_to_whole_enumeration
     rw [typeIWhole_enum_transport_point, hiCast]
     simpa only using! hp
 
-#print axioms actual_typeI_gap_to_whole_enumeration
 
 end
 end F7Manuscript.TripleCoordinateLattice

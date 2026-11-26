@@ -61,6 +61,5 @@ theorem threshold_prefix_four_singleton_metadata
   obtain ⟨c,hc⟩ := Finset.card_eq_one.mp hlabel
   exact ⟨n,rfl,by simpa only [n,Fin.val_mk] using! hg,c,hc⟩
 
-#print axioms threshold_prefix_four_singleton_metadata
 end
 end F7Manuscript.TripleCoordinateLattice

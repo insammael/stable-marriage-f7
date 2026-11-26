@@ -68,6 +68,4 @@ theorem p6_token_five_freezes_four_after_two_with_three_frozen
     exact (by decide : (5 : Site) ≠ 2) (hnew3.symm.trans hfrozen)
   · exact hy4 hy4'
 
-#print axioms p6_token_six_freezes_after_three_four
-#print axioms p6_token_five_freezes_four_after_two_with_three_frozen
 end F7Manuscript.ActualW20P6ABBExclusiveFreezes

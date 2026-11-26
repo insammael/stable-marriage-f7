@@ -398,9 +398,5 @@ theorem noReturn_dual (plan : List Move) (bits : Nat → Bool)
       rw [hsrc, htgt]
   · exact hcanonical
 
-#print axioms inverseWord_pairAt
-#print axioms rawDualRoute_eq_inverseWord
-#print axioms historyWord_transpose_rename_eq_inverseWord
-#print axioms noReturn_dual
 
 end F7Manuscript.N4FullDualHistoryBridge

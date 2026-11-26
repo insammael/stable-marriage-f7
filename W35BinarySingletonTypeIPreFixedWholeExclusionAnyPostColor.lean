@@ -252,6 +252,5 @@ theorem actual_binary_singleton_typeI_pre_fixed_whole_exclusion_any_post_color
     (reindexRun R e) hcard20 Spre Spost alpha.perm b bits
     (by change Spre.m = 1; exact hmPreOne) hpostStart hα0 hbudget
     h0 h1 h2 h3 hq hroute'
-#print axioms actual_binary_singleton_typeI_pre_fixed_whole_exclusion_any_post_color
 end
 end F7Manuscript.TripleCoordinateLattice

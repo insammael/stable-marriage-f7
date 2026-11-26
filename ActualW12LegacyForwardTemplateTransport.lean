@@ -176,7 +176,6 @@ theorem template_fit_direct_forward
     · exact le_trans hlast hlastOuter
   simpa [TemplateFitAt, W', D', Bool.false_eq_true] using! hresult
 
-#print axioms template_fit_direct_forward
 
 end
 end F7Manuscript.ActualW12LegacyForwardTemplateTransport

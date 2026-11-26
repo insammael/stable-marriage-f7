@@ -61,7 +61,6 @@ theorem actual_u3_q1_s3_paid8_extra27_or67_allorient_false
     exact actual_u3_q1_s3_paid8_extra67_min_le_two_false
       C hn hδ hdeficit hpos h221 h311 hG hT X hu hq hs hpaid h67 (by omega)
 
-#print axioms actual_u3_q1_s3_paid8_extra27_or67_allorient_false
 
 end
 end ActualW17Q1Saved45Anchor8TwoExtrasAllOrientFalse

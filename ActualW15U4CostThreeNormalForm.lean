@@ -182,7 +182,6 @@ theorem actual_X_u4_cost_three_normal_form
       W = macroColors (pivotsOf W) W.length := hcolors'
       _ = macroColors (pivotsOf W) 14 := by rw [hWlen, hm14]
 
-#print axioms actual_X_u4_cost_three_normal_form
 
 end
 end ActualW15U4CostThreeNormalForm

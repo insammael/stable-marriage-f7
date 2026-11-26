@@ -99,8 +99,6 @@ theorem subsetNormal_mixed_trace_exists_from_frame
     Q hQ B h221 h311 hz hm f hv hrow
   exact ⟨T⟩
 
-#print axioms subsetNormal_mixed_trace_exists_from_frame_eq
-#print axioms subsetNormal_mixed_trace_exists_from_frame
 
 end
 end F7Manuscript.TripleCoordinateLattice

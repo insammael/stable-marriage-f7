@@ -35,4 +35,3 @@ theorem close_original_ledger
 
 end A121Arithmetic
 
-#print axioms A121Arithmetic.close_original_ledger

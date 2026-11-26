@@ -187,6 +187,5 @@ theorem actual_X_q2_s2_paid_zero_false
   exact F7Manuscript.ActualW17Q2S2PaidZeroFalse.m11_paid_zero_two_pivot_partial_false
     W D (by rw [hWlen,hm]) (by rw [hDlen11]) hDend hDint hpivF hpivR hSomeF hSomeR
 
-#print axioms actual_X_q2_s2_paid_zero_false
 end
 end F7Manuscript.ActualW17Q2S2PaidZeroActual

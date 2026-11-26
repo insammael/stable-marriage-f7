@@ -134,6 +134,5 @@ theorem actual_normal_run_post_future_enumeration
     ({center} : Finset (Event I)) tail (enumeration {center}) Dtail hdisj hforward
   exact ⟨tail,hsplit,htail,Dtail,hpts,hc,H,hpoints⟩
 
-#print axioms actual_normal_run_post_future_enumeration
 end
 end F7Manuscript.TripleCoordinateLattice

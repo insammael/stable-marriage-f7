@@ -90,6 +90,5 @@ theorem DatedPlan.centerTailFrameWithLeftDates
         if_neg (show k.val≠off+3 by omega)]
     exact ⟨S,bin,seeds,first,tailRoute,newColors,leftFixed⟩
 
-#print axioms DatedPlan.centerTailFrameWithLeftDates
 end
 end F7Manuscript.R21NormalEndpoint.ReseededObservation

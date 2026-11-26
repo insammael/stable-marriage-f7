@@ -140,7 +140,5 @@ theorem actual_outside_three_691_cover_packet
   obtain ⟨r,hr,hri,hvalid⟩ := witness_with_total_validity k.index h495 h525
   exact ⟨X,k.index,r,hu,hq,hs,hm,hr,hri,hvalid,hW,hD,hsk,huk,hvk⟩
 
-#print axioms actual_outside_three_query_key
-#print axioms actual_outside_three_691_cover_packet
 end
 end F7Manuscript.ActualW21OutsideThreeLiteral691

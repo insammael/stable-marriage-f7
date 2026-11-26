@@ -197,5 +197,4 @@ theorem historyOrigins_adjacent_disjoint_swap (pre : List Swap) (p q : Swap)
         exact F7Manuscript.DisjointSwapOrigins.origins_adjacent_disjoint_swap
           pre p q hdisj a
 
-#print axioms historyOrigins_adjacent_disjoint_swap
 end F7Manuscript.DisjointSwapHistories

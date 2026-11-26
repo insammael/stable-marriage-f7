@@ -93,7 +93,6 @@ theorem actual_r21_one_outsider_two_G_count
   clear * - haccount hledger ends hpay hK
   omega
 
-#print axioms actual_r21_thirteen_mass_pays_three
 end
 end F7Manuscript.TripleCoordinateLattice
 
@@ -111,7 +110,6 @@ theorem r21_one_outsider_two_G_leaf (I : Profile 7) [Nonempty (StableMatching I)
   letI := htr
   exact actual_r21_one_outsider_two_G_count C hn h221 h311 hdelta hu hb hc
 
-#print axioms r21_one_outsider_two_G_leaf
 end
 end F7Manuscript.ActualPositiveDeficitCoverAssembly
 

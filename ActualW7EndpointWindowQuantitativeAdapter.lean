@@ -106,8 +106,6 @@ theorem endpoint_observed_control_false_of_all_binary
     valid old bits hcode hnr R hbound observed atomic binary
   omega
 
-#print axioms observed_control_suffix_bound_of_all_binary
-#print axioms endpoint_observed_control_false_of_all_binary
 
 end
 end F7Manuscript.W7EndpointWindowQuantitativeAdapter

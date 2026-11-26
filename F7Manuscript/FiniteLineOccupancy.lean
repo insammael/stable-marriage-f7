@@ -68,5 +68,4 @@ theorem runBase_sub_occupiedTEdgesFin_ge_one {m : ℕ}
   have hpos := Finset.card_pos.mpr hnonempty
   omega
 
-#print axioms runBase_sub_occupiedTEdgesFin_ge_one
 end F7Manuscript.LineMacroCost

@@ -156,4 +156,3 @@ theorem q1_m_ge_twelve_s_le_one_false
 end
 end F7Manuscript.W35QOneLowCostLengthBound
 
-#print axioms F7Manuscript.W35QOneLowCostLengthBound.q1_m_ge_twelve_s_le_one_false

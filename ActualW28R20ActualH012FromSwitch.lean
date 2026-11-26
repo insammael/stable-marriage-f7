@@ -260,6 +260,5 @@ theorem actual_h012_from_singleton_switch
   · exact hbefore
   · exact hafter
 
-#print axioms actual_h012_from_singleton_switch
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW28R20ActualH012FromSwitch

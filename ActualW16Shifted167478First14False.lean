@@ -212,7 +212,6 @@ theorem actual_X_P167_first14_min_endpoint_zero_false
     C hn hδ h221 h311 hG hT X (by omega) hmin hnorm
     (by intro k hk; exact hDzero k (by omega))
 
-#print axioms actual_X_P167_first14_min_endpoint_zero_false
 
 /-- Actual zero-minimum consumer for global `{4,7,8}`. It obtains the
     offset-one Window11 normalized slice from the global key and delegates to
@@ -298,7 +297,6 @@ theorem actual_X_P478_first14_min_endpoint_zero_false
     C hn hδ h221 h311 hG hT X (by omega) hmin hnorm
     (by intro k hk; exact hDzero k (by omega))
 
-#print axioms actual_X_P478_first14_min_endpoint_zero_false
 
 end
 end F7Manuscript.ActualW16Shifted167478First14False

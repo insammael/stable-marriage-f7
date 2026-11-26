@@ -69,6 +69,5 @@ theorem actual_three_segment_nat_word
         rw [hidx]
         exact hsF ⟨i.val-(A.card+B.card),by omega⟩
 
-#print axioms actual_three_segment_nat_word
 end
 end F7Manuscript.ActualSegmentedNatWord

@@ -106,7 +106,3 @@ end
 
 end F7Manuscript.W47A306OriginalPreHereditarySplice
 
-#print axioms F7Manuscript.TripleCoordinateLattice.NormalRunInterval.delta_zero
-#print axioms F7Manuscript.W47A306OriginalPreHereditarySplice.original_pre_window_eq_first_global_normal_run
-#print axioms F7Manuscript.W47A306OriginalPreHereditarySplice.original_pre_window_delta_zero
-#print axioms F7Manuscript.W47A306OriginalPreHereditarySplice.original_pre_constructed_splice_hereditary

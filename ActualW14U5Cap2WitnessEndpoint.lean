@@ -72,9 +72,6 @@ theorem no_feasible_partial_requirement_of_positive_periodic_fit
   apply hnotzero
   simpa [hrzero] using! hreq
 
-#print axioms partial_requirement_value_nonnegative
-#print axioms no_feasible_partial_requirement_of_root_fit
-#print axioms no_feasible_partial_requirement_of_positive_periodic_fit
 
 end
 end F7Manuscript.ActualW14U5Cap2WitnessEndpoint

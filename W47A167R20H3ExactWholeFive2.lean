@@ -79,7 +79,6 @@ theorem a131_five_element_whole_enumeration
   · simpa using!
       (hwindow (Fin.cast h5.symm (4 : Fin 5))).trans hq
 
-#print axioms a131_five_element_whole_enumeration
 
 end
 

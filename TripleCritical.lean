@@ -64,7 +64,6 @@ theorem triplecritical_01 (t : Matching) (bits : Nat → Bool)
         simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
       exact (h.fresh 10 (by decide) 2 hp 2 (by decide)) hEq
 
-#print axioms triplecritical_01
 
 def plan_triplecritical_02 : List Move := [Move.paired,Move.paired,Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.paired,Move.center (1 : Color)]
 theorem triplecritical_02 (t : Matching) (bits : Nat → Bool)
@@ -313,7 +312,6 @@ theorem triplecritical_02 (t : Matching) (bits : Nat → Bool)
               simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
             exact (h.fresh 13 (by decide) 4 hp 3 (by decide)) hEq
 
-#print axioms triplecritical_02
 
 def plan_triplecritical_03 : List Move := [Move.paired,Move.paired,Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.paired,Move.center (0 : Color)]
 theorem triplecritical_03 (t : Matching) (bits : Nat → Bool)
@@ -562,7 +560,6 @@ theorem triplecritical_03 (t : Matching) (bits : Nat → Bool)
               simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
             exact (h.fresh 13 (by decide) 2 hp 0 (by decide)) hEq
 
-#print axioms triplecritical_03
 
 def plan_triplecritical_04 : List Move := [Move.paired,Move.center (1 : Color),Move.paired,Move.paired,Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color)]
 theorem triplecritical_04 (t : Matching) (bits : Nat → Bool)
@@ -1241,7 +1238,6 @@ theorem triplecritical_04 (t : Matching) (bits : Nat → Bool)
           simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
         exact (h.fresh 9 (by decide) 5 hp 3 (by decide)) hEq
 
-#print axioms triplecritical_04
 
 def plan_triplecritical_05 : List Move := [Move.paired,Move.center (1 : Color),Move.paired,Move.paired,Move.center (0 : Color),Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color)]
 theorem triplecritical_05 (t : Matching) (bits : Nat → Bool)
@@ -1920,6 +1916,5 @@ theorem triplecritical_05 (t : Matching) (bits : Nat → Bool)
           simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
         exact (h.fresh 9 (by decide) 5 hp 3 (by decide)) hEq
 
-#print axioms triplecritical_05
 
 end F7Local

@@ -192,8 +192,5 @@ theorem window53_metadata :
     interval_cases i
     all_goals decide
 
-#print axioms tree53_valid
-#print axioms window53_return_entry
-#print axioms window53_metadata
 end
 end F7Manuscript.ActualW21W76Window53ReturnTree

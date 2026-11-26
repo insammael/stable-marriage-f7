@@ -225,6 +225,5 @@ theorem p5_internal_mutual_count_le_one
     k l hkl (by simpa [J] using! hk.1) (by simpa [J] using! hk.2)
     (by simpa [J] using! hl.1) (by simpa [J] using! hl.2) hinter
 
-#print axioms p5_internal_mutual_count_le_one
 
 end F7Manuscript.ActualW19P5MutualCap

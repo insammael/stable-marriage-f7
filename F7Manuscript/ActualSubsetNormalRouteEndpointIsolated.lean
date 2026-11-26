@@ -193,8 +193,6 @@ theorem subsetNormal_mixed_trace_route_endpoint
   rw [hpair.trans hpairEnd]
   simpa only [Nat.zero_add] using! hlater.trans hlaterEnd
 
-#print axioms subsetNormalSegment_route_endpoint
-#print axioms subsetNormal_mixed_trace_route_endpoint
 
 end
 end F7Manuscript.TripleCoordinateLattice.RouteEndpointIsolated

@@ -113,9 +113,6 @@ theorem zero_deficit_unpaired_singletons (h221 : NoInduced221 (V := V))
     exact Finset.notMem_empty _ hm
   omega
 
-#print axioms triple_deficit_decomposition
-#print axioms zero_triple_deficit_components
-#print axioms zero_deficit_unpaired_singletons
 
 end
 end F7Manuscript.TripleCoordinateLattice

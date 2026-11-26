@@ -111,6 +111,5 @@ theorem covered_pool_marked_long_eight (R : TokenRun Site W 21)
     exact (Finset.card_le_card sub').trans (by rw [count])
   omega
 
-#print axioms covered_pool_marked_long_eight
 end
 end F7Manuscript.R21LongWindow.FourPoolCapacity

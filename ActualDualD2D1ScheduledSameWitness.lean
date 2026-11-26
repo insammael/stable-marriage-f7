@@ -488,7 +488,6 @@ theorem actual_dual_d2_d1_cross_center_false
             P n₁ (by have := t₂.isLt; rw [htime₂, htime₁] at this; omega)
             W' candidate hcandidate hPstart hPpair hPcenter₂ hpast
 
-#print axioms actual_dual_d2_d1_cross_center_false
 
 end
 end F7Manuscript.ActualInputS11D2D1ScheduledSameWitness

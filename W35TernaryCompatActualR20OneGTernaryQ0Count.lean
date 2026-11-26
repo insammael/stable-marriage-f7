@@ -160,6 +160,5 @@ theorem actual_r20_one_G_ternary_short_left_q0_count_le_85
     n N hgn c b hcn hcg hbg hbc f hfc hfb hGcard hnonbinary
     Rpost hpostLeft hqPost hmPost14 hsPost (enumeration Finset.univ)
 
-#print axioms actual_r20_one_G_ternary_short_left_q0_count_le_85
 end
 end F7Manuscript.TripleCoordinateLattice.W35TernaryCompat

@@ -137,7 +137,5 @@ theorem classify_raw_two_paths (PA PB : RawIncreasingTrianglePath V)
     hwidth h311 h221 h33 hdir hmixA hmixB hDeficit
   exact saturated_boundaries_classified S hAB hcover hdir hmixA hmixB
 
-#print axioms coordinateModelIso
-#print axioms classify_raw_two_paths
 
 end NeutralCore

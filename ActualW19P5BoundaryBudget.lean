@@ -149,6 +149,5 @@ theorem p5_boundary_arrival_token_outside
   have hvout : v.1 ∉ S := (Finset.mem_filter.mp v.2).2.1
   simpa [htokenEq, S] using! hvout
 
-#print axioms p5_boundary_arrival_token_outside
 
 end F7Manuscript.ActualW19P5BoundaryBudget

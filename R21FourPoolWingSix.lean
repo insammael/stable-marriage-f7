@@ -164,11 +164,6 @@ theorem actual_eight_four_pool_offset_six_or_seven
   have right := actual_four_pool_right_wing_six R start 8 bound K hK component parts binary
   omega
 
-#print axioms actual_four_pool_right_wing_six
-#print axioms actual_eight_four_pool_offset_six_or_seven
 
-#print axioms personSteps_subRun_iff
-#print axioms window_person_card
-#print axioms actual_four_pool_left_wing_six
 end
 end F7Manuscript.R21LongWindow.FourPoolCapacity

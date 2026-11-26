@@ -108,8 +108,6 @@ theorem W0L7_future_from_observed_prefix {W : Type*} [Fintype W] {q : ℕ}
   rw [W0L7_prefixFresh_eq] at transported
   exact W0L7_future_le_six transported
 
-#print axioms W0L2_future_from_observed_prefix
-#print axioms W0L7_future_from_observed_prefix
 
 end
 end F7Manuscript.ActualW16Window0DeadSiteFuture

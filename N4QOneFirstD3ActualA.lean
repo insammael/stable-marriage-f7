@@ -97,5 +97,4 @@ theorem q1_firstD3_A_impossible
    hroot hadj (by omega)
  omega
 
-#print axioms q1_firstD3_A_impossible
 end F7Manuscript.N4QOneFirstD3ActualA

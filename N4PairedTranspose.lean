@@ -355,14 +355,6 @@ theorem canonical_dual_row_fresh
   exact transposed_row_commute_fresh pre post M _ _
     (valid_pairedPairs_disjoint f hv cross) H
 
-#print axioms dualFrame_pairedPairs_first
-#print axioms firstSwap_fixed_on_second
-#print axioms afterRowMatching_inverse
-#print axioms afterRowMatching_receipts
-#print axioms dualFrame_afterPaired
-#print axioms transposed_row_commute_fresh
-#print axioms transposed_row_history_eq
-#print axioms canonical_dual_row_fresh
 
 end
 end F7Manuscript.N4PairedTranspose

@@ -40,6 +40,5 @@ theorem reflected_after_center_frame_relation
       simpa [afterCenter, put, epsAfterCenter, hd, hτd] using hfront d
   · simpa [afterCenter, hstep.2, hidle]
 
-#print axioms reflected_after_center_frame_relation
 
 end F7Manuscript.W7SignedFrameAfterCenterRelation

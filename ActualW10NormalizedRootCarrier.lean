@@ -172,7 +172,6 @@ theorem normalized_root_carrier_of_canonical
         normalized := by simpa [h2] using! M.norm5
       }⟩
 
-#print axioms normalized_root_carrier_of_canonical
 
 end
 end F7Manuscript.ActualW10NormalizedRootCarrier

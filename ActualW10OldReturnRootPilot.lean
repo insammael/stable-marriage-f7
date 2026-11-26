@@ -79,9 +79,6 @@ def pilotTripleCriticalD2 : ReturnRootEntry where
 def pilot : List ReturnRootEntry :=
   [pilotSingleAnchor0, pilotTripleCriticalD1, pilotTripleCriticalD2]
 
-#print axioms pilotSingleAnchor0
-#print axioms pilotTripleCriticalD1
-#print axioms pilotTripleCriticalD2
 
 #eval IO.eprintln "W10 old return-root pilot prepared"
 

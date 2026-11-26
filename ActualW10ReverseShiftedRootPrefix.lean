@@ -292,9 +292,6 @@ theorem reverse_shifted_saved_root_prefix
   rw [hfull]
   simpa [rootWord, savedRootPlan] using! hprefix
 
-#print axioms actual_X_reverse_shifted_root_packet
-#print axioms reverse_shifted_normalized_slice
-#print axioms reverse_shifted_saved_root_prefix
 
 end
 end F7Manuscript.ActualW10ReverseShiftedRootPrefix

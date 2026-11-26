@@ -55,7 +55,5 @@ theorem final_B_to_A_two_unused
       hinitial hswitch.2.1 hfinal (by decide) (by decide)
     simp [graphRel, p6G0, ofEdges]
 
-#print axioms final_A_to_B_two_unused
-#print axioms final_B_to_A_two_unused
 
 end F7Manuscript.ActualW19P6FinalSwitchUnused

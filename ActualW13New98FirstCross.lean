@@ -66,6 +66,5 @@ theorem new98_first_cross_true (bits : Nat → Bool)
     exact noReturn_forbidden_incoming new98Plan bits 7 N (by simp [new98Plan, eventCount])
       2 6 (by decide) (Or.inr hp) hs
 
-#print axioms new98_first_cross_true
 
 end F7Manuscript.ActualW13New98FirstCross

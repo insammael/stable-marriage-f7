@@ -52,7 +52,4 @@ theorem replay_mapped_root (e : Equiv.Perm Site) (w : List Swap) (A : Board) (d 
   have h' := related_replay e initial initial d (e d) (related_initial e d) w
   exact related_right_unique e (replay initial w) _ A d (e d) da h' h
 
-#print axioms replay_mapped_root
-#print axioms related_symm
-#print axioms related_trans
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

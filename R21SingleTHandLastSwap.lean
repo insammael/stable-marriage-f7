@@ -85,6 +85,5 @@ theorem last_swap_end_allowed {n m : ℕ}
     exact hsame.symm.trans hfull
   exact ⟨(L.state i.castSucc a,observed L k i.castSucc a U),hI,rfl,he,hfresh,hmask⟩
 
-#print axioms last_swap_end_allowed
 end
 end F7Manuscript.R21SingleTHand

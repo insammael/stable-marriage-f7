@@ -120,8 +120,5 @@ theorem b8_eq_not_b6 (bits : Nat → Bool) (h0 : bits 0 = false)
   · rfl
   · exact False.elim (bad_b8_when_b6_one bits h0 N h4 h5 h6 h8)
 
-#print axioms bad_b8_when_b6_zero
-#print axioms bad_b8_when_b6_one
-#print axioms b8_eq_not_b6
 
 end F7Manuscript.ActualW13New102ControlB8

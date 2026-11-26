@@ -33,7 +33,6 @@ theorem original_context_enumeration_nonempty
   classical
   exact ⟨ConvexExecution.enumeration Q⟩
 
-#print axioms original_context_enumeration_nonempty
 
 end
 

@@ -55,6 +55,5 @@ theorem p5_special_token_stays_in_S
     (p5_special_token_allowed_sites_literal tok htok)
     k l x y hxS hentry hkl hyS hlater
 
-#print axioms p5_special_token_stays_in_S
 
 end F7Manuscript.ActualW19P5SpecialTokenPoolStay

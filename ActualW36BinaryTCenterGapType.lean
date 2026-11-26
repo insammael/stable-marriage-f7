@@ -148,8 +148,5 @@ theorem actual_one_T_binary_singleton_count_or_typed_gap
   · exact Or.inr ⟨j, hTj,
       actual_center_gap_form_to_type_row_form _ _ hgap⟩
 
-#print axioms actual_center_gap_form_to_type_row_form
-#print axioms actual_one_T_both_long_count_or_typed_gap
-#print axioms actual_one_T_binary_singleton_count_or_typed_gap
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW36BinaryTCenterGapType

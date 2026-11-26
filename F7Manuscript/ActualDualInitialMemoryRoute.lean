@@ -176,9 +176,7 @@ theorem actual_dual_postcenter_route_with_initial_memory_and_first_color
   exact ⟨R, word, levels, m, bits, hm', hword, hlevels, h0, h1, h2, h3,
     hroute, hinitial, hword0, ρ, a, p, e, f, g, hv, H, S, hrun, hnorm, hbits⟩
 
-#print axioms actual_dual_postcenter_route_with_initial_memory_and_first_color
 
-#print axioms actual_dual_postcenter_route_with_initial_memory
 
 end
 end F7Manuscript.ActualDualInitialMemoryRoute

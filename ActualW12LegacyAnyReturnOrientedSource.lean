@@ -223,8 +223,6 @@ theorem actual_X_any_return_root_oriented_source_false
   exact actual_X_any_return_root_all_cuts_false C hn hδ h221 h311 hG hT X entry hroot
     physicalDual j hfitActual
 
-#print axioms AnyReturnRootOrientedFitAt
-#print axioms actual_X_any_return_root_oriented_source_false
 
 end
 end F7Manuscript.ActualW12LegacyAnyReturnOrientedSource

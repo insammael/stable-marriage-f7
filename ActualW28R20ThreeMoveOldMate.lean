@@ -115,5 +115,4 @@ theorem exists_active_mate_match
   have hcd' : c = d := σ.injective (hσc_eq_b.trans hσd_eq_b.symm)
   exact hcd hcd'
 
-#print axioms exists_active_mate_match
 end F7Manuscript.ActualW28R20ThreeMoveOldMate

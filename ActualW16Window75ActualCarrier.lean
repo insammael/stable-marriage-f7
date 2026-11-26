@@ -161,7 +161,6 @@ theorem actual_X_u4_cost_three_pivots3910_false
       C hn hδ h221 h311 hG hT X hnm hreverse hnorm hDzero
     exact carrier_window75_false (restrict_root_carrier_to_prefix carrier hp)
 
-#print axioms actual_X_u4_cost_three_pivots3910_false
 
 end
 end F7Manuscript.ActualW16Window75ActualCarrier

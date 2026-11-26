@@ -77,6 +77,4 @@ theorem WordContext.stepLeft (i : Fin 155)
     simp only [List.length_cons]
     omega
 
-#print axioms WordContext.stepLeft
-#print axioms WordContext.stepRight
 end F7Manuscript.R21LongWindow.DatedBoardSteps

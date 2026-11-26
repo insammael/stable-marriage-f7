@@ -261,9 +261,6 @@ theorem m08_h3_2_canonical_original_row_geometry_of_no_T
   refine ⟨n, hs, ht, f, hstep.symm, ?_⟩
   exact hgeom.2.2 f hstep.symm
 
-#print axioms original_switch_row_geometry
-#print axioms m08_h3_2_canonical_original_row_geometry_partial
-#print axioms m08_h3_2_canonical_original_row_geometry_of_no_T
 
 end
 end F7Manuscript.ActualR20H3

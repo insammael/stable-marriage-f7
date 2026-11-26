@@ -69,7 +69,6 @@ theorem initial_first_D_from_supports {W : Type*} [Fintype W] {q m : Nat}
   congr 1
   omega
 
-#print axioms initial_first_D_from_supports
 
 end
 end F7Manuscript.ActualW9InitialFirstDFromSupports

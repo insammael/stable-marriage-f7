@@ -76,6 +76,4 @@ theorem short_branch_impossible (whole colors pre post : List Nat)
   rw [sameMarks,middleLength] at lower
   omega
 
-#print axioms markWord_slice
-#print axioms short_branch_impossible
 end F7Manuscript.R21LongWindow.DatedBoardSteps

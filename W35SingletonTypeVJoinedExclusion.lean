@@ -107,4 +107,3 @@ theorem typeV_singleton_joined_actual_twenty_false
 end
 end F7Manuscript.W35SingletonTypeVJoinedExclusion
 
-#print axioms F7Manuscript.W35SingletonTypeVJoinedExclusion.typeV_singleton_joined_actual_twenty_false

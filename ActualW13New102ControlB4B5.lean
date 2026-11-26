@@ -70,6 +70,5 @@ theorem b4_eq_b3 (bits : Nat → Bool) (h0 : bits 0 = false)
       exact forbidden bits 8 N (by norm_num [new102Plan,eventCount]) 2 r (by simp [r,hx]) hp hs)
   · rfl
 
-#print axioms b4_eq_b3
 
 end F7Manuscript.ActualW13New102ControlB4B5

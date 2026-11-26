@@ -111,8 +111,5 @@ theorem first_after_singleton_paired_distinct
   · exact W34TypeIWindowMemory.two_paired_same_fixed_after_valid_mixed_prefix_of_memory
       R ⟨3,by omega⟩ beforeInitialCenter (prependFalse bits) 0 [] tail 0 (by simpa using! H') M
 
-#print axioms beforeInitialCenter_memory
-#print axioms prepend_initial_center
-#print axioms first_after_singleton_paired_distinct
 end
 end F7Manuscript.TripleCoordinateLattice.W35SingletonFirstJoin

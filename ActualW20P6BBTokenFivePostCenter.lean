@@ -68,6 +68,4 @@ theorem bb_token5_visits_123_after_center45
   obtain ⟨e,he⟩ := bb_noncenter_cell_received T hBB hrel hnotcenter
   exact ⟨e,he,hafter x hnotcenter e he⟩
 
-#print axioms bb_token5_noncenter_receipts_after_center45
-#print axioms bb_token5_visits_123_after_center45
 end F7Manuscript.ActualW20P6BBTokenFivePostCenter

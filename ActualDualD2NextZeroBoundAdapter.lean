@@ -51,7 +51,6 @@ theorem normalLeaves_card_le_two_with_subtype_decisions
   intro B _ h221 h311 hz j
   exact normalLeaves_card_le_two_in_dual_subset (I := I) Q B h221 h311 hz j
 
-#print axioms normalLeaves_card_le_two_with_subtype_decisions
 
 end
 end F7Manuscript.ActualDualNextZeroBoundAdapter

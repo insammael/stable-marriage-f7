@@ -212,6 +212,5 @@ theorem new18_noReturn_impossible (bits : Nat → Bool)
     exact (F7Manuscript.ActualW12New4PairedSlotHand.noReturn_paired_column_empty new18Plan bits 13 N hbound13
       4 3 2 (by decide) (by decide) hp' hx hy).elim
 
-#print axioms new18_noReturn_impossible
 
 end F7Manuscript.ActualW12New18PhaseLockHand

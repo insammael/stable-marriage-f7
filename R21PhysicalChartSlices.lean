@@ -72,7 +72,5 @@ theorem slice_s (C : Chart) (start length : Nat) (bound : start+length<=C.m) :
  · rw [if_neg interior]
    exact slice_charge_boundary C start length bound t (by omega)
 
-#print axioms slice_q
-#print axioms slice_s
 end
 end F7Manuscript.R21PhysicalChartSlices

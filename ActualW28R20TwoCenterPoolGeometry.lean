@@ -107,6 +107,5 @@ theorem second_center_in_pool_and_disjoint
     · exact hBneIdle (hzb.symm.trans hzi)
   exact ⟨by simpa [S, g] using! hsecond, hdis⟩
 
-#print axioms second_center_in_pool_and_disjoint
 end
 end F7Manuscript.ActualW28R20TwoCenterPoolGeometry

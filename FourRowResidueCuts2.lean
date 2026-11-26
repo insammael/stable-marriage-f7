@@ -397,7 +397,6 @@ theorem four_row_residue_04 (t : Matching) (bits : Nat → Bool)
           simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
         exact (h.fresh 9 (by decide) 4 hp 0 (by decide)) hEq
 
-#print axioms four_row_residue_04
 
 def plan_four_row_residue_05 : List Move := [Move.paired,Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.paired,Move.center (2 : Color),Move.paired,Move.center (1 : Color),Move.paired]
 theorem four_row_residue_05 (t : Matching) (bits : Nat → Bool)
@@ -789,6 +788,5 @@ theorem four_row_residue_05 (t : Matching) (bits : Nat → Bool)
           simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
         exact (h.fresh 9 (by decide) 4 hp 0 (by decide)) hEq
 
-#print axioms four_row_residue_05
 
 end F7Local

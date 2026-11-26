@@ -175,7 +175,6 @@ theorem dead_site_edge_bound {F : Rel} {n : ℕ}
             simpa [p] using! hbound
           omega
 
-#print axioms dead_site_edge_bound
 
 end
 end F7Manuscript.ActualW16DeadSiteFuture

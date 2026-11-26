@@ -54,6 +54,5 @@ theorem total_deficit_introduction_slot_ledger
   have hslots := global_outsider_slot_charge_sum C E
   omega
 
-#print axioms total_deficit_introduction_slot_ledger
 end
 end F7Manuscript.TripleCoordinateLattice

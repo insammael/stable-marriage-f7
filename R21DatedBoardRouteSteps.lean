@@ -183,7 +183,5 @@ theorem TwoRouteContext.stepLeft (i : Fin 155)
         omega }
     exact ⟨positive,room,next,rfl,rfl,rfl,rfl⟩
 
-#print axioms TwoRouteContext.stepLeft
 
-#print axioms TwoRouteContext.stepRight
 end F7Manuscript.R21LongWindow.DatedBoardSteps

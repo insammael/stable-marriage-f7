@@ -130,8 +130,5 @@ theorem two_components_a_one (O : OverlapDecomposition V) (hS : Separated O)
   unfold D at hD
   omega
 
-#print axioms U_covers_paths
-#print axioms component_count_identity
-#print axioms two_components_a_one
 
 end NeutralCore

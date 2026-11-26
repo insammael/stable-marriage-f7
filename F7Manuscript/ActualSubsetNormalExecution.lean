@@ -135,10 +135,6 @@ theorem subsetNormalActualRun_support_at
   rw [subsetNormalChronologicalEnumeration_at (Q := Q) (hQ := hQ) (B := B)
     (h221 := h221) (h311 := h311) (hz := hz) a p v]
 
-#print axioms subsetNormalChronologicalEnumeration
-#print axioms subsetNormalChronologicalEnumeration_at
-#print axioms subsetNormalActualRun
-#print axioms subsetNormalActualRun_support_at
 
 end
 end F7Manuscript.TripleCoordinateLattice

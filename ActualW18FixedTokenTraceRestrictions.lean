@@ -109,7 +109,5 @@ theorem fixedToken_siteFrozen_of_allFreshSeen {F : Rel} {n : ℕ}
     exact Nat.add_sub_of_le hkl
   simpa [hindex] using! h
 
-#print axioms fixedTokenSwapTrace_prefix
-#print axioms fixedToken_siteFrozen_of_allFreshSeen
 
 end F7Manuscript.PartnerGraph

@@ -54,7 +54,5 @@ theorem chainOn_dual {C : Finset V} (hchain : ChainOn (C : Set V)) :
   intro a ha b hb
   exact (hchain ha hb).symm
 
-#print axioms finite_chain_enumeration
-#print axioms crossEdges_dual
 
 end ConditionalUL

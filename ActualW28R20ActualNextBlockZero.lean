@@ -208,6 +208,5 @@ theorem actual_singleton_switch_next_block_zero
     simpa using! hidleMapped
   exact (hfreeze n (by omega) hactive)
 
-#print axioms actual_singleton_switch_next_block_zero
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW28R20ActualNextBlockZero

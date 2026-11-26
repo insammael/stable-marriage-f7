@@ -233,8 +233,5 @@ theorem subsetNormal_upper_row_binary (hm : 2 ≤ normalBlockCount B)
       subsetNormal_initial_support_type Q hQ B h221 h311 hz (by omega) j c
     _ = 2 := subsetNormal_initial_binary Q hQ B h221 h311 hz hm c
 
-#print axioms subsetNormal_row_support_shape
-#print axioms subsetNormal_lower_row_binary
-#print axioms subsetNormal_upper_row_binary
 end
 end F7Manuscript.TripleCoordinateLattice

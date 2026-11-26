@@ -146,6 +146,4 @@ theorem ABBA_second_B_token_one_impossible
     exact ⟨s, le_trans hs' hbound, hstate⟩
   exact B_to_A_token_one_visited_zero_impossible tr e3 hcenter hbefore hafter hpre hvisit0
 
-#print axioms BBAA_second_B_token_one_impossible
-#print axioms ABBA_second_B_token_one_impossible
 end F7Manuscript.ActualW19P6RowSixPatternExclusions

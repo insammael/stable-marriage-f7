@@ -429,16 +429,6 @@ theorem m11_one_paid_one_extra_oldfit_false
         W D 11 i a (by omega) rfl hWlen (by rw [hDlen, hWlen]) hi (by omega) ha (by omega)
         hia hpaid hDint hpivsub hapiv hnotex hforward hreverse
 
-#print axioms old153_refutes_i4_a5
-#print axioms old153_refutes_i6_a5
-#print axioms no_pivot_window_refutes
-#print axioms old039_refutes_i4_a5_left
-#print axioms old000_refutes_i4_a5_right
-#print axioms old000_refutes_i6_a5_left
-#print axioms old039_refutes_i6_a5_right
-#print axioms D_shape_paid4
-#print axioms D_shape_paid6
-#print axioms m11_one_paid_one_extra_oldfit_false
 
 end
 end F7Manuscript.ActualW17U3Q2S2OnePaidComplete

@@ -118,9 +118,5 @@ theorem LeftCenterTrace.ofSamePrefix
     refine .center b pos bound different ((same _ (by change cut-1<cut; omega)).trans support) ?_
     exact ih (fun k hk => same k (by omega))
 
-#print axioms reverse_center_geometry
-#print axioms SamePairGeometry.center_transfer
-#print axioms LeftCenterTrace.ofGeometry
-#print axioms LeftCenterTrace.ofSamePrefix
 end
 end F7Manuscript.R21NormalEndpoint.ReseededObservation

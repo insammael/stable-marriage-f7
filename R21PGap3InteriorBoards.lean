@@ -33,7 +33,6 @@ theorem noActual0 (R : TokenRun Site (Agent 7) 21) {off : Nat}
   exact noActualOfBoundedLeaf R binary obs checked0 image 6 6 leaf0 empty0
     (by unfold offset; split <;> omega) (by unfold offset; split <;> omega)
 
-#print axioms noActual0
 
 /-- Parent A/56/45 with outer supports 14/23. -/
 def board1 : Board := makeBoard [6,3,4,5,2,0,1] [[1,2],[2,5],[1],[0,6],[],[3,4],[0,2,3]]
@@ -53,7 +52,6 @@ theorem noActual1 (R : TokenRun Site (Agent 7) 21) {off : Nat}
   exact noActualOfBoundedLeaf R binary obs checked1 image 6 6 leaf1 empty1
     (by unfold offset; split <;> omega) (by unfold offset; split <;> omega)
 
-#print axioms noActual1
 
 /-- Parent B/56/23 with outer supports 14/46. -/
 def board2 : Board := makeBoard [6,3,1,5,2,4,0] [[1,2],[2,5],[4],[0,4,6],[],[0,3],[1,3]]
@@ -73,7 +71,6 @@ theorem noActual2 (R : TokenRun Site (Agent 7) 21) {off : Nat}
   exact noActualOfBoundedLeaf R binary obs checked2 image 6 6 leaf2 empty2
     (by unfold offset; split <;> omega) (by unfold offset; split <;> omega)
 
-#print axioms noActual2
 
 /-- Parent B/56/03 with outer supports 14/16. -/
 def board3 : Board := makeBoard [1,2,5,6,0,4,3] [[2],[5],[1,4],[0,4,5],[2],[0,3],[0,1]]
@@ -93,7 +90,6 @@ theorem noActual3 (R : TokenRun Site (Agent 7) 21) {off : Nat}
   exact noActualOfBoundedLeaf R binary obs checked3 image 6 6 leaf3 empty3
     (by unfold offset; split <;> omega) (by unfold offset; split <;> omega)
 
-#print axioms noActual3
 
 /-- Parent B/56/03 with outer supports 24/16. -/
 def board4 : Board := makeBoard [2,4,5,6,0,1,3] [[4],[2,5],[1],[0,1,5],[1],[0,3],[0,2]]
@@ -113,7 +109,6 @@ theorem noActual4 (R : TokenRun Site (Agent 7) 21) {off : Nat}
   exact noActualOfBoundedLeaf R binary obs checked4 image 6 6 leaf4 empty4
     (by unfold offset; split <;> omega) (by unfold offset; split <;> omega)
 
-#print axioms noActual4
 
 /-- Parent E/26/25 with outer supports 03/16. -/
 def board5 : Board := makeBoard [6,0,1,5,2,3,4] [[4,5],[2,6],[4],[1,2],[1,3],[2],[3,5]]
@@ -133,7 +128,6 @@ theorem noActual5 (R : TokenRun Site (Agent 7) 21) {off : Nat}
   exact noActualOfBoundedLeaf R binary obs checked5 image 6 6 leaf5 empty5
     (by unfold offset; split <;> omega) (by unfold offset; split <;> omega)
 
-#print axioms noActual5
 
 /-- Parent E/56/25 with outer supports 04/06. -/
 def board6 : Board := makeBoard [3,0,1,6,5,4,2] [[6],[2,3,5],[0,5],[1,4,5],[1],[],[0,4]]
@@ -153,7 +147,6 @@ theorem noActual6 (R : TokenRun Site (Agent 7) 21) {off : Nat}
   exact noActualOfBoundedLeaf R binary obs checked6 image 6 6 leaf6 empty6
     (by unfold offset; split <;> omega) (by unfold offset; split <;> omega)
 
-#print axioms noActual6
 
 /-- Parent E/56/25 with outer supports 04/16. -/
 def board7 : Board := makeBoard [2,3,1,6,5,4,0] [[3,6],[2,5],[0,5],[1,4,5],[1],[],[2,4]]
@@ -173,7 +166,6 @@ theorem noActual7 (R : TokenRun Site (Agent 7) 21) {off : Nat}
   exact noActualOfBoundedLeaf R binary obs checked7 image 6 6 leaf7 empty7
     (by unfold offset; split <;> omega) (by unfold offset; split <;> omega)
 
-#print axioms noActual7
 
 /-- Parent F/36/25 with outer supports 12/01. -/
 def board8 : Board := makeBoard [4,6,3,5,2,0,1] [[1,5],[3],[4],[0,2],[0,3],[2],[0,4,5]]
@@ -193,7 +185,6 @@ theorem noActual8 (R : TokenRun Site (Agent 7) 21) {off : Nat}
   exact noActualOfBoundedLeaf R binary obs checked8 image 6 6 leaf8 empty8
     (by unfold offset; split <;> omega) (by unfold offset; split <;> omega)
 
-#print axioms noActual8
 
 /-- Parent F/46/24 with outer supports 05/06. -/
 def board9 : Board := makeBoard [2,6,1,0,5,4,3] [[6],[2,3,4],[4,6],[1,4,5],[],[1],[0,5]]
@@ -213,5 +204,4 @@ theorem noActual9 (R : TokenRun Site (Agent 7) 21) {off : Nat}
   exact noActualOfBoundedLeaf R binary obs checked9 image 6 6 leaf9 empty9
     (by unfold offset; split <;> omega) (by unfold offset; split <;> omega)
 
-#print axioms noActual9
 end F7Manuscript.R21NormalEndpoint.BoundaryAtlas.PGap3InteriorBoards

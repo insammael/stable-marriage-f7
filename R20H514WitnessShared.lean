@@ -287,9 +287,6 @@ theorem original_pre_14_0_low_deficit_contradiction
   · change (before Q).card ≤ 1
     exact hbefore
 
-#print axioms original_context_enumeration_nonempty
-#print axioms original_pre_window_package
-#print axioms original_pre_14_0_low_deficit_contradiction
 
 end
 

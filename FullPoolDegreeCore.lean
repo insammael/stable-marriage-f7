@@ -46,5 +46,4 @@ theorem tokensAfter_origin (t : Matching) (w : List Pair) (p : Agent) :
     simp only [tokenSwap]
     split_ifs <;> rfl
 
-#print axioms tokensAfter_origin
 end F7Local

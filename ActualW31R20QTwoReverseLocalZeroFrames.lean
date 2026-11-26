@@ -393,9 +393,5 @@ theorem actual_four_predecessor_run_support_of_local_zeros
   · rw [hlabel4]
     exact run_support_at_address A h221 h311 hG hT hQ19 k q4 R hAll t4 ht4 hafter4 hlabel4
 
-#print axioms actual_four_predecessor_frames_of_local_zeros
-#print axioms actual_four_predecessor_run_support_of_local_zeros
-#check actual_four_predecessor_frames_of_local_zeros
-#check actual_four_predecessor_run_support_of_local_zeros
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW31R20QTwoReverseLocalZeroFrames

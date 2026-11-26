@@ -37,5 +37,4 @@ theorem no_six_at_three_prefix_of_no_four_and_end
   · exact h4 e.succ hez (by simpa [hy4] using! hnew)
   · exact h5 e (by simpa [hy5] using! hp) (by simpa [hy5] using! hnew)
 
-#print axioms no_six_at_three_prefix_of_no_four_and_end
 end F7Manuscript.ActualW20P6SixThreePrefixBarrier

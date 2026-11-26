@@ -90,10 +90,6 @@ theorem r20_global_unpaired_cut (hz : NeutralCore.delta3 (V := Event I) = 0)
   rw [hs]
   simp [OrderConvex]
 
-#print axioms unpairedChart_spans
-#print axioms r19_spanning_chart
-#print axioms r20_global_unpaired_cut
-#print axioms r21_spanning_chart
 
 end
 end F7Manuscript.ActualGlobalUnpairedChart

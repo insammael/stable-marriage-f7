@@ -279,6 +279,5 @@ theorem actual_one_T_binary_singleton_same_crew_count_le_85
       exact F7Manuscript.TripleCoordinateLattice.ActualW35OneTPeriodicPostFalse.actual_oneT_periodic_post_false
         C hn h221 h311 hu hG hT hmPostArg hqPostArg hsPostArg
 
-#print axioms actual_one_T_binary_singleton_same_crew_count_le_85
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW36BinarySingletonSameCrewCount

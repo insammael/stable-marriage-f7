@@ -57,7 +57,5 @@ theorem r21ReversedPre_naturalLevels_le_two (k : ℕ) :
   have hreverse := normal_reverse_block_fields B hp.2.2.1 hp.2.1 hz j
   exact hreverse.2.trans_le (subset_chart_double_le_two Q B hp.2.2.1 hp.2.1 hz _)
 
-#print axioms actualGlobalNormalRun_naturalLevels_le_two
-#print axioms r21ReversedPre_naturalLevels_le_two
 end
 end F7Manuscript.TripleCoordinateLattice

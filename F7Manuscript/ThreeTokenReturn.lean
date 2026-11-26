@@ -1,5 +1,6 @@
 module
 
+public import Mathlib
 public import F7Manuscript.ActualTrajectory
 
 @[expose] public section
@@ -70,7 +71,5 @@ theorem no_three_then_two (W : Type*) [Fintype W]
       lt_of_le_of_lt hle hsecondW
     exact (lt_irrefl _ this)
 
-#print axioms fixedPointFree_perm_fin3_pair
-#print axioms no_three_then_two
 
 end F7Manuscript.ThreeTokenReturn

@@ -133,8 +133,6 @@ theorem carrier_window31_run_bound
   have h := carrier_window31_suffix_le_four C
   omega
 
-#print axioms carrier_window31_suffix_le_four
-#print axioms carrier_window31_run_bound
 
 end
 end F7Manuscript.ActualW16Window31ActualCarrierBudget19

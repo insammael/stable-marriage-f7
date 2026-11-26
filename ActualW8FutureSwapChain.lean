@@ -109,9 +109,6 @@ theorem prepare_rows {W : Type*} [Fintype W] {q : Nat}
         change t.val+1 < k.val
         omega)
 
-#print axioms FutureSwapChain.prefix
-#print axioms FutureSwapChain.binary
-#print axioms prepare_rows
 
 end
 end F7Manuscript.ActualW8FutureSwapChain

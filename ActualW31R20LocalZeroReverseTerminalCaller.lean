@@ -692,7 +692,5 @@ theorem actual_local_zero_singleton_four_successor_centers
   · simpa [c3, c1, hr3orig, hr1orig] using! hc31
   · simpa [c4, c2, hr4orig, hr2orig] using! hc42
 
-#print axioms actual_local_zero_singleton_four_successor_centers
-#check actual_local_zero_singleton_four_successor_centers
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW31R20LocalZeroReverseTerminalCaller

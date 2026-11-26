@@ -87,9 +87,5 @@ theorem admissible_map_recolor_rebase (e : Equiv.Perm Site) (p : CyclicColorPerm
   intro k
   simp only [index,Nat.add_assoc]
 
-#print axioms admissible_map
-#print axioms admissible_recolor
-#print axioms admissible_reindex
-#print axioms admissible_map_recolor_rebase
 end
 end F7Manuscript.R21LongWindow.AdmissibleTransport

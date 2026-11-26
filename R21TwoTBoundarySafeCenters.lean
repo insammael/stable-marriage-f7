@@ -60,7 +60,5 @@ theorem safe_centers_mapped {n : Nat} {B C : Board} {f g : SupportFrame}
      exact ⟨(e.symm.trans z).trans e,related_compatible_final e _ _ d da hs z hz⟩
    · simpa only [←mapSupportFrame_afterCenter] using! hsteps
 
-#print axioms safe_centers_mapped
-#print axioms no_paired_after_safe_centers
 end
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

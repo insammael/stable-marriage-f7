@@ -1343,5 +1343,4 @@ theorem c6_zero_cost_3_11_impossible (t : Matching) (bits : Nat → Bool)
       have heq : tokensAfter t (c6Prefix 3 11 7 5 bits 8) 1 = tokensAfter t (c6Prefix 3 11 7 5 bits 0) 1 := by
         simp [tokensAfter, hNow, hOld, tokenSwap, List.foldl]
       exact (h 7 (by decide) 1 hp 0 (by decide)) heq
-#print axioms c6_zero_cost_3_11_impossible
 end F7Local

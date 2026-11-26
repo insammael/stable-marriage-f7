@@ -93,7 +93,4 @@ theorem actual_five_center_root
     have same := congrArg (fun f : Finset Site => f.image Fin.val) support
     exact same.trans (source t)
 
-#print axioms checked_execute
-#print axioms checked_source_supports
-#print axioms actual_five_center_root
 end F7Manuscript.R21LongWindow.PureRootCoverage

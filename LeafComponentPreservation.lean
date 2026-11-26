@@ -232,11 +232,5 @@ theorem uncovered_preserved [Finite V] [DecidableEq A]
     rw [←point_multiplicity_preserved G S d z hz hAdj hLeaf p hRetain x hneq]
     exact hZero
 
-#print axioms component_count_preserved
-#print axioms point_membership_preserved
-#print axioms point_multiplicity_preserved
-#print axioms deleted_multiplicity_one
-#print axioms overlap_excess_preserved
-#print axioms uncovered_preserved
 
 end LeafPreservation

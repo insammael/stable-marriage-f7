@@ -65,7 +65,6 @@ theorem sum_global_slots_eq_endpoints_macro_slots
   rw [hdecomp, hmacro]
   exact add_right_comm _ _ _
 
-#print axioms sum_global_slots_eq_endpoints_macro_slots
 
 end
 end F7Manuscript.TripleCoordinateLattice

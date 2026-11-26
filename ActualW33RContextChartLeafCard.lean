@@ -140,6 +140,5 @@ theorem reflected_double_eq_rContext_leaf_card
     exact fintype_card_irrel _ _
   exact hreflect.trans (hchart.trans (hraw.trans (hcard'.trans hfinalCard)))
 
-#print axioms reflected_double_eq_rContext_leaf_card
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW33RContextChartLeafCard

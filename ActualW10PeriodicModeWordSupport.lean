@@ -64,6 +64,5 @@ theorem periodic_mode_word_support
     simpa only [swapSupport, Finset.map_insert, Finset.map_singleton,
       Equiv.coe_toEmbedding] using hset
 
-#print axioms periodic_mode_word_support
 
 end F7Manuscript.ActualW10PeriodicModeWordSupport

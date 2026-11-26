@@ -77,6 +77,5 @@ theorem normalLabel_coordinate_at_introduction
         (movingColor (normalCenterColor C h221 h311 hz j) s)
       exact (normalLeaf_label_iff_other_color C h221 h311 hz j k _).mpr (movingColor_ne _ _)
 
-#print axioms normalLabel_coordinate_at_introduction
 end
 end F7Manuscript.TripleCoordinateLattice.GenericNormal

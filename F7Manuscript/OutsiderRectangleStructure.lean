@@ -130,6 +130,5 @@ theorem outsider_rectangle_interior_shape
       · exact False.elim ((Finset.mem_sdiff.mp hx).2
           (vertex_mem_of_three_incomparable C ⟨hxyLe,hyxLe⟩ hxl hyl))
 
-#print axioms outsider_rectangle_interior_shape
 end
 end F7Manuscript.TripleCoordinateLattice

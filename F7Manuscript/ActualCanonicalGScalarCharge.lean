@@ -177,8 +177,6 @@ theorem actual_canonical_G_macro_flags_valid
       rw [hgroupAt, htwo]
       omega
 
-#print axioms actual_canonical_G_macro_lambda_le_joint_charge
-#print axioms actual_canonical_G_macro_flags_valid
 
 end
 end F7Manuscript.TripleCoordinateLattice

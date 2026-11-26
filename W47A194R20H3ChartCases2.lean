@@ -76,5 +76,3 @@ theorem three_new_row_partitions
 
 end A131.Section44
 
-#print axioms A131.Section44.large_subsets_234
-#print axioms A131.Section44.three_new_row_partitions

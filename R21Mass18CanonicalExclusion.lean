@@ -314,11 +314,7 @@ theorem renamed_eighteen_center_trace_impossible
   have hheight4 : 1 ≤ height (tail 4) := by unfold height; split_ifs <;> omega
   omega
 
-#print axioms renamed_eighteen_center_trace_impossible
 
-#print axioms canonical_eighteen_center_trace_impossible
 
-#print axioms canonical_idle_person_first_seventh
-#print axioms onCell_no_moves_in_gap
 end
 end F7Manuscript.R21LongWindow.Mass18Endpoint

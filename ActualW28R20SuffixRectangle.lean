@@ -151,6 +151,5 @@ def suffixPairedRectangle
     rightCover := hlift 1 0 }
 
 
-#print axioms suffixPairedRectangle
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW28R20SuffixRectangle

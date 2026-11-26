@@ -33,7 +33,5 @@ theorem a_eq_q_add_s (C : Chart) (hm : 2 ≤ C.m) :
   unfold n at hv
   omega
 
-#print axioms center_sum_add_s
-#print axioms a_eq_q_add_s
 end
 end F7Manuscript.NormalSkeleton.Chart

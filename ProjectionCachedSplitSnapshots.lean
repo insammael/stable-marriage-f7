@@ -45,5 +45,4 @@ theorem projectionOKBy_of_children
    change projectionOKBy r r' computeKey=true at right
    simp only [projectionOKBy,head,left,right,Bool.true_and]
 
-#print axioms projectionOKBy_of_children
 end F7Manuscript.R21NormalEndpoint.Projection.Snapshots

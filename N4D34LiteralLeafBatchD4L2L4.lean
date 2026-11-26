@@ -53,11 +53,6 @@ theorem l2_actual_leaf_length_le_eighteen
   exact literal_prefix_barrier_length_le_eighteen
     H cut hcut l2ExactWord hword d4l2R hcurrent hsub hQ hfive
 
-#print axioms l2ExactWord
-#print axioms l2_word_length
-#print axioms l2_wordAvailable_eq_literalA
-#print axioms l2_word_current_in_literalR
-#print axioms l2_actual_leaf_length_le_eighteen
 
 /-- Exact D4 `L4` word: accepted canonical ten-swap root plus the listed continuation `C01 D0 C10`. -/
 def l4ExactWord : List F7Local.Pair := d4AWord ++ [(0,1), (2,4), (6,5), (2,3)]
@@ -95,10 +90,5 @@ theorem l4_actual_leaf_length_le_eighteen
   exact literal_prefix_barrier_length_le_eighteen
     H cut hcut l4ExactWord hword d4l4R hcurrent hsub hQ hfive
 
-#print axioms l4ExactWord
-#print axioms l4_word_length
-#print axioms l4_wordAvailable_eq_literalA
-#print axioms l4_word_current_in_literalR
-#print axioms l4_actual_leaf_length_le_eighteen
 
 end F7Manuscript.N4D34LiteralLeafBatchD4L2L4

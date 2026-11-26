@@ -129,7 +129,6 @@ theorem actual_typeI_post_route_same_actor_color
     rw [hsourcePair]
     exact congrArg pairSupport hpairMap
 
-#print axioms actual_typeI_post_route_same_actor_color
 
 end
 end F7Manuscript.TripleCoordinateLattice.W36TypeIPostRouteSameActorColor

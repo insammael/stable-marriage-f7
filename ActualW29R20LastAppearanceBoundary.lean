@@ -93,8 +93,6 @@ theorem reverseDual_firstStage_eq_rev_of_strict_replacement
   exact (strict_coordinate_replacement_forbids_later T hT i c x hcoord hi hstrict
     (firstStage (reverseDualPath T) xr).rev hlater) hstage
 
-#print axioms strict_coordinate_replacement_forbids_later
-#print axioms reverseDual_firstStage_eq_rev_of_strict_replacement
 
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW29R20LastAppearanceBoundary

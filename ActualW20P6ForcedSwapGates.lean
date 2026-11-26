@@ -106,10 +106,5 @@ theorem swap_two_five
   fin_cases p <;> fin_cases q <;>
     simp [graphRel,p6G0,ofEdges] at h25 h52 hh2 hh5 hne ⊢
 
-#print axioms swap_zero_two
-#print axioms swap_zero_three
-#print axioms swap_one_five
-#print axioms swap_two_four
-#print axioms swap_two_five
 
 end F7Manuscript.ActualW20P6ForcedSwapGates

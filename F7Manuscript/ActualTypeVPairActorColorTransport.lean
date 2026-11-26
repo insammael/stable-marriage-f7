@@ -42,7 +42,6 @@ theorem typeVPairs_actor_color_transport
   rw [hcolor] at hmap
   exact hmap
 
-#print axioms typeVPairs_actor_color_transport
 
 end
 end F7Manuscript.TripleCoordinateLattice

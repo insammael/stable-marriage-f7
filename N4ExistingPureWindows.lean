@@ -91,10 +91,5 @@ theorem X_window_false (t : Matching) (bits : Nat → Bool)
     (H : NoReturn t (anchoredPlan 0 [2,4] 10) bits) : False :=
   existing_X t bits hn H
 
-#print axioms existing_U
-#print axioms existing_V
-#print axioms existing_W
-#print axioms existing_X
-#print axioms pure_cut_false_of_pivot_membership
 
 end F7Manuscript.N4ExistingPureWindows

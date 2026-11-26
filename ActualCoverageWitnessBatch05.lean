@@ -1310,7 +1310,5 @@ theorem coverRowsWitness_516 : ∃ r : CoverRow, r ∈ coverRows ∧ r.diagram =
   · apply Fin.ext
     rfl
 
-#print axioms coverRowsWitness_416
-#print axioms coverRowsWitness_516
 
 end F7Manuscript.NormalOutsiderCoverage

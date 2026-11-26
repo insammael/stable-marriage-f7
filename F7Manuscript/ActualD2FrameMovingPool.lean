@@ -129,10 +129,5 @@ theorem canonicalCenterRelabel_movingPool_map
   rw [he, hsplit, hbase]
   exact hρ
 
-#print axioms F7Manuscript.ActualD2FrameMovingPool.pairedPairs_support_union
-#print axioms F7Manuscript.ActualD2FrameMovingPool.afterPaired_movingPool
-#print axioms F7Manuscript.ActualD2FrameMovingPool.pairedRoute_movingPool
-#print axioms F7Manuscript.ActualD2FrameMovingPool.pairedRoute_final_valid
-#print axioms F7Manuscript.ActualD2FrameMovingPool.canonicalCenterRelabel_movingPool_map
 
 end F7Manuscript.ActualD2FrameMovingPool

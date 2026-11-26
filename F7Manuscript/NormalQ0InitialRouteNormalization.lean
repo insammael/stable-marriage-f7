@@ -232,6 +232,5 @@ theorem normal_q0_initial_route_normalization
         rw [hplanTwo]
         simpa only [hcount] using! hend.symm
 
-#print axioms normal_q0_initial_route_normalization
 end
 end F7Manuscript.TripleCoordinateLattice

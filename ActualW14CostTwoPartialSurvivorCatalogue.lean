@@ -79,9 +79,6 @@ theorem costTwoBudgetRows_count :
     (normalOutsiderBudgetCases.filter fun row => decide (2 ≤ row.2.2.2)).length = 9 := by
   decide
 
-#print axioms costTwoPartialSurvivorCatalogue
-#print axioms actual_X_mem_costTwoPartialSurvivorCatalogue_of_cost_bound
-#print axioms costTwoBudgetRows_count
 
 end
 end F7Manuscript.ActualW14CostTwoPartialSurvivorCatalogue

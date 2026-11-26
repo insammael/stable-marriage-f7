@@ -36,7 +36,5 @@ theorem f7_eq_85_of_sixteen_R21
     all_goals exact r21_original_G_only_by_weight I _ _ (by decide) (by decide)
   · exact remaining I u b c (by simp [r21RemainingSixteen,hmem,hit])
 
-#print axioms remaining_sixteen_length
-#print axioms f7_eq_85_of_sixteen_R21
 end
 end F7Manuscript.ActualPositiveDeficitCoverAssembly

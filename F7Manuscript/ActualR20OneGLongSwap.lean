@@ -369,6 +369,3 @@ theorem actual_r20_one_G_q0_long_count_le_85
 end
 end F7Manuscript.TripleCoordinateLattice
 
-#print axioms F7Manuscript.TripleCoordinateLattice.one_G_swap_runs_m
-#print axioms F7Manuscript.TripleCoordinateLattice.actual_r20_one_G_q0_long_pre_larger_count_le_85
-#print axioms F7Manuscript.TripleCoordinateLattice.actual_r20_one_G_q0_long_count_le_85

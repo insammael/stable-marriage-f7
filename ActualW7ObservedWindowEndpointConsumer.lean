@@ -44,7 +44,6 @@ theorem actual_observed_window_endpoint_false_of_binary
     T checked plan K L b code t valid old bits hcode hnr R hledger hbound hobs
     atomic binary hbudget
 
-#print axioms actual_observed_window_endpoint_false_of_binary
 
 end
 end F7Manuscript.W7ObservedWindowEndpointConsumer

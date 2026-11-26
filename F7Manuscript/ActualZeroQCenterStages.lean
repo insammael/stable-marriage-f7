@@ -67,9 +67,5 @@ theorem zero_cost_post_stages_have_c6_phase
     _ = (List.range S.m).map (fun j => Stage.center (c6PostColor phase j) false) :=
       stagesOfMovePlanCenter_map_centers bits f i (List.range S.m) (c6PostColor phase)
 
-#print axioms stagesOfMovePlanCenter_map_centers
-#print axioms zero_q_selected_pre_plan_eq_c6
-#print axioms zero_q_selected_pre_stages
-#print axioms zero_cost_post_stages_have_c6_phase
 end
 end F7Manuscript.TripleCoordinateLattice

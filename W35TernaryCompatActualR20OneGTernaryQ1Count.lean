@@ -182,6 +182,5 @@ theorem actual_r20_one_G_ternary_short_left_q1_count_le_85
     (pairPre).2.2.1 (pairPre).2.1 (geoPre).2 hmBpre hKpre hDbase
     Qpost (geoPost).1 hterminal Ep hperiodic α hQcard hpostRow
 
-#print axioms actual_r20_one_G_ternary_short_left_q1_count_le_85
 end
 end F7Manuscript.TripleCoordinateLattice.W35TernaryCompat

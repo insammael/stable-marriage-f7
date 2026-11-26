@@ -70,7 +70,5 @@ theorem p6_AA_actual_false
     (haa : centerTypeWord T = [true,true]) : False :=
   p6_omitted_center_AA_false T (p6_AA_typeword_no_center_arrival T haa)
 
-#print axioms p6_AA_typeword_no_center_arrival
-#print axioms p6_AA_actual_false
 
 end F7Manuscript.ActualW20P6AATypeWordActualFalse

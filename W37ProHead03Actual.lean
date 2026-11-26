@@ -42,7 +42,6 @@ theorem head03_from_actual_run
     exact actual_head03_reverse_impossible A.run hn
       A.initial0 A.initial1 A.initial2 A.initial3 A.bits H
 
-#print axioms head03_from_actual_run
 
 end
 end F7Manuscript.TripleCoordinateLattice.W37ProHead03Actual

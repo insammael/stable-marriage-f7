@@ -85,6 +85,4 @@ theorem no_gap_three_of_interior (interior : GapThreeInteriorRule)
     simpa only [source,List.map_cons,List.map_nil,List.append_assoc,List.cons_append,List.nil_append] using! D
   exact no_gap_three_first_of_interior interior pre post a b c bits input binary large leftCap rightCap
 
-#print axioms no_gap_three_first_of_interior
-#print axioms no_gap_three_of_interior
 end F7Manuscript.R21LongWindow.PairedSubpatterns

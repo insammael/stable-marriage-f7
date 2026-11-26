@@ -240,9 +240,5 @@ theorem matching_one_impossible {P : Finset V}
     (double_fibers_inc (V:=OrderDual V) L (show (2 : Fin 3)≠1 by decide) hr hs)
   exact hClass.1 p q r s (double_fibers_inc U (by decide) hp hq) hPR hPS hQR hQS hRS
 
-#print axioms normalize_three_matching
-#print axioms normalized_boundaries
-#print axioms matching_two_impossible
-#print axioms matching_one_impossible
 end Peeling
 end NeutralCore

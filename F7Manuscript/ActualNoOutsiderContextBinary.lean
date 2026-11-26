@@ -105,7 +105,5 @@ theorem actual_no_outsider_future_retired_binary
   rw [heq]
   exact subsetNormal_all_events_binary Q hg.1 B h221Q h311Q hg.2 hmB f
 
-#print axioms actual_no_outsider_past_retired_binary
-#print axioms actual_no_outsider_future_retired_binary
 end
 end F7Manuscript.TripleCoordinateLattice

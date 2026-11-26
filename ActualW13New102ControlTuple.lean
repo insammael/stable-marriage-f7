@@ -29,6 +29,5 @@ theorem new102_noReturn_control_tuple
     F7Manuscript.ActualW13New102ControlB8.b8_eq_not_b6 bits h0 N,
     F7Manuscript.ActualW13New102ControlB9.b9_eq_hform bits h0 N⟩
 
-#print axioms new102_noReturn_control_tuple
 
 end F7Manuscript.ActualW13New102ControlTuple

@@ -133,9 +133,6 @@ theorem noReturnRun_support (plan : List Move) (bits : Nat → Bool)
   rw [lastPair_eq_pairAt plan bits i.val i.isLt]
   rfl
 
-#print axioms SwapHistory.firstRank_strict
-#print axioms SwapHistory.toTokenRun_past_iff
-#print axioms noReturnRun_support
 
 end
 end F7Manuscript.WHistoryToTokenRun

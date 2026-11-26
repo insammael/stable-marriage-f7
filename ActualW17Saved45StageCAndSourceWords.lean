@@ -176,8 +176,5 @@ theorem noReturn_saved45_source14_four_words
             put, select, other, h0, h1, h2, h3, h4, h5, h6, h7, h8])
   simpa [saved45LiteralPlan_eq_ordinal45] using! hclass
 
-#print axioms saved45_force_b8_true
-#print axioms noReturn_saved45_bits_0_to_8
-#print axioms noReturn_saved45_source14_four_words
 
 end F7Manuscript.ActualW17Saved45StageCAndSourceWords

@@ -807,7 +807,5 @@ def handF14 : PersonalCertificate where
   closedPost := by decide
   incompatible := by decide
 
-#print axioms handA12
-#print axioms handF14
 end
 end F7Manuscript.R21SingleTHand

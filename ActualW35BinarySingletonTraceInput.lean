@@ -58,6 +58,5 @@ theorem actual_binary_first_trace_input
     exact hnot ⟨⟨0,by omega⟩,c,hgt⟩
   exact ⟨hbin,binary_singleton_normal_trace_exists Q hQ B h221Q h311Q hzQ hm1 hbin⟩
 
-#print axioms actual_binary_first_trace_input
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW35BinarySingletonTraceInput

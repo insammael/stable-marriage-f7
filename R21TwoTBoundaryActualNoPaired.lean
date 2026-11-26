@@ -96,6 +96,5 @@ theorem pure_five_no_paired_after_safe_centers
    rw [anp_pair_map] at ht
    exact ht.trans hn
 
-#print axioms pure_five_no_paired_after_safe_centers
 end
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

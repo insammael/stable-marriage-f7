@@ -68,7 +68,6 @@ theorem frontier_memory_after_normalized_center
           have hM := initial_frontier_memory (reindexRun R e) hq h1 h2 h3
           exact supportsRoute_frontier_memory Hnormalized Vnormalized hM
 
-#print axioms frontier_memory_after_normalized_center
 
 end
 end F7Manuscript.ActualDualPostCenterMemoryTransport

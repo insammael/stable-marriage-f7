@@ -53,6 +53,5 @@ theorem actual_later_paired_frame
   exact core_normal_paired_rowsMatch_of_suffix_rectangle C h221 h311 hG hT
     hm j r hout hplus f hv hlast hrow
 
-#print axioms actual_later_paired_frame
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW28R20ActualSuffixFrame

@@ -54,8 +54,5 @@ theorem actual_generated_support_eq_canonical (b : Fin 5 → Bool)
   rw [← explicit_canonical_eq_generated]
   exact F7Manuscript.ActualD2FirstFiveSupportWordAssembly.support_word_eq_canonical b hfresh
 
-#print axioms explicit_raw_eq_generated
-#print axioms explicit_canonical_eq_generated
-#print axioms actual_generated_support_eq_canonical
 
 end F7Manuscript.ActualD2FirstFiveGeneratedWordBridge

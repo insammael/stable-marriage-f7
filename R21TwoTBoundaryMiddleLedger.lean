@@ -77,6 +77,5 @@ theorem actual_middle_common_ledger (R : TokenRun Site Site 21)
  · exact hR.2.1
  · exact hL.2.2
 
-#print axioms actual_middle_common_ledger
 end
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

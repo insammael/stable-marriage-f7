@@ -43,7 +43,5 @@ theorem ordered_crown_impossible {n m : ℕ} {S T : NormalSkeleton.Chart}
    · exact oriented_first_paired_total_impossible (oriented_swap_ordered R hn hm) hm hn (by omega) (by omega)
  · exact oriented_first_paired_total_impossible (oriented_of_ordered R hn hm) hn hm sum (by omega)
 
-#print axioms oriented_first_paired_total_impossible
-#print axioms ordered_crown_impossible
 end
 end F7Manuscript.R21SingleTHand

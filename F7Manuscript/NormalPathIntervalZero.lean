@@ -89,7 +89,5 @@ theorem actual_complete_normal_interval_geometry
     normal_path_interval_delta_zero A _ h221 h311 left right hlr hclosed hnoT⟩
 end Actual
 
-#print axioms normal_path_interval_delta_zero
-#print axioms actual_complete_normal_interval_geometry
 end
 end F7Manuscript.TripleCoordinateLattice

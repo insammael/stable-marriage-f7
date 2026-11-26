@@ -44,8 +44,6 @@ theorem paired_pool_relabel
   refine ⟨e, he0, he1, ?_⟩
   rw [Finset.map_union, he0, he1, embedded_four_as_pairs]
 
-#print axioms embedded_four_as_pairs
-#print axioms paired_pool_relabel
 end
 end F7Manuscript.ActualW26R20FiveSupportRelabel
 

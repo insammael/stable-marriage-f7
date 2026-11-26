@@ -89,7 +89,5 @@ noncomputable def actual_postCenter_adjust_saturated_witness
   F7Manuscript.ActualD2SaturationRelabel.relabel_saturated_witness W
     (postCenterCrossAdjustment cross) (postCenterCrossAdjustment_four cross)
 
-#print axioms actual_postCenter_cross_support_images_normalized
-#print axioms actual_postCenter_adjust_saturated_witness
 
 end F7Manuscript.TripleCoordinateLattice

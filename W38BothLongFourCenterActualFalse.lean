@@ -76,5 +76,4 @@ theorem both_long_four_center_actual_twenty_false
     (by simpa [pre, post, List.append_assoc] using! hq)
     (by simpa [pre, post, List.append_assoc] using! H)
 
-#print axioms both_long_four_center_actual_twenty_false
 end F7Manuscript.W38BothLongFourCenterActualFalse

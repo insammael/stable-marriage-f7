@@ -75,5 +75,4 @@ theorem triple_deletion (P : Finset V) {v : V} (hv : v∈P) :
   rw [hAvoid,incident_triples_count P v hv] at h
   omega
 
-#print axioms triple_deletion
 end NeutralCore

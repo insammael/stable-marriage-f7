@@ -53,7 +53,4 @@ theorem realizes_orient_next {q : ℕ} (R : TokenRun Site Site q)
   simpa only [supportWord,List.map_singleton] using! congrArg List.singleton he)
  simpa only [List.append_assoc,List.singleton_append] using! h
 
-#print axioms realizes_orient_next
-#print axioms realizes_of_supportWord_eq
-#print axioms realizes_replace_supportWord
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundary

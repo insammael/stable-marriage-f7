@@ -95,6 +95,5 @@ theorem saturated_actual_future_pool_laws
       rw [hout]
       exact hlater'.2
 
-#print axioms saturated_actual_future_pool_laws
 end
 end F7Manuscript.ActualW28R20SaturatedFuturePool

@@ -83,6 +83,5 @@ theorem old158_adjacent_last_pair_refuted
   have hjW : b - 1 + 10 ≤ W.length := by rw [hWlen]; exact hj
   exact root158_forward_fit_impossible W D (b-1) hWlen hDlen hDzero hSome hjW hwindow
 
-#print axioms old158_adjacent_last_pair_refuted
 
 end F7Manuscript.ActualW16OldRootFitBridge

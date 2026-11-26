@@ -359,7 +359,6 @@ theorem actual_u3_q0s4_selected17_pivots371011_min_zero_false
     omega
 
 
-#print axioms actual_u3_q0s4_selected17_pivots371011_min_zero_false
 
 end
 end F7Manuscript.ActualW21Selected17ShiftedActual

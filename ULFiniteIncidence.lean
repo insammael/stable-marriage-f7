@@ -171,7 +171,5 @@ theorem cross_edges_sum_neighbors (A C : Finset V) :
   rw [hf]
   simp
 
-#print axioms self_union_edges_card
-#print axioms cross_edges_sum_neighbors
 
 end ConditionalUL

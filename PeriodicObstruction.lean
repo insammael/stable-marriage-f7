@@ -96,8 +96,4 @@ theorem normalized_length_le_fifteen {m : Nat} (H : NormalizedRun m) : m≤15 :=
     fresh_past := fun n hn j hj => H.fresh_past n (by omega) j hj,
     first := H.first }
 
-#print axioms alternative_not_fresh
-#print axioms mode_end_not_fresh
-#print axioms forced_modes
-#print axioms normalized_length_le_fifteen
 end F7Periodic

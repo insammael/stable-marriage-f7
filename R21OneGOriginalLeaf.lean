@@ -24,5 +24,4 @@ theorem r21_one_G_no_outsider_original (I : Profile 7) [Nonempty (StableMatching
     R21LeafObligation I 0 1 0 := by
   exact r21_one_G_no_outsider_of_no_walk
     F7Manuscript.R21NormalEndpoint.Projection.Snapshots.PhysicalD2.noOutwardWalks I
-#print axioms r21_one_G_no_outsider_original
 end F7Manuscript.ActualPositiveDeficitCoverAssembly

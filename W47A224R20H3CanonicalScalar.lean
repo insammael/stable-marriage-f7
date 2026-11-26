@@ -62,4 +62,3 @@ end
 
 end F7Manuscript.ActualR20H3
 
-#print axioms F7Manuscript.ActualR20H3.outsiderIncSum_le_two_of_canonical_original_mixed_no_T

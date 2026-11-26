@@ -97,7 +97,6 @@ theorem actual_X_prefix_partial_some_both_orientations
   · simpa [W, D] using! hrF
   · simpa [W, D] using! hrR
 
-#print axioms actual_X_prefix_partial_some_both_orientations
 
 end
 end F7Manuscript.ActualW16ActualPrefixPartialSome

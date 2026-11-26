@@ -830,6 +830,5 @@ theorem new1213_prefix_control_through8
       · rfl
   exact ⟨h4,h6,h7,h8⟩
 
-#print axioms new1213_prefix_control_through8
 
 end F7Manuscript.ActualW12New1213PrefixControlThrough8

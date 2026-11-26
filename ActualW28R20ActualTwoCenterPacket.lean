@@ -292,6 +292,5 @@ theorem actual_singleton_switch_has_two_center_packet
       rfl
     rw [hidx, hsupportSecond', hmappedCenter, hρold]
 
-#print axioms actual_singleton_switch_has_two_center_packet
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW28R20ActualTwoCenterPacket

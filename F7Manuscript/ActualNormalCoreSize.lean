@@ -74,7 +74,5 @@ theorem normal_core_at_least_two_blocks (hn : 9 ≤ Fintype.card (Core A)) :
   have h := normal_core_event_count_le_five_blocks A C h221 h311 hz
   omega
 
-#print axioms normalLeaves_card_le_two_in_core
-#print axioms normal_core_at_least_two_blocks
 end
 end F7Manuscript.TripleCoordinateLattice

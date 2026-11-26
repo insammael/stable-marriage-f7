@@ -142,7 +142,5 @@ theorem classify_old_avoiding_frontier (P : List Nat)
   rw [← oldOnlySurvivors_eq_expected25]
   exact h
 
-#print axioms oldOnlySurvivors_eq_expected25
-#print axioms classify_old_avoiding_frontier
 
 end F7Manuscript.ActualW21OldIntervalClassifier

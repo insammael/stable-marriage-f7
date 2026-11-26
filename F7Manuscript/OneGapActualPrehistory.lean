@@ -118,5 +118,3 @@ theorem q1_prehistory_participation
 end
 end F7Manuscript.OneGap
 
-#print axioms F7Manuscript.OneGap.q0_prehistory_participation
-#print axioms F7Manuscript.OneGap.q1_prehistory_participation

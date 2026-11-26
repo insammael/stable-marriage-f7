@@ -108,6 +108,5 @@ theorem bare_G_normalized_rows
     · rw [hpj]; exact hY
 
 
-#print axioms bare_G_normalized_rows
 end
 end F7Manuscript.TripleCoordinateLattice.R21OneGBareRectangle

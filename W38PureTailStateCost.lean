@@ -40,5 +40,4 @@ theorem runCost_before_twoCenters_le (c x : Nat) (p : Bool)
             · by_cases hd0 : d.val = 0 <;>
                 simp [hp', hdx, hd0, Nat.add_comm] <;> split <;> omega
 
-#print axioms runCost_before_twoCenters_le
 end F7Manuscript.W38PureTailStateCost

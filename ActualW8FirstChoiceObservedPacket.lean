@@ -119,7 +119,6 @@ theorem normalize_cut_first_choice {W : Type*} [Fintype W] {q : Nat}
   rw [reindex_support,hf]
   exact he (0,6) (by simp [F7Local.initialWord])
 
-#print axioms normalize_cut_first_choice
 
 end
 end F7Manuscript.ActualW8FirstChoiceObservedPacket

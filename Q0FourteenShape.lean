@@ -2102,6 +2102,5 @@ theorem q0_fourteen_ABA_shape (turns : Nat → Bool) (cuts : Q0Cuts turns 14)
           all_goals omega
         exact False.elim hbad
 
-#print axioms q0_fourteen_ABA_shape
 
 end F7Local

@@ -161,6 +161,5 @@ theorem actual_r21_no_outsider_three_macro_count_le_85
   rw [stableCount_eq_idealCount I]
   omega
 
-#print axioms actual_r21_no_outsider_three_macro_count_le_85
 end
 end F7Manuscript.TripleCoordinateLattice

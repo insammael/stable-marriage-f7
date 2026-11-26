@@ -50,7 +50,5 @@ theorem outside_row_actor_unique
   exact (rowRelabel_outside_value row hbin hinc a ha).trans
     (rowRelabel_outside_value row hbin hinc b hb).symm
 
-#print axioms rowRelabel_outside_value
-#print axioms outside_row_actor_unique
 end
 end F7Manuscript.ActualMixedFrameLayout

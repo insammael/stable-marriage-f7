@@ -40,6 +40,5 @@ theorem runCost_normalPlan (C : Chart) (a : Equiv.Perm (Fin 3))
   rw [NormalBlockDelayedCost.runCost_mixedPlan _ _ _ hm hfirst,
     ← q_eq_pairedTotal C,← s_eq_costCount_recolor C a]
 
-#print axioms runCost_normalPlan
 end
 end F7Manuscript.NormalSkeleton.Chart

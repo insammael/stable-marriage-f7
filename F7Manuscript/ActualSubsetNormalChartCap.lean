@@ -30,7 +30,6 @@ theorem actual_subset_normal_chart_q_le_twice_m :
   change (activeDouble B).card ≤ 2 * normalBlockCount B
   exact subset_normal_paired_count_le_twice_blocks (I := I) Q B h221 h311 hz
 
-#print axioms actual_subset_normal_chart_q_le_twice_m
 
 end
 end F7Manuscript.TripleCoordinateLattice

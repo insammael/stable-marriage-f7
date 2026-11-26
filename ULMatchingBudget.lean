@@ -158,9 +158,5 @@ theorem outsider_22_channels (C E : ℤ)
     · omega
   · omega
 
-#print axioms matching_card_le_three
-#print axioms rooted_matching_budget
-#print axioms outsider_21_channels
-#print axioms outsider_22_channels
 
 end ConditionalUL

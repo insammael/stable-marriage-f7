@@ -163,8 +163,5 @@ theorem actual_low_delta_T_boundary_window
     rw [T_boundary_slot_window_card C E n hT]
     omega
 
-#print axioms boundary_slot_window_convex
-#print axioms T_boundary_slot_window_card
-#print axioms actual_low_delta_T_boundary_window
 end
 end F7Manuscript.TripleCoordinateLattice

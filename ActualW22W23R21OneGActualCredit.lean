@@ -56,6 +56,5 @@ theorem r21_one_G_actual_credit_witness
     rw [hempty] at hTj
     simp at hTj
 
-#print axioms r21_one_G_actual_credit_witness
 end
 end F7Manuscript.ActualPositiveDeficitCoverAssembly

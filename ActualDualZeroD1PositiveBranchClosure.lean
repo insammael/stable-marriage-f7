@@ -115,7 +115,6 @@ theorem actual_dual_zero_d1_positive_branch_false
       hvalid₂ hc₁ne hABA h₂₁ aColor bOld haColor eOld heOld hselectOld
       Wold hcenterStartOld hcenterSupport hpastOld
 
-#print axioms actual_dual_zero_d1_positive_branch_false
 
 end
 end F7Manuscript.ActualInputS11DualZeroD1PositiveBranchClosure

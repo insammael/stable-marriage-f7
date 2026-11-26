@@ -200,13 +200,6 @@ theorem enumeration_added (H : Chart (V := V) m) (n : ℕ) (hn : n < m) :
       H.added ⟨n, hn⟩ := by
   rw [enumeration_point H ⟨3 + n, by omega⟩, introduction_added H ⟨n, hn⟩]
 
-#print axioms introduction_respects
-#print axioms introduction_injective
-#print axioms enumeration_initial
-#print axioms enumeration_added
-#print axioms mem_events
-#print axioms front_introduced
-#print axioms front_mem_events
 
 end
 end F7Manuscript.OrderFrontierEnumeration

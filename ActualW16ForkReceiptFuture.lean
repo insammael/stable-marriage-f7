@@ -323,7 +323,6 @@ theorem fork_receipt_edge_bound {F : Rel} {n : ℕ}
                 simpa [p] using! hbound
               omega
 
-#print axioms fork_receipt_edge_bound
 
 end
 end F7Manuscript.ActualW16ForkReceiptFuture

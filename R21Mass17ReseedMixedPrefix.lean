@@ -85,6 +85,5 @@ theorem DatedPlan.reseedAfterMixedPrefix (n : Nat) :
       refine ⟨cyclicCompose p q,T,bnew,?_,bin2⟩
       simpa only [offEq,lenEq,recolor_compose,bitEq] using! P2
 
-#print axioms DatedPlan.reseedAfterMixedPrefix
 end
 end F7Manuscript.R21NormalEndpoint.ReseededObservation

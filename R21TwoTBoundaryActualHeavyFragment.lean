@@ -42,6 +42,5 @@ theorem actual_mixed_heavy_left_fragment
  exact ⟨Y,before++rest.reverse,fragment,n,last,
    by simpa only [List.append_assoc] using! hY',hn,hge⟩
 
-#print axioms actual_mixed_heavy_left_fragment
 end
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

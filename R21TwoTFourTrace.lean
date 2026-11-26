@@ -149,8 +149,6 @@ theorem framed_word_of_endpoint_rows
   obtain ⟨b,D,ev,hend⟩ := fixed_trace_endpoint_word Q hQ B a c z hm T hsize
   exact ⟨T.lower,b,D,T.lowerValid,ev,(rows T).1,hend.symm ▸ (rows T).2⟩
 
-#print axioms fixed_trace_endpoint_word
-#print axioms framed_word_of_endpoint_rows
 end Literal
 end
 end F7Manuscript.TripleCoordinateLattice.R21FourEndpoint

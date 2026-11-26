@@ -136,6 +136,5 @@ theorem convex_retired_center_reverse_frame
         rfl
   exact ⟨b, hchoiceF, hrows⟩
 
-#print axioms convex_retired_center_reverse_frame
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW33ReverseCenterRowsConvex

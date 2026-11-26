@@ -176,13 +176,5 @@ theorem observed_word1111_future_length_le_five {W : Type*} [Fintype W] {q n : N
   have hn := F7Manuscript.ActualW13New102FiveGraphBounds.G376_future_le_four (future.rename perm1111) (observed_word1111_envelope R tok H)
   omega
 
-#print axioms observed_word0000_envelope
-#print axioms observed_word0000_future_length_le_five
-#print axioms observed_word0100_envelope
-#print axioms observed_word0100_future_length_le_five
-#print axioms observed_word1011_envelope
-#print axioms observed_word1011_future_length_le_five
-#print axioms observed_word1111_envelope
-#print axioms observed_word1111_future_length_le_five
 
 end F7Manuscript.ActualW13New102Q2Local31Envelope376

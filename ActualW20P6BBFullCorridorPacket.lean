@@ -173,5 +173,4 @@ theorem bb_full_token5_corridor_packet
   exact ⟨e,f,r,u,hends24,hpre4,hpre2,hpost4,hpost2,hcell5,her,hrf,hcell6,hru,hfu,
     hends13,hpre3,hpre1,hpost1,hpost3,hfpre6,hprefix6ToU⟩
 
-#print axioms bb_full_token5_corridor_packet
 end F7Manuscript.ActualW20P6BBFullCorridorPacket

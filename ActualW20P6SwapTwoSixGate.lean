@@ -57,5 +57,4 @@ theorem two_six_swap_exchanges_zero_three {n : Nat}
     · exact Or.inr ⟨h3,h0'⟩
     · exact False.elim (hne (h3.trans h3'.symm))
 
-#print axioms two_six_swap_exchanges_zero_three
 end F7Manuscript.ActualW20P6SwapTwoSixGate

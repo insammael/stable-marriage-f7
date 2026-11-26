@@ -150,6 +150,5 @@ theorem reverse_block_segment_exists
     (B := B) (h221 := h221) (h311 := h311) (hz := hz)
     (n := j.val) (j := j) (hjval := rfl) hm f hv hrowTop
 
-#print axioms reverse_block_segment_exists
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW33RContextBlockSegment

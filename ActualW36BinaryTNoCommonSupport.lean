@@ -103,6 +103,5 @@ theorem actual_one_T_binary_no_common_support
   have hdifferent := ActualPairedRectangle.cover_binary_support_ne hcover hOldCard
   exact hdifferent heq.symm
 
-#print axioms actual_one_T_binary_no_common_support
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW36BinaryTNoCommonSupport

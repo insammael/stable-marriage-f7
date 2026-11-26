@@ -96,4 +96,3 @@ theorem actual_s_zero_D0_one_short_bound
 
 end F7Manuscript.W34QOneFirstDZeroShortBound
 
-#print axioms F7Manuscript.W34QOneFirstDZeroShortBound.actual_s_zero_D0_one_short_bound

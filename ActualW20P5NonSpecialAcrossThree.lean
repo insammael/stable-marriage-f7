@@ -34,6 +34,5 @@ theorem p5_non_special_at_three_and_other_T_is_five
   · fin_cases j <;> simp [graphRel,p5G0,ofEdges] at h3 hx hj ⊢
   · fin_cases j <;> simp [graphRel,p5G0,ofEdges] at h3 hx hj ⊢
 
-#print axioms p5_non_special_at_three_and_other_T_is_five
 
 end F7Manuscript.ActualW20P5NonSpecialAcrossThree

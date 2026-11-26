@@ -64,5 +64,4 @@ theorem donorPossible_of_sound (R : TokenRun (Fin 7) (Fin 7) 21) (k : Fin 22)
     rw [columnBoard_eq B p current]
     obtain ⟨path,hp,hc⟩ := column_future_donor_path_of_sound R k B rename p sound current b
     exact rowPossible_of_path _ b path hp hc
-#print axioms donorPossible_of_sound
 end F7Manuscript.R21OneGHandDonor

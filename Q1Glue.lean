@@ -732,7 +732,6 @@ theorem q1glue_01 (t : Matching) (bits : Nat → Bool)
                     simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
                   exact (h.fresh 12 (by decide) 1 hp 1 (by decide)) hEq
 
-#print axioms q1glue_01
 
 def plan_q1glue_02 : List Move := [Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.paired,Move.center (2 : Color),Move.center (1 : Color),Move.center (2 : Color)]
 theorem q1glue_02 (t : Matching) (bits : Nat → Bool)
@@ -1457,7 +1456,6 @@ theorem q1glue_02 (t : Matching) (bits : Nat → Bool)
                     simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
                   exact (h.fresh 12 (by decide) 6 hp 0 (by decide)) hEq
 
-#print axioms q1glue_02
 
 def plan_q1glue_03 : List Move := [Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.paired,Move.center (0 : Color),Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (2 : Color),Move.center (1 : Color)]
 theorem q1glue_03 (t : Matching) (bits : Nat → Bool)
@@ -2374,7 +2372,6 @@ theorem q1glue_03 (t : Matching) (bits : Nat → Bool)
                     simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
                   exact (h.fresh 12 (by decide) 1 hp 1 (by decide)) hEq
 
-#print axioms q1glue_03
 
 def plan_q1glue_04 : List Move := [Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.paired,Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (1 : Color)]
 theorem q1glue_04 (t : Matching) (bits : Nat → Bool)
@@ -3291,7 +3288,6 @@ theorem q1glue_04 (t : Matching) (bits : Nat → Bool)
                     simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
                   exact (h.fresh 12 (by decide) 6 hp 0 (by decide)) hEq
 
-#print axioms q1glue_04
 
 def plan_q1glue_05 : List Move := [Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.paired,Move.center (1 : Color),Move.center (0 : Color)]
 theorem q1glue_05 (t : Matching) (bits : Nat → Bool)
@@ -3872,7 +3868,6 @@ theorem q1glue_05 (t : Matching) (bits : Nat → Bool)
                     simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
                   exact (h.fresh 12 (by decide) 6 hp 0 (by decide)) hEq
 
-#print axioms q1glue_05
 
 def plan_q1glue_06 : List Move := [Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.paired,Move.center (2 : Color),Move.center (0 : Color)]
 theorem q1glue_06 (t : Matching) (bits : Nat → Bool)
@@ -4453,7 +4448,6 @@ theorem q1glue_06 (t : Matching) (bits : Nat → Bool)
                     simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
                   exact (h.fresh 12 (by decide) 6 hp 0 (by decide)) hEq
 
-#print axioms q1glue_06
 
 def plan_q1glue_07 : List Move := [Move.center (1 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.paired,Move.center (2 : Color),Move.center (1 : Color)]
 theorem q1glue_07 (t : Matching) (bits : Nat → Bool)
@@ -5082,7 +5076,6 @@ theorem q1glue_07 (t : Matching) (bits : Nat → Bool)
                 simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
               exact (h.fresh 10 (by decide) 1 hp 0 (by decide)) hEq
 
-#print axioms q1glue_07
 
 def plan_q1glue_08 : List Move := [Move.center (1 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.paired,Move.center (0 : Color),Move.center (1 : Color)]
 theorem q1glue_08 (t : Matching) (bits : Nat → Bool)
@@ -5711,6 +5704,5 @@ theorem q1glue_08 (t : Matching) (bits : Nat → Bool)
                 simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
               exact (h.fresh 10 (by decide) 1 hp 0 (by decide)) hEq
 
-#print axioms q1glue_08
 
 end F7Local

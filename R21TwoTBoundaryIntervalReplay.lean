@@ -106,9 +106,5 @@ theorem interval_left_fresh (R : TokenRun Site Site 21) (rename : Equiv.Perm Sit
     rw [←before i]; exact h.2.1
   exact fresh_left_interval R rename hi (event i) _ kn mn _ (support i)
 
-#print axioms interval_replay_left
-#print axioms interval_left_fresh
-#print axioms interval_replay_right
-#print axioms interval_right_fresh
 end
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

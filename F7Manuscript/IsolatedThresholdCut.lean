@@ -113,8 +113,5 @@ theorem isolated_cut_strictly_advances_changed_coordinate
   rw [hafter] at hcoord
   exact hstrict.trans_le hcoord
 
-#print axioms isolated_path_cut_comparable
-#print axioms isolated_cut_excludes_fixed_coordinate
-#print axioms isolated_cut_strictly_advances_changed_coordinate
 end
 end F7Manuscript.TripleCoordinateLattice.GenericThresholdPath

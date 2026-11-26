@@ -39,6 +39,5 @@ theorem normalSkeleton_all_sizes_completion_ledger :
     extra_eq_directed_count (normalFiniteOrder C h221 h311 hz) _ hSP] at h
   exact h
 
-#print axioms normalSkeleton_all_sizes_completion_ledger
 end
 end F7Manuscript.TripleCoordinateLattice.GenericNormal

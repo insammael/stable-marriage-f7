@@ -233,8 +233,6 @@ theorem a142_same_boundary_canonical_actual_chart_producer
     hocc.1, hocc.2, hcharge, hcost, hk,
     hledger.1, hledger.2.1, hledger.2.2⟩
 
-#print axioms a142_canonical_segment_bounds
-#print axioms a142_same_boundary_canonical_actual_chart_producer
 
 end
 end F7Manuscript.TripleCoordinateLattice

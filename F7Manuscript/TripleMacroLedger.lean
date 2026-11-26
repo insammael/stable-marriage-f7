@@ -48,7 +48,5 @@ theorem low_delta_component_budget (h221 : NoInduced221 (V := V))
   have h := triple_deficit_decomposition C h221 h311
   omega
 
-#print axioms labelled_global_size
-#print axioms delta_two_component_cases
 end
 end F7Manuscript.TripleCoordinateLattice

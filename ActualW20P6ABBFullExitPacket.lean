@@ -221,5 +221,4 @@ theorem actual_ABB_five_exit_packet
     · exact ⟨v.succ, by simp only [Fin.val_succ] at hvf ⊢; omega,by simpa [h3] using! hv5⟩
   exact ⟨f,hends,hpre3,hpre1,hpost1,hpost3,hfpre6,hfreeze⟩
 
-#print axioms actual_ABB_five_exit_packet
 end F7Manuscript.ActualW20P6ABBFullExitPacket

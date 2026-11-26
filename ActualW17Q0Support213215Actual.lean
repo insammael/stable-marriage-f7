@@ -350,8 +350,6 @@ theorem actual_X_u3_q0s4_p46810_min_le_one_false
       simpa [ho, Nat.min_eq_left hr] using! hm'
   omega
 
-#print axioms actual_X_u3_q0s4_p3611_min_le_one_false
-#print axioms actual_X_u3_q0s4_p46810_min_le_one_false
 
 end
 end F7Manuscript.ActualW17Q0Support213215Actual

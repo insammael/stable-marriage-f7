@@ -85,7 +85,6 @@ theorem initial_first_D_window {W : Type*} [Fintype W] {k q m : Nat}
   congr 1
   omega
 
-#print axioms initial_first_D_window
 
 end
 end F7Manuscript.ActualW8InitialFirstDWindow

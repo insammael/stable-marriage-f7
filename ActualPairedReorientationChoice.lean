@@ -50,5 +50,4 @@ theorem exists_paired_reorientation_step
   refine ⟨a, b, ha, hb, ?_⟩
   exact paired_reorientation_step F G hframe hlast a b x l ha hb
 
-#print axioms exists_paired_reorientation_step
 end F7Manuscript.ActualPairedReorientationChoice

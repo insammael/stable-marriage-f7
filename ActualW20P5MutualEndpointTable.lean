@@ -46,6 +46,5 @@ theorem p5_mutual_endpoint_assignment
       hswap.2.trans hL6⟩
   · exact False.elim (hneq (hL6.trans hR6.symm))
 
-#print axioms p5_mutual_endpoint_assignment
 
 end F7Manuscript.ActualW20P5MutualEndpointTable

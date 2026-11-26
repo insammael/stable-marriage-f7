@@ -47,5 +47,4 @@ theorem normalLeafCard_congr_deciders
     rfl
   rw [hj]
 
-#print axioms normalLeafCard_congr_deciders
 end F7Manuscript.TripleCoordinateLattice.ActualW33NormalLeafCardCongr

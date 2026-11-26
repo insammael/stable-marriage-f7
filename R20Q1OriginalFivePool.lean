@@ -183,6 +183,5 @@ theorem r20_q1_singleton_slot_five_history
   exact actual_five_rectangle_history (I := I) Q (fourActorRectangleInterval_convex a b c d)
     a b x c d hm hOld hNew ha hb hSmall
 
-#print axioms r20_q1_singleton_slot_five_history
 end
 end F7Manuscript.TripleCoordinateLattice

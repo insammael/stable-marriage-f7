@@ -106,5 +106,4 @@ theorem fresh_iff_of_pointwise_support
       (fun s a => (horig s a).symm) (hv j)
     simpa [j, hj] using! h
 
-#print axioms fresh_iff_of_pointwise_support
 end F7Manuscript.ActualSupportFreshTransport

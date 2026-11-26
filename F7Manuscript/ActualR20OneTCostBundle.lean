@@ -180,9 +180,6 @@ theorem actual_r20_one_T_no_outsider_q_add_s_ge_four_count_le_85
   rw [stableCount_eq_idealCount I]
   omega
 
-#print axioms actual_one_T_no_outsider_basic_run_cost
-#print axioms actual_r20_one_T_no_outsider_paired_ge_four_count_le_85
-#print axioms actual_r20_one_T_no_outsider_q_add_s_ge_four_count_le_85
 end
 end F7Manuscript.TripleCoordinateLattice
 
@@ -256,7 +253,6 @@ theorem actual_r20_one_T_no_outsider_two_long_q_add_s_ge_two_count_le_85
   rw [stableCount_eq_idealCount I]
   omega
 
-#print axioms actual_r20_one_T_no_outsider_two_long_q_add_s_ge_two_count_le_85
 end
 end F7Manuscript.TripleCoordinateLattice
 
@@ -394,8 +390,6 @@ theorem actual_r20_one_T_no_outsider_endpoint_q_add_s_ge_two_count_le_85
   rw [stableCount_eq_idealCount I]
   omega
 
-#print axioms actual_one_T_no_outsider_endpoint_run_cost
-#print axioms actual_r20_one_T_no_outsider_endpoint_q_add_s_ge_two_count_le_85
 end
 end F7Manuscript.TripleCoordinateLattice
 
@@ -484,6 +478,5 @@ theorem actual_r20_one_T_no_outsider_same_crew_two_long_q_add_s_pos_count_le_85
   rw [stableCount_eq_idealCount I]
   omega
 
-#print axioms actual_r20_one_T_no_outsider_same_crew_two_long_q_add_s_pos_count_le_85
 end
 end F7Manuscript.TripleCoordinateLattice

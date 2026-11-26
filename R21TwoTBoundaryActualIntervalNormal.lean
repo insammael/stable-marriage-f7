@@ -40,7 +40,5 @@ theorem actual_interval_normal_left
  exact continuation_to_localNormal B f plan bits i
    (interval_segment_left R rename pre _ post hw hi B known now bound).1
 
-#print axioms actual_interval_normal_right
-#print axioms actual_interval_normal_left
 end
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

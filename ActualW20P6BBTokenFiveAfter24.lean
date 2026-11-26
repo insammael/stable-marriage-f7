@@ -136,5 +136,4 @@ theorem bb_token5_receipt_13_after_departure
       · exact hce
       · exact hstrict
 
-#print axioms bb_token5_receipt_13_after_departure
 end F7Manuscript.ActualW20P6BBTokenFiveAfter24

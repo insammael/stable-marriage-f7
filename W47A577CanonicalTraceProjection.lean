@@ -99,6 +99,3 @@ end
 
 end F7Manuscript.TripleCoordinateLattice
 
-#print axioms F7Manuscript.TripleCoordinateLattice.a572_literal_segment_triple_nonempty
-#print axioms F7Manuscript.TripleCoordinateLattice.a572_canonical_segment_eq_actual
-#print axioms F7Manuscript.TripleCoordinateLattice.a572_actual_subset_mixed_trace

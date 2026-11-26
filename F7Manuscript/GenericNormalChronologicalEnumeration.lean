@@ -117,7 +117,5 @@ theorem actualMixedChronologicalEnumeration_at
   simpa only [Equiv.apply_symm_apply] using! he.symm
 
 
-#print axioms actualMixedChronologicalEnumeration
-#print axioms actualMixedChronologicalEnumeration_at
 end
 end F7Manuscript.TripleCoordinateLattice.GenericNormal

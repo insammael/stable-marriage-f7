@@ -60,7 +60,5 @@ theorem actual_budget_three_positive_constant_sign
   · exact F7Manuscript.TripleCoordinateLattice.ActualW30R20BudgetThreeQThreeConstantSign.actual_budget_three_q_three_constant_sign
       C h221 h311 hG hT hQ19 hx hout a p e hcost hcase
 
-#print axioms actual_budget_three_positive_constant_sign
-#check actual_budget_three_positive_constant_sign
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW30R20BudgetThreePositiveConstantSign

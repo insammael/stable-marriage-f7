@@ -1,5 +1,6 @@
 module
 
+public import Mathlib
 public import F7Manuscript.Definitions
 
 @[expose] public section
@@ -42,6 +43,3 @@ theorem stableCount_swap {n : ℕ} (I : Profile n) :
 
 end F7Manuscript
 
-#print axioms F7Manuscript.blockingPair_swap
-#print axioms F7Manuscript.stable_swap_iff
-#print axioms F7Manuscript.stableCount_swap

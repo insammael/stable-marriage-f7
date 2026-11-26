@@ -118,7 +118,6 @@ theorem actual_normal_core_D2_then_D1_impossible
   exact actual_mixed_trace_offset_D2_then_D1_false Q hQ B h221Q h311Q hzQ hm T
     k hk' hD2' hD1'
 
-#print axioms actual_normal_core_D2_then_D1_impossible
 
 /-- The forward S11 two-step separation in the actual core chart: an interior
 D=2 row followed by D=0 forces the next row to be D=0 as well. -/
@@ -189,7 +188,6 @@ theorem actual_normal_core_D2_zero_D2_impossible
   rw [hD2next'] at hclosed
   omega
 
-#print axioms actual_normal_core_D2_zero_D2_impossible
 
 /-- Compatibility consequence for callers that recorded the previous ABA
 form of the local spacing statement. -/
@@ -207,7 +205,6 @@ theorem actual_normal_core_D2_then_D1_ABA_spacing
   exact False.elim (actual_normal_core_D2_then_D1_impossible C h221 h311 hG hT
     hn hδ hD hpos k hk hD2 hD1)
 
-#print axioms actual_normal_core_D2_then_D1_ABA_spacing
 
 end
 end F7Manuscript.TripleCoordinateLattice

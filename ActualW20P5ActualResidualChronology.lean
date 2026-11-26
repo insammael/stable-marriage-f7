@@ -175,5 +175,4 @@ theorem p5_actual_residual_chronology
   exact ⟨b2,q2,b6,q6,harr2,harr6,hb2,hq2,hb6,hq6,
     hb2mval,hb6mval,hsets2,hsets6,horder⟩
 
-#print axioms p5_actual_residual_chronology
 end F7Manuscript.ActualW20P5ActualResidualChronology

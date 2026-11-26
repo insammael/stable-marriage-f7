@@ -29,5 +29,4 @@ theorem graph_leaf_of_noReturn {N : ℕ} (T : Table N) (plan : List Move)
     obtain ⟨hlen,hneeded,hword,hvalid⟩ := hv
     exact ⟨r,hvalid,hlen,hw⟩
 
-#print axioms graph_leaf_of_noReturn
 end F7Manuscript.WindowControlCertificate

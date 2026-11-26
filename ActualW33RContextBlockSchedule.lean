@@ -179,7 +179,5 @@ theorem reverseBlockRunSchedule_final_frame {W : Type*} [Fintype W]
                   simpa only [Nat.zero_add] using! htail k hk')
         _ = g := hpair
 
-#print axioms reverseBlockRunSchedule_supportsRoute
-#print axioms reverseBlockRunSchedule_final_frame
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW33RContextBlockSchedule

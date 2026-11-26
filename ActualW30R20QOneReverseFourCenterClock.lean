@@ -114,5 +114,4 @@ theorem q_one_reverse_four_center_addresses
       (F7Manuscript.TripleCoordinateLattice.ActualW29R20RetirementCutStages.singletonPairCut S j hD).val + 5
     rw [hgap34, hgap23, hgap12, hfirst]
 
-#print axioms q_one_reverse_four_center_addresses
 end F7Manuscript.TripleCoordinateLattice.ActualW30R20QOneReverseFourCenterClock

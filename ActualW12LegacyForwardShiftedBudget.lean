@@ -150,7 +150,6 @@ theorem actual_X_forward_shifted_budget_root_threshold
   rw [hclock] at hthreshold
   simpa [L, K, extra] using! hthreshold
 
-#print axioms actual_X_forward_shifted_budget_root_threshold
 
 end
 end F7Manuscript.ActualW12LegacyForwardShiftedBudget

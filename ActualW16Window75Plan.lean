@@ -27,7 +27,6 @@ def TA : List Pair :=
 theorem window75Plan_eventCount : eventCount window75Plan = 13 := by
   norm_num [window75Plan, eventCount]
 
-#print axioms window75Plan_eventCount
 
 def TB : List Pair :=
   [(0,1),(2,3),(4,5),(0,6),(2,1),(4,3),(6,5),(3,0),

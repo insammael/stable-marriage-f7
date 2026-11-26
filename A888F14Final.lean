@@ -88,4 +88,3 @@ theorem periodic_short_extension_after_14_le_one
 
 end F7Manuscript.A156Frozen14ShortExtension
 
-#print axioms F7Manuscript.A156Frozen14ShortExtension.periodic_short_extension_after_14_le_one

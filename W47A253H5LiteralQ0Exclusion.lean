@@ -150,7 +150,3 @@ end
 
 end F7Manuscript.TripleCoordinateLattice
 
-#print axioms F7Manuscript.TripleCoordinateLattice.normal_leaf_mem_actualNormalSkeleton_q_pos
-#print axioms F7Manuscript.TripleCoordinateLattice.nonbottom_two_threshold_seed_actual_q_pos
-#print axioms F7Manuscript.TripleCoordinateLattice.normalRun_internal_label_two_actual_q_pos
-#print axioms F7Manuscript.TripleCoordinateLattice.normalRun_q0_excludes_internal_label_two

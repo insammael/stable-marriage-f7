@@ -80,7 +80,5 @@ theorem actual_root_A_new_seed_frame
     change insert ({2,6} : Finset (Fin 7)) _=_
     rw [newSets,pairs]
 
-#print axioms actual_G_new_event_pair
-#print axioms actual_root_A_new_seed_frame
 end
 end F7Manuscript.TripleCoordinateLattice.R21OneGHandActual

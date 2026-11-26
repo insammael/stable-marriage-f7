@@ -135,12 +135,6 @@ def rawColoredCut14_to_longerSubRun
       R start h17 hn hspan alpha Cut hword).bits = Cut.bits := by
   rfl
 
-#print axioms fixedWhole17
-#print axioms first17_support_eq
-#print axioms longerSubRun_state
-#print axioms rawCut14_of_first17_supports
-#print axioms rawColoredCut14_to_longerSubRun
-#print axioms rawColoredCut14_to_longerSubRun_bits
 
 end
 

@@ -254,8 +254,6 @@ theorem endpoint_D_two_pivot_two_partial_none
       (by simpa [E] using! hfirst) (by simpa [E] using! hinner)
       (by simpa [E] using! hlast) (by omega) hwindow hSome
 
-#print axioms endpoint_D_two_pivot_two_partial_none
-#print axioms endpoint_D_two_pivot_one_partial_none
 
 end
 end F7Manuscript.ActualW17Q2S2PaidZeroHelper

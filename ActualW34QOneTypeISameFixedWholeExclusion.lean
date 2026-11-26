@@ -217,6 +217,5 @@ theorem actual_typeI_q1_same_fixed_whole_exclusion
     hmPre hqPre1 hsPre0 a.perm b fixed
     hlastColor (reindexRun R e) bits h4 h1 h2 h3 hrouteSuffix
 
-#print axioms actual_typeI_q1_same_fixed_whole_exclusion
 end
 end F7Manuscript.TripleCoordinateLattice

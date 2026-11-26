@@ -169,8 +169,6 @@ theorem dualNormalBlockSchedule_frontier_memory
   rw [hfinal] at M'
   exact M'
 
-#print axioms dualNormalBlockSchedule_validity
-#print axioms dualNormalBlockSchedule_frontier_memory
 
 end
 end F7Manuscript.ActualDualBlockMemory

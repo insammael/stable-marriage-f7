@@ -132,6 +132,5 @@ theorem actual_normal_endpoint_eleven_pivot
   exact F7Manuscript.TripleCoordinateLattice.W37EndpointElevenPivotSupply.endpoint_eleven_pivot_supply
     S hmS hqS hsS j hjend (by simpa only [S] using! hother) cuts11
 
-#print axioms actual_normal_endpoint_eleven_pivot
 end
 end F7Manuscript.TripleCoordinateLattice.W37ActualNormalEndpointElevenPivot

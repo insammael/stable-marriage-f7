@@ -180,12 +180,6 @@ theorem binary_from_actual_chart (H : FrontierChart I m) (hm : 2 ≤ m)
     (n : ℕ) (hn : n ≤ m) (c : Color) : (support I (H.front n c)).card = 2 :=
   all_frontiers_binary H hm (adjacent_colors_ne H 0 (by omega)) n hn c
 
-#print axioms step_shape
-#print axioms selected_type_preserved
-#print axioms all_frontiers_binary
-#print axioms all_added_binary
-#print axioms adjacent_colors_ne
-#print axioms binary_from_actual_chart
 
 end
 end F7Manuscript.EventFrontierRigidity

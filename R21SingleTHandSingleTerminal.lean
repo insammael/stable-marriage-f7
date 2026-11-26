@@ -38,6 +38,5 @@ theorem SingleTerminalCertificate.excludes_snapshots (C : SingleTerminalCertific
     simpa only [RN,e,h.1] using! hh
   exact C.excludes_boards LN RN ha hb k hbl hbr
 
-#print axioms SingleTerminalCertificate.excludes_snapshots
 end
 end F7Manuscript.R21SingleTHand

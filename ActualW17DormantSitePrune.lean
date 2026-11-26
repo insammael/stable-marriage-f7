@@ -234,8 +234,6 @@ theorem dormant_prune_envelope {F : Rel} {G : Graph} {a : Site}
     Envelope (pruneRel F a) (graphRel (pruneGraph G a)) :=
   prune_envelope env
 
-#print axioms dormant_site_prune_future
-#print axioms dormant_prune_envelope
 
 end
 end F7Manuscript.ActualW17DormantSitePrune

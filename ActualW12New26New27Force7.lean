@@ -416,6 +416,4 @@ theorem first_center_forced (c : Color) (hc : c = 0 ∨ c = 2)
                   | true =>
                     exact (force7_c2_x1_l1_y1 bits hfirst h3 h4 h5 h6 h7 N).elim
 
-#print axioms bit3_forced
-#print axioms first_center_forced
 end F7Manuscript.ActualW12New26New27Force7

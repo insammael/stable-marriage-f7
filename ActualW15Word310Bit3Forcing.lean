@@ -249,6 +249,5 @@ theorem plan310_bit3_eq_bit2
     · exact False.elim (rejectB2 t bits h0 h1 h2 h3 h4' h5 N)
   · rfl
 
-#print axioms plan310_bit3_eq_bit2
 
 end F7Manuscript.ActualW15Word310Bit3Forcing

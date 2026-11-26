@@ -72,7 +72,5 @@ theorem admissible_relabel (ρ : Equiv.Perm Color) {f : SupportFrame}
     · rw [afterCenter_relabel]
       exact ih H.2
 
-#print axioms supportsRoute_relabel
-#print axioms admissible_relabel
 end
 end F7Manuscript.R21LongWindow.PureColorPerm

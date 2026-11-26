@@ -57,7 +57,6 @@ theorem thirteen_mass_two_run_cost {n : ℕ} (S : Fin n → Chart) (hn : n≤6)
     · simp
   exact ⟨t,by omega,htq,hts⟩
 
-#print axioms thirteen_mass_two_run_cost
 end
 end F7Manuscript.TripleCoordinateLattice
 

@@ -93,6 +93,5 @@ theorem DatedPlan.ofActiveFrameWithNormalization
     rw [Finset.card_map]
     exact binary t
 
-#print axioms DatedPlan.ofActiveFrameWithNormalization
 end
 end F7Manuscript.R21NormalEndpoint.ReseededObservation

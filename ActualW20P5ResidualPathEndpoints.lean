@@ -84,5 +84,4 @@ theorem p5_singleton_transfer_identifies_endpoints
     · exact ⟨hxy, Or.inr ⟨hyL.symm,hR.symm⟩⟩
     · exact False.elim (hxy (hR.trans hyR.symm))
 
-#print axioms p5_singleton_transfer_identifies_endpoints
 end F7Manuscript.ActualW20P5ResidualPathEndpoints

@@ -66,7 +66,6 @@ theorem actual_u3_cost_three_min_zero_false
   · exact F7Manuscript.ActualW16U3Retained13MinZero.actual_u3_retained13_min_endpoint_zero_false
       C hn hδ h221 h311 hG hT X hnm14 hmin hDzero14 a' b' c' hP' hret
 
-#print axioms actual_u3_cost_three_min_zero_false
 
 end
 end F7Manuscript.ActualW16U3CostThreeMinZeroExclusion

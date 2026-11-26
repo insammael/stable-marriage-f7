@@ -231,14 +231,6 @@ theorem actual_tail107_plan_cases
       decide
     exact Or.inr (he.trans hshape)
 
-#print axioms center_list_two_orientations
-#print axioms actual_center_list_two_orientations
-#print axioms actual_levels_singleton
-#print axioms actual_source_size
-#print axioms mixedPlan_head_endpoint
-#print axioms mixedPlan_tail_endpoint
-#print axioms actual_head03_plan_cases
-#print axioms actual_tail107_plan_cases
 
 end
 end F7Manuscript.OneTFourShapeWords

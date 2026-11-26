@@ -101,6 +101,5 @@ theorem p5_caseA_first_internal_cut
   exact ⟨e, heprops.1, hminimal, hpre.1, hpre.2.1, hpre.2.2, hends,
     hpost.1, hpost.2.1, hpost.2.2⟩
 
-#print axioms p5_caseA_first_internal_cut
 
 end F7Manuscript.ActualW20P5CaseAFirstEventBundle

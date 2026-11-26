@@ -61,6 +61,5 @@ theorem actual_eight_four_pool_impossible
       (fun i => binary i.rev)
     omega
 
-#print axioms actual_eight_four_pool_impossible
 end
 end F7Manuscript.R21LongWindow.FourPoolCapacity

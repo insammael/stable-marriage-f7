@@ -170,6 +170,5 @@ theorem reverseBlockSegmentRunSchedule_supportsRoute {W : Type*} [Fintype W]
         (supportsRoute_append H0 H1')
 
 
-#print axioms reverseBlockSegmentRunSchedule_supportsRoute
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW33RContextSegmentSchedule

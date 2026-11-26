@@ -85,8 +85,6 @@ theorem shortPureWindowFee (code : Fin 1024)
   rw [localRules] at selected
   exact of_decide_eq_true selected
 
-#print axioms shortPureWindowFee
 
-#print axioms pureGapTable
 
 end F7Manuscript.R21NormalEndpoint.CostFiveHand

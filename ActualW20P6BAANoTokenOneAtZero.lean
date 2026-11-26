@@ -112,5 +112,4 @@ theorem actual_BAA_firstB_four_token_one_never_zero
       have hco6 : tr.state t 6 = 4 := hy
       exact actual_BAA_coexistence_false tr hword hfirst t ht hco6
 
-#print axioms actual_BAA_firstB_four_token_one_never_zero
 end F7Manuscript.ActualW20P6BAANoTokenOneAtZero

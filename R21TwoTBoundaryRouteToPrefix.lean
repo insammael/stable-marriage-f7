@@ -77,5 +77,4 @@ theorem continuation_to_localNextT (B : Board) (f : SupportFrame)
      simpa [replay_concat] using! h
    · simpa [replay_concat,supportsRouteFinal] using! hend
 
-#print axioms continuation_to_localNextT
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

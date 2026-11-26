@@ -35,8 +35,6 @@ theorem coreDual_color_preserved (x : Core (dualPartition C)) :
     color (corePartition (dualPartition C)) x =
       color (dualPartition (corePartition C)) (coreDualOrderIso C x) := rfl
 
-#print axioms coreDualOrderIso
-#print axioms coreDual_color_preserved
 
 end
 end F7Manuscript.ActualW7CoreDualCarrierTransport

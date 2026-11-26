@@ -219,7 +219,6 @@ theorem actual_X_P6_physical_zero_guard
       have hzero : X.levels.reverse[0]! = 0 := hD 0 (by omega)
       simpa [hzero] using! hthreshold
 
-#print axioms actual_X_P6_physical_zero_guard
 
 end
 end F7Manuscript.ActualW14P6PhysicalZeroGuard

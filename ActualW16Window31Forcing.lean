@@ -46,7 +46,5 @@ theorem plan31_D31_source15 (bits : Nat → Bool)
     select, other, put, Fin.ofNat, h0, h1, h2, h3, h4, h5, h6, h7, h8, h9, h10]
   decide
 
-#print axioms plan31_C31_source15
-#print axioms plan31_D31_source15
 
 end F7Manuscript.ActualW16Window31Forcing

@@ -37,6 +37,4 @@ theorem bb_center_event_count
     rw [centerTypeWord, List.length_map, centerWord_length]
   omega
 
-#print axioms bb_center_event_token_in_B
-#print axioms bb_center_event_count
 end F7Manuscript.ActualW20P6BBEventInventory

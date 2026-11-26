@@ -41,6 +41,5 @@ theorem actual_q1_floor_of_reflected_run
     AR.colorPerm (by simpa only [reflect_eq_reflectChart] using! AR.firstColor)
     AR.bits (by simpa only [reflect_eq_reflectChart] using! AR.noReturn)
 
-#print axioms actual_q1_floor_of_reflected_run
 end
 end F7Manuscript.ActualW33QOneCostOfReverseRun

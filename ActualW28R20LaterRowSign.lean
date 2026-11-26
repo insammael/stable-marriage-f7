@@ -65,6 +65,5 @@ theorem later_normal_paired_source_is_above
   rw [hrow] at hav
   exact hav
 
-#print axioms later_normal_paired_source_is_above
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW28R20LaterRowSign

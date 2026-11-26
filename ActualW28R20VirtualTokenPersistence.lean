@@ -1,5 +1,6 @@
 module
 
+public import Mathlib
 public import F6SmallBlockTokenCapacity
 
 @[expose] public section
@@ -87,7 +88,5 @@ theorem state_eq_old_row_after_pair
     state_eq_of_no_support_between R u β.succ t hβt havoid
   exact hpersist.symm.trans hswap
 
-#print axioms state_eq_of_no_support_between
-#print axioms state_eq_old_row_after_pair
 end
 end F7Manuscript.ActualW28R20VirtualTokenPersistence

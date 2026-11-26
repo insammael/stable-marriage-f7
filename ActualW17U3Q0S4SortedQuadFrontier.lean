@@ -213,7 +213,6 @@ theorem actual_u3_q0_s4_sorted_quad_frontier
     omega
   exact ⟨a,b,c,d,hab,hbc,hcd,hset,haBounds.1,haBounds.2,hfirst,hlast⟩
 
-#print axioms actual_u3_q0_s4_sorted_quad_frontier
 
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW17U3Q0S4SortedQuadFrontier

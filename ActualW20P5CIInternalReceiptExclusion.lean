@@ -241,5 +241,4 @@ theorem p5_CI_no_internal_target_receipts
         Finset.card_pos.mpr ⟨e, hneither⟩
       omega
 
-#print axioms p5_CI_no_internal_target_receipts
 end F7Manuscript.ActualW20P5CIInternalReceiptExclusion

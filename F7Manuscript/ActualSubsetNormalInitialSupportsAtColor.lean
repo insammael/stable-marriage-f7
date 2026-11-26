@@ -179,7 +179,6 @@ theorem actual_subset_normal_initial_supports_at_color
   · rw [reindex_support, hwholeSupport ⟨3, by omega⟩, hcenterLocal]
     exact hnorm3
 
-#print axioms actual_subset_normal_initial_supports_at_color
 
 end
 end F7Manuscript.TripleCoordinateLattice

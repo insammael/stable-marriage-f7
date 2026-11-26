@@ -29,7 +29,6 @@ theorem count_at_empty_G {u : ℕ} (hu : (outsideTripleVertices C).card = u)
     (by rcases hs with rfl | rfl <;> decide)
     (by rcases hs with rfl | rfl <;> decide) hG hT hz
 
-#print axioms count_at_empty_G
 end
 end F7Manuscript.ActualPositiveDeficitCoverAssembly.R21OneGEndpoint
 

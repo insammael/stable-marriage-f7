@@ -99,6 +99,3 @@ theorem savedOrbitMember_transfer_spec_z2 (outs row : List F7TOutsider.Atom)
 
 end F7Manuscript.TOutsiderSavedTemplateCatalog
 
-#print axioms F7Manuscript.TOutsiderSavedTemplateCatalog.templatesZ2_eq_transferTemplateTable
-#print axioms F7Manuscript.TOutsiderSavedTemplateCatalog.templateCheck_of_mem_templatesZ2
-#print axioms F7Manuscript.TOutsiderSavedTemplateCatalog.savedOrbitMember_transfer_spec_z2

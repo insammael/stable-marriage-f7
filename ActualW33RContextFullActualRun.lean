@@ -90,6 +90,5 @@ theorem actual_reverse_mixed_run_of_metadata
   exact actual_mixed_run_of_complete_route R (RS).naturalWord (RS).naturalLevels
     (by omega) hnsize f hv bits hinit route
 
-#print axioms actual_reverse_mixed_run_of_metadata
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW33RContextFullActualRun

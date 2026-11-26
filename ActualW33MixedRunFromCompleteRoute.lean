@@ -46,7 +46,5 @@ theorem actual_mixed_run_of_complete_route
       exact actual_mixed_run_of_retained_frame_route R word levels hm hsize
         f hv (bits 0) (fun k => bits (1+k)) hinit hs H
 
-#print axioms full_plan_initial_center
-#print axioms actual_mixed_run_of_complete_route
 end
 end F7Manuscript.ActualW33MixedRunFromCompleteRoute

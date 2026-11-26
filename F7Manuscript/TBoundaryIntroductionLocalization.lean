@@ -62,7 +62,5 @@ theorem T_introduction_pairIncrement_eq_context
     pairCount (vertices u)+(crossEdges B (vertices u)).card
   rw [hcross]
 
-#print axioms globalIntroducedPast_eq_rowPastCore
-#print axioms T_introduction_pairIncrement_eq_context
 end
 end F7Manuscript.TripleCoordinateLattice

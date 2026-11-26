@@ -75,4 +75,3 @@ theorem binary_T_normal_joined_actual_twenty_false
 end
 end F7Manuscript.W36BinaryTNormalJoinExclusion
 
-#print axioms F7Manuscript.W36BinaryTNormalJoinExclusion.binary_T_normal_joined_actual_twenty_false

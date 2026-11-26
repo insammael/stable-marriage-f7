@@ -142,7 +142,6 @@ theorem actual_X_forward_initial_budget_root_threshold
   rw [hclock] at hthreshold
   simpa [extra, hlevels0] using! hthreshold
 
-#print axioms actual_X_forward_initial_budget_root_threshold
 
 end
 end F7Manuscript.ActualW12LegacyForwardInitialBudget

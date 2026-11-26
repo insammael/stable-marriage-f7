@@ -139,6 +139,5 @@ theorem source14_W0L8Word (bits : Nat → Bool)
   simp only [window0Plan, routePrefix, initialSupport, initialWord, centerPair, afterCenter, select, other, put, h0, h1, h2, h3, h4, h5, h6, h7, h8, h9]
   decide
 
-#print axioms source14_W0L1Word
 
 end F7Manuscript.ActualW16Window0ScheduleWords

@@ -672,5 +672,4 @@ theorem tableN_checked : ∀ i : Fin 49, Sized.ValidNode tableN i ∨ Sized.Node
   · exact Or.inl node_47_valid
   · exact Or.inl node_48_valid
 
-#print axioms tableN_checked
 end F7Manuscript.ActualW22W11AnchorBridge

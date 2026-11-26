@@ -53,10 +53,6 @@ theorem c6SupportAfter_mapSupportFrame (e : Equiv.Perm Site)
       simpa only [c6SupportAfter, mapSupportFrame_afterPaired] using!
         ih (afterPaired s (bits i) (bits (i+1))) (i+2)
 
-#print axioms c6SupportAfter_eq_supportsRouteFinal
-#print axioms c6Pairs_mapSupportFrame
-#print axioms c6AfterRow_mapSupportFrame
-#print axioms c6SupportAfter_mapSupportFrame
 end F7Manuscript.TripleCoordinateLattice
 
 /-! A center-only route admits any renaming of the three frontier colors.
@@ -119,8 +115,6 @@ theorem SupportsRoute.recolor_centers
     intro hcenters
     exact False.elim (hcenters (List.mem_cons_self))
 
-#print axioms recolorCenterFrame_afterCenter
-#print axioms SupportsRoute.recolor_centers
 end F7Manuscript.TripleCoordinateLattice
 
 /-! Expose the existing actual center support at its original event label,
@@ -164,6 +158,5 @@ theorem subsetNormal_center_label_support
   rw [hlabel, ← hrow]
   simpa only [c, afterCenter, put, if_pos rfl] using! hcenter c
 
-#print axioms subsetNormal_center_label_support
 end
 end F7Manuscript.TripleCoordinateLattice

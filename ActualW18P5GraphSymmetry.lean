@@ -76,9 +76,5 @@ theorem p5_budget_0_to_1 {K : ℕ}
     {n : ℕ} (h : Future (graphRel p5G1) 2 n) : n ≤ K := by
   exact bound0 n (p5_future_1_to_0 h)
 
-#print axioms p5_target_graphs_transpose_cells
-#print axioms p5_future_0_to_1
-#print axioms p5_future_1_to_0
-#print axioms p5_budget_0_to_1
 
 end F7Manuscript.PartnerGraph.PureShortCut

@@ -287,8 +287,6 @@ theorem actual_X_periodic_all_cuts_threshold
         exact hbound
       simpa [hd] using! hbound'
 
-#print axioms PeriodicFitAt
-#print axioms actual_X_periodic_all_cuts_threshold
 
 end
 end F7Manuscript.ActualW11PeriodicAllCuts

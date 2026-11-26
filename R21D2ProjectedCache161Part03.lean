@@ -50,8 +50,4 @@ theorem projected161_leaf_lrrrr : projectionOKBy (dictAt d13 [false,true,true,tr
  exact projectionOKBy_of_children h0
   (projectionOKBy_of_children hL endpoint161_leaf_lrrrrll endpoint161_leaf_lrrrrlr)
   (projectionOKBy_of_children hR endpoint161_leaf_lrrrrrl endpoint161_leaf_lrrrrrr)
-#print axioms projected161_leaf_lrrll
-#print axioms projected161_leaf_lrrlr
-#print axioms projected161_leaf_lrrrl
-#print axioms projected161_leaf_lrrrr
 end F7Manuscript.R21NormalEndpoint.Projection.Snapshots.PhysicalD2.Projected

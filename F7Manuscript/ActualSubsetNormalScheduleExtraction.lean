@@ -111,8 +111,6 @@ theorem subsetNormal_block_run_schedule
           have := subsetNormalCenterTime_lt Q hQ B h221 h311 hz a p j; omega⟩
         (subsetNormalCenterTime_lt Q hQ B h221 h311 hz a p j) hc hpairs⟩
 
-#print axioms subsetNormal_paired_run_schedule
-#print axioms subsetNormal_block_run_schedule
 
 end
 end F7Manuscript.TripleCoordinateLattice

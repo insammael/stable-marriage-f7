@@ -216,9 +216,5 @@ theorem modeB_actual_bound (I : Profile 7) (R : ActualTrajectory.Run I q)
     (excess : costFrom R.toTokenRun rootB.prefix.length (q - rootB.prefix.length) ≤ 2) :
     q - rootB.prefix.length ≤ 4 := modeB_token_bound R.toTokenRun hlen hword atomic excess
 
-#print axioms actual_future
-#print axioms root_token_bound
-#print axioms modeA_actual_bound
-#print axioms modeB_actual_bound
 
 end F7Manuscript.PartnerGraph.Periodic

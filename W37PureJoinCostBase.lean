@@ -77,7 +77,6 @@ theorem runCost_typeI_join_bound (s : CostControl) (pre tail : List Move)
   dsimp only [t] at hmiddle htail ⊢
   omega
 
-#print axioms runCost_typeI_join_bound
 end NormalTypeIJoinCost
 
 
@@ -159,7 +158,6 @@ theorem runCost_normalPlan_at_initialColor (C : Chart) (a : Equiv.Perm (Fin 3))
       (mixedPlan (fun j => a (C.naturalWord j)) C.naturalLevels C.m) = C.q+C.s := by
   rw [runCost_mixedPlan_at_initialColor (fun j => a (C.naturalWord j)) C.naturalLevels C.m hm,
     ← q_eq_pairedTotal C,← s_eq_costCount_recolor C a]
-#print axioms runCost_normalPlan_at_initialColor
 end
 end NormalSkeleton.Chart
 end F7Manuscript.W37PureJoinCostBase

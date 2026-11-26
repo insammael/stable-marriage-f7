@@ -30,6 +30,5 @@ theorem canonical_left_five_eleven_score
   have pure := mass_five_low_fee F cap leftMass (by omega)
   exact R21OneGHandActual.original_left_free_five_impossible C hn h221 h311 hu hG hT pure
     (by unfold mass at rightMass; omega)
-#print axioms canonical_left_five_eleven_score
 end
 end F7Manuscript.TripleCoordinateLattice.R21OneGHandScore

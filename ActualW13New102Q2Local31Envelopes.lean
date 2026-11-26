@@ -43,5 +43,4 @@ theorem new102_future_length_le_five_of_observed {W : Type*} [Fintype W] {q n : 
     | exact F7Manuscript.ActualW13New102Q2Local31Envelope467.observed_word1010_future_length_le_five R tok future H
     | exact F7Manuscript.ActualW13New102Q2Local31Envelope467.observed_word1110_future_length_le_five R tok future H
 
-#print axioms new102_future_length_le_five_of_observed
 end F7Manuscript.ActualW13New102Q2Local31Envelopes

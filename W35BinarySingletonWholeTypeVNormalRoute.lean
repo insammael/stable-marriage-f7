@@ -230,6 +230,5 @@ theorem actual_binary_singleton_whole_typeV_normal_route
     exact hP4.trans (Finset.card_le_card (Finset.subset_univ _))
   exact ⟨Hwhole,e,⟨⟨bits,h4,h0,h1,h2,h3,Hnormal⟩⟩⟩
 
-#print axioms actual_binary_singleton_whole_typeV_normal_route
 end
 end F7Manuscript.TripleCoordinateLattice.W35BinarySingletonWholeTypeVNormalRoute

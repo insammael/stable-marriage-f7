@@ -209,15 +209,8 @@ theorem fresh_of_sound (R : TokenRun Site Site 21) (i : Fin 21)
   simp only [fresh,decide_eq_true_eq]
   exact ⟨hab,ha,hb⟩
 
-#print axioms fresh_of_sound
 
-#print axioms sound_replay_prefix
-#print axioms actual_prefix_compatible
 
-#print axioms sound_step
-#print axioms actual_final_compatible
 
-#print axioms state_eq_between
-#print axioms unseen_partner_is_final
 end
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

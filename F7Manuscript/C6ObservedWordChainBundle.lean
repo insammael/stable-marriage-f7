@@ -174,7 +174,6 @@ theorem c6_full_word_length_and_prefixes
             simpa only [List.append_assoc] using! htarget.symm
   exact ⟨hlen, hfirst, hprefix⟩
 
-#print axioms c6_full_word_length_and_prefixes
 end F7Manuscript.ActualC6WordPrefix
 /-! END VERBATIM SOURCE: F7Manuscript.C6WordPrefixConsistency -/
 /-! BEGIN VERBATIM SOURCE: F7Manuscript.ActualC6ObservedWordAdapter sha256=cbc8fd48fdd30b70b366d5bc0d53099aef5aa8e47ada7b2005f7009086646adb -/
@@ -275,8 +274,6 @@ theorem c6_no_return_of_actual_observed_c6_word
   exact c6_no_return_of_actual_observed_word R L k n row phase bits word
     hlen hwordbound hold H hsupport' hprefix'
 
-#print axioms c6_no_return_of_actual_observed_word
-#print axioms c6_no_return_of_actual_observed_c6_word
 end
 end F7Manuscript.PartnerGraph.Sized
 /-! END VERBATIM SOURCE: F7Manuscript.ActualC6ObservedWordAdapter -/
@@ -304,7 +301,6 @@ theorem c6_zero_cost_short_side_impossible
   · exact c6_zero_cost_6_8_impossible t bits (fun i hi => norm i (by omega)) row phase
   · exact c6_zero_cost_7_7_impossible t bits (fun i hi => norm i (by omega)) row phase
 
-#print axioms c6_zero_cost_short_side_impossible
 end F7Local
 /-! END VERBATIM SOURCE: F7Manuscript.C6ZeroCostCover -/
 /-! BEGIN VERBATIM SOURCE: F7Manuscript.ActualC6ObservedZeroCostContradiction sha256=8150b83b2ca9a70e9b62ef5afee5651f4ea0efa6b7646d6bcd3ac999bc31c064 -/
@@ -343,6 +339,5 @@ open scoped Classical
     row phase bits hroom H hsupport'
   exact F7Local.c6_zero_cost_short_side_impossible id bits k norm hk2 hk7 row phase hnr
 
-#print axioms actual_c6_zero_cost_observation_impossible
 end F7Manuscript.PartnerGraph.Sized
 /-! END VERBATIM SOURCE: F7Manuscript.ActualC6ObservedZeroCostContradiction -/

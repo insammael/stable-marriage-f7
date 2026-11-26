@@ -133,6 +133,5 @@ theorem r21_literal_G_ordered_runs :
     (map_frame_valid e.symm _ (newFrame_valid p)) hne
   exact ordered_runs_of_chosen P Q hP hQ S T O N e p c hpc hOld hNew pre post hn hf hU hbP hbQ
 
-#print axioms r21_literal_G_ordered_runs
 end
 end F7Manuscript.TripleCoordinateLattice.R21OneGOriginalRuns

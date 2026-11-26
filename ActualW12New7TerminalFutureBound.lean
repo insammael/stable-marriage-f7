@@ -137,9 +137,5 @@ theorem observed_x1_y1_future_length_le_two
   exact F7Manuscript.ActualW12Q4Node26Node46HandBound.q4_node26_future_length_le_two
     future (observed_x1_y1_envelope R t H)
 
-#print axioms observed_x0_y0_envelope
-#print axioms observed_x1_y1_envelope
-#print axioms observed_x0_y0_future_length_le_two
-#print axioms observed_x1_y1_future_length_le_two
 
 end F7Manuscript.ActualW12New7TerminalEnvelope

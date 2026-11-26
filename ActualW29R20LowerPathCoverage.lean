@@ -157,7 +157,5 @@ theorem actualLowerPathFin_monotone
     subst j
     exact le_rfl
 
-#print axioms actual_lower_path_vertices_cover
-#print axioms actualLowerPathFin_monotone
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW29R20LowerPathCoverage

@@ -42,7 +42,5 @@ theorem G376A_future_le_two {n : Nat} (future : Sized.Future G376A 2 n) : n ≤ 
 theorem G376B_future_le_two {n : Nat} (future : Sized.Future G376B 2 n) : n ≤ 2 := by
   exact future_le_two_of_supported_triangle future G376B_supported G376B_loopFree (by decide) (by decide) (by decide)
 
-#print axioms G376A_future_le_two
-#print axioms G376B_future_le_two
 
 end F7Manuscript.ActualW13New102G376Components

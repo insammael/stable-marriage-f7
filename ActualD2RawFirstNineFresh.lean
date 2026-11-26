@@ -92,7 +92,6 @@ theorem actual_d2_raw_first_nine_fresh
   rw [htake]
   exact fresh_take hfsource
 
-#print axioms actual_d2_raw_first_nine_fresh
 
 end
 end F7Manuscript.ActualD2RawFirstNineFresh

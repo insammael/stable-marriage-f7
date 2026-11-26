@@ -64,5 +64,4 @@ theorem p5_six_boundary_events_unique_by_token
   exact boundary_arrivals_unique_from_label_cover tr S V
     (by simpa [S,hVcard] using! hb) hcover j e f he hf
 
-#print axioms p5_six_boundary_events_unique_by_token
 end F7Manuscript.ActualW20P5SixBoundaryLabels

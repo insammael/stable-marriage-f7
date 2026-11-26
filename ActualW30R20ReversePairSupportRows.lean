@@ -70,6 +70,5 @@ theorem actual_singleton_pair_address_eq_lower_row_zero
         (movingColor (normalCenterColor C h221 h311 hz j) s) := by
           rw [hjr, hk0, hcenter]
 
-#print axioms actual_singleton_pair_address_eq_lower_row_zero
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW30R20ReversePairSupportRows

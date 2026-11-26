@@ -143,6 +143,5 @@ theorem single_T_blocks (hG : (isolatedDouble C).card=0) (hT : (byLabel C 3).car
          rw [houtside,core]
          exact Finset.sdiff_union_of_subset (Finset.subset_univ _)
 
-#print axioms single_T_blocks
 end
 end F7Manuscript.TripleCoordinateLattice.R21OccupiedT

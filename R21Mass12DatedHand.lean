@@ -172,12 +172,5 @@ theorem DatedPlan.dropLastPaired
   exact ⟨s, hb, size, trace, obs, by
     rw [fee, split, runCost_append_last_paired]⟩
 
-#print axioms DatedPlan.dropLastPaired
-#print axioms fee_three_on_dated_mass_eight
-#print axioms pure_mass12_fee_of_dated_windows
-#print axioms exists_defectWord
-#print axioms two_interior_paired_positions_mass12
-#print axioms left_and_interior_paired_positions_mass12
-#print axioms at_most_two_paired_of_observed_trim
 
 end F7Manuscript.R21NormalEndpoint.ReseededObservation

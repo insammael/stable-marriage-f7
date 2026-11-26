@@ -72,8 +72,5 @@ theorem personal_edge_of_swap (i : Fin n) (hki : k ≤ i.castSucc)
     · exact Or.inl he.symm
     · exact Or.inr hm
 
-#print axioms arrival_remaining
-#print axioms later_partner_initial_or_remaining
-#print axioms personal_edge_of_swap
 end
 end F7Manuscript.R21SingleTHand

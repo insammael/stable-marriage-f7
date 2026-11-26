@@ -28,6 +28,5 @@ theorem sourcePrefix_eq_new98WordOf (bits : Nat → Bool)
       leftCoord, rightCoord, select, other, put, Fin.ofNat, h0, h3, h4, h5,
       h6, h7, h8, h9, hx, hy]
 
-#print axioms sourcePrefix_eq_new98WordOf
 
 end F7Manuscript.ActualW13New98PrefixControl

@@ -158,7 +158,6 @@ theorem actual_X_reverse_initial_periodic_threshold
     simpa only [b, hclock, extra] using! hNat
   omega
 
-#print axioms actual_X_reverse_initial_periodic_threshold
 
 end
 end F7Manuscript.ActualW11ReverseInitialPeriodicThreshold

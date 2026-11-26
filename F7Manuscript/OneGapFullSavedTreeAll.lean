@@ -43,6 +43,5 @@ theorem allRootCertificates_valid : List.Forall id allRootCertificates := by
   refine And.intro rootCertificates8_valid ?_
   refine And.intro rootCertificates9_valid ?_
   exact rootCertificates10_valid
-#print axioms allRootCertificates_valid
 
 end F7Manuscript.OneGapFullSavedTrees

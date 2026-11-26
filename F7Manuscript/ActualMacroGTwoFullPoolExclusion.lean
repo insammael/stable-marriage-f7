@@ -235,6 +235,5 @@ theorem actual_G_ternary_singleton_two_paired_periodic_impossible
       R P.card hbound K hKmap (α j) (α i) (α f) haij.symm haj hai hKF
       (hs0 j h0) (hs1 i h1) Cut.bits hC0 hC1 hpastK hpastW
 
-#print axioms actual_G_ternary_singleton_two_paired_periodic_impossible
 end
 end F7Manuscript.TripleCoordinateLattice

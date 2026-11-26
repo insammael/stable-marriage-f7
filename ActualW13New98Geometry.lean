@@ -52,7 +52,4 @@ theorem new98Geometry_plan_eq_root :
           (new98Geometry.colors.length-1) := by
   decide +kernel
 
-#print axioms new98Geometry_norm_eq
-#print axioms new98Geometry_data
-#print axioms new98Geometry_plan_eq_root
 end F7Manuscript.ActualW13New98Geometry

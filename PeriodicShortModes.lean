@@ -43,5 +43,4 @@ theorem forced_modes_short {m : Nat} (H : NormalizedRun m) (hm : m ≤ 15)
       rw [H.transition k (by omega),hs,hc]
       simp only [modeState,modeChoice,if_neg (by omega : ¬k<3)]
 
-#print axioms forced_modes_short
 end F7Periodic

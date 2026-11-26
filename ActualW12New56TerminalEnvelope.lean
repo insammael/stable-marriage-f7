@@ -129,7 +129,5 @@ theorem observed_Vx1_envelope
     exact permVx1.apply_symm_apply b
   simpa only [ha, hb] using! hm
 
-#print axioms observed_Ux0_envelope
-#print axioms observed_Vx1_envelope
 
 end F7Manuscript.ActualW12New56TerminalEnvelope

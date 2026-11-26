@@ -35,6 +35,5 @@ theorem p5_no_one_special_preholding_of_two_mutual
   rw [hempty] at hmem
   simpa using! hmem
 
-#print axioms p5_no_one_special_preholding_of_two_mutual
 
 end F7Manuscript.ActualW18P5NoOneSpecialPreholdingAtTwoMutual

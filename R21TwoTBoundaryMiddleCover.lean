@@ -79,6 +79,4 @@ theorem middle_BR_bound (p : Fin 6) (bits : Fin 8) (last : Fin 3) {n : Nat}
  (h : LocalNormal middleBR (seedFrame seedRightB 2 p bits last) n) : n≤1 :=
  atMostOne_sound _ _ (middle_BR_checked p bits last) h
 
-#print axioms middle_AL_bound
-#print axioms middle_BR_bound
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

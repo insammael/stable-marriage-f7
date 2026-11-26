@@ -26,5 +26,4 @@ theorem empty_table_return_tree_excludes
     T plan K tree valid bits h0 hnr
   exact Fin.elim0 r.target
 
-#print axioms empty_table_return_tree_excludes
 end F7Manuscript.ActualW20EmptyTableReturnSoundness

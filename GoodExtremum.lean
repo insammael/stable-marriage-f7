@@ -116,6 +116,4 @@ theorem good_minimum_exists (P : Finset V) (hP : P.Nonempty)
   rw [hD,hE] at he
   exact ⟨m,hm,hd,he⟩
 
-#print axioms good_maximum_exists
-#print axioms good_minimum_exists
 end NeutralCore

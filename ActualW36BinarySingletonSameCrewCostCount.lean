@@ -127,6 +127,5 @@ theorem actual_one_T_binary_singleton_same_crew_q_add_s_ge_two_count_le_85
   rw [stableCount_eq_idealCount I]
   omega
 
-#print axioms actual_one_T_binary_singleton_same_crew_q_add_s_ge_two_count_le_85
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW36BinarySingletonSameCrewCostCount

@@ -63,5 +63,4 @@ theorem p5_actual_CII_opposite_order_removed_from_trace
       hb2 hmevents.1 hq2 hb6 hmevents.2 hq6 harr2 harr6 hb2m hb6m
       hthird.1 hthird.2 hset2 hset6 hmut).elim
 
-#print axioms p5_actual_CII_opposite_order_removed_from_trace
 end F7Manuscript.ActualW20P5CIIChronologyClosure

@@ -87,7 +87,4 @@ theorem pure_five_root_representative_of_bool_fresh (S : Chart) (f : SupportFram
     pure_five_frame_bits_code p (R21LooseRows.canonicalFrame c) (b 0) (b 1) (b 2) (b 3) (b 4)] at hidle
   exact hidle
 
-#print axioms pure_five_root_representative_of_bool_fresh
-#print axioms pure_five_root_representative_with_idle
-#print axioms pure_five_root_representative
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

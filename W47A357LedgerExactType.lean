@@ -215,4 +215,3 @@ theorem a342_same_boundary_exact_ledger
 end
 end F7Manuscript.TripleCoordinateLattice
 
-#print axioms F7Manuscript.TripleCoordinateLattice.a342_same_boundary_exact_ledger

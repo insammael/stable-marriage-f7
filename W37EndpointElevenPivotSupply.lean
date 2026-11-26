@@ -89,6 +89,5 @@ theorem endpoint_eleven_pivot_supply
   exact F7Manuscript.TripleCoordinateLattice.W37SingleABAElevenPivot.eleven_singleABA_pivot_list
     turns cuts p.val (by dsimp -failIfUnchanged [p]; omega) (by dsimp -failIfUnchanged [p]; omega) honly
 
-#print axioms endpoint_eleven_pivot_supply
 
 end F7Manuscript.TripleCoordinateLattice.W37EndpointElevenPivotSupply

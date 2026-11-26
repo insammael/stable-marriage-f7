@@ -114,9 +114,5 @@ theorem W16B0_prefixFresh_eq :
   change prefixFresh W16B0Word a b = true ↔ W16B0_FGraph a b = true
   fin_cases a <;> fin_cases b <;> decide
 
-#print axioms W16A1_future_le_one
-#print axioms W16B0_future_le_one
-#print axioms W16A1_prefixFresh_eq
-#print axioms W16B0_prefixFresh_eq
 
 end F7Manuscript.ActualW16Window16TypedPool

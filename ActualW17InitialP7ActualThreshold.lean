@@ -66,7 +66,6 @@ theorem actual_X_initial_p7_endpoint_ge_three
     simpa using! hthreshold
   exact_mod_cast hbound
 
-#print axioms actual_X_initial_p7_endpoint_ge_three
 
 end
 end ActualW17InitialP7ActualThreshold

@@ -46,4 +46,3 @@ theorem binaryPrefix14_produced_offset_contradiction
 
 end F7Manuscript.H7Future
 
-#print axioms F7Manuscript.H7Future.binaryPrefix14_produced_offset_contradiction

@@ -329,6 +329,5 @@ theorem pick_endpointD_two_pivot_old_entry
             decide
           exact picked_data_intro hmem hlen (by omega) (by omega) hD0 hDtail hpiv
   
-  #print axioms pick_endpointD_two_pivot_old_entry
   
   end F7Manuscript.ActualW15EndpointDTwoPivotPickerV2

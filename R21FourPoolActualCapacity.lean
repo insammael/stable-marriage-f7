@@ -272,15 +272,7 @@ theorem component_token_participation_le_three {n : Nat} (S : TokenRun Site W n)
   have hc := Finset.card_le_card_of_injOn dest maps hinj
   simpa only [Finset.card_erase_of_mem (holder 0),hK] using! hc
 
-#print axioms component_pool_images
-#print axioms component_row_participation_le_three
-#print axioms component_token_participation_le_three
 
-#print axioms simultaneous_row_token_hits_cell
-#print axioms prefix_length_six_of_row_token_charges
-#print axioms prefix_three_of_window_cap_and_fixed_suffix
 
-#print axioms no_steps_after_final_hit
-#print axioms actual_four_pool_right_fixed_pair
 end
 end F7Manuscript.R21LongWindow.FourPoolCapacity

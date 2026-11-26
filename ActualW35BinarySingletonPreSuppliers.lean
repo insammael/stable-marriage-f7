@@ -179,9 +179,5 @@ theorem actual_binary_singleton_pre_enumeration_fixed
     simpa only [EP,EP0,hn'] using! hEP i
   · simpa only [hn'] using! hfixed
 
-#print axioms actual_binary_singleton_pre_geometry
-#print axioms actual_binary_singleton_pre_trace_and_rows
-#print axioms actual_binary_singleton_pre_is_global_prefix
-#print axioms actual_binary_singleton_pre_enumeration_fixed
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW35BinarySingletonPreSuppliers

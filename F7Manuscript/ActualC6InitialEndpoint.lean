@@ -56,8 +56,5 @@ theorem reindexRun_actor_trans {W : Type*} [Fintype W] {q : ℕ}
     rfl
   · rfl
 
-#print axioms actual_c6_initial_bits_endpoint
-#print axioms mapSupportFrame_actor_trans
-#print axioms reindexRun_actor_trans
 end
 end F7Manuscript.TripleCoordinateLattice

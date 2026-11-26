@@ -79,9 +79,6 @@ theorem actual_global_last_slot_joint_scalar_bound
   rw [hslot]
   exact endpoint_joint_scalar_of_charge _ _ _ hcharge
 
-#print axioms endpointCharge_eq_finalJointK
-#print axioms actual_global_first_slot_joint_scalar_bound
-#print axioms actual_global_last_slot_joint_scalar_bound
 
 end
 end F7Manuscript.TripleCoordinateLattice

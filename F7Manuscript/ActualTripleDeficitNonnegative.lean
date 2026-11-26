@@ -40,7 +40,6 @@ theorem delta3_nonnegative (hClass : NeutralCore.PairClass (V := V))
     rw [hz]
     omega
 
-#print axioms delta3_nonnegative
 end
 end F7Manuscript.TripleCoordinateLattice
 
@@ -60,6 +59,5 @@ theorem actual_count_le_81_of_event_card_le_eighteen
     exact five_to_eighteen_ideal_count_le_eighty_one (actual_pairClass I) (by omega) hn
       (TripleCoordinateLattice.delta3_nonnegative (actual_pairClass I) (by omega))
 
-#print axioms actual_count_le_81_of_event_card_le_eighteen
 end
 end F7Manuscript

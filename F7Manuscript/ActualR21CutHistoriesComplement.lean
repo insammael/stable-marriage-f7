@@ -121,6 +121,5 @@ theorem actual_r21_T_dual_forward_complement
     actual_T_prefix_post_state_splice C E n hu hT (EventFrontierDual.forwardOfDual DP) EQ hP hQ
   exact dual_forward_complement_of_splice hn hP hQ DP EQ hc H hU hl hr
 
-#print axioms actual_r21_T_dual_forward_complement
 end
 end F7Manuscript.TripleCoordinateLattice

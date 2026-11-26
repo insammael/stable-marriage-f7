@@ -79,5 +79,3 @@ theorem three_predecessor_returns_force_budget_four
     (three_predecessor_returns_give_s_ge_three S j hj h1 h2 h3) (by omega)
 end F7Manuscript.TripleCoordinateLattice.ActualW30R20QOneReverseTerminalBudget.ChargeAdapter
 
-#print axioms F7Manuscript.TripleCoordinateLattice.ActualW30R20QOneReverseTerminalBudget.ChargeAdapter.three_predecessor_returns_give_s_ge_three
-#print axioms F7Manuscript.TripleCoordinateLattice.ActualW30R20QOneReverseTerminalBudget.ChargeAdapter.three_predecessor_returns_force_budget_four

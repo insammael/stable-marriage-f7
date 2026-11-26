@@ -80,10 +80,5 @@ theorem macroColors_reconstruct_from_aba
     macroColors pivs m =
       List.ofFn (fun i : Fin m => macroColorAt pivs i.val) := rfl
 
-#print axioms thirdColorFacts
-#print axioms macroColorAt_lt_three
-#print axioms macroColorAt_adjacent_ne
-#print axioms macroColorAt_aba_iff
-#print axioms macroColors_reconstruct_from_aba
 
 end F7Manuscript.W7MacroColorReconstruction

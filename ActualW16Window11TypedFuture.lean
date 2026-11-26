@@ -160,8 +160,5 @@ theorem W11L8_future_from_observed_prefix {W : Type*} [Fintype W] {q : ℕ}
   rw [W11L8_prefixFresh_eq] at tr
   exact W11L8_future_le_three (SizedFuture.ofCore tr)
 
-#print axioms W11L1_future_from_observed_prefix
-#print axioms W11L5_future_from_observed_prefix
-#print axioms W11L8_future_from_observed_prefix
 
 end F7Manuscript.ActualW16Window11TypedFuture

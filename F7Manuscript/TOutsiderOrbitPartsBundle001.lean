@@ -14,13 +14,3 @@ public import F7Manuscript.TOutsiderOrbitZ3Part11
 @[expose] public section
 set_option backward.isDefEq.respectTransparency false
 
-#print axioms F7Manuscript.TOutsiderSavedTemplateCatalog.prefixPart_z3_2_covers
-#print axioms F7Manuscript.TOutsiderSavedTemplateCatalog.prefixPart_z3_3_covers
-#print axioms F7Manuscript.TOutsiderSavedTemplateCatalog.prefixPart_z3_4_covers
-#print axioms F7Manuscript.TOutsiderSavedTemplateCatalog.prefixPart_z3_5_covers
-#print axioms F7Manuscript.TOutsiderSavedTemplateCatalog.prefixPart_z3_6_covers
-#print axioms F7Manuscript.TOutsiderSavedTemplateCatalog.prefixPart_z3_7_covers
-#print axioms F7Manuscript.TOutsiderSavedTemplateCatalog.prefixPart_z3_8_covers
-#print axioms F7Manuscript.TOutsiderSavedTemplateCatalog.prefixPart_z3_9_covers
-#print axioms F7Manuscript.TOutsiderSavedTemplateCatalog.prefixPart_z3_10_covers
-#print axioms F7Manuscript.TOutsiderSavedTemplateCatalog.prefixPart_z3_11_covers

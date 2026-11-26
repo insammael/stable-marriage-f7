@@ -104,7 +104,5 @@ theorem actual_G_slot_card_ne_one
     0 < (outsiderSlotGroup C (GenericThresholdPath.path C E) ⟨n.val+1,by omega⟩).card)
   exact actual_singleton_fixed_boundary_excluded C hn E n fixed hfixed hx hcard
 
-#print axioms actual_singleton_fixed_boundary_excluded
-#print axioms actual_G_slot_card_ne_one
 end
 end F7Manuscript.TripleCoordinateLattice

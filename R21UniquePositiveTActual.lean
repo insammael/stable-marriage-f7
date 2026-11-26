@@ -98,7 +98,6 @@ theorem actual_R21_one_positive_T_deficit
   exact unique_T_final_arith _ _ _ _ _ _ _ _ _ hcount.symm hmac
     (actual_r21_run_cost_ge_occupied_add_one C hn h221 h311 hdelta) hledger
 
-#print axioms actual_R21_one_positive_T_deficit
 end
 end F7Manuscript.TripleCoordinateLattice
 

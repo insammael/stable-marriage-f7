@@ -67,6 +67,5 @@ theorem actual_outside_three_q0_p5_zero_endpoint_frontier_without_p6_bound
         hab hbc hcd hpiv ha4' bound5)
   exact ⟨X,hq,hs,hm,a,b,c,d,hab,hbc,hcd,hpiv,ha1,hd13,hhead,htail,ha4,hzero⟩
 
-#print axioms actual_outside_three_q0_p5_zero_endpoint_frontier_without_p6_bound
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW20OutsideThreeQ0P5ZeroEndpointFrontierABBClosed

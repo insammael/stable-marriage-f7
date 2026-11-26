@@ -248,5 +248,4 @@ theorem three_boundary_low_degree {P : Finset V} (G : ThreeMaxBoundary P)
       (single_inc_own_double G hw hr) (double_fibers_inc G hjk hu hv)
       (double_fibers_inc G hij.symm hu hr) (double_fibers_inc G hik.symm hv hr)
 
-#print axioms three_boundary_low_degree
 end NeutralCore

@@ -108,9 +108,6 @@ theorem same_events_reverse_periodic
     change e (H.word (14 - (n + 1))) = F7Periodic.color n
     simpa only [reverseWord, dif_pos hn] using! he n hn
 
-#print axioms recolor
-#print axioms recolor_events
-#print axioms same_events_reverse_periodic
 
 end SameKReverseFrontier
 
@@ -171,8 +168,6 @@ theorem reverse_frontier_on_same_K
     SameKReverseFrontier.same_events_reverse_periodic A hm hb
   exact ⟨H, hH.trans hA, hreverse.trans hA, hperiodic⟩
 
-#print axioms actual_chart_on_same_K
-#print axioms reverse_frontier_on_same_K
 
 end SameKSourceMatching
 
@@ -233,7 +228,6 @@ private theorem subset_same_K_reverse_frontier_exists
   exact SameKSourceMatching.reverse_frontier_on_same_K
     K B h221K h311K hzK hm hq hs
 
-#print axioms subset_same_K_reverse_frontier_exists
 
 section Original
 
@@ -310,7 +304,6 @@ theorem h7_original_pure14_post_same_K_reverse_frontier_exists
   exact subset_same_K_reverse_frontier_exists
     K B h221K h311K hzK hS.2.1 hS.2.2.1 hS.2.2.2
 
-#print axioms h7_original_pure14_post_same_K_reverse_frontier_exists
 
 end Original
 

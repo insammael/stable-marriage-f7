@@ -36,6 +36,5 @@ theorem actual_no_double_of_local_exclusion
  obtain ⟨bound8,B8,align8⟩:=actual_single_group_double_pair_prefix _ B Z shift bound aligned binaryZ one high0
  exact exclude Z shift bound8 B8 align8 binaryZ
 
-#print axioms actual_no_double_of_local_exclusion
 end
 end F7Manuscript.R21PhysicalWindowWords

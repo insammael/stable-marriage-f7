@@ -31,7 +31,5 @@ theorem actual_suffix_checked_bound {W : Type*} [Fintype W] {q N : ℕ}
     R hq start n hsize atomic
   exact checked_table_bound T checked (coreFuture_to_sized hf) j used env
 
-#print axioms coreFuture_to_sized
-#print axioms actual_suffix_checked_bound
 
 end F7Manuscript.PartnerGraph.Sized

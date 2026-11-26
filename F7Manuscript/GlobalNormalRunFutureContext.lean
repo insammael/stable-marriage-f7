@@ -161,8 +161,5 @@ theorem globalNormalRun_outgoing_context_card_le_occupancy_of_row_eq
   subst currentRow
   exact globalNormalRun_outgoing_context_card_le_occupancy C E h221 i S hsize hform hcap pastRow H
 
-#print axioms isolated_boundary_future_context_eq_empty
-#print axioms terminal_row_future_context_eq_empty
-#print axioms globalNormalRun_outgoing_context_card_le_occupancy
 end
 end F7Manuscript.TripleCoordinateLattice

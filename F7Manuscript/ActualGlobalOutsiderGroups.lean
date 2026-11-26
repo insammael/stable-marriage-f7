@@ -81,7 +81,5 @@ theorem actual_internal_outsider_slot_G_or_T
       hslot.below (by simp)
   · exact hslot.above (show n.val+1 ≤ thresholdLength C from Nat.succ_le_of_lt n.isLt)
 
-#print axioms actual_global_outsider_cover
-#print axioms actual_internal_outsider_slot_G_or_T
 end
 end F7Manuscript.TripleCoordinateLattice

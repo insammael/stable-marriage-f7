@@ -1,5 +1,6 @@
 module
 
+public import Mathlib
 public import F7Manuscript.ThresholdShortGraphCertificate
 
 @[expose] public section
@@ -146,6 +147,5 @@ theorem table10_checked (i : Fin 10) : ValidNode table10 i ∨ NodeFutureBound t
   · exact Or.inr node8_futureBound
   · exact Or.inr node9_futureBound
 
-#print axioms table10_checked
 
 end F7Manuscript.ActualW21Selected55AnchorBridge

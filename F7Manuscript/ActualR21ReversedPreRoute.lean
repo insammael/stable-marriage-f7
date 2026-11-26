@@ -89,6 +89,5 @@ theorem actual_reversed_cut_route_from_first_center
   rw [hplan] at route
   exact ⟨f, p, t, _, ht, hv, hbot, route⟩
 
-#print axioms actual_reversed_cut_route_from_first_center
 end
 end F7Manuscript.TripleCoordinateLattice

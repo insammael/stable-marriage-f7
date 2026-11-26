@@ -33,5 +33,4 @@ theorem p5_special_boundary_source_is_origin
     rcases hj with rfl | rfl <;> fin_cases y <;>
       simp [graphRel,p5G0,ofEdges] at hF hyOut
 
-#print axioms p5_special_boundary_source_is_origin
 end F7Manuscript.ActualW20P5SpecialBoundaryOrigin

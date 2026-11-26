@@ -97,8 +97,5 @@ theorem rowPath_donor_chain (R : TokenRun (Fin 7) (Fin 7) 21) (k : Fin 22) (B : 
       rw [eq]
       exact tail
 
-#print axioms mem_rowPath
-#print axioms rowPath_nodup
-#print axioms rowPath_donor_chain
 end
 end F7Manuscript.R21OneGHandDonor

@@ -116,6 +116,5 @@ theorem actual_X_shifted_block_packet
     normal := ?_ }⟩
   simpa only [shiftedOffset,rootOffset,shiftedTail,w] using! N
 
-#print axioms actual_X_shifted_block_packet
 end
 end F7Manuscript.ActualW9SameXShiftedBlockPacket

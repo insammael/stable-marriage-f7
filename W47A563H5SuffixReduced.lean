@@ -119,9 +119,6 @@ theorem original_suffix_length_criteria
       cutDate Q ≤ 1) := by
   omega
 
-#print axioms originalWholeRun_donor_cycles
-#print axioms originalWholeRun_suffix_suppliers
-#print axioms original_suffix_length_criteria
 
 end
 

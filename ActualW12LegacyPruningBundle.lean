@@ -144,7 +144,6 @@ theorem actual_X_legacy_pruning_bundle
   · exact fun dual j hfit => actual_X_new145_legacy_oriented_false
       C hn hδ h221 h311 hG hT X dual j hfit
 
-#print axioms actual_X_legacy_pruning_bundle
 #eval IO.eprintln "W12 legacy pruning bundle checked"
 
 end

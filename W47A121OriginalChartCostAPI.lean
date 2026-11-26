@@ -94,8 +94,6 @@ theorem w47_a121_chart_cost_forget
     S.q ≤ 2 * S.m :=
   ⟨h.1, h.2.1, h.2.2.1⟩
 
-#print axioms w47_a121_actual_global_normal_run_chart_cost_no21
-#print axioms w47_a121_chart_cost_forget
 
 end
 end F7Manuscript.TripleCoordinateLattice

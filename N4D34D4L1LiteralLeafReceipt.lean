@@ -64,9 +64,5 @@ theorem d4L1_actual_leaf_length_le_eighteen
   exact literal_prefix_barrier_length_le_eighteen
     H cut hcut d4L1ExactWord hword d4L1R hcurrent hsub hQ hfive
 
-#print axioms d4L1ExactWord_length
-#print axioms d4L1_wordAvailable_eq_literalA
-#print axioms d4L1_word_current_in_literalR
-#print axioms d4L1_actual_leaf_length_le_eighteen
 
 end F7Manuscript.N4D34D4L1LiteralLeafReceipt

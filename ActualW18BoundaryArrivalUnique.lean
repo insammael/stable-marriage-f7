@@ -51,5 +51,4 @@ theorem boundaryArrival_unique {F : Rel} {n : ℕ}
   · exact False.elim (contradict_if_before k l hkl hk hl)
   · exact False.elim (contradict_if_before l k hlk hl hk)
 
-#print axioms boundaryArrival_unique
 end F7Manuscript.ActualW18BoundaryArrivalUnique

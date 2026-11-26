@@ -28,6 +28,5 @@ theorem r21_outside_three_leaf_closed : R21LeafObligation I 3 0 0 := by
     rw [stableCount_eq_idealCount I]
     omega
 
-#print axioms r21_outside_three_leaf_closed
 end
 end F7Manuscript.ActualPositiveDeficitCoverAssembly

@@ -239,7 +239,6 @@ theorem actual_singleton_branch_continue
       simpa only [EP,EP0] using! hEP i) fixed hfixed Rpost hRpostForCallback
     hmPostR hRleft hRright hwhole
 
-#print axioms actual_singleton_branch_continue
 
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW35BinarySingletonBranchContinue

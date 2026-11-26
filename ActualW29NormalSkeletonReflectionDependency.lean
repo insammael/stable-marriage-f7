@@ -172,7 +172,4 @@ theorem reflectChart_double_word (C : Chart) :
     List.ofFn (reflectChart C).double = (List.ofFn C.double).reverse := by
   exact ofFn_fin_rev C.double
 
-#print axioms reflectChart_q
-#print axioms reflectChart_n
-#print axioms reflectChart_s
 end F7Manuscript.NormalSkeleton

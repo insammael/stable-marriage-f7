@@ -145,7 +145,5 @@ theorem outsideVisitors_card_le_traceOneCount {F : Rel} {n : ℕ}
       _ ≤ B.card := Finset.card_le_card himage
   simpa [B, traceOneCount] using! hcard
 
-#print axioms outside_visit_boundary_witness
-#print axioms outsideVisitors_card_le_traceOneCount
 
 end F7Manuscript.ActualW18FirstEntryBoundaryCount

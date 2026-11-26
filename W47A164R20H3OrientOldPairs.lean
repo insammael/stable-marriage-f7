@@ -59,5 +59,4 @@ lemma orientOldPairs
     · simpa only [hApq, hBrg] using hcover
 
 
-#print axioms orientOldPairs
 end A131_43

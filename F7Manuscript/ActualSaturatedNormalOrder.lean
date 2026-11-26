@@ -395,7 +395,5 @@ theorem actual_saturated_normal_directedExtraPairs_eq_empty
 end Cut
 
 
-#print axioms actual_saturated_normal_cover_is_generator
-#print axioms actual_saturated_normal_directedExtraPairs_eq_empty
 end
 end F7Manuscript.TripleCoordinateLattice

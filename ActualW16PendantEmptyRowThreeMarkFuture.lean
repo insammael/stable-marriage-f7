@@ -249,7 +249,6 @@ theorem dormant_empty_row_three_mark_edge_bound {F : Rel} {n : ℕ}
             simpa [p] using! hbound
           omega
 
-#print axioms dormant_empty_row_three_mark_edge_bound
 
 end
 end F7Manuscript.ActualW16PendantEmptyRowThreeMarkFuture

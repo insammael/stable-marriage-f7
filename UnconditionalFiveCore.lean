@@ -53,11 +53,4 @@ theorem bad_neutral_card_le_eight (h : BadNeutral (V:=V)) :
   have hc := (core_counts k).1
   cases k <;> simp only [lowerFlag,upperFlag,flagCost] at hc <;> omega
 
-#print axioms actual_directed_paths_exists
-#print axioms five_core_classification_unconditional
-#print axioms bad_neutral_card_le_eight
-#check ActualDirectedPaths
-#check actual_directed_paths_exists
-#check five_core_classification_unconditional
-#check bad_neutral_card_le_eight
 end NeutralCore

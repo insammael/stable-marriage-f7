@@ -56,7 +56,5 @@ theorem pathSegment_right_row_is_top (left right : Fin (thresholdLength C+1))
   rw [hzi] at hb
   exact hb
 
-#print axioms subsetTripleLift_eq_top_of_upper_bounds
-#print axioms pathSegment_right_row_is_top
 end
 end F7Manuscript.TripleCoordinateLattice

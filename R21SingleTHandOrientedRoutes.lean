@@ -70,7 +70,5 @@ theorem oriented_left_two_prefix {phase order n m S T}
   · simpa [twoCenterWord,pairSupport,Finset.pair_comm] using! hp
   · simpa [twoCenterWord,pairSupport,Finset.pair_comm] using! hq
 
-#print axioms oriented_swap_ordered
-#print axioms oriented_left_two_prefix
 end
 end F7Manuscript.R21SingleTHand

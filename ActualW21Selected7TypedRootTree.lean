@@ -1288,8 +1288,5 @@ theorem selected7_budgeted_root_of_noReturn {bits : ℕ → Bool}
   have h := WindowControlCertificate.bounded_graph_leaf_of_noReturn table28 plan7 18 controlTree controlTree_valid bits h0 hnr
   simpa only [plan7_eventCount] using! h
 
-#print axioms table28_checked
-#print axioms controlTree_valid
-#print axioms selected7_budgeted_root_of_noReturn
 
 end F7Manuscript.ActualW21Selected7TypedRootTree

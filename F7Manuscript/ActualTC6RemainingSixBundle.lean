@@ -99,12 +99,6 @@ theorem c6JointBits_tail (k : ℕ) (hk : 1 ≤ k) (pre : ℕ → Bool)
   simp only [c6JointBits, if_neg (by omega : ¬ k+i < k-1),
     if_neg (by omega : k+i ≠ k-1), Nat.add_sub_cancel_left]
 
-#print axioms SupportsRoute.reindex_controls
-#print axioms supportsRouteFinal_recolor_centers
-#print axioms recolorCenterFrame_mapSupportFrame
-#print axioms c6JointBits_left
-#print axioms c6JointBits_first
-#print axioms c6JointBits_tail
 end F7Manuscript.TripleCoordinateLattice
 /-! END VERBATIM SOURCE: F7Manuscript.CenterRouteSpliceAlgebra -/
 /-! BEGIN VERBATIM SOURCE: F7Manuscript.C6WholeRouteAdapter sha256=d641dab3fa898c4f58cc027c8d5e43c52a8e442acd8036f4e8e522c36e352212 -/
@@ -297,7 +291,6 @@ theorem c6_route_splice_data_of_same_run
   rw [← c6AfterRow_mapSupportFrame, ← hcomputed] at HpostNorm
   exact ⟨e, ⟨C6RouteSpliceData.mk bits row phase hinitNorm HpreNorm hgapNorm HpostNorm⟩⟩
 
-#print axioms c6_route_splice_data_of_same_run
 end
 end F7Manuscript.TripleCoordinateLattice
 /-! END VERBATIM SOURCE: F7Manuscript.C6WholeRouteAdapter -/
@@ -512,7 +505,6 @@ theorem actual_T_zero_cost_C6_splice_producer
       exact H1)
   exact ⟨H, hUF, hconv, hsize, e, hdata⟩
 
-#print axioms actual_T_zero_cost_C6_splice_producer
 end
 end F7Manuscript.TripleCoordinateLattice
 /-! END VERBATIM SOURCE: F7Manuscript.ActualTC6ZeroCostSpliceProducer -/
@@ -602,8 +594,6 @@ theorem c6_route_splice_data_impossible
     (reindexRun R (c6InitialPerm k D.bits)) k hk hk7 hq
     N.row N.phase N.bits hnorm N.initial N.pre N.gap hpost
 
-#print axioms C6RouteSpliceData.normalizeInitial
-#print axioms c6_route_splice_data_impossible
 end
 end F7Manuscript.TripleCoordinateLattice
 /-! END VERBATIM SOURCE: F7Manuscript.C6RouteSpliceExclusion -/
@@ -680,7 +670,6 @@ theorem actual_T_zero_cost_C6_short_left_impossible
   obtain ⟨D⟩ := hdata
   exact c6_route_splice_data_impossible D hkPre hsum
 
-#print axioms actual_T_zero_cost_C6_short_left_impossible
 end
 end F7Manuscript.TripleCoordinateLattice
 /-! END VERBATIM SOURCE: F7Manuscript.ActualTC6ZeroCostExclusion -/
@@ -800,7 +789,6 @@ theorem actual_r20_one_T_same_crew_short_left_count_le_85
   exact actual_r20_one_T_no_outsider_same_crew_two_long_q_add_s_pos_count_le_85
     (I := I) C hn h221 h311 hu hG hT hlong hsum
 
-#print axioms actual_r20_one_T_same_crew_short_left_count_le_85
 end
 end F7Manuscript.TripleCoordinateLattice
 /-! END VERBATIM SOURCE: F7Manuscript.ActualR20SingleTC6ShortLeftCount -/

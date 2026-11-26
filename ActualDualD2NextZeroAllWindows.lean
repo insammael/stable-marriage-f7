@@ -103,8 +103,6 @@ theorem actual_dual_raw_all_windows_next_leaf_zero
   run_tac Lean.logInfo "ALLK_AFTER_LOCAL_HELPER"
   simpa [hidx₁] using! hz1
 
-#print axioms F7Manuscript.ActualInputS11DualD2NextZero.actual_dual_d2_next_leaf_zero_of_three_window
-#print axioms actual_dual_raw_all_windows_next_leaf_zero
 
 
 end

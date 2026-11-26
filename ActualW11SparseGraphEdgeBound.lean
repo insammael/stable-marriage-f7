@@ -1,5 +1,6 @@
 module
 
+public import Mathlib
 public import F7Manuscript.NormalQ0GraphData
 
 @[expose] public section
@@ -158,9 +159,6 @@ theorem node305_binary_future_length_le_two {F : Rel} {n : ℕ}
   have hcount : edgeCount node305.graph = 4 := by decide
   omega
 
-#print axioms binary_future_edge_bound
-#print axioms node333_binary_future_length_le_three
-#print axioms node305_binary_future_length_le_two
 
 end
 end F7Manuscript.ActualW11SparseGraphEdgeBound

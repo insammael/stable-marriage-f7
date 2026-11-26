@@ -53,8 +53,6 @@ theorem headD_pivot7_impossible (S : Chart) {n : Nat}
     (by dsimp -failIfUnchanged [lo, hi]; omega) ha hz hp0
   norm_num [lo, hi] at hb
 
-#print axioms aba_iff_local_pivot
-#print axioms headD_pivot7_impossible
 
 end
 end F7Manuscript.W38ProHeadDWallActual

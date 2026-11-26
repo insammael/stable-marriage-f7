@@ -39,6 +39,5 @@ theorem actual_reverse_pure_five_root_generic
   rw [hsupport]
  exact ⟨g,bits,Y,hg,hout,hi,hfinal⟩
 
-#print axioms actual_reverse_pure_five_root_generic
 end
 end F7Manuscript.TripleCoordinateLattice.R21BareTHandFive

@@ -89,7 +89,6 @@ theorem actual_outside_three_surviving_query_key7_cover_packet
   obtain ⟨r,hr,hri,hvalid⟩ := witness_with_total_validity k.index h495 h525
   exact ⟨X,k,hk7,r,hu,hq,hs,hm,hr,hri,hvalid,hW,hD,hsk,huk,hvk⟩
 
-#print axioms actual_outside_three_surviving_query_key7_cover_packet
 
 end
 end F7Manuscript.ActualW21OutsideThreeAfterW9CoverPacket

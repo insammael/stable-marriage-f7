@@ -73,10 +73,6 @@ theorem new11_color_facts : ReturnRootColorFacts new11_return_entry := by
     have hi' : i < 5 := by omega
     interval_cases i <;> decide
 
-#print axioms new10_return_entry
-#print axioms new11_return_entry
-#print axioms new10_color_facts
-#print axioms new11_color_facts
 
 #eval IO.eprintln "W12 NEW10/11 return-entry checked"
 

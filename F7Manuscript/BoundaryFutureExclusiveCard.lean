@@ -69,9 +69,5 @@ theorem BoundaryCoreContext.futureSet_color {old new : Triple C}
     (new.val (color C s)).property.symm
   exact hc.elim hi.1 hi.2
 
-#print axioms boundary_future_fixed_exclusive_subset
-#print axioms boundary_future_fixed_exclusive_card_le
-#print axioms boundary_future_fixed_exclusive_mem_color
-#print axioms BoundaryCoreContext.futureSet_color
 end
 end F7Manuscript.TripleCoordinateLattice

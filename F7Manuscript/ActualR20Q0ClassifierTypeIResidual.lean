@@ -167,6 +167,5 @@ theorem actual_r20_q0_short_left_classifier_has_typeI_witness
       hd0fixed hd1fixed hd01 hlower hn hk7 hE hGcount hTcount hcore
       hBpre hCutPre rfl hcutPost jFixed hmacroIndex hfixed
 
-#print axioms actual_r20_q0_short_left_classifier_has_typeI_witness
 end
 end F7Manuscript.TripleCoordinateLattice

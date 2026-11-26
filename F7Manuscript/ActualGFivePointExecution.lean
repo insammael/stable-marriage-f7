@@ -88,7 +88,5 @@ theorem actual_G_five_points_excluded
   · rw [h2,h4]
     exact hxv
 
-#print axioms actual_rectangle_five_token_execution
-#print axioms actual_G_five_points_excluded
 end
 end F7Manuscript.ActualGlobalCoverAssembly

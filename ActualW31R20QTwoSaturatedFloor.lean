@@ -78,7 +78,6 @@ theorem actual_constant_sign_q2_floor
     rw [hplan] at hsize
     omega
 
-#print axioms actual_constant_sign_q2_floor
 
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW31R20QTwoSaturatedFloor

@@ -181,8 +181,5 @@ theorem original_left_free_five_root
     have original := hWhole.2 ⟨j.val,by simpa only [Finset.card_univ,hn] using! j.isLt⟩
     exact congrArg (fun A : Finset (Fin 7) => A.map g.toEmbedding) ((hX.2 j).trans original.symm)
 
-#print axioms event_after_prefix
-#print axioms original_prefix_word_extension
-#print axioms original_left_free_five_root
 end
 end F7Manuscript.TripleCoordinateLattice.R21OneGHandActual

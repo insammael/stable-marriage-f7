@@ -17,7 +17,6 @@ def firstPairedClosed0 : ClosedWordCertificate where
  closed := by unfold RectangleClosed; decide +kernel
  avoids := by decide +kernel
  blockedCard := by decide +kernel
-#print axioms firstPairedClosed0
 def firstPairedClosed1 : ClosedWordCertificate where
  preWord := [(0,1),(2,3),(4,5),(0,6),(2,5),(3,4),(1,2),(5,6),(0,4)]
  postWord := [(0,5),(1,2),(3,4)]
@@ -26,7 +25,6 @@ def firstPairedClosed1 : ClosedWordCertificate where
  closed := by unfold RectangleClosed; decide +kernel
  avoids := by decide +kernel
  blockedCard := by decide +kernel
-#print axioms firstPairedClosed1
 def firstPairedClosed2 : ClosedWordCertificate where
  preWord := [(0,1),(2,3),(4,5),(0,6),(2,5),(3,4),(1,2),(0,4),(3,6),(0,5),(2,4)]
  postWord := [(0,5),(1,2),(3,4)]
@@ -35,7 +33,6 @@ def firstPairedClosed2 : ClosedWordCertificate where
  closed := by unfold RectangleClosed; decide +kernel
  avoids := by decide +kernel
  blockedCard := by decide +kernel
-#print axioms firstPairedClosed2
 def firstPairedClosed3 : ClosedWordCertificate where
  preWord := [(0,1),(2,3),(4,5),(0,6),(2,5),(3,4),(1,2),(5,6),(0,1),(2,3)]
  postWord := [(0,5),(1,2),(3,4)]
@@ -44,7 +41,6 @@ def firstPairedClosed3 : ClosedWordCertificate where
  closed := by unfold RectangleClosed; decide +kernel
  avoids := by decide +kernel
  blockedCard := by decide +kernel
-#print axioms firstPairedClosed3
 def firstPairedClosed4 : ClosedWordCertificate where
  preWord := [(0,1),(2,3),(4,5),(0,6),(2,5),(3,4),(1,2),(0,4),(3,6),(0,5),(3,4),(1,6)]
  postWord := [(0,5),(1,2),(3,4)]
@@ -53,7 +49,6 @@ def firstPairedClosed4 : ClosedWordCertificate where
  closed := by unfold RectangleClosed; decide +kernel
  avoids := by decide +kernel
  blockedCard := by decide +kernel
-#print axioms firstPairedClosed4
 def firstPairedClosed5 : ClosedWordCertificate where
  preWord := [(0,1),(2,3),(4,5),(0,6),(2,5),(3,4),(1,2),(0,4),(3,6),(0,5),(3,4),(2,6)]
  postWord := [(0,5),(1,2),(3,4)]
@@ -62,7 +57,6 @@ def firstPairedClosed5 : ClosedWordCertificate where
  closed := by unfold RectangleClosed; decide +kernel
  avoids := by decide +kernel
  blockedCard := by decide +kernel
-#print axioms firstPairedClosed5
 def firstPairedClosed6 : ClosedWordCertificate where
  preWord := [(0,1),(2,3),(4,5),(0,6),(2,5),(3,4),(1,2),(0,5),(3,6),(4,5),(0,1),(2,4)]
  postWord := [(0,5),(1,2),(3,4)]
@@ -71,7 +65,6 @@ def firstPairedClosed6 : ClosedWordCertificate where
  closed := by unfold RectangleClosed; decide +kernel
  avoids := by decide +kernel
  blockedCard := by decide +kernel
-#print axioms firstPairedClosed6
 def firstPairedClosed7 : ClosedWordCertificate where
  preWord := [(0,1),(2,3),(4,5),(0,6),(2,5),(3,4),(1,2),(0,5),(3,6),(4,5),(0,1),(2,6)]
  postWord := [(0,5),(1,2),(3,4)]
@@ -80,5 +73,4 @@ def firstPairedClosed7 : ClosedWordCertificate where
  closed := by unfold RectangleClosed; decide +kernel
  avoids := by decide +kernel
  blockedCard := by decide +kernel
-#print axioms firstPairedClosed7
 end F7Manuscript.R21SingleTHand

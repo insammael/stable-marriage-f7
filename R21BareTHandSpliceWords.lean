@@ -57,6 +57,5 @@ theorem reverse_then_forward_word_fresh (h : DisjointHistory X Y) (u v : List Sw
   exact R21BareTHandFresh.word_fresh_of_realizes (splice (reverseRun X) Y hs) _
     (splice_realizes hs _ _ (realizes_reverse X u hu) hv)
 
-#print axioms reverse_then_forward_word_fresh
 end
 end F7Manuscript.TripleCoordinateLattice.R21BareTHandSplice

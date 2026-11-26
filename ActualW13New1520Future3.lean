@@ -45,6 +45,5 @@ theorem new1520_four_word_future3_bound
       | exact bound_V0 R t H (future.rename permV0)
       | exact bound_V1 R t H (future.rename permV1)
 
-#print axioms new1520_four_word_future3_bound
 
 end F7Manuscript.ActualW13New1520Future3

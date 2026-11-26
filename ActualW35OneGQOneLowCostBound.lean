@@ -113,4 +113,3 @@ theorem actual_oneG_q1_m13_s_le_one_impossible
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW35OneGQOneLowCostBound
 
-#print axioms F7Manuscript.TripleCoordinateLattice.ActualW35OneGQOneLowCostBound.actual_oneG_q1_m13_s_le_one_impossible

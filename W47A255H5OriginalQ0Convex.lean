@@ -101,7 +101,3 @@ end
 
 end F7Manuscript.TripleCoordinateLattice
 
-#print axioms F7Manuscript.TripleCoordinateLattice.a142_internal_outsider_slot_forces_double_or_triple
-#print axioms F7Manuscript.TripleCoordinateLattice.normalRun_q0_excludes_internal_label_two
-#print axioms F7Manuscript.TripleCoordinateLattice.a255_normal_run_order_convex_of_no_internal_double
-#print axioms F7Manuscript.TripleCoordinateLattice.a255_normal_run_q0_order_convex

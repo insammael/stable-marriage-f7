@@ -214,7 +214,6 @@ theorem actual_gap_type_row_in_pre_cyclic_frame
   · exact hGslots
   · exact ⟨k,label,hrowsGap,hkind⟩
 
-#print axioms actual_gap_type_row_in_pre_cyclic_frame
 
 end
 end F7Manuscript.TripleCoordinateLattice

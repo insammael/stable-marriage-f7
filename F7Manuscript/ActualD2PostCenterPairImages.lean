@@ -191,7 +191,5 @@ theorem actual_postCenter_cross_support_images (f : SupportFrame)
     · exact ⟨hpair.1, hpair.2.1⟩
     · exact ⟨hpair.2.2.1, hpair.2.2.2⟩
 
-#print axioms actual_postCenter_pair_images
-#print axioms actual_postCenter_cross_support_images
 
 end F7Manuscript.TripleCoordinateLattice

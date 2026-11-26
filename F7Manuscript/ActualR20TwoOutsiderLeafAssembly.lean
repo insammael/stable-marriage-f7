@@ -43,6 +43,5 @@ theorem r20LeafObligation_two_zero_zero_of_q1_saturation
   have hq2 : 2 ≤ S.q := by omega
   exact r20_two_outsider_q_ge_two_count_le_85 C h221 h311 hG hT hn hu hq2
 
-#print axioms r20LeafObligation_two_zero_zero_of_q1_saturation
 end
 end F7Manuscript.ActualPositiveDeficitCoverAssembly

@@ -113,6 +113,5 @@ theorem normalPreviousRetired_le_next_center
   exact NormalGeneratorRelations.previous_retired_le_next h221
     hab hxy hax hbx hby hza hzb hzx hzy
 
-#print axioms normalPreviousRetired_le_next_center
 end
 end F7Manuscript.TripleCoordinateLattice.GenericNormal

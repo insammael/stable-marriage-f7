@@ -78,7 +78,6 @@ theorem dualPairedTwoStepSchedule_supports
               · simpa only [Fin.val_mk] using! h₂
               · simpa only [Fin.val_mk, Nat.add_assoc] using! h₃
 
-#print axioms dualPairedTwoStepSchedule_supports
 
 end
 end F7Manuscript.ActualDualD2PairedSupportExtraction

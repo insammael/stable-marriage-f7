@@ -403,7 +403,6 @@ theorem actual_u3_q0s4_selected44_min_one_false
     rw [hL,hclock,hbefore] at hbudget
     omega
 
-#print axioms actual_u3_q0s4_selected44_min_one_false
 
 end
 end F7Manuscript.ActualW21Selected44ShiftedActual

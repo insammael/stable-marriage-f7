@@ -64,8 +64,6 @@ theorem q0_budget_registry_entry_oriented_source_threshold
   exact actual_X_any_budget_root_oriented_source_threshold C hn hδ h221 h311 hG hT X
     entry (q0_budget_entry_color_facts id entry hmem) dual j hfit
 
-#print axioms q0_budget_entry_color_facts
-#print axioms q0_budget_registry_entry_oriented_source_threshold
 
 #eval IO.eprintln "W12 legacy Q0 budget actual checked"
 

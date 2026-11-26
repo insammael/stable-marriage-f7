@@ -209,11 +209,5 @@ theorem noReturn_earlier_ne_after_contact
     atPrefix t plan bits k p ≠ atPrefix t plan bits j p :=
   Ne.symm (noReturn_after_contact_avoids_earlier H i hi p hp k hk j hij hj)
 
-#print axioms sourcePrefix_succ_append_last
-#print axioms atPrefix_succ_swap
-#print axioms noReturn_freshSince_wholePrefix
-#print axioms freshSince_of_receipts_subset
-#print axioms noReturn_after_contact_avoids_earlier
-#print axioms noReturn_earlier_ne_after_contact
 
 end F7Manuscript.N4WholePrefixMemory

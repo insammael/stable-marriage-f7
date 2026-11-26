@@ -69,6 +69,5 @@ theorem actual_normal_core_in_complete_run
     rw [supp, Finset.card_map]
     exact SaturatedUnitSteps.actual_event_binary hn _
 
-#print axioms actual_normal_core_in_complete_run
 end
 end F7Manuscript.TripleCoordinateLattice

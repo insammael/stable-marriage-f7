@@ -44,7 +44,6 @@ theorem actual_outside_three_u3_residual_rows_no_q2
     exact (F7Manuscript.TripleCoordinateLattice.ActualW17U3Q2S2Dispatcher.actual_u3_q2_s2_false
       C hn hδ hdeficit hpos h221 h311 hG hT X hu hq2.1 hq2.2.1).elim
 
-#print axioms actual_outside_three_u3_residual_rows_no_q2
 
 end
 end F7Manuscript.ActualW17U3Q2S2ResidualRows

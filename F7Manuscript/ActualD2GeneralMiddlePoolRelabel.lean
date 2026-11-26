@@ -70,6 +70,5 @@ theorem actual_paired_middle_relabel_preserves_four
   change e₂ (e.symm (F7Paired.embedFour i)) = F7Paired.embedFour j
   exact hj
 
-#print axioms actual_paired_middle_relabel_preserves_four
 
 end F7Manuscript.TripleCoordinateLattice

@@ -126,7 +126,5 @@ theorem double_fibers_nonempty {P : Finset V} (G : ThreeMaxBoundary P)
   · exact hImpossible j k hij.symm hik.symm hjk hj
   · exact hImpossible k j hik.symm hij.symm hjk.symm hk
 
-#print axioms regular_signature
-#print axioms double_fibers_nonempty
 end Peeling
 end NeutralCore

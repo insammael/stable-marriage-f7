@@ -78,5 +78,4 @@ theorem handGraph_trace_bound {k : Nat} (G : Fin k→HandGraphNode k)
     simp only [eventCount]
     omega
 
-#print axioms handGraph_trace_bound
 end F7Manuscript.R21SingleTHand

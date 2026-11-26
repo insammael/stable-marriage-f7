@@ -109,5 +109,3 @@ theorem positive_paired_zero_cost_run_impossible {N : Nat}
 end
 end F7Manuscript.W35PositivePairedZeroCostBound
 
-#print axioms F7Manuscript.W35PositivePairedZeroCostBound.actual_run_wall_bounds
-#print axioms F7Manuscript.W35PositivePairedZeroCostBound.positive_paired_zero_cost_run_impossible

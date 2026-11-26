@@ -236,8 +236,6 @@ theorem canonical_initial_packet {W : Type*} [Fintype W] {q : Nat}
   · exact identity_initial_packet R hq plan bits H hb h0 h1 h2 h3 hbit
   · exact reflected_initial_packet R hq plan hnonempty bits H hb h0 h1 h2 h3 hbit
 
-#print axioms reflected_initial_packet
-#print axioms canonical_initial_packet
 
 end
 end F7Manuscript.ActualW8CanonicalMixedInitial

@@ -231,7 +231,4 @@ theorem classify_new1520_explicit_four_words (c : Bool) (bits : Nat → Bool)
   by_cases hx : Bool.xor c (bits 5) = true <;> by_cases ht : bits 7 = true <;>
     simp [h, hx, ht]
 
-#print axioms bit9_forced
-#print axioms classify_new1520_noReturn
-#print axioms classify_new1520_explicit_four_words
 end F7Manuscript.ActualW13New1520SelectorB9

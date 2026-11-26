@@ -116,6 +116,5 @@ theorem new56_force_center_label
       · simp [h6, h7]
       · exact False.elim (bad_event11_U 1 (Or.inr rfl) bits hfirst N h4 h5 (by simpa using! h6) h7)
 
-#print axioms new56_force_center_label
 
 end F7Manuscript.ActualW12New56PrefixPhase3

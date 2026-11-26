@@ -135,7 +135,6 @@ theorem m11_paid_zero_two_pivot_partial_false
     exact endpoint_D_two_pivot_two_partial_none W D false 11 (by omega) hW hD
       (by simpa using! h0) hDtailF hpivF hSomeF
 
-#print axioms m11_paid_zero_two_pivot_partial_false
 
 end
 end F7Manuscript.ActualW17Q2S2PaidZeroFalse

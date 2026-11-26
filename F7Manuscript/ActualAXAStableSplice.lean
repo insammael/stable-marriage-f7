@@ -96,7 +96,5 @@ theorem original_fourth_stable
     exact hm (tokens.injective he)
   exact ⟨N,hbetween.1,hbetween.2,hneq 0,hneq 1,hneq 2⟩
 
-#print axioms paired_splice_certificate
-#print axioms original_fourth_stable
 end F7Manuscript.AXASplice
 

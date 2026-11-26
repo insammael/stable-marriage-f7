@@ -86,5 +86,4 @@ theorem two_bare_low_deficit_forces_zero_run {n : Nat} (hn : n=2)
   · exact ⟨1,h⟩
   · exact ⟨2,h⟩
 
-#print axioms two_bare_low_deficit_forces_zero_run
 end F7Manuscript.TripleCoordinateLattice

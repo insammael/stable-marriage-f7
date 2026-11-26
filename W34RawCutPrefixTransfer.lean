@@ -36,7 +36,5 @@ theorem no_extension_of_raw_fifteen_support_prefix
   W34RawPeriodicTerminal.raw_cut_fifteen_no_next_step R
     (transfer_raw_support_prefix S R C hpq hsupport) hq
 
-#print axioms transfer_raw_support_prefix
-#print axioms no_extension_of_raw_fifteen_support_prefix
 end
 end F7Manuscript.PartnerGraph.Periodic.W34RawCutPrefixTransfer

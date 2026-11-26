@@ -28,6 +28,4 @@ theorem all_interior_double_zero_of_charged_zero
   · subst i; exact hz
   · exact other_interior_double_zero S r hr hs i hi0 hi1 h
 
-#print axioms other_interior_double_zero
-#print axioms all_interior_double_zero_of_charged_zero
 end F7Manuscript.ActualW30R20OneChargedSiteLevels

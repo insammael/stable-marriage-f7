@@ -56,7 +56,6 @@ theorem w47_a121_pre_cross_zero_of_empty_initial_old_prefix
   rw [normalRunLeft_zero, hprefix]
   simp [crossEdges]
 
-#print axioms w47_a121_pre_cross_zero_of_empty_initial_old_prefix
 
 variable (h221 : NoInduced221 (V := Event I))
 variable (h311 : NoInduced311 (V := Event I))
@@ -181,7 +180,6 @@ theorem w47_a121_original_r20_L0_DL_of_exact_boundaries
   have hminPOST := hmin (S k.succ).m
   omega
 
-#print axioms w47_a121_original_r20_L0_DL_of_exact_boundaries
 
 end
 end F7Manuscript.TripleCoordinateLattice

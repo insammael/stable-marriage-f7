@@ -113,5 +113,4 @@ theorem four_center_event_indices
             exact ⟨k0,k1,k2,k3,rfl,h01,h12,h23,h0event,h1event,h2event,h3event,h0,h1,h2,h3⟩
           | cons _ _ => rw [hlist] at hlenEvents; simp at hlenEvents
 
-#print axioms four_center_event_indices
 end F7Manuscript.ActualW19P6FourCenterEventExtraction

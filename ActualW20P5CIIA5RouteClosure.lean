@@ -121,5 +121,4 @@ theorem p5_CII_A5_actual_route_impossible
     (by simpa [hw6four] using! hm6post)
     (by simpa [hw6four] using! hq6pre) hpostY (by simp;omega) h5left
 
-#print axioms p5_CII_A5_actual_route_impossible
 end F7Manuscript.ActualW20P5CIIA5RouteClosure

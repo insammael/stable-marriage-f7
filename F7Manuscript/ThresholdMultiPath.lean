@@ -73,6 +73,5 @@ theorem thresholdPath_succ_coordinate (n : Fin (thresholdLength C)) (i : Fin 3) 
   exact thresholdIdealStep_coordinate C (thresholdPrefix C n.val) (thresholdAt C n)
     (thresholdAt_not_mem_prefix C n) (lower_thresholdAt_mem_prefix C n) i
 
-#print axioms thresholdPath_succ_coordinate
 end
 end F7Manuscript.TripleCoordinateLattice

@@ -85,6 +85,5 @@ theorem centerRelabel_old_pool_maps_into_four
   apply Fin.ext
   simp [heval, a, F7Paired.embedFour]
 
-#print axioms centerRelabel_old_pool_maps_into_four
 
 end F7Manuscript.ActualD2CanonicalPoolMap

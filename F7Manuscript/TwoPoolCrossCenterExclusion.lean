@@ -42,6 +42,5 @@ theorem cross_center_exclusion
     have hneq := F7Manuscript.PartnerGraph.Periodic.past_ne_after R t w hmem u hu
     exact hneq (hstate.trans (hswap.1.symm))
 
-#print axioms cross_center_exclusion
 
 end F7Manuscript.TwoPoolCrossCenterExclusion

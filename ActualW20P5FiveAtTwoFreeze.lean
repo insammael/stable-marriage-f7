@@ -66,6 +66,4 @@ theorem p5_token_five_at_two_freezes_from_one_three {n : Nat}
     · exact Or.inl ⟨h.1.symm,h.2.symm.trans hy4⟩
     · exact Or.inr ⟨h.2.symm.trans hy4,h.1.symm⟩
 
-#print axioms p5_token_five_cannot_swap_two_four
-#print axioms p5_token_five_at_two_freezes_from_one_three
 end F7Manuscript.ActualW20P5FiveAtTwoFreeze

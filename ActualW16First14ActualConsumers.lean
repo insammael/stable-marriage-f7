@@ -141,8 +141,6 @@ theorem actual_X_P310_global_312_false
   exact actual_X_p310_prefix_min_endpoint_zero_false
     C hn hδ h221 h311 hG hT X hprefix hD13 hmin
 
-#print axioms actual_X_normalized_raw_prefix14
-#print axioms actual_X_P310_global_312_false
 
 end
 end F7Manuscript.ActualW16First14ActualConsumers

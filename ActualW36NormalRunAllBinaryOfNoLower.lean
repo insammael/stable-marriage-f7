@@ -98,7 +98,5 @@ theorem actual_no_outsider_run_all_events_binary_of_no_nonbinary_lower
   exact subsetNormal_all_events_binary_of_lower_rows Q0 hg.1 B0 hp.2.2.1 hp.2.1 hg.2
     hmB hrow0 ⟨z,hzmem⟩
 
-#print axioms subsetNormal_all_events_binary_of_lower_rows
-#print axioms actual_no_outsider_run_all_events_binary_of_no_nonbinary_lower
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW36NormalRunAllBinaryOfNoLower

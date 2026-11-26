@@ -58,6 +58,4 @@ theorem bad_neutral_boundary_signature (h : BadNeutral (V:=V)) :
   have hSix := disjoint_three_boundaries_six (Finset.univ : Finset V) hl hu hDis
   exact ⟨hl,hu,hDis,by simpa using! hSix⟩
 
-#print axioms bad_neutral_signature
-#print axioms bad_neutral_boundary_signature
 end NeutralCore

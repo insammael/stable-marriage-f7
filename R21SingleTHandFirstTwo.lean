@@ -80,7 +80,5 @@ theorem ordered_crown_first_two_prefixes {n m : ℕ} {S T : NormalSkeleton.Chart
     · simpa [newSeeds,twoCenterWord,pairAt,Fin.castLE,hi',CrownSupportChoices.oldPair,CrownSupportChoices.crownRow,pairSupport,Finset.pair_comm] using! hd0
     · simpa [newSeeds,twoCenterWord,pairAt,Fin.castLE,hi',CrownSupportChoices.oldPair,CrownSupportChoices.crownRow,pairSupport,Finset.pair_comm] using! hd1
 
-#print axioms route_first_two
-#print axioms ordered_crown_first_two_prefixes
 end
 end F7Manuscript.R21SingleTHand

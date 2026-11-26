@@ -121,7 +121,5 @@ theorem central_outsider_excludes_deficit_at_most_two {A B C : Finset V} {x : V}
     hA hB hC hchain hp hq
   omega
 
-#print axioms central_outsider_ordered_pair_budget
-#print axioms central_outsider_excludes_deficit_at_most_two
 
 end ConditionalUL

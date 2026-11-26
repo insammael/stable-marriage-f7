@@ -72,7 +72,5 @@ theorem support_word_eq_canonical (b : Fin 5 → Bool)
     Rows.support_row6 b hfresh, Rows.support_row7 b hfresh,
     Rows.support_row8 b hfresh]
 
-#print axioms reorderNine_is_orderedRows
-#print axioms support_word_eq_canonical
 
 end F7Manuscript.ActualD2FirstFiveSupportWordAssembly

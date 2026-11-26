@@ -128,7 +128,5 @@ theorem actual_convex_context_transfer
   rw [← actual_convex_word_pairCount hn Q hQ D fallback e word hreal]
   simpa only [hcontext] using! hfinite
 
-#print axioms actual_convex_word_pairCount
-#print axioms actual_convex_context_transfer
 end
 end F7Manuscript.ActualConvexWordSemantics

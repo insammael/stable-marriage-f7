@@ -394,6 +394,5 @@ theorem new98_i12_controls (bits : Nat → Bool)
             exact i12row_t1z1h1v0 bits h0 N ht hz hh hv
           ·
             simp [hx, hz, hh, ht, hv]
-#print axioms new98_i12_controls
 
 end F7Manuscript.ActualW13New98I12Controls

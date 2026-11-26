@@ -75,7 +75,6 @@ theorem normalLeaves_card_le_two_in_dual_subset
   exact dual_subset_commonIncomparable_card_le_six Q
     (normalCenter_strict_after_initial B h221 h311 hz j)
 
-#print axioms normalLeaves_card_le_two_in_dual_subset
 
 end
 end F7Manuscript.TripleCoordinateLattice

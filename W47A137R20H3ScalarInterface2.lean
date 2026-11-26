@@ -57,7 +57,6 @@ theorem outsiderIncSum_le_two_of_branch_receipt
   exact OriginalStateReceipt.whole_actual_holding_receipt_false
     I D k q hq r hr w hreceipt hpost
 
-#print axioms outsiderIncSum_le_two_of_branch_receipt
 
 end
 

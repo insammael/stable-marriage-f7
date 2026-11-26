@@ -44,5 +44,4 @@ theorem boundary_arrival_before_visit_of_no_internal_receipt
     · exact Or.inl ⟨h.1.symm,h.2.symm⟩
     · exact Or.inr ⟨h.2.symm,h.1.symm⟩
 
-#print axioms boundary_arrival_before_visit_of_no_internal_receipt
 end F7Manuscript.ActualW20VisitRequiresBoundaryReceipt

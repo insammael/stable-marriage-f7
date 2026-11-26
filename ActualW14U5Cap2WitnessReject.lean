@@ -94,8 +94,6 @@ theorem partial_requirement_ne_zero_of_positive_periodic_fit
             Option.some.inj heq
           omega
 
-#print axioms partial_requirement_none_of_root_fit
-#print axioms partial_requirement_ne_zero_of_positive_periodic_fit
 
 end
 end F7Manuscript.ActualW14U5Cap2WitnessReject

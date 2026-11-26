@@ -62,7 +62,4 @@ theorem fixed_pair_capacity_pool_memory_false
       (by simp [pool11Bits]) mode_B_uniform_capacity hmemory) hno
   · exact mode_A_fixed_pair_capacity_false c hcap
 
-#print axioms mode_A_fixed_pair_capacity_false
-#print axioms mode_B_uniform_capacity
-#print axioms fixed_pair_capacity_pool_memory_false
 end F7Manuscript.ActualQ1FixedPairPoolExclusion

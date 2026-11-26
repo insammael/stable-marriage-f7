@@ -45,6 +45,4 @@ theorem firstPaired_coupling_tail_bound {plan : List Move} {s t : PhysicalState}
  (trace : PhysicalTrace (graphGuard couplingCompatible couplingRejected) plan s t)
  (root : s∈(couplingDAG 0).states) : eventCount plan+3≤7 :=
  handGraph_trace_bound couplingDAG couplingCompatible couplingRejected 7 couplingDAG_checked couplingDAG_bound trace 0 root
-#print axioms couplingDAG_checked
-#print axioms firstPaired_coupling_tail_bound
 end F7Manuscript.R21SingleTHand

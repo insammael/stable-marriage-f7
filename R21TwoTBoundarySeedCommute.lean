@@ -43,6 +43,4 @@ theorem board_step_swap (B : Board) (p : Swap) (hne : p.1≠p.2) :
   · funext a
     by_cases h1 : a=p.1 <;> by_cases h2 : a=p.2 <;> simp_all [step,swapSite]
 
-#print axioms board_step_commute
-#print axioms board_step_swap
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

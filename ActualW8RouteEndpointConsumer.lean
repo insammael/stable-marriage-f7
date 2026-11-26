@@ -106,7 +106,6 @@ theorem actual_observed_window_endpoint_false_of_route
     T checked plan K L b code tree valid old bits hcode R hledger hbound Hobs hsupport
     atomic binary budget
 
-#print axioms actual_observed_window_endpoint_false_of_route
 
 end
 end F7Manuscript.ActualW8RouteEndpointConsumer

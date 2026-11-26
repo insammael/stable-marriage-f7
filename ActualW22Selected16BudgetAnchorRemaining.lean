@@ -51,13 +51,9 @@ def table : Table57810394550288 := fun j =>
   | _ => node_0
 
 theorem node_0_valid : Sized.ValidNode table ⟨0, by decide⟩ := by decide +kernel
-#print axioms node_0_valid
 theorem node_1_valid : Sized.ValidNode table ⟨1, by decide⟩ := by decide +kernel
-#print axioms node_1_valid
 theorem node_2_valid : Sized.ValidNode table ⟨2, by decide⟩ := by decide +kernel
-#print axioms node_2_valid
 theorem node_3_valid : Sized.ValidNode table ⟨3, by decide⟩ := by decide +kernel
-#print axioms node_3_valid
 
 theorem table_checked : ∀ j, Sized.ValidNode table j := by
   intro j
@@ -66,11 +62,9 @@ theorem table_checked : ∀ j, Sized.ValidNode table j := by
   · exact node_1_valid
   · exact node_2_valid
   · exact node_3_valid
-#print axioms table_checked
 
 theorem anchor57810394550288_futureBound : Sized.NodeFutureBound table ⟨0, by decide⟩ := by
   exact Sized.nodeFutureBound_of_checked_table table table_checked ⟨0, by decide⟩ table ⟨0, by decide⟩ rfl rfl (by decide)
-#print axioms anchor57810394550288_futureBound
 
 end F7Manuscript.ActualW22Selected16BudgetAnchor57810394550288
 
@@ -118,13 +112,9 @@ def table : Table105734177038368 := fun j =>
   | _ => node_0
 
 theorem node_0_valid : Sized.ValidNode table ⟨0, by decide⟩ := by decide +kernel
-#print axioms node_0_valid
 theorem node_1_valid : Sized.ValidNode table ⟨1, by decide⟩ := by decide +kernel
-#print axioms node_1_valid
 theorem node_2_valid : Sized.ValidNode table ⟨2, by decide⟩ := by decide +kernel
-#print axioms node_2_valid
 theorem node_3_valid : Sized.ValidNode table ⟨3, by decide⟩ := by decide +kernel
-#print axioms node_3_valid
 
 theorem table_checked : ∀ j, Sized.ValidNode table j := by
   intro j
@@ -133,11 +123,9 @@ theorem table_checked : ∀ j, Sized.ValidNode table j := by
   · exact node_1_valid
   · exact node_2_valid
   · exact node_3_valid
-#print axioms table_checked
 
 theorem anchor105734177038368_futureBound : Sized.NodeFutureBound table ⟨0, by decide⟩ := by
   exact Sized.nodeFutureBound_of_checked_table table table_checked ⟨0, by decide⟩ table ⟨0, by decide⟩ rfl rfl (by decide)
-#print axioms anchor105734177038368_futureBound
 
 end F7Manuscript.ActualW22Selected16BudgetAnchor105734177038368
 
@@ -241,29 +229,17 @@ def table : Table178696552316928 := fun j =>
   | _ => node_0
 
 theorem node_0_valid : Sized.ValidNode table ⟨0, by decide⟩ := by decide +kernel
-#print axioms node_0_valid
 theorem node_1_valid : Sized.ValidNode table ⟨1, by decide⟩ := by decide +kernel
-#print axioms node_1_valid
 theorem node_2_valid : Sized.ValidNode table ⟨2, by decide⟩ := by decide +kernel
-#print axioms node_2_valid
 theorem node_3_valid : Sized.ValidNode table ⟨3, by decide⟩ := by decide +kernel
-#print axioms node_3_valid
 theorem node_4_valid : Sized.ValidNode table ⟨4, by decide⟩ := by decide +kernel
-#print axioms node_4_valid
 theorem node_5_valid : Sized.ValidNode table ⟨5, by decide⟩ := by decide +kernel
-#print axioms node_5_valid
 theorem node_6_valid : Sized.ValidNode table ⟨6, by decide⟩ := by decide +kernel
-#print axioms node_6_valid
 theorem node_7_valid : Sized.ValidNode table ⟨7, by decide⟩ := by decide +kernel
-#print axioms node_7_valid
 theorem node_8_valid : Sized.ValidNode table ⟨8, by decide⟩ := by decide +kernel
-#print axioms node_8_valid
 theorem node_9_valid : Sized.ValidNode table ⟨9, by decide⟩ := by decide +kernel
-#print axioms node_9_valid
 theorem node_10_valid : Sized.ValidNode table ⟨10, by decide⟩ := by decide +kernel
-#print axioms node_10_valid
 theorem node_11_valid : Sized.ValidNode table ⟨11, by decide⟩ := by decide +kernel
-#print axioms node_11_valid
 
 theorem table_checked : ∀ j, Sized.ValidNode table j := by
   intro j
@@ -280,11 +256,9 @@ theorem table_checked : ∀ j, Sized.ValidNode table j := by
   · exact node_9_valid
   · exact node_10_valid
   · exact node_11_valid
-#print axioms table_checked
 
 theorem anchor178696552316928_futureBound : Sized.NodeFutureBound table ⟨0, by decide⟩ := by
   exact Sized.nodeFutureBound_of_checked_table table table_checked ⟨0, by decide⟩ table ⟨0, by decide⟩ rfl rfl (by decide)
-#print axioms anchor178696552316928_futureBound
 
 end F7Manuscript.ActualW22Selected16BudgetAnchor178696552316928
 
@@ -388,29 +362,17 @@ def table : Table248782835154944 := fun j =>
   | _ => node_0
 
 theorem node_0_valid : Sized.ValidNode table ⟨0, by decide⟩ := by decide +kernel
-#print axioms node_0_valid
 theorem node_1_valid : Sized.ValidNode table ⟨1, by decide⟩ := by decide +kernel
-#print axioms node_1_valid
 theorem node_2_valid : Sized.ValidNode table ⟨2, by decide⟩ := by decide +kernel
-#print axioms node_2_valid
 theorem node_3_valid : Sized.ValidNode table ⟨3, by decide⟩ := by decide +kernel
-#print axioms node_3_valid
 theorem node_4_valid : Sized.ValidNode table ⟨4, by decide⟩ := by decide +kernel
-#print axioms node_4_valid
 theorem node_5_valid : Sized.ValidNode table ⟨5, by decide⟩ := by decide +kernel
-#print axioms node_5_valid
 theorem node_6_valid : Sized.ValidNode table ⟨6, by decide⟩ := by decide +kernel
-#print axioms node_6_valid
 theorem node_7_valid : Sized.ValidNode table ⟨7, by decide⟩ := by decide +kernel
-#print axioms node_7_valid
 theorem node_8_valid : Sized.ValidNode table ⟨8, by decide⟩ := by decide +kernel
-#print axioms node_8_valid
 theorem node_9_valid : Sized.ValidNode table ⟨9, by decide⟩ := by decide +kernel
-#print axioms node_9_valid
 theorem node_10_valid : Sized.ValidNode table ⟨10, by decide⟩ := by decide +kernel
-#print axioms node_10_valid
 theorem node_11_valid : Sized.ValidNode table ⟨11, by decide⟩ := by decide +kernel
-#print axioms node_11_valid
 
 theorem table_checked : ∀ j, Sized.ValidNode table j := by
   intro j
@@ -427,10 +389,8 @@ theorem table_checked : ∀ j, Sized.ValidNode table j := by
   · exact node_9_valid
   · exact node_10_valid
   · exact node_11_valid
-#print axioms table_checked
 
 theorem anchor248782835154944_futureBound : Sized.NodeFutureBound table ⟨0, by decide⟩ := by
   exact Sized.nodeFutureBound_of_checked_table table table_checked ⟨0, by decide⟩ table ⟨0, by decide⟩ rfl rfl (by decide)
-#print axioms anchor248782835154944_futureBound
 
 end F7Manuscript.ActualW22Selected16BudgetAnchor248782835154944

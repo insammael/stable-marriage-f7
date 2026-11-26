@@ -222,5 +222,4 @@ theorem p5_boundary_residual_mutual_path
     exact Or.inr ⟨xq,yq,xm,ym,hxqS,hyqS,hxmS,hymS,
       hqpre,hqpost,hmpre,hmpost,hyqeq.symm,hxmeq.symm,hmqTime⟩
 
-#print axioms p5_boundary_residual_mutual_path
 end F7Manuscript.ActualW20P5BoundaryResidualMutualPath

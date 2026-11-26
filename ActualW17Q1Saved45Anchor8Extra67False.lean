@@ -139,7 +139,6 @@ theorem actual_u3_q1_s3_paid8_extra67_min_le_two_false
   exact actual_q1_anchor8_extras67_min_le_two_false C hn hδ h221 h311 hG hT X
     hu hq hs hDanchor (by intro k hk hki; exact hDother k hk hki) hSupport hmin
 
-#print axioms actual_u3_q1_s3_paid8_extra67_min_le_two_false
 
 end
 end ActualW17Q1Saved45Anchor8Extra67False

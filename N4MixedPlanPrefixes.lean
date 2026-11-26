@@ -166,9 +166,5 @@ theorem throughCenter_eventCount
     rw [eventCount_mixedPlan word levels j hj1]
     omega
 
-#print axioms mixedPlanFrom_add
-#print axioms mixedPlan_beforePaired_split
-#print axioms NoReturn_pure_before_first_D
-#print axioms throughCenter_eventCount
 
 end F7Manuscript.N4MixedPlanPrefixes

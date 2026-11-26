@@ -147,7 +147,4 @@ def IntervalPath.append (H : IntervalPath V) (T : Finset V)
       · have hjk' : j=k := by omega
         simpa only [hjk'] using! hxk
 
-#print axioms IntervalPath.toRaw
-#print axioms IntervalPath.reverse
-#print axioms IntervalPath.append
 end NeutralCore.PathExtraction

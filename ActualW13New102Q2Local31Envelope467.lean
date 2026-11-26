@@ -98,9 +98,5 @@ theorem observed_word1110_future_length_le_five {W : Type*} [Fintype W] {q n : N
   have hn := F7Manuscript.ActualW13New102PhaseBounds467.future_le_three_467 (future.rename perm1110) (observed_word1110_envelope R tok H)
   omega
 
-#print axioms observed_word1010_envelope
-#print axioms observed_word1010_future_length_le_five
-#print axioms observed_word1110_envelope
-#print axioms observed_word1110_future_length_le_five
 
 end F7Manuscript.ActualW13New102Q2Local31Envelope467

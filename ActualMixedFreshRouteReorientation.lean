@@ -212,5 +212,4 @@ theorem fresh_supportsRoute_reorient
       rw [hdst]
       simpa [List.append_assoc] using! hfinal
 
-#print axioms fresh_supportsRoute_reorient
 end F7Manuscript.ActualMixedFreshRouteReorientation

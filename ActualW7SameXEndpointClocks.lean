@@ -55,8 +55,6 @@ theorem actual_X_before_zero_suffix_length
   have hclock := (actual_X_both_endpoint_clocks C hn h221 h311 hG hT X).1
   rw [hclock, hbefore]
 
-#print axioms actual_X_both_endpoint_clocks
-#print axioms actual_X_before_zero_suffix_length
 
 end
 end F7Manuscript.ActualW7SameXEndpointClocks

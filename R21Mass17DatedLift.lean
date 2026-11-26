@@ -38,6 +38,5 @@ theorem DatedPlan.liftAlongSupportAlignment
   · intro delta hd
     rfl
 
-#print axioms DatedPlan.liftAlongSupportAlignment
 end
 end F7Manuscript.R21NormalEndpoint.ReseededObservation

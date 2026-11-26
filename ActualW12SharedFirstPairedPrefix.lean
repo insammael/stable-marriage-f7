@@ -149,9 +149,5 @@ theorem first_paired_actual_state
     (paired_succeeds_of_match initial initialSupport (pairedHeadPlan planTail) bits 4
       false false hm N hlt hset0 hsrc0 hpair0 hset1 hsrc1 hpair1)
 
-#print axioms first_paired_route
-#print axioms actor_token_origin_relabel
-#print axioms paired_receipts_at_actual_start
-#print axioms first_paired_actual_state
 
 end F7Manuscript.ActualW12SharedFirstPairedPrefix

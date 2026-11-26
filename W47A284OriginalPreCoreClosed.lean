@@ -215,13 +215,6 @@ They are not premises of any preceding closure theorem. -/
 
 end Actual
 
-#print axioms core_down_row_PREClosure
-#print axioms first_pre_core_predecessor_closed
-#print axioms original_pre_core_predecessor_closed
-#print axioms original_pre_predecessor_mem
-#print axioms original_pre_before_subset_outside
-#print axioms original_pre_before_card_le_one
-#print axioms original_pre_t0_le_one
 
 end
 

@@ -103,7 +103,6 @@ theorem actual_zero_d1_third_center_rows
       (jnext := j₂) (by simp [j₁,j₂]) hd1
   exact ⟨b₁,b₂,hbit,hrow₁,hrow₂⟩
 
-#print axioms actual_zero_d1_third_center_rows
 
 end
 end F7Manuscript.W7ActualD2ZeroD1FrameBridge

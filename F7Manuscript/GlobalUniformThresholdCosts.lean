@@ -108,7 +108,5 @@ theorem global_empty_G_introduction_credit
   simp
 end Actual
 
-#print axioms global_T_introduction_credit_uniform
-#print axioms global_empty_G_introduction_credit
 end
 end F7Manuscript.TripleCoordinateLattice

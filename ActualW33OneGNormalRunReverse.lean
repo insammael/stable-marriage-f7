@@ -71,6 +71,5 @@ theorem actual_oneG_reflected_normal_run
       Q hgeometry.1 B h221Q h311Q hzQ hmB
   simpa only [Q, B, actualOneGapNormalRunSkeleton] using! hrun
 
-#print axioms actual_oneG_reflected_normal_run
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW33OneGNormalRunReverse

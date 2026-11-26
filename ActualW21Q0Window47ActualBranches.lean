@@ -48,6 +48,5 @@ theorem actual_q0_window47_pivot_branches_impossible
       h221 h311 hG hT X hq hm {4,5,7,9} hP window47_return_entry
       window47_metadata (by rfl) true 1 (by decide) (by decide)
 
-#print axioms actual_q0_window47_pivot_branches_impossible
 end
 end F7Manuscript.ActualW21Q0Window47ActualBranches

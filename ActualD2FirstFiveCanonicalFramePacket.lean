@@ -129,6 +129,5 @@ theorem actual_d2_canonical_frame_packet (b : Fin 5 → Bool)
       exact heO
   · rfl
 
-#print axioms actual_d2_canonical_frame_packet
 
 end F7Manuscript.ActualD2FirstFiveCanonicalFramePacket

@@ -34,6 +34,5 @@ theorem reflected_paired_frame_step
   exact reflected_after_paired_frame_relation f g reflectColors ε hfront hidle hlast
     hcoords.1 hcoords.2.1 hcoords.2.2 cross label
 
-#print axioms reflected_paired_frame_step
 
 end F7Manuscript.ActualW7ReflectedPairedFrameStep

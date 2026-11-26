@@ -213,7 +213,6 @@ theorem actual_typeV_post_trace_from_actual_gap
       (permuteSupportFrame σ (afterTypeV f fixed r)) hvPost hlower
     exact Or.inr ⟨r,d0,d1,hd0,hd1,hd01,hQgapCard,hQgap,Hgap,hslot0,hslot1,T,hT⟩
 
-#print axioms actual_typeV_post_trace_from_actual_gap
 
 end
 end F7Manuscript.TripleCoordinateLattice

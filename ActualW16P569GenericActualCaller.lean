@@ -137,7 +137,6 @@ theorem actual_X_p569_root11_min_endpoint_zero_false
     omega
 
 
-#print axioms actual_X_p569_root11_min_endpoint_zero_false
 
 end
 end F7Manuscript.ActualW16P569GenericActualCaller

@@ -126,7 +126,5 @@ theorem outsider_threshold_path_switch_double_or_triple {x : V}
   have hne := outsider_threshold_path_switch_not_single C hx E n hb ha
   omega
 
-#print axioms outsider_threshold_path_sign_switch
-#print axioms outsider_threshold_path_switch_double_or_triple
 end
 end F7Manuscript.TripleCoordinateLattice

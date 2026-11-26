@@ -873,25 +873,5 @@ theorem badD10_forbidden (bits : Nat → Bool)
     4 (by omega)
   exact hf hnow
 
-#print axioms badC01_forbidden
-#print axioms badC02_forbidden
-#print axioms badC03_forbidden
-#print axioms badC04_forbidden
-#print axioms badC05_forbidden
-#print axioms badC06_forbidden
-#print axioms badC07_forbidden
-#print axioms badC08_forbidden
-#print axioms badC09_forbidden
-#print axioms badC10_forbidden
-#print axioms badD01_forbidden
-#print axioms badD02_forbidden
-#print axioms badD03_forbidden
-#print axioms badD04_forbidden
-#print axioms badD05_forbidden
-#print axioms badD06_forbidden
-#print axioms badD07_forbidden
-#print axioms badD08_forbidden
-#print axioms badD09_forbidden
-#print axioms badD10_forbidden
 
 end F7Manuscript.ActualW16Window31ForcingReturns4

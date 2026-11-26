@@ -187,7 +187,5 @@ theorem threshold_core_pairDeficit_telescope (E : Enumeration (thresholdEvents C
   rw [threshold_block_prefix_full C E] at h
   exact h
 
-#print axioms threshold_block_prefix_disjoint
-#print axioms threshold_core_pairDeficit_telescope
 end
 end F7Manuscript.TripleCoordinateLattice

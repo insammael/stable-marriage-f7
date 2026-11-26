@@ -280,7 +280,6 @@ theorem q0_word_16_prefix_04 (turns : Nat → Bool) (cuts : Q0Cuts turns 16)
           simp [prefixCost, hb1, hb2, hb3, hb4, hb5, hb6, hb7, hb8] <;> omega
       | true =>
         simp [prefixCost, hb1, hb2, hb3, hb4, hb5, hb6, hb7] <;> omega
-#print axioms q0_word_16_prefix_04
 
 theorem q0_word_16_prefix_05 (turns : Nat → Bool) (cuts : Q0Cuts turns 16)
     (hb1 : turns 1 = false)
@@ -381,7 +380,6 @@ theorem q0_word_16_prefix_05 (turns : Nat → Bool) (cuts : Q0Cuts turns 16)
         simp [prefixCost, hb1, hb2, hb3, hb4, hb5, hb6, hb7] <;> omega
     | true =>
       simp [prefixCost, hb1, hb2, hb3, hb4, hb5, hb6] <;> omega
-#print axioms q0_word_16_prefix_05
 
 theorem q0_word_16_prefix_06 (turns : Nat → Bool) (cuts : Q0Cuts turns 16)
     (hb1 : turns 1 = false)
@@ -502,7 +500,6 @@ theorem q0_word_16_prefix_06 (turns : Nat → Bool) (cuts : Q0Cuts turns 16)
         simp [prefixCost, hb1, hb2, hb3, hb4, hb5, hb6, hb7] <;> omega
     | true =>
       simp [prefixCost, hb1, hb2, hb3, hb4, hb5, hb6] <;> omega
-#print axioms q0_word_16_prefix_06
 
 theorem q0_word_16_prefix_07 (turns : Nat → Bool) (cuts : Q0Cuts turns 16)
     (hb1 : turns 1 = false)
@@ -527,6 +524,5 @@ theorem q0_word_16_prefix_07 (turns : Nat → Bool) (cuts : Q0Cuts turns 16)
       simp [prefixCost, hb1, hb2, hb3, hb4, hb5, hb6] <;> omega
   | true =>
     simp [prefixCost, hb1, hb2, hb3, hb4, hb5] <;> omega
-#print axioms q0_word_16_prefix_07
 
 end F7Local

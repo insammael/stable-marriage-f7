@@ -107,6 +107,5 @@ theorem p5_saturated_residual_common_entry_is_three
     · subst k
       exact p5_residual_source_is_receipt_site T q6 6 A (by decide) hq6 hOne6 hpre6 hpart hnew
 
-#print axioms p5_saturated_residual_common_entry_is_three
 
 end F7Manuscript.ActualW20P5Receipt35ForcesEntryThree

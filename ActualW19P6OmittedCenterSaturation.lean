@@ -91,6 +91,5 @@ theorem p6_omitted_center_noncenter_cell_received
   rcases Finset.mem_image.mp himage with ⟨e, -, he⟩
   exact ⟨e, he⟩
 
-#print axioms p6_omitted_center_noncenter_cell_received
 
 end F7Manuscript.ActualW19P6OmittedCenterSaturation

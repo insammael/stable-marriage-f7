@@ -70,5 +70,4 @@ theorem replay_comm_apart (m : Memory) (p q : Swap) (w : List Swap) (h : apart p
     advance_comm_apart m h hm]
   by_cases A : allow m p=true <;> by_cases B : allow m q=true <;> simp [A,B]
 
-#print axioms replay_comm_apart
 end F7Manuscript.TripleCoordinateLattice.R21LooseRows

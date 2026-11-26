@@ -275,6 +275,3 @@ theorem one_G_orientation_wlog (P : ℕ → ℕ → ℕ → ℕ → Prop)
 end
 end F7Manuscript.TripleCoordinateLattice
 
-#print axioms F7Manuscript.TripleCoordinateLattice.one_G_swap_segments
-#print axioms F7Manuscript.TripleCoordinateLattice.one_G_swap_runs_q
-#print axioms F7Manuscript.TripleCoordinateLattice.one_G_orientation_wlog

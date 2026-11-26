@@ -293,6 +293,5 @@ theorem new3435_noReturn_impossible (c : Color) (hc : c = 0 ∨ c = 2)
           simp [h5,h6,atPrefix,tokensAfter,sourcePrefix,initialWord,routePrefix,new3435Plan,pairedPairs,afterPaired,afterCenter,initialSupport,centerPair,leftCoord,rightCoord,select,other,put,Fin.ofNat,F7Paired.tokenSwap,h0,h1,h2,h3,h4,h7',h8',h9]
         exact (noReturn_forbidden_incoming _ _ 13 N (by simp [new3435Plan,eventCount]) 2 3 (by decide) hp ⟨5,by omega,hs⟩).elim
 
-#print axioms new3435_noReturn_impossible
 
 end F7Manuscript.ActualW12New34New35CenterPoolHand

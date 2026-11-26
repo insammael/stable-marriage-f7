@@ -52,7 +52,6 @@ theorem joined_witness_false {q : Nat} (R : TokenRun Site Site q)
   exact W36BothLongNormalJoinedActualFalse.both_long_normal_joined_actual_twenty_false
     R hq A B a b c hA hB hfirst hbudget W.bits W.h0 W.h1 W.h2 W.h3 W.eventSize W.route
 
-#print axioms joined_witness_false
 
 /-- The original PRE trace and the matching POST frame force a forbidden whole route. -/
 theorem actual_joined_false
@@ -127,6 +126,5 @@ theorem actual_joined_false
   exact joined_witness_false _ Spre Spost _ _ _ ((Finset.card_univ).trans hn)
     hmA (by omega) hfirst hbudget W
 
-#print axioms actual_joined_false
 end
 end F7Manuscript.TripleCoordinateLattice.R20ActualTypeIJoinedFalse

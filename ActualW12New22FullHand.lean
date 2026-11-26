@@ -237,5 +237,4 @@ theorem new22_noReturn_impossible (bits : Nat → Bool)
   have h6 := bit6_eq_bit5 bits hfirst N
   exact terminal_four_pool_obstruction bits hfirst N h4 h6
 
-#print axioms new22_noReturn_impossible
 end F7Manuscript.ActualW12New22FullHand

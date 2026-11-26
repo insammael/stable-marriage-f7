@@ -215,7 +215,6 @@ theorem whole_execution_false
       omega)
     hreturn_at_step
 
-#print axioms whole_execution_false
 
 end
 

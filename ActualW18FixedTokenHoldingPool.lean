@@ -111,7 +111,5 @@ theorem fixedTokenSwapTrace_token_stays_in_pool {F : Rel} {n : ℕ}
   have hnotreturn := hstay l.val l rfl hkl
   exact hnotreturn (by simpa [hyj] using! hlater)
 
-#print axioms fixedTokenSwapTrace_holding
-#print axioms fixedTokenSwapTrace_token_stays_in_pool
 
 end F7Manuscript.PartnerGraph

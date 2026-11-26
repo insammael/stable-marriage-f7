@@ -100,6 +100,4 @@ theorem valid_reverse_root (p : Fin 6) (f : SupportFrame) (b : ℕ→Bool)
  · rw [←supportsRouteFinal_mapSupportFrame]
    exact congrArg e hi
 
-#print axioms valid_reverse_root
-#print axioms canonical_reverse_root
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

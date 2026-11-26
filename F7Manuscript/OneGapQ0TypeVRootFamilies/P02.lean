@@ -5759,44 +5759,5 @@ theorem q0_saved_root_geometry_38 (fixed : Color) (row : Fin 8) (phase : Fin 6)
         simpa [q0TypeVPlan, q0PreStages, q0InitialChoices, q0PostColor, pivotColor, colorState, thirdColor, c6PostColor, F7Manuscript.OneGapFullSavedTrees.plan_3119] using! F7Manuscript.OneGapFullSavedTrees.root_3119_allLeaves
 
 
-#print axioms q0_saved_root_geometry_0
-#print axioms q0_saved_root_geometry_1
-#print axioms q0_saved_root_geometry_2
-#print axioms q0_saved_root_geometry_3
-#print axioms q0_saved_root_geometry_4
-#print axioms q0_saved_root_geometry_5
-#print axioms q0_saved_root_geometry_6
-#print axioms q0_saved_root_geometry_7
-#print axioms q0_saved_root_geometry_8
-#print axioms q0_saved_root_geometry_9
-#print axioms q0_saved_root_geometry_10
-#print axioms q0_saved_root_geometry_11
-#print axioms q0_saved_root_geometry_12
-#print axioms q0_saved_root_geometry_13
-#print axioms q0_saved_root_geometry_14
-#print axioms q0_saved_root_geometry_15
-#print axioms q0_saved_root_geometry_16
-#print axioms q0_saved_root_geometry_17
-#print axioms q0_saved_root_geometry_18
-#print axioms q0_saved_root_geometry_19
-#print axioms q0_saved_root_geometry_20
-#print axioms q0_saved_root_geometry_21
-#print axioms q0_saved_root_geometry_22
-#print axioms q0_saved_root_geometry_23
-#print axioms q0_saved_root_geometry_24
-#print axioms q0_saved_root_geometry_25
-#print axioms q0_saved_root_geometry_26
-#print axioms q0_saved_root_geometry_27
-#print axioms q0_saved_root_geometry_28
-#print axioms q0_saved_root_geometry_29
-#print axioms q0_saved_root_geometry_30
-#print axioms q0_saved_root_geometry_31
-#print axioms q0_saved_root_geometry_32
-#print axioms q0_saved_root_geometry_33
-#print axioms q0_saved_root_geometry_34
-#print axioms q0_saved_root_geometry_35
-#print axioms q0_saved_root_geometry_36
-#print axioms q0_saved_root_geometry_37
-#print axioms q0_saved_root_geometry_38
 
 end F7Manuscript.OneGap

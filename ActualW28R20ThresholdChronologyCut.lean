@@ -166,9 +166,5 @@ theorem normalLeaf_key_ge_firstLeaf_of_pair_index_ge
       (Fin.le_iff_val_le_val.mpr (by omega))
     omega
 
-#print axioms normalCenter_key_lt_firstLeaf_of_index_lt
-#print axioms normalLeaf_key_lt_firstLeaf_of_pair_index_lt
-#print axioms normalCenter_key_ge_firstLeaf_of_index_ge
-#print axioms normalLeaf_key_ge_firstLeaf_of_pair_index_ge
 end
 end F7Manuscript.TripleCoordinateLattice.GenericNormal

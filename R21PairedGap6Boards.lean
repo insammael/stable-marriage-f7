@@ -41,7 +41,6 @@ theorem noActual_row2029 (R : TokenRun Site (Agent 7) 21) {off : Nat}
   obtain ⟨walk⟩ := physicalWalkBuilder R binary obs checked0 image
   exact Projection.contradiction_of_leaf walk.coherent
     (tracksStructural walk.tracks) leaf0 empty0
-#print axioms noActual_row2029
 
 /-- Printed distance-six full row 2030: 01 23 45 06 24 35 12 04 26 13 45 01 25 46. -/
 def row2030 : Board := makeBoard 11 [4,3,6,5,0,1,2] [[2,5],[2,6],[4],[0,1,6],[1],[0,3],[3,4,5]]
@@ -60,7 +59,6 @@ theorem noActual_row2030 (R : TokenRun Site (Agent 7) 21) {off : Nat}
   obtain ⟨walk⟩ := physicalWalkBuilder R binary obs checked1 image
   exact Projection.contradiction_of_leaf walk.coherent
     (tracksStructural walk.tracks) leaf1 empty1
-#print axioms noActual_row2030
 
 /-- Printed distance-six full row 2031: 01 23 45 06 24 35 12 04 36 05 34 06 13 24. -/
 def row2031 : Board := makeBoard 11 [4,6,1,5,0,3,2] [[5],[2,3,4],[4,6],[0],[2],[0,1,6],[0,3,5]]
@@ -79,7 +77,6 @@ theorem noActual_row2031 (R : TokenRun Site (Agent 7) 21) {off : Nat}
   obtain ⟨walk⟩ := physicalWalkBuilder R binary obs checked2 image
   exact Projection.contradiction_of_leaf walk.coherent
     (tracksStructural walk.tracks) leaf2 empty2
-#print axioms noActual_row2031
 
 /-- Printed distance-six full row 2032: 01 23 45 06 24 35 12 04 56 13 24 01 25 46. -/
 def row2032 : Board := makeBoard 11 [4,3,1,5,2,6,0] [[2,5],[2,6],[4],[0,1,6],[1],[0,3],[3,4,5]]
@@ -98,7 +95,6 @@ theorem noActual_row2032 (R : TokenRun Site (Agent 7) 21) {off : Nat}
   obtain ⟨walk⟩ := physicalWalkBuilder R binary obs checked3 image
   exact Projection.contradiction_of_leaf walk.coherent
     (tracksStructural walk.tracks) leaf3 empty3
-#print axioms noActual_row2032
 
 /-- Printed distance-six full row 2033: 01 23 45 06 24 35 12 04 56 23 16 35 14 06. -/
 def row2033 : Board := makeBoard 11 [5,6,4,1,2,0,3] [[2,4],[3,4],[1,6],[5,6],[0,1],[3,6],[0,4]]
@@ -117,5 +113,4 @@ theorem noActual_row2033 (R : TokenRun Site (Agent 7) 21) {off : Nat}
   obtain ⟨walk⟩ := physicalWalkBuilder R binary obs checked4 image
   exact Projection.contradiction_of_leaf walk.coherent
     (tracksStructural walk.tracks) leaf4 empty4
-#print axioms noActual_row2033
 end F7Manuscript.R21NormalEndpoint.BoundaryAtlas.PairedGap6Boards

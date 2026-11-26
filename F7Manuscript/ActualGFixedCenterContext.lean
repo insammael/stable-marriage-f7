@@ -273,10 +273,5 @@ theorem actualGlobalNormalRun_terminal_low_fixed_rowExclusive
   with_reducible
     exact normalCutCanonical_terminal_low_fixed_rowExclusive A E R Q B rfl rfl h221Q h311Q hzQ fixed hmQ hcenterQ
 
-#print axioms actualGlobalNormalRun_outgoing_context_card_le_occupancy
-#print axioms actualGlobalNormalRun_first_center_mem_future_context
-#print axioms actualGlobalNormalRun_outgoing_context_eq_first_center_or_empty
-#print axioms actualGlobalNormalRun_following_fixed_exclusive_card_le_flag
-#print axioms actualGlobalNormalRun_terminal_low_fixed_rowExclusive
 end
 end F7Manuscript.TripleCoordinateLattice

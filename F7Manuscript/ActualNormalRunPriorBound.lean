@@ -103,7 +103,5 @@ theorem actual_globalNormalRun_prior_cross_le_future_context
   exact normal_run_prior_free_row A E R.left R.right R.ordered
     hpair.2.2.1 hpair.2.1 hz (globalNormalRun_initial_exclusive_reset A E i) t u hu H
 
-#print axioms globalNormalRun_prior_cross_eq_zero_of_zero_centers
-#print axioms actual_globalNormalRun_prior_cross_le_future_context
 end
 end F7Manuscript.TripleCoordinateLattice

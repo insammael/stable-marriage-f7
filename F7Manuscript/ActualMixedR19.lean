@@ -101,7 +101,5 @@ theorem actual_r19_global_mixed_count_le_85
     exact actual_r19_mixed_count_le_85 C h221 h311 hn hz
   · exact F7Manuscript.r19_count_le_85_of_nonzero_deficits I hn hzero
 
-#print axioms actual_r19_mixed_count_le_85
-#print axioms actual_r19_global_mixed_count_le_85
 end
 end F7Manuscript.TripleCoordinateLattice

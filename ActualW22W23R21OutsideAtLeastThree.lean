@@ -28,6 +28,5 @@ theorem r21_no_macro_at_least_three_outsiders_leaf_closed
     rw [stableCount_eq_idealCount I]
     omega
 
-#print axioms r21_no_macro_at_least_three_outsiders_leaf_closed
 end
 end F7Manuscript.ActualPositiveDeficitCoverAssembly

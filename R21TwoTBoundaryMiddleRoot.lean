@@ -101,7 +101,5 @@ theorem actual_middle_root_representative (S : Chart) (f : SupportFrame) (b : �
    · exact Or.inl ⟨by rw [hmap]; exact replay_mapped_root r _ _ _ _ h,hid.trans h.1⟩
    · exact Or.inr ⟨by rw [hmap]; exact replay_mapped_root r _ _ _ _ h,hid.trans h.1⟩
 
-#print axioms actual_segment_initial_sound
-#print axioms actual_middle_root_representative
 end
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

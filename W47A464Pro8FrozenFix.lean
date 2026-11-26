@@ -114,8 +114,6 @@ theorem local_raw_cut_to_frozen_original
 
   exact ⟨alpha, Cut, rfl, rfl⟩
 
-#print axioms frozen_event_support16
-#print axioms local_raw_cut_to_frozen_original
 
 end
 end F7Manuscript.PRO8FrozenRawCutTransport

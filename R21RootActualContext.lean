@@ -82,6 +82,5 @@ theorem canonical_root_context (R : TokenRun Site Site 21) (off : Nat) (bound : 
     rw [aligned.2.2.2.2.2.2.1] at closed
     cases closed
 
-#print axioms canonical_root_context
 end
 end F7Manuscript.R21LongWindow.PureRootCoverage

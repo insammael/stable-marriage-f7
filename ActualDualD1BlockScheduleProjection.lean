@@ -76,7 +76,6 @@ theorem dual_paired_schedule_supports_one
                     (by simpa only [Fin.val_mk] using! hs0),
                     (by simpa only [Fin.val_mk] using! hs1), rfl⟩
 
-#print axioms dual_paired_schedule_supports_one
 
 /-- Project one D=1 block directly from its actual block constructor and
 dependent run schedule. The center and two paired rows stay on the same `R`. -/
@@ -117,7 +116,6 @@ theorem actual_dual_d1_block_schedule_rows
           · simpa only [Fin.val_mk] using! hrow₀
           · simpa only [Fin.val_mk, Nat.add_assoc] using! hrow₁
 
-#print axioms actual_dual_d1_block_schedule_rows
 
 end
 end F7Manuscript.ActualInputS11OneD1ScheduleProjection

@@ -76,6 +76,5 @@ theorem no_step_after_normalized_fifteen
   rw [Equiv.sum_comp sigma] at hsum
   exact (Nat.lt_irrefl _) hsum
 
-#print axioms no_step_after_normalized_fifteen
 end
 end F7Manuscript.W34NormalizedPeriodicTerminalTokenRun

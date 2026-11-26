@@ -175,7 +175,5 @@ theorem actual_r21_four_one_G_small_slot
   actual_r21_four_one_G_count_of_large_charge C hn h221 h311 hu hb hc
     (fun j hz => False.elim ((by have h := hsmall j; omega : ¬ 3 ≤ (inner j).card) hz))
 
-#print axioms actual_r21_four_one_G_count_of_large_charge
-#print axioms actual_r21_four_one_G_small_slot
 end
 end F7Manuscript.TripleCoordinateLattice

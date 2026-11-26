@@ -71,5 +71,4 @@ theorem both_long_normal_joined_actual_twenty_false
   exact binary_T_normal_joined_actual_twenty_false R C D a b c
     hmC hmD ha (Or.inl hbudget) bits h0 h1 h2 h3 (by omega) H hcolor
 
-#print axioms both_long_normal_joined_actual_twenty_false
 end F7Manuscript.W36BothLongNormalJoinedActualFalse

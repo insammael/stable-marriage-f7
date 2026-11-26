@@ -62,6 +62,4 @@ theorem unordered_pair_deletion [Fintype V] [DecidableLE V]
   unfold degree
   omega
 
-#print axioms ordered_pair_deletion
-#print axioms unordered_pair_deletion
 end NeutralCore

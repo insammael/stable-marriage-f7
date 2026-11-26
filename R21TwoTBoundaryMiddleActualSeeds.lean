@@ -86,7 +86,6 @@ theorem actual_middle_A_seed_boards
    actual_middle_ALeft_replay fL fR hvL hvR pl pr bl br heL heR,
    actual_middle_ARight_replay fL fR hvL hvR pl pr bl br heL heR⟩
 
-#print axioms actual_middle_A_seed_boards
 /-- Original-run middle seed normalization on representative B, with one
 shared missing-cell ledger. All seed labels and both replay boards are kept. -/
 theorem actual_middle_B_seed_boards
@@ -115,7 +114,6 @@ theorem actual_middle_B_seed_boards
    actual_middle_BLeft_replay fL fR hvL hvR pl pr bl br heL heR,
    actual_middle_BRight_replay fL fR hvL hvR pl pr bl br heL heR⟩
 
-#print axioms actual_middle_B_seed_boards
 /-- After consuming both actual seed triples in the common ledger, each
 side admits at most one further physical normal swap. This transports the
 fixed table to the actual named frames, rather than replacing their run. -/
@@ -136,7 +134,6 @@ theorem middle_A_actual_normal_bounds (fL fR : SupportFrame)
  rw [hboardR,heR] at hR
  exact ⟨middle_AL_bound pl bl fL.last hL,middle_AR_bound pr br fR.last hR⟩
 
-#print axioms middle_A_actual_normal_bounds
 /-- After consuming both actual seed triples in the common ledger, each
 side admits at most one further physical normal swap. This transports the
 fixed table to the actual named frames, rather than replacing their run. -/
@@ -157,7 +154,5 @@ theorem middle_B_actual_normal_bounds (fL fR : SupportFrame)
  rw [hboardR,heR] at hR
  exact ⟨middle_BL_bound pl bl fL.last hL,middle_BR_bound pr br fR.last hR⟩
 
-#print axioms middle_B_actual_normal_bounds
-#print axioms actual_middle_seed_fresh
 end
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

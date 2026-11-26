@@ -130,6 +130,5 @@ theorem p5_caseA_earliest_special_entry_at_three
             exact Fin.le_iff_val_le_val.mp (min_le_right k2 k6))
         hRzero hb (by decide) hk6arr
 
-#print axioms p5_caseA_earliest_special_entry_at_three
 
 end F7Manuscript.ActualW19P5CaseAEarliestEntry

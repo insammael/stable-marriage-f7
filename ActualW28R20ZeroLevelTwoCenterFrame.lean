@@ -109,6 +109,5 @@ theorem actual_zero_level_blocks_two_center_frames
   · simpa [D, h221D, h311D, hzD, j1] using! hcenter1
   · simpa [D, h221D, h311D, hzD, j1, j2] using! hcenter2
 
-#print axioms actual_zero_level_blocks_two_center_frames
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW28R20ZeroLevelTwoCenterFrame

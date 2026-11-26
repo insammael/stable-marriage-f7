@@ -239,8 +239,5 @@ theorem BoundaryModel.extendLeft {R : TokenRun Site Site 21} {off len : Nat}
     simp only [List.mem_cons,List.mem_singleton,encoded]
     tauto
 
-#print axioms inside_extend_left
-#print axioms BoundaryModel.extendLeft
 
-#print axioms BoundaryModel.extendRight
 end F7Manuscript.R21LongWindow.DatedBoardSteps

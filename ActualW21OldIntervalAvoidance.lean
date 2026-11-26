@@ -130,6 +130,5 @@ theorem old_interval_avoidance_of_partial
       rw [hnone] at heq
       cases heq
 
-#print axioms old_interval_avoidance_of_partial
 end
 end F7Manuscript.ActualW21OldIntervalAvoidance

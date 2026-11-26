@@ -32,4 +32,3 @@ theorem A140_next_local {α : Type*} [PartialOrder α] {a b c : α}
     · exact Or.inl rfl
     · exact Or.inr rfl
 
-#print axioms A140_next_local

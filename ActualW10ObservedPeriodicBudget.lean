@@ -61,8 +61,5 @@ theorem modeB_observed_token_bound (R : TokenRun Site W q)
     q-t.val ≤ 4 :=
   observed_root_token_bound rootB rootB_valid R t H atomic excess
 
-#print axioms observed_root_token_bound
-#print axioms modeA_observed_token_bound
-#print axioms modeB_observed_token_bound
 
 end F7Manuscript.ActualW10ObservedPeriodicBudget

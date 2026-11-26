@@ -47,7 +47,6 @@ theorem carrier_window75_false
     simpa [bits] using! hnoReturn.1
   exact F7Manuscript.ActualW16Window75Forcing.noReturn_identity_window75_false bits h0 h1 N
 
-#print axioms carrier_window75_false
 
 end
 end F7Manuscript.ActualW16Window75CarrierFalse

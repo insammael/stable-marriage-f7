@@ -87,7 +87,5 @@ theorem norm3_old_pair_family (cross label retain : Bool) :
   fin_cases cross <;> fin_cases label <;> fin_cases retain <;>
     simp [norm3Perm, norm3Map, initialSupport, pairSupport, Finset.pair_comm]
 
-#print axioms norm3_paired_frontiers
-#print axioms norm3_next_center
 
 end F7Manuscript.ActualNorm3

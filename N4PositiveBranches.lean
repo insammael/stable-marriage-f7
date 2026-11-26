@@ -1491,7 +1491,3 @@ theorem q1_bilateral_firstD_n_le_fourteen {S : Chart} (hq : S.q = 1)
 end
 end F7Manuscript.N4PositiveBranchesDraft
 
-#print axioms F7Manuscript.N4PositiveBranchesDraft.q_one_no_other_double
-#print axioms F7Manuscript.N4PositiveBranchesDraft.firstABA_internalD_suffix_no_aba
-#print axioms F7Manuscript.N4PositiveBranchesDraft.unified_q1_internal_n19_reduction_of_pure_cuts
-#print axioms F7Manuscript.N4PositiveBranchesDraft.q1_firstABA_terminal_n_le_eighteen_of_pure_cuts

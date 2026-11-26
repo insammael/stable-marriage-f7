@@ -21,6 +21,4 @@ theorem fixed_free_five_B_normal_mass_le_six (p : Fin 6) (bits : Fin 8) (last : 
   normalMass_le_six (fixed_free_five_B_no_mass_seven p bits last)
     (fixed_free_five_B_no_mass_eight p bits last) path
 
-#print axioms fixed_free_five_A_normal_mass_le_six
-#print axioms fixed_free_five_B_normal_mass_le_six
 end F7Manuscript.TripleCoordinateLattice.R21BareTHandFive

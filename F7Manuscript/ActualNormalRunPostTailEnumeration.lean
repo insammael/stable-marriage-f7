@@ -229,7 +229,6 @@ theorem actual_normal_run_post_tail_enumeration
     simpa only [hcast] using! h
   rw [hval]
 
-#print axioms actual_normal_run_post_tail_enumeration
 
 end
 end F7Manuscript.TripleCoordinateLattice

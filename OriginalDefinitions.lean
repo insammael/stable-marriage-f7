@@ -117,6 +117,5 @@ theorem neutral_lower (h : Neutral (V := V)) :
   rw [hd,he]
   exact hn
 
-#print axioms neutral_lower
 
 end NeutralCore

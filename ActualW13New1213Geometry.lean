@@ -54,7 +54,4 @@ theorem new1213Geometry_plan_eq_root (c : Color) (hc : c=0 ∨ c=2) :
   rcases hc with hc|hc <;> subst c <;>
     decide +kernel
 
-#print axioms new1213Geometry_norm_eq
-#print axioms new1213Geometry_data
-#print axioms new1213Geometry_plan_eq_root
 end F7Manuscript.ActualW13New1213Geometry

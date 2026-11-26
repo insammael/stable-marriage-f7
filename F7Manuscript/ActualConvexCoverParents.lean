@@ -47,6 +47,5 @@ theorem actual_convex_chronological_parent
   exact ⟨t,lt_of_le_of_ne htj htjne,by simpa only [ht] using! hiu,
     a,by simpa only [ht] using! hau,haj⟩
 
-#print axioms actual_convex_chronological_parent
 end
 end F7Manuscript.ActualConvexCoverParents

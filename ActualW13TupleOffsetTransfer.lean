@@ -45,10 +45,5 @@ theorem active_cut_K18 (j L : Nat) (hj : 3 ≤ j) (hoffset : j ≤ L) :
     Nat.max 0 (21 - 18 - L) = 0 := by
   apply active_early_cut_zero 18 j L <;> omega
 
-#print axioms tuple_offset_transfer
-#print axioms active_early_cut_zero
-#print axioms active_cut_K16
-#print axioms active_cut_K17
-#print axioms active_cut_K18
 
 end F7Manuscript.ActualW13TupleOffsetTransfer

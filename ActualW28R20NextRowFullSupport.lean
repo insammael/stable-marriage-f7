@@ -142,8 +142,6 @@ theorem actual_next_row_support_is_full
   exact actual_support_is_full_pool R k hpool mate
     hmate_involutive hmate_no_fixed hOldMate hLater
 
-#print axioms pair_event_has_embedded_partner
-#print axioms actual_next_row_support_is_full
 
 end
 end F7Manuscript.ActualW28R20NextRowFullSupport

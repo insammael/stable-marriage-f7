@@ -133,14 +133,6 @@ theorem new39_color_facts : ReturnRootColorFacts new39_return_entry := new39_col
 theorem new57_color_facts : ReturnRootColorFacts new57_return_entry := new57_colorFacts
 theorem new58_color_facts : ReturnRootColorFacts new58_return_entry := new58_colorFacts
 
-#print axioms new38_return_entry
-#print axioms new39_return_entry
-#print axioms new57_return_entry
-#print axioms new58_return_entry
-#print axioms new38_color_facts
-#print axioms new39_color_facts
-#print axioms new57_color_facts
-#print axioms new58_color_facts
 
 #eval IO.eprintln "W12 NEW38/39/57/58 return-entry checked"
 

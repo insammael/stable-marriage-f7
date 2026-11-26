@@ -169,5 +169,4 @@ theorem p5_actual_CII_positive_route_geometry
         simp_all
   exact ⟨hAnot3,hBnot3,hCeq3,hthird,hAB,hBC,hAC⟩
 
-#print axioms p5_actual_CII_positive_route_geometry
 end F7Manuscript.ActualW20P5CIIGeometryFromRoute

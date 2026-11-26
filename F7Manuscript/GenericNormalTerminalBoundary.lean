@@ -366,7 +366,5 @@ theorem terminal_exclusive_center_eq (hm : 0 < normalBlockCount C) :
     · subst z
       simpa [E, F7Manuscript.NormalSkeleton.Chart.completionExclusive] using! hhighE
 
-#print axioms terminal_dominates
-#print axioms terminal_decomposition
 end
 end F7Manuscript.TripleCoordinateLattice.GenericNormal

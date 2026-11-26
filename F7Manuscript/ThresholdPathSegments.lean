@@ -176,7 +176,3 @@ theorem path_succ_isolated_le_iff (n : Fin (thresholdLength C))
 end
 end F7Manuscript.TripleCoordinateLattice.GenericThresholdPath
 
-#print axioms F7Manuscript.TripleCoordinateLattice.GenericThresholdPath.pathSegment_initial_eq
-#print axioms F7Manuscript.TripleCoordinateLattice.GenericThresholdPath.pathSegment_final_eq
-#print axioms F7Manuscript.TripleCoordinateLattice.GenericThresholdPath.le_path_isolated_iff
-#print axioms F7Manuscript.TripleCoordinateLattice.GenericThresholdPath.path_succ_isolated_le_iff

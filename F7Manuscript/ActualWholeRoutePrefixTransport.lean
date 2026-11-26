@@ -190,9 +190,7 @@ theorem actual_subset_normal_route_in_whole_run
   have hroute' := SupportsRoute.transport_prefix_window hq hroute hsup
   simpa only [Rwhole] using! hroute'
 
-#print axioms actual_subset_normal_route_in_whole_run
 
-#print axioms SupportsRoute.transport_prefix_window
 
 end
 end F7Manuscript.TripleCoordinateLattice

@@ -43,5 +43,4 @@ theorem four_center_join_event_count
   rw [hpre, hpost]
   omega
 
-#print axioms four_center_join_event_count
 end F7Manuscript.W38FourCenterEventLedger

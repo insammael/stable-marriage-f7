@@ -62,7 +62,5 @@ theorem mem_localPivots_iff (turns : ℕ → Bool) (offset n : ℕ) (dual : Bool
       · have harg : offset + n - 2 - (j - 1) = offset + n - 1 - j := by omega
         simpa [harg] using hturn
 
-#print axioms centerPlan_range_eq_anchoredPlan
-#print axioms mem_localPivots_iff
 
 end F7Manuscript.CenterPlanAnchoring

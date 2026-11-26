@@ -131,7 +131,5 @@ theorem two_consecutive_center_events_give_second_center_state
           funext z
           simp [secondCenterTok, F7Paired.centerTok, F7Paired.tokenSwap]
 
-#print axioms second_center_state_has_survivors_two_three
-#print axioms two_consecutive_center_events_give_second_center_state
 end
 end F7Manuscript.ActualW28R20TwoCenterSurvivors

@@ -14,5 +14,4 @@ theorem checked_color_word : ∀ (i : Fin 155) (right : Bool) (c : Color) (keep 
       (selectedEdge (endAt (node i).board right) c keep)).colors =
         if right then (node i).board.colors ++ [c.val] else c.val::(node i).board.colors := by
   decide +kernel
-#print axioms checked_color_word
 end F7Manuscript.R21LongWindow.DatedBoardSteps

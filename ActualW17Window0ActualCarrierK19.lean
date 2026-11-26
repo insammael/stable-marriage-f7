@@ -180,8 +180,6 @@ theorem carrier_window0_run_bound_k19
   have h := carrier_window0_suffix_le_five C
   omega
 
-#print axioms carrier_window0_suffix_le_five
-#print axioms carrier_window0_run_bound_k19
 
 end
 end F7Manuscript.ActualW17Window0ActualCarrierK19

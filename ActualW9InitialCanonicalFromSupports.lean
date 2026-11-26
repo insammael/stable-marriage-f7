@@ -64,6 +64,5 @@ theorem initial_canonical_from_supports {W : Type*} [Fintype W] {q : Nat}
     (mixedPlan word levels m) (mixedPlan_nonempty word levels m hm) (resetFirstBit bits)
     H' hb' hs0 hs1 hs2 hs3 (resetFirstBit_zero bits)⟩
 
-#print axioms initial_canonical_from_supports
 end
 end F7Manuscript.ActualW9InitialCanonicalFromSupports

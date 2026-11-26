@@ -60,6 +60,5 @@ theorem outsider_constant_sign_neighbor_bound
         (inc_symm (mem_incNeighbors.mp hc).2)
         (by simpa only [hi] using! hab) hbc (hplus t)
 
-#print axioms outsider_constant_sign_neighbor_bound
 end
 end F7Manuscript.TripleCoordinateLattice

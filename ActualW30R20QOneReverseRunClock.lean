@@ -247,6 +247,5 @@ theorem q_one_reverse_four_center_run_support
   · exact hs3.2
   · exact hs4.2
 
-#print axioms q_one_reverse_four_center_run_support
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW30R20QOneReverseRunClock

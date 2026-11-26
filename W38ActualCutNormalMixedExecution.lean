@@ -63,6 +63,5 @@ theorem actual_cut_normal_mixed_execution
   rw [← hcut]
   exact hrun
 
-#print axioms actual_cut_normal_mixed_execution
 end
 end F7Manuscript.TripleCoordinateLattice.W38ActualCutNormalMixedExecution

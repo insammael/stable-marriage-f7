@@ -168,9 +168,6 @@ theorem subsetNormal_center_rowsMatch_actual
   have hframe : frameOfState s f.last = f := by simp [s]
   simpa [hframe] using! hchoice
 
-#print axioms subsetNormal_center_coordinate_update
-#print axioms subsetNormal_center_rowsMatch
-#print axioms subsetNormal_center_rowsMatch_actual
 
 end
 end F7Manuscript.TripleCoordinateLattice

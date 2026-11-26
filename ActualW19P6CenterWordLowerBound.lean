@@ -130,5 +130,4 @@ theorem centerWord_length_ge_two
   have hle : centerCells.card ≤ (U ∪ A).card := Finset.card_le_card hsub
   omega
 
-#print axioms centerWord_length_ge_two
 end F7Manuscript.ActualW19P6CenterWordLowerBound

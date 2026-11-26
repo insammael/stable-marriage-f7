@@ -31,7 +31,5 @@ noncomputable def a577_seedEnumeration
     (Q : Finset V) : ConvexExecution.Enumeration Q :=
   ConvexExecution.enumeration Q
 
-#print axioms a577_actualNormalSkeleton_m
-#print axioms a577_seedEnumeration
 
 end F7Manuscript.TripleCoordinateLattice

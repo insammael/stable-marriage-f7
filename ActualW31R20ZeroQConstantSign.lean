@@ -72,8 +72,5 @@ theorem actual_r20_zero_q_cost_floor
   exact r20_endpoint_q0_core_cost_four C hn hu h221 h311 hG hT
     (F7Manuscript.TripleCoordinateLattice.ConstantSignActualCaller.singleton_constant_signs C hout hsign) hq0
 
-#print axioms actual_zero_q_constant_sign
-#print axioms actual_r20_zero_q_cost_floor
-#check actual_r20_zero_q_cost_floor
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW31R20ZeroQConstantSign

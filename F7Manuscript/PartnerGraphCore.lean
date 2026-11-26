@@ -171,7 +171,5 @@ def Reindex.equiv (e : Reindex) (h : e.Valid) : Equiv.Perm Site where
 
 def ofEdges (edges : List (Site × Site)) : Graph := fun a b => decide ((a, b) ∈ edges)
 
-#print axioms update_envelope
-#print axioms cut_envelope
 
 end F7Manuscript.PartnerGraph

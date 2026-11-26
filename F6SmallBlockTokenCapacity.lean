@@ -1,6 +1,6 @@
 module
 
-public import Mathlib
+public import F7Manuscript.GraphFoundationImports
 
 @[expose] public section
 
@@ -368,25 +368,3 @@ end TokenRun
 end F6SmallBlockTokenCapacity
 
 -- Kernel axiom reports for every theorem in this implementation.
-#print axioms F6SmallBlockTokenCapacity.TokenRun.mem_participationSteps
-#print axioms F6SmallBlockTokenCapacity.TokenRun.rank_monotone
-#print axioms F6SmallBlockTokenCapacity.TokenRun.rank_after_lt
-#print axioms F6SmallBlockTokenCapacity.TokenRun.initial_rank_lt_after
-#print axioms F6SmallBlockTokenCapacity.TokenRun.participation_count
-#print axioms F6SmallBlockTokenCapacity.TokenRun.incidence_sum
-#print axioms F6SmallBlockTokenCapacity.TokenRun.selected_participation_le
-#print axioms F6SmallBlockTokenCapacity.TokenRun.incidence_bounds
-#print axioms F6SmallBlockTokenCapacity.TokenRun.TWO_SITE_CAPACITY
-#print axioms F6SmallBlockTokenCapacity.TokenRun.three_incidence_equality
-#print axioms F6SmallBlockTokenCapacity.TokenRun.THREE_SITE_INCIDENCE_EQUALITY
-#print axioms F6SmallBlockTokenCapacity.TokenRun.previous_holder_mem
-#print axioms F6SmallBlockTokenCapacity.TokenRun.pair_swap
-#print axioms F6SmallBlockTokenCapacity.TokenRun.named_pair_swap
-#print axioms F6SmallBlockTokenCapacity.TokenRun.TWO_SUPPORT_FORCES_SWAP
-#print axioms F6SmallBlockTokenCapacity.TokenRun.pair_of_card_two_mem
-#print axioms F6SmallBlockTokenCapacity.TokenRun.three_membership_sum
-#print axioms F6SmallBlockTokenCapacity.TokenRun.triangle_supports
-#print axioms F6SmallBlockTokenCapacity.TokenRun.THREE_STEP_RETURN
-#print axioms F6SmallBlockTokenCapacity.TokenRun.THREE_SITE_CAPACITY
-#print axioms F6SmallBlockTokenCapacity.TokenRun.SMALL_BLOCK_TOKEN_CAPACITIES
-#print axioms F6SmallBlockTokenCapacity.TokenRun.SIX_SITE_INCIDENCE_OPTIONAL

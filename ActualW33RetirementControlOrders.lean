@@ -181,6 +181,5 @@ theorem controlled_retirement_dual_order_reflecting
       (fun q : Fin S.n => (E q : OrderDual V)) hinj hmem hstage hdual
   exact hreflect
 
-#print axioms controlled_retirement_dual_order_reflecting
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW33RetirementControlOrders

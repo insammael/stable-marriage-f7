@@ -41,6 +41,5 @@ theorem p5_both_special_preholders_inside
   have hk := Finset.mem_filter.mp hkI
   exact ⟨hk.2.1, hk.2.2.1⟩
 
-#print axioms p5_both_special_preholders_inside
 
 end F7Manuscript.ActualW19P5BothPreholdersInside

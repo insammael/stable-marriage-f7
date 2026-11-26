@@ -76,6 +76,4 @@ theorem BoundaryModel.freshLeft {R : TokenRun Site Site 21} {off len : Nat}
   · exact freshX
   · exact freshY
 
-#print axioms BoundaryModel.freshLeft
-#print axioms BoundaryModel.freshRight
 end F7Manuscript.R21LongWindow.DatedBoardSteps

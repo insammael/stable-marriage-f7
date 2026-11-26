@@ -466,7 +466,5 @@ theorem actual_reverse_singleton_saturation
     hmapCenter, ?_, W, htok, hpast⟩
   simpa [c₀, c₁] using! hmapRow0
 
-#print axioms actual_reverse_singleton_saturation
-#check actual_reverse_singleton_saturation
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW30R20ActualReverseSaturation

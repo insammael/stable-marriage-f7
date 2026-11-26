@@ -237,7 +237,6 @@ theorem dualNormalSegment_drop_scheduled_prefix
                 rw [hbitIndex]
                 simpa only [Nat.add_assoc] using! hbits' r hr
 
-#print axioms dualNormalSegment_drop_scheduled_prefix
 
 end
 end F7Manuscript.ActualDualScheduledTailMemory

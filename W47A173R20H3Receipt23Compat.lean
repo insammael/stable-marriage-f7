@@ -118,9 +118,6 @@ theorem a131_section81_whole_execution_false
       omega)
     hreturn.symm
 
-#print axioms F7Manuscript.ConvexExecution.step_exchange_of_support_pair
-#print axioms F7Manuscript.OriginalStateReceipt.whole_original_state_receipt_false
-#print axioms F7Manuscript.OriginalStateReceipt.a131_section81_whole_execution_false
 
 end
 

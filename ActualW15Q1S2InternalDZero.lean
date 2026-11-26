@@ -137,7 +137,6 @@ theorem actual_X_q1_s2_internalD_false
   exact ActualW15Q1S2InternalPaidExclusion.actual_X_q1_s2_internal_paid_false
     C hn hδ hdeficit hpos h221 h311 hG hT X hq hs hpaidCount
 
-#print axioms actual_X_q1_s2_internalD_false
 
 end
 end ActualW15Q1S2InternalDZero

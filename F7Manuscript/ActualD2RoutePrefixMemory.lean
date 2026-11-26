@@ -62,7 +62,5 @@ theorem supportsRoute_prefix_frontier_memory
   obtain ⟨Hp, Vp⟩ := supportsRoute_prefix_with_validity H V M.valid
   exact supportsRoute_frontier_memory Hp Vp M
 
-#print axioms supportsRoute_prefix_with_validity
-#print axioms supportsRoute_prefix_frontier_memory
 
 end F7Manuscript.TripleCoordinateLattice

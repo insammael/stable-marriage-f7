@@ -83,5 +83,3 @@ end
 
 end F7Manuscript.ActualPositiveDeficitCoverAssembly
 
-#print axioms F7Manuscript.ActualPositiveDeficitCoverAssembly.r20_110_total_deficit_ledger
-#print axioms F7Manuscript.ActualPositiveDeficitCoverAssembly.r20_110_leaf_of_uniform_core_deficit

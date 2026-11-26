@@ -90,5 +90,4 @@ theorem bb_entry_three_contradiction
   have hfinish := htrap z hqz (by simp [z])
   exact (by decide : (0 : Site) ≠ 3) (hfpre1.symm.trans hfinish)
 
-#print axioms bb_entry_three_contradiction
 end F7Manuscript.ActualW20P6BBEntryThreeContradiction

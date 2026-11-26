@@ -58,6 +58,5 @@ theorem full_reverse_segment_exists
   rw [hj] at htrace
   exact ⟨f, g, hv, hrow, htrace⟩
 
-#print axioms full_reverse_segment_exists
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW33RContextFullSegment

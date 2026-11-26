@@ -77,6 +77,5 @@ theorem saturated_allTriple_T_support_union
     rw [saturated_tripleSupportUnion_card C hn old,
       saturated_tripleSupportUnion_card C hn new])
 
-#print axioms saturated_allTriple_T_support_union
 end
 end F7Manuscript.TripleCoordinateLattice

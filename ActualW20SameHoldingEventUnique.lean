@@ -40,6 +40,4 @@ theorem fixedTokenSwapTrace_same_post_holding_event_unique
   · exact Fin.ext hef
   · exact False.elim ((tr.no_return e x he f.succ (by simp;omega)) hsame)
 
-#print axioms fixedTokenSwapTrace_same_pre_holding_event_unique
-#print axioms fixedTokenSwapTrace_same_post_holding_event_unique
 end F7Manuscript.PartnerGraph

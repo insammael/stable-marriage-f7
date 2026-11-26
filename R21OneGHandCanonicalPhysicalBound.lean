@@ -75,6 +75,5 @@ theorem canonical_cut_of_physical_bound (target fee : Nat) (targetLarge : 6≤ta
   have size : Q.card=3+(S i).m+2*(S i).q := bounds.1.symm.trans bounds.2.1
   exact physicalCostAny Q geom.1 hn target fee physical inferInstance inferInstance
     B inferInstance pc.2.2.1 pc.2.1 geom.2 hm size massTarget
-#print axioms canonical_cut_of_physical_bound
 end
 end F7Manuscript.TripleCoordinateLattice.R21OneGHandScore

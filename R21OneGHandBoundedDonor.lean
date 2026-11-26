@@ -59,5 +59,4 @@ theorem rejectDonor_sound (d : Nat) (B : Board) (f : SupportFrame)
       have h := safe (pairWord f cross++u) v (by rw [List.append_assoc,huv])
       simpa only [replay_concat] using! h
 
-#print axioms rejectDonor_sound
 end F7Manuscript.R21OneGHandDonor

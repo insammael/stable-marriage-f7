@@ -88,8 +88,6 @@ theorem same_X_oriented_packet_columns
       same_X_packet_normalized_colors C h221 h311 hG hT S X P hm j hj
   · simpa only [orientColumn, if_pos horient] using! X.levels_get j hj
 
-#print axioms packet_route_same_permutation
-#print axioms same_X_oriented_packet_columns
 
 end
 end F7Manuscript.ActualW8CanonicalMixedColumns

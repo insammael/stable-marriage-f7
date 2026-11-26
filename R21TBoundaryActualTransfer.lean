@@ -320,8 +320,5 @@ theorem actual_T_boundary_choose_sorted_output
 end
 end F7Manuscript.TripleCoordinateLattice
 
-#print axioms F7Manuscript.TripleCoordinateLattice.outsider_prefix_eq_of_same_event_slots
 
-#print axioms F7Manuscript.TripleCoordinateLattice.actual_T_boundary_checked_template_of_sorted_output
 
-#print axioms F7Manuscript.TripleCoordinateLattice.actual_T_boundary_choose_sorted_output

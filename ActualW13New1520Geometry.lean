@@ -49,8 +49,5 @@ theorem new1520Geometry_plan_eq_root (c : Bool) :
           ((new1520Geometry c).colors.length-1) := by
   cases c <;> decide +kernel
 
-#print axioms new1520Geometry_norm_eq
-#print axioms new1520Geometry_data
-#print axioms new1520Geometry_plan_eq_root
 
 end F7Manuscript.ActualW13New1520Geometry

@@ -37,10 +37,8 @@ def table : Table178138068025856 := fun j =>
 theorem table_checked : ∀ j, Sized.ValidNode table j := by
   intro j
   fin_cases j <;> decide +kernel
-#print axioms table_checked
 
 theorem anchor178138068025856_futureBound : Sized.NodeFutureBound table ⟨0, by decide⟩ := by
   exact Sized.nodeFutureBound_of_checked_table table table_checked ⟨0, by decide⟩ table ⟨0, by decide⟩ rfl rfl (by decide)
-#print axioms anchor178138068025856_futureBound
 
 end F7Manuscript.ActualW22Selected16BudgetAnchor178138068025856

@@ -54,5 +54,4 @@ theorem p5_CII_A5_partner_labels
     · exact h4
   exact ⟨hx4,hy1⟩
 
-#print axioms p5_CII_A5_partner_labels
 end F7Manuscript.ActualW20P5CIIFiveEntryPartnerLabels

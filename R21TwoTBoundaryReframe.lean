@@ -466,7 +466,6 @@ theorem inverse_paired_after_retired_center (f : SupportFrame) (cross label b : 
  rw [pairedPairs_after_protected_center]
  exact inverse_paired_supports f cross label
 
-#print axioms inverse_paired_after_retired_center
 
 theorem afterPaired_protected_frontier (f : SupportFrame) (x y : Bool) :
  (afterPaired f x y).frontier f.last=f.frontier f.last := by
@@ -510,7 +509,6 @@ theorem inverse_center_after_block (f : SupportFrame) (c : Fin 3) (b : Bool)
    exact inverse_center_support f c b
  · simp [afterCenter,other,hf,put,centerPair,select]
 
-#print axioms inverse_center_after_block
 
 theorem commute_perm {u v : List Swap} (h : DisjointWordCommute u v) : List.Perm u v := by
  induction h with
@@ -546,22 +544,9 @@ theorem plan_reframe_person_trace (f : SupportFrame) (hv : ValidLayout (stateOfF
  personSupportTrace (retiredPlanWord f plan bits i++startingPairs (supportsRouteFinal f plan bits i)) a :=
  (plan_reframe f hv plan bits i).person_trace a
 
-#print axioms plan_reframe_board
-#print axioms plan_reframe_fresh
-#print axioms plan_reframe_person_trace
 
-#print axioms inverse_center_boundary
-#print axioms inverse_paired_boundary
 
-#print axioms paired_retired_apart
-#print axioms reversed_block_center_first
 
-#print axioms plan_reframe
-#print axioms reversed_plan_reframe
 
-#print axioms center_reframe
-#print axioms paired_reframe
 
-#print axioms center_canonical
-#print axioms paired_canonical
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

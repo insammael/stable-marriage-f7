@@ -137,6 +137,5 @@ theorem r20_q0_s0_core_realizes_periodic_modes
   rw [hj, reindexRun_comp_support] at h
   exact h
 
-#print axioms r20_q0_s0_core_realizes_periodic_modes
 end
 end F7Manuscript.TripleCoordinateLattice

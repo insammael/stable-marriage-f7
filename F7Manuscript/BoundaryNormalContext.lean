@@ -197,8 +197,5 @@ theorem T_boundary_normal_context_card_le
   rw [T_boundary_slot_window_card C E n hT] at h1
   omega
 
-#print axioms prepend_normal_center_convex
-#print axioms append_normal_center_convex
-#print axioms boundary_normal_context_convex
 end
 end F7Manuscript.TripleCoordinateLattice

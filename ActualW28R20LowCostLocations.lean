@@ -104,6 +104,5 @@ theorem actual_low_cost_switch_locations
         omega
     exact Or.inr (Or.inr ⟨hq3, hm3, hs0, he0, hloc⟩)
 
-#print axioms actual_low_cost_switch_locations
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW28R20LowCostLocations

@@ -241,7 +241,6 @@ theorem actual_one_G_post_q0_fourteen_typed_exclusion
     U hdisjoint F Bpre Kpre hFcard' hBcard' hKcard' hFB' hFK' hBK' hcover'
     hBparts' hKparts' fixed hfixed hFfixed
 
-#print axioms actual_one_G_post_q0_fourteen_typed_exclusion
 
 end
 end F7Manuscript.TripleCoordinateLattice

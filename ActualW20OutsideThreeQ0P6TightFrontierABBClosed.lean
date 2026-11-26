@@ -68,6 +68,5 @@ theorem actual_outside_three_q0_p6_tight_frontier_without_p6_bound
         h221 h311 hG hT X hu hq hs hm hreverse a b c d hab hbc hcd hpiv ha5 bound6)
   exact ⟨X,hq,hs,hm,a,b,c,d,hab,hbc,hcd,hpiv,ha1,hd13,hhead,htail,ha4⟩
 
-#print axioms actual_outside_three_q0_p6_tight_frontier_without_p6_bound
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW20OutsideThreeQ0P6TightFrontierABBClosed

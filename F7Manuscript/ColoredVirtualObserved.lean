@@ -58,5 +58,4 @@ noncomputable def RawColoredCut.virtual_initial_observed {W : Type*} [Fintype W]
       ⟨3+n,by have := C.size; omega⟩ coloredInitialWord :=
   virtualInitialObserved _ _ (C.initial_frontier_past R n hn)
 
-#print axioms RawColoredCut.virtual_initial_observed
 end F7Manuscript.PartnerGraph.Periodic

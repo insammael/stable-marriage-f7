@@ -52,6 +52,5 @@ theorem p5_saturated_actual_internal_constraints
     hspecial,hcInternal,hboundary2,hboundary6,rfl,?_⟩
   simpa [d,hcInternal] using! hinternal
 
-#print axioms p5_saturated_actual_internal_constraints
 
 end F7Manuscript.ActualW18P5SaturatedConstraintsInternal

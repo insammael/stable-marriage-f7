@@ -259,6 +259,5 @@ theorem actual_singleton_switch_charges_neighbor
       exact (saturated_actual_disjoint_successors_impossible R' t u htu W
         htok' hpast' hdisjoint hpoolU).elim
 
-#print axioms actual_singleton_switch_charges_neighbor
 end
 end F7Manuscript.ActualW28R20ActualNeighborCharge

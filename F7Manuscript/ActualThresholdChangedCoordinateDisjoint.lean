@@ -48,7 +48,6 @@ variable (C : Partition (V := Event I)) [Nonempty (Triple C)]
   change ¬ _ ≤ ((GenericThresholdPath.path C E g.castSucc).val (color C x)).val at hnot
   exact hnot (hstep.symm.le.trans (hbNew.1.trans hbOld.2))
 
-#print axioms threshold_changed_coordinate_path_segments_disjoint
 
 end
 end F7Manuscript.TripleCoordinateLattice

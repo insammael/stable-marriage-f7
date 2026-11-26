@@ -58,6 +58,5 @@ theorem actual_single_group_double_pair_prefix {length : Nat} (S : Chart)
  intro j
  exact align ⟨j.val,by omega⟩
 
-#print axioms actual_single_group_double_pair_prefix
 end
 end F7Manuscript.R21PhysicalWindowWords

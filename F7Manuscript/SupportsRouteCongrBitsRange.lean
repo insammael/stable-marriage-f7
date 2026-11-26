@@ -44,6 +44,5 @@ theorem supportsRoute_congr_bits_on_range {W : Type*} [Fintype W] {q : ℕ}
         exact ih bits' (fun k hk hlt =>
           hbits k (by omega) (by rw [hcount]; omega))
 
-#print axioms supportsRoute_congr_bits_on_range
 end
 end F7Manuscript.SupportsRouteCongrBitsRange

@@ -131,6 +131,5 @@ theorem future_le_two_of_supported_triangle {G : Rel} {n : Nat} {a b c : Site}
   subst y
   exact loopFree x hxy
 
-#print axioms triangle_future_le_two
 
 end F7Manuscript.ActualW13New102TriangleBoundGeneral

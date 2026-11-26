@@ -35,6 +35,4 @@ theorem free_five_B_seed_then_normal_le_six (f last : SupportFrame)
   rw [hframe] at path
   exact fixed_free_five_B_normal_mass_le_six p bits f.last path
 
-#print axioms free_five_A_seed_then_normal_le_six
-#print axioms free_five_B_seed_then_normal_le_six
 end F7Manuscript.TripleCoordinateLattice.R21BareTHandFive

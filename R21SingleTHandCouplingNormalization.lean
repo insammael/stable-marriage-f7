@@ -43,6 +43,5 @@ theorem pairedOpp_two_cover (phase : Bool) (p s : Fin 6) (c d : Color) (b e : Bo
  · exact ⟨false,h0⟩
  · exact ⟨true,h1⟩
 
-#print axioms pairedOpp_two_cover
 end
 end F7Manuscript.R21SingleTHand

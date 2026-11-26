@@ -68,6 +68,5 @@ theorem group_interval_fee_floor_of_full_word (C : Chart) (f : SupportFrame)
   simpa only [full_normal_word_eq_raw S positive] using! hY'
  exact raw_normal_word_fee_floor S positive f1 f1valid a _ _ Y _ _ hraw
 
-#print axioms group_interval_fee_floor_of_full_word
 end
 end F7Manuscript.R21PhysicalWindowWords

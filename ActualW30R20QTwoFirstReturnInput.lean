@@ -96,4 +96,3 @@ theorem actual_q_two_first_return_charged
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW30R20QTwoFirstReturnInput
 
-#print axioms F7Manuscript.TripleCoordinateLattice.ActualW30R20QTwoFirstReturnInput.actual_q_two_first_return_charged

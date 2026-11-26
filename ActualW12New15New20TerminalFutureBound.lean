@@ -146,13 +146,5 @@ theorem bound_V1 {W : Type*} [Fintype W] {q n : ℕ}
     (future : Sized.Future (renamed (Fresh R t) permV1) 2 n) : n ≤ 3 :=
   F7Manuscript.ActualW12Q4ProtectedConnectorsHandBound.protected_connector_future_length_le_three future (permV1_envelope R t H)
 
-#print axioms permU0_envelope
-#print axioms permU1_envelope
-#print axioms permV0_envelope
-#print axioms permV1_envelope
-#print axioms bound_U0
-#print axioms bound_U1
-#print axioms bound_V0
-#print axioms bound_V1
 
 end F7Manuscript.ActualW12New15New20TerminalFutureBound

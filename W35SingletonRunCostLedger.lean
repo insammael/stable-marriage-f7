@@ -143,6 +143,5 @@ theorem singleton_run_low_core_deficit_run_cost
 
 /-! Public interface port of the unchanged accepted private arithmetic body.
 No new certificate, search, or scientific hypothesis is introduced. -/
-#print axioms singleton_run_low_core_deficit_run_cost
 end
 end F7Manuscript.TripleCoordinateLattice.W35SingletonRunCostLedger

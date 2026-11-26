@@ -111,11 +111,5 @@ theorem D_future_from_observed_prefix {W : Type*} [Fintype W] {q : ℕ}
   rw [← D0_prefixFresh] at transported
   exact D_future_le_two transported
 
-#print axioms C_future_le_two
-#print axioms D_future_le_two
-#print axioms C0_prefixFresh
-#print axioms D0_prefixFresh
-#print axioms C_future_from_observed_prefix
-#print axioms D_future_from_observed_prefix
 
 end F7Manuscript.PartnerGraph.PureShortCut.P310TerminalBinding

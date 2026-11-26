@@ -28,6 +28,5 @@ structure TypeVNormalRouteWitness {q : Nat} (R : TokenRun Site Site q)
       [.center g0,.center g1,.center (b (T.naturalWord 0))] ++
       ((mixedPlan T.naturalWord T.naturalLevels T.m).map (recolorCenterMove b))) bits 0
 
-#print axioms TypeVNormalRouteWitness.mk
 end
 end F7Manuscript.TripleCoordinateLattice.W34TypeVNormalRouteWitness

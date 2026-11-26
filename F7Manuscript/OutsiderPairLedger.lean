@@ -98,6 +98,5 @@ theorem normal_core_cost_le_of_endpoint_charge
   have h := normal_outsider_total_deficit_ledger C h221 h311 hG hT
   omega
 
-#print axioms outsider_total_deficit_ledger
 end
 end F7Manuscript.TripleCoordinateLattice

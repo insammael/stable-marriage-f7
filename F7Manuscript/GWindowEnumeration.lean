@@ -221,7 +221,6 @@ theorem G_boundary_window_enumeration
       (fun _ _ hle => GenericThresholdPath.path_mono C E hle)
       (GenericThresholdPath.path_union C E) n
 
-#print axioms G_boundary_window_enumeration
 
 end
 end F7Manuscript.TripleCoordinateLattice

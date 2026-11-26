@@ -55,7 +55,6 @@ theorem support_disjoint_between_same_pool_cover
     first | exact le_of_eq heq | exact le_of_eq heq.symm
   exact hcover.2 hloStrict hhiStrict
 
-#print axioms support_disjoint_between_same_pool_cover
 
 end
 end F7Manuscript.ConvexExecution

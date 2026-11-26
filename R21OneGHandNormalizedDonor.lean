@@ -65,7 +65,6 @@ theorem normalized_A05_impossible
     exact two_seed_replay _ _ _ (2,3) (4,6) sets (by decide)
   apply checked_physical_normal_impossible R (pre++[u,v]) [] _ f plan bits 0 3 board _ long checked
   simpa only [List.append_nil] using! hw
-#print axioms normalized_A05_impossible
 
 theorem normalized_A26_impossible
     (R : TokenRun (Fin 7) (Fin 7) 21) (pre : List Swap) (u v : Swap)
@@ -90,7 +89,6 @@ theorem normalized_A26_impossible
     exact two_seed_replay _ _ _ (0,3) (4,5) sets (by decide)
   apply checked_physical_normal_impossible R (pre++[u,v]) [] _ f plan bits 0 3 board _ long checked
   simpa only [List.append_nil] using! hw
-#print axioms normalized_A26_impossible
 
 theorem normalized_B56_impossible
     (R : TokenRun (Fin 7) (Fin 7) 21) (pre : List Swap) (u v : Swap)
@@ -115,7 +113,6 @@ theorem normalized_B56_impossible
     exact two_seed_replay _ _ _ (0,4) (1,3) sets (by decide)
   apply checked_physical_normal_impossible R (pre++[u,v]) [] _ f plan bits 0 3 board _ long checked
   simpa only [List.append_nil] using! hw
-#print axioms normalized_B56_impossible
 
 theorem normalized_B01_impossible
     (R : TokenRun (Fin 7) (Fin 7) 21) (pre : List Swap) (u v : Swap)
@@ -140,6 +137,5 @@ theorem normalized_B01_impossible
     exact two_seed_replay _ _ _ (3,6) (4,5) sets (by decide)
   apply checked_physical_normal_impossible R (pre++[u,v]) [] _ f plan bits 0 3 board _ long checked
   simpa only [List.append_nil] using! hw
-#print axioms normalized_B01_impossible
 end
 end F7Manuscript.R21OneGHandDonor

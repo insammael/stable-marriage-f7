@@ -105,7 +105,6 @@ theorem new56_controlled_structural_suffix_bound
         exact observed_Vx1_future_length_le_two R t H (sfuture.rename permVx1)
   omega
 
-#print axioms new56_controlled_structural_suffix_bound
 #eval IO.eprintln "W12 NEW5/6 structural suffix checked"
 
 end F7Manuscript.ActualW12New56StructuralSuffixBound

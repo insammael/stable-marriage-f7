@@ -114,8 +114,6 @@ theorem exchange_from_run (R : TokenRun Site W q) (i : Fin q)
         simpa [t, tokenAt_put] using! add_fresh_pow_lt ⟨tokenAt s.seen b.val, hbound b⟩ u hfb
       · simpa [t, tokenAt_put, hxa, hxb] using! hbound x
 
-#print axioms RunMatches.atSix
-#print axioms exchange_from_run
 
 open MixedPlanRealization
 
@@ -202,6 +200,4 @@ theorem actual_pure_crown_suffix_le_thirteen (R : TokenRun Site W q) (hsize : 6 
   exact centers_le_thirteen
     (pureTrace_of_actual_route route afterRows (RunMatches.atSix R hsize hword) hf hcolors)
 
-#print axioms pureTrace_of_actual_route
-#print axioms actual_pure_crown_suffix_le_thirteen
 end F7Manuscript.R21PureInitialCrown

@@ -106,7 +106,5 @@ theorem WordPersonInvariant.last_end (C : WordPersonInvariant) {n m : ℕ}
     (by intro u v S hI he hf;exact checkInvSteps_sound C.closed u v S hI he hf)
     i hki b hab hs hlast
 
-#print axioms WordPersonInvariant.full_at_end
-#print axioms WordPersonInvariant.last_end
 end
 end F7Manuscript.R21SingleTHand

@@ -60,7 +60,5 @@ theorem pairedBoth_root_snapshot (flag : Bool) (v : State) (hr : physical v∈co
 
 theorem pairedBoth_snapshot_bound : ∀flag,seenBound (couplingBothSnapshot flag) := by unfold seenBound;decide +kernel
 
-#print axioms pairedBoth_root_cover
-#print axioms pairedBoth_root_snapshot
 end
 end F7Manuscript.R21SingleTHand

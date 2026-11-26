@@ -35,6 +35,5 @@ theorem sourceWord_eq_centerPrefix
     F7Local.routePrefix, F7Local.centerPair, F7Local.afterCenter,
     F7Local.select, F7Local.other, F7Local.put, h0, hb0, hb1, hb2]
 
-#print axioms sourceWord_eq_centerPrefix
 
 end F7Manuscript.OneGapTypedNormalWord

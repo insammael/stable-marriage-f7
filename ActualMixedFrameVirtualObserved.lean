@@ -26,6 +26,5 @@ theorem actualFrame_frontierMemory_observedPrefix
   obtain ⟨e, hpast⟩ := actualFrame_frontierMemory_initialFrontierPast R t f hv M
   exact ⟨e, ⟨virtualInitialObserved _ t hpast⟩⟩
 
-#print axioms actualFrame_frontierMemory_observedPrefix
 
 end F7Manuscript.PartnerGraph.Sized

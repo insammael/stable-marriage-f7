@@ -738,28 +738,6 @@ theorem final_retirement_partition (C : Chart) :
       frontierSet C C.m ∪ retiredBefore C C.m = Finset.univ := by
   exact ⟨finalFrontier_disjoint_retiredBefore C, final_retirement_coverage C⟩
 
-#print axioms frontierBefore_owner
-#print axioms frontierBefore_injective
-#print axioms retiredAt_owner
-#print axioms frontierBefore_chronological_mono
-#print axioms frontierBefore_chronological_mono_of_le
-#print axioms oldMoving_chronological_lt_newPair
-#print axioms frontierBefore_nextPair_eq
-#print axioms oldMoving_not_finalFrontier
-#print axioms retiredAt_not_finalFrontier
-#print axioms centerReplacement_identity
-#print axioms block_retirement_identity
-#print axioms chart_retirement_ledger
-#print axioms introducedBefore_all
-#print axioms final_retirement_coverage
-#print axioms finalFrontier_disjoint_retiredBefore
-#print axioms final_retirement_partition
-#print axioms eraseCenter_eq_movingColor_image
-#print axioms sideOf_movingColor
-#print axioms pairedReplacement_identity
-#print axioms pairedRows_identity
-#print axioms mem_unionRange
-#print axioms introduction_partition
 
 end F7Manuscript.NormalSkeleton.Chart
 
@@ -819,6 +797,5 @@ theorem actualEvent_retirement_partition :
     obtain ⟨v, rfl⟩ := E.surjective x
     exact Finset.mem_image.mpr ⟨v, Finset.mem_univ _, rfl⟩
 
-#print axioms actualEvent_retirement_partition
 
 end F7Manuscript.TripleCoordinateLattice.GenericNormal

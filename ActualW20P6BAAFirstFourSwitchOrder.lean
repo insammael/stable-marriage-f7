@@ -40,5 +40,4 @@ theorem site6_four_is_after_first_switch
     exact (by decide : (4 : Site) ≠ 6) hprior
   exact ⟨q0,q1,q2,hdispList,hdisp01,hdisp12,htime⟩
 
-#print axioms site6_four_is_after_first_switch
 end F7Manuscript.ActualW20P6BAAFirstFourSwitchOrder

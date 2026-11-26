@@ -345,8 +345,6 @@ theorem actual_arbitrary_offset_zero_d1_forces_ABA
   exact actual_arbitrary_offset_zero_d1_nonABA_third_center_false
     Q hQ B h221 h311 hz hm a p H hn S M hd0 hd1 hne
 
-#print axioms actual_arbitrary_offset_zero_d1_nonABA_third_center_false
-#print axioms actual_arbitrary_offset_zero_d1_forces_ABA
 
 end
 end F7Manuscript.TripleCoordinateLattice

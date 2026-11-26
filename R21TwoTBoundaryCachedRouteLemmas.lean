@@ -24,5 +24,3 @@ run_cmd do
       type := ci.type
       value := mkConst old (ci.levelParams.map Level.param)
     }
-#print axioms F7Manuscript.TripleCoordinateLattice.boundary_saturated_center_rows
-#print axioms F7Manuscript.TripleCoordinateLattice.boundary_saturated_paired_trace

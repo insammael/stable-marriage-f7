@@ -36,6 +36,5 @@ noncomputable def actualNormalRunNonbinaryLowerRow
     2 < (support I (normalRowValue B hpair.2.2.1 hpair.2.1
       hgeometry.2 k 0 c).val).card
 
-#print axioms actualNormalRunNonbinaryLowerRow
 end
 end F7Manuscript.TripleCoordinateLattice

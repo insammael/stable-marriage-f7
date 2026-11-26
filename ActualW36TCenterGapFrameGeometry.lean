@@ -200,6 +200,5 @@ theorem normalized_first_center_geometry
     refine ⟨bit, hcenterMap, ?_, rfl⟩
     simpa [afterCenter] using! hother
 
-#print axioms normalized_first_center_geometry
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW36TCenterGapFrameGeometry

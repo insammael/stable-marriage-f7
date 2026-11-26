@@ -269,9 +269,6 @@ def actualPureSuffixFrontierChart (lo : Fin ((S).m))
       (F7Manuscript.TripleCoordinateLattice.normalRowValue (corePartition C) h221B h311B hzB lo
         (Fintype.card (normalLeafType (corePartition C) h221B h311B hzB lo)) c).val := rfl
 
-#print axioms actualPureSuffixFrontierChart
-#print axioms actualPureSuffixFrontierChart_word
-#print axioms actualPureSuffixFrontierChart_initial
 
 end
 end F7Manuscript.N4ActualPureSuffixFrontierChart

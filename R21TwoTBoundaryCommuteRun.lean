@@ -158,13 +158,8 @@ theorem DisjointWordCommute.realizes_context_boundaries {u v : List Swap}
     have hh := hs' t (by rw [←h1.length_eq]; exact ht)
     exact hh.trans (hs t ht)
 
-#print axioms DisjointWordCommute.realizes_context_boundaries
 
-#print axioms DisjointWordCommute.realizes_context_preserving
 
-#print axioms DisjointWordCommute.realizes
-#print axioms DisjointWordCommute.realizes_context
 
-#print axioms realizes_context_swap
 end
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

@@ -65,6 +65,5 @@ theorem actual_G_reverse_crossed_seed_supports
     exact ⟨hit i hci.symm,hit j hcj.symm⟩
 
 
-#print axioms actual_G_reverse_crossed_seed_supports
 end
 end F7Manuscript.TripleCoordinateLattice.R21OneGHandActual

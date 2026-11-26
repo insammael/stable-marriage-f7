@@ -99,7 +99,5 @@ theorem last_center_disjoint_paired (f : SupportFrame)
       simp [V, pairedPairs, pairSupport, select, other, Finset.subset_iff] <;> aesop
   exact ⟨hd.mono hcenter (hrows false), hd.mono hcenter (hrows true)⟩
 
-#print axioms last_center_paired_commute
-#print axioms last_center_disjoint_paired
 
 end F7Manuscript.ActualW8LastCenterPairedCommutation

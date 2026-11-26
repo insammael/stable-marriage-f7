@@ -566,12 +566,6 @@ theorem original_pre_fixed_whole_splice
 
 end Actual
 
-#print axioms prefix_capacity
-#print axioms datedBlock_of_prefixSource
-#print axioms wholeEnumeration_of_orderConvex
-#print axioms original_pre_closure
-#print axioms original_pre_constructed_splice
-#print axioms original_pre_fixed_whole_splice
 
 end
 

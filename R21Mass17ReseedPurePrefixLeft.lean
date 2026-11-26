@@ -85,7 +85,5 @@ theorem DatedPlan.reseedAfterCentersActualLeft
     D (.nil off normalSeedFrame) binary
   exact ⟨p,S,b,dated,bin,cs,by simpa using! len,trace⟩
 
-#print axioms DatedPlan.reseedAfterCentersWithLeft
-#print axioms DatedPlan.reseedAfterCentersActualLeft
 end
 end F7Manuscript.R21NormalEndpoint.ReseededObservation

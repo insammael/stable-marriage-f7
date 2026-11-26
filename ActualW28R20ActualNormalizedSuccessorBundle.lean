@@ -175,6 +175,5 @@ theorem actual_singleton_switch_has_normalized_successor
     hsupportCanonical, htok1, hpast1, ?_⟩
   exact ⟨f, b1, ρ, hv, hrow, hnextRows, hρnext, hρold, hnorm⟩
 
-#print axioms actual_singleton_switch_has_normalized_successor
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW28R20ActualNormalizedSuccessorBundle

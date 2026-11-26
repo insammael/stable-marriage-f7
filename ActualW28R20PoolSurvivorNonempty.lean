@@ -68,6 +68,5 @@ theorem pool_survivors_nonempty
     simpa [F7Paired.Four, hcardComplement, hcardPool] using hcard
   omega
 
-#print axioms pool_survivors_nonempty
 end
 end F7Manuscript.ActualW28R20PoolSurvivorNonempty

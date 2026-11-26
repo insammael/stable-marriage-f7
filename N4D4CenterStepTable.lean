@@ -44,7 +44,6 @@ theorem n0_step : ∀ c : F7Local.Color, ∀ b : Bool,
  intro c b
  fin_cases c <;> cases b <;> unfold freshAt F7Paired.FreshSince <;> decide
 
-#print axioms n0_step
 
 def n1 : List Choice := [(0, true)]
 def n1Allowed : List Choice := [(1, false), (1, true)]
@@ -54,7 +53,6 @@ theorem n1_step : ∀ c : F7Local.Color, ∀ b : Bool,
  intro c b
  fin_cases c <;> cases b <;> unfold freshAt F7Paired.FreshSince <;> decide
 
-#print axioms n1_step
 
 def n2 : List Choice := [(0, true), (1, false)]
 def n2Allowed : List Choice := [(2, true)]
@@ -64,7 +62,6 @@ theorem n2_step : ∀ c : F7Local.Color, ∀ b : Bool,
  intro c b
  fin_cases c <;> cases b <;> unfold freshAt F7Paired.FreshSince <;> decide
 
-#print axioms n2_step
 
 def n3 : List Choice := [(0, true), (1, false), (2, true)]
 def n3Allowed : List Choice := [(1, true)]
@@ -74,7 +71,6 @@ theorem n3_step : ∀ c : F7Local.Color, ∀ b : Bool,
  intro c b
  fin_cases c <;> cases b <;> unfold freshAt F7Paired.FreshSince <;> decide
 
-#print axioms n3_step
 
 def n5 : List Choice := [(0, true), (1, true)]
 def n5Allowed : List Choice := [(2, false)]
@@ -84,7 +80,6 @@ theorem n5_step : ∀ c : F7Local.Color, ∀ b : Bool,
  intro c b
  fin_cases c <;> cases b <;> unfold freshAt F7Paired.FreshSince <;> decide
 
-#print axioms n5_step
 
 def n6 : List Choice := [(0, true), (1, true), (2, false)]
 def n6Allowed : List Choice := [(0, false)]
@@ -94,7 +89,6 @@ theorem n6_step : ∀ c : F7Local.Color, ∀ b : Bool,
  intro c b
  fin_cases c <;> cases b <;> unfold freshAt F7Paired.FreshSince <;> decide
 
-#print axioms n6_step
 
 def n7 : List Choice := [(0, true), (1, true), (2, false), (0, false)]
 def n7Allowed : List Choice := [(1, false), (2, true)]
@@ -104,7 +98,6 @@ theorem n7_step : ∀ c : F7Local.Color, ∀ b : Bool,
  intro c b
  fin_cases c <;> cases b <;> unfold freshAt F7Paired.FreshSince <;> decide
 
-#print axioms n7_step
 
 def n12 : List Choice := [(2, false)]
 def n12Allowed : List Choice := [(1, true)]
@@ -114,7 +107,6 @@ theorem n12_step : ∀ c : F7Local.Color, ∀ b : Bool,
  intro c b
  fin_cases c <;> cases b <;> unfold freshAt F7Paired.FreshSince <;> decide
 
-#print axioms n12_step
 
 def n13 : List Choice := [(2, false), (1, true)]
 def n13Allowed : List Choice := [(0, false)]
@@ -124,7 +116,6 @@ theorem n13_step : ∀ c : F7Local.Color, ∀ b : Bool,
  intro c b
  fin_cases c <;> cases b <;> unfold freshAt F7Paired.FreshSince <;> decide
 
-#print axioms n13_step
 
 def n14 : List Choice := [(2, false), (1, true), (0, false)]
 def n14Allowed : List Choice := [(1, false)]
@@ -134,7 +125,6 @@ theorem n14_step : ∀ c : F7Local.Color, ∀ b : Bool,
  intro c b
  fin_cases c <;> cases b <;> unfold freshAt F7Paired.FreshSince <;> decide
 
-#print axioms n14_step
 
 def n15 : List Choice := [(2, false), (1, true), (0, false), (1, false)]
 def n15Allowed : List Choice := [(0, false), (2, false)]
@@ -144,7 +134,6 @@ theorem n15_step : ∀ c : F7Local.Color, ∀ b : Bool,
  intro c b
  fin_cases c <;> cases b <;> unfold freshAt F7Paired.FreshSince <;> decide
 
-#print axioms n15_step
 
 def n18 : List Choice := [(2, true)]
 def n18Allowed : List Choice := [(1, false)]
@@ -154,7 +143,6 @@ theorem n18_step : ∀ c : F7Local.Color, ∀ b : Bool,
  intro c b
  fin_cases c <;> cases b <;> unfold freshAt F7Paired.FreshSince <;> decide
 
-#print axioms n18_step
 
 def n19 : List Choice := [(2, true), (1, false)]
 def n19Allowed : List Choice := [(0, false), (2, false)]
@@ -164,7 +152,6 @@ theorem n19_step : ∀ c : F7Local.Color, ∀ b : Bool,
  intro c b
  fin_cases c <;> cases b <;> unfold freshAt F7Paired.FreshSince <;> decide
 
-#print axioms n19_step
 
 def n20 : List Choice := [(2, true), (1, false), (0, false)]
 def n20Allowed : List Choice := [(2, true)]
@@ -174,7 +161,6 @@ theorem n20_step : ∀ c : F7Local.Color, ∀ b : Bool,
  intro c b
  fin_cases c <;> cases b <;> unfold freshAt F7Paired.FreshSince <;> decide
 
-#print axioms n20_step
 
 def n21 : List Choice := [(2, true), (1, false), (0, false), (2, true)]
 def n21Allowed : List Choice := [(1, true)]
@@ -184,7 +170,6 @@ theorem n21_step : ∀ c : F7Local.Color, ∀ b : Bool,
  intro c b
  fin_cases c <;> cases b <;> unfold freshAt F7Paired.FreshSince <;> decide
 
-#print axioms n21_step
 
 def n23 : List Choice := [(2, true), (1, false), (2, false)]
 def n23Allowed : List Choice := [(0, true)]
@@ -194,6 +179,5 @@ theorem n23_step : ∀ c : F7Local.Color, ∀ b : Bool,
  intro c b
  fin_cases c <;> cases b <;> unfold freshAt F7Paired.FreshSince <;> decide
 
-#print axioms n23_step
 
 end F7Manuscript.N4D4CenterStepTable

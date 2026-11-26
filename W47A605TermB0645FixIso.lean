@@ -351,6 +351,5 @@ theorem terminal_B06_45 :
   | four a b d e =>
       exact check_four a b d e
 
-#print axioms terminal_B06_45
 
 end F7Manuscript.PartnerGraph.G1Frozen13.CertW605

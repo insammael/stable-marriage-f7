@@ -81,5 +81,4 @@ theorem p5_actual_CII_q2_before_q6_path_order
   · obtain ⟨_,_,_,_,_,_,_,_,_,_,_,_,_,_,hmtq2⟩ := hbad
     omega
 
-#print axioms p5_actual_CII_q2_before_q6_path_order
 end F7Manuscript.ActualW20P5CaseCIIMixedPathOrderFix3

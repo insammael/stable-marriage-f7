@@ -47,7 +47,5 @@ theorem completionExclusive_value_mem_rowExclusive
     change r.val ≤ (row d).val
     rwa [hrow d]
 
-#print axioms normal_first_center_mem_futureSet
-#print axioms completionExclusive_value_mem_rowExclusive
 end
 end F7Manuscript.TripleCoordinateLattice

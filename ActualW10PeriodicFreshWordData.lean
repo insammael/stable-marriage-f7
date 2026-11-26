@@ -197,6 +197,5 @@ theorem periodicRun_with_data (bits : ℕ → Bool) (m : ℕ)
   }
   exact ⟨H, rfl, fun _ => rfl⟩
 
-#print axioms periodicRun_with_data
 
 end F7Manuscript.ActualW10PeriodicFreshWordData

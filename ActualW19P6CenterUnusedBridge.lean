@@ -94,8 +94,5 @@ theorem center_missing_of_word_length_lt_four
     rcases hj with rfl | rfl | rfl | rfl <;> simp [graphRel, p6G0, ofEdges]
   · simpa using! hnot
 
-#print axioms center_receipt_iff_word_member
-#print axioms center_unused_iff
-#print axioms center_missing_of_word_length_lt_four
 
 end F7Manuscript.ActualW19P6CenterUnusedBridge

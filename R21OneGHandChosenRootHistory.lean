@@ -99,7 +99,5 @@ theorem original_free_five_selected_root_history
   · intro i
     simpa only [pcard] using! hNewPoints i
 
-#print axioms normalTailWord_mapped
-#print axioms original_free_five_selected_root_history
 end
 end F7Manuscript.TripleCoordinateLattice.R21OneGHandActual

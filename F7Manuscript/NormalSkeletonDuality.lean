@@ -50,5 +50,3 @@ theorem actualNormalSkeleton_m_dual (h221 : NoInduced221 (V := V))
 end
 end F7Manuscript.TripleCoordinateLattice
 
-#print axioms F7Manuscript.TripleCoordinateLattice.normalBlockCount_dual
-#print axioms F7Manuscript.TripleCoordinateLattice.actualNormalSkeleton_m_dual

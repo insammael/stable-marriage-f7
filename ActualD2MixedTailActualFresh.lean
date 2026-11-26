@@ -226,7 +226,6 @@ theorem actual_d2_mixed_tail_fresh_of_frame
           exact hprefix i hi
         · simpa [pre, Fm] using! hf
 
-#print axioms actual_d2_mixed_tail_fresh_of_frame
 
 end
 end F7Manuscript.ActualD2MixedTailActualFresh

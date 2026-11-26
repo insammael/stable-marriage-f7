@@ -553,17 +553,6 @@ theorem mixed_chart_barrier_n_le_eighteen
   have hn : S.n = 3 + S.m + 2 * S.q := rfl
   omega
 
-#print axioms future_mem_cutAvailable
-#print axioms twoByTwoClosed_of_rowQ
-#print axioms future_mem_barrier
-#print axioms blockedCells_ne_all_states
-#print axioms acquiredCell_injective
-#print axioms incidence_plus_missing_le_fortynine
-#print axioms barrier_five_cells_length_le_eighteen
-#print axioms wholePrefixPast_eq_wordPast
-#print axioms literal_prefix_barrier_length_le_eighteen
-#print axioms tokenRun_barrier_length_le_eighteen
-#print axioms mixed_chart_barrier_n_le_eighteen
 
 end
 end F7Manuscript.N4FutureBarrier

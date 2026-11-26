@@ -66,6 +66,5 @@ theorem actual_previous_block_retired_center_frame
     A h221 h311 hG hT hm r ⟨d, Nat.lt_succ_self d⟩ f hv hupper
   exact ⟨b, hb, hrows, afterCenter_stateOfFrame_valid f hv _ b⟩
 
-#print axioms actual_previous_block_retired_center_frame
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW30R20ReverseBoundaryCenterFrame

@@ -117,7 +117,6 @@ theorem actual_X_ordinal45_rawforward_generic_carrier
     hfitS hfirst hcolor hinterior hlast
   exact ⟨P, hcar⟩
 
-#print axioms actual_X_ordinal45_rawforward_generic_carrier
 
 end
 end F7Manuscript.ActualW17Saved45RawForwardGenericCarrier

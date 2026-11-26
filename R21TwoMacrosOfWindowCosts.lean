@@ -97,6 +97,5 @@ theorem zero_outsiders_two_macros_of_window_costs (g t : Nat)
   rw [stableCount_eq_idealCount I]
   omega
 
-#print axioms zero_outsiders_two_macros_of_window_costs
 end
 end F7Manuscript.TripleCoordinateLattice.R21TwoBareMacros

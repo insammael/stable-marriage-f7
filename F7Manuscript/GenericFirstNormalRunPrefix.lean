@@ -87,6 +87,5 @@ theorem first_normal_run_window_eq_prefix_same_decisions
         simpa only [hP0] using! hz0
       exact Finset.mem_union_right _ (Finset.mem_sdiff.mpr ⟨hz,hzrow⟩)
 
-#print axioms first_normal_run_window_eq_prefix_same_decisions
 end
 end F7Manuscript.TripleCoordinateLattice

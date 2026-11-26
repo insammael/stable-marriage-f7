@@ -74,5 +74,4 @@ theorem p5_actual_CII_required_three_receipt_before_Y2
         exact h6neq (hcut.symm.trans hpost3)
     exact ⟨Sum.inr r, by simpa using! hrlt, hr⟩
 
-#print axioms p5_actual_CII_required_three_receipt_before_Y2
 end F7Manuscript.ActualW20P5CIIY2PrefixReceiptsFix3

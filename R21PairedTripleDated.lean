@@ -65,6 +65,4 @@ theorem no_dated_paired_triple
   have obs' : WindowObservation R off 12 bound' out := by simpa only [size] using! obs
   exact blocked_impossible out hit R binary obs'
 
-#print axioms execute_pattern_sound
-#print axioms no_dated_paired_triple
 end F7Manuscript.R21NormalEndpoint.PairedTripleDated

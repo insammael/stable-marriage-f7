@@ -242,9 +242,6 @@ theorem actual_zero_cost_cut13_same_original_conditional
     (cutDate Q) e C hword
     hQ16 h20 hd hsupport hatomic hexcess
 
-#print axioms rawCut13_of_supports
-#print axioms same_original_support13_contradiction
-#print axioms actual_zero_cost_cut13_same_original_conditional
 
 end
 

@@ -76,8 +76,5 @@ theorem outsider_support_within_old_pool
   · exact (support_share I a x person ha hp).elim hax.1 hax.2
   · exact (support_share I d x person hd hp).elim hdx.1 hdx.2
 
-#print axioms actual_middle_pair_pool
-#print axioms center_incomparable_with_switch
-#print axioms outsider_support_within_old_pool
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW28R20SwitchSupportPool

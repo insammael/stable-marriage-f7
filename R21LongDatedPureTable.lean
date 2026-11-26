@@ -440,7 +440,4 @@ theorem successor_index_increases {i : Nat} {n : Node}
   have row := List.all_eq_true.mp checked_increasing (n,i) member
   exact of_decide_eq_true (List.all_eq_true.mp row j next)
 
-#print axioms checked_all
-#print axioms all_next_supports_listed
-#print axioms successor_index_increases
 end F7Manuscript.R21LongWindow.DatedPureTable

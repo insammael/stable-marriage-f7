@@ -249,8 +249,6 @@ theorem actual_X_u3_cost_three_pivots347_min_endpoint_zero_false
     C hn hδ h221 h311 hG hT X (by rw [hm15]; omega) hmin (by simpa [W] using! hnorm)
     (by simpa [D] using! hD11)
 
-#print axioms actual_X_window0_root11_min_endpoint_zero_false
-#print axioms actual_X_u3_cost_three_pivots347_min_endpoint_zero_false
 
 end
 end F7Manuscript.ActualW16Window0GenericActualCaller

@@ -122,6 +122,5 @@ theorem actual_global_two_G_joint_charge_ge_eight
     (incNeighbors (tripleVertices C) z).card) ≤ 4 at hsum
   omega
 
-#print axioms actual_global_two_G_joint_charge_ge_eight
 end
 end F7Manuscript.TripleCoordinateLattice

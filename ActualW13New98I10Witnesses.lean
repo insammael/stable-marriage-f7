@@ -178,6 +178,5 @@ theorem bad_i10_w1_u3_x1 (bits : Nat → Bool)
     exact noReturn_forbidden_incoming new98Plan bits 10 N (by simp [new98Plan,eventCount])
       (0) (3) (by simp [new98A, hy]) hp hs
 
-#print axioms bad_i10_w0_ur_x0
 
 end F7Manuscript.ActualW13New98I10Witnesses

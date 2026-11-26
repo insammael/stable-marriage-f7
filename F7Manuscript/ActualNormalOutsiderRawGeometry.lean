@@ -276,6 +276,5 @@ theorem actual_normal_outsider_raw_shape
     s_eq_raw_interior_or_cost := (rawChart_cost_count S).symm }⟩
   simpa [u,v,w] using! hbudget.1
 
-#print axioms actual_normal_outsider_raw_shape
 end
 end F7Manuscript.TripleCoordinateLattice

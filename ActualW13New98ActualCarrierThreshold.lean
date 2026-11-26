@@ -58,5 +58,4 @@ theorem new98_actual_root_carrier_threshold_le
   exact F7Manuscript.ActualW13New98StructuralCarrierThreshold.new98_actual_saved_structural_threshold_le
     C hp b hledger hword
 
-#print axioms new98_actual_root_carrier_threshold_le
 end F7Manuscript.ActualW13New98ActualCarrierThreshold

@@ -106,6 +106,5 @@ theorem core_normal_center_rowsMatch_actual_r20
   have hframe : frameOfState s f.last = f := by simp [s]
   simpa [hframe] using! hchoice
 
-#print axioms core_normal_center_rowsMatch_actual_r20
 end
 end F7Manuscript.TripleCoordinateLattice.CoreActual

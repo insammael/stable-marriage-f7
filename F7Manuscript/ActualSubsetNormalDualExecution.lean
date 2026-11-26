@@ -141,10 +141,6 @@ theorem subsetNormalDualActualRun_binary
   rw [EventFrontierDual.reverse_run_event_support hQ]
   exact SaturatedUnitSteps.actual_event_binary hn _
 
-#print axioms subsetNormalDualChronologicalEnumeration
-#print axioms subsetNormalDualActualRun_support_at
-#print axioms subsetNormalDualActualRun_atomic
-#print axioms subsetNormalDualActualRun_binary
 
 end
 end F7Manuscript.TripleCoordinateLattice

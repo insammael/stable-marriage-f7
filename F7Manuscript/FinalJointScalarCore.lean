@@ -107,8 +107,5 @@ instance (x : Key) : Decidable (Valid x) := by
 `d10b12bec8cfbd8793f64e16600cf640362c4a6240b0ebb1cfaea8c4e4091ed5`.
 Scalar JSON SHA-256 `e697b46334e8c76ecdc1772d3a9231befe3999b6f88ea3ec9da366674f4947e5`.
 The script's split(n,k) is the weak-composition recursion. -/
-#check Valid
-#check scalarCharge
-#check orBudget
 
 end F7Manuscript.FinalJointScalar

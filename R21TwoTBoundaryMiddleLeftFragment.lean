@@ -44,6 +44,5 @@ theorem actual_middle_left_fragment_fresh (R : TokenRun Site Site 21)
    (middleRightEdgeDate (pre++fragment.reverse) left root right post hw.1)
    (middleLeft B left right) (by rw [hs]; exact h.1) (by rw [hs]; exact h.2.2.1) hbound).1
 
-#print axioms actual_middle_left_fragment_fresh
 end
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

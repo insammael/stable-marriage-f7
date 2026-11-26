@@ -169,7 +169,6 @@ theorem reverse_template_fit
     rw [hindexOld]
     exact hfirst
 
-#print axioms reverse_template_fit
 
 #eval IO.eprintln "W11 reverse-template fit transport checked"
 

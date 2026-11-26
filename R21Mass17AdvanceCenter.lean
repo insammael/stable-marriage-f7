@@ -55,6 +55,5 @@ theorem DatedPlan.advanceCenter
     (by omega) seeds2 first2 route2 colors1 bin2
   exact ⟨reindexRun S2 e,newBound,dated,bin⟩
 
-#print axioms DatedPlan.advanceCenter
 end
 end F7Manuscript.R21NormalEndpoint.ReseededObservation

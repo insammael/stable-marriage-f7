@@ -54,8 +54,5 @@ theorem single_block_route_endpoint {j : Fin (normalBlockCount B)} {f g : Suppor
   exact RouteEndpointIsolated.subsetNormalSegment_route_endpoint Q hQ B h221 h311 hz
     (SubsetNormalBlockSegmentTrace.one H)
 
-#print axioms paired_final_rows
-#print axioms single_block_final_rows
-#print axioms single_block_route_endpoint
 end
 end F7Manuscript.TripleCoordinateLattice.R21BoundaryRouteHelpers

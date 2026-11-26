@@ -113,7 +113,5 @@ theorem paired_prefix_four_center_join_cost_bound (n : Nat) (tail : List Move)
     have h := initial_four_centers_tail_bound ⟨0, 0, false, true⟩ rfl tail a b c d hac
     simp only [runCost] at h
     omega
-#print axioms four_center_join_cost_bound
-#print axioms paired_prefix_four_center_join_cost_bound
 
 end F7Manuscript.W37FourCenterJoinScalar

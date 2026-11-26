@@ -194,10 +194,5 @@ theorem W30D_future_le_six {n : ℕ} (h : Sized.Future W30D_F 2 n) : n ≤ 6 := 
   rw [W30D_count] at hc
   omega
 
-#print axioms binary_future_typed_pool_edge_bound
-#print axioms W30A_future_le_six
-#print axioms W30B_future_le_six
-#print axioms W30C_future_le_six
-#print axioms W30D_future_le_six
 
 end F7Manuscript.ActualW16TypedPoolFuture

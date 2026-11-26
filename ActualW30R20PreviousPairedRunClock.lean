@@ -300,6 +300,5 @@ theorem actual_previous_paired_run_clock
     hlabelC, hlabel0, hlabel1, hlabelPrev, tC, t0, t1, tPrev,
     rfl, rfl, rfl, rfl, hsC, hs0, hs1, hsPrev⟩
 
-#print axioms actual_previous_paired_run_clock
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW30R20PreviousPairedRunClock

@@ -75,7 +75,5 @@ theorem actual_paired_head_reverse_inputs {W : Type*} [Fintype W]
  theorem pairedReverse_support1 (cross : Bool) : pairSupport (pairedPairs (pairedReversePostFrame cross) false).2={(2 : Site),3} := by
   cases cross <;> decide
 
-#print axioms actual_paired_head_reverse_inputs
-#print axioms pairedReverseEnd_geometry
 end
 end F7Manuscript.R21NormalEndpoint.ReseededObservation

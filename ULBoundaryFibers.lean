@@ -115,8 +115,5 @@ theorem exists_cross_root_assignment {A B : Finset V}
   have h := Classical.choose_spec (hex p hp)
   simpa only [rho,dif_pos hp] using! h
 
-#print axioms boundary_fiber_flag
-#print axioms cross_pair_has_boundary_fibers
-#print axioms exists_cross_root_assignment
 
 end ConditionalUL

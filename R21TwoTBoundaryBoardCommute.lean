@@ -132,13 +132,7 @@ theorem DisjointWordCommute.person_trace {u v : List Swap}
       simp_all [personSupportTrace]
   | trans h1 h2 ih1 ih2 => exact ih1.trans ih2
 
-#print axioms DisjointWordCommute.person_trace
 
-#print axioms DisjointWordCommute.map
-#print axioms DisjointWordCommute.append_right
 
-#print axioms DisjointWordCommute.replay_eq
-#print axioms DisjointWordCommute.fresh_eq
 
-#print axioms step_commute
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

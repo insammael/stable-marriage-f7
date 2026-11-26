@@ -289,7 +289,5 @@ theorem actual_one_G_empty_qzero_count_le_85
     exact actual_one_G_pre_long_post_empty_qzero_count_le_85
       C h221 h311 hu hG hT hn hm0 hm1 hqsum
 
-#print axioms actual_one_G_pre_long_post_empty_qzero_count_le_85
-#print axioms actual_one_G_empty_qzero_count_le_85
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW35OneGEmptyQZeroCount

@@ -162,8 +162,5 @@ theorem raw_path_triangle_edge_card (T : ℕ → Finset V) (s : ℕ)
       exact hAnti j hj (Finset.mem_inter.mp ha).1 (Finset.mem_inter.mp hb).1 hne
     · exact hTwo j hj0 hj
 
-#print axioms overlapping_antichains_no_extra_edges
-#print axioms raw_path_support_card
-#print axioms raw_path_triangle_edge_card
 
 end ConditionalUL

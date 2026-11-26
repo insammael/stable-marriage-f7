@@ -59,5 +59,4 @@ theorem p5_special_token_participation
   rw [hcell, hcolumn] at hcount
   exact hcount.symm
 
-#print axioms p5_special_token_participation
 end F7Manuscript.ActualW18P5SpecialTokenParticipation

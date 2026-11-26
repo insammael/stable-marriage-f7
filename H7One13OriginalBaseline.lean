@@ -152,13 +152,10 @@ theorem h7_original_mixed13_whole_post_block16
       hq hs hm0 hm1).2.2 hconv
 
 -- New endpoint.
-#print axioms h7_original_mixed13_whole_post_block16
 
 -- Exact whole/reverse-block specification.
-#print axioms F7Manuscript.H7One13PostAudit.WholePostBlock16
 
 -- The two composed endpoints.
-#print axioms h7_original_mixed13_post_order_convex
 #print axioms
   F7Manuscript.H7One13PostAudit.original_post_checked_facts_and_remaining_obligation
 
@@ -169,8 +166,6 @@ theorem h7_original_mixed13_whole_post_block16
   F7Manuscript.W47PostUpperShadowGenericSplice.upperShadow_splice
 
 -- Original-data provenance.
-#print axioms OriginalSameKSource.enumeration
-#print axioms OriginalSameKSource.data
 
 end
 

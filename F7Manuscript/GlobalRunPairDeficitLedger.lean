@@ -74,6 +74,5 @@ theorem core_pair_deficit_by_normal_run_windows :
   rw [hR,hL] at htel
   simpa only [hrun,M] using! htel
 
-#print axioms core_pair_deficit_by_normal_run_windows
 end
 end F7Manuscript.TripleCoordinateLattice

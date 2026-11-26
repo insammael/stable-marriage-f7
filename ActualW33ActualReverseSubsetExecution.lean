@@ -66,6 +66,5 @@ theorem actual_reverse_reflected_subset_execution
   have hrun := actual_reverse_mixed_run_of_metadata Q B h221 h311 hz hQ hm hdouble hplan
   simpa [S, RS] using! hrun
 
-#print axioms actual_reverse_reflected_subset_execution
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW33ActualReverseSubsetExecution

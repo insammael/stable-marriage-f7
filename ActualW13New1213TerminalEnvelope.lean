@@ -100,8 +100,4 @@ theorem observed_Z1_future_length_le_four {W : Type*} [Fintype W] {q : ℕ}
   F7Manuscript.ActualW13G43HandBound.g43_future_length_le_four future
     (observed_Z1_envelope R t H)
 
-#print axioms observed_Z0_envelope
-#print axioms observed_Z1_envelope
-#print axioms observed_Z0_future_length_le_four
-#print axioms observed_Z1_future_length_le_four
 end F7Manuscript.ActualW13New1213TerminalEnvelope

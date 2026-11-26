@@ -84,8 +84,5 @@ theorem pairIncrement_T (P : Finset V) (C : Partition (V := V))
     pairIncrement P (vertices h.val) = TPairContribution C P h :=
   pairIncrement_triple P h.val
 
-#print axioms pairCount_of_antichain
-#print axioms pairIncrement_gap
-#print axioms pairIncrement_T
 end
 end F7Manuscript.FiniteBlockPairLedger

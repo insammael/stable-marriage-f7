@@ -93,6 +93,5 @@ theorem actual_q1_floor_of_reflected_word
     (q1_reflected_cuts_of_actual_suffixes (S) hq P)
     A.colorPerm A.firstColor A.bits A.noReturn rhoR hfirstR bitsR HR
 
-#print axioms actual_q1_floor_of_reflected_word
 end
 end F7Manuscript.ActualW33QOneBidirectionalCost

@@ -77,6 +77,5 @@ theorem retired_paired_schedule
     (retired_pair_support_table Q hQ B h221 h311 hz a p
       (pairedRoute Q B h221 h311 hz H) jR hblock hdouble t hstart hp hroom)
 
-#print axioms retired_paired_schedule
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW33RContextRetiredPairedSchedule

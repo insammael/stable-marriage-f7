@@ -72,8 +72,5 @@ theorem future_donor_path_of_sound_hand
   · rw [sound.1 i]
     exact rowPath_donor_chain R k B rename sound i (21-k.val) k (by omega) le_rfl
 
-#print axioms token_seen_initial_or_after
-#print axioms full_rowPath_mem_iff
-#print axioms future_donor_path_of_sound_hand
 end
 end F7Manuscript.R21OneGHandDonor

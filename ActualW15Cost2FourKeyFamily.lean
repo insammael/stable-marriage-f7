@@ -108,7 +108,6 @@ theorem actual_X_cost2_supplies_679_688_689_690
     rcases hkey with ⟨i, hi, hcolors, hD, hs', hq', hf, hr, hu', hv, hcap⟩
     exact ⟨i, Or.inr (Or.inr (Or.inr hi)), hcolors, hD, hs', hq', hf, Or.inr hr, hu', hv, hcap⟩
 
-#print axioms actual_X_cost2_supplies_679_688_689_690
 
 end
 end ActualW15Cost2FourKeyFamily

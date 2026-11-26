@@ -45,6 +45,5 @@ theorem four_six_swap_uses_both_initial_tokens
   · generalize hj : tr.state k.castSucc 6 = j at hf4 hh6 ⊢
     fin_cases j <;> simp [graphRel,p6G0,ofEdges] at hf4 hh6 ⊢
 
-#print axioms four_six_swap_uses_both_initial_tokens
 
 end F7Manuscript.ActualW20P6InitialFourSixGate

@@ -62,6 +62,5 @@ theorem pure_five_then_seed_normal_le_six
     rw [hb] at tailFresh
     exact free_five_B_seed_then_normal_le_six next' _ nextValid hidle c b _ n word' tailFresh
 
-#print axioms pure_five_then_seed_normal_le_six
 end
 end F7Manuscript.TripleCoordinateLattice.R21BareTHandFive

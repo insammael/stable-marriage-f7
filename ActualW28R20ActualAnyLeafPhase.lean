@@ -124,6 +124,5 @@ theorem actual_core_any_leaf_chronology_phase
     rw [hlabel]
     exact hphase.2 v hafter
 
-#print axioms actual_core_any_leaf_chronology_phase
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW28R20ActualAnyLeafPhase

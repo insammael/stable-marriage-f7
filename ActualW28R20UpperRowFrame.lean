@@ -77,6 +77,5 @@ theorem core_normal_upper_row_frame
   refine ⟨f, hv, hrows, ?_⟩
   simp [f, frameOfState]
 
-#print axioms core_normal_upper_row_frame
 end
 end F7Manuscript.TripleCoordinateLattice.CoreActual

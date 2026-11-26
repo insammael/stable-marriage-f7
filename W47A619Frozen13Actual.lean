@@ -38,7 +38,5 @@ theorem wholeSubRun13_contradiction
     F7Manuscript.PartnerGraph.G1Frozen13.periodic_short_extension_after_13_le_two
     lower
 
-#print axioms rawCut13_contradiction
-#print axioms wholeSubRun13_contradiction
 
 end F7Manuscript.PartnerGraph.Periodic.Frozen13Discharged

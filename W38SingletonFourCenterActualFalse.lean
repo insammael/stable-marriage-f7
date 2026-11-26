@@ -92,5 +92,4 @@ theorem singleton_four_center_actual_twenty_false
     (by simpa [pre, post, List.append_assoc] using! hq)
     (by simpa [pre, post, List.append_assoc] using! H)
 
-#print axioms singleton_four_center_actual_twenty_false
 end F7Manuscript.W38SingletonFourCenterActualFalse

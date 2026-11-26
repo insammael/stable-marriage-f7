@@ -1,5 +1,6 @@
 module
 
+public import Mathlib
 public import F7Manuscript.ReturnCertificate
 
 @[expose] public section
@@ -171,8 +172,4 @@ theorem single_G_five_word_excluded {W : Type*} [Fintype W]
     exact ReturnCertificate.valid_excludes shortLeaf2645Rev valid_short_leaf2645Rev R (by
       simpa [shortLeaf2645Rev] using h)
 
-#print axioms all_six_valid
-#print axioms single_G_word_excluded
-#print axioms valid_short_leaf2345
-#print axioms single_G_five_word_excluded
 end F7Manuscript.SmallGSingleReturn

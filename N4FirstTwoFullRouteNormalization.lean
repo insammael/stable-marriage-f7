@@ -312,7 +312,5 @@ theorem fullNoReturn_firstTwo_normalization
   intro i
   simpa [R, flip, bits'] using! firstTwoPlan_lastPair_support post bits i i.isLt
 
-#print axioms routePrefix_mapSupportFrame
-#print axioms fullNoReturn_firstTwo_normalization
 
 end F7Manuscript.N4FirstTwoFullRouteNormalization

@@ -371,7 +371,6 @@ theorem fork_two_unused_edge_bound {F : Rel} {n : ℕ}
                 simpa [p] using! hbound
               omega
 
-#print axioms fork_two_unused_edge_bound
 
 end
 end F7Manuscript.ActualW17ForkTwoUnusedV2

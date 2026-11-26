@@ -109,6 +109,5 @@ theorem actual_previous_paired_row_below
     rw [hproject]
     exact lt_of_le_of_lt hcoord hk
 
-#print axioms actual_previous_paired_row_below
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW30R20PreviousPairedBelow

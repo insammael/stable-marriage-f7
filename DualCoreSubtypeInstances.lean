@@ -62,11 +62,6 @@ def transportSubtypeInstanceBinder
   cases hl
   exact h
 
-#print axioms dualCoreSubtype_fintype_eq
-#print axioms dualCoreSubtype_partialOrder_eq
-#print axioms dualCoreSubtype_decidableEq_eq
-#print axioms dualCoreSubtype_decidableLE_eq
-#print axioms transportSubtypeInstanceBinder
 
 end
 end F7Manuscript.TripleCoordinateLattice

@@ -50,5 +50,4 @@ theorem token_one_frozen_after_visiting_zero_five_six
       k.succ l 6 y (by simp [U]) hpost hkl hnot hy
   exact fixedTokenSwapTrace_freeze_after_pool_visited tr U 1 6 k.succ hpost hseen hstays
 
-#print axioms token_one_frozen_after_visiting_zero_five_six
 end F7Manuscript.ActualW19P6TokenOneFrozenAtSix

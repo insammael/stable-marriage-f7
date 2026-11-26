@@ -72,7 +72,5 @@ theorem binary_length_bound_of_forbidden {n : Nat} (L : TokenRun Site Site n)
  rw [Finset.card_union_of_disjoint dis,cardCells] at cardUnion
  simpa only [Finset.card_univ,Fintype.card_prod,show Fintype.card Site=7 from rfl] using! cardUnion
 
-#print axioms allowed_cells_after_prefix
-#print axioms binary_length_bound_of_forbidden
 end
 end F7Manuscript.R21SingleTHand

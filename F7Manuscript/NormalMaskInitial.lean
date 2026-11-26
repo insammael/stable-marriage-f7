@@ -24,6 +24,4 @@ theorem initial_center_missing (a : Color) :
     (∑ m : Mask, if ubit m a = false ∧ retired m = false then initialCount m else 0) = 2 := by
   fin_cases a <;> decide
 
-#print axioms initial_center_good
-#print axioms initial_center_missing
 end F7Manuscript.NormalMaskCounter

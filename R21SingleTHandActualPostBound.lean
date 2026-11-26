@@ -55,6 +55,5 @@ theorem actual_post_mass_le_six {n m : ℕ}
   rw [←hplan,chart_plan_event_count] at hb
   exact hb
 
-#print axioms actual_post_mass_le_six
 end
 end F7Manuscript.R21SingleTHand

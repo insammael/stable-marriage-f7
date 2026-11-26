@@ -92,5 +92,4 @@ theorem chosen_image_valid (input : Input) (o : Output) (computed : runInput inp
   | none => simp [chosen] at check
   | some im => exact ⟨im,rfl,of_decide_eq_true (by simpa [chosen] using! check)⟩
 
-#print axioms chosen_image_valid
 end F7Manuscript.R21LongWindow.PureRootCoverage

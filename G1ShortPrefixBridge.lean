@@ -130,9 +130,6 @@ theorem RawCut.fourteen_mode_prefix
       F7Manuscript.G1ShortWords.word14_support_first
       F7Manuscript.G1ShortWords.word14_support_center)
 
-#print axioms RawCut.mode_prefix
-#print axioms RawCut.thirteen_mode_prefix
-#print axioms RawCut.fourteen_mode_prefix
 
 end
 end F7Manuscript.PartnerGraph.Periodic

@@ -90,6 +90,5 @@ theorem actual_d2_center_step_forbidden_by_saturation
   rw [hcenter] at hfresh
   exact W.no_D_third candidate hc hfresh
 
-#print axioms actual_d2_center_step_forbidden_by_saturation
 
 end F7Manuscript.TripleCoordinateLattice

@@ -48,9 +48,5 @@ theorem actual_threshold_mono (K K' L b : Nat) (hKK' : K ≤ K')
     (21 : Int) - (K' : Int) - (L : Int) ≤ (b : Int) := by
   omega
 
-#print axioms lengthBudget_mono
-#print axioms boundedValid_mono
-#print axioms allLeaves_boundedValid_mono
-#print axioms actual_threshold_mono
 
 end F7Manuscript.ActualW9SavedBudgetMonotonicity

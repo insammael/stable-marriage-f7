@@ -249,7 +249,6 @@ theorem actual_binary_singleton_whole_prefix_packet
   · simpa only [Fin.val_mk] using! hwhole2.trans h2
   · simpa only [Fin.val_mk] using! hwhole3.trans h3
 
-#print axioms actual_binary_singleton_whole_prefix_packet
 
 end
 end F7Manuscript.TripleCoordinateLattice.W35BinarySingletonWholePrefixPacketCompat

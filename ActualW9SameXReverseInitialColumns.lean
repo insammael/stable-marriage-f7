@@ -245,7 +245,6 @@ theorem actual_sameX_reverse_route_initial_columns
   exact ⟨E,Hwhole,Rwhole,e,word,levels,m,bits,
     hsize,hblock,hsub,hpre,hcycles,hmEq,hword,hlevels,hword0,hbinary,hroute,hmemory,hcols',hclockX,hinitial⟩
 
-#print axioms actual_sameX_reverse_route_initial_columns
 
 end
 end F7Manuscript.ActualW9SameXReverseInitialColumns

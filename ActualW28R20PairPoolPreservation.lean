@@ -177,6 +177,5 @@ theorem actual_pair_pool_preservation
     hOld0New hOld1New
   simpa [a, c₀, c₁] using! holdUnion.trans hnewUnion.symm
 
-#print axioms actual_pair_pool_preservation
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW28R20PairPoolPreservation

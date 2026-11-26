@@ -31,6 +31,5 @@ theorem reflected_paired_support_order (a b : Pair) (εa εb cross : Bool) :
   cases εa <;> cases εb <;> cases cross <;>
     simp [xorBit, signedFlipPair, pairSet, select, other, Finset.pair_comm]
 
-#print axioms reflected_paired_support_order
 
 end F7Manuscript.W7SignedFramePairedAlgebra

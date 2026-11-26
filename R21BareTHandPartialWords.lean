@@ -49,6 +49,5 @@ theorem partial_crown_literal_word {n m : Nat} {S T : Chart}
     simpa only [v,cutWord,continueWord,List.append_assoc] using! hK
   exact ⟨K,kword⟩
 
-#print axioms partial_crown_literal_word
 end
 end F7Manuscript.TripleCoordinateLattice.R21BareT

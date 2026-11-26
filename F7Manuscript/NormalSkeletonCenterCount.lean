@@ -77,6 +77,5 @@ theorem center_sum_eq_sum_centerCountAt (C : Chart) :
   intro j _
   simp [centerCountAt, j.isLt]
 
-#print axioms centerCountAt_add_chargeAt
 end
 end F7Manuscript.NormalSkeleton.Chart

@@ -43,6 +43,5 @@ theorem actual_past_of_two_covers
   · exact Or.inl hxp
   · exact Or.inr hxp
 
-#print axioms actual_past_of_two_covers
 end
 end F7Manuscript.SaturatedCoverSegments

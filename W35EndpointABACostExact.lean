@@ -65,7 +65,5 @@ theorem localPivots_ne_nil_of_positive_s (S : Chart)
   rw [hn] at hm
   simp at hm
 
-#print axioms prefixCost_eq_s_of_interior_double_zero
-#print axioms localPivots_ne_nil_of_positive_s
 end
 end F7Manuscript.W35EndpointABACostExact

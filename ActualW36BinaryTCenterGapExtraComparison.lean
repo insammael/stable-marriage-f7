@@ -103,7 +103,5 @@ theorem actual_center_gap_form_extra_comparison
     decide
   exact ⟨d, c, e, k, label, heA, heB, heD, hX, hY, hlt, hdisB, hdisD⟩
 
-#print axioms actual_T_old_moving_color_strictly_below_new_center
-#print axioms actual_center_gap_form_extra_comparison
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW36BinaryTCenterGapExtraComparison

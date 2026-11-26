@@ -72,6 +72,5 @@ theorem actual_r20_one_G_low_deficit_actual_adjacent_colors
   · exact Or.inl (hpast.symm.trans hp)
   · exact Or.inr (hfuture.symm.trans hf)
 
-#print axioms actual_r20_one_G_low_deficit_actual_adjacent_colors
 end
 end F7Manuscript.TripleCoordinateLattice

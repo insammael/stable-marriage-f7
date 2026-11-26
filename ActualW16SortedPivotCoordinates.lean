@@ -64,6 +64,5 @@ theorem exists_increasing_coordinates (P : Finset Nat) (hcard : P.card = 3) :
     simp only [Finset.mem_insert, Finset.mem_singleton]
     omega
 
-#print axioms exists_increasing_coordinates
 
 end F7Manuscript.ActualW16SortedPivotCoordinates

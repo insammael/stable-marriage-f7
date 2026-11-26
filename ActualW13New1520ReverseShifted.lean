@@ -200,5 +200,4 @@ theorem actual_X_new1520_reverse_shifted_structural_threshold
   rw [hstart] at hthreshold
   simpa [extra] using! hthreshold
 
-#print axioms actual_X_new1520_reverse_shifted_structural_threshold
 

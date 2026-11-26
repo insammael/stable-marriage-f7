@@ -60,7 +60,6 @@ theorem actual_X_q_plus_s_eq_two_forces_q_zero
       exact False.elim (F7Manuscript.AllPositiveZeroSCostAnchorExclusion.actual_X_s0_m7_false C hn hδ hdeficit hpos
         h221 h311 hG hT X hm hs0)
 
-#print axioms actual_X_q_plus_s_eq_two_forces_q_zero
 
 end
 end F7Manuscript.ActualW15SameXQPlusS2Q0

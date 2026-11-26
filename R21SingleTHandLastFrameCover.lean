@@ -80,6 +80,5 @@ theorem LastFrameCertificate.actual_cover (C : LastFrameCertificate) {n m : ℕ}
   rw [hswap.2] at hrowb
   exact C.cover a b _ _ hab (fun he=>hab ((L.state i.castSucc).injective he)) hrowa hrowb htokena htokenb
 
-#print axioms LastFrameCertificate.actual_cover
 end
 end F7Manuscript.R21SingleTHand

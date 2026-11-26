@@ -89,7 +89,6 @@ theorem actual_normal_run_first_center_event_support
     exact hmap
   exact hnormalized.symm.trans hnorm
 
-#print axioms actual_normal_run_first_center_event_support
 
 end
 end F7Manuscript.TripleCoordinateLattice

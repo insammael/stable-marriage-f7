@@ -137,8 +137,6 @@ theorem actual_paired_choices (G : Rectangle (I := I)) (s : State)
   · rw [← hright]
     exact cover_binary_support_ne G.rightCover (old_binary G).2
 
-#print axioms rectangle_union
-#print axioms actual_paired_choices
 
 end
 end F7Manuscript.ActualPairedRectangle

@@ -356,15 +356,6 @@ theorem combinedRegistry_oldIndex_map :
   norm_num at h ⊢
   simpa using h
 
-#print axioms combinedRegistry_length
-#print axioms combinedRegistry_oldIndex_map
-#print axioms combinedRegistry_root_geometry
-#print axioms adjacent_get_ne_of_adjacent
-#print axioms color_get_lt_three_of_forall
-#print axioms root_geometry_of_mem
-#print axioms root_colors_of_mem
-#print axioms root_adjacent_indexed_of_mem
-#print axioms root_color_range_indexed_of_mem
 
 #eval IO.eprintln "W10 combined 276 root registry glue prepared"
 

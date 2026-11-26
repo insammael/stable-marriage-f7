@@ -101,5 +101,4 @@ theorem p5_actual_residual_order_cases
     · exact Or.inr (Or.inr ⟨hq6m, hm2q⟩)
     · exact False.elim (hnotBothAfter ⟨hm2q, hm6q⟩)
 
-#print axioms p5_actual_residual_order_cases
 end F7Manuscript.ActualW20P5ResidualOrderCases

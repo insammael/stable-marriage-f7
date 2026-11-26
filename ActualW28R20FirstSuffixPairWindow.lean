@@ -304,6 +304,5 @@ theorem actual_first_suffix_pair_window
     exact v.isLt
   exact ⟨u, v, cross, label, htimeU, htimeV, hbound, horder⟩
 
-#print axioms actual_first_suffix_pair_window
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW28R20FirstSuffixPairWindow

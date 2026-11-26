@@ -73,6 +73,5 @@ theorem observed_root_token_bound
     ((coreFuture_to_sized future).rename e) r.target (by rw [hu]) named
   simpa using! bound
 
-#print axioms observed_root_token_bound
 
 end F7Manuscript.ActualW10ObservedPeriodicShortBudget

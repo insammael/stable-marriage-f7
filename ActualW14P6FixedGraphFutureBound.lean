@@ -25,6 +25,5 @@ theorem p6_target_future_bound_of_fixed_graph_future
   intro b F n env future
   exact fixedBound b (F7Manuscript.PartnerGraph.Future.transportEnvelope future env)
 
-#print axioms p6_target_future_bound_of_fixed_graph_future
 
 end F7Manuscript.ActualW14P6FixedGraphFutureBound

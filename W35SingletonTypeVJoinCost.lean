@@ -45,5 +45,4 @@ theorem paired_prefix_three_center_join_bound (q : Nat)
     simp only [startingCostControl]
     exact Nat.add_le_add_left (three_centers_after_start_bound true g0 g1 c tail) q
 
-#print axioms paired_prefix_three_center_join_bound
 end F7Manuscript.W35SingletonTypeVJoinCost

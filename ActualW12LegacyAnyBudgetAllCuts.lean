@@ -256,9 +256,6 @@ theorem actual_X_any_budget_root_all_cuts_threshold
         hDint (by simpa [n] using! hlast)
       simpa [hd, hj0, n] using! hresult
 
-#print axioms BudgetRootColorFacts
-#print axioms AnyBudgetRootFitAt
-#print axioms actual_X_any_budget_root_all_cuts_threshold
 #eval IO.eprintln "W12 legacy any-budget-all-cuts checked"
 
 end

@@ -27,5 +27,4 @@ theorem colorMarks_map (ρ : Equiv.Perm Color) (cs : List Color) : colorMarks (c
 
 theorem colorMarks_five (a b c d e : Color) : colorMarks [a,b,c,d,e]=[a.val==c.val,b.val==d.val,c.val==e.val] := rfl
 
-#print axioms colorMarks_map
 end F7Manuscript.R21LongWindow.PureRootCoverage

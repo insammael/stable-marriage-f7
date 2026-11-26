@@ -30,6 +30,5 @@ theorem reflected_paired_tuple_order (a b : Pair) (εa εb cross : Bool) :
   cases εa <;> cases εb <;> cases cross <;>
     simp [xorBit, signedFlipPair, select, other]
 
-#print axioms reflected_paired_tuple_order
 
 end F7Manuscript.W7SignedFramePairedTupleAlgebra

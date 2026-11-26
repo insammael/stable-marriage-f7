@@ -58,6 +58,5 @@ theorem actual_old158_gap_to_43
     exact ⟨h1,h2,h3,h4,h5,h6,h7,h8,h9,h10,h11,h12,h13,h14,h15,h16,hlast⟩
   exact gap_clauses_imply_projection a x y ha ha5 hx hy hcap hgap
 
-#print axioms actual_old158_gap_to_43
 
 end F7Manuscript.ActualW16FiveRootGapActual

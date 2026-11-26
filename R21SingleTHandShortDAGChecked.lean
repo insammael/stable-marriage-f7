@@ -34,5 +34,4 @@ theorem shortDAG_tail_bound (mirror : Bool) (b : Fin 5) {plan : List Move} {s t 
   have hm : (shortDAG mirror 0).mass=2 := by cases mirror <;> rfl
   simpa only [hm] using! hb
 
-#print axioms shortDAG_tail_bound
 end F7Manuscript.R21SingleTHand

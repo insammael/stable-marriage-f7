@@ -1,5 +1,6 @@
 module
 
+public import Mathlib
 public import F7Manuscript.PartnerGraphCore
 public import PeriodicFrontier
 
@@ -321,13 +322,6 @@ theorem initial_pairs_relabel (T0 T1 T2 : Finset Site)
   · rw [ht2]
     simp [he4, he5]
 
-#print axioms binary_support_frontier
-#print axioms initial_pairs_relabel
 
-#print axioms initialValid
-#print axioms step_preserves_valid
-#print axioms valid_endpoints_distinct
-#print axioms valid_frontiers_disjoint
-#print axioms valid_frontiers_idle_disjoint
 
 end F7Manuscript.PartnerGraph

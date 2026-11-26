@@ -72,5 +72,4 @@ theorem wall_prefix_not_fresh (p : Fin 6) (hzero : c6PostColor p 0 = 0)
   · exact (two_orientations false _ _ _ _ _ _ _) hs
   · exact (two_orientations true _ _ _ _ _ _ _) hs
 
-#print axioms wall_prefix_not_fresh
 end F7Manuscript.R20Q1FirstPairedWall

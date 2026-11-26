@@ -108,6 +108,5 @@ theorem new56_force_bit7_eq_bit3
       · have : False := by simpa [h6,h7] using! hl
         exact False.elim this
 
-#print axioms new56_force_bit7_eq_bit3
 
 end F7Manuscript.ActualW12New56PrefixPhase5

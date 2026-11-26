@@ -162,7 +162,5 @@ theorem actual_one_T_both_long_binary_boundary_no_common_support
     (macroPosition C E j) hmacroT hOld
   exact ⟨j,hmacroT,hOld,hNew,hNoCommon⟩
 
-#print axioms actual_T_no_common_support_of_old_binary
-#print axioms actual_one_T_both_long_binary_boundary_no_common_support
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW36BinaryTNoCommonSupportCore

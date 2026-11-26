@@ -64,7 +64,5 @@ theorem outsiderSlotGroup_last {L : ℕ} (p : Fin (L+1) → Triple C)
       simp only [Fin.val_mk] at hi
       omega
 
-#print axioms outsiderSlotGroup_first
-#print axioms outsiderSlotGroup_last
 end
 end F7Manuscript.TripleCoordinateLattice

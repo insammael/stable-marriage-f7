@@ -122,7 +122,6 @@ theorem actual_X_reverse_shifted_block_packet
   exact ⟨T,p,e0,e1,ht,chain,hfirst,hactor,by
     simpa only [word,levels,m,bits] using! N⟩
 
-#print axioms actual_X_reverse_shifted_block_packet
 
 end
 end F7Manuscript.ActualW9SameXReverseShiftedBlock

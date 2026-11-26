@@ -247,7 +247,6 @@ theorem actual_raw_first_d2_next_center_obstruction
     · intro person w hw
       exact hpastAll person w hw
 
-#print axioms actual_raw_first_d2_next_center_obstruction
 
 end
 end F7Manuscript.TripleCoordinateLattice

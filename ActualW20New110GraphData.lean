@@ -4786,4 +4786,3 @@ def table (j : Fin 611) : Node :=
 
 end F7Manuscript.PartnerGraph.NormalQ123
 
-#print axioms F7Manuscript.PartnerGraph.NormalQ123.table

@@ -89,7 +89,6 @@ theorem a32_isolated_g_joint_charge_from_one_boundary
         i j c hij hci hcj hlab P H.future hPempty hFempty
       simpa [hm0, hm1] using! h3
 
-#print axioms a32_isolated_g_joint_charge_from_one_boundary
 
 end
 end F7Manuscript.TripleCoordinateLattice

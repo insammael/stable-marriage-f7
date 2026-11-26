@@ -175,6 +175,5 @@ theorem actual_W36_one_T_whole_chronology_from_frame
     Rpost hRleft hRright geoPost.1 pairPost.2.2.1 pairPost.2.1 geoPost.2 hmPostCount Tpost
   exact ⟨hmPostCount, Tpost, hpostEq, hchron⟩
 
-#print axioms actual_W36_one_T_whole_chronology_from_frame
 end
 end F7Manuscript.TripleCoordinateLattice

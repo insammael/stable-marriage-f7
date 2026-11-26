@@ -77,6 +77,4 @@ theorem TwoRouteContext.selectedFreshLeft (i : Fin 155)
     rw [mirror] at support
     exact freshLeftSorted C.boundary binary positive _ support
 
-#print axioms TwoRouteContext.selectedFreshRight
-#print axioms TwoRouteContext.selectedFreshLeft
 end F7Manuscript.R21LongWindow.DatedBoardSteps

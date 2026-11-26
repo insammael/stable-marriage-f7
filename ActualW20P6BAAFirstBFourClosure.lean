@@ -102,6 +102,4 @@ theorem firstB_four_center_cell_one_unused
     have hpost : tr.state e.succ 5 = 1 := by simpa [centerToken] using! ht
     exact firstB_four_center_events_avoid_one tr hword hfirst e hcenter hpost
 
-#print axioms firstB_four_center_events_avoid_one
-#print axioms firstB_four_center_cell_one_unused
 end F7Manuscript.ActualW20P6BAAFirstBFourClosure

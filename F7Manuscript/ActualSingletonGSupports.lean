@@ -94,7 +94,5 @@ theorem actual_singleton_G_support_hits
   obtain ⟨b,hbx,hbnew⟩ := actual_cover_has_shared_actor hn hcov.2
   exact ⟨⟨a,hax,haold⟩,⟨b,hbx,hbnew⟩⟩
 
-#print axioms actual_singleton_fixed_boundary_covers
-#print axioms actual_singleton_G_support_hits
 end
 end F7Manuscript.TripleCoordinateLattice

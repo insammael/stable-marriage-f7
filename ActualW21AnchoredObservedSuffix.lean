@@ -107,8 +107,6 @@ theorem endpoint_observed_control_false_of_all_binary_anchors
     valid old bits hcode hnr R hbound observed atomic binary
   omega
 
-#print axioms observed_control_suffix_bound_of_all_binary_anchors
-#print axioms endpoint_observed_control_false_of_all_binary_anchors
 
 end
 end F7Manuscript.ActualW21AnchoredObservedSuffix

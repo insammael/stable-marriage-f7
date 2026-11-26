@@ -33,9 +33,6 @@ def pureNew1213TupleFold (W D : List Nat) (dual : Bool) : Int :=
 def pureNew1213Requirement (base : Option Int) (W D : List Nat) (dual : Bool) : Option Int :=
   base.map fun r => max r (pureNew1213TupleFold W D dual)
 
-#print axioms pureNew1213TupleCutValue
-#print axioms pureNew1213TupleFold
-#print axioms pureNew1213Requirement
 
 end
 end F7Manuscript.ActualW13New1213CleanTupleRequirement

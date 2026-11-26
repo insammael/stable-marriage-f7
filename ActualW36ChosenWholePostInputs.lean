@@ -212,6 +212,5 @@ theorem actual_chosen_whole_post_inputs
         have hi := i.isLt
         omega)).trans (hintro i)
 
-#print axioms actual_chosen_whole_post_inputs
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW36ChosenWholePostInputs

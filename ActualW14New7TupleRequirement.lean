@@ -30,9 +30,6 @@ theorem pureNew7Requirement_none_iff (W D : List Nat) (dual : Bool) :
         W D dual = none := by
   simp [pureNew7Requirement]
 
-#print axioms pureNew7TupleCutValue
-#print axioms pureNew7TupleFold
-#print axioms pureNew7Requirement_none_iff
 
 end
 end F7Manuscript.ActualW14New7TupleRequirement

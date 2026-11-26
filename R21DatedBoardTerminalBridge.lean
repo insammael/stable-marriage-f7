@@ -349,8 +349,5 @@ theorem actual_terminal_node (i : Fin 155)
     exact C
   exact (terminalEntry j).reject (checked_terminal_alignment j) actual binary
 
-#print axioms checked_terminal_alignment
-#print axioms checked_terminal_coverage
-#print axioms actual_terminal_node
 end
 end F7Manuscript.R21LongWindow.DatedBoardSteps

@@ -278,20 +278,10 @@ theorem h7_original_mixed13_post_order_convex
   simpa only [hk] using! hconv
 
 -- New declarations.
-#print axioms one13_counter_deficit_with_decisions
-#print axioms one13_canonical_segment_q0_order_convex
-#print axioms h7_original_mixed13_post_order_convex
 
 -- Original-data provenance.
-#print axioms OriginalSameKSource.enumeration
-#print axioms OriginalSameKSource.data
 
 -- Imported endpoints used by the composition.
-#print axioms h7_mixed13_selected_run_cards
-#print axioms h7_mixed13_canonical_recovery
-#print axioms a142_same_boundary_canonical_actual_chart_producer
-#print axioms original_mixed_counter_pairDeficit_le_two
-#print axioms a260_normal_run_q0_order_convex
 
 end
 

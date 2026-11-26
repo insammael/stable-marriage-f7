@@ -29,6 +29,4 @@ theorem input_frame_geometry (input : Input) (o : Output) (computed : runInput i
   have checked := checked_input_frames input
   simpa only [inputFrameCheck,computed,decide_eq_true_eq] using! checked
 
-#print axioms checked_input_frames
-#print axioms input_frame_geometry
 end F7Manuscript.R21LongWindow.PureRootCoverage

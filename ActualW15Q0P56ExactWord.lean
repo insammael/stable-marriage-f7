@@ -130,7 +130,6 @@ theorem actual_X_q0_u5_p56_normalized_word
       [0,1,2,0,1,2,1,2,0,1,2,0,1] := by decide
   exact hcolors.trans hliteral
 
-#print axioms actual_X_q0_u5_p56_normalized_word
 end
 end ActualW15Q0P56ExactWord
 end F7Manuscript.TripleCoordinateLattice

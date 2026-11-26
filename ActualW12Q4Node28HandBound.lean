@@ -1,5 +1,6 @@
 module
 
+public import Mathlib
 public import F7Manuscript.SizedPartnerGraphCertificate
 
 @[expose] public section
@@ -259,6 +260,5 @@ theorem q4_node28_future_length_le_two {F : Rel} {n : ℕ}
           | three a b c => simp [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hcost
           | four a b c d => simp [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hcost
 
-#print axioms q4_node28_future_length_le_two
 
 end F7Manuscript.ActualW12Q4Node28HandBound

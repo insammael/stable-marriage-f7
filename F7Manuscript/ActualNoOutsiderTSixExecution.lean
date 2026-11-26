@@ -132,6 +132,5 @@ theorem actual_no_outsider_T_six_execution
     exact hs.trans ((congrArg (support I) hp).trans
       (congrArg (support I) htarget))
 
-#print axioms actual_no_outsider_T_six_execution
 end
 end F7Manuscript.TripleCoordinateLattice

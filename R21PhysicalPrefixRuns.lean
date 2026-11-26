@@ -85,6 +85,5 @@ theorem actual_prefix_run {length : Nat} (C : Chart)
   route:=route_firstSteps H n short (by change 4+eventCount plan<=n;omega) }
  exact ⟨n,short,B,rfl,rfl⟩
 
-#print axioms actual_prefix_run
 end
 end F7Manuscript.R21PhysicalChartSlices

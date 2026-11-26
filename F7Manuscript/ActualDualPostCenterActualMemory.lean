@@ -163,7 +163,6 @@ theorem actual_dual_postcenter_frontier_memory
     hroute, ρ, a, p, e, f, g, hv, H, S, hrun, hnorm, hbits, ?_⟩
   simpa only [hrun, controls, routeBits, hplan] using! hmem
 
-#print axioms actual_dual_postcenter_frontier_memory
 
 end
 end F7Manuscript.ActualDualPostCenterActualMemory

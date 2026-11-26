@@ -52,6 +52,5 @@ theorem outside_visit_boundary_witness_before
       rw [htime] at hentry
       exact hentry
 
-#print axioms outside_visit_boundary_witness_before
 
 end F7Manuscript.ActualW18TimeBoundedBoundaryEntry

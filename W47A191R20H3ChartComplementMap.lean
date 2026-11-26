@@ -40,8 +40,5 @@ theorem relabel_complement_0_6_1_5 (e : Fin 7 ≃ Fin 7) :
   rw [mem_map_symm_iff, Finset.mem_sdiff]
   fin_cases y <;> simp [e.apply_eq_iff_eq]
 
-#print axioms mem_map_symm_iff
-#print axioms relabel_complement_0_6_5
-#print axioms relabel_complement_0_6_1_5
 
 end A131

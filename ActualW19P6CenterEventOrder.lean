@@ -115,5 +115,4 @@ theorem center_prestate_equals_previous_poststate
     omega
   simpa [stateAt, hstart, hend] using! hstate.symm
 
-#print axioms center_prestate_equals_previous_poststate
 end F7Manuscript.ActualW19P6CenterEventOrder

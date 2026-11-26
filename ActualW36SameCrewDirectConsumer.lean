@@ -67,4 +67,3 @@ theorem actual_same_crew_short_left_count
 end
 end F7Manuscript.TripleCoordinateLattice.W36SameCrewDirect
 
-#print axioms F7Manuscript.TripleCoordinateLattice.W36SameCrewDirect.actual_same_crew_short_left_count

@@ -76,6 +76,5 @@ theorem actual_interior_switch_charges_selected_block
   change 4 ≤ S.q + S.s
   omega
 
-#print axioms actual_interior_switch_charges_selected_block
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW28R20ActualInteriorCharge

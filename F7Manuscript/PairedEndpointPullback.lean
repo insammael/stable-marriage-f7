@@ -287,7 +287,5 @@ theorem paired_partition_original_layout
           exact (paired_endpoint_pullback s c hv cross label).2
 
 
-#print axioms paired_endpoint_pullback
-#print axioms paired_partition_original_layout
 
 end F7Manuscript.PartnerGraph

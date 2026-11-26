@@ -161,7 +161,6 @@ theorem actual_dual_positive_ABA_first_move_false
   exact F7Manuscript.TripleCoordinateLattice.actual_aba_center_first_move_false
     P W keep u v hu' hv'' huv hpr (by simpa [keep] using! hPstart) hrowsP hpastP
 
-#print axioms actual_dual_positive_ABA_first_move_false
 
 end
 end F7Manuscript.ActualInputS11DualPositiveABAFirstMove

@@ -359,7 +359,6 @@ theorem actual_u3_q0s4_selected11_pivots47812_min_one_false
     omega
 
 
-#print axioms actual_u3_q0s4_selected11_pivots47812_min_one_false
 
 end
 end F7Manuscript.ActualW22W11MinSideCaller

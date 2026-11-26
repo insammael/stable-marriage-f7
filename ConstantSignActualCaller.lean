@@ -353,7 +353,3 @@ that theorem has no h≤1 premise either.  It must not be used for q>0.
 end
 end F7Manuscript.TripleCoordinateLattice.ConstantSignActualCaller
 
-#print axioms F7Manuscript.TripleCoordinateLattice.ConstantSignActualCaller.actual_r20_constant_sign_n4_inputs
-#print axioms F7Manuscript.TripleCoordinateLattice.ConstantSignActualCaller.constant_sign_same_C_charge_from_floor
-#print axioms F7Manuscript.TripleCoordinateLattice.ConstantSignActualCaller.constant_sign_qpos_charge_of_kernel
-#check F7Manuscript.TripleCoordinateLattice.ConstantSignActualCaller.actual_r20_constant_sign_n4_inputs

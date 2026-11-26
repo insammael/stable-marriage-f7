@@ -77,7 +77,6 @@ theorem actualRunOfFullOrderedListing_support_at
   apply congrArg (support I)
   simpa [H] using! hpoint
 
-#print axioms actualRunOfFullOrderedListing_support_at
 
 end
 

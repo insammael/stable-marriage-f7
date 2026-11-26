@@ -33,6 +33,5 @@ theorem original_two_T_counterexample_forces_balanced_four
   balanced_four_of_original_two_T_boundary C h221 h311 hG hT hn hu
     (R21TwoTBoundary.original_two_T_no_five C h221 h311 hG hT hn hu) hcounter
 
-#print axioms original_two_T_counterexample_forces_balanced_four
 end
 end F7Manuscript.TripleCoordinateLattice.R21TwoT

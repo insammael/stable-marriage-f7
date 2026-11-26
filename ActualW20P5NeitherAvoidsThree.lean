@@ -63,6 +63,5 @@ theorem p5_internal_neither_endpoints_avoid_three
       (by simpa [hright, jR] using! rfl) hleftPost
     exact hholders (by simpa [jL,jR] using! hLfive.trans hRfive.symm)
 
-#print axioms p5_internal_neither_endpoints_avoid_three
 end F7Manuscript.ActualW20P5NeitherAvoidsThree
 

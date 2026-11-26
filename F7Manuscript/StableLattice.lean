@@ -1,5 +1,6 @@
 module
 
+public import Mathlib
 public import F7Manuscript.Definitions
 public import Mathlib.Order.Birkhoff
 
@@ -245,9 +246,5 @@ noncomputable instance : DistribLattice (StableMatching I) :=
 theorem le_iff (μ ν : StableMatching I) :
     μ ≤ ν ↔ ∀ m, I.maleRank m (μ.val m) ≤ I.maleRank m (ν.val m) := Iff.rfl
 
-#print axioms betterMatching_stable
-#print axioms worseMatching_stable
-#print axioms rankVector_injective
-#print axioms instDistribLatticeStableMatching
 
 end F7Manuscript.StableLattice

@@ -94,9 +94,6 @@ theorem actual_saved_budget_threshold_le
     T checked savedPlan K L b code tree valid old bits hcode R hledger hboundSaved
     Hobs hfirst06 Hsaved atomic binary hbudget
 
-#print axioms supportsRoute_of_plan_prefix
-#print axioms actual_saved_return_false
-#print axioms actual_saved_budget_threshold_le
 
 end
 end F7Manuscript.ActualW9SavedPruningConsumers

@@ -92,8 +92,4 @@ theorem normalized_fifteen_no_cycle (H : NormalizedRun 15)
     simpa only [forced_modes_fifteen H 15 (by omega),
       forced_modes_fifteen H j.val (by omega)] using fresh_past k hk j.val (by omega)
 
-#print axioms forced_modes_fifteen
-#print axioms terminal_fresh_rank
-#print axioms terminal_no_cycle
-#print axioms normalized_fifteen_no_cycle
 end F7Periodic

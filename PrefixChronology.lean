@@ -101,7 +101,5 @@ theorem colorState_of_word (w : Nat → Color) (ps : List Nat) (m n : Nat)
         simpa only [if_neg hmem, if_neg hne] using hc
     simpa only [colorState, hs, he]
 
-#print axioms NoReturn.of_plan_prefix
-#print axioms colorState_of_word
 
 end F7Local

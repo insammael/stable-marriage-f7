@@ -71,7 +71,5 @@ theorem original_selected_post_future_word
     rw [cutWord,pairAt_append_right _ _ _ (show (startingPairs f).length≤ i.val+3 by change 3≤ i.val+3; omega)] at h
     simpa only [startingPairs,List.length_cons,List.length_nil,normalTailWord,Nat.add_sub_cancel_right] using! h
 
-#print axioms normalTailWord_length
-#print axioms original_selected_post_future_word
 end
 end F7Manuscript.TripleCoordinateLattice.R21OneGHandActual

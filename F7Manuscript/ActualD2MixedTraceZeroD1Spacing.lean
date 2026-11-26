@@ -163,7 +163,6 @@ theorem actual_mixed_trace_offset_zero_d1_next_d2_eq_zero
   rw [← htarget]
   exact hzero
 
-#print axioms actual_mixed_trace_offset_zero_d1_next_d2_eq_zero
 
 end
 end F7Manuscript.TripleCoordinateLattice

@@ -146,7 +146,6 @@ theorem endpoint_unit_one_pivot_some_false_short
         exact fit_refutes_some W D dual j 6 e hWlen hDlen (by omega) (by omega) hmem hlen hD0 hDt hsourceD0
           (by intro q hq hqn; exact hsourceDtail q hq (by omega)) hwindow hSome
 
-#print axioms endpoint_unit_one_pivot_some_false_short
 
 end
 end F7Manuscript.ActualW17U3Q1S3PaidOneFrontierShort

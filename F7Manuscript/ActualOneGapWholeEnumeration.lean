@@ -369,7 +369,6 @@ theorem actual_one_gap_whole_profile_enumeration
   exact ⟨tail,hfutureEq,htail,Dtail,hpts,hc,Hfuture,hfuturePts,
     hPG,HPG,hptPG,H,hUF,hptUF,hprefix⟩
 
-#print axioms actual_one_gap_whole_profile_enumeration
 
 end
 end F7Manuscript.TripleCoordinateLattice

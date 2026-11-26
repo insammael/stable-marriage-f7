@@ -135,6 +135,5 @@ theorem p5_caseA_boundary_step_preserves_345
   · rw [T.step k 5, hfix5]
     exact hpre5
 
-#print axioms p5_caseA_boundary_step_preserves_345
 
 end F7Manuscript.ActualW19P5CaseASingleBoundaryStep

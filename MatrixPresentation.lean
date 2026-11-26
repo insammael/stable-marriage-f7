@@ -198,6 +198,4 @@ theorem Presentation.npairs (E : Presentation P n) (v : Fin n) :
     · simpa [hlj] using! hj
     · simpa [hli,hlj] using! hI
 
-#print axioms presentation
-#print axioms Presentation.triple_card
 end NeutralCore.SmallSeed

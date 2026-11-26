@@ -63,6 +63,5 @@ theorem typeI_same_fixed_after_valid_mixed_prefix
                   apply ih _ _ _ rest Vrest
                   simpa [eventCount, supportsRouteFinal] using! Mnext
 
-#print axioms typeI_same_fixed_after_valid_mixed_prefix
 end
 end F7Manuscript.TripleCoordinateLattice.W34TypeISameFixedMixedPrefix

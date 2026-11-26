@@ -73,8 +73,6 @@ theorem permuted_afterTypeV_stateOfFrame_valid (σ : Equiv.Perm Color)
   permuteSupportFrame_stateOfFrame_valid σ (afterTypeV f fixed r)
     (afterTypeV_stateOfFrame_valid f hv fixed r)
 
-#print axioms afterTypeV_stateOfFrame_valid
-#print axioms permuted_afterTypeV_stateOfFrame_valid
 
 end
 end F7Manuscript.TripleCoordinateLattice

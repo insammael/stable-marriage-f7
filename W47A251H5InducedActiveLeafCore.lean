@@ -116,4 +116,3 @@ end
 
 end F7Manuscript.TripleCoordinateLattice
 
-#print axioms F7Manuscript.TripleCoordinateLattice.nonbottom_two_threshold_seed_active_normal_leaf

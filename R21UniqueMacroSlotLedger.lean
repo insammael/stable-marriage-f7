@@ -36,6 +36,5 @@ theorem unique_positive_macro_sum {n : ℕ} (z : Fin n → ℕ) (k : Fin n → �
   have hrun := Fin.sum_univ_succAbove run t.succ
   linarith
 
-#print axioms unique_positive_macro_sum
 end F7Manuscript.TripleCoordinateLattice
 

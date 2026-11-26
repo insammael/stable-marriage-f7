@@ -34,6 +34,5 @@ theorem normalize_seed_order_commute (f : SupportFrame) (valid : ValidLayout (st
  · exact (DisjointWordCommute.cons _ (disjoint_word_swap _ _ [] h12)).trans
     (disjoint_word_swap _ _ _ h02)
 
-#print axioms normalize_seed_order_commute
 end
 end F7Manuscript.R21PhysicalSeededNormalization

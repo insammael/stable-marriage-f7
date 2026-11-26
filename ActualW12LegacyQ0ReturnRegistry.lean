@@ -975,9 +975,6 @@ theorem q0_return_registry_metadata :
   · subst e
     exact new233_return_entry_metadata
 
-#print axioms zero_budget_all_return_noReturn
-#print axioms q0_return_registry
-#print axioms q0_return_registry_metadata
 
 #eval IO.eprintln "W12 legacy Q0 return registry checked"
 

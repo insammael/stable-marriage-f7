@@ -116,7 +116,6 @@ theorem subsetNormalSegment_first_three_scheduled_blocks
                 · exact htime₁
                 · rfl
 
-#print axioms subsetNormalSegment_first_three_scheduled_blocks
 
 end
 end F7Manuscript.TripleCoordinateLattice

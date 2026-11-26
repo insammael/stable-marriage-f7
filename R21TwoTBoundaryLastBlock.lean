@@ -87,7 +87,5 @@ theorem actual_nonempty_block_inverse_head
  simpa only [paired_last_retired,List.reverse_append,List.reverse_cons,List.reverse_nil,
    List.nil_append,List.singleton_append,List.cons_append,List.append_assoc,h] using! hY
 
-#print axioms actual_nonempty_block_inverse_head
-#print axioms mixedPlanFrom_last_block
 end
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

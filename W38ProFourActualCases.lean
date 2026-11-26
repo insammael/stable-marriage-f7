@@ -39,7 +39,6 @@ theorem actual_four_diagram_run_false
     · exact F7Manuscript.TripleCoordinateLattice.W37ProTail107FromRun.tail107_from_actual_run
         S A hm hq j hj10 hd hp7
 
-#print axioms actual_four_diagram_run_false
 
 end
 end F7Manuscript.TripleCoordinateLattice.W38ProFourActualCases

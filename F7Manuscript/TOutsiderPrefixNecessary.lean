@@ -128,6 +128,5 @@ theorem outsiderPrefixCheck_of_NecessaryLocalWord
     · rfl
   simp [outsiderPrefixCheck, hfreshPrefix, hnoPrefix]
 
-#print axioms outsiderPrefixCheck_of_NecessaryLocalWord
 
 end F7Manuscript.TOutsiderNecessaryWord

@@ -178,7 +178,6 @@ theorem actual_reverse_route_memory_with_provenance
   exact ⟨E,Hwhole,Rwhole,e,word,levels,m,bits,
     hsize,hblock,hsub,hpre,hcycles,hmEq,hword,hlevels,hword0,hbinary,hroute',hmemory⟩
 
-#print axioms actual_reverse_route_memory_with_provenance
 
 end
 end F7Manuscript.ActualW7ReverseRouteMemoryWithProvenance

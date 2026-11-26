@@ -82,7 +82,5 @@ theorem replaceLabel_properties (f : Fin 3 → V) (a d : V)
           rw [if_neg hca, hcx]
         exact Finset.mem_image.mpr ⟨c, Finset.mem_univ _, hnew⟩
 
-#print axioms initial_coloring
-#print axioms replaceLabel_properties
 
 end F7Manuscript.FrontierLabelStep

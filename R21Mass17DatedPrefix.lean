@@ -99,7 +99,4 @@ theorem DatedPlan.massEightPrefixCost
   have cap := P.shortCostSize binary (by omega)
   omega
 
-#print axioms DatedPlan.physicalPrefix
-#print axioms DatedPlan.shortCostSize
-#print axioms DatedPlan.massEightPrefixCost
 end F7Manuscript.R21NormalEndpoint.ReseededObservation

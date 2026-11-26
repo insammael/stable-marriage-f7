@@ -123,8 +123,5 @@ theorem actual_binary_retired_lt_next_center_of_same_triple_crew
     · exact (t.property d c heq).1 hdc
   exact lt_of_le_of_ne (hcomp.resolve_right hnot) (fun heq => hnot heq.ge)
 
-#print axioms actual_binary_retired_actor_outside_triple
-#print axioms actual_binary_next_center_actor_outside_triple
-#print axioms actual_binary_retired_lt_next_center_of_same_triple_crew
 end
 end F7Manuscript.TripleCoordinateLattice

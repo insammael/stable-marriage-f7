@@ -182,6 +182,5 @@ theorem terminal_post_suffix_same_decisions
   have hp := ConvexExecution.enumerationOfOrderedImage_point F.card f hf ho F himage i
   simpa only [Dfuture,f] using! hp
 
-#print axioms terminal_post_suffix_same_decisions
 end
 end F7Manuscript.TripleCoordinateLattice.R21OneGHandActual

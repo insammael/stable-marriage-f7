@@ -37,11 +37,3 @@ theorem noMutual_after46_35_36_25 : F7Manuscript.ActualW12Q4ProtectedConnectorsH
 
 end F7Manuscript.ActualW12Q4Node43HandBound
 
-#print axioms F7Manuscript.ActualW12Q4Node43HandBound.noMutual_after26_35
-#print axioms F7Manuscript.ActualW12Q4Node43HandBound.noMutual_after26_56
-#print axioms F7Manuscript.ActualW12Q4Node43HandBound.noMutual_after35_26
-#print axioms F7Manuscript.ActualW12Q4Node43HandBound.noMutual_after35_25_46_36
-#print axioms F7Manuscript.ActualW12Q4Node43HandBound.noMutual_after35_46_25_36
-#print axioms F7Manuscript.ActualW12Q4Node43HandBound.noMutual_after35_46_36_25
-#print axioms F7Manuscript.ActualW12Q4Node43HandBound.noMutual_after46_35_25_36
-#print axioms F7Manuscript.ActualW12Q4Node43HandBound.noMutual_after46_35_36_25

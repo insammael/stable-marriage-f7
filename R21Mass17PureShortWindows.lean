@@ -139,6 +139,5 @@ theorem DatedPlan.pure_short_windows (n : Nat) :
           normD bin1 transformed (by simpa using! lower) (by simpa using! upper)
         simpa only [List.length_map,abaCount_map] using! h
 
-#print axioms DatedPlan.pure_short_windows
 end
 end F7Manuscript.R21NormalEndpoint.ReseededObservation

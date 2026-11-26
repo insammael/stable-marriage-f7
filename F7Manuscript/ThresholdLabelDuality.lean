@@ -323,10 +323,3 @@ theorem macroCensus_dual :
 end
 end F7Manuscript.TripleCoordinateLattice
 
-#print axioms F7Manuscript.TripleCoordinateLattice.le_kappa_iff
-#print axioms F7Manuscript.TripleCoordinateLattice.labels_thresholdDual
-#print axioms F7Manuscript.TripleCoordinateLattice.thresholdDual_le_iff
-#print axioms F7Manuscript.TripleCoordinateLattice.thresholdDual_bijective
-#print axioms F7Manuscript.TripleCoordinateLattice.byLabel_card_dual
-#print axioms F7Manuscript.TripleCoordinateLattice.isolatedDouble_card_dual
-#print axioms F7Manuscript.TripleCoordinateLattice.macroCensus_dual

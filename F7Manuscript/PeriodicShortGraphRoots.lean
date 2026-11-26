@@ -130,16 +130,5 @@ theorem rootFor_pairAt_support_eq_modeWord (k : ℕ) (hk : 7 ≤ k ∧ k ≤ 10)
   exact (F7Manuscript.PartnerGraph.Periodic.modeWord_pairAt_support_eq_root
     b ⟨i.val, by have := i.isLt; omega⟩).symm
 
-#print axioms root10A_valid
-#print axioms root10B_valid
-#print axioms root9A_valid
-#print axioms root9B_valid
-#print axioms root8A_valid
-#print axioms root8B_valid
-#print axioms root7A_valid
-#print axioms root7B_valid
-#print axioms rootFor_prefix_length
-#print axioms rootFor_pairAt_eq_rootOf
-#print axioms rootFor_pairAt_support_eq_modeWord
 
 end F7Manuscript.PartnerGraph.PeriodicShort

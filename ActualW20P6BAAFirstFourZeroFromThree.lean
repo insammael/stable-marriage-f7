@@ -50,5 +50,4 @@ theorem actual_BAA_four_departure_sends_three_to_six
   · exact False.elim (hinitial0case_false hzero)
   · exact ⟨e,k0,k1,k2,hlist,h01,h12,he,hpre6,hpart,hsupport,hthree,hpost0,hfreeze⟩
 
-#print axioms actual_BAA_four_departure_sends_three_to_six
 end F7Manuscript.ActualW20P6BAAFirstFourZeroFromThree

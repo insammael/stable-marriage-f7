@@ -90,8 +90,5 @@ theorem pair_above_two_initial (C : Chart) (j : Fin C.m)
   · exact (initial_reaches_frontier C j.val (Nat.le_of_lt j.isLt) _).trans
       (frontier_reaches_pair C j k 1 side)
 
-#print axioms initial_reaches_frontier
-#print axioms later_center_above_two_initial
-#print axioms pair_above_two_initial
 end
 end F7Manuscript.NormalSkeleton.Chart

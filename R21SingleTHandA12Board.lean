@@ -99,6 +99,5 @@ theorem A12_prefix_impossible {n m : ℕ}
   exact A12_no_complement _ _ _ _ hIL hIR
     (observed_ends_complement LT RT ht k l 5 A12U hu)
 
-#print axioms A12_prefix_impossible
 end
 end F7Manuscript.R21SingleTHand

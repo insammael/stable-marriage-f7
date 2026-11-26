@@ -134,6 +134,5 @@ theorem upper_row_two_moving_frontiers_eq_pool
     _ = actualMovingPool C h221 h311 hG hT j r := hmovingAt
     _ = actualMovingPool C h221 h311 hG hT j 0 := hpoolConst
 
-#print axioms upper_row_two_moving_frontiers_eq_pool
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW28R20UpperMovingPool

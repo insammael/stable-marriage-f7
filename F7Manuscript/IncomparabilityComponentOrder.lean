@@ -117,8 +117,6 @@ theorem lt_of_componentIndex_lt {x y : V} (hxy : componentIndex x < componentInd
 
 end Finite
 
-#print axioms componentOf_mono
-#print axioms lt_of_componentIndex_lt
 
 end
 end F7Manuscript.IncomparabilityComponents

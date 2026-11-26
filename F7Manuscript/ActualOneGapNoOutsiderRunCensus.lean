@@ -197,7 +197,6 @@ theorem actual_one_gap_no_outsider_run_census
   have hnZ : (Fintype.card (Event I) : ℤ) = 20 := by exact_mod_cast hn
   omega
 
-#print axioms actual_one_gap_no_outsider_run_census
 
 end
 end F7Manuscript.TripleCoordinateLattice

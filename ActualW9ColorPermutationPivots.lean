@@ -53,6 +53,5 @@ theorem pivotsOf_map_perm (xs : List (Fin 3)) (ρ : Equiv.Perm (Fin 3)) :
       (j - 1) hleft, mapped_getElem!_valid xs (fun c => (ρ c).val)
       (j + 1) hend] using hρ
 
-#print axioms pivotsOf_map_perm
 
 end F7Manuscript.ActualW9ColorPermutationPivots

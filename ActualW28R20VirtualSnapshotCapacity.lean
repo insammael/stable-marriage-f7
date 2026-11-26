@@ -1,5 +1,6 @@
 module
 
+public import Mathlib
 public import F6SmallBlockTokenCapacity
 
 @[expose] public section
@@ -53,6 +54,5 @@ theorem five_snapshots_exceed_four_token_pool
   rw [hsnapshots] at hcard
   omega
 
-#print axioms five_snapshots_exceed_four_token_pool
 end
 end F7Manuscript.ActualW28R20VirtualSnapshotCapacity

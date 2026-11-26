@@ -48,6 +48,5 @@ theorem actual_outside_three_q0_p5_zero_endpoint_frontier
   exact actual_outside_three_q0_p5_zero_endpoint_frontier_without_p6_bound
     C hn hδ hdeficit h221 h311 hG hT houtside p5_actual_pure_budget12
 
-#print axioms actual_outside_three_q0_p5_zero_endpoint_frontier
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW20OutsideThreeQ0P5ZeroEndpointFrontierClosed

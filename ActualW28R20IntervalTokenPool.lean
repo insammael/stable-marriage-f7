@@ -63,8 +63,5 @@ theorem interval_token_pool_transport
       t₁ ht₀₁ le_rfl actor hactor
   · exact pool_tokens_at_intermediate_cut R S t₀ t₁ ht₀₁ hconf
 
-#print axioms outside_pool_fixed_at_intermediate_cut
-#print axioms pool_tokens_at_intermediate_cut
-#print axioms interval_token_pool_transport
 end
 end F7Manuscript.ActualW28R20IntervalTokenPool

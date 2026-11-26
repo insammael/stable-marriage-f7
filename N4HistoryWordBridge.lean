@@ -167,11 +167,6 @@ theorem renamed_transposed_sourceHistory_word_fresh
   simp [SwapHistory.rename,SwapHistory.transpose,sourceHistory,prefixEquiv,
     matchingEquiv,sourcePrefix,initialWord,F7Manuscript.ActualPlanNoReturn.routePrefix_zero]
 
-#print axioms state_eq_origins_of_exact_word
-#print axioms fresh_of_exact_word
-#print axioms historyWord_fresh
-#print axioms noReturn_iff_fresh_sourcePrefix
-#print axioms transposed_sourceHistory_word_fresh
 
 end
 end F7Manuscript.N4HistoryWordBridge

@@ -164,8 +164,5 @@ theorem actual_event_support_address
     rw [hrun, hraw]
     exact congrArg (support I) hlabel
 
-#print axioms actual_event_time_ne_cut
-#print axioms actual_event_time_injective
-#print axioms actual_event_support_address
 end
 end F7Manuscript.ActualW29R20CanonicalEventAddress

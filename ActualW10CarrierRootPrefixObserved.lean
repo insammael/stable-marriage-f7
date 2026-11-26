@@ -155,7 +155,6 @@ theorem carrier_has_observed_root_prefix
   rw [htake] at Hroot
   exact ⟨e, b, ⟨Hroot⟩⟩
 
-#print axioms carrier_has_observed_root_prefix
 
 end
 end F7Manuscript.ActualW10CarrierRootPrefixObserved

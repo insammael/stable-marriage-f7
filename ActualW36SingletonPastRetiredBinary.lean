@@ -59,6 +59,5 @@ theorem actual_w36_no_outsider_past_retired_binary_of_no_nonbinary
   exact F7Manuscript.TripleCoordinateLattice.ActualW36NormalRunAllBinaryOfNoLower.actual_no_outsider_run_all_events_binary_of_no_nonbinary_lower
     C h221 h311 hu E R hm1 hnot r hrQ
 
-#print axioms actual_w36_no_outsider_past_retired_binary_of_no_nonbinary
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW36SingletonPastRetiredBinary

@@ -51,8 +51,6 @@ theorem new72_metadata :
     have hi' : i < 7 := by omega
     interval_cases i <;> decide
 
-#print axioms new72_return_entry
-#print axioms new72_metadata
 
 #eval IO.eprintln "W12 NEW72 return-entry checked"
 

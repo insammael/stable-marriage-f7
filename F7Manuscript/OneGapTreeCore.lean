@@ -118,6 +118,4 @@ theorem checked_tree_excludes {W : Type*} [Fintype W] {q : ℕ}
       simpa only [hlen,List.take_length] using hp'
     exact hc.2.2.2.2 (by rw [heq]; exact hprofile hc.1)
 
-#print axioms selected_leaf_word_prefix
-#print axioms checked_tree_excludes
 end F7Manuscript.OneGap

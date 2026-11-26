@@ -80,6 +80,5 @@ theorem fixedTokenSwapTrace_completedTokenFrozen {F : Rel} {n : ℕ}
   intro l hkl
   exact hstay l.val l rfl hkl
 
-#print axioms fixedTokenSwapTrace_completedTokenFrozen
 
 end F7Manuscript.PartnerGraph

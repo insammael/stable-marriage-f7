@@ -81,6 +81,5 @@ theorem actual_normal_zero_cost_periodic_enumeration
     rw [hinit, hHinitial]
     exact actual_normal_run_initial_row_label C h221 h311 hu Eglobal R (α.symm c)
 
-#print axioms actual_normal_zero_cost_periodic_enumeration
 end
 end F7Manuscript.ActualZeroCostPeriodicEnumeration

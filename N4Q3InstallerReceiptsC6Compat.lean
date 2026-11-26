@@ -213,9 +213,5 @@ theorem paired_supported_route_fixes_anchor
     (last_frontier_or_idle_outside_movingPool f hv p hp)
 
 end ActualInstallerReceipts
-#print axioms frontierMemory_mate_receipts
-#print axioms old_anchor_receipts_of_two_installers
-#print axioms paired_supported_route_fixes_outside
-#print axioms paired_supported_route_fixes_anchor
 end
 end F7Manuscript.N4Q3Branch

@@ -128,10 +128,6 @@ theorem reflected_support_order (f g : SupportFrame) (ε : Color → Bool)
     (f.frontier (leftCoord f)) (f.frontier (rightCoord f))
     (ε (leftCoord f)) (ε (rightCoord f)) x
 
-#print axioms SamePrefix.observed
-#print axioms SamePrefix.memory
-#print axioms paired_rows_disjoint
-#print axioms reflected_support_order
 
 end
 end F7Manuscript.ActualW8MixedReflectionSupport

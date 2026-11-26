@@ -30,7 +30,5 @@ theorem selected44_profile_metadata :
       totalBudget44 = eventBudget44 + branchBudget44 ∧ totalBudget44 = 16 := by
   decide
 
-#print axioms selected44_old_frontier
-#print axioms selected44_profile_metadata
 
 end F7Manuscript.ActualW21Selected44OldFrontier

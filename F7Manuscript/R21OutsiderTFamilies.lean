@@ -91,7 +91,5 @@ theorem actual_two_T_family_group_card_le_one
   have hslot := Finset.card_le_card hsub
   omega
 
-#print axioms actual_outsider_T_family
-#print axioms actual_T_family_G_slot_empty_or_two
 end
 end F7Manuscript.TripleCoordinateLattice

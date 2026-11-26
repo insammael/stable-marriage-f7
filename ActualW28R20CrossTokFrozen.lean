@@ -107,7 +107,5 @@ theorem crossTok_freezes_unique_survivor
   exact ⟨hsingle,
     unique_survivor_frozen R finish cut W hpast htok hfinishCut 1 hsingle⟩
 
-#print axioms crossTok_pool_has_unique_survivor
-#print axioms crossTok_freezes_unique_survivor
 end
 end F7Manuscript.ActualW28R20CrossTokFrozen

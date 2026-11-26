@@ -31,7 +31,5 @@ theorem r21_zero_outsiders_two_macros_original (I : Profile 7) [Nonempty (Stable
   exact R21TwoBareMacros.zero_outsiders_two_macros_of_window_costs C hn h221 h311 g t h hu hG hT hdelta
     (actual_r21_normal_window_cost C hn h221 h311)
 
-#print axioms r21_one_or_two_outsiders_single_T_original
-#print axioms r21_zero_outsiders_two_macros_original
 end
 end F7Manuscript.ActualPositiveDeficitCoverAssembly

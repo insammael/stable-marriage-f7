@@ -156,7 +156,5 @@ theorem actual_no_outsider_run_nonbinary_or_boundaries_binary
       actual_no_outsider_run_boundaries_binary_of_no_nonbinary_lower
         C h221 h311 hu E R hm1 hnonbinary c)
 
-#print axioms actual_no_outsider_run_boundaries_binary_of_no_nonbinary_lower
-#print axioms actual_no_outsider_run_nonbinary_or_boundaries_binary
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW35NormalRunBinaryBoundary

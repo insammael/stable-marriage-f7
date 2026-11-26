@@ -152,7 +152,5 @@ theorem actual_inverse_paired_impossible
  rw [noPair x] at ht
  contradiction
 
-#print axioms actual_inverse_paired_rejected
-#print axioms actual_inverse_paired_impossible
 end
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

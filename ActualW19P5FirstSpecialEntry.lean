@@ -66,6 +66,5 @@ theorem p5_first_special_entry_site_three
     exact False.elim (hnoReentry 5 (Or.inr rfl) t 4 ht hpost5 hyOut
       (by simp [S]) hvisit)
 
-#print axioms p5_first_special_entry_site_three
 
 end F7Manuscript.ActualW19P5FirstSpecialEntry

@@ -92,8 +92,5 @@ theorem r21_one_outsider_no_macro_original_of_physical_rules
   r21_one_outsider_no_macro_original_of_mass17
     (mass17_lower_of_physical_rules noPaired motifs) I
 
-#print axioms actual_outsider_date
-#print axioms mass17_lower_of_physical_rules
-#print axioms r21_one_outsider_no_macro_original_of_physical_rules
 end
 end F7Manuscript.R21Mass17Original

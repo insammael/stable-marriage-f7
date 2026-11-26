@@ -103,5 +103,4 @@ theorem centerTypeWord_candidate_patterns
     (centerTypeWord_length_bounds tr).2 (centerTypeWord_count_true_le_two tr)
     (centerTypeWord_count_false_le_two tr) habab hbaba
 
-#print axioms centerTypeWord_candidate_patterns
 end F7Manuscript.ActualW19P6CenterTypeWord

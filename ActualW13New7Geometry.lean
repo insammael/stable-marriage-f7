@@ -53,8 +53,5 @@ theorem new7Geometry_plan_eq_root :
           (new7Geometry.colors.length-1) := by
   decide +kernel
 
-#print axioms new7Geometry_norm_eq
-#print axioms new7Geometry_data
-#print axioms new7Geometry_plan_eq_root
 
 end F7Manuscript.ActualW13New7Geometry

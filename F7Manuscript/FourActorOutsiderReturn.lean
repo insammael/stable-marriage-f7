@@ -68,7 +68,5 @@ theorem outsiderWord_length (r : Fin 3) (reverseNewRow : Bool) :
   fin_cases r <;> cases reverseNewRow <;>
     simp [outsiderWord, newMatching, s01, s23, s02, s13, s03, s12]
 
-#print axioms returnLeaf_valid
-#print axioms outsiderWord_not_realized
 
 end F7Manuscript.FourActorOutsiderReturn

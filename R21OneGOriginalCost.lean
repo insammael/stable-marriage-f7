@@ -83,6 +83,5 @@ theorem r21_one_G_global_cost_lower_bound
       pairDeficit (tripleVertices C)
   omega
 
-#print axioms r21_one_G_global_cost_lower_bound
 end
 end F7Manuscript.ActualPositiveDeficitCoverAssembly

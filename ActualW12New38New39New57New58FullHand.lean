@@ -723,6 +723,5 @@ theorem new38_new39_new57_new58_noReturn_impossible
     · exact block_ztrue_R c h hc hh bits hfirst N h4 h5 h6 hR
     · exact block_ztrue_S c h hc hh bits hfirst N h4 h5 h6 hS
 
-#print axioms new38_new39_new57_new58_noReturn_impossible
 
 end F7Manuscript.ActualW12New38New39New57New58FullHand

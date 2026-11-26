@@ -108,8 +108,6 @@ theorem actual_oriented_fit_iff_normalized_tuple_fit
   rw [htupleNorm]
   exact actual_oriented_fit_iff_raw_tuple_fit X c dual j
 
-#print axioms actual_oriented_fit_iff_raw_tuple_fit
-#print axioms actual_oriented_fit_iff_normalized_tuple_fit
 
 end
 end F7Manuscript.ActualW13New1213CleanActualTupleFitBridge

@@ -53,5 +53,4 @@ theorem p5_actual_CII_Y2_entry_at_three_impossible
     (Finset.mem_sdiff.mp hunused).2
   exact hnot hhit
 
-#print axioms p5_actual_CII_Y2_entry_at_three_impossible
 end F7Manuscript.ActualW20P5CaseCIIY2CutContradictionFix

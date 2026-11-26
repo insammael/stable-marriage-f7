@@ -83,7 +83,5 @@ theorem actual_X_paid6_reverse_false
   intro tr hw
   exact actual_ABB_center_word_false tr hw
 
-#print axioms actual_X_paid6_forward_false
-#print axioms actual_X_paid6_reverse_false
 end
 end F7Manuscript.ActualW20P6Paid6BudgetConsumerABBClosed

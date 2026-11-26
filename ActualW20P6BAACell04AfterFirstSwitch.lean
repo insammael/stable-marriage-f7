@@ -110,5 +110,4 @@ theorem actual_BAA_cell_04_receipt_after_switch
           have hbad : (0 : Site) = 5 := hinj (hsite0.trans hcenter.symm)
           exact False.elim ((by decide : (0 : Site) ≠ 5) hbad)
 
-#print axioms actual_BAA_cell_04_receipt_after_switch
 end F7Manuscript.ActualW20P6BAACell04AfterFirstSwitch

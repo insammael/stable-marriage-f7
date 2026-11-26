@@ -229,8 +229,5 @@ theorem normalize_execution_first_choice_of_adjacent
   exact mixedPlan_center_head_ne_zero _ levels m A.firstColor
     (fun he => hadj (A.colorPerm.injective he))
 
-#print axioms normalize_first_choice
-#print axioms normalize_execution_first_choice
-#print axioms normalize_execution_first_choice_of_adjacent
 end
 end F7Manuscript.MixedFirstChoiceNormalization

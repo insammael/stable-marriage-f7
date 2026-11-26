@@ -227,6 +227,5 @@ theorem terminal_A12_1356 :
       intro hc
       exact hbudget hc.2.1
 
-#print axioms terminal_A12_1356
 
 end F7Manuscript.PartnerGraph.G1Frozen13.CertW611

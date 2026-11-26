@@ -54,6 +54,5 @@ theorem ordered_crown_binary {n m : ℕ} {S T : NormalSkeleton.Chart}
     · exact route_binary_tail R.post _ _ _ _ _ R.route₁
         (by simp only [Fin.val_mk,chart_plan_event_count]; omega) i (by change 3 ≤ i.val; omega)
 
-#print axioms ordered_crown_binary
 end
 end F7Manuscript.R21SingleTHand

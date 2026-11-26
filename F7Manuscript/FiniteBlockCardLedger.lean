@@ -59,7 +59,5 @@ theorem pairDeficit_block_interval [Fintype V] [PartialOrder V] [DecidableLE V]
       exact hdisjoint (left+j) (by omega))
   simpa only [← blockPrefix_interval] using! h
 
-#print axioms blockPrefix_card_interval
-#print axioms pairDeficit_block_interval
 end
 end F7Manuscript.FiniteBlockPairLedger

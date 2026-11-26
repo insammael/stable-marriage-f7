@@ -41,7 +41,5 @@ theorem source7_195799002907648_used : (table row164).used = 2 := rfl
 
 theorem source7_195799002907648_budget : (table row164).budget = 1 := rfl
 
-#print axioms source7_107830657942528_valid
-#print axioms source7_195799002907648_valid
 
 end F7Manuscript.ActualW21NormalQ123AnchorBridge

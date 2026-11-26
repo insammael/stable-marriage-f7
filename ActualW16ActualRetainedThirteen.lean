@@ -94,7 +94,6 @@ theorem actual_X_u4_cost_three_retained_thirteen
     W D (a, a+x, a+x+y) h43 (by omega) hDlen hDzero (by simpa [hP]) hSomeF hSomeR
   exact ⟨a, x, y, hx, hy, h13, hP⟩
 
-#print axioms actual_X_u4_cost_three_retained_thirteen
 
 end
 end F7Manuscript.ActualW16ActualRetainedThirteen

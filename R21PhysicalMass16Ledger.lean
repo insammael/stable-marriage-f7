@@ -84,6 +84,5 @@ theorem actual_mass16_ledger_of_noDouble {length : Nat} (C : Chart)
  rw [hmark 0,hmark 1,hmark 2,hmark 3]
  exact paid
 
-#print axioms actual_mass16_ledger_of_noDouble
 end
 end F7Manuscript.R21PhysicalWindowWords

@@ -19,7 +19,6 @@ def templatesZ1 : List (List Atom × List Atom) := [
 ]
 
 theorem templatesZ1_length : templatesZ1.length = 2 := by decide
-#print axioms templatesZ1_length
 
 def templatesZ2 : List (List Atom × List Atom) := [
   ([(0, 2), (0, 4)], [(0, 3), (1, 4), (2, 5)]),
@@ -41,7 +40,6 @@ def templatesZ2 : List (List Atom × List Atom) := [
 ]
 
 theorem templatesZ2_length : templatesZ2.length = 16 := by decide
-#print axioms templatesZ2_length
 
 def templatesZ3 : List (List Atom × List Atom) := [
   ([(0, 2), (0, 4), (0, 3)], [(0, 5), (1, 3), (2, 6)]),
@@ -179,10 +177,8 @@ def templatesZ3 : List (List Atom × List Atom) := [
 ]
 
 theorem templatesZ3_length : templatesZ3.length = 132 := by decide +kernel
-#print axioms templatesZ3_length
 
 theorem saved_counts :
     (templatesZ1.length, templatesZ2.length, templatesZ3.length) = (2, 16, 132) := by decide +kernel
-#print axioms saved_counts
 
 end F7Manuscript.TOutsiderSavedTemplateCatalog

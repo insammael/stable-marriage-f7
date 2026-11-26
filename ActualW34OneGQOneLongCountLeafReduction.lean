@@ -95,6 +95,5 @@ theorem r20_010_from_short_run_residual
     · exact Or.inl ⟨by omega, hm1⟩
     · exact False.elim (hnotboth ⟨by omega, by omega⟩)
 
-#print axioms r20_010_from_short_run_residual
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW34OneGQOneLongCountLeafReduction

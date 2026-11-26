@@ -93,6 +93,5 @@ theorem LastFrameCertificate.excludes_frontier (C : LastFrameCertificate) {n m :
   · exact h0 (touches_to_frameHit L C.witness₀ f c i (M.support_eq c) hab hlast hc)
   · exact h1 (touches_to_frameHit L C.witness₁ f c i (M.support_eq c) hab hlast hc)
 
-#print axioms LastFrameCertificate.excludes_frontier
 end
 end F7Manuscript.R21SingleTHand

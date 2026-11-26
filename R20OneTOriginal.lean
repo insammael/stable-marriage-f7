@@ -20,5 +20,4 @@ theorem r20_leaf_zero_zero_one :
     R20OneTSingletonLong.actual_one_T_endpoint_singleton_long_obligation
     R20OneTBothLong.actual_one_T_endpoint_both_long_obligation
 
-#print axioms r20_leaf_zero_zero_one
 end F7Manuscript.TripleCoordinateLattice.R20OneTOriginal

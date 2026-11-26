@@ -85,6 +85,5 @@ theorem first_leaf_switch_upper_rows
   · simpa only [hrzero] using! hb
   · simpa only [hrzero, Nat.zero_add] using! ha
 
-#print axioms first_leaf_switch_upper_rows
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW30R20FirstLeafSwitchRows

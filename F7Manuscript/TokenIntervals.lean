@@ -196,10 +196,5 @@ theorem reverseRun_costFrom (R : TokenRun Site W q) :
   rw [hsum] at hrev
   omega
 
-#print axioms subRun_donor_atomic
-#print axioms subRun_costFrom
-#print axioms subRun_costFrom_offset
-#print axioms reverseRun_donor_atomic
-#print axioms reverseRun_costFrom
 
 end F7Manuscript.PartnerGraph.Periodic

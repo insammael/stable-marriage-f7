@@ -281,6 +281,5 @@ theorem old_five_nonfit_implies_gap
       W D a x hWlen hDlen hDzero hP' ha hx (by omega) hSomeF
   exact ⟨h1,h2,h3,h4,h5,h6,h7,h8,h9,h10,h11,h12,h13,h14,h15,h16,h17⟩
 
-#print axioms old_five_nonfit_implies_gap
 
 end F7Manuscript.ActualW16FiveRootGapNoFitComplete

@@ -207,17 +207,8 @@ theorem w47_a228_actual_counterexample_forces_remaining_14_0
       E hE hcoreCard hmacro x hout hmixed h140)
 
 -- Composition audits.
-#print axioms r20A227CountRule_of_decisions
-#print axioms w47_a228_original_four_exclusions_of_remaining_14_0
-#print axioms w47_a228_actual_stableCount_le_85_of_remaining_14_0
-#print axioms w47_a228_actual_counterexample_forces_remaining_14_0
 
 -- Original-data provenance and supplied leaves.
-#print axioms w47_a228_original_data
-#print axioms w47_a228_actual_core_lower_of_four
-#print axioms h7_original_pure14_w47_a228_exclusion
-#print axioms h7_original_mixed13_contradiction
-#print axioms F7Manuscript.TripleCoordinateLattice.Original13Reduction.original_13_1_contradiction_without_hdef
 
 end
 

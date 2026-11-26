@@ -123,7 +123,6 @@ theorem actual_outside_three_surviving_query_key15
     exact not_or.mpr ⟨hnotOld,hnotShifted⟩
   exact ⟨X,k,hmem,hu,hq,hs,hm,hW,hD,hsk,huk,hvk⟩
 
-#print axioms actual_outside_three_surviving_query_key15
 
 end
 end F7Manuscript.ActualW21OutsideThreeAfterShiftedWindow0

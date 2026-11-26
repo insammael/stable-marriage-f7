@@ -82,6 +82,5 @@ theorem no_zero_cost_sixteen_window (R : TokenRun Site W 21)
   · exact no_pre_chain R obs binary 3 off h le_rfl initialNames (names_initial R _) left
   · exact no_post_chain R obs binary 3 (off+16) (by omega) le_rfl (finalNames s) obs.last right
 
-#print axioms no_zero_cost_sixteen_window
 end F7Manuscript.R21NormalEndpoint
 

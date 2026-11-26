@@ -71,7 +71,6 @@ theorem shifted_window_packet {W : Type*} [Fintype W] {q : Nat}
       exact hbE k
     exact (Equiv.Perm.card_support_eq_two.mp hcard).isCycle
 
-#print axioms shifted_window_packet
 
 end
 end F7Manuscript.ActualW8ShiftedWindowObservedPacket

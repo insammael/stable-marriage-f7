@@ -39,5 +39,4 @@ theorem continuation_to_localNormal (B : Board) (f : SupportFrame)
      simpa [pairWord,freshWord,replay,Bool.and_assoc,and_assoc] using! hfr
    exact LocalNormal.paired (bits i) (bits (i+1)) hsplit.1 (ih _ _ _ hsplit.2)
 
-#print axioms continuation_to_localNormal
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

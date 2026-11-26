@@ -79,5 +79,4 @@ theorem handDAG_normal_bound {plan : List Move} {s t : PhysicalState}
     (h : PhysicalTrace (graphGuard handCompatible handRejected) plan s t)
     (i : Fin 61) (hi : s∈(handDAG i).states) : eventCount plan+(handDAG i).mass≤6 :=
   handGraph_trace_bound handDAG handCompatible handRejected 6 handDAG_checked handDAG_masses h i hi
-#print axioms handDAG_normal_bound
 end F7Manuscript.R21SingleTHand

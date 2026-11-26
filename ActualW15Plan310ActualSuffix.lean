@@ -170,8 +170,6 @@ theorem plan310_actual_carrier_run_bound
   have h := plan310_actual_suffix_le_two C hp wordCase
   omega
 
-#print axioms plan310_actual_suffix_le_two
-#print axioms plan310_actual_carrier_run_bound
 
 end
 end F7Manuscript.ActualW15Plan310ActualSuffix

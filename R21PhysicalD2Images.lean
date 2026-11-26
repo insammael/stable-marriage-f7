@@ -39,7 +39,5 @@ theorem observation_excluded_of_no_walk
  rw [atlas_projection] at walk
  exact noWalk walk
 
-#print axioms two_pairs_covered
-#print axioms observation_excluded_of_no_walk
 end
 end F7Manuscript.R21PhysicalD2

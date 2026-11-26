@@ -24,5 +24,4 @@ theorem p5_swap_three_five_pre_three_is_special {n : Nat}
   generalize hv : tr.state e.castSucc 3 = a at hf hh ⊢
   fin_cases a <;> simp [graphRel,p5G0,ofEdges] at hf hh ⊢
 
-#print axioms p5_swap_three_five_pre_three_is_special
 end F7Manuscript.ActualW20P5SwapThreeFiveGate

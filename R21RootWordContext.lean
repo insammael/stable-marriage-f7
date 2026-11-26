@@ -67,6 +67,5 @@ theorem no_actual_root (R : TokenRun Site Site 21) (off : Nat) (bound : off+8≤
   exact no_actual_table_context (rootIndex r) state
     (color_short_nat _ (color_short_map whole (rootColorPerm im) rules)) leftCap rightCap protectedL protectedR
 
-#print axioms no_actual_root
 end
 end F7Manuscript.R21LongWindow.PureRootCoverage

@@ -85,8 +85,6 @@ theorem threshold_card_by_labels : Fintype.card (ThresholdEvent C) =
   simpa only [Finset.card_univ, Finset.sum_range_succ, Finset.sum_range_zero,
     byLabel_zero, Finset.card_empty, zero_add] using! h
 
-#print axioms A3_eq_one_add_thresholds_add_pairs
-#print axioms threshold_card_by_labels
 
 end
 end F7Manuscript.TripleCoordinateLattice

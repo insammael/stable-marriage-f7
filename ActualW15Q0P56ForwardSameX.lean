@@ -79,7 +79,6 @@ theorem actual_X_q0_u5_p56_forward_threshold
     h221 h311 hG hT X hm13 hforward hforwardWord hDzero
   exact hthreshold
 
-#print axioms actual_X_q0_u5_p56_forward_threshold
 
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW15Q0P56ForwardSameX

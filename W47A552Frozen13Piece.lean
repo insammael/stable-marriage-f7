@@ -147,6 +147,5 @@ theorem A1356_second_complete (c : CycleSpec)
       change 2 + 2 ≤ 2 at hx
       omega
 
-#print axioms A1356_second_complete
 
 end F7Manuscript.A156Frozen13A1356Piece

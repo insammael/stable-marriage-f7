@@ -112,6 +112,5 @@ theorem count_of_canonical_score
   rw [stableCount_eq_idealCount I]
   omega
 
-#print axioms count_of_canonical_score
 end
 end F7Manuscript.ActualPositiveDeficitCoverAssembly.R21OneGBudget

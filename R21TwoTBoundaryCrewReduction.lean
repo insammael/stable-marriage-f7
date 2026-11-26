@@ -36,5 +36,4 @@ theorem actual_checked_continuation_of_crew_coverage
  obtain ⟨w,hw,hreplay⟩ := cover _ next hv hseed
  exact ⟨w,hidle.symm ▸ hw,hreplay⟩
 
-#print axioms actual_checked_continuation_of_crew_coverage
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

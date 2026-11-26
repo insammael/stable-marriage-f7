@@ -210,9 +210,5 @@ theorem actualGlobalNormalRun_preceding_fixed_exclusive_card_le_flag_all
     rw [hprefix,hpath,hreset]
     simp [actualPrecedingFixedCenterFlag,hm]
 
-#print axioms actualGlobalNormalRun_final_fixed_exclusive_in_pathSegment
-#print axioms actualGlobalNormalRun_preceding_fixed_exclusive_card_le
-#print axioms actualGlobalNormalRun_preceding_fixed_exclusive_card_le_flag
-#print axioms actualGlobalNormalRun_preceding_fixed_exclusive_card_le_flag_all
 end
 end F7Manuscript.TripleCoordinateLattice

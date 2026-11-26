@@ -249,7 +249,6 @@ theorem pick_endpointD_three_pivot_old_entry (a b c : Nat)
     simp only [Finset.mem_inter, Finset.mem_insert, Finset.mem_singleton, Finset.mem_Icc]
     omega
 
-#print axioms pick_endpointD_three_pivot_old_entry
 
 end
 end F7Manuscript.ActualW17U3Q1S3PaidZeroSelectorV2

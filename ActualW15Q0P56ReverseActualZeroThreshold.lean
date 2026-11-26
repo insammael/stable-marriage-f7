@@ -158,7 +158,6 @@ theorem actual_X_p56_reverse_actual_zero_threshold
     simpa only [b, hclock, extra] using! hNat
   exact hNatX
 
-#print axioms actual_X_p56_reverse_actual_zero_threshold
 
 end
 end F7Manuscript.ActualW15Q0P56ReverseActualZeroThreshold

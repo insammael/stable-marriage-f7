@@ -43,7 +43,6 @@ theorem n7_cover {tail : List Choice} (hv : ValidChoices (n7 ++ tail))
      refine ⟨l3, by decide, tail, ?_⟩
      rfl
 
-#print axioms n7_cover
 
 theorem n15_cover {tail : List Choice} (hv : ValidChoices (n15 ++ tail))
  (hlen : 1 ≤ tail.length) :
@@ -62,7 +61,6 @@ theorem n15_cover {tail : List Choice} (hv : ValidChoices (n15 ++ tail))
      refine ⟨l6, by decide, tail, ?_⟩
      rfl
 
-#print axioms n15_cover
 
 theorem n21_cover {tail : List Choice} (hv : ValidChoices (n21 ++ tail))
  (hlen : 1 ≤ tail.length) :
@@ -77,7 +75,6 @@ theorem n21_cover {tail : List Choice} (hv : ValidChoices (n21 ++ tail))
    refine ⟨l7, by decide, tail, ?_⟩
    rfl
 
-#print axioms n21_cover
 
 theorem n3_cover {tail : List Choice} (hv : ValidChoices (n3 ++ tail))
  (hlen : 1 ≤ tail.length) :
@@ -92,7 +89,6 @@ theorem n3_cover {tail : List Choice} (hv : ValidChoices (n3 ++ tail))
    refine ⟨l1, by decide, tail, ?_⟩
    rfl
 
-#print axioms n3_cover
 
 theorem n6_cover {tail : List Choice} (hv : ValidChoices (n6 ++ tail))
  (hlen : 2 ≤ tail.length) :
@@ -110,7 +106,6 @@ theorem n6_cover {tail : List Choice} (hv : ValidChoices (n6 ++ tail))
    simp only [List.length_cons] at hlen
    omega
 
-#print axioms n6_cover
 
 theorem n14_cover {tail : List Choice} (hv : ValidChoices (n14 ++ tail))
  (hlen : 2 ≤ tail.length) :
@@ -128,7 +123,6 @@ theorem n14_cover {tail : List Choice} (hv : ValidChoices (n14 ++ tail))
    simp only [List.length_cons] at hlen
    omega
 
-#print axioms n14_cover
 
 theorem n20_cover {tail : List Choice} (hv : ValidChoices (n20 ++ tail))
  (hlen : 2 ≤ tail.length) :
@@ -146,7 +140,6 @@ theorem n20_cover {tail : List Choice} (hv : ValidChoices (n20 ++ tail))
    simp only [List.length_cons] at hlen
    omega
 
-#print axioms n20_cover
 
 theorem n23_cover {tail : List Choice} (hv : ValidChoices (n23 ++ tail))
  (hlen : 1 ≤ tail.length) :
@@ -161,7 +154,6 @@ theorem n23_cover {tail : List Choice} (hv : ValidChoices (n23 ++ tail))
    refine ⟨l8, by decide, tail, ?_⟩
    rfl
 
-#print axioms n23_cover
 
 theorem n2_cover {tail : List Choice} (hv : ValidChoices (n2 ++ tail))
  (hlen : 2 ≤ tail.length) :
@@ -179,7 +171,6 @@ theorem n2_cover {tail : List Choice} (hv : ValidChoices (n2 ++ tail))
    simp only [List.length_cons] at hlen
    omega
 
-#print axioms n2_cover
 
 theorem n5_cover {tail : List Choice} (hv : ValidChoices (n5 ++ tail))
  (hlen : 3 ≤ tail.length) :
@@ -197,7 +188,6 @@ theorem n5_cover {tail : List Choice} (hv : ValidChoices (n5 ++ tail))
    simp only [List.length_cons] at hlen
    omega
 
-#print axioms n5_cover
 
 theorem n13_cover {tail : List Choice} (hv : ValidChoices (n13 ++ tail))
  (hlen : 3 ≤ tail.length) :
@@ -215,7 +205,6 @@ theorem n13_cover {tail : List Choice} (hv : ValidChoices (n13 ++ tail))
    simp only [List.length_cons] at hlen
    omega
 
-#print axioms n13_cover
 
 theorem n19_cover {tail : List Choice} (hv : ValidChoices (n19 ++ tail))
  (hlen : 3 ≤ tail.length) :
@@ -240,7 +229,6 @@ theorem n19_cover {tail : List Choice} (hv : ValidChoices (n19 ++ tail))
      simp only [List.length_cons] at hlen
      omega
 
-#print axioms n19_cover
 
 theorem n1_cover {tail : List Choice} (hv : ValidChoices (n1 ++ tail))
  (hlen : 4 ≤ tail.length) :
@@ -265,7 +253,6 @@ theorem n1_cover {tail : List Choice} (hv : ValidChoices (n1 ++ tail))
      simp only [List.length_cons] at hlen
      omega
 
-#print axioms n1_cover
 
 theorem n12_cover {tail : List Choice} (hv : ValidChoices (n12 ++ tail))
  (hlen : 4 ≤ tail.length) :
@@ -283,7 +270,6 @@ theorem n12_cover {tail : List Choice} (hv : ValidChoices (n12 ++ tail))
    simp only [List.length_cons] at hlen
    omega
 
-#print axioms n12_cover
 
 theorem n18_cover {tail : List Choice} (hv : ValidChoices (n18 ++ tail))
  (hlen : 4 ≤ tail.length) :
@@ -301,7 +287,6 @@ theorem n18_cover {tail : List Choice} (hv : ValidChoices (n18 ++ tail))
    simp only [List.length_cons] at hlen
    omega
 
-#print axioms n18_cover
 
 theorem n0_cover {tail : List Choice} (hv : ValidChoices (n0 ++ tail))
  (hlen : 5 ≤ tail.length) :
@@ -332,6 +317,5 @@ theorem n0_cover {tail : List Choice} (hv : ValidChoices (n0 ++ tail))
      simp only [List.length_cons] at hlen
      omega
 
-#print axioms n0_cover
 
 end F7Manuscript.N4D4CenterTraceCover

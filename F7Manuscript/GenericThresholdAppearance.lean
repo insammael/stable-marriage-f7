@@ -94,7 +94,5 @@ theorem initial_coordinate_firstStage (c : Fin 3) :
   change (firstStage (path C E) x).val = 0
   exact Nat.eq_zero_of_le_zero hm'
 
-#print axioms labelled_coordinate_firstStage
-#print axioms labelled_coordinate_rank_mono
 end
 end F7Manuscript.TripleCoordinateLattice.GenericThresholdPath

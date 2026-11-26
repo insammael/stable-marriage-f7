@@ -92,6 +92,5 @@ theorem actual_normal_initial_h2_unique
   exact actual_initial_two_neighbor_outsiders_card_le_one C hn h311 hconst
     (actualNormalInitialBoundary C h221 h311 hG hT hsize)
 
-#print axioms actual_normal_initial_h2_unique
 end
 end F7Manuscript.TripleCoordinateLattice

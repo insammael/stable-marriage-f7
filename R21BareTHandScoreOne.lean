@@ -34,5 +34,4 @@ theorem partial_crown_score_one_of_strong {n m : Nat} {S T : Chart}
     · have bound := partial_crown_free_five_opposite_bound_right D hn hm ⟨free.1,free.2.1,free.2.2.1⟩
       omega
 
-#print axioms partial_crown_score_one_of_strong
 end F7Manuscript.TripleCoordinateLattice.R21BareT

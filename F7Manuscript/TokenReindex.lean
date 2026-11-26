@@ -80,8 +80,5 @@ theorem past_ne_after (R : TokenRun Site W q) (i : Fin q) (a : Site)
   rw [he] at hl
   exact lt_irrefl _ hl
 
-#print axioms reindex_atomic
-#print axioms origin_reindex
-#print axioms past_ne_after
 
 end F7Manuscript.PartnerGraph.Periodic

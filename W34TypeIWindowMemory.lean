@@ -43,7 +43,5 @@ theorem two_paired_same_fixed_after_valid_mixed_prefix_of_memory
     R t f bits i before tail c H
     (supportsRoute_validity_of_initial_valid H M.valid) M
 
-#print axioms one_paired_same_fixed_after_valid_mixed_prefix_of_memory
-#print axioms two_paired_same_fixed_after_valid_mixed_prefix_of_memory
 end
 end F7Manuscript.TripleCoordinateLattice.W34TypeIWindowMemory

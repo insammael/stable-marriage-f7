@@ -133,7 +133,6 @@ theorem r20_a113_a121_same_boundary_occupancies_cost
 
   exact ⟨S, k, H, hG, hSn, hSform, hScap, hocc.1, hocc.2, hcost⟩
 
-#print axioms r20_a113_a121_same_boundary_occupancies_cost
 
 /-- Compose A32 on the same A113 H and both original occupancy bounds.
 The cost remains in `NeutralCore.aOn` form for the same enriched charts S. -/
@@ -207,7 +206,6 @@ theorem a113_a121_a32_isolated_g_actual_charge_cost
 
   exact ⟨S, k, H, hSn, hSform, hScap, hPastOcc, hFutureOcc, hcharge, hcost⟩
 
-#print axioms a113_a121_a32_isolated_g_actual_charge_cost
 
 end
 end F7Manuscript.TripleCoordinateLattice

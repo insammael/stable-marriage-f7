@@ -154,7 +154,6 @@ theorem actual_X_paid_flags_and_cap
     · rintro ⟨_, h⟩
       exact decide_eq_true h
 
-#print axioms actual_X_paid_flags_and_cap
 
 end
 end W7ActualXOrientedDListFlags

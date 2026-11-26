@@ -56,5 +56,4 @@ theorem p5_root_zero_trace_receipt_identity
   rw [hcell, hrow] at hcount
   omega
 
-#print axioms p5_root_zero_trace_receipt_identity
 end F7Manuscript.ActualW18TraceSubsetReceiptCount

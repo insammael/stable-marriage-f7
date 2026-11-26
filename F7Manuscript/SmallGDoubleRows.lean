@@ -886,10 +886,5 @@ theorem normalized_history_new_row_motif
     simpa [supportPair] using (hreal.2 ⟨5, by decide⟩).symm
   simpa only [← h3, ← h4, ← h5] using hrows
 
-#print axioms outsider_row_support_cases
-#print axioms final_rows_after_26
-#print axioms final_rows_after_46
-#print axioms realized_normalized_six_rows
-#print axioms normalized_history_new_row_motif
 
 end F7Manuscript.SmallGDoubleRows

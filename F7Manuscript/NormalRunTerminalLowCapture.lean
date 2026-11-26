@@ -96,6 +96,5 @@ theorem normalRun_terminal_low_fixed_rowExclusive
     exact h
   exact ⟨low.val, hlowrow, hcolor, hless, hinc0, hinc1⟩
 
-#print axioms normalRun_terminal_low_fixed_rowExclusive
 end
 end F7Manuscript.TripleCoordinateLattice

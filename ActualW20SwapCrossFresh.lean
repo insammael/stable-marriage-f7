@@ -62,6 +62,4 @@ theorem p6_two_at_four_swap_three_partner_token_five_or_six {n : Nat}
   · exact Or.inl h5
   · exact Or.inr h6
 
-#print axioms F7Manuscript.PartnerGraph.fixedTokenSwapTrace_swap_cross_fresh
-#print axioms p6_two_at_four_swap_three_partner_token_five_or_six
 end F7Manuscript.ActualW20SwapCrossFresh

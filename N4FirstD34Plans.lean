@@ -26,7 +26,5 @@ def d4AWord : List F7Local.Pair :=
 theorem d3APlan_eventCount : eventCount d3APlan = 5 := by decide
 theorem d4APlan_eventCount : eventCount d4APlan = 6 := by decide
 
-#print axioms d3APlan_eventCount
-#print axioms d4APlan_eventCount
 
 end F7Manuscript.N4FirstD34Plans

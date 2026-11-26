@@ -197,7 +197,5 @@ theorem K_normalized_anchored_false (t : Matching) (bits : Nat → Bool)
   rw [he]
   exact K_normalized_false t bits norm
 
-#print axioms K_normalized_false
-#print axioms K_normalized_anchored_false
 
 end F7Manuscript.N4KWindowNormalized

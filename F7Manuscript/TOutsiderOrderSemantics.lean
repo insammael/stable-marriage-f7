@@ -803,7 +803,5 @@ theorem context_transfer_bound_of_templateCheck (z : ℕ)
   have hb := of_decide_eq_true hcheck
   simpa [s] using! hb
 
-#print axioms ancestor_row_order
-#print axioms actual_incomparables_subset_simulator_badPairs
 
 end F7Manuscript.TOutsiderOrderSemantics

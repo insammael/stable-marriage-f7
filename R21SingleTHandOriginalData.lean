@@ -41,6 +41,5 @@ theorem actual_r21_single_T_ordered_data_hand
   obtain ⟨hsum, ⟨R⟩⟩ := r21_literal_T_ordered_crown_runs C hn h221 h311 hu hG hT
   exact ⟨P.card,Q.card,T,S₁,hsum,hl₀,hl₁,⟨R⟩⟩
 
-#print axioms actual_r21_single_T_ordered_data_hand
 end
 end F7Manuscript.ActualPositiveDeficitCoverAssembly

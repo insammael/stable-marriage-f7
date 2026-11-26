@@ -49,7 +49,5 @@ theorem normalCut_terminal_low_fixed_rowExclusive
   subst Q
   exact normalRun_terminal_low_fixed_rowExclusive C E R h221 h311 hz fixed hm hcenter
 
-#print axioms normalCut_first_center_mem_futureSet
-#print axioms normalCut_terminal_low_fixed_rowExclusive
 end
 end F7Manuscript.TripleCoordinateLattice

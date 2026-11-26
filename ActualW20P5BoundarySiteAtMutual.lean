@@ -89,6 +89,5 @@ theorem p5_boundary_site_persists_to_mutual
     have hsame := (T.state m.castSucc).injective (hholding.trans hR.symm)
     exact hsame
 
-#print axioms p5_boundary_site_persists_to_mutual
 
 end F7Manuscript.ActualW20P5BoundarySiteAtMutual

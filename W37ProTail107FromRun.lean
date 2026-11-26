@@ -44,7 +44,6 @@ theorem tail107_from_actual_run
     exact actual_tail107_reverse_impossible A.run hn
       A.initial0 A.initial1 A.initial2 A.initial3 A.bits H
 
-#print axioms tail107_from_actual_run
 
 end
 end F7Manuscript.TripleCoordinateLattice.W37ProTail107FromRun

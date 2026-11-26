@@ -113,6 +113,4 @@ theorem actual_q0_typeV_saved_source
   rw [← q0_typeV_source_normalize_leading_choices k l hk hk7 ps qs fixed row phase bits hnorm]
   exact H
 
-#print axioms q0_typeV_source_normalize_leading_choices
-#print axioms actual_q0_typeV_saved_source
 end F7Manuscript.OneGap

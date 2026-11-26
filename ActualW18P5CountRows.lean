@@ -17,6 +17,5 @@ theorem p5_count_rows (a b c d r : Nat)
     (c = 1 ∧ r = 0 ∧ a = 3 ∧ b = 6 ∧ d = 2) := by
   omega
 
-#print axioms p5_count_rows
 
 end F7Manuscript.ActualW18P5CountRows

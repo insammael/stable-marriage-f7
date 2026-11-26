@@ -106,6 +106,5 @@ theorem retired_block_schedule
   exact ⟨ReverseBlockRunSchedule.intro tCenter htCenter hcenterSupport
     (Classical.choice hpaired)⟩
 
-#print axioms retired_block_schedule
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW33RContextRetiredBlockSchedule

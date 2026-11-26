@@ -97,9 +97,6 @@ theorem subsetNormalBlockSegmentTrace_finalRows
         exact hidx
       simpa only [hfin] using! htail
 
-#print axioms subsetNormalPairedRoute_finalRows
-#print axioms subsetNormalBlockExecution_finalRows
-#print axioms subsetNormalBlockSegmentTrace_finalRows
 
 end
 end F7Manuscript.TripleCoordinateLattice

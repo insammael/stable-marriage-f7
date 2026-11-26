@@ -53,7 +53,4 @@ theorem no_pp_right_with_center_anywhere {R : TokenRun Site (Agent 7) 21} {off l
     (p.perm a) (p.perm c) (p.perm d) [] rfl bin
   omega
 
-#print axioms no_pp_interior_anywhere
-#print axioms no_pp_right_anywhere
-#print axioms no_pp_right_with_center_anywhere
 end F7Manuscript.R21LongWindow.PairedSubpatterns

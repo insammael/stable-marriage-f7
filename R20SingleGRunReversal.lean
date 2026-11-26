@@ -74,6 +74,5 @@ theorem r20_swapped_initial_eq_original_final
   intro t
   exact not_congr ((comapTripleIso φ (dualPartition C)).le_iff_le (x := g'.val) (y := t)).symm
 
-#print axioms r20_swapped_initial_eq_original_final
 end
 end F7Manuscript.ActualPositiveDeficitCoverAssembly

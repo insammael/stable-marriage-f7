@@ -84,6 +84,5 @@ theorem actual_all_at_endpoints
     · exact Finset.disjoint_left.mp (outsiderSlotGroup_disjoint C p
         (fun _ _ h => path_mono C E h) htL) hx h
 
-#print axioms actual_all_at_endpoints
 end
 end F7Manuscript.TripleCoordinateLattice.R21OneGAllEndpointSlots

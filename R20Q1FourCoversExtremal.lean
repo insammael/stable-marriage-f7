@@ -69,8 +69,6 @@ theorem r20_q1_four_covers_extremal
     (core_order_eq_labelled_reaches C h221 h311 hG hT hm hq hs hD) hS
     hab hcd hac had hbc hbd
 
-#print axioms core_order_eq_labelled_reaches
-#print axioms r20_q1_four_covers_extremal
 end
 end F7Manuscript.TripleCoordinateLattice
 

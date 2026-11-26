@@ -75,7 +75,6 @@ theorem actual_no_outsider_normal_run_size_census
         (∑ i : Fin (m+1), ((S i).m : ℤ))+2*(∑ i : Fin (m+1), ((S i).q : ℤ))
     omega
 
-#print axioms actual_no_outsider_normal_run_size_census
 
 end
 end F7Manuscript.TripleCoordinateLattice

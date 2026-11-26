@@ -167,6 +167,5 @@ theorem completionExclusive_card_le {V : Type*} [Fintype V] [PartialOrder V]
   have hcard := Finset.card_le_card_of_injOn e.symm hmap hinj
   exact hcard.trans (terminalExclusive_card C hm c).le
 
-#print axioms terminalExclusive_card
 end
 end F7Manuscript.NormalSkeleton.Chart

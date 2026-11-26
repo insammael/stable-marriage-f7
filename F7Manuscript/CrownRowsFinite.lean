@@ -80,5 +80,4 @@ theorem crown_rows_exhaustive (row : Fin 3 → Finset Site)
     (by intro i d; rw [← hr]; exact hnew i d)
   exact ⟨t,s,fun i => (hr i).trans (hs i)⟩
 
-#print axioms crown_rows_exhaustive
 end F7Manuscript.CrownSupportChoices

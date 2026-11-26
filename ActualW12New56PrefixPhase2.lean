@@ -484,8 +484,6 @@ theorem new56_force_bit4
         · exact False.elim (block_y0_U_mixed 1 (Or.inr rfl) bits hfirst N h4 h5 (by simpa using! h6) h7)
   · rfl
 
-#print axioms new56_force_bit4
 
-#print axioms new56_force_bit5
 
 end F7Manuscript.ActualW12New56PrefixPhase2

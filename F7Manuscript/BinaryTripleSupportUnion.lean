@@ -43,7 +43,5 @@ theorem binary_tripleSupportUnion_eq_of_covered
   · rw [binary_tripleSupportUnion_card C old hOld,
       binary_tripleSupportUnion_card C new hNew]
 
-#print axioms binary_tripleSupportUnion_card
-#print axioms binary_tripleSupportUnion_eq_of_covered
 end
 end F7Manuscript.TripleCoordinateLattice

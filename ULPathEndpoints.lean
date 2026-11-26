@@ -105,8 +105,5 @@ noncomputable def rawPathMinBoundary (T : ℕ → Finset V) (s : ℕ)
     exact (inc_dual_iff (V := V) a b).mpr (hAnti ha hb hne)
   · exact raw_path_from_first T s hStep
 
-#print axioms boundaryOfDominatingAntichain
-#print axioms rawPathMaxBoundary
-#print axioms rawPathMinBoundary
 
 end ConditionalUL

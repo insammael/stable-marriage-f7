@@ -46,9 +46,5 @@ theorem observed_word11_future_length_le_two {W : Type*} [Fintype W] {q n : ℕ}
   exact F7Manuscript.ActualW12New98Graph419FutureBound.graph419_future_length_le_two
     (future.rename perm11) (observed_word11_graph419_envelope R t H)
 
-#print axioms observed_word00_future_length_le_two
-#print axioms observed_word01_future_length_le_two
-#print axioms observed_word10_future_length_le_two
-#print axioms observed_word11_future_length_le_two
 
 end F7Manuscript.ActualW13New98Graph419Future

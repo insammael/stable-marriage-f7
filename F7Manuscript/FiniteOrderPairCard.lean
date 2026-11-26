@@ -66,6 +66,5 @@ theorem directedIncomparables_card (S : FiniteOrder (V := V)) :
   rw [hA, hUnion, Finset.card_union_of_disjoint hDis, hCard]
   omega
 
-#print axioms directedIncomparables_card
 end
 end F7Manuscript.ComparableCompletionLedger

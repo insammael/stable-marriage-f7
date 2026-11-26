@@ -19,7 +19,4 @@ theorem root_4001_allLeaves :
 theorem root_4002_allLeaves :
     AllLeaves (TreeLeaf.Valid plan_4002 true) [] rootTree_4002 := by decide
 
-#print axioms root_4000_allLeaves
-#print axioms root_4001_allLeaves
-#print axioms root_4002_allLeaves
 end F7Manuscript.OneGapTypedSavedRoots

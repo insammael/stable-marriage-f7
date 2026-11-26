@@ -61,6 +61,5 @@ theorem ClosedWordCertificate.length_bound (C : ClosedWordCertificate)
  have card:=C.blockedCard
  omega
 
-#print axioms ClosedWordCertificate.length_bound
 end
 end F7Manuscript.R21SingleTHand

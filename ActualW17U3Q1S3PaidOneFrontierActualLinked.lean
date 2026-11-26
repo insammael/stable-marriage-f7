@@ -204,7 +204,6 @@ theorem actual_u3_q1_s3_paid_one_frontier_linked
       simpa [extra, W, D, paid, Finset.pair_comm] using! hExtraEq
     exact ⟨i,b,a,hba,hpaidLinked,hextra,hgeom⟩
 
-#print axioms actual_u3_q1_s3_paid_one_frontier_linked
 
 end
 end ActualW17U3Q1S3PaidOneFrontierActualLinked

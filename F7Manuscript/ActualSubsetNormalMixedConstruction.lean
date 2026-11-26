@@ -166,7 +166,6 @@ theorem actual_subset_normal_mixed_execution
   exact subsetNormal_mixedRun_of_actual_route Q hQ B h221 h311 hz hm T
     (subsetNormal_actual_route Q hQ B h221 h311 hz hm T)
 
-#print axioms actual_subset_normal_mixed_execution
 
 end
 end F7Manuscript.TripleCoordinateLattice

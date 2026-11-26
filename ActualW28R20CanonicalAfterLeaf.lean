@@ -68,6 +68,5 @@ theorem global_path_after_normal_leaf
   rw [hat, hbefore] at hs
   exact hs.trans (normalUpperRowTriple_coordinate_update C h221 h311 hz j r c).symm
 
-#print axioms global_path_after_normal_leaf
 end
 end F7Manuscript.TripleCoordinateLattice.GenericNormal

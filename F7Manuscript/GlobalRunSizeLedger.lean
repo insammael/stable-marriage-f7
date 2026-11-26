@@ -138,8 +138,6 @@ theorem core_size_by_normal_run_windows :
   rw [hR,hL,hM] at htel
   simpa only [hrun,add_assoc] using! htel
 
-#print axioms macro_introduction_weight_sum
-#print axioms core_size_by_normal_run_windows
 
 theorem normal_run_window_nontrivial_of_large_card
     (h221 : NoInduced221 (V := V)) (h311 : NoInduced311 (V := V))
@@ -163,6 +161,5 @@ theorem normal_run_window_nontrivial_of_large_card
   have hd := triple_deficit_decomposition C h221 h311
   omega
 
-#print axioms normal_run_window_nontrivial_of_large_card
 end
 end F7Manuscript.TripleCoordinateLattice

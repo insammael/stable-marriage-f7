@@ -61,7 +61,6 @@ theorem macro_boundary_adjacent_run_context_occupancy
       (hcap j.succ) (p (macroPosition C E j).castSucc)
       (p (macroPosition C E j).succ) hfutureRow H
 
-#print axioms macro_boundary_adjacent_run_context_occupancy
 
 end
 end F7Manuscript.TripleCoordinateLattice

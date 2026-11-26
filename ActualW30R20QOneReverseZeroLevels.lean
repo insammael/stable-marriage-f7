@@ -49,6 +49,4 @@ theorem q_one_forces_prior_doubles_zero
   have hval := congrArg Fin.val heq
   omega
 
-#print axioms q_one_forces_other_doubles_zero
-#print axioms q_one_forces_prior_doubles_zero
 end F7Manuscript.TripleCoordinateLattice.ActualW30R20QOneReverseZeroLevels

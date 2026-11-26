@@ -207,8 +207,6 @@ theorem actual_scheduled_d2_next_center_obstruction
       Q hQ B h221 h311 hz hm j H hd S M c₁ hc₁ b₁ n hn hcenter candidate hcandidate
   exact ⟨aColor,bOld,W,hselect,hWtok,hWcenter,hnot,hpast⟩
 
-#print axioms actual_scheduled_d2_next_center_obstruction_with_color
-#print axioms actual_scheduled_d2_next_center_obstruction
 
 end
 end F7Manuscript.TripleCoordinateLattice

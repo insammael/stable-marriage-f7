@@ -78,7 +78,6 @@ theorem actual_normal_all_binary
             ⟨r.val + 1, by omega⟩
             (movingColor (normalCenterColor C h221 h311 hz j) side)
 
-#print axioms actual_normal_all_binary
 
 end
 end F7Manuscript.TripleCoordinateLattice

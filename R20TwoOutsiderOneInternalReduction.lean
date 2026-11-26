@@ -43,6 +43,5 @@ theorem r20LeafObligation_two_zero_zero_of_one_internal
   obtain ⟨y,hym,he⟩ := hy
   exact hmix C h221 h311 hn hu hG hT hq hm hs hD hX x hx hxb hxa y hym he
 
-#print axioms r20LeafObligation_two_zero_zero_of_one_internal
 end
 end F7Manuscript.ActualPositiveDeficitCoverAssembly

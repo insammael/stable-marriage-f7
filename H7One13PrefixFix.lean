@@ -103,12 +103,7 @@ theorem mixed13_chart_to_same_whole_reverse_prefix
         h16)
       ⟨hspanK, hp⟩
 
-#check mixed13_chart_to_same_whole_reverse_prefix
 
-#print axioms mixed13_chart_to_same_whole_reverse_prefix
-#print axioms periodic_local_reverse_to_spliced_prefix
-#print axioms BinaryColorChart.toBinaryPrefix_of_periodic
-#print axioms transport_reverse_prefix_to_splice
 
 end
 

@@ -33,8 +33,6 @@ theorem prefix_partial_some_of_full_partial_some_of_lengths
   rcases hgeo with ⟨hlen, _, _, _, _, _, _⟩
   omega
 
-#print axioms q0_window_colors_length_pos
-#print axioms prefix_partial_some_of_full_partial_some_of_lengths
 
 end
 end F7Manuscript.ActualW16PrefixPartialSomeMetadata

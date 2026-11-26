@@ -177,6 +177,4 @@ theorem B_to_A_center_switch_uses_initial6
     have hfive := T_U_intersection hT hU
     exact False.elim ((partner_ne_center tr k hcenter) hfive)
 
-#print axioms A_to_B_center_switch_uses_initial4
-#print axioms B_to_A_center_switch_uses_initial6
 end F7Manuscript.ActualW19P6CenterSwitches

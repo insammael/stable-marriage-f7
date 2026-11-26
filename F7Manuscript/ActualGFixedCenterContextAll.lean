@@ -50,6 +50,5 @@ theorem actualGlobalNormalRun_following_fixed_exclusive_card_le_flag_all
     simp only [Bool.false_eq_true,if_false]
     omega
 
-#print axioms actualGlobalNormalRun_following_fixed_exclusive_card_le_flag_all
 end
 end F7Manuscript.TripleCoordinateLattice

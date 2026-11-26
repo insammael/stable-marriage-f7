@@ -106,9 +106,6 @@ theorem actual_q1_pool11_realizes_no_return
       F7Local.plan_pool_11_none bits
       ((reindexRun (run I Q hQ E).toTokenRun e).firstSteps 14 hQcard) hreal
 
-#print axioms pool11_mode_support
-#print axioms actual_q1_pool11_support_alignment
-#print axioms actual_q1_pool11_realizes_no_return
 
 end
 end F7Manuscript.ActualQ1PeriodicPoolPlanAlignment

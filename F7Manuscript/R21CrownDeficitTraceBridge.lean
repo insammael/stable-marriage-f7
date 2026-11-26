@@ -96,5 +96,4 @@ theorem scan_mixedPlan_from_seed {opposite s t : State}
       run opposite actions (seed s) = some u ∧ u.state = t ∧ u.centers = m := by
   simpa [seed] using! scan_mixedPlanFrom word levels hcap 0 m (s := seed s) h
 
-#print axioms scan_mixedPlan_from_seed
 end F7Manuscript.R21CrownDeficitCertificate

@@ -85,6 +85,4 @@ theorem actual_BAA_token_one_frozen_at_six
   have hy6 : y = 6 := by simpa using! hm
   simpa [hy6] using! hy
 
-#print axioms actual_BAA_token_one_stays_in_origin_or_six
-#print axioms actual_BAA_token_one_frozen_at_six
 end F7Manuscript.ActualW20P6BAATokenOneDomain

@@ -165,8 +165,6 @@ theorem actual_binary_old_mate_exclusion
       exact hOldMate a
     exact hnotpost hmem
 
-#print axioms state_eq_at_later_pre_of_no_touches
-#print axioms actual_binary_old_mate_exclusion
 
 end
 end F7Manuscript.ActualW28R20ActualBinaryExclusion

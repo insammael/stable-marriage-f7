@@ -22,7 +22,6 @@ def handWord (firstCross firstLabel : Bool) : List F7Local.Pair :=
     else
       [(2,3),(if firstCross then 5 else 4, if firstCross then 4 else 5)])
 
-#check sourcePrefix
 
 theorem source_eight_is_handWord (bits : Nat → Bool) (h2 : bits 2 = false) :
     sourcePrefix doubleD0Plan bits 8 = handWord (bits 0) (bits 1) := by
@@ -32,7 +31,6 @@ theorem source_eight_is_handWord (bits : Nat → Bool) (h2 : bits 2 = false) :
       select, other, put, handWord, h0, h1, h2, Fin.ofNat] <;>
     simp [h0, h1, h2]
 
-#check source_eight_is_handWord
 
 theorem source_k_is_handWord_take (bits : Nat → Bool) (h2 : bits 2 = false)
     (k : Nat) (hk : k ≤ 8) :
@@ -42,9 +40,6 @@ theorem source_k_is_handWord_take (bits : Nat → Bool) (h2 : bits 2 = false)
       initialSupport, pairedPairs, afterPaired, leftCoord, rightCoord,
       select, other, put, handWord, h0, h1, h2, Fin.ofNat]
 
-#check source_k_is_handWord_take
 
-#print axioms source_eight_is_handWord
-#print axioms source_k_is_handWord_take
 
 end F7Manuscript.N4DoubleD0PrefixLiteral

@@ -31,7 +31,5 @@ theorem actual_r21_single_T_count_hand
     (hG : (isolatedDouble C).card = 0) (hT : (byLabel C 3).card = 1) : stableCount I ≤ 85 :=
   (actual_r21_single_T_impossible_hand C hn h221 h311 hu hG hT).elim
 
-#print axioms actual_r21_single_T_impossible_hand
-#print axioms actual_r21_single_T_count_hand
 end
 end F7Manuscript.ActualPositiveDeficitCoverAssembly

@@ -140,6 +140,5 @@ theorem late_switch_capacity_false
   exact five_snapshots_exceed_four_token_pool R actor tokens htokensCard
     tau htau hmem hevent
 
-#print axioms late_switch_capacity_false
 end
 end F7Manuscript.ActualW28R20LateSwitchCapacity

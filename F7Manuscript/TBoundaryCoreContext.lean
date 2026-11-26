@@ -238,10 +238,5 @@ theorem low_delta_T_core_context
       (fun _ _ h => GenericThresholdPath.path_mono C E h)
       (GenericThresholdPath.path_union C E) n H x hx
 
-#print axioms boundary_core_context_exists
-#print axioms BoundaryCoreContext.future_center_mem_retired
-#print axioms BoundaryCoreContext.outsider_neighbors_localized
-#print axioms BoundaryCoreContext.order_convex
-#print axioms low_delta_T_core_context
 end
 end F7Manuscript.TripleCoordinateLattice

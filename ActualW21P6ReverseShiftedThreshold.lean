@@ -172,7 +172,6 @@ theorem actual_X_reverse_shifted_p6_threshold
     simpa only [b, hclock, hstart] using! hNat
   omega
 
-#print axioms actual_X_reverse_shifted_p6_threshold
 
 end
 end F7Manuscript.ActualW21P6ReverseShiftedThreshold

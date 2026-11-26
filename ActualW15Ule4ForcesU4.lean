@@ -187,7 +187,6 @@ theorem actual_X_cost2_outsiders_le4_forces_u4
   rw [hq] at hmEq
   omega
 
-#print axioms actual_X_cost2_outsiders_le4_forces_u4
 
 end
 end ActualW15Ule4ForcesU4

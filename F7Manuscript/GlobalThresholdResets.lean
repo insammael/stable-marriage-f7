@@ -172,8 +172,5 @@ theorem global_G_pair_increment_le_three_after_T
   have hpath : n.castSucc = p.succ := Fin.ext hpn.symm
   rw [← hpn,hpath,global_T_exclusive_reset C E p hpT c,Finset.card_singleton]
 
-#print axioms threshold_block_frontier_mem
-#print axioms global_T_exclusive_reset
-#print axioms global_G_moving_exclusive_reset
 end
 end F7Manuscript.TripleCoordinateLattice

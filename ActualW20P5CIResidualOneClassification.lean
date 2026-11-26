@@ -76,5 +76,4 @@ theorem p5_CI_residual_is_internal_one
   simp only [p5InternalOne, Finset.mem_filter, Finset.mem_univ, true_and]
   exact ⟨hleft, hright, hxor⟩
 
-#print axioms p5_CI_residual_is_internal_one
 end F7Manuscript.ActualW20P5CIResidualOneClassification

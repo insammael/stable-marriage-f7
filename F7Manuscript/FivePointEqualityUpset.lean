@@ -81,6 +81,5 @@ theorem five_point_extremal_no_singleton_pair_upset
   rw [unordered_pair_count, hUone] at hp
   exact hp
 
-#print axioms five_point_extremal_no_singleton_pair_upset
 end
 end NeutralCore.SmallSeed

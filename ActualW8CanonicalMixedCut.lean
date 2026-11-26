@@ -116,7 +116,6 @@ theorem canonical_cut_packet {W : Type*} [Fintype W] {q : Nat}
       firstBit := hbit'
       controls := Or.inr ⟨rfl,hw⟩ }⟩
 
-#print axioms canonical_cut_packet
 
 end
 end F7Manuscript.ActualW8CanonicalMixedCut

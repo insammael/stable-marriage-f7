@@ -174,7 +174,6 @@ theorem actual_X_q0_pivots23613_min_endpoint_le_one_false
     rw [hlevel0] at hcut
     omega
 
-#print axioms actual_X_q0_pivots23613_min_endpoint_le_one_false
 
 end
 end F7Manuscript.ActualW22Selected16InitialP23613Caller

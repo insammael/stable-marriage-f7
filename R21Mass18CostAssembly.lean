@@ -107,9 +107,6 @@ theorem mass18_lower_provider_of_physical_rules
       11 ≤ S.q+S.s := by
   intro S A
   exact actual_mass18_cost_ge_eleven_of_qzero_and_local_rules S A (paired S A) (localRules S A (paired S A))
-#print axioms mass18_lower_provider_of_physical_rules
 
-#print axioms actual_mass18_cost_eq_weight
-#print axioms actual_mass18_cost_ge_eleven_of_qzero_and_local_rules
 end
 end F7Manuscript.R21LongWindow.Mass18Endpoint

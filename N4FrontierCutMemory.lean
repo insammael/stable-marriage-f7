@@ -452,13 +452,6 @@ theorem source_plan_noReturn_from_original_frontier_cut
   intro k hk
   simpa only [reindex_support] using! hsupport k hk
 
-#print axioms frontier_pair_rank_lt
-#print axioms frontier_mates_observed
-#print axioms canonicalRestart_rank
-#print axioms canonicalRestart_initial_observed
-#print axioms canonicalRestart_realizes_word
-#print axioms source_plan_noReturn_from_frontier_cut
-#print axioms source_plan_noReturn_from_original_frontier_cut
 
 end
 end F7Manuscript.N4FrontierCutMemory

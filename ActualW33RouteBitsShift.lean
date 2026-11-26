@@ -51,6 +51,4 @@ theorem supportsRoute_shift_to_zero
     SupportsRoute R t f plan (fun k => bits (i+k)) 0 :=
   supportsRoute_reindex_controls H (fun k => bits (i+k)) 0 (by intro k; simp only [Nat.zero_add])
 
-#print axioms supportsRoute_reindex_controls
-#print axioms supportsRoute_shift_to_zero
 end F7Manuscript.ActualW33RouteBitsShift

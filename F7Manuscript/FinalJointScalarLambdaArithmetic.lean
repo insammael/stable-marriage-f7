@@ -60,9 +60,5 @@ theorem lambdaAt_G_group_positive (x : Key) (i : ℕ)
   have hsub2 : flagNat (flagsAt x i).2 ≤ 10-flagNat (flagsAt x i).1 := by omega
   exact_mod_cast hnat
 
-#print axioms lambdaAt_T_group_zero
-#print axioms lambdaAt_T_group_positive
-#print axioms lambdaAt_G_group_zero
-#print axioms lambdaAt_G_group_positive
 
 end F7Manuscript.FinalJointScalar

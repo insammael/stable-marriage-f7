@@ -179,8 +179,6 @@ theorem fresh_of_observed_route_prefix
   exact freshAt_take (Nat.lt_of_lt_of_le event.isLt htakeN)
     (hfull ⟨event.val, Nat.lt_of_lt_of_le event.isLt hlen⟩)
 
-#print axioms noReturn_and_fresh_of_observed_route
-#print axioms fresh_of_observed_route_prefix
 
 end
 end F7Manuscript.ActualW9ObservedRouteNoReturn

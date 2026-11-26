@@ -273,5 +273,4 @@ theorem p5_actual_CII_opposite_order_impossible
     hbPost3 hmPre3 hmPost3 x6 y6 w6 hx6 hy6 hw6 hpartb6 hpartq6 hpartm
     hb6post hq6post hm6post hb6m hq6m hbq6 hnoB2
 
-#print axioms p5_actual_CII_opposite_order_impossible
 end F7Manuscript.ActualW20P5CIIActualOppositeClosureFix

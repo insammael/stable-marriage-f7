@@ -123,5 +123,4 @@ theorem p5_CII_no_internal_35_before_Y2
     · exact hq6left hL.symm
     · exact hq6right hR.symm
 
-#print axioms p5_CII_no_internal_35_before_Y2
 end F7Manuscript.ActualW20P5CIIInternal35PrefixFromGeometry

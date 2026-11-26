@@ -345,7 +345,5 @@ theorem actual_q_three_reverse_zero_predecessor_forbidden
     exact j.isLt
   exact s_zero_forbids_interior_aba S hSzero rS hrSpos hrSnext habaS
 
-#print axioms actual_zero_predecessor_centers_return
-#print axioms actual_q_three_reverse_zero_predecessor_forbidden
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW31R20QThreeReverseTerminalCaller

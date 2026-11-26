@@ -126,8 +126,6 @@ theorem
   h7_original_pure14_prefix_from_chart_and_literal_block_no_hconv
 
 -- Audit the two passed ingredients used directly.
-#print axioms h7_original_pure14_post_order_convex
-#print axioms h7_original_pure14_prefix_from_chart_and_literal_block
 
 end
 

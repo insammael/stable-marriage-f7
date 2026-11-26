@@ -153,5 +153,4 @@ theorem p5_mutual_cannot_precede_both_residuals
   exact p5_mutual_common_last_site_obstruction T m.succ r hrS hstart2 hstart6
     hseen2 hseen6 hfuture2 hfuture6
 
-#print axioms p5_mutual_cannot_precede_both_residuals
 end F7Manuscript.ActualW20P5MutualAfterBothResidualContradiction

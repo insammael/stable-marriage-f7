@@ -99,9 +99,6 @@ theorem a389_canonical_run_card_arithmetic
       (fun T : Chart => T.m + 2 * T.q)
       (hprov r)).symm.trans hmq
 
-#print axioms a142_same_boundary_canonical_actual_chart_producer
-#print axioms a389_chart_recovery_transport
-#print axioms a389_canonical_run_card_arithmetic
 
 end
 

@@ -126,6 +126,5 @@ theorem reflected_after_paired_frame_relation
       exact hidle
     · simpa [afterPaired, a, b] using hlast
 
-#print axioms reflected_after_paired_frame_relation
 
 end F7Manuscript.W7SignedFrameAfterPairedRelation

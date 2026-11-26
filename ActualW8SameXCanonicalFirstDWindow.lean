@@ -136,8 +136,6 @@ theorem actual_X_canonical_first_D_window
     · exact Or.inr (Fin.ext h)
   exact ⟨P,normalize_first_D_packet P hm hsecond⟩
 
-#print axioms normalize_first_D_packet
-#print axioms actual_X_canonical_first_D_window
 
 end
 end F7Manuscript.ActualW8SameXCanonicalFirstDWindow

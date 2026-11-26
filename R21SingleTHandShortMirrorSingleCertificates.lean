@@ -21,7 +21,6 @@ def mirrorShortSingle1_b0_core : WordPersonInvariant where
   start := by decide
   closed := by decide
 def mirrorShortSingle1_b0 : SingleTerminalCertificate := ⟨mirrorShortSingle1_b0_core,by decide⟩
-#print axioms mirrorShortSingle1_b0
 def mirrorShortSingle1_b5_core : WordPersonInvariant where
   longWord := [(0,1),(2,3),(4,5),(6,0),(1,4),(6,5),(4,3),(1,2)]
   shortWord := [(0,5),(1,2),(3,4),(6,5)]
@@ -35,7 +34,6 @@ def mirrorShortSingle1_b5_core : WordPersonInvariant where
   start := by decide
   closed := by decide
 def mirrorShortSingle1_b5 : SingleTerminalCertificate := ⟨mirrorShortSingle1_b5_core,by decide⟩
-#print axioms mirrorShortSingle1_b5
 def mirrorShortSingle1_b4_core : WordPersonInvariant where
   longWord := [(0,1),(2,3),(4,5),(6,0),(1,4),(6,5),(4,3),(1,2)]
   shortWord := [(0,5),(1,2),(3,4),(6,4)]
@@ -49,7 +47,6 @@ def mirrorShortSingle1_b4_core : WordPersonInvariant where
   start := by decide
   closed := by decide
 def mirrorShortSingle1_b4 : SingleTerminalCertificate := ⟨mirrorShortSingle1_b4_core,by decide⟩
-#print axioms mirrorShortSingle1_b4
 def mirrorShortSingle1_b1_core : WordPersonInvariant where
   longWord := [(0,1),(2,3),(4,5),(6,0),(1,4),(6,5),(4,3),(1,2)]
   shortWord := [(0,5),(1,2),(3,4),(6,1)]
@@ -63,7 +60,6 @@ def mirrorShortSingle1_b1_core : WordPersonInvariant where
   start := by decide
   closed := by decide
 def mirrorShortSingle1_b1 : SingleTerminalCertificate := ⟨mirrorShortSingle1_b1_core,by decide⟩
-#print axioms mirrorShortSingle1_b1
 def mirrorShortSingle2_b0_core : WordPersonInvariant where
   longWord := [(0,1),(2,3),(4,5),(6,0),(1,4),(6,3),(2,0),(5,0)]
   shortWord := [(0,5),(1,2),(3,4)]
@@ -77,7 +73,6 @@ def mirrorShortSingle2_b0_core : WordPersonInvariant where
   start := by decide
   closed := by decide
 def mirrorShortSingle2_b0 : SingleTerminalCertificate := ⟨mirrorShortSingle2_b0_core,by decide⟩
-#print axioms mirrorShortSingle2_b0
 def mirrorShortSingle2_b5_core : WordPersonInvariant where
   longWord := [(0,1),(2,3),(4,5),(6,0),(1,4),(6,3),(2,0),(5,0)]
   shortWord := [(0,5),(1,2),(3,4),(6,5)]
@@ -91,7 +86,6 @@ def mirrorShortSingle2_b5_core : WordPersonInvariant where
   start := by decide
   closed := by decide
 def mirrorShortSingle2_b5 : SingleTerminalCertificate := ⟨mirrorShortSingle2_b5_core,by decide⟩
-#print axioms mirrorShortSingle2_b5
 def mirrorShortSingle2_b3_core : WordPersonInvariant where
   longWord := [(0,1),(2,3),(4,5),(6,0),(1,4),(6,3),(2,0),(5,0)]
   shortWord := [(0,5),(1,2),(3,4),(6,3)]
@@ -105,7 +99,6 @@ def mirrorShortSingle2_b3_core : WordPersonInvariant where
   start := by decide
   closed := by decide
 def mirrorShortSingle2_b3 : SingleTerminalCertificate := ⟨mirrorShortSingle2_b3_core,by decide⟩
-#print axioms mirrorShortSingle2_b3
 def mirrorShortSingle2_b4_core : WordPersonInvariant where
   longWord := [(0,1),(2,3),(4,5),(6,0),(1,4),(6,3),(2,0),(5,0)]
   shortWord := [(0,5),(1,2),(3,4),(6,4)]
@@ -119,7 +112,6 @@ def mirrorShortSingle2_b4_core : WordPersonInvariant where
   start := by decide
   closed := by decide
 def mirrorShortSingle2_b4 : SingleTerminalCertificate := ⟨mirrorShortSingle2_b4_core,by decide⟩
-#print axioms mirrorShortSingle2_b4
 def mirrorShortSingle3_b0_core : WordPersonInvariant where
   longWord := [(0,1),(2,3),(4,5),(6,0),(1,4),(6,3),(2,0),(5,6)]
   shortWord := [(0,5),(1,2),(3,4)]
@@ -133,7 +125,6 @@ def mirrorShortSingle3_b0_core : WordPersonInvariant where
   start := by decide
   closed := by decide
 def mirrorShortSingle3_b0 : SingleTerminalCertificate := ⟨mirrorShortSingle3_b0_core,by decide⟩
-#print axioms mirrorShortSingle3_b0
 def mirrorShortSingle3_b5_core : WordPersonInvariant where
   longWord := [(0,1),(2,3),(4,5),(6,0),(1,4),(6,3),(2,0),(5,6)]
   shortWord := [(0,5),(1,2),(3,4),(6,5)]
@@ -147,7 +138,6 @@ def mirrorShortSingle3_b5_core : WordPersonInvariant where
   start := by decide
   closed := by decide
 def mirrorShortSingle3_b5 : SingleTerminalCertificate := ⟨mirrorShortSingle3_b5_core,by decide⟩
-#print axioms mirrorShortSingle3_b5
 def mirrorShortSingle3_b4_core : WordPersonInvariant where
   longWord := [(0,1),(2,3),(4,5),(6,0),(1,4),(6,3),(2,0),(5,6)]
   shortWord := [(0,5),(1,2),(3,4),(6,4)]
@@ -161,7 +151,6 @@ def mirrorShortSingle3_b4_core : WordPersonInvariant where
   start := by decide
   closed := by decide
 def mirrorShortSingle3_b4 : SingleTerminalCertificate := ⟨mirrorShortSingle3_b4_core,by decide⟩
-#print axioms mirrorShortSingle3_b4
 def mirrorShortSingle4_b0_core : WordPersonInvariant where
   longWord := [(0,1),(2,3),(4,5),(6,0),(1,4),(5,2),(3,0),(6,4)]
   shortWord := [(0,5),(1,2),(3,4)]
@@ -175,7 +164,6 @@ def mirrorShortSingle4_b0_core : WordPersonInvariant where
   start := by decide
   closed := by decide
 def mirrorShortSingle4_b0 : SingleTerminalCertificate := ⟨mirrorShortSingle4_b0_core,by decide⟩
-#print axioms mirrorShortSingle4_b0
 def mirrorShortSingle4_b4_core : WordPersonInvariant where
   longWord := [(0,1),(2,3),(4,5),(6,0),(1,4),(5,2),(3,0),(6,4)]
   shortWord := [(0,5),(1,2),(3,4),(6,4)]
@@ -189,7 +177,6 @@ def mirrorShortSingle4_b4_core : WordPersonInvariant where
   start := by decide
   closed := by decide
 def mirrorShortSingle4_b4 : SingleTerminalCertificate := ⟨mirrorShortSingle4_b4_core,by decide⟩
-#print axioms mirrorShortSingle4_b4
 def mirrorShortSingle4_b1_core : WordPersonInvariant where
   longWord := [(0,1),(2,3),(4,5),(6,0),(1,4),(5,2),(3,0),(6,4)]
   shortWord := [(0,5),(1,2),(3,4),(6,1)]
@@ -203,7 +190,6 @@ def mirrorShortSingle4_b1_core : WordPersonInvariant where
   start := by decide
   closed := by decide
 def mirrorShortSingle4_b1 : SingleTerminalCertificate := ⟨mirrorShortSingle4_b1_core,by decide⟩
-#print axioms mirrorShortSingle4_b1
 def mirrorShortSingle5_b0_core : WordPersonInvariant where
   longWord := [(0,1),(2,3),(4,5),(6,0),(1,4),(5,2),(6,3),(5,0)]
   shortWord := [(0,5),(1,2),(3,4)]
@@ -217,7 +203,6 @@ def mirrorShortSingle5_b0_core : WordPersonInvariant where
   start := by decide
   closed := by decide
 def mirrorShortSingle5_b0 : SingleTerminalCertificate := ⟨mirrorShortSingle5_b0_core,by decide⟩
-#print axioms mirrorShortSingle5_b0
 def mirrorShortSingle5_b3_core : WordPersonInvariant where
   longWord := [(0,1),(2,3),(4,5),(6,0),(1,4),(5,2),(6,3),(5,0)]
   shortWord := [(0,5),(1,2),(3,4),(6,3)]
@@ -231,7 +216,6 @@ def mirrorShortSingle5_b3_core : WordPersonInvariant where
   start := by decide
   closed := by decide
 def mirrorShortSingle5_b3 : SingleTerminalCertificate := ⟨mirrorShortSingle5_b3_core,by decide⟩
-#print axioms mirrorShortSingle5_b3
 def mirrorShortSingle5_b4_core : WordPersonInvariant where
   longWord := [(0,1),(2,3),(4,5),(6,0),(1,4),(5,2),(6,3),(5,0)]
   shortWord := [(0,5),(1,2),(3,4),(6,4)]
@@ -245,7 +229,6 @@ def mirrorShortSingle5_b4_core : WordPersonInvariant where
   start := by decide
   closed := by decide
 def mirrorShortSingle5_b4 : SingleTerminalCertificate := ⟨mirrorShortSingle5_b4_core,by decide⟩
-#print axioms mirrorShortSingle5_b4
 def mirrorShortSingle6_b0_core : WordPersonInvariant where
   longWord := [(0,1),(2,3),(4,5),(6,0),(1,4),(5,2),(4,3),(1,2)]
   shortWord := [(0,5),(1,2),(3,4)]
@@ -259,7 +242,6 @@ def mirrorShortSingle6_b0_core : WordPersonInvariant where
   start := by decide
   closed := by decide
 def mirrorShortSingle6_b0 : SingleTerminalCertificate := ⟨mirrorShortSingle6_b0_core,by decide⟩
-#print axioms mirrorShortSingle6_b0
 def mirrorShortSingle6_b5_core : WordPersonInvariant where
   longWord := [(0,1),(2,3),(4,5),(6,0),(1,4),(5,2),(4,3),(1,2)]
   shortWord := [(0,5),(1,2),(3,4),(6,5)]
@@ -273,7 +255,6 @@ def mirrorShortSingle6_b5_core : WordPersonInvariant where
   start := by decide
   closed := by decide
 def mirrorShortSingle6_b5 : SingleTerminalCertificate := ⟨mirrorShortSingle6_b5_core,by decide⟩
-#print axioms mirrorShortSingle6_b5
 def mirrorShortSingle6_b3_core : WordPersonInvariant where
   longWord := [(0,1),(2,3),(4,5),(6,0),(1,4),(5,2),(4,3),(1,2)]
   shortWord := [(0,5),(1,2),(3,4),(6,3)]
@@ -287,7 +268,6 @@ def mirrorShortSingle6_b3_core : WordPersonInvariant where
   start := by decide
   closed := by decide
 def mirrorShortSingle6_b3 : SingleTerminalCertificate := ⟨mirrorShortSingle6_b3_core,by decide⟩
-#print axioms mirrorShortSingle6_b3
 def mirrorShortSingle6_b4_core : WordPersonInvariant where
   longWord := [(0,1),(2,3),(4,5),(6,0),(1,4),(5,2),(4,3),(1,2)]
   shortWord := [(0,5),(1,2),(3,4),(6,4)]
@@ -301,7 +281,6 @@ def mirrorShortSingle6_b4_core : WordPersonInvariant where
   start := by decide
   closed := by decide
 def mirrorShortSingle6_b4 : SingleTerminalCertificate := ⟨mirrorShortSingle6_b4_core,by decide⟩
-#print axioms mirrorShortSingle6_b4
 def mirrorShortSingle6_b1_core : WordPersonInvariant where
   longWord := [(0,1),(2,3),(4,5),(6,0),(1,4),(5,2),(4,3),(1,2)]
   shortWord := [(0,5),(1,2),(3,4),(6,1)]
@@ -315,7 +294,6 @@ def mirrorShortSingle6_b1_core : WordPersonInvariant where
   start := by decide
   closed := by decide
 def mirrorShortSingle6_b1 : SingleTerminalCertificate := ⟨mirrorShortSingle6_b1_core,by decide⟩
-#print axioms mirrorShortSingle6_b1
 def mirrorShortSingle7_b0_core : WordPersonInvariant where
   longWord := [(0,1),(2,3),(4,5),(6,0),(1,4),(5,2),(4,3),(6,5),(2,0)]
   shortWord := [(0,5),(1,2),(3,4)]
@@ -329,7 +307,6 @@ def mirrorShortSingle7_b0_core : WordPersonInvariant where
   start := by decide
   closed := by decide
 def mirrorShortSingle7_b0 : SingleTerminalCertificate := ⟨mirrorShortSingle7_b0_core,by decide⟩
-#print axioms mirrorShortSingle7_b0
 def mirrorShortSingle7_b5_core : WordPersonInvariant where
   longWord := [(0,1),(2,3),(4,5),(6,0),(1,4),(5,2),(4,3),(6,5),(2,0)]
   shortWord := [(0,5),(1,2),(3,4),(6,5)]
@@ -343,7 +320,6 @@ def mirrorShortSingle7_b5_core : WordPersonInvariant where
   start := by decide
   closed := by decide
 def mirrorShortSingle7_b5 : SingleTerminalCertificate := ⟨mirrorShortSingle7_b5_core,by decide⟩
-#print axioms mirrorShortSingle7_b5
 def mirrorShortSingle7_b3_core : WordPersonInvariant where
   longWord := [(0,1),(2,3),(4,5),(6,0),(1,4),(5,2),(4,3),(6,5),(2,0)]
   shortWord := [(0,5),(1,2),(3,4),(6,3)]
@@ -357,7 +333,6 @@ def mirrorShortSingle7_b3_core : WordPersonInvariant where
   start := by decide
   closed := by decide
 def mirrorShortSingle7_b3 : SingleTerminalCertificate := ⟨mirrorShortSingle7_b3_core,by decide⟩
-#print axioms mirrorShortSingle7_b3
 def mirrorShortSingle7_b1_core : WordPersonInvariant where
   longWord := [(0,1),(2,3),(4,5),(6,0),(1,4),(5,2),(4,3),(6,5),(2,0)]
   shortWord := [(0,5),(1,2),(3,4),(6,1)]
@@ -371,7 +346,6 @@ def mirrorShortSingle7_b1_core : WordPersonInvariant where
   start := by decide
   closed := by decide
 def mirrorShortSingle7_b1 : SingleTerminalCertificate := ⟨mirrorShortSingle7_b1_core,by decide⟩
-#print axioms mirrorShortSingle7_b1
 def mirrorShortSingle8_b0_core : WordPersonInvariant where
   longWord := [(0,1),(2,3),(4,5),(6,0),(1,4),(5,0),(6,3),(2,5),(0,6)]
   shortWord := [(0,5),(1,2),(3,4)]
@@ -385,7 +359,6 @@ def mirrorShortSingle8_b0_core : WordPersonInvariant where
   start := by decide
   closed := by decide
 def mirrorShortSingle8_b0 : SingleTerminalCertificate := ⟨mirrorShortSingle8_b0_core,by decide⟩
-#print axioms mirrorShortSingle8_b0
 def mirrorShortSingle8_b4_core : WordPersonInvariant where
   longWord := [(0,1),(2,3),(4,5),(6,0),(1,4),(5,0),(6,3),(2,5),(0,6)]
   shortWord := [(0,5),(1,2),(3,4),(6,4)]
@@ -399,7 +372,6 @@ def mirrorShortSingle8_b4_core : WordPersonInvariant where
   start := by decide
   closed := by decide
 def mirrorShortSingle8_b4 : SingleTerminalCertificate := ⟨mirrorShortSingle8_b4_core,by decide⟩
-#print axioms mirrorShortSingle8_b4
 def mirrorShortSingle9_b0_core : WordPersonInvariant where
   longWord := [(0,1),(2,3),(4,5),(6,0),(1,4),(5,0),(6,3),(1,2),(3,5),(0,6)]
   shortWord := [(0,5),(1,2),(3,4)]
@@ -413,7 +385,6 @@ def mirrorShortSingle9_b0_core : WordPersonInvariant where
   start := by decide
   closed := by decide
 def mirrorShortSingle9_b0 : SingleTerminalCertificate := ⟨mirrorShortSingle9_b0_core,by decide⟩
-#print axioms mirrorShortSingle9_b0
 def mirrorShortSingle9_b4_core : WordPersonInvariant where
   longWord := [(0,1),(2,3),(4,5),(6,0),(1,4),(5,0),(6,3),(1,2),(3,5),(0,6)]
   shortWord := [(0,5),(1,2),(3,4),(6,4)]
@@ -427,6 +398,5 @@ def mirrorShortSingle9_b4_core : WordPersonInvariant where
   start := by decide
   closed := by decide
 def mirrorShortSingle9_b4 : SingleTerminalCertificate := ⟨mirrorShortSingle9_b4_core,by decide⟩
-#print axioms mirrorShortSingle9_b4
 end
 end F7Manuscript.R21SingleTHand

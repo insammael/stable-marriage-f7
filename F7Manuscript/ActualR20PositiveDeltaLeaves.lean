@@ -71,5 +71,3 @@ theorem r20_positive_delta_of_leaves
 end
 end F7Manuscript.ActualPositiveDeficitCoverAssembly
 
-#print axioms F7Manuscript.ActualPositiveDeficitCoverAssembly.r20LeafObligation_zero_two_zero
-#print axioms F7Manuscript.ActualPositiveDeficitCoverAssembly.r20_positive_delta_of_leaves

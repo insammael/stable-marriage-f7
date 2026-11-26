@@ -161,6 +161,5 @@ theorem checked_table_bound (T : Table) (checked : ∀ j, ValidNode T j)
       have hn := ih (ht.rename e) edge.target usedNext envNext
       omega
 
-#print axioms checked_table_bound
 
 end F7Manuscript.PartnerGraph

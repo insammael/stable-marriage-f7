@@ -36,6 +36,4 @@ theorem q0InitialChoices_one_or_two (k : ℕ) (ps : List ℕ) :
   unfold q0InitialChoices
   split <;> simp
 
-#print axioms q0InitialChoices_bounds
-#print axioms q0InitialChoices_one_or_two
 end F7Manuscript.OneGap

@@ -185,5 +185,4 @@ theorem saturated_rectangle_length_le_eighteen
         exact (Finset.mem_filter.mp hx).2 this
   exact five_missing_cells_length_le_eighteen H miss (by omega) hnever
 
-#print axioms saturated_rectangle_length_le_eighteen
 end F7Manuscript.N4SaturatedRectangleBound

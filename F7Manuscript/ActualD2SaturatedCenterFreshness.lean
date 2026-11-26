@@ -51,6 +51,5 @@ theorem actual_center_swap_contradicts_saturated_old_pool
     W idle candidate hidle
   exact hnot (hstate ▸ hfresh)
 
-#print axioms actual_center_swap_contradicts_saturated_old_pool
 
 end F7Manuscript.ActualD2SaturatedCenterFreshness

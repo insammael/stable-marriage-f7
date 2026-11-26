@@ -73,6 +73,5 @@ theorem levelCount_good (C : Chart) (j : Fin C.m) (k : ℕ) (hk : k ≤ C.double
           (centerPreviousColor C jp) (decide (0 < C.double jp)) _ (ih hp _ (le_refl _))
   exact hall j.val j.isLt k hk
 
-#print axioms levelCount_good
 end
 end F7Manuscript.NormalSkeleton.Chart

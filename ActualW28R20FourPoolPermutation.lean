@@ -58,6 +58,5 @@ theorem actual_transition_induces_four_pool_permutation
   intro p
   exact hupd p
 
-#print axioms actual_transition_induces_four_pool_permutation
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW28R20FourPoolPermutation

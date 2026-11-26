@@ -95,7 +95,5 @@ theorem path_before_isolated_fixed_coordinate (n : Fin (thresholdLength C))
   rw [path_before_isolated C E n hisolated]
   exact congrArg Subtype.val (coordinate_eq_of_not_label C (eventAt C E n) hc)
 
-#print axioms path_before_isolated
-#print axioms path_after_isolated
 end
 end F7Manuscript.TripleCoordinateLattice.GenericThresholdPath

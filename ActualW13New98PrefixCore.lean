@@ -43,8 +43,5 @@ theorem new98_words_distinct :
     new98Word00 ≠ new98Word11 ∧ new98Word01 ≠ new98Word10 ∧
     new98Word01 ≠ new98Word11 ∧ new98Word10 ≠ new98Word11 := by decide
 
-#print axioms new98Plan_eventCount
-#print axioms new98_words_length
-#print axioms new98_words_distinct
 
 end F7Manuscript.ActualW13New98PrefixCore

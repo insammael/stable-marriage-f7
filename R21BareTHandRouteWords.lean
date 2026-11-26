@@ -66,7 +66,5 @@ theorem continueWord_normal (f : SupportFrame) (plan : List Move) (bits : Nat→
         NormalWord.paired f (bits i) (bits (i+1))
           (ih (afterPaired f (bits i) (bits (i+1))) (i+2))
 
-#print axioms route_realizes_selected_word
-#print axioms continueWord_normal
 end
 end F7Manuscript.TripleCoordinateLattice.R21BareTHandSplice

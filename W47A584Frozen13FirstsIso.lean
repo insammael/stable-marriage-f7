@@ -378,7 +378,5 @@ theorem A_first_complete :
   rcases hc with ⟨hs, hx, hf⟩
   exact check_all true c ⟨hs, hx, hf⟩
 
-#print axioms B_first_complete
-#print axioms A_first_complete
 
 end F7Manuscript.PartnerGraph.G1Frozen13.CertW584

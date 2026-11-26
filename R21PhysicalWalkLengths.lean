@@ -73,8 +73,6 @@ theorem noActualOfClosedLeaf
   exact Projection.contradiction_of_leaf walks.coherent
     (walks.tracks_closed closedL closedR leftEmpty rightEmpty) leaf certificate
 
-#print axioms noActualOfClosedLeaf
 
-#print axioms physicalWalkBuilderWithLengths
 end
 end F7Manuscript.R21NormalEndpoint.BoundaryAtlas

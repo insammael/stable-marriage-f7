@@ -95,8 +95,6 @@ exclusions as assumptions would weaken the target and is not the required
 adapter.
 -/
 
-#print axioms a133_actual_subset_chart_provenance
-#print axioms a133_hno_of_four_same_original_exclusions
 
 end
 end F7Manuscript.TripleCoordinateLattice

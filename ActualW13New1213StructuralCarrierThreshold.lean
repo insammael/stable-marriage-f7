@@ -86,6 +86,5 @@ theorem new1213_actual_saved_structural_threshold_le
       omega
   omega
 
-#print axioms new1213_actual_saved_structural_threshold_le
 end
 end F7Manuscript.ActualW13New1213StructuralCarrierThreshold

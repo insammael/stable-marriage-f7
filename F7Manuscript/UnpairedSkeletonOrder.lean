@@ -73,7 +73,5 @@ theorem actualSkeleton_cost (H : FrontierChart I m) (hspan : events H = Finset.u
       ComparableCompletionLedger.a (Chart.finiteOrder (skeleton H)) :=
   ComparableCompletionLedger.a_transport _ _
 
-#print axioms actualSkeleton_le
-#print axioms actualSkeleton_cost
 end
 end F7Manuscript.UnpairedSkeletonEmbedding

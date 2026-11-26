@@ -13,13 +13,3 @@ public import F7Manuscript.TOutsiderOrbitZ3Part21
 
 @[expose] public section
 
-#print axioms F7Manuscript.TOutsiderSavedTemplateCatalog.prefixPart_z3_12_covers
-#print axioms F7Manuscript.TOutsiderSavedTemplateCatalog.prefixPart_z3_13_covers
-#print axioms F7Manuscript.TOutsiderSavedTemplateCatalog.prefixPart_z3_14_covers
-#print axioms F7Manuscript.TOutsiderSavedTemplateCatalog.prefixPart_z3_15_covers
-#print axioms F7Manuscript.TOutsiderSavedTemplateCatalog.prefixPart_z3_16_covers
-#print axioms F7Manuscript.TOutsiderSavedTemplateCatalog.prefixPart_z3_17_covers
-#print axioms F7Manuscript.TOutsiderSavedTemplateCatalog.prefixPart_z3_18_covers
-#print axioms F7Manuscript.TOutsiderSavedTemplateCatalog.prefixPart_z3_19_covers
-#print axioms F7Manuscript.TOutsiderSavedTemplateCatalog.prefixPart_z3_20_covers
-#print axioms F7Manuscript.TOutsiderSavedTemplateCatalog.prefixPart_z3_21_covers

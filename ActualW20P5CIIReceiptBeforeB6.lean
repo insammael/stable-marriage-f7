@@ -66,5 +66,4 @@ theorem p5_receipt_three_five_precedes_boundary_six
     have h3two := hfreeze e.succ (by simp only [Fin.val_succ]; omega)
     exact (by decide : (5 : Site) ≠ 2) (hpost5.symm.trans h3two)
 
-#print axioms p5_receipt_three_five_precedes_boundary_six
 end F7Manuscript.ActualW20P5CIIReceiptBeforeB6

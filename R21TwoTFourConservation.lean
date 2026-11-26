@@ -151,7 +151,5 @@ theorem three_blocks_impossible (s : Matching) (u v w : List Swap) (i j k l : Si
   · have h := allT (s i)
     rw [tu,eu,tv,ev,tw] at h; omega
 
-#print axioms motions_of_realizes
-#print axioms three_blocks_impossible
 end F7Manuscript.R21FourConservation
 

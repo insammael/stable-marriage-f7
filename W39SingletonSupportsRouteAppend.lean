@@ -30,6 +30,5 @@ theorem supportsRouteFinal_append (f : SupportFrame) (p q : List Move)
           F7Local.eventCount] <;>
         rw [ih, Nat.add_assoc]
 
-#print axioms F7Manuscript.TripleCoordinateLattice.W39SingletonSupportsRouteAppend.supportsRouteFinal_append
 
 end F7Manuscript.TripleCoordinateLattice.W39SingletonSupportsRouteAppend

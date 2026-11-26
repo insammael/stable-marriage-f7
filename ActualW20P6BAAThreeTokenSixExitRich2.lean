@@ -198,5 +198,4 @@ theorem actual_BAA_three_first_six_exit_rich2
     hpost6e,hpre1,hrpost,hpost1,hed,hdg,hgr,
     hsupportD,hdpre,hpre2,hpost6d,hpost2d,hgpart,hgpost⟩
 
-#print axioms actual_BAA_three_first_six_exit_rich2
 end F7Manuscript.ActualW20P6BAAThreeTokenSixExitRich2

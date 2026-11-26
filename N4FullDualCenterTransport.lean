@@ -47,7 +47,5 @@ theorem center_row_frame
   exact congrArg (mapSupportFrame e)
     (dualFrame_afterCenter M f hv c bit)
 
-#print axioms center_row_fresh
-#print axioms center_row_frame
 
 end F7Manuscript.N4FullDualCenterTransport

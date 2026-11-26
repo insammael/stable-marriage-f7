@@ -83,6 +83,5 @@ theorem exists_actor_role_map (a a' b b' c c' z : Site)
   refine ⟨p, ?_, ?_, ?_, ?_, ?_, ?_, ?_⟩ <;>
     simp [p, g, actorMap]
 
-#print axioms F7Manuscript.W41SevenActorRoleMap.exists_actor_role_map
 
 end F7Manuscript.W41SevenActorRoleMap

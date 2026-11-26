@@ -34,6 +34,5 @@ theorem exists_fin_permutation_of_perm {α : Type*} [DecidableEq α]
   have hi := hvalue (e.symm i)
   simpa using! hi.symm
 
-#print axioms exists_fin_permutation_of_perm
 
 end F7Manuscript.TOutsiderRowReindex

@@ -35,6 +35,5 @@ theorem r21_one_outsider_two_T_leaf (I : Profile 7) [Nonempty (StableMatching I)
   rw [hfee, hq, hs] at hcost
   omega
 
-#print axioms r21_one_outsider_two_T_leaf
 end
 end F7Manuscript.ActualPositiveDeficitCoverAssembly

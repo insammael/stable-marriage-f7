@@ -222,8 +222,6 @@ theorem actual_macro_q1_terminal_post_suffix_enumeration
   exact actual_macro_terminal_post_suffix_enumeration C hu Eglobal n Qpost hQpost
     Epost α (by omega) hpostRow
 
-#print axioms actual_macro_terminal_post_suffix_enumeration
-#print axioms actual_macro_q1_terminal_post_suffix_enumeration
 
 end
 end F7Manuscript.TripleCoordinateLattice

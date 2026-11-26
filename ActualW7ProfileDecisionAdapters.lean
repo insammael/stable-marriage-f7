@@ -56,8 +56,6 @@ theorem actual_normal_outsider_constant_sign_with_event_decisions
   intro C _ hn h221 h311 hG hT x hx
   exact actual_normal_outsider_constant_sign C hn h221 h311 hG hT hx
 
-#print axioms actual_normal_triple_core_convex_with_event_decisions
-#print axioms actual_normal_outsider_constant_sign_with_event_decisions
 
 end
 end F7Manuscript.ActualW7ProfileDecisionAdapters

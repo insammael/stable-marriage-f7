@@ -72,6 +72,5 @@ def intervalEquiv (A B : LowerSet V) (hAB : A ≤ B) :
     · intro hx
       exact Or.inr ⟨x.property,hx⟩
 
-#print axioms intervalEquiv
 end
 end F7Manuscript.LowerSetIntervalRestriction

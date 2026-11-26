@@ -128,7 +128,6 @@ theorem actual_X_forward_initial_periodic_threshold
     simpa only [b, hclock] using! hNat'
   omega
 
-#print axioms actual_X_forward_initial_periodic_threshold
 
 end
 end F7Manuscript.ActualW11ForwardInitialPeriodicThreshold

@@ -83,5 +83,4 @@ theorem gap_clauses_imply_projection (a x y : Nat)
   · exact gap_row_a4 x y hx hy (by omega) hgap
   · exact gap_row_a5 x y hx hy (by omega) hgap
 
-#print axioms gap_clauses_imply_projection
 end F7Manuscript.ActualW16FiveRootGapClassifier

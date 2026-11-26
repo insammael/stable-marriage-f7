@@ -27,7 +27,4 @@ theorem block_start_next (C : Chart) (j : Fin C.m) (hj : j.val+1 < C.m) :
 
 theorem block_start_zero (C : Chart) : 3+0+2*C.pairsBefore 0 = 3 := by rfl
 
-#print axioms block_end_le_n
-#print axioms block_start_next
-#print axioms block_start_zero
 end F7Manuscript.ActualW33ChartBlockClock

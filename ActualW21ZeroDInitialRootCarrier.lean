@@ -226,8 +226,6 @@ theorem actual_X_zeroD_root_carrier_reverse
   obtain ⟨carrier⟩ := hcarrier
   exact ⟨P, carrier, hplanprefix⟩
 
-#print axioms actual_X_zeroD_root_carrier_forward
-#print axioms actual_X_zeroD_root_carrier_reverse
 
 end
 end F7Manuscript.ActualW21ZeroDInitialRootCarrier

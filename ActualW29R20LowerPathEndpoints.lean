@@ -96,8 +96,5 @@ theorem reverse_initial_retirement_firstStage (c : Fin 3) :
       (reverseDualPath (actualLowerPathFin C h221 h311 hz)) ⟨_, hx⟩ 0 hmem
   · exact Fin.zero_le _
 
-#print axioms actualLowerPathFin_span
-#print axioms actualLowerPathFin_terminal
-#print axioms reverse_initial_retirement_firstStage
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW29R20LowerPathEndpoints

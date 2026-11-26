@@ -95,6 +95,5 @@ theorem actual_typeV_post_route_same_actor_color_map
       simp [centerPair, mapSupportFrame, mapSupportPair, recolorCenterFrame,
         select, hbit]
 
-#print axioms actual_typeV_post_route_same_actor_color_map
 end
 end F7Manuscript.TripleCoordinateLattice

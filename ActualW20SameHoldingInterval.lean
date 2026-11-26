@@ -67,6 +67,5 @@ theorem fixedTokenSwapTrace_same_holding_interval
   exact ⟨fun h => tr.no_return e x (Or.inl h) q hbound heq,
     fun h => tr.no_return e x (Or.inr h) q hbound heq⟩
 
-#print axioms fixedTokenSwapTrace_same_holding_interval
 
 end F7Manuscript.PartnerGraph

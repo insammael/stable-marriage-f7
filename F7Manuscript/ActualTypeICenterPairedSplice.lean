@@ -74,6 +74,5 @@ theorem actual_typeI_center_paired_splice
     (by simpa only [Fin.val_mk] using! hrest)
   simpa only [List.append_assoc,List.cons_append,List.nil_append] using! hfull
 
-#print axioms actual_typeI_center_paired_splice
 end
 end F7Manuscript.TripleCoordinateLattice

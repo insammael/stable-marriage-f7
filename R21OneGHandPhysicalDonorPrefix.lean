@@ -58,7 +58,4 @@ theorem checked_physical_normal_impossible
   rw [root] at fw
   exact rejectDonor_sound d B f checked (continueWord_normal f plan bits i) long fw
     (physical_safe_donor_prefixes R pre _ tail B root hw)
-#print axioms continueWord_normal
-#print axioms physical_safe_donor_prefixes
-#print axioms checked_physical_normal_impossible
 end F7Manuscript.R21OneGHandDonor

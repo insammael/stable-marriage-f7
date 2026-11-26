@@ -99,8 +99,6 @@ theorem partial_some_reverse_swap
       ((periodicOrientedCutValues W.reverse D.reverse (!dual)).foldl max 0), ?_⟩
   simp [partialOrientedCutRequirement, hOldRev, hQ0Rev]
 
-#print axioms oriented_root_cut_hit_reverse_swap
-#print axioms partial_some_reverse_swap
 
 end
 end F7Manuscript.ActualW16PartialSomeReverseSwap

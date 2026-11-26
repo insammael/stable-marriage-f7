@@ -61,7 +61,5 @@ theorem ordered_crown_unpaired_two_center_reduction {n m : ℕ} {S T : NormalSke
   · exact Or.inr ⟨hc,ordered_crown_canonical_post_mass_le_six R hn hm hs ht hzS hzT s hc⟩
   · exact Or.inl hc
 
-#print axioms ordered_crown_canonical_post_mass_le_six
-#print axioms ordered_crown_unpaired_two_center_reduction
 end
 end F7Manuscript.R21SingleTHand

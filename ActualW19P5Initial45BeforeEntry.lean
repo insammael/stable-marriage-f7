@@ -180,6 +180,5 @@ theorem p5_initial_four_five_held_before_first_special_entry
   intro t ht
   exact hmain t.val t rfl ht
 
-#print axioms p5_initial_four_five_held_before_first_special_entry
 
 end F7Manuscript.ActualW19P5Initial45BeforeEntry

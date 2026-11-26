@@ -41,6 +41,5 @@ theorem r21_zero_outsiders_two_T_via_conservation
   · exact hb
   · exact hc
 
-#print axioms r21_zero_outsiders_two_T_via_conservation
 end
 end F7Manuscript.ActualPositiveDeficitCoverAssembly

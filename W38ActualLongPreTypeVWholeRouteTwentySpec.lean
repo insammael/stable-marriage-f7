@@ -161,6 +161,5 @@ noncomputable def actual_long_pre_typeV_whole_route_twenty_spec
             exact Finset.mem_univ _) Hwhole).toTokenRun) e).support
               ⟨3, by rw [Finset.card_univ, hn20]; omega⟩ = ({(0 : Site),6} : Finset Site)
 
-#print axioms actual_long_pre_typeV_whole_route_twenty_spec
 end
 end F7Manuscript.TripleCoordinateLattice.W38ActualLongPreTypeVWholeRouteTwentySpec

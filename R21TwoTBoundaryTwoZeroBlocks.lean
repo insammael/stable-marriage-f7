@@ -98,8 +98,6 @@ theorem two_zero_blocks_prefix
  exact two_zero_blocks_to_word_prefix R (R.state 0).symm pre rest _ i j rfl rfl hB
    f1 f2 current next c1 c2 b1 b2 hcurrent hchain hnext hidle hw
 
-#print axioms two_zero_blocks_prefix
 
-#print axioms two_zero_blocks_to_word_prefix
 end
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

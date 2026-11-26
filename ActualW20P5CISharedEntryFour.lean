@@ -231,5 +231,4 @@ theorem p5_CI_actual_shared_entry_four
     · exact (hA5 h).elim
   exact ⟨x2,hA4,hentry2,(by simpa [hcommon] using! hentry6)⟩
 
-#print axioms p5_CI_actual_shared_entry_four
 end F7Manuscript.ActualW20P5CISharedEntryFour

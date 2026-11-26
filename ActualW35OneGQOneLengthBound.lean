@@ -119,4 +119,3 @@ theorem actual_oneG_q1_s_le_one_m_le_eleven
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW35OneGQOneLengthBound
 
-#print axioms F7Manuscript.TripleCoordinateLattice.ActualW35OneGQOneLengthBound.actual_oneG_q1_s_le_one_m_le_eleven

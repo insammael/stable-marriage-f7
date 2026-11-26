@@ -111,10 +111,5 @@ theorem rawState_update_before (bits : ℕ → Bool) (n : ℕ) (b : Bool)
     simp only [rawState]
     rw [Function.update_of_ne htn, hprev]
 
-#print axioms raw_state_valid
-#print axioms frontier_step_same
-#print axioms frontier_step_other
-#print axioms RawCut.frontier_history
-#print axioms rawState_update_before
 
 end F7Manuscript.PartnerGraph.Periodic

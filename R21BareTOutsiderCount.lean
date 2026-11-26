@@ -32,6 +32,5 @@ theorem original_count_bare_T_outsiders (u : Nat) (lo : 1≤u) (hi : u≤3)
   exact count_bare_T_of_fee C hn h221 h311 u hi hu hG hT bare
     (original_bare_T_fee_hand C hn h221 h311 u lo hi hu hG hT bare)
 
-#print axioms original_count_bare_T_outsiders
 end
 end F7Manuscript.TripleCoordinateLattice.R21BareT

@@ -249,5 +249,4 @@ theorem actual_BBAA_center_word_false
     exact ⟨k1.castSucc, by simp, hzero.2⟩
   exact BBAA_second_B_token_one_impossible tr hword hsecondWitness
 
-#print axioms actual_BBAA_center_word_false
 end F7Manuscript.ActualW20P6BBAAClosure

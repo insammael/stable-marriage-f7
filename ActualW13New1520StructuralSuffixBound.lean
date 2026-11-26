@@ -65,6 +65,5 @@ theorem observed_new1520_actual_suffix_bound
   have hn := new1520_four_word_future3_bound R t c bits h0 h1 h2 h3 h4 h6 h8 h9 H sfut
   omega
 
-#print axioms observed_new1520_actual_suffix_bound
 
 end F7Manuscript.ActualW13New1520StructuralSuffixBound

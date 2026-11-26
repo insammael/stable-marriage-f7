@@ -90,6 +90,5 @@ theorem actual_macro_intercept_and_outsider_charge
       have h := actual_canonical_positive_T_joint_charge C hn h221 h311 hdelta j hT hp H
       exact positive_T_bound _ _ _ _ h
 
-#print axioms actual_macro_intercept_and_outsider_charge
 end
 end F7Manuscript.TripleCoordinateLattice

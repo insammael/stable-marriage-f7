@@ -30,6 +30,4 @@ theorem delta3_zero_transport_deciders
   cases hdle
   exact hz
 
-#print axioms triple_nonempty_transport_decidableEq
-#print axioms delta3_zero_transport_deciders
 end F7Manuscript.TripleCoordinateLattice.ActualW33NormalContextTransport

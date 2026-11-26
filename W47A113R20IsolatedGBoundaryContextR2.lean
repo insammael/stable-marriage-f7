@@ -151,7 +151,6 @@ theorem a113_r20_isolated_g_boundary_context
   exact ⟨k, n, H, hE, hMcard, rfl, rfl, hG, hLabel2, hUnique,
     hR0, hR1, hPastRow, hFutureRow, hPastCore⟩
 
-#print axioms a113_r20_isolated_g_boundary_context
 
 end
 end F7Manuscript.TripleCoordinateLattice

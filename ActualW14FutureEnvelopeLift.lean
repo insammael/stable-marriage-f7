@@ -1,5 +1,6 @@
 module
 
+public import Mathlib
 public import F7Manuscript.PartnerGraphCertificate
 
 @[expose] public section
@@ -24,6 +25,5 @@ theorem Future.transportEnvelope {F G : Rel} {u n : ℕ}
       exact Future.cons c simple legalG excess (fun _ _ h => h)
         (ih envNext)
 
-#print axioms Future.transportEnvelope
 
 end F7Manuscript.PartnerGraph

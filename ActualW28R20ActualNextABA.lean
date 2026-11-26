@@ -114,7 +114,5 @@ theorem actual_singleton_switch_next_block_aba
   rw [hleft, hright] at haba
   simpa [S] using! haba
 
-#print axioms charged_zero_level_is_aba
-#print axioms actual_singleton_switch_next_block_aba
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW28R20ActualNextABA

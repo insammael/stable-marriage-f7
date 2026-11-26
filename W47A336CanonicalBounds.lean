@@ -179,8 +179,6 @@ theorem a142_canonical_segment_bounds
     (a142RunNo221 C E r) (a142RunNo311 C E r)
     (a142RunDeltaZero C h221 h311 E r)
 
-#print axioms a142_subset_bounds_with_decisions
-#print axioms a142_canonical_segment_bounds
 
 end
 end F7Manuscript.TripleCoordinateLattice

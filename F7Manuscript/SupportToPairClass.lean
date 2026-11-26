@@ -206,5 +206,4 @@ theorem support_implies_pairClass (S : SupportModel V B) (hB : Fintype.card B �
     PairClass (V := V) :=
   ⟨no_four S hB, no_311 S hB, no_221 S hB, no_33 S hB⟩
 
-#print axioms support_implies_pairClass
 end F7Manuscript.SupportBridge

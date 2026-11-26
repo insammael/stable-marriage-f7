@@ -96,7 +96,6 @@ theorem prefix_partial_some_of_full_partial_some
       ((periodicOrientedCutValues (W.take 14) (D.take 14) dual).foldl max 0), ?_⟩
   simp [partialOrientedCutRequirement, hOldPrefix, hQ0Prefix]
 
-#print axioms prefix_partial_some_of_full_partial_some
 
 end
 end F7Manuscript.ActualW16PrefixPartialSomeTransport

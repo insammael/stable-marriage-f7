@@ -41,6 +41,5 @@ theorem paired_moving_support_subset
       rcases hz with rfl | rfl <;>
       simp [pairedPairs, pairSupport, select, other, leftCoord, rightCoord]
 
-#print axioms paired_moving_support_subset
 end
 end F7Manuscript.ActualW28R20PairedMovingCoverage

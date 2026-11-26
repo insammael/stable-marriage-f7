@@ -139,11 +139,5 @@ theorem realized_sixStep_middle_disjoint {W : Type*} [Fintype W]
     rw [h₂, h₃, hp₂, hp₃]
     exact hdis
 
-#print axioms sixStep_return_or_middle_disjoint
-#print axioms sixStepWord_not_realized
-#print axioms realized_sixStep_middle_disjoint
-#print axioms fourStepPrefix_return_or_middle_disjoint
-#print axioms fourStepPrefix_not_realized
-#print axioms realized_fourStepPrefix_middle_disjoint
 
 end F7Manuscript.FourActorSixStepRigidity

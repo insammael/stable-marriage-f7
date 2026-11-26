@@ -130,8 +130,6 @@ theorem dual_paired_schedule_frontier_memory
       (Q := Q) (B := B) (h221 := h221) (h311 := h311) (hz := hz) H
   simpa [bits, hfinal, eventCount_replicate_paired] using! hmem
 
-#print axioms dual_paired_schedule_route_validity
-#print axioms dual_paired_schedule_frontier_memory
 
 end
 end F7Manuscript.ActualDualPairedRouteMemory

@@ -125,7 +125,5 @@ theorem eleven_singleABA_pivot_list
       exact hval
     simp [F7Local.localPivots, List.range, List.range.loop, ht1, ht2, ht3, ht4, ht5, ht6, ht7, ht8, ht9]
 
-#print axioms eleven_singleABA_pivot
-#print axioms eleven_singleABA_pivot_list
 
 end F7Manuscript.TripleCoordinateLattice.W37SingleABAElevenPivot

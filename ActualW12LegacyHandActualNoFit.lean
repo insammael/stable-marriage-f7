@@ -173,14 +173,6 @@ theorem actual_X_new9_legacy_oriented_false
   exact actual_X_any_return_root_oriented_source_false C hn hδ h221 h311 hG hT
     X new9_return_entry new9_color_facts dual j hfit
 
-#print axioms actual_X_new0_legacy_oriented_false
-#print axioms actual_X_new4_legacy_oriented_false
-#print axioms actual_X_new18_legacy_oriented_false
-#print axioms actual_X_new32_legacy_oriented_false
-#print axioms actual_X_new72_legacy_oriented_false
-#print axioms actual_X_new145_legacy_oriented_false
-#print axioms actual_X_new8_legacy_oriented_false
-#print axioms actual_X_new9_legacy_oriented_false
 
 #eval IO.eprintln "W12 legacy hand actual nofit checked"
 

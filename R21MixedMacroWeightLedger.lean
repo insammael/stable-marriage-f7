@@ -84,7 +84,6 @@ theorem actual_R21_weight_of_macro_charges
   exact mixed_ledger_arith _ _ _ _ _ _ _ _ _ hocc.symm hsum
     (actual_r21_canonical_run_cost_ge_two C hn h221 h311 hdelta) hledger
 
-#print axioms actual_R21_weight_of_macro_charges
 end
 end F7Manuscript.TripleCoordinateLattice
 

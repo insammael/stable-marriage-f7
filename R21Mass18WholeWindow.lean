@@ -45,6 +45,5 @@ theorem actual_univ_normal_in_complete_run
     simpa only [Nat.zero_add] using! align t
   · exact F7Manuscript.saturated_participation_is_six R (by decide)
 
-#print axioms actual_univ_normal_in_complete_run
 end
 end F7Manuscript.TripleCoordinateLattice.Mass18

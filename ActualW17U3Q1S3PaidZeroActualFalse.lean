@@ -199,7 +199,6 @@ theorem actual_u3_q1_s3_paid_zero_false
   exact F7Manuscript.ActualW17U3Q1S3PaidZeroFalseV2.m13_endpoint_three_pivot_paid_zero_false
     W D hWlen hDlen hDend hDint hpivF hpivR hSomeF hSomeR
 
-#print axioms actual_u3_q1_s3_paid_zero_false
 end
 end ActualW17U3Q1S3PaidZeroActualFalse
 end F7Manuscript.TripleCoordinateLattice

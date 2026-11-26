@@ -130,7 +130,5 @@ theorem one_G_overlapping_histories
       exact (hseenL a _).mpr ⟨k.castSucc, hv.trans (hm a ha).1.symm⟩
     · exact ⟨0, hfix a ha⟩
 
-#print axioms overlap_endpoint_after_first
-#print axioms one_G_overlapping_histories
 end
 end F7Manuscript.TripleCoordinateLattice.R21OneGOverlapHistory

@@ -58,6 +58,5 @@ theorem r21_one_G_endpoint_geometry
   · simpa only [hR] using! hOld
   · simpa only [hL] using! hNew
 
-#print axioms r21_one_G_endpoint_geometry
 end
 end F7Manuscript.TripleCoordinateLattice.R21OneGEndpointGeometry

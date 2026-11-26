@@ -53,6 +53,5 @@ theorem r20_q1_one_internal_excluded_of_four_cover_extrema
     · exact h _ (mem _ _) hlt.1.le
     · exact h _ (mem _ _) hlt.2.le
 
-#print axioms r20_q1_one_internal_excluded_of_four_cover_extrema
 end
 end F7Manuscript.TripleCoordinateLattice

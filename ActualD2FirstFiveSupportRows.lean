@@ -216,14 +216,5 @@ theorem support_row8 (b : Fin 5 → Bool)
       F7Local.sourcePrefix, F7Local.routePrefix, F7Local.initialWord,
       F7Local.initialSupport, F7Local.eventCount] <;> decide +kernel
 
-#print axioms support_row0
-#print axioms support_row1
-#print axioms support_row2
-#print axioms support_row3
-#print axioms support_row4
-#print axioms support_row5
-#print axioms support_row6
-#print axioms support_row7
-#print axioms support_row8
 
 end F7Manuscript.ActualD2FirstFiveSupportRows

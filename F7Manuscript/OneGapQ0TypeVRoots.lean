@@ -101,5 +101,4 @@ theorem q0_typeV_saved_root (g : Geometry) (hg : g ∈ geometries.take 39)
     exact q0_saved_root_geometry_38 fixed row phase hadm
   · exact False.elim hfalse
 
-#print axioms q0_typeV_saved_root
 end F7Manuscript.OneGap

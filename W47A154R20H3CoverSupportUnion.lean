@@ -21,6 +21,5 @@ lemma cover_support_union_card_ge_three (S : SupportModel V B)
   rw [cover_interval_eq_pair hab] at h
   simpa [supportUnion] using! h
 
-#print axioms cover_support_union_card_ge_three
 
 end F7Manuscript.NormalSupportRigidity

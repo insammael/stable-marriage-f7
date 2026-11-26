@@ -35,6 +35,5 @@ theorem prefixCost_wordTurns_le_s (S : Chart) :
       simpa using! hA
     _ = S.s := (Chart.s_eq_costCount S).symm
 
-#print axioms prefixCost_wordTurns_le_s
 end
 end F7Manuscript.W35ABACostBound

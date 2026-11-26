@@ -89,6 +89,5 @@ theorem actual_r21_one_outside_two_macros_critical
   exact two_bare_low_deficit_forces_zero_run hm S kind k (byLabel C 3).card
     (actualGlobalMacroKind_count_T C E) hT mass hterm small
 
-#print axioms actual_r21_one_outside_two_macros_critical
 end
 end F7Manuscript.TripleCoordinateLattice

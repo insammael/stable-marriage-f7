@@ -115,6 +115,5 @@ theorem actual_cyclic_seed_reorder {W : Type*} [Fintype W]
     · exact s11
     · exact s12
 
-#print axioms actual_cyclic_seed_reorder
 end
 end F7Manuscript.R21NormalEndpoint.ReseededObservation

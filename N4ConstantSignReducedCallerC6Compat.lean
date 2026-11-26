@@ -147,9 +147,6 @@ before applying r20_one_outsider_leaf_of_core_deficit. That W30 work is
 outside this research assignment.
 -/
 
-#print axioms constant_sign_actual_q3_floor
-#print axioms constant_sign_all_q_floor_of_q12_kernel
-#print axioms constant_sign_charge_of_q12_kernel
 
 end
 end F7Manuscript.TripleCoordinateLattice.N4ConstantSignReducedCaller

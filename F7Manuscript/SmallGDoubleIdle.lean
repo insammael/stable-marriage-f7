@@ -55,7 +55,5 @@ theorem new_idle_mem_first (a : ReturnCertificate.Site)
     · rw [h4,h5] at ha
       exact h56_34 a ha
 
-#print axioms old_idle_mem_second
-#print axioms new_idle_mem_first
 end
 end F7Manuscript.SmallGDoubleHistory

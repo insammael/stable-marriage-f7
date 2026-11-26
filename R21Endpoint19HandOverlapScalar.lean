@@ -98,6 +98,4 @@ theorem mass16_fee_from_overlap {cost : Nat} (L : Mass16OverlapLedger cost) : 7<
  have lower:=L.sixLower
  omega
 
-#print axioms middle_cut_unpaid
-#print axioms mass16_fee_from_overlap
 end F7Manuscript.R21Endpoint19Hand

@@ -1,5 +1,6 @@
 module
 
+public import Mathlib
 public import F7Manuscript.SizedPartnerGraphAnchoredCertificate
 public import F7Manuscript.PeriodicShortGraphCertificate
 
@@ -155,6 +156,5 @@ theorem table10_checked : ∀ i : Fin 10, Sized.ValidNode table10 i ∨ Sized.No
   · exact Or.inr node8_futureBound
   · exact Or.inl (by decide +kernel : Sized.ValidNode table10 (⟨9, by decide⟩ : Fin 10))
 
-#print axioms table10_checked
 
 end F7Manuscript.ActualW21Selected17AnchorBridge

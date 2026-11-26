@@ -98,6 +98,5 @@ theorem new72_fourth_false_impossible (bits : Nat → Bool)
   have hfresh := N.fresh 7 (by simp [new72Plan, eventCount]) 3 (by simp [hp]) 0 (by omega)
   exact hfresh hs
 
-#print axioms new72_fourth_false_impossible
 
 end F7Manuscript.ActualW12New72Hand

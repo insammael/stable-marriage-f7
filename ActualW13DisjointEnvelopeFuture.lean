@@ -1,5 +1,6 @@
 module
 
+public import Mathlib
 public import F7Manuscript.SizedPartnerGraphCertificate
 
 @[expose] public section
@@ -227,13 +228,5 @@ theorem future_disjoint_additive_bound {F GA GB : Rel} {A B : Site → Prop}
   have hB := boundB nb fB
   omega
 
-#print axioms updateRel_union
-#print axioms updateRel_fixed_other_block
-#print axioms updateRel_preserves_support
-#print axioms mutual_pair_in_component
-#print axioms binExec_split
-#print axioms future_to_binExec
-#print axioms binExec_to_future
-#print axioms future_disjoint_additive_bound
 
 end F7Manuscript.ActualW13DisjointEnvelopeFuture

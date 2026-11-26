@@ -121,8 +121,5 @@ theorem actual_cut_partition (P : Finset V) {x : V} (hx : x∈P) :
     · exact hv
     · exact hvx.symm ▸ hx
 
-#print axioms central_cut_vertex_card
-#print axioms central_cut_ordered_pair_ledger
-#print axioms actual_cut_partition
 
 end ConditionalUL

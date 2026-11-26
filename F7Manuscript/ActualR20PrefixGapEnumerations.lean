@@ -236,7 +236,6 @@ theorem actual_r20_prefix_gap_enumerations
   · exact actual_binary_G_window_gap_choices C E (macroPosition C E j)
       hG hempty hOldBinary hNewBinary
 
-#print axioms actual_r20_prefix_gap_enumerations
 
 end
 end F7Manuscript.TripleCoordinateLattice

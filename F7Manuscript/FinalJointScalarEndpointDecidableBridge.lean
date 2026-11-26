@@ -66,6 +66,5 @@ theorem actual_global_endpoint_scalar_bounds_all_deciders
   exact EndpointScalarAssertion_transport d (Classical.decEq (Event I)) l
     (Classical.decRel (fun x y : Event I => x ≤ y)) C @hclass
 
-#print axioms actual_global_endpoint_scalar_bounds_all_deciders
 end
 end F7Manuscript.TripleCoordinateLattice

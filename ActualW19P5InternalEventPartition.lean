@@ -151,7 +151,5 @@ theorem p5_saturated_actual_rows_of_global_both_count_le_one
   have hrows := p5_count_rows a b c d r hrow hb4 hInternalEq hcount hc'
   exact ⟨a,b,c,d,r,ha,hb,hcGlobal,hd,rfl,hrows⟩
 
-#print axioms p5_actual_internal_event_count_partition
-#print axioms p5_saturated_actual_rows_of_global_both_count_le_one
 
 end F7Manuscript.ActualW19P5InternalEventPartition

@@ -124,6 +124,5 @@ theorem actual_q0_chosen_whole_prefix
   exact ⟨hPG, HPG, hptsPG, Hraw, hUF, hptsWhole,
     e, hnorm, Hpre, hfinal, h0, h1, h2, h3⟩
 
-#print axioms actual_q0_chosen_whole_prefix
 end
 end F7Manuscript.TripleCoordinateLattice

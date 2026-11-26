@@ -211,7 +211,5 @@ theorem firstD34_pure_controls_A
               centerPair,select,other,put,pairSupport,Equiv.trans_apply,
               Equiv.swap_apply_def]
 
-#print axioms root_frame_first_two
-#print axioms firstD34_pure_controls_A
 
 end F7Manuscript.N4FirstD34RootControls

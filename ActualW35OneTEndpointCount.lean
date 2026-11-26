@@ -199,4 +199,3 @@ theorem actual_one_T_endpoint_count_le_85
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW35OneTEndpointCount
 
-#print axioms F7Manuscript.TripleCoordinateLattice.ActualW35OneTEndpointCount.actual_one_T_endpoint_count_le_85

@@ -178,9 +178,6 @@ theorem h7_finish_chart_producer_false
     h7_finish_prefixes_false
       (I := I) hR20 W b K.card hb hcard hprefixes
 
-#print axioms h7_finish_costFrom_subinterval_le
-#print axioms h7_finish_prefixes_false
-#print axioms h7_finish_chart_producer_false
 
 end
 

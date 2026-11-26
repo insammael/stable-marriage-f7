@@ -96,9 +96,6 @@ theorem cover_pair_two_then_three (a d : Event I) (had : a ⋖ d)
   · simpa [hsecond] using! hd
   · simpa [hfirst, hsecond] using! hunion
 
-#print axioms pair_enumeration
-#print axioms cover_pair_three_then_two
-#print axioms cover_pair_two_then_three
 
 end
 end F7Manuscript.ConvexPairExecution

@@ -68,6 +68,4 @@ theorem actual_seed_crew (B : Board) (f : SupportFrame)
     ∃w∈crews B f.idle, replay B (startingPairs f)=replay B w :=
   ⟨frameMatching f,frame_matching_mem_crews B f hv hfr,frame_matching_replay B f hv⟩
 
-#print axioms frame_matching_replay
-#print axioms actual_seed_crew
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

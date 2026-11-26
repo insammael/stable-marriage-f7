@@ -52,8 +52,6 @@ theorem new4_metadata :
     have hi' : i < 4 := by omega
     interval_cases i <;> decide
 
-#print axioms new4_return_entry
-#print axioms new4_metadata
 
 #eval IO.eprintln "W12 NEW4 return-entry checked"
 

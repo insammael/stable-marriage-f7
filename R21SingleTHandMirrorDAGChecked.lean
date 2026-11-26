@@ -79,5 +79,4 @@ theorem mirrorDAG_normal_bound {plan : List Move} {s t : PhysicalState}
     (h : PhysicalTrace (graphGuard mirrorCompatible mirrorRejected) plan s t)
     (i : Fin 61) (hi : s∈(mirrorDAG i).states) : eventCount plan+(mirrorDAG i).mass≤6 :=
   handGraph_trace_bound mirrorDAG mirrorCompatible mirrorRejected 6 mirrorDAG_checked mirrorDAG_masses h i hi
-#print axioms mirrorDAG_normal_bound
 end F7Manuscript.R21SingleTHand

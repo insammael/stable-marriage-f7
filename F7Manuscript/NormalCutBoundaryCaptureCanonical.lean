@@ -46,7 +46,5 @@ theorem normalCutCanonical_terminal_low_fixed_rowExclusive
       Inc r ((p R.right).val (movingColor fixed 1)).val := by
   exact normalCut_terminal_low_fixed_rowExclusive C E R Q B hB hQ h221 h311 hz fixed hm hcenter
 
-#print axioms normalCutCanonical_first_center_mem_futureSet
-#print axioms normalCutCanonical_terminal_low_fixed_rowExclusive
 end
 end F7Manuscript.TripleCoordinateLattice

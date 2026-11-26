@@ -300,8 +300,6 @@ theorem actual_X_reverse_shifted_budget_root_threshold
   dsimp -failIfUnchanged only [L] at hthreshold
   simpa only [hstart] using! hthreshold
 
-#print axioms actual_X_reverse_initial_budget_root_threshold
-#print axioms actual_X_reverse_shifted_budget_root_threshold
 
 end
 end F7Manuscript.ActualW12LegacyReverseBudget

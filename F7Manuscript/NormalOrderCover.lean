@@ -183,8 +183,5 @@ theorem sliding_to_relations (e : Fin r → V) (H : SlidingTripleChart e) :
       simp [a, d] at hv
     exact lt_of_le_of_ne hle hne
 
-#print axioms relations_to_order
-#print axioms sliding_to_relations
-#print axioms four_event_cover
 
 end F7Manuscript.NormalOrderCover

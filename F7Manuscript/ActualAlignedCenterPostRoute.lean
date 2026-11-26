@@ -102,6 +102,5 @@ theorem actual_aligned_q0_post_route_same_actor_color_map
       simp [centerPair, mapSupportFrame, mapSupportPair, recolorCenterFrame,
         select, hbit]
 
-#print axioms actual_aligned_q0_post_route_same_actor_color_map
 end
 end F7Manuscript.TripleCoordinateLattice

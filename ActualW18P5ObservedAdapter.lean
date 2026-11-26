@@ -251,8 +251,5 @@ theorem carrier_p5_future_bound
   simp [t] at htail
   omega
 
-#print axioms p5ObservedWord_prefixFresh_eq_graph
-#print axioms carrier_has_observed_p5_prefix
-#print axioms carrier_p5_future_bound
 
 end F7Manuscript.ActualW18P5ObservedAdapter

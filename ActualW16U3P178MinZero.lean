@@ -120,7 +120,6 @@ theorem actual_X_P178_min_endpoint_zero_false
   rw [hmin, hsum] at hthreshold
   norm_num at hthreshold
 
-#print axioms actual_X_P178_min_endpoint_zero_false
 
 end
 end F7Manuscript.ActualW16U3P178MinZero

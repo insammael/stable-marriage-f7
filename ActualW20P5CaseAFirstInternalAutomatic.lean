@@ -118,6 +118,5 @@ theorem p5_caseA_first_internal_automatically_uses_three_five
     hentryE hstate3 hstate4 hstate5 hb hRzero heprops.2 hminimal
   exact ⟨e, heprops.1, hends⟩
 
-#print axioms p5_caseA_first_internal_automatically_uses_three_five
 
 end F7Manuscript.ActualW20P5CaseAFirstInternalAutomatic

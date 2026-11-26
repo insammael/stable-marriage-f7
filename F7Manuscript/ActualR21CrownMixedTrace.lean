@@ -199,6 +199,4 @@ theorem mixed_trace_of_anchored_route {R : TokenRun Site W q} {t : Fin (q+1)}
         by simpa [eventCount, Nat.add_assoc, Nat.add_comm, Nat.add_left_comm] using! hv,
         by simpa [eventCount, Nat.add_assoc, Nat.add_comm, Nat.add_left_comm] using! hcv⟩
 
-#print axioms mixed_trace_of_anchored_route
-#print axioms CrownMixedTrace.cost_after_first
 end F7Manuscript.R21PureInitialCrown

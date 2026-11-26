@@ -65,4 +65,3 @@ theorem actual_oneG_ternary_singleton_pre_count_le_85
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW35OneGTernarySingletonCount
 
-#print axioms F7Manuscript.TripleCoordinateLattice.ActualW35OneGTernarySingletonCount.actual_oneG_ternary_singleton_pre_count_le_85

@@ -1,5 +1,6 @@
 module
 
+public import Mathlib
 public import F7Manuscript.PureShortCutSizedGraphValid028
 public import F7Manuscript.ThresholdShortGraphCertificate
 
@@ -223,8 +224,5 @@ theorem root2_exact_bound {F : Rel} {k : ℕ}
   have h := Sized.checked_table_bound_of_anchors table16 table16_checked (sizedFuture future) (⟨2, by decide⟩ : Fin 16) (by decide) env'
   simpa [table16, root2] using! h
 
-#print axioms root0_exact_bound
-#print axioms root1_exact_bound
-#print axioms root2_exact_bound
 
 end F7Manuscript.ActualW21Selected7TightRoots

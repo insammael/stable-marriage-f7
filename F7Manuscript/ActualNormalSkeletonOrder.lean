@@ -114,6 +114,5 @@ theorem actualNormalLabel_frontier (t : ℕ) (ht : t ≤ normalBlockCount C)
         rw [hr] at hu
         exact hu.symm
 
-#print axioms actualNormalLabel_frontier
 end
 end F7Manuscript.TripleCoordinateLattice

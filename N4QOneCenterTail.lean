@@ -162,8 +162,5 @@ theorem firstD4_q1_full_center_tail
         rw [d4APlan_eventCount])]
   exact hword.2.2
 
-#print axioms q1_actual_plan_center_tail
-#print axioms firstD3_q1_full_center_tail
-#print axioms firstD4_q1_full_center_tail
 
 end F7Manuscript.N4QOneCenterTail

@@ -192,17 +192,9 @@ theorem h7_original_pure14_post_actual_skeleton_identities
 
   exact ⟨hn17, hm14, hqActual, hs0⟩
 
-#check h7_original_pure14_post_actual_skeleton_identities
 
-#print axioms h7_original_pure14_post_actual_skeleton_identities
 
 -- Audit the source suppliers used by this proof.
-#print axioms a523_original_mixed_counter_pure14_run_cards
-#print axioms CounterDeficitTransport.original_mixed_counter_hdef
-#print axioms h7_post_cost_nonpos_of_pre_card
-#print axioms h7_actual_subset_q_zero_of_card_cost
-#print axioms ActualBoundsBridge.bounds_with_decisions
-#print axioms actual_subset_normal_chart_bounds
 
 end Original
 

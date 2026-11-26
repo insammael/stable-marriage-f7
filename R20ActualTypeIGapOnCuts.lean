@@ -122,6 +122,5 @@ theorem actual_typeI_gap_on_cuts
       hgeo.1 hpair.2.2.1 hpair.2.1 hgeo.2 hmCount (segmentTriple C E Rpost) Tpost
       c d p bit cross rowLabel hpc hp0 hp1 hrows (hLower.trans hfPost) hbudgetCut
 
-#print axioms actual_typeI_gap_on_cuts
 end
 end F7Manuscript.TripleCoordinateLattice.R20ActualTypeIGapOnCuts

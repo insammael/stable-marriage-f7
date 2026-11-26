@@ -47,6 +47,5 @@ theorem macroColors_eq_of_recurrence
     have hp := hpoint i (by simpa [hlen] using! hiX)
     simpa only [getElem!_pos xs i hiX, macroColors, List.getElem_ofFn] using! hp
 
-#print axioms macroColors_eq_of_recurrence
 
 end F7Manuscript.W7MacroColorTypedReconstruction

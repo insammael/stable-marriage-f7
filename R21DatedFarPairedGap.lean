@@ -59,6 +59,4 @@ theorem pure_of_no_gap_three {R : TokenRun Site (Agent 7) 21} {off len : Nat} {b
       simpa only [List.map_cons,List.map_nil,List.cons_append,List.nil_append,List.append_assoc] using! input
     · exact near pre gap tail size source
 
-#print axioms no_far_pair_gap
-#print axioms pure_of_no_gap_three
 end F7Manuscript.R21LongWindow.PairedSubpatterns

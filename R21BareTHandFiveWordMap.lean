@@ -31,5 +31,4 @@ open R21TwoT R21TwoTBoundary R21FourEndpoint R21FourConservation R21LooseRows
      simpa only [List.map_append,←pairWord_mapped,←mapSupportFrame_afterPaired] using!
        NormalWord.paired (mapSupportFrame e f) cross label ih
 
-#print axioms normalWord_mapped
 end F7Manuscript.TripleCoordinateLattice.R21BareTHandFive

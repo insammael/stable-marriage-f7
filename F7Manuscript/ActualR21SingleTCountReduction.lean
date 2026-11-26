@@ -63,7 +63,6 @@ theorem r21_single_T_original_count_reduction
   norm_num at hledger
   constructor <;> omega
 
-#print axioms r21_single_T_original_count_reduction
 
 end
 end F7Manuscript.TripleCoordinateLattice

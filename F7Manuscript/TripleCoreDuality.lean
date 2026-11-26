@@ -171,7 +171,5 @@ theorem normal_components_dual (C : Partition (V := V)) [Nonempty (Triple C)]
   rw [hG,hT] at ho
   omega
 
-#print axioms outsider_constant_signs_dual
-#print axioms neutral_delta3_dual
 end
 end F7Manuscript.TripleCoordinateLattice

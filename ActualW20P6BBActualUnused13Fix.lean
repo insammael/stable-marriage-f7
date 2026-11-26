@@ -122,5 +122,4 @@ theorem bb_actual_cell_13_unused
         change T.state k.succ (T.rightSite k) = 3 at hy
         exact hnever k (Or.inr hx.symm) (by simpa [hx] using! hy)
 
-#print axioms bb_actual_cell_13_unused
 end F7Manuscript.ActualW20P6BBActualUnused13Fix

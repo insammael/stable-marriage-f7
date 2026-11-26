@@ -257,9 +257,6 @@ theorem actual_raw_first_d2_saturation
     actual_raw_first_d2_saturation_with_history Q hQ B h221 h311 hz hm T hd
   exact ⟨e, W, htok⟩
 
-#print axioms actual_raw_first_d2_size_bound
-#print axioms actual_raw_first_d2_saturation_with_history
-#print axioms actual_raw_first_d2_saturation
 
 end
 end F7Manuscript.TripleCoordinateLattice

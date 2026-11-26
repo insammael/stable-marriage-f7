@@ -169,5 +169,4 @@ theorem bit8_forced (c : Bool) (bits : Nat → Bool)
     exact False.elim (bad_b8_V c bits N h0 h1 h2 h3 h4 hx h6t h8)
   · rfl
 
-#print axioms bit8_forced
 end F7Manuscript.ActualW13New1520SelectorB8B9

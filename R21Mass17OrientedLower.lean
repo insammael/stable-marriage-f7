@@ -40,6 +40,5 @@ theorem actual_normal_core_cost_ge_nine_oriented (lower : Mass17LeftDatedLower)
   have lb := lower T A R bound card align binary
   rwa [cost] at lb
 
-#print axioms actual_normal_core_cost_ge_nine_oriented
 end
 end F7Manuscript.R21Mass17Original

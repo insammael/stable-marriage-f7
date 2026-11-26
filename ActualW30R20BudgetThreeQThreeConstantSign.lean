@@ -81,6 +81,5 @@ theorem actual_budget_three_q_three_constant_sign
         C h221 h311 hG hT hQ19 j r s hd hrj hz hsr hs0 hsigns.1 hsigns.2 hout
     exact False.elim hfalse
 
-#print axioms actual_budget_three_q_three_constant_sign
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW30R20BudgetThreeQThreeConstantSign

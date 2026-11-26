@@ -60,5 +60,4 @@ theorem decode_packedReplay (g : Packed) (w : List Swap) (hc : ∀ a, decode g a
     · rw [ih _ (fun a => by simp [decode_packedAdvance g p hc,advance]),decode_packedAdvance g p hc]
     · rfl
 
-#print axioms decode_packedReplay
 end F7Manuscript.TripleCoordinateLattice.R21LooseRows

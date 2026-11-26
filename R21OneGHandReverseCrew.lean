@@ -71,6 +71,5 @@ theorem pure_five_reverse_root_with_crew (S : Chart) (f : SupportFrame) (b : ℕ
  obtain ⟨hg,hw,hi⟩ := valid_reverse_root p f b hv
  exact ⟨reverseRootFrame p f b,reverseRootBits b,reorderedReverseRoot p f b,hg,
    ⟨rfl,rfl,rfl⟩,reverse_root_seed_commute p f b hv,hw,valid_reverse_root_crew p f b hv⟩
-#print axioms pure_five_reverse_root_with_crew
 end
 end F7Manuscript.TripleCoordinateLattice.R21OneGHandCrew

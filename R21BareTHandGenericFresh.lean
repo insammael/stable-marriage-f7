@@ -126,6 +126,5 @@ theorem word_fresh_of_realizes (R : TokenRun Site Site q) (w : List Swap)
   let i : Fin q := ⟨k,hkq⟩
   exact fresh_of_sound R i _ _ (sound_replay_prefix R w hw i.castSucc) (pairAt w k) (hw.2 i)
 
-#print axioms word_fresh_of_realizes
 end
 end F7Manuscript.TripleCoordinateLattice.R21BareTHandFresh

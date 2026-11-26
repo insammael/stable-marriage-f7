@@ -137,6 +137,5 @@ theorem table10_checked : ∀ i : Fin 10, Sized.ValidNode table10 i ∨ Sized.No
   · exact Or.inl (by decide +kernel : Sized.ValidNode table10 (⟨8, by decide⟩ : Fin 10))
   · exact Or.inl (by decide +kernel : Sized.ValidNode table10 (⟨9, by decide⟩ : Fin 10))
 
-#print axioms table10_checked
 
 end F7Manuscript.ActualW21Selected30AnchorBridge

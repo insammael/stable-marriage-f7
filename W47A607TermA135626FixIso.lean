@@ -172,6 +172,5 @@ theorem terminal_A1356_26 :
       intro h
       exact hbudget h.2.1
 
-#print axioms terminal_A1356_26
 
 end F7Manuscript.PartnerGraph.G1Frozen13.CertW607

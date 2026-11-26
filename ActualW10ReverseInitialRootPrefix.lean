@@ -164,8 +164,6 @@ theorem sameX_reverse_initial_saved_root_prefix
   rw [hfull]
   simpa [rootWord] using! hprefix
 
-#print axioms sameX_reverse_initial_normalized_slice
-#print axioms sameX_reverse_initial_saved_root_prefix
 
 end
 end F7Manuscript.ActualW10ReverseInitialRootPrefix

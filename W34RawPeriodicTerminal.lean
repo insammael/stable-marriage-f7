@@ -36,6 +36,5 @@ theorem raw_cut_fifteen_no_next_step
   exact F7Manuscript.W34NormalizedPeriodicTerminalTokenRun.no_step_after_normalized_fifteen
     (reindexRun R e) hq N hstate
 
-#print axioms raw_cut_fifteen_no_next_step
 end
 end F7Manuscript.PartnerGraph.Periodic.W34RawPeriodicTerminal

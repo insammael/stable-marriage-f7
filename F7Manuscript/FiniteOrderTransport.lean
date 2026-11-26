@@ -40,7 +40,5 @@ theorem a_transport (e : V ≃ W) (S : FiniteOrder (V := V)) :
     a (S.transport e) = a S := by
   simp only [a, A2_transport, Fintype.card_congr e]
 
-#print axioms A2_transport
-#print axioms a_transport
 end
 end F7Manuscript.ComparableCompletionLedger

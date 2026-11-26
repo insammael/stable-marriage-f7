@@ -55,7 +55,5 @@ theorem no_final_B_to_A_short_center_word
     have hf : (4 : Site) = 5 := congrArg Prod.fst he
     exact (by decide : (4 : Site) ≠ 5) hf
 
-#print axioms no_final_A_to_B_short_center_word
-#print axioms no_final_B_to_A_short_center_word
 
 end F7Manuscript.ActualW19P6NoFinalShortSwitch

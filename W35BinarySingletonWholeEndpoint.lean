@@ -135,7 +135,6 @@ theorem actual_binary_singleton_endpoint_frame
     _ = mapSupportFrame e
           (recolorCenterFrame alpha.perm T.middle) := by rw [hrawEnd]
 
-#print axioms actual_binary_singleton_endpoint_frame
 
 end
 end F7Manuscript.TripleCoordinateLattice.W35BinarySingletonWholeEndpoint

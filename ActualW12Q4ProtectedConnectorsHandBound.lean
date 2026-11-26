@@ -130,6 +130,5 @@ theorem protected_connector_future_length_le_three {F : Rel} {n : ℕ}
           | three a b c => simp [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hcost
           | four a b c d => simp [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hcost
 
-#print axioms protected_connector_future_length_le_three
 
 end F7Manuscript.ActualW12Q4ProtectedConnectorsHandBound

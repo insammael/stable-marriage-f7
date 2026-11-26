@@ -68,6 +68,5 @@ theorem actual_oneG_forward_normal_run
   have hrun := actual_subset_normal_mixed_execution Q hgeometry.1 B h221Q h311Q hzQ hmB
   simpa only [Q, B, actualOneGapNormalRunSkeleton] using! hrun
 
-#print axioms actual_oneG_forward_normal_run
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW34OneGNormalRunForward

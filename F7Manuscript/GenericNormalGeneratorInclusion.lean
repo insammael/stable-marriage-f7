@@ -113,6 +113,5 @@ theorem actualNormalLabel_reaches {x y : (S).Vertex} (hxy : (S).reaches x y) :
   | refl => exact le_rfl
   | tail hxy hyz ih => exact ih.trans (actualNormalLabel_generator C h221 h311 hz hyz)
 
-#print axioms actualNormalLabel_reaches
 end
 end F7Manuscript.TripleCoordinateLattice.GenericNormal

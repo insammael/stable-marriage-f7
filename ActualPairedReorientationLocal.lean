@@ -65,5 +65,4 @@ theorem paired_reorientation_step
         simpa [afterPaired, put, hLc, hRc, hcL, hcR, hcLG, hcRG] using! hframe.1 c
   · simp [afterPaired, hframe.2]
 
-#print axioms paired_reorientation_step
 end F7Manuscript.ActualPairedReorientationLocal

@@ -125,7 +125,6 @@ theorem actual_cyclic_whole_prefix_normalization_from_first_color
   · simpa only [R, hnorm] using! hmap
   · simpa only [R] using! hinit
 
-#print axioms actual_cyclic_whole_prefix_normalization_from_first_color
 
 end
 end F7Manuscript.TripleCoordinateLattice.W38CyclicPorts
@@ -202,7 +201,6 @@ theorem actual_cyclic_pre_endpoint_for_specified_map
     _ = mapSupportFrame e (recolorCenterFrame a.perm T.finalFrame) :=
       congrArg (fun f => mapSupportFrame e (recolorCenterFrame a.perm f)) htrace
 
-#print axioms actual_cyclic_pre_endpoint_for_specified_map
 end
 end F7Manuscript.TripleCoordinateLattice.W38CyclicPorts
 
@@ -323,6 +321,5 @@ theorem actual_cyclic_chosen_whole_prefix
   exact ⟨hPG, HPG, hptsPG, Hraw, hUF, hptsWhole,
     e, hnorm, Hpre, hfinal, h0, h1, h2, h3⟩
 
-#print axioms actual_cyclic_chosen_whole_prefix
 end
 end F7Manuscript.TripleCoordinateLattice.W38CyclicPorts

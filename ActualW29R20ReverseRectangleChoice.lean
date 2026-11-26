@@ -74,6 +74,5 @@ theorem actual_reverse_rectangle_choice
       (by rw [← hnewRight]; exact hOldLeftNeNewRight)
   exact ⟨cross, label, hOldLeft, hOldRight⟩
 
-#print axioms actual_reverse_rectangle_choice
 end
 end F7Manuscript.ActualW29R20ReverseRectangleChoice

@@ -146,6 +146,5 @@ theorem actual_chosen_prefix_post_future_fixed_center
     rfl
   exact ⟨hc, EG, center, EF, hEG, hcenterEq, hpost, hprefix⟩
 
-#print axioms actual_chosen_prefix_post_future_fixed_center
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW36ChosenPrefixPostFutureFixedCenter

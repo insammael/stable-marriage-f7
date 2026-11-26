@@ -148,9 +148,5 @@ theorem pure_mass17_of_triples
   rw [actual_cost_eq_weight S A R off bound align hq hlen]
   exact hweight
 
-#print axioms levels_zero
-#print axioms first_six_marks
-#print axioms actual_cost_eq_weight
-#print axioms pure_mass17_of_triples
 end
 end F7Manuscript.R21Mass17PurePrefix

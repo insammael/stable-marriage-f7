@@ -114,8 +114,6 @@ theorem actual_carrier_plan56_run_bound
   have hupper := restricted_carrier_suffix_le_two C hp
   omega
 
-#print axioms restricted_carrier_suffix_le_two
-#print axioms actual_carrier_plan56_run_bound
 
 end
 end F7Manuscript.ActualW15Q0Plan56ActualSuffix

@@ -44,8 +44,5 @@ noncomputable def actorEquiv (b : Fin 5 → Bool) : Equiv.Perm Site :=
   Equiv.ofBijective (Rows.actor b)
     ⟨actor_injective b, actor_surjective b⟩
 
-#print axioms actor_surjective
-#print axioms actor_injective
-#print axioms actorEquiv
 
 end F7Manuscript.ActualD2FirstFiveActorEquiv

@@ -429,6 +429,5 @@ def q0BudgetRegistryPart : List (Nat × BudgetRootEntry) :=
   (224, new224_budget_root_entry),
   (228, new228_budget_root_entry) ]
 
-#print axioms q0BudgetRegistryPart
 end
 end F7Manuscript.ActualW12LegacyQ0BudgetRegistry04

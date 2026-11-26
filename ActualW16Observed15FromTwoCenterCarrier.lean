@@ -142,7 +142,6 @@ def observed15_of_initial_two_center_carrier
   rw [htake] at H
   simpa [P, word] using! H
 
-#print axioms observed15_of_initial_two_center_carrier
 
 end
 end F7Manuscript.ActualW16Observed15FromTwoCenterCarrier

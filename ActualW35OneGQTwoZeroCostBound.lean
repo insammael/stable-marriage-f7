@@ -49,4 +49,3 @@ theorem actual_oneG_q2_s0_m_le_five
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW35OneGQTwoZeroCostBound
 
-#print axioms F7Manuscript.TripleCoordinateLattice.ActualW35OneGQTwoZeroCostBound.actual_oneG_q2_s0_m_le_five

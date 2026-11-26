@@ -180,6 +180,5 @@ theorem threePoolMemory_of_observed_old_three
       exact congrArg H.base hword.symm
     exact hneq hstates
 
-#print axioms threePoolMemory_of_observed_old_three
 end
 end F7Manuscript.OneGap

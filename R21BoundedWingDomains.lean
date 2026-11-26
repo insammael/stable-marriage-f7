@@ -59,7 +59,6 @@ theorem OutwardWalks.tracks_bounded {B : Board} (w : OutwardWalks B)
   have selected' : w.signature p ∈ products (choiceSets B p order cut) := by
     simpa [OutwardWalks.signature,actorMask,actorBits,List.filterMap_append] using! selected
   exact List.mem_flatMap.mpr ⟨order,allowed,List.mem_flatMap.mpr ⟨cut,cutAllowed,selected'⟩⟩
-#print axioms OutwardWalks.tracks_bounded
 end F7Manuscript.R21NormalEndpoint.Projection
 
 namespace F7Manuscript.R21NormalEndpoint.BoundaryAtlas
@@ -80,6 +79,5 @@ theorem noActualOfBoundedLeaf
   obtain ⟨walks,leftLength,rightLength⟩ := physicalWalkBuilderWithLengths R binary obs facts image
   exact Projection.contradiction_of_leaf walks.coherent
     (walks.tracks_bounded leftCap rightCap (by omega) (by omega)) leaf certificate
-#print axioms noActualOfBoundedLeaf
 end
 end F7Manuscript.R21NormalEndpoint.BoundaryAtlas

@@ -166,7 +166,5 @@ theorem outsider_single_coordinate_no_switch {x : V}
   · exact (s.property i j hij).1 hle
   · exact (s.property i j hij).2 hle
 
-#print axioms outsider_triple_sign
-#print axioms outsider_single_coordinate_no_switch
 end
 end F7Manuscript.TripleCoordinateLattice

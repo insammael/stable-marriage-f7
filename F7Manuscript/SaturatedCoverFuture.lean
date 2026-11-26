@@ -43,7 +43,5 @@ theorem actual_future_of_two_covers
   · exact Or.inl hxy'
   · exact Or.inr hxy'
 
-#print axioms actual_successors_eq_pair
-#print axioms actual_future_of_two_covers
 end
 end F7Manuscript.SaturatedCoverSegments

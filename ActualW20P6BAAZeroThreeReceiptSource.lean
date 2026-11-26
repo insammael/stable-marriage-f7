@@ -93,5 +93,4 @@ theorem actual_BAA_three_zero_has_two_or_three_source
     zero_three_actual_source_two_or_three tr e.castSucc hzero hone hno3six
   exact ⟨e,k0,k1,k2,f,hlist,h01,h12,he,hf,hF0,hpost3,hsource⟩
 
-#print axioms actual_BAA_three_zero_has_two_or_three_source
 end F7Manuscript.ActualW20P6BAAZeroThreeReceiptSource

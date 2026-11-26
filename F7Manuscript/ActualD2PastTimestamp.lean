@@ -73,6 +73,5 @@ theorem actual_d2_relabel_past_has_timestamp
   · exact Nat.lt_succ_iff.mp u.isLt
   · exact hu
 
-#print axioms actual_d2_relabel_past_has_timestamp
 
 end F7Manuscript.TripleCoordinateLattice

@@ -153,5 +153,4 @@ theorem actual_ABB_first_six_false
   exact p6_three_distinct_unused_false tr (4,2) (4,5) (5,2)
     (by decide) (by decide) (by decide) hu42 hu45 hu52
 
-#print axioms actual_ABB_first_six_false
 end F7Manuscript.ActualW20P6ABBFirstSixFalse

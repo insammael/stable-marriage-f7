@@ -137,6 +137,5 @@ theorem actual_T_context_joint_charge
     (pairCount K : ℤ)
   omega
 
-#print axioms actual_T_context_joint_charge
 end
 end F7Manuscript.TripleCoordinateLattice

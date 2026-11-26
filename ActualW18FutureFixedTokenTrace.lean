@@ -1,5 +1,6 @@
 module
 
+public import Mathlib
 public import F7Manuscript.PartnerGraphCertificate
 
 @[expose] public section
@@ -150,6 +151,5 @@ noncomputable def fixedTokenSwapTrace_of_Future {F : Rel} {n : ℕ}
     FixedTokenSwapTrace F n :=
   Classical.choice (fixedTokenSwapTrace_aux loopless h)
 
-#print axioms fixedTokenSwapTrace_of_Future
 
 end F7Manuscript.PartnerGraph

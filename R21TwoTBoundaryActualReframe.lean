@@ -45,7 +45,5 @@ theorem actual_reversed_plan_reframe
    (retiredPlanWord f plan bits i).reverse
  exact (h1.trans h2).realizes_context pre after R hw
 
-#print axioms actual_reversed_plan_reframe
-#print axioms reverse_starting_pairs_commute
 end
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

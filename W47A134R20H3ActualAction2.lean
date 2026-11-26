@@ -49,7 +49,6 @@ theorem step_exchange_of_support_pair
     exact hk.symm.trans (congrArg μ (hm.resolve_left hkx))
   exact ⟨exchange a b hc, exchange b a (hc.trans (Finset.pair_comm a b))⟩
 
-#print axioms step_exchange_of_support_pair
 
 end
 

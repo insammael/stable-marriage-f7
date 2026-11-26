@@ -98,6 +98,5 @@ theorem outsider_total_slot_ledger
     outsider_h_eq_slot_sum C p hmono hbot htop,
     outsider_epsilon_eq_slot_sum C p hmono hbot htop]
 
-#print axioms outsider_total_slot_ledger
 end
 end F7Manuscript.TripleCoordinateLattice

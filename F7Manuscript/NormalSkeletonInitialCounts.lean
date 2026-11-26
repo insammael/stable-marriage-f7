@@ -52,6 +52,5 @@ theorem initial_distribution (C : Chart) (j : Fin C.m) (hj : j.val = 0) :
     NormalMaskCounter.emptyCount]
   omega
 
-#print axioms initial_distribution
 end
 end F7Manuscript.NormalSkeleton.Chart

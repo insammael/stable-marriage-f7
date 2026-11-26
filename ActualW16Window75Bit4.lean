@@ -140,6 +140,5 @@ theorem window75_bit4_eq_bit3
     · exact False.elim (reject24_x1 t bits h0 h1 h2 h3 h4 N)
   · rfl
 
-#print axioms window75_bit4_eq_bit3
 
 end F7Manuscript.ActualW16Window75Bit4

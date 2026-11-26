@@ -94,8 +94,5 @@ theorem middle_pure_five_normalized_history (A B D : NormalSkeleton.Chart)
    · exact Or.inl ⟨h.1,hidR.symm.trans h.2⟩
    · exact Or.inr ⟨h.1,hidR.symm.trans h.2⟩
 
-#print axioms middle_pure_five_normalized_history
-#print axioms actual_plan_reframe_for_middle
-#print axioms three_cut_left_reframed_history
 end
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

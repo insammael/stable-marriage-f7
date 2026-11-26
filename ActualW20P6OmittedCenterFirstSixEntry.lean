@@ -158,6 +158,5 @@ theorem p6_omitted_center_first_six_entry_gate
       simpa [hy6] using! hpost'
     exact ⟨k,hsupport,hpre.1,hpre.2,hpost6⟩
 
-#print axioms p6_omitted_center_first_six_entry_gate
 
 end F7Manuscript.ActualW20P6OmittedCenterFirstSixEntry

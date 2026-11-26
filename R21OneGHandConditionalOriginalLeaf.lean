@@ -19,6 +19,5 @@ theorem r21_one_G_no_outsider_of_physical_long_bounds
   intro C htr h221 h311 hn _ hu hG hT
   letI := htr
   exact count_of_physical_long_bounds C hn h221 h311 physical15 physical16 hu hG hT
-#print axioms r21_one_G_no_outsider_of_physical_long_bounds
 #print r21_one_G_no_outsider_of_physical_long_bounds
 end F7Manuscript.ActualPositiveDeficitCoverAssembly

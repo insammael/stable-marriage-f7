@@ -21,7 +21,6 @@ def window16Plan : List Move :=
 theorem window16Plan_eventCount : eventCount window16Plan = 10 := by
   norm_num [window16Plan, eventCount]
 
-#print axioms window16Plan_eventCount
 
 def W16A0Word : List Pair :=
   [(0,1),(2,3),(4,5),(0,6),(2,1),(4,3),(2,5),(4,1),

@@ -197,6 +197,5 @@ theorem zero_cost_two_pivot_span
     exact hfalse
   exact ⟨hlen14, ha3, hb10⟩
 
-#print axioms zero_cost_two_pivot_span
 end
 end F7Manuscript.ActualW15TwoPivotSpan

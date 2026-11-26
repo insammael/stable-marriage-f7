@@ -91,5 +91,4 @@ theorem initial_four_AA_pair {n : Nat}
   · simpa [hy2] using! hprey
   · simpa [hy2,hfirst] using! hposty
 
-#print axioms initial_four_AA_pair
 end F7Manuscript.ActualW20P6InitialFourAAPair

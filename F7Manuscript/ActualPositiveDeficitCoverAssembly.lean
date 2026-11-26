@@ -70,7 +70,5 @@ theorem actual_count_le_85_with_positive_delta_residuals
   actual_count_le_85_of_event_card_le_21 I
     (ConvexExecution.actual_event_count_le_twenty_one I) h20 h21
 
-#print axioms actual_count_le_85_of_event_card_le_21
-#print axioms actual_count_le_85_with_positive_delta_residuals
 end
 end F7Manuscript.ActualPositiveDeficitCoverAssembly

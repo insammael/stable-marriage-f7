@@ -87,7 +87,4 @@ theorem no_dated_p_dot_p_at_right_end
   have obs' : WindowObservation R off 11 bound' out := by simpa only [size] using! obs
   exact blocked_impossible true out hit R binary obs' (by simpa [BoundaryCover.offset] using! budget)
 
-#print axioms execute_pattern_sound
-#print axioms no_dated_p_dot_p_at_left_end
-#print axioms no_dated_p_dot_p_at_right_end
 end F7Manuscript.R21NormalEndpoint.PDotPEndDated

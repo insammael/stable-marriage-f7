@@ -60,7 +60,6 @@ theorem root_cut_carrier_observed_control_bound
     plan K L code t valid old C.out hcode hnr C.S hbound observed
     C.cycles C.binary
 
-#print axioms root_cut_carrier_observed_control_bound
 
 end
 end F7Manuscript.ActualW21RootCarrierAnchoredControl

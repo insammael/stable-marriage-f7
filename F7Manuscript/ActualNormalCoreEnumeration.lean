@@ -104,7 +104,5 @@ theorem normalCoreActualRun_support_at
       support I (normalCoreLabel C h221 h311 hG hT v).val := by
   rw [normalCoreActualRun,enumerated_event_support,normalCoreChronologicalEnumeration_at]
 
-#print axioms normalCoreChronologicalEnumeration
-#print axioms normalCoreActualRun_support_at
 end
 end F7Manuscript.TripleCoordinateLattice

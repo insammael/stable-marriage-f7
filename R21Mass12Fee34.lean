@@ -1116,6 +1116,4 @@ theorem noActualTerminal_mass12_feeAtMostFour (c : Nat) (upper : c ≤ 4) :
   by_cases lower : 3 ≤ c
   · exact noActualTerminal_mass12_fee34 c lower upper
   · exact CostFiveHand.noActualTerminal_mass12_lowFee c (by omega)
-#print axioms noActualTerminal_mass12_fee34
-#print axioms noActualTerminal_mass12_feeAtMostFour
 end F7Manuscript.R21NormalEndpoint.Mass12Fee34

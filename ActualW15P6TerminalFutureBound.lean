@@ -185,9 +185,5 @@ theorem A_future_le_two {n : ℕ} (h : Future A0 2 n) : n ≤ 2 :=
 theorem B_future_le_two {n : ℕ} (h : Future B0 2 n) : n ≤ 2 :=
   Future.bound_two_of_terminal_pools Bfirst Bsecond B0_head B1_head B2_no_mutual h
 
-#print axioms Future.zero_of_no_mutual
-#print axioms Future.bound_two_of_terminal_pools
-#print axioms A_future_le_two
-#print axioms B_future_le_two
 
 end F7Manuscript.PartnerGraph.PureShortCut.TerminalFuture

@@ -161,6 +161,5 @@ theorem original_bare_T_ordered_frames
   · exact rowsMatch_pullback new (newOrderedCrownFrame s) e (fun c => by
       rw [new_ordered_crown_frame_support]; exact hn' c)
 
-#print axioms original_bare_T_ordered_frames
 end
 end F7Manuscript.TripleCoordinateLattice.R21BareT

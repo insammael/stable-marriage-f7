@@ -52,5 +52,4 @@ theorem p5_CII_q6_endpoints_avoid_three
     · exact hAno3 (hA.trans hright)
   exact ⟨hleft, hright⟩
 
-#print axioms p5_CII_q6_endpoints_avoid_three
 end F7Manuscript.ActualW20P5CIIEndpointAvoidThreeFromGeometry

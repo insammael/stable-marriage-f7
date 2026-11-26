@@ -52,7 +52,6 @@ theorem supportsRoute_rebase {W : Type*} [Fintype W] {q : Nat}
     SupportsRoute R t f plan (fun k => bits (k+offset)) i := by
   exact supportsRoute_rebase_at H offset i rfl
 
-#print axioms supportsRoute_rebase
 
 end
 end F7Manuscript.SupportsRouteControlRebase

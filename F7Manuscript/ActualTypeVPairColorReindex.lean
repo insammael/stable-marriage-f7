@@ -50,10 +50,6 @@ theorem recolor_typeVPairs (ρ : Equiv.Perm F7Local.Color) (f : SupportFrame)
   simp [recolorCenterFrame, recoloredTypeVRow_left, recoloredTypeVRow_right,
     ha, hb]
 
-#print axioms recoloredTypeVRow_left
-#print axioms recoloredTypeVRow_right
-#print axioms recoloredTypeVRow_keeps
-#print axioms recolor_typeVPairs
 
 end
 end F7Manuscript.TripleCoordinateLattice

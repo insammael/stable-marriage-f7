@@ -109,7 +109,5 @@ theorem actual_q0_false_of_canonical_return_slice
   exact actual_X_any_return_root_oriented_source_false C hn hδ h221 h311 hG hT X
     entry hfacts dual j hfit
 
-#print axioms actual_q0_return_fit_of_canonical_pivot_slice
-#print axioms actual_q0_false_of_canonical_return_slice
 end
 end F7Manuscript.ActualW20Q0CanonicalReturnRootFit

@@ -51,7 +51,6 @@ theorem r20_110_bound_or_uniform
       (I := I) C h221 h311 hR20 houtside hGcard hTcard
       x hout ⟨hbelow, habove⟩)
 
-#print axioms F7Manuscript.PRO33.r20_110_bound_or_uniform
 
 end
 

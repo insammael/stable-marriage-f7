@@ -88,7 +88,6 @@ theorem actual_positive_T_context_joint_charge_with_post
     (typedWord (F7TOutsider.contextWord pre sym t.1 t.2 post)) hreal'
     t.1 t.2 sym pre post hword' hcert hsym hpost hpre hpostcard
 
-#print axioms actual_positive_T_context_joint_charge_with_post
 end
 end F7Manuscript.TripleCoordinateLattice
 
@@ -192,7 +191,5 @@ theorem actual_T_positive_context_charge_all_deciders
     (Classical.decRel (fun x y : Event I => x ≤ y)) @hclass
 
 
-#print axioms actual_T_positive_context_charge_all_deciders
-#print axioms actual_T_bare_context_charge_all_deciders
 end
 end F7Manuscript.TripleCoordinateLattice

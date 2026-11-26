@@ -70,6 +70,5 @@ theorem right_pure_five_impossible (A B D : NormalSkeleton.Chart)
    · simpa only [g,block,supportsRouteFinal] using! hcurrent
    · simpa only [pre,List.append_assoc] using! hZ
 
-#print axioms right_pure_five_impossible
 end
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

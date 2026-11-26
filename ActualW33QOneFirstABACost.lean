@@ -73,6 +73,5 @@ theorem firstABA_false_of_reverse
       F7Manuscript.N4KWindowAdapter.K_window_kernel
     omega
 
-#print axioms firstABA_false_of_reverse
 end
 end F7Manuscript.ActualW33QOneFirstABACost

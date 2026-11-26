@@ -198,6 +198,5 @@ theorem actual_typeI_paired_frame_bridge
   exact ⟨d,c,e,k,inputLabel,bit,hnew,hmove₀,hmove₁,hpost₀,hpost₁,hfixed,
     hcenter,hidle,hLast,hpaired⟩
 
-#print axioms actual_typeI_paired_frame_bridge
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW36TypeIPairedActualBridge

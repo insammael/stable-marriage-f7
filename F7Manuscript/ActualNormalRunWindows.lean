@@ -69,7 +69,5 @@ theorem actual_normal_threshold_interval_execution
   intro k
   exact EventFrontierSupport.enumerated_event_support Q hQ D k
 
-#print axioms actual_normal_threshold_interval_convex
-#print axioms actual_normal_threshold_interval_execution
 end
 end F7Manuscript.TripleCoordinateLattice

@@ -147,6 +147,5 @@ theorem noReturn_crossPairedAtom_empty
         ⟨j, by omega, hu.trans hj'⟩
       exact colAt (i+1) (Or.inr rfl) y (Or.inr rfl) hqxpy.2 hs
 
-#print axioms noReturn_crossPairedAtom_empty
 
 end F7Manuscript.ActualW12PairedPoolAtomHand

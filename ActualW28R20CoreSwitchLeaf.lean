@@ -110,6 +110,5 @@ theorem projected_core_switch_is_normal_leaf
       exact GenericThresholdPath.rank_at D E n
     exact ⟨j, r, hevent, Fin.ext hrank.symm⟩
 
-#print axioms projected_core_switch_is_normal_leaf
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW28R20CoreSwitchLeaf

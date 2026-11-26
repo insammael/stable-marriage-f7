@@ -101,6 +101,5 @@ theorem outside_no_two_inc {P : Finset V} (C : (graph P).ConnectedComponent)
     (adjacent_same_component hAdj).symm.trans hTC
   exact hzC ((mem_support P C z).mpr ⟨R,hRC,by simp [R]⟩)
 
-#print axioms outside_no_two_inc
 end ActualOverlap
 end NeutralCore

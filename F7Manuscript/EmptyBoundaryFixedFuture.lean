@@ -147,7 +147,5 @@ theorem empty_boundary_G_fixed_future_forbidden
     exact GenericThresholdPath.isolated_cut_excludes_fixed_coordinate C E n hisolated
       c i hi hci.symm w hnotOld (by simp only [w, wcoord, dif_neg hci.symm, old])
 
-#print axioms empty_boundary_two_cover_fixed_future_forbidden
-#print axioms empty_boundary_G_fixed_future_forbidden
 end
 end F7Manuscript.TripleCoordinateLattice

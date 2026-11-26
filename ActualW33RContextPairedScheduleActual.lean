@@ -193,6 +193,5 @@ def schedule_of_retired_supports {W : Type*} [Fintype W] {N : Nat}
       have htail := ih tTail hroomTail hlastTail hactualTail
       exact ⟨ReversePairedRunSchedule.step t ht h₀ h₁ (Classical.choice htail)⟩
 
-#print axioms schedule_of_retired_supports
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW33RContextPairedScheduleActual

@@ -174,7 +174,6 @@ theorem actual_X_q0_pivots26713_min_endpoint_zero_false
     rw [hlevel0] at hcut
     omega
 
-#print axioms actual_X_q0_pivots26713_min_endpoint_zero_false
 
 end
 end F7Manuscript.ActualW21Selected30InitialP26713Caller

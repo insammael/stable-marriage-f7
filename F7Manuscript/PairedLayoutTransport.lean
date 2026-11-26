@@ -116,6 +116,5 @@ theorem paired_partition_valid_layout
   exact F7Local.paired_partition_four_site_cover (T.map e.toEmbedding)
     (U.map e.toEmbedding) hTcard hUcard hdis' hunion' hTleft' hTright'
 
-#print axioms paired_partition_valid_layout
 
 end F7Manuscript.PartnerGraph

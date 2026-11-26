@@ -145,6 +145,5 @@ theorem actual_long_pre_global_trace
     oldRows := hrows
   }⟩⟩
 
-#print axioms actual_long_pre_global_trace
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW36LongPreGlobalTrace

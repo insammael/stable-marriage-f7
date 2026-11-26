@@ -74,7 +74,5 @@ theorem actual_tail107_reverse_impossible
   rw [hp] at hf
   exact tail107_reverse_normalized_impossible id bits' hb0 hb1 hf
 
-#print axioms actual_tail107_forward_impossible
-#print axioms actual_tail107_reverse_impossible
 end
 end F7Manuscript.OneTFourTailActual

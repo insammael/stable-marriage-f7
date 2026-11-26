@@ -141,7 +141,5 @@ theorem observed_ends_complement (h : SharedAnchor L R)
     by_contra hls
     exact (hu b hb).2 ⟨s,le_of_not_ge hls,hs⟩
 
-#print axioms personal_invariant
-#print axioms observed_ends_complement
 end
 end F7Manuscript.R21SingleTHand

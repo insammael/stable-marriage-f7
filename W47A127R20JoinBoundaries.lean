@@ -113,7 +113,6 @@ theorem w47_a127_original_r20_L0_DL_of_canonical_zero_and_g_block
   exact w47_a121_actual_macro_block_card_two_of_single_g_no_t
     C h221 h311 hGcard hTcard _
 
-#print axioms w47_a127_original_r20_L0_DL_of_canonical_zero_and_g_block
 
 end
 end F7Manuscript.TripleCoordinateLattice

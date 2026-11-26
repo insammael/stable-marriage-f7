@@ -134,8 +134,6 @@ theorem carrier_p569_run_bound
   have h := carrier_p569_suffix_le_six C
   omega
 
-#print axioms carrier_p569_suffix_le_six
-#print axioms carrier_p569_run_bound
 
 end
 end F7Manuscript.ActualW16P569ActualCarrierBudget20

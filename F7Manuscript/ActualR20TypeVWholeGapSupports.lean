@@ -157,7 +157,6 @@ theorem actual_typeV_gap_supports_in_whole_run
     rw [hrun1, hpoint1]
     exact hrows d1 |>.trans hright
 
-#print axioms actual_typeV_gap_supports_in_whole_run
 
 end
 end F7Manuscript.TripleCoordinateLattice

@@ -303,7 +303,6 @@ theorem actual_q0_pivots461011_selected7_max_two_false
     rw [hclock, hbefore, hL] at hthreshold
     omega
 
-#print axioms actual_q0_pivots461011_selected7_max_two_false
 
 end
 end F7Manuscript.ActualW21Selected7MaxSideCaller

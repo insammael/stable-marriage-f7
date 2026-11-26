@@ -38,5 +38,4 @@ theorem actual_center_type_word_eight_cases
   · exact Or.inr (Or.inr (Or.inr (Or.inr (Or.inr (Or.inr (Or.inl hABBA))))))
   · exact Or.inr (Or.inr (Or.inr (Or.inr (Or.inr (Or.inr (Or.inr hBAAB))))))
 
-#print axioms actual_center_type_word_eight_cases
 end F7Manuscript.ActualW19P6CenterTypeResidual

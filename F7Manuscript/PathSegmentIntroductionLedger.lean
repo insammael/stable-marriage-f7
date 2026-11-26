@@ -232,9 +232,5 @@ theorem pathSegment_prior_cross_ledger
       omega
     _ = _ := by rw [← hsegment]
 
-#print axioms pathSegment_eq_frontier_union_prefix_difference
-#print axioms pathSegment_card_add_prefix
-#print axioms pathSegment_card_thresholdSlice
-#print axioms pathSegment_prior_cross_ledger
 end
 end F7Manuscript.TripleCoordinateLattice

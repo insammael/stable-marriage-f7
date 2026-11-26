@@ -61,5 +61,4 @@ theorem origins_append_suffix_congruent (w₁ w₂ xs : List Swap)
       pairAt_append_suffix w₂ xs k hlt]
     exact ih hk' (swapSite (pairAt xs k) a)
 
-#print axioms origins_append_suffix_congruent
 end F7Manuscript.SuffixOriginCongruence

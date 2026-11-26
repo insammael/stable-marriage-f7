@@ -203,6 +203,5 @@ theorem global_path_before_normal_leaf
         exact ⟨rfl, by omega⟩
       exact (global_rank_lt_iff_key_lt C h221 h311).mpr hkey
 
-#print axioms global_path_before_normal_leaf
 end
 end F7Manuscript.TripleCoordinateLattice.GenericNormal

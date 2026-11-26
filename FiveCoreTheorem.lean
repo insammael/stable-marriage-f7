@@ -54,12 +54,5 @@ theorem five_core_nonisomorphic {k l : CoreKind} (h : k≠l) :
   rintro ⟨E⟩
   exact h (core_iso_kind_eq E)
 
-#print axioms five_core_classification
-#print axioms five_core_converse
-#print axioms five_core_nonisomorphic
-#print axioms A2_counts_antichains
-#check five_core_classification
-#check five_core_converse
-#check HumanFrontEnd
 
 end NeutralCore

@@ -136,13 +136,7 @@ theorem h7_one13_original_post_exclusion
       C h221 h311 hR20 houtside hGcard hTcard E hE)
     hGcard hTcard
 
-#print axioms a331_terminal_path_exclusion
-#print axioms h7_one13_original_macroPositions_card
-#print axioms h7_one13_original_checked_post_eq_terminal
 
-#print axioms h7_one13_original_terminal_segment_exclusion
-#print axioms h7_one13_original_checked_post_exclusion
-#print axioms h7_one13_original_post_exclusion
 
 end
 

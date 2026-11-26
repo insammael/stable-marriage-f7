@@ -91,6 +91,5 @@ theorem FrontierPastContext.pairCount_prefix (C : Partition (V := V))
     rw [hR,pairCount_union hd,pairCount_triple,
       normal_retired_pairIncrement t H.last r hr hri,Finset.card_singleton]
 
-#print axioms FrontierPastContext.pairCount_prefix
 end
 end F7Manuscript.TripleCoordinateLattice

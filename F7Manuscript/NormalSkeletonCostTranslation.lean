@@ -43,7 +43,5 @@ theorem s_eq_costCount (C : Chart) :
     refine ⟨⟨i,hib⟩,Finset.mem_filter.mpr ⟨Finset.mem_univ _,?_⟩,rfl⟩
     simpa only [naturalLevels, dif_pos hib] using hi'
 
-#print axioms q_eq_pairedTotal
-#print axioms s_eq_costCount
 end
 end F7Manuscript.NormalSkeleton.Chart

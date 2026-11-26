@@ -76,8 +76,5 @@ private theorem normalizedMixedWord_pairAt_tail (tail : List Move)
   rw [hp]
   simp [Nat.add_sub_cancel_left]
 
-#print axioms routePrefix_oneD_first_three
-#print axioms mappedOneDSeven_length
-#print axioms normalizedMixedWord_pairAt_tail
 end
 end F7Manuscript.ActualOneDMixedTailNoReturn

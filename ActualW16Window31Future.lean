@@ -213,8 +213,5 @@ theorem D31_future_le_four {n : ℕ} (h : Sized.Future D31Fresh 2 n) : n ≤ 4 :
 
 end
 
-#print axioms binary_future_pool_edge_bound
-#print axioms C31_future_le_four
-#print axioms D31_future_le_four
 
 end F7Manuscript.ActualW16Window31Future

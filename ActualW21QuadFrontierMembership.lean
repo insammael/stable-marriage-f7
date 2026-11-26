@@ -32,6 +32,5 @@ theorem quad_mem_canonicalFrontier (a b c d : Nat)
   · exact Or.inl (Or.inr hfa)
   · exact Or.inr hfa
 
-#print axioms quad_mem_canonicalFrontier
 
 end F7Manuscript.ActualW21QuadFrontierMembership

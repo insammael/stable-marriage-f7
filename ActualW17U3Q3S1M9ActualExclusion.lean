@@ -148,8 +148,6 @@ theorem actual_u3_cost_four_three_residual_rows
   · exact Or.inr (Or.inr h2)
   · exact False.elim (actual_u3_q3_s1_false C hn hδ hdeficit hpos h221 h311 hG hT X hu h3.1 h3.2.1)
 
-#print axioms actual_u3_q3_s1_false
-#print axioms actual_u3_cost_four_three_residual_rows
 
 end
 end F7Manuscript.ActualW17U3Q3S1M9ActualExclusion

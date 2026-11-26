@@ -16,7 +16,6 @@ theorem crossed_B_new_seeds : ∀ (fixed : Fin 3) (a b c d : Fin 7),
       (fixed=1 ∧ ({pairSupport (a,b),pairSupport (c,d)} : Finset (Finset (Fin 7)))={{3,6},{4,5}}) := by
   intro fixed
   fin_cases fixed <;> decide +kernel
-#print axioms crossed_B_new_seeds
 end F7Manuscript.TripleCoordinateLattice.R21OneGHandCrew
 namespace F7Manuscript.TripleCoordinateLattice.R21OneGHandActual
 noncomputable section
@@ -148,6 +147,5 @@ theorem actual_root_B_new_seed_frame
     rw [newSets,pairs]
 
 
-#print axioms actual_root_B_new_seed_frame
 end
 end F7Manuscript.TripleCoordinateLattice.R21OneGHandActual

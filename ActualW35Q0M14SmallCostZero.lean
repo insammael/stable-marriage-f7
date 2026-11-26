@@ -94,6 +94,5 @@ theorem actual_q0_m14_s_le_one_zero
     exact hcostExact.symm.trans hzero
   simpa only [S, actualOneGapNormalRunSkeleton] using! hzeroS
 
-#print axioms actual_q0_m14_s_le_one_zero
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW35Q0M14SmallCostZero

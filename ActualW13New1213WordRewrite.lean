@@ -41,6 +41,5 @@ theorem selected_word
     · subst c
       simp [wordZ1,new1213Plan,new1213Other,sourcePrefix,routePrefix,initialSupport,initialWord,centerPair,afterCenter,pairedPairs,afterPaired,leftCoord,rightCoord,select,other,put,Fin.ofNat,h0,h1,h2,hx,h4,hz,h6,h7,h8,h9]
 
-#print axioms selected_word
 
 end F7Manuscript.ActualW13New1213WordRewrite

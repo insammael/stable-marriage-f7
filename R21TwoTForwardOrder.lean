@@ -62,6 +62,5 @@ theorem original_twice_forward :
     · exact (original_outer_cuts_strict C h221 h311 hG hT h hy).not_ge
     · exact ordered_adjacent C h221 h311 i₁ i₂ n₁ hR1 hL2 (is_T C h221 h311 hG j₁) h hy
 
-#print axioms original_twice_forward
 end
 end F7Manuscript.TripleCoordinateLattice.R21TwoT

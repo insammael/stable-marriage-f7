@@ -71,8 +71,6 @@ theorem SaturatedWitness.two_D_rows_block_third
     simp [secondWithinPoolTok, crossTok, centerTok, tokenSwap, embedFour] at hf hk
     exact hf hk
 
-#print axioms SaturatedWitness.second_cross_row_not_fresh
-#print axioms SaturatedWitness.two_D_rows_block_third
 
 /-- R2 S11/05 section 2: after the forced ABA center, actor 0 is the only
 moving W actor with a K origin. Every possible partner in its next paired
@@ -102,5 +100,4 @@ theorem SaturatedWitness.second_next_moving_pair_not_fresh
       simp [secondReturnCenterTok, centerTok, tokenSwap, embedFour] at hf hk <;>
       exact hf hk
 
-#print axioms SaturatedWitness.second_next_moving_pair_not_fresh
 end F7Paired

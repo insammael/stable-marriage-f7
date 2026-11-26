@@ -107,13 +107,7 @@ theorem related_initial (e : Equiv.Perm Site) (d : Site) :
   · intro t
     simp [initial,e.injective.eq_iff]
 
-#print axioms related_replay
-#print axioms related_fresh_word
-#print axioms related_initial
 
-#print axioms related_step
-#print axioms related_fresh
 
-#print axioms related_compatible_final
 end
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

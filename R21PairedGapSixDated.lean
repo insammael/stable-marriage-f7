@@ -69,6 +69,4 @@ theorem no_dated_paired_gap_six
     have obs' : WindowObservation R off 14 bound' out := by simpa only [size] using! obs
     exact blocked_impossible out hit R binary obs'
 
-#print axioms execute_gap_covered
-#print axioms no_dated_paired_gap_six
 end F7Manuscript.R21NormalEndpoint.PairedGapSixDated

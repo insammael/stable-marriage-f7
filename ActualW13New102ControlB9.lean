@@ -212,6 +212,5 @@ theorem b9_eq_hform
   · rfl
   · exact False.elim (bad_h1_v1_t1 bits h0 N h4 h5 h6 h7 h8 hv ht)
 
-#print axioms b9_eq_hform
 
 end F7Manuscript.ActualW13New102ControlB9

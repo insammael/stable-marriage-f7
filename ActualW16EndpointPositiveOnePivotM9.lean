@@ -198,7 +198,6 @@ theorem endpoint_positive_onepivot_oldfit_false_m9
     cases hz
 
 
-#print axioms endpoint_positive_onepivot_oldfit_false_m9
 
 end
 end F7Manuscript.ActualW16EndpointPositiveOnePivotM9

@@ -82,6 +82,5 @@ theorem normal_core_any_leaf_phase
     simpa only [hsource v] using! he
 
 
-#print axioms normal_core_any_leaf_phase
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW28R20AnyLeafPhase

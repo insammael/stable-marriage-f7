@@ -47,6 +47,5 @@ theorem r20_110_leaf_of_uniform_three_deficit
   rw [hinc, heps]
   omega
 
-#print axioms r20_110_leaf_of_uniform_three_deficit
 end
 end F7Manuscript.ActualPositiveDeficitCoverAssembly

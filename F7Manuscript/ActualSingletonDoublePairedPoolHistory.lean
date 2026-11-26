@@ -211,8 +211,6 @@ theorem singleton_double_paired_complement_full_history
       j0 hD hK D e R hsupport a (Finset.mem_sdiff.mp ha).2
   exact ComponentFourPoolActualHistory.component_four_pool_boundary_covers R crew hcrew hc hparts
 
-#print axioms double_paired_complement_participation_of_actual_supports
-#print axioms singleton_double_paired_complement_full_history
 
 end
 end F7Manuscript.TripleCoordinateLattice

@@ -64,7 +64,6 @@ theorem actual_offset_D2_then_D1_forces_ABA
     exact False.elim hfalse
   exact ⟨j₁,j₂,hj₁,hj₂,htarget⟩
 
-#print axioms actual_offset_D2_then_D1_forces_ABA
 
 end
 end F7Manuscript.TripleCoordinateLattice

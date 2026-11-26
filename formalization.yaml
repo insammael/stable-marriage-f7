@@ -78,8 +78,8 @@ status:
   scope: >-
     The single declaration selected by comparator.json,
     F7Manuscript.f7_eq_85 : f 7 = 85, is the registration claim. It has no
-    hypotheses. The proof library has 7,819 modules (7,791 source modules
-    and 28 parts of five files split below 10,000 lines).
+    hypotheses. The proof library has 7,503 modules. Challenge and Solution
+    are the two additional entry points.
   sorry_count: 0
   sorry_in_definitions: 0
   axioms: [propext, Quot.sound, Classical.choice]
@@ -108,7 +108,9 @@ fidelity:
     Seven legacy registry modules were adapted to a strengthened certificate
     type (BoundedValid, which implies Valid). Eight declarations that used
     native_decide and are not used by f7_eq_85 were removed, together with
-    one module that held only such a declaration. Theorem statements and
+    one module that held only such a declaration. This revision also removes
+    an unused import branch, narrows imports, and simplifies proof terms for
+    the graph certificates. Theorem statements and
     the definitions of f are unchanged.
 
 review:

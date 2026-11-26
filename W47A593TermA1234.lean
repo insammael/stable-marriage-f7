@@ -320,6 +320,5 @@ theorem terminal_A12_34 :
   intro c hc
   exact check_all c hc
 
-#print axioms terminal_A12_34
 
 end F7Manuscript.PartnerGraph.G1Frozen13

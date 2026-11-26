@@ -573,16 +573,6 @@ theorem actual_core_pure_prefix_cuts
 
 end ActualGeometry
 
-#print axioms actual_pure_prefix_route
-#print axioms actual_pure_prefix_rawCut
-#print axioms actual_pure_prefix_frontier_receipts
-#print axioms actual_pure_prefix_normalized_plan_of_second_color_one
-#print axioms rawCut_firstSteps
-#print axioms actual_pure_prefix_cuts_of_raw_kernel
-#print axioms actualCorePurePrefixChart
-#print axioms actualCorePurePrefixChart_events_rank
-#print axioms actualCorePurePrefixChart_convex
-#print axioms actual_core_pure_prefix_cuts
 
 end
 end F7Manuscript.N4ActualPurePrefixCuts

@@ -107,7 +107,6 @@ theorem actual_bare_T_post_pair_increment_le_three
   change pairIncrement S F ≤ 3*F.card
   omega
 
-#print axioms actual_bare_T_post_pair_increment_le_three
 
 theorem actual_bare_T_context_charge
     (hn : Fintype.card (Event I) = 21) (h311 : NoInduced311 (V := Event I))
@@ -136,7 +135,5 @@ theorem actual_bare_T_context_charge
     rw [hF] at hpost
     norm_num [hR,hF] <;> omega
 
-#print axioms actual_T_introduction_increment_le_six_add_retired
-#print axioms actual_bare_T_context_charge
 end
 end F7Manuscript.TripleCoordinateLattice

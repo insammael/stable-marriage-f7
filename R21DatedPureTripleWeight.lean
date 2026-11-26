@@ -63,6 +63,4 @@ theorem DatedPlan.localTripleWeight {R : TokenRun Site Site 21} {off len : Nat} 
   rw [eq] at not100 notOther ⊢
   cases a <;> cases b <;> cases c <;> simp_all [markWeight]
 
-#print axioms DatedPlan.noFiveWindow100
-#print axioms DatedPlan.localTripleWeight
 end F7Manuscript.R21LongWindow.PureRootCoverage

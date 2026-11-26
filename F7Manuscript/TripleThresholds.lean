@@ -154,10 +154,6 @@ theorem labels_disjoint_of_incomparable {h k : ThresholdEvent C}
 def thresholdIdealOrderIso : Triple C ≃o LowerSet (ThresholdEvent C) :=
   OrderIso.lowerSetSupIrred
 
-#print axioms threshold_exact
-#print axioms threshold_supIrred
-#print axioms supIrred_is_threshold
-#print axioms labels_disjoint_of_incomparable
 
 end Nonempty
 end

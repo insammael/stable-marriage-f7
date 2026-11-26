@@ -134,8 +134,6 @@ theorem one_G_cut_meet
     rw [← hQ]
     exact hpd x hp
 
-#print axioms one_G_new_row
-#print axioms one_G_cut_meet
 end
 end F7Manuscript.TripleCoordinateLattice.R21OneGCutMeet
 

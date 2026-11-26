@@ -79,7 +79,5 @@ theorem actual_two_disjoint_pairs_give_crossTok_reversed
       congrFun (disjoint_token_swaps_commute (F7Paired.centerTok M)) x
     _ = F7Paired.crossTok M x := rfl
 
-#print axioms actual_two_disjoint_pairs_give_crossTok
-#print axioms actual_two_disjoint_pairs_give_crossTok_reversed
 
 end F7Manuscript.ActualD2CrossRowState

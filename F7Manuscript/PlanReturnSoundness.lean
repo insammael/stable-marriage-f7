@@ -44,5 +44,4 @@ theorem valid_excludes_noReturn (L : Leaf) (hL : Valid L)
     tokensAfter_id_eq_origins L.word L.earlier (by have := hL.1; have := hL.2.1; omega)]
   exact hL.2.2.2
 
-#print axioms valid_excludes_noReturn
 end F7Manuscript.HistoryReturnCertificate

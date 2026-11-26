@@ -125,6 +125,5 @@ theorem actual_canonical_any_leaf_installer_address
       (by simpa [cut, icard] using! hic)
     simpa [f, E, beta19, icard, hcastBeta] using! hno'
 
-#print axioms actual_canonical_any_leaf_installer_address
 end
 end F7Manuscript.ActualW28R20CanonicalInstallerAddresses

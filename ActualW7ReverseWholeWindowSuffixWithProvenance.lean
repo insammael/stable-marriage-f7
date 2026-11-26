@@ -149,7 +149,6 @@ theorem actual_reverse_window_suffix_with_provenance
   intro t
   exact hprefix t
 
-#print axioms actual_reverse_window_suffix_with_provenance
 
 end
 end F7Manuscript.ActualW7ReverseWholeWindowSuffixWithProvenance

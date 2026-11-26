@@ -199,7 +199,6 @@ theorem actual_scheduled_one_d1_normalized_cross_rows
       exact hcenterMap
     exact ⟨cross, label, b₂, candidate, hcandidate, hD', hC2'⟩
 
-#print axioms actual_scheduled_one_d1_normalized_cross_rows
 
 end
 end F7Manuscript.TripleCoordinateLattice

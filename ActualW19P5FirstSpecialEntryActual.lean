@@ -44,6 +44,5 @@ theorem p5_first_special_entry_site_three_actual
   have hno := p5_token_no_reentry_after_outside T hb ht a y z haS hyOut' hstart hzS
   exact hno hvisit
 
-#print axioms p5_first_special_entry_site_three_actual
 
 end F7Manuscript.ActualW19P5FirstSpecialEntryActual

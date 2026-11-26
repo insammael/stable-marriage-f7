@@ -203,7 +203,6 @@ theorem actual_outside_three_surviving_query_key
     exact ⟨hk, decide_eq_true hnot⟩
   exact ⟨X,k,hmem,hu,hq,hs,hm,hW,hD,hsk,huk,hvk⟩
 
-#print axioms actual_outside_three_surviving_query_key
 
 end
 end F7Manuscript.ActualW21OutsideThreeQueryKeyFrontier

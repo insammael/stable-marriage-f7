@@ -116,7 +116,5 @@ theorem outsider_paired_switch_group_card_le_two
     (s.property d e hde) (t.property d e hde) hac had hbc hbd
     hla hlb hlc hld hua hub huc hud hlu K hK hdisj
 
-#print axioms outsider_paired_switch_placement
-#print axioms outsider_paired_switch_group_card_le_two
 end
 end F7Manuscript.TripleCoordinateLattice

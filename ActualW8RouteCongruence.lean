@@ -57,7 +57,5 @@ theorem bits_congr_from
       · rw [h0, h1]
         exact ih (fun k hk => hsame k (by omega))
 
-#print axioms support_congr_from
-#print axioms bits_congr_from
 
 end F7Manuscript.ActualW8RouteCongruence

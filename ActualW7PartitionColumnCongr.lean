@@ -46,7 +46,6 @@ theorem normalColumn_partition_congr
   cases hz
   exact ⟨rfl, rfl⟩
 
-#print axioms normalColumn_partition_congr
 
 end
 end F7Manuscript.ActualW7PartitionColumnCongr

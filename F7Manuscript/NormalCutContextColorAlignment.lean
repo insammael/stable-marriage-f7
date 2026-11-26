@@ -82,7 +82,5 @@ theorem normal_terminal_past_context_color
   by_contra hne
   exact hnotle H.past.last hne (H.past.retired_lt low.val hret).le
 
-#print axioms normal_first_center_future_context_color
-#print axioms normal_terminal_past_context_color
 end
 end F7Manuscript.TripleCoordinateLattice

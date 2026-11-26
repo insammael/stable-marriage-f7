@@ -49,7 +49,6 @@ theorem original_endpoint_word (i : Fin (M+1)) (hm : 2≤(S i).m) :
   exact path_word_deciders (I:=I) inferInstance inferInstance C h221 h311 hu E (R i)
     hQ hp.2.2.1 hp.2.1 hz hbi hm' hsize
 
-#print axioms original_endpoint_word
 end
 end F7Manuscript.TripleCoordinateLattice.R21FourEndpoint
 

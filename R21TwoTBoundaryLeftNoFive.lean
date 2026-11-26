@@ -97,6 +97,5 @@ theorem left_pure_five_impossible (A B D : NormalSkeleton.Chart)
     simpa only [←hform] using! B_end_prefix_checked p' bits f₁'.last
    exact checked_actual_continuation X' _ _ endB f₁' f₂' (chartPlan B) b₁ 0 3 hwhole hboard hcheck hv₂' idle₁
 
-#print axioms left_pure_five_impossible
 end
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

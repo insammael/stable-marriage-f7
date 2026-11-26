@@ -100,6 +100,5 @@ theorem mixed_exterior_impossible (R : TokenRun Site W 21) (s : State)
   · exact no b (by simp [hc]) (by simpa [exchangedNames,initialNames] using! h)
   · exact no b (by simp [hc]) (by simpa [exchangedNames,initialNames] using! h)
 
-#print axioms mixed_exterior_impossible
 end F7Manuscript.R21NormalEndpoint
 

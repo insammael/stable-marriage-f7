@@ -140,8 +140,6 @@ theorem subsetNormal_block_segment_trace_exists
           exact hidxval
         simpa only [hidx] using! hfinal
 
-#print axioms subsetNormal_block_boundary_row_eq
-#print axioms subsetNormal_block_segment_trace_exists
 
 end
 end F7Manuscript.TripleCoordinateLattice

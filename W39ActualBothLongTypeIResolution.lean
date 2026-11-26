@@ -125,7 +125,6 @@ theorem resolve_canonical_typeI_gap
   · rw [hR]
     exact bounds.hbudget
 
-#print axioms resolve_canonical_typeI_gap
 
 /-- Resolve the actual Type-I center-gap branch by constructing the same
 long-PRE trace data consumed by the private contradiction helper. -/
@@ -150,6 +149,5 @@ theorem resolve_both_long_typeI_gap
   subst n
   exact resolve_canonical_typeI_gap C hn h221 h311 hu hG0 hT1 bounds j0 hj0 hTj hgap
 
-#print axioms resolve_both_long_typeI_gap
 end
 end F7Manuscript.TripleCoordinateLattice.W39ActualBothLongTypeIResolution

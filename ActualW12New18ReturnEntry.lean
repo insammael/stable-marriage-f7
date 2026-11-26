@@ -52,8 +52,6 @@ theorem new18_metadata :
     have hi' : i < 5 := by omega
     interval_cases i <;> decide
 
-#print axioms new18_return_entry
-#print axioms new18_metadata
 
 #eval IO.eprintln "W12 NEW18 return-entry checked"
 

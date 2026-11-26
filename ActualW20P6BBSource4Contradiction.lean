@@ -108,5 +108,4 @@ theorem bb_source4_impossible
       exact no_later_receipt4 T c k hcpre4 hcpost4 hck hkpre4 q 2 (by decide)
         (by simpa [hq6] using! (by decide : (2 : Site) ≠ 6)) (by decide) hfreeze r (Or.inr hpart) hpost
 
-#print axioms bb_source4_impossible
 end F7Manuscript.ActualW20P6BBSource4Contradiction

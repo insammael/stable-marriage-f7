@@ -139,7 +139,6 @@ theorem actual_X_q1_s2_endpoint_data
     have hj' : j < D.length := by rw [hDlen]; exact hj
     exact hDother j hj' (by simpa using! hjne)
 
-#print axioms actual_X_q1_s2_endpoint_data
 
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW15Q1S2EndpointData

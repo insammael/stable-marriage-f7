@@ -65,7 +65,5 @@ theorem perfect_thresholdPath_spans
   rw [thresholdPath_union_eq_tripleVertices]
   exact (zero_triple_deficit_components C h221 h311 hz).1
 
-#print axioms attained_occurs_in_thresholdPath
-#print axioms perfect_thresholdPath_spans
 end
 end F7Manuscript.TripleCoordinateLattice

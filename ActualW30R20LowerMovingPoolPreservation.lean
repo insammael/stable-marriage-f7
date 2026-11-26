@@ -110,7 +110,5 @@ theorem actual_switch_outsider_in_next_lower_moving_pool
   rw [hpool] at hsubset
   exact hsubset
 
-#print axioms actual_lower_moving_pool_preserved
-#print axioms actual_switch_outsider_in_next_lower_moving_pool
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW30R20LowerMovingPoolPreservation

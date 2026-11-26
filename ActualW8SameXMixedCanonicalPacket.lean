@@ -129,7 +129,6 @@ theorem actual_X_offset0_mixed_canonical_packet
     Hroute hbinary' h0 h1 h2 h3 hbit
   exact ⟨⟨hcore, hfour, A, R, e, hcycles, hbinary, hprefix, N⟩⟩
 
-#print axioms actual_X_offset0_mixed_canonical_packet
 
 end
 end F7Manuscript.ActualW8SameXMixedCanonicalPacket

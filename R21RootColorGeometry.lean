@@ -42,7 +42,4 @@ theorem LeftCenterTrace.relabel {W : Type*} [Fintype W]
     · simpa only [centerPair_relabel] using! support
     · simpa only [afterCenter_relabel] using! ih
 
-#print axioms pure_final_valid
-#print axioms relabel_valid
-#print axioms LeftCenterTrace.relabel
 end F7Manuscript.R21LongWindow.RootSupportTransport

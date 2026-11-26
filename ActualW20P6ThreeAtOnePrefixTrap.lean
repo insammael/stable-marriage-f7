@@ -63,5 +63,4 @@ theorem token_three_at_one_prefix_trap {n : Nat}
     rw [hpost1] at hf
     simp [graphRel,p6G0,ofEdges] at hf
 
-#print axioms token_three_at_one_prefix_trap
 end F7Manuscript.ActualW20P6ThreeAtOnePrefixTrap

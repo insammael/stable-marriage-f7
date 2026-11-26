@@ -230,6 +230,5 @@ theorem new4_noReturn_impossible (bits : Nat → Bool)
           hfirst0, hfirst1, hfirst2, hfirst3, hfirst4, h5, h6, h7, h8] <;> norm_num
       exact noReturn_paired_column_empty new4Plan bits 13 N hi13 0 5 4
         (by decide) (by decide) (Or.inr (Or.inl hp)) hx hy
-#print axioms new4_noReturn_impossible
 
 end F7Manuscript.ActualW12New4PairedSlotHand

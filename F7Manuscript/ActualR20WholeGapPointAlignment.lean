@@ -72,7 +72,6 @@ theorem actual_two_gap_points_of_whole_concatenation
   rw [hconcat] at hinner
   exact hwhole.trans (hinner.trans (hEG i))
 
-#print axioms actual_two_gap_points_of_whole_concatenation
 
 end
 end F7Manuscript.TripleCoordinateLattice

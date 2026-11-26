@@ -262,7 +262,6 @@ theorem canonicalize_typeI_gap_order
     · simpa [hl] using! hI0
     · simpa [hl] using! hI1
 
-#print axioms canonicalize_typeI_gap_order
 end
 end F7Manuscript.ActualTypeICanonicalGapEnumeration
 /-! END VERBATIM SOURCE: F7Manuscript.ActualTypeICanonicalGapEnumeration -/
@@ -653,7 +652,6 @@ theorem actual_typeI_post_trace_with_whole_enumeration
     Rpost hRleft hRright hq h221q h311q hzq hmB Tpost
   exact ⟨σ,cross,hσfixed,hσleft,hσright,Tpost,hlower,EG',hEGgap,hwhole⟩
 
-#print axioms actual_typeI_post_trace_with_whole_enumeration
 end
 end F7Manuscript.TripleCoordinateLattice
 /-! END VERBATIM SOURCE: F7Manuscript.ActualTypeIPostWholeEnumeration -/
@@ -771,7 +769,6 @@ theorem actual_cyclic_whole_prefix_normalization_from_first_color
   · simpa only [R, hnorm] using! hmap
   · simpa only [R] using! hinit
 
-#print axioms actual_cyclic_whole_prefix_normalization_from_first_color
 
 end
 end F7Manuscript.TripleCoordinateLattice
@@ -849,7 +846,6 @@ theorem actual_cyclic_pre_endpoint_for_specified_map
     _ = mapSupportFrame e (recolorCenterFrame a.perm T.finalFrame) :=
       congrArg (fun f => mapSupportFrame e (recolorCenterFrame a.perm f)) htrace
 
-#print axioms actual_cyclic_pre_endpoint_for_specified_map
 end
 end F7Manuscript.TripleCoordinateLattice
 /-! END VERBATIM SOURCE: F7Manuscript.ActualCyclicPreEndpointTransport -/
@@ -973,7 +969,6 @@ theorem actual_cyclic_chosen_whole_prefix
   exact ⟨hPG, HPG, hptsPG, Hraw, hUF, hptsWhole,
     e, hnorm, Hpre, hfinal, h0, h1, h2, h3⟩
 
-#print axioms actual_cyclic_chosen_whole_prefix
 end
 end F7Manuscript.TripleCoordinateLattice
 /-! END VERBATIM SOURCE: F7Manuscript.ActualCyclicChosenWholePrefix -/
@@ -1125,7 +1120,6 @@ theorem actual_typeI_paired_gap_supports_in_whole_run
     rw [hrun1, hpoint1]
     exact hrows d1 |>.trans hright
 
-#print axioms actual_typeI_paired_gap_supports_in_whole_run
 
 end
 end F7Manuscript.TripleCoordinateLattice
@@ -1292,7 +1286,6 @@ theorem actual_chosen_whole_typeI_paired_post_inputs
   · exact (WholeEnumerationRetarget.support hUF hraw hwhole H U.card
       (by rw [hrawCard]; omega) (by omega)).trans hcRaw
 
-#print axioms actual_chosen_whole_typeI_paired_post_inputs
 end
 end F7Manuscript.TripleCoordinateLattice
 /-! END VERBATIM SOURCE: F7Manuscript.ActualChosenWholeTypeIPairedInputs -/
@@ -1352,8 +1345,6 @@ theorem actual_cyclic_recolored_prefix_card
   rw [cyclic_recolored_plan_eventCount S (by omega) a]
   omega
 
-#print axioms cyclic_recolored_plan_eventCount
-#print axioms actual_cyclic_recolored_prefix_card
 end
 end F7Manuscript.TripleCoordinateLattice
 /-! END VERBATIM SOURCE: F7Manuscript.ActualCyclicMixedPlanEventCount -/
@@ -1425,7 +1416,6 @@ local notation "Site" => F7Manuscript.ReturnCertificate.Site
   have hfull := supportsRoute_append Hpre hrest
   simpa only [List.append_assoc,List.cons_append,List.nil_append] using! hfull
 
-#print axioms actual_typeI_paired_splice_with_post_center
 end
 end F7Manuscript.TripleCoordinateLattice
 /-! END VERBATIM SOURCE: F7Manuscript.ActualTypeIPairedSplice -/
@@ -1476,9 +1466,6 @@ local notation "Color" => F7Local.Color
     afterPaired (mapSupportFrame e (recolorSupportFrame a f)) cross label
   rw [← afterPaired_recolor,mapSupportFrame_afterPaired]
 
-#print axioms pairedFrame_eq_of_last
-#print axioms pairedPairs_actor_cyclic_transport
-#print axioms afterPaired_actor_cyclic_transport
 end
 end F7Manuscript.TripleCoordinateLattice
 /-! END VERBATIM SOURCE: F7Manuscript.ActualPairedActorCyclicTransport -/
@@ -1620,7 +1607,6 @@ local instance typeIPairedActorSpliceLeafFintype (Q : Finset (Event I))
   exact actual_typeI_paired_splice_with_post_center postIndex hpostIndex Hpre' hframe
     Hpost' hg0 hg1 hc
 
-#print axioms actual_typeI_paired_actor_splice_with_controls
 end
 end F7Manuscript.TripleCoordinateLattice
 /-! END VERBATIM SOURCE: F7Manuscript.ActualTypeIPairedActorSplice -/
@@ -1803,7 +1789,6 @@ theorem actual_cyclic_chosen_whole_typeI_paired_splice
       Tpre.finalFrame cross false hpostLower Hpre hfinal Hpost hg0' hg1' hc'
   exact ⟨e,Hwhole,bits,h0,h1,h2,h3,hroute⟩
 
-#print axioms actual_cyclic_chosen_whole_typeI_paired_splice
 end
 end F7Manuscript.TripleCoordinateLattice
 /-! END VERBATIM SOURCE: F7Manuscript.ActualCyclicChosenWholeTypeIPairedSplice -/
@@ -1883,7 +1868,6 @@ theorem actual_typeI_join_color_admissible
   refine ⟨fun he=>hboundary (Fin.ext he),?_⟩
   simpa only [Nat.zero_add,Nat.add_assoc] using! hpost
 
-#print axioms actual_typeI_join_color_admissible
 end
 end F7Manuscript.NormalTypeIJoinAdmissibility
 /-! END VERBATIM SOURCE: F7Manuscript.NormalTypeIJoinAdmissibility -/
@@ -1967,7 +1951,6 @@ theorem supportsRouteFinal_mixedPlan_lastColor (f : SupportFrame)
     have hind : 1+(m-1)-1 = m-1 := by omega
     rw [hind]
 
-#print axioms supportsRouteFinal_mixedPlan_lastColor
 end
 end F7Manuscript.NormalMixedPlanLastColor
 /-! END VERBATIM SOURCE: F7Manuscript.NormalMixedPlanLastColor -/
@@ -2028,7 +2011,6 @@ theorem actual_normal_trace_final_frame_last
   rw [hend] at hlast
   exact hlast
 
-#print axioms actual_normal_trace_final_frame_last
 end
 end F7Manuscript.TripleCoordinateLattice
 /-! END VERBATIM SOURCE: F7Manuscript.ActualNormalTraceLastColor -/
@@ -2092,7 +2074,6 @@ theorem runCost_typeI_join_bound (s : CostControl) (pre tail : List Move)
   dsimp -failIfUnchanged only [t] at hmiddle htail ⊢
   omega
 
-#print axioms runCost_typeI_join_bound
 end F7Manuscript.NormalTypeIJoinCost
 /-! END VERBATIM SOURCE: F7Manuscript.NormalTypeIJoinCost -/
 /-! BEGIN VERBATIM SOURCE: F7Manuscript.NormalTypeIJoinChartCost sha256=8e3175d0d0c1cab3531de51f5122bf2b74392f08898f0f98e01dc8755025313d -/
@@ -2197,8 +2178,6 @@ theorem runCost_normalPlan_at_initialColor (C : Chart) (a : Equiv.Perm (Fin 3))
   rw [runCost_normalPlan C a hmC ha,runCost_normalPlan_at_initialColor D b hmD] at h
   omega
 
-#print axioms runCost_normalPlan_at_initialColor
-#print axioms runCost_typeI_chart_join_bound
 end
 end F7Manuscript.NormalSkeleton.Chart
 /-! END VERBATIM SOURCE: F7Manuscript.NormalTypeIJoinChartCost -/
@@ -2250,7 +2229,6 @@ local notation "Site" => F7Manuscript.ReturnCertificate.Site
   change 5 < runCost ⟨0,0,false,false⟩ plan at hcost
   omega
 
-#print axioms actual_typeI_join_excludes_low_budget
 end
 end F7Manuscript.NormalSkeleton.Chart
 /-! END VERBATIM SOURCE: F7Manuscript.ActualTypeIJoinBudgetExclusion -/
@@ -2300,7 +2278,6 @@ local notation "Site" => F7Manuscript.ReturnCertificate.Site
   exact actual_typeI_join_excludes_low_budget R C D a b hmC hmD ha bits hn
     hsize h0 h1 h2 h3 H hcolor hbudget
 
-#print axioms actual_typeI_join_excludes_low_budget_of_boundary_colors
 end
 end F7Manuscript.NormalSkeleton.Chart
 /-! END VERBATIM SOURCE: F7Manuscript.ActualTypeIJoinBoundaryBudgetExclusion -/
@@ -2529,7 +2506,6 @@ theorem actual_typeI_pre_fixed_whole_exclusion
     (by simpa only [hpreEq,hpostEq,c] using! hsize) h0 h1 h2 h3 hroute'
     hboundary hbudget
 
-#print axioms actual_typeI_pre_fixed_whole_exclusion
 end
 end F7Manuscript.TripleCoordinateLattice
 /-! END VERBATIM SOURCE: F7Manuscript.ActualTypeIPreFixedWholeExclusion -/
@@ -2651,7 +2627,6 @@ theorem fixed_center_two_typeI_rows_next_center_false
       rw [hreturn] at hmono
       omega
 
-#print axioms fixed_center_two_typeI_rows_next_center_false
 end F7Manuscript.ActualTypeIFixedCenterReturn
 /-! END VERBATIM SOURCE: F7Manuscript.ActualTypeIFixedCenterReturn -/
 /-! BEGIN VERBATIM SOURCE: F7Manuscript.ActualTypeIFixedCenterReturnFrame sha256=fd71fa2a32385c8c158449464269d008302c88db87f0fd04ba04065b42a0e090 -/
@@ -2836,7 +2811,6 @@ theorem fixed_center_two_typeI_rows_of_frame
     (haway a (Or.inl rfl)).2 (haway b (Or.inr (Or.inl rfl))).2
     (haway z (Or.inr (Or.inr rfl))).2 nextBit hLast'
 
-#print axioms F7Manuscript.ActualTypeIFixedCenterReturn.fixed_center_two_typeI_rows_of_frame
 
 end
 end F7Manuscript.ActualTypeIFixedCenterReturn
@@ -2922,8 +2896,6 @@ theorem actual_typeI_fixed_center_after_center_prefix_impossible
       | paired =>
           exact False.elim (hno (by simp))
 
-#print axioms actual_typeI_fixed_center_route_impossible
-#print axioms actual_typeI_fixed_center_after_center_prefix_impossible
 end
 end F7Manuscript.TripleCoordinateLattice
 /-! END VERBATIM SOURCE: F7Manuscript.ActualTypeISameFixedRouteExclusion -/
@@ -3183,7 +3155,6 @@ theorem actual_typeI_same_fixed_whole_exclusion
     (reindexRun R e) ⟨4, by omega⟩ initialSupport bits 0
     before post (a.perm fixed) hrouteFixed hno hmemory
 
-#print axioms actual_typeI_same_fixed_whole_exclusion
 end
 end F7Manuscript.TripleCoordinateLattice
 /-! END VERBATIM SOURCE: F7Manuscript.ActualTypeISameFixedWholeExclusion -/
@@ -3749,13 +3720,6 @@ theorem actual_typeI_post_center_becomes_normal_stages
   exact ⟨bits', S, hb0, by simpa [hcross] using! hb1,
     by simpa [hcross] using! hb2, hstages, hstateS⟩
 
-#print axioms commute_center_past_two_adjacent_runs
-#print axioms commute_center_past_two_adjacent_runs_reverse
-#print axioms actual_typeI_pair_then_center_support_stages
-#print axioms actual_typeI_gap_commutes_into_normal_stages
-#print axioms commute_two_adjacent_runs_before_center
-#print axioms actual_typeI_two_gap_then_center_commutes
-#print axioms actual_typeI_post_center_becomes_normal_stages
 
 end F7Manuscript.ActualTypeICenterRunCommutation
 /-! END VERBATIM SOURCE: F7Manuscript.ActualTypeICenterRunCommutation -/
@@ -3926,7 +3890,6 @@ theorem actual_typeI_post_fixed_commutes_with_history
   · cases label <;> simpa [p, pairs, g, pairSupport] using! hj
   · cases label <;> simpa [r, pairs, g, pairSupport] using! hk
 
-#print axioms actual_typeI_post_fixed_commutes_with_history
 
 end
 end F7Manuscript.ActualTypeIPostFixedCommutation
@@ -4002,8 +3965,6 @@ theorem afterPaired_afterCenter (f : SupportFrame) (c : Color)
   · exact afterPaired_afterCenter_color1 frontier idle last b cross label
   · exact afterPaired_afterCenter_color2 frontier idle last b cross label
 
-#print axioms pairedPairs_afterCenter
-#print axioms afterPaired_afterCenter
 
 end F7Manuscript.NormalTypeIFixedCenterFrameAlgebra
 /-! END VERBATIM SOURCE: F7Manuscript.NormalTypeIFixedCenterFrameAlgebra -/
@@ -4205,7 +4166,6 @@ theorem actual_typeI_fixed_center_route_adapter
       omega
     exact hout l hl'
 
-#print axioms actual_typeI_fixed_center_route_adapter
 end
 end F7Manuscript.TripleCoordinateLattice
 /-! END VERBATIM SOURCE: F7Manuscript.ActualTypeIFixedCenterRouteAdapter -/
@@ -4403,7 +4363,6 @@ theorem actual_typeI_post_fixed_actor_splice
   intro l hl
   exact hout l hl
 
-#print axioms actual_typeI_post_fixed_actor_splice
 end
 end F7Manuscript.TripleCoordinateLattice
 /-! END VERBATIM SOURCE: F7Manuscript.ActualTypeIPostFixedActorSplice -/
@@ -4479,7 +4438,6 @@ theorem runCost_typeI_post_join_bound (s : CostControl) (pre tail : List Move)
     exact htwo
   omega
 
-#print axioms runCost_typeI_post_join_bound
 end F7Manuscript.NormalTypeIPostJoinCost
 /-! END VERBATIM SOURCE: F7Manuscript.NormalTypeIPostJoinCost -/
 /-! BEGIN VERBATIM SOURCE: F7Manuscript.ActualTypeIPostJoinBudgetExclusion sha256=1e19b09b61c6d92d7cdd5428ad83eb4989efa8fe1f859dea9e921e9ccc081dae -/
@@ -4594,8 +4552,6 @@ theorem actual_typeI_post_join_color_admissible
   omega
 
 
-#print axioms runCost_typeI_post_chart_join_bound
-#print axioms actual_typeI_post_join_excludes_low_budget
 end
 end F7Manuscript.NormalSkeleton.Chart
 /-! END VERBATIM SOURCE: F7Manuscript.ActualTypeIPostJoinBudgetExclusion -/
@@ -4852,7 +4808,6 @@ theorem actual_typeI_post_fixed_whole_exclusion
     (by simpa only [hpreEq,hpostEq,c,hbword] using! hsize) h0' h1' h2' h3' hroute'
     hboundary hbudget
 
-#print axioms actual_typeI_post_fixed_whole_exclusion
 end
 end F7Manuscript.TripleCoordinateLattice
 /-! END VERBATIM SOURCE: F7Manuscript.ActualTypeIPostFixedWholeExclusion -/
@@ -4951,7 +4906,6 @@ theorem actual_one_G_long_cut_budget_and_boundary_color
   · rw [←hpre,←hpost,←hfixed] at hb
     exact hb
 
-#print axioms actual_one_G_long_cut_budget_and_boundary_color
 end
 end F7Manuscript.TripleCoordinateLattice
 /-! END VERBATIM SOURCE: F7Manuscript.ActualOneGapCutLedger -/
@@ -5103,7 +5057,6 @@ theorem actual_r20_q0_typeI_whole_case
       hptsFuture hcenter Qgap hQgap Hgap hQgapCard hEG fixed hpre hpost hvPre hn hbudget2
       d0 d1 hslot0 hslot1 hnewLower cross σ hσfixed hσleft hσright hpostLower
 
-#print axioms actual_r20_q0_typeI_whole_case
 end
 end F7Manuscript.TripleCoordinateLattice
 /-! END VERBATIM SOURCE: F7Manuscript.ActualR20Q0TypeIWholeCase -/
@@ -5222,7 +5175,6 @@ theorem actual_r20_q0_typeI_whole_case_on_cut
     hcore hBpre hCutPre hBpost hCutPost jFixed hmacroIndex hfixedAtN hvPre
     d0 d1 hslot0 hslot1 hnewLower cross σ hσfixed hσleft hσright hpostLower
 
-#print axioms actual_r20_q0_typeI_whole_case_on_cut
 end
 end F7Manuscript.TripleCoordinateLattice
 /-! END VERBATIM SOURCE: F7Manuscript.ActualR20Q0TypeIWholeCaseOnCut -/
@@ -5389,7 +5341,6 @@ theorem actual_r20_q0_typeI_gap_exclusion
     jFixed hmacroIndex hfixed hv d0' d1' hslot0' hslot1' hnewLower
     cross σ hσfixed hσleft hσright hpostLower
 
-#print axioms actual_r20_q0_typeI_gap_exclusion
 end
 end F7Manuscript.TripleCoordinateLattice
 /-! END VERBATIM SOURCE: F7Manuscript.ActualR20Q0TypeIGapExclusion -/
@@ -5513,7 +5464,6 @@ theorem actual_r20_one_G_q0_long_short_left_count_le_85
     (fun c=>rfl) fixed hfixed hn hkPreB rfl hGcount hTcount hcore rfl rfl
     j rfl rfl hqPost
 
-#print axioms actual_r20_one_G_q0_long_short_left_count_le_85
 end
 end F7Manuscript.TripleCoordinateLattice
 /-! END VERBATIM SOURCE: F7Manuscript.ActualR20OneGQ0LongShortLeftCount -/

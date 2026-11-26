@@ -97,8 +97,5 @@ theorem next_reflected_center_address
   rw [hcut, hpairs]
   omega
 
-#print axioms center_address_before_cut
-#print axioms pair_side_addresses_at_cut
-#print axioms next_reflected_center_address
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW29R20RetirementSingletonPairAddresses

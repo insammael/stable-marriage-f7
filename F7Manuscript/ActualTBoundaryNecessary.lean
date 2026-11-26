@@ -286,6 +286,5 @@ theorem actual_T_boundary_necessary_word
   exact ⟨outsiderWord word (K).card,newRowWord word (K).card,
     actual_T_word_necessary C E n hn hT hz D H e word hreal horder hold hfirst houts hlast⟩
 
-#print axioms actual_T_boundary_necessary_word
 end
 end F7Manuscript.ActualTBoundaryNecessary

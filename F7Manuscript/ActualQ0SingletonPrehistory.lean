@@ -147,7 +147,6 @@ theorem singleton_typed_partition_and_prehistory
   · simpa [J] using! hZK
   · rfl
 
-#print axioms singleton_typed_partition_and_prehistory
 
 end
 end F7Manuscript.ActualQ0SingletonPrehistory

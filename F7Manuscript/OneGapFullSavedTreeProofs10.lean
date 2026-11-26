@@ -21,6 +21,5 @@ theorem rootCertificates10_valid : List.Forall id rootCertificates10 := by
   simp [rootCertificates10, root_4000_allLeaves, root_4001_allLeaves,
     root_4002_allLeaves]
 
-#print axioms rootCertificates10_valid
 
 end F7Manuscript.OneGapFullSavedTrees

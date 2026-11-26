@@ -257,8 +257,6 @@ theorem actual_X_new7_all_cuts_structural_threshold
         hDint (by simpa [n] using! hlast)
       simpa [hd,hj0,n] using! hres
 
-#print axioms New7FitAt
-#print axioms actual_X_new7_all_cuts_structural_threshold
 
 end
 end F7Manuscript.ActualW13New7AllCuts

@@ -64,6 +64,5 @@ theorem actual_r20_one_G_short_left_q2_post_data
       ⟨hq, hm0, hm1⟩ <;> omega
   exact ⟨by omega, hm10, by omega⟩
 
-#print axioms actual_r20_one_G_short_left_q2_post_data
 end
 end F7Manuscript.TripleCoordinateLattice.W35TernaryCompat

@@ -309,6 +309,5 @@ theorem actual_u3_q1_s3_anchor4_extra510_max_le_two_false
       C hn hδ h221 h311 hG hT X (by rw [hm]; omega) hrawfwd hDforward0 hDforward8
     omega
 
-#print axioms actual_u3_q1_s3_anchor4_extra510_max_le_two_false
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW18Anchor4Extra510Endpoint

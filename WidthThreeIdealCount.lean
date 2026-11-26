@@ -161,7 +161,4 @@ theorem r20_large_triple_deficit_ideal_count_le_85
   rw [IdealCounting.ideal_count_width_three hClass.1]
   exact r20_large_triple_deficit_count_le_85 hClass hn hDelta
 
-#print axioms IdealCounting.ideal_count_width_three
-#print axioms r20_large_triple_deficit_ideal_count_le_85
-#check r20_large_triple_deficit_ideal_count_le_85
 end NeutralCore

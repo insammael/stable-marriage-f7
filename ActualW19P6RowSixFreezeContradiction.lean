@@ -72,5 +72,4 @@ theorem B_to_A_token_one_visited_zero_impossible
   exact p6_three_distinct_unused_false tr (6,0) (6,3) (6,4)
     (by decide) (by decide) (by decide) hrow0 hrow3 hrow4
 
-#print axioms B_to_A_token_one_visited_zero_impossible
 end F7Manuscript.ActualW19P6RowSixFreezeContradiction

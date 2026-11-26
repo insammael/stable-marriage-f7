@@ -96,8 +96,6 @@ theorem outside_below_all {P : Finset V} (C : (graph P).ConnectedComponent)
   obtain ⟨w,hw,hwz⟩ := (hProp R hRT).2
   exact antichain_not_between ((mem_triples_on P R.val).mp R.property).2.2 hw hbR hwz hzb.le
 
-#print axioms outside_comparable_card
-#print axioms outside_below_all
 end NeutralCore.ActualOverlap
 
 namespace NeutralCore.ActualOverlap
@@ -157,6 +155,4 @@ theorem component_direction {P : Finset V} (C D : (graph P).ConnectedComponent)
     intro b hb a ha hab
     exact hForward ⟨a,ha,b,hb,hab⟩
 
-#print axioms cross_no_reverse
-#print axioms component_direction
 end NeutralCore.ActualOverlap

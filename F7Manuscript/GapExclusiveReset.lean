@@ -145,7 +145,5 @@ theorem double_threshold_fixed_exclusive_reset
     rw [hfixed] at h
     exact h hle
 
-#print axioms double_threshold_moving_exclusive_reset
-#print axioms double_threshold_fixed_exclusive_reset
 end
 end F7Manuscript.TripleCoordinateLattice

@@ -203,6 +203,5 @@ theorem actual_fixed_slot_two_core_neighbor_subset_bounds {N : ℕ}
     exact hry.trans (placement y hy d hd).2
   exact ⟨x,y,hxy,hslot,hsub.1,hsub.2,hreset⟩
 
-#print axioms actual_fixed_slot_two_core_boundary_context_bounds
 end
 end F7Manuscript.TripleCoordinateLattice

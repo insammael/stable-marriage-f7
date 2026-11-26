@@ -32,6 +32,4 @@ theorem p5_actual_pure_budget12_root1 :
   exact (p5_future_bound_1_of_no_13
     (by intro tr; exact p5_actual_positive_CII_removed_from_trace tr p5_relation_cells_saturated)) n h
 
-#print axioms p5_actual_pure_budget12
-#print axioms p5_actual_pure_budget12_root1
 end F7Manuscript.ActualW20P5PureBudget12FromActual

@@ -307,6 +307,5 @@ theorem actual_canonical_any_leaf_next_pair_row
   refine ⟨k, hk, hstrong, R, hxRun, hbefore, hafter, hsupport0, hsupport1,
     hcard0, hcard1, hdis, hpool⟩
 
-#print axioms actual_canonical_any_leaf_next_pair_row
 end
 end F7Manuscript.ActualW28R20CanonicalNextPairRow

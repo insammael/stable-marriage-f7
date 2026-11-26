@@ -85,6 +85,5 @@ theorem DatedPlan.centerTailFrame
       omega)
     exact ⟨S,bin,seeds,first,tailRoute,newColors⟩
 
-#print axioms DatedPlan.centerTailFrame
 end
 end F7Manuscript.R21NormalEndpoint.ReseededObservation

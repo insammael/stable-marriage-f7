@@ -73,8 +73,5 @@ theorem actual_r20_one_outsider_leaf_of_q12_kernel
     h221 h311 hG hT
   omega
 
-#print axioms actual_all_q_cost_floor_of_q12_kernel
-#print axioms actual_r20_one_outsider_leaf_of_q12_kernel
-#check actual_r20_one_outsider_leaf_of_q12_kernel
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW31R20OneOutsiderOfQ12Kernel

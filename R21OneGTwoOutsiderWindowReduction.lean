@@ -121,7 +121,6 @@ theorem r21_two_G_leaf_of_window_bounds
     change (S k).m+2*(S k).q≤14
     rcases hcases with rfl | rfl <;> omega
 
-#print axioms r21_two_G_leaf_of_window_bounds
 end
 end F7Manuscript.ActualPositiveDeficitCoverAssembly
 

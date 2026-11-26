@@ -155,5 +155,4 @@ theorem new98_actual_saved_structural_threshold_le
         (by intro i hi; exact C.cycles i) (by intro i hi; exact C.binary i)
   omega
 
-#print axioms new98_actual_saved_structural_threshold_le
 end F7Manuscript.ActualW13New98StructuralCarrierThreshold

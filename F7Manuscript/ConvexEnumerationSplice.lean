@@ -238,7 +238,6 @@ theorem convex_window_whole_enumeration
         exact Nat.add_lt_add_left hlt' _
   exact ⟨H,hbeforeBlock,hQBlock,hprefix⟩
 
-#print axioms convex_window_whole_enumeration
 
 end
 end F7Manuscript.ConvexExecution

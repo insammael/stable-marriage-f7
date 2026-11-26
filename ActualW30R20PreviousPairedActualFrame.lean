@@ -80,6 +80,5 @@ theorem actual_previous_paired_frame_from_switch
   · simpa only [leaf, Fin.val_mk] using! hsupport0
   · simpa only [leaf, Fin.val_mk] using! hsupport1
 
-#print axioms actual_previous_paired_frame_from_switch
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW30R20PreviousPairedActualFrame

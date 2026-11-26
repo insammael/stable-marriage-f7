@@ -81,5 +81,4 @@ theorem bb_initial_one_first_departure_06
   · exact False.elim (hyne5 h5)
   · exact ⟨d,f,y,hpre1,hpost1,hpre,hdf',hysupport,hposty,Or.inr h6⟩
 
-#print axioms bb_initial_one_first_departure_06
 end F7Manuscript.ActualW20P6BBFirstOneDeparture

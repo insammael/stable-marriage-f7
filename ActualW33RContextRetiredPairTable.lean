@@ -82,6 +82,5 @@ theorem retired_pair_support_table
     hblock hpair hpairTime hstart (hp r) hroom
     (reverseVertexSlot Q B h221 h311 hz a p (pairVertex (Rch) jR rR s)) rfl
 
-#print axioms retired_pair_support_table
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW33RContextRetiredPairTable

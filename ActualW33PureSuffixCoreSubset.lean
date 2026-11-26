@@ -72,6 +72,5 @@ theorem pure_suffix_events_subset_core (lo : Fin ((S).m))
       have hj := j.isLt
       omega⟩)).property
 
-#print axioms pure_suffix_events_subset_core
 end
 end F7Manuscript.ActualW33PureSuffixCoreSubset

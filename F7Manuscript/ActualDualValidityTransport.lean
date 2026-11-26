@@ -293,9 +293,6 @@ theorem supportsRouteValidity_rebase {W : Type*} [Fintype W] {q : Nat}
       (i := i) (offset := offset) := Subsingleton.elim _ _
   exact hproof ▸ V'
 
-#print axioms supportsRouteValidity_map
-#print axioms supportsRouteValidity_recolor
-#print axioms supportsRouteValidity_rebase
 
 end
 end F7Manuscript.ActualDualValidityTransport

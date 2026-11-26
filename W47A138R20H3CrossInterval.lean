@@ -147,9 +147,6 @@ theorem canonical_singleton_four_Icc
   · exact canonical_single_switch_Icc C E n e e x
       hcx hxcPrime hsingle
 
-#print axioms single_switch_Icc
-#print axioms canonical_single_switch_Icc
-#print axioms canonical_singleton_four_Icc
 
 end
 

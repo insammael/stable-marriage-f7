@@ -51,5 +51,4 @@ theorem first_switch_four_holds_until_cut
     simpa [hpost6] using! hsame.1 u hu hUt
   exact ⟨k0,k1,k2,hlist,h01,h12,hheld,hsame.2⟩
 
-#print axioms first_switch_four_holds_until_cut
 end F7Manuscript.ActualW20P6BAAFirstFourHolding

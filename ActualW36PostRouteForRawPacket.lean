@@ -196,6 +196,5 @@ theorem actual_post_route_for_raw_packet
     rw [← hfutureEq', hcenterCard]
   omega
 
-#print axioms actual_post_route_for_raw_packet
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW36PostRouteForRawPacket

@@ -57,6 +57,5 @@ theorem canonical_cut_word_with_seed_points (i : Fin (M+1)) :
     rw [cutWord,pairAt_append_right _ _ _ (show (startingPairs f).length≤k.val by change 3≤k.val; omega)]
     exact hs
 
-#print axioms canonical_cut_word_with_seed_points
 end
 end F7Manuscript.TripleCoordinateLattice.R21OneGHandActual

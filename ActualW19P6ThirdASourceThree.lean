@@ -107,5 +107,4 @@ theorem center_six_to_two_source_is_three
       · exact False.elim (hpartner_ne_center h5)
   exact ⟨hpartner_three, by simpa [hpartner_three] using! hsource⟩
 
-#print axioms center_six_to_two_source_is_three
 end F7Manuscript.ActualW19P6ThirdASourceThree

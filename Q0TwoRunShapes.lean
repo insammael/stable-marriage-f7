@@ -3500,6 +3500,5 @@ theorem q0_two_run_shapes {L R : Nat} (hL : 2 ≤ L) (hU : L ≤ 7)
   · subst L
     exact q0_two_run_shapes_7 turnsL turnsR cutsL cutsR hcost
 
-#print axioms q0_two_run_shapes
 
 end F7Local

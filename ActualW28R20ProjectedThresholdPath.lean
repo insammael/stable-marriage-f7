@@ -61,8 +61,5 @@ theorem projectedCorePath_zero :
   rw [GenericThresholdPath.path_zero]
   exact (coreTripleOrderIso C).map_bot
 
-#print axioms projectedCorePath_mono
-#print axioms projectedCorePath_at_rank_coordinate
-#print axioms projectedCorePath_zero
 end
 end F7Manuscript.ActualW28R20ProjectedThresholdPath

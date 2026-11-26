@@ -94,10 +94,5 @@ theorem unorientedActualGlobalScalarKey_q_lt_ten
   dsimp -failIfUnchanged only at h
   omega
 
-#print axioms unorientedActualGlobalScalarKey
-#print axioms unorientedActualGlobalScalarKey_lengths
-#print axioms unorientedActualGlobalScalarKey_outsider_sum
-#print axioms unorientedActualGlobalScalarKey_size
-#print axioms unorientedActualGlobalScalarKey_q_lt_ten
 end
 end F7Manuscript.TripleCoordinateLattice

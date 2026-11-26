@@ -29,6 +29,5 @@ theorem f7_eq_85_of_R20_single_T_and_R21_families
     exact r21_no_macro_at_least_three_outsiders_leaf_closed I u hu
   · exact h21 I u b c hmem hne hlarge hnormal
 
-#print axioms f7_eq_85_of_R20_single_T_and_R21_families
 end
 end F7Manuscript.ActualPositiveDeficitCoverAssembly

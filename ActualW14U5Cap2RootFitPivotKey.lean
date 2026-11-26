@@ -75,7 +75,6 @@ theorem oriented_root_fit_of_slice_pivot_equiv
     have he := hentryD (n - 1) (by omega)
     simpa [hentryLen, he] using! hs
 
-#print axioms oriented_root_fit_of_slice_pivot_equiv
 
 end
 end F7Manuscript.ActualW14U5Cap2RootFitPivotKey

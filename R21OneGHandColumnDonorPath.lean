@@ -65,7 +65,5 @@ theorem column_future_donor_path_of_sound
   exact future_donor_path_of_sound_hand (normalizedTransposeRun R rename) k (transposeSnapshot p B)
     (Equiv.refl _) (transpose_snapshot_sound R k B rename p sound current) b
 
-#print axioms transpose_snapshot_sound
-#print axioms column_future_donor_path_of_sound
 end
 end F7Manuscript.R21OneGHandDonor

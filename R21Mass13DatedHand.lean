@@ -191,9 +191,5 @@ theorem no_mass13_after_first_paired_trim
   · exact not_actualTerminal_10_1 short
   · exact not_actualTerminal_11_2 short
 
-#print axioms DatedPlan.takeMoves
-#print axioms supportsRoute_retime
-#print axioms no_mass13_with_last_center
-#print axioms no_mass13_after_first_paired_trim
 
 end F7Manuscript.R21NormalEndpoint.ReseededObservation

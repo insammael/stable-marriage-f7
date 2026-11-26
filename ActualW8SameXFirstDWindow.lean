@@ -95,7 +95,6 @@ theorem actual_X_first_D_window
     binary := hbin
     cycles := hcyc }⟩
 
-#print axioms actual_X_first_D_window
 
 end
 end F7Manuscript.ActualW8SameXFirstDWindow

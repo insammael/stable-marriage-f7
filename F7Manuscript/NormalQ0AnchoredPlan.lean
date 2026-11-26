@@ -51,6 +51,4 @@ theorem normal_q0_anchored_plan_at_initial_colors
     centerPlanFrom_recolor,centerPlanFrom_eq_range]
   simpa only [w,Nat.add_comm 1] using! hplan
 
-#print axioms normal_chart_first_two_word_colors
-#print axioms normal_q0_anchored_plan_at_initial_colors
 end F7Manuscript.TripleCoordinateLattice

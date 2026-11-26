@@ -38,6 +38,5 @@ theorem LastFrameCertificate.excludes_snapshots (C : LastFrameCertificate) {n m 
   have MN : FrontierMemory LN n f := F7Manuscript.R21SingleTHand.FrontierMemory.renameTokens L e M
   exact C.excludes_frontier LN RN ha hb k hbl hbr f MN
 
-#print axioms LastFrameCertificate.excludes_snapshots
 end
 end F7Manuscript.R21SingleTHand

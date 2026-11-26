@@ -108,7 +108,6 @@ theorem actual_r20_three_event_support_excess_le_two
   rw [← hs₁, ← hs₂, ← hs₃]
   exact hparts.trans htotal
 
-#print axioms actual_r20_three_event_support_excess_le_two
 
 end
 end F7Manuscript.TripleCoordinateLattice
@@ -140,7 +139,6 @@ theorem actual_r20_three_nonbinary_supports_impossible
   have h := actual_r20_three_event_support_excess_le_two hn e₁ e₂ e₃ h₁₂ h₁₃ h₂₃
   omega
 
-#print axioms actual_r20_three_nonbinary_supports_impossible
 
 end
 end F7Manuscript.TripleCoordinateLattice
@@ -208,9 +206,6 @@ theorem actual_r20_nonbinary_singleton_classification
   have hK : (support I (H.front 0 (H.word 0))).card = 3 := by omega
   exact ⟨hK,actual_r20_ternary_singleton_all_other_events_binary hn H hK⟩
 
-#print axioms actual_r20_other_event_binary_of_two_nonbinary
-#print axioms actual_r20_ternary_singleton_all_other_events_binary
-#print axioms actual_r20_nonbinary_singleton_classification
 end
 end F7Manuscript.TripleCoordinateLattice
 /-! END VERBATIM OWNER F7Manuscript.ActualR20TwoNonbinaryRigidity -/
@@ -294,8 +289,6 @@ theorem subset_normal_center_ternary_classification
     simpa only [H, subsetNormalCenterChart, if_true] using! hnonbinary
   exact actual_r20_nonbinary_singleton_classification hn H hb
 
-#print axioms subsetNormalCenterChart
-#print axioms subset_normal_center_ternary_classification
 
 end
 end F7Manuscript.TripleCoordinateLattice
@@ -369,8 +362,6 @@ theorem actual_r20_post_T_binary_of_two_old_nonbinary
     subst e
     exact (Finset.disjoint_left.mp hd) he hbpast
 
-#print axioms actual_post_T_segment_disjoint_old_prefix
-#print axioms actual_r20_post_T_binary_of_two_old_nonbinary
 
 end
 end F7Manuscript.TripleCoordinateLattice
@@ -541,7 +532,6 @@ theorem actual_r20_single_T_nonbinary_pre_forces_binary_post
   exact singleTPost_binary_from_induced_normal_cut C E hn N hT
     Qpre Bpre pairPre.2.2.1 pairPre.2.1 geoPre.2 k hnonbinary hp right hright
 
-#print axioms actual_r20_single_T_nonbinary_pre_forces_binary_post
 
 end
 end F7Manuscript.TripleCoordinateLattice
@@ -642,8 +632,6 @@ theorem actual_single_normal_block_other_support_disjoint
   intro a ha hb
   exact (support_share I _ _ a ha hb).elim hinc.1 hinc.2
 
-#print axioms GenericNormal.single_normal_block_other_incomparable
-#print axioms actual_single_normal_block_other_support_disjoint
 
 end
 end F7Manuscript.TripleCoordinateLattice
@@ -810,8 +798,6 @@ theorem actual_T_prefix_post_enumeration
           (D.equiv ⟨i.val - P.card, hsub⟩).property)
       · exact fun hlt => (hi hlt).elim
 
-#print axioms actual_post_T_segment_eq_prefix_complement
-#print axioms actual_T_prefix_post_enumeration
 
 end
 end F7Manuscript.TripleCoordinateLattice

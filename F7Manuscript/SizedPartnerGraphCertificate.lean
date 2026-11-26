@@ -115,6 +115,5 @@ theorem checked_table_bound {n : ℕ} (T : Table n)
       have hn := ih (ht.rename e) edge.target usedNext envNext
       omega
 
-#print axioms checked_table_bound
 
 end F7Manuscript.PartnerGraph.Sized

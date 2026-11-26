@@ -184,7 +184,6 @@ theorem subsetNormal_actual_route_at_color
   simpa only [MixedPlanDefinition.mixedPlan, hd, j1, Fin.val_mk, t0, S] using! H
 
 
-#print axioms subsetNormal_actual_route_at_color
 
 end
 end F7Manuscript.TripleCoordinateLattice

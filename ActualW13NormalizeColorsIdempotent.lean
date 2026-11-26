@@ -44,6 +44,5 @@ theorem normalizeColors_idempotent (xs : List Nat) :
         · simp [ha, hb, h1]
         · simp [ha, hb, h2]
 
-#print axioms normalizeColors_idempotent
 
 end F7Manuscript.ActualW13NormalizeColorsIdempotent

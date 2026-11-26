@@ -165,6 +165,5 @@ theorem actual_oriented_columns_preserve_interior_cost
           (0 < D[j]! ∨ W[j - 1]! = W[j + 1]!))).card :=
       congrArg Finset.card hfinalFilters
 
-#print axioms actual_oriented_columns_preserve_interior_cost
 end
 end F7Manuscript.TripleCoordinateLattice

@@ -114,6 +114,4 @@ theorem p5_token6_boundary_count (T : FixedTokenSwapTrace (graphRel p5G0) 13) :
   (p5BoundaryEvents (T := T) 6).card = 1 :=
   p5_boundary_event_count 6 (by decide) p5_pool_6 (by simp)
 
-#print axioms p5_token2_boundary_count
-#print axioms p5_token6_boundary_count
 end F7Manuscript.ActualW18P5BoundaryArrivalCount

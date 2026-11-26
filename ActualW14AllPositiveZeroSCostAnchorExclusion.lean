@@ -231,7 +231,6 @@ theorem actual_X_s0_m7_false
         F7Manuscript.ActualW10OldReturnRootLegacyRegistry.legacyEntry_000]
     exact (root_fit_forces_no_partial W D entry hmem false ⟨0, hj0⟩ hfit) hsomePartial
 
-#print axioms actual_X_s0_m7_false
 
 end
 end F7Manuscript.AllPositiveZeroSCostAnchorExclusion

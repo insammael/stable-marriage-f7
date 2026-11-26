@@ -38,7 +38,5 @@ theorem r20_q1_count_le_85_of_endpoint_outsiders
   r20_q1_count_le_85_of_convex C h221 h311 hG hT hn hu hq
     (triple_core_convex_of_endpoint_outsiders C hend)
 
-#print axioms r20_q1_count_le_85_of_convex
-#print axioms r20_q1_count_le_85_of_endpoint_outsiders
 end
 end F7Manuscript.TripleCoordinateLattice

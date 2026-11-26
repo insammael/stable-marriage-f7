@@ -41,7 +41,6 @@ theorem noActual_row2048_36 (R : TokenRun Site (Agent 7) 21) {off : Nat}
   obtain ⟨walk⟩ := physicalWalkBuilder R binary obs checked0 image
   exact Projection.contradiction_of_leaf walk.coherent
     (tracksStructural walk.tracks) leaf0 empty0
-#print axioms noActual_row2048_36
 
 /-- Manuscript line 2048, real left single support 56. -/
 def row2048_56 : Board := makeBoard 10 [6,3,4,1,5,0,2] [[2,4],[2,4,5],[5],[0,5,6],[0,1,2],[1,3],[3,4]]
@@ -60,7 +59,6 @@ theorem noActual_row2048_56 (R : TokenRun Site (Agent 7) 21) {off : Nat}
   obtain ⟨walk⟩ := physicalWalkBuilder R binary obs checked1 image
   exact Projection.contradiction_of_leaf walk.coherent
     (tracksStructural walk.tracks) leaf1 empty1
-#print axioms noActual_row2048_56
 
 /-- Manuscript line 2049, real left single support 36. -/
 def row2049_36 : Board := makeBoard 11 [4,2,3,5,1,6,0] [[2],[3,4],[4],[0,1],[0,2],[0,1,3],[2,4,5]]
@@ -79,7 +77,6 @@ theorem noActual_row2049_36 (R : TokenRun Site (Agent 7) 21) {off : Nat}
   obtain ⟨walk⟩ := physicalWalkBuilder R binary obs checked2 image
   exact Projection.contradiction_of_leaf walk.coherent
     (tracksStructural walk.tracks) leaf2 empty2
-#print axioms noActual_row2049_36
 
 /-- Manuscript line 2049, real left single support 56. -/
 def row2049_56 : Board := makeBoard 11 [4,2,5,6,1,3,0] [[2],[4,5],[4],[0,1,5],[0,2],[0,1],[2,3,4]]
@@ -98,7 +95,6 @@ theorem noActual_row2049_56 (R : TokenRun Site (Agent 7) 21) {off : Nat}
   obtain ⟨walk⟩ := physicalWalkBuilder R binary obs checked3 image
   exact Projection.contradiction_of_leaf walk.coherent
     (tracksStructural walk.tracks) leaf3 empty3
-#print axioms noActual_row2049_56
 
 /-- Manuscript line 2050, real left single support 26. -/
 def row2050_26 : Board := makeBoard 10 [3,4,1,0,6,2,5] [[4,5,6],[2,3,6],[4],[2,5],[0,1],[0,1,3],[0,3]]
@@ -117,7 +113,6 @@ theorem noActual_row2050_26 (R : TokenRun Site (Agent 7) 21) {off : Nat}
   obtain ⟨walk⟩ := physicalWalkBuilder R binary obs checked4 image
   exact Projection.contradiction_of_leaf walk.coherent
     (tracksStructural walk.tracks) leaf4 empty4
-#print axioms noActual_row2050_26
 
 /-- Manuscript line 2050, real left single support 36. -/
 def row2050_36 : Board := makeBoard 10 [6,4,1,0,2,3,5] [[2,4,5],[2,3,6],[3,4],[5],[0,1],[0,1,6],[0,2]]
@@ -136,7 +131,6 @@ theorem noActual_row2050_36 (R : TokenRun Site (Agent 7) 21) {off : Nat}
   obtain ⟨walk⟩ := physicalWalkBuilder R binary obs checked5 image
   exact Projection.contradiction_of_leaf walk.coherent
     (tracksStructural walk.tracks) leaf5 empty5
-#print axioms noActual_row2050_36
 
 /-- Manuscript line 2051, real left single support 26. -/
 def row2051_26 : Board := makeBoard 10 [6,4,1,0,2,3,5] [[4,5],[2,3,6],[4],[2,5],[0,1,6],[0,1,2],[0,3]]
@@ -155,7 +149,6 @@ theorem noActual_row2051_26 (R : TokenRun Site (Agent 7) 21) {off : Nat}
   obtain ⟨walk⟩ := physicalWalkBuilder R binary obs checked6 image
   exact Projection.contradiction_of_leaf walk.coherent
     (tracksStructural walk.tracks) leaf6 empty6
-#print axioms noActual_row2051_26
 
 /-- Manuscript line 2051, real left single support 36. -/
 def row2051_36 : Board := makeBoard 10 [2,4,1,0,3,6,5] [[4,5],[2,3,6],[3,4],[5],[0,1,2],[0,1,3],[0,2]]
@@ -174,7 +167,6 @@ theorem noActual_row2051_36 (R : TokenRun Site (Agent 7) 21) {off : Nat}
   obtain ⟨walk⟩ := physicalWalkBuilder R binary obs checked7 image
   exact Projection.contradiction_of_leaf walk.coherent
     (tracksStructural walk.tracks) leaf7 empty7
-#print axioms noActual_row2051_36
 
 /-- Manuscript line 2054, real left single support 46. -/
 def row2054_46 : Board := makeBoard 10 [5,6,4,0,1,3,2] [[2,3],[2,3,4],[1,6],[1,5],[0],[0,1,4],[0,3,5]]
@@ -193,7 +185,6 @@ theorem noActual_row2054_46 (R : TokenRun Site (Agent 7) 21) {off : Nat}
   obtain ⟨walk⟩ := physicalWalkBuilder R binary obs checked8 image
   exact Projection.contradiction_of_leaf walk.coherent
     (tracksStructural walk.tracks) leaf8 empty8
-#print axioms noActual_row2054_46
 
 /-- Manuscript line 2054, real left single support 56. -/
 def row2054_56 : Board := makeBoard 10 [6,4,5,0,1,3,2] [[2,3],[2,3,5],[1,4],[1,6],[0,5],[0,1],[0,3,4]]
@@ -212,7 +203,6 @@ theorem noActual_row2054_56 (R : TokenRun Site (Agent 7) 21) {off : Nat}
   obtain ⟨walk⟩ := physicalWalkBuilder R binary obs checked9 image
   exact Projection.contradiction_of_leaf walk.coherent
     (tracksStructural walk.tracks) leaf9 empty9
-#print axioms noActual_row2054_56
 
 /-- Manuscript line 2055, real left single support 46. -/
 def row2055_46 : Board := makeBoard 10 [5,6,4,0,2,1,3] [[2,3],[2,3,4],[1,6],[1,5],[0,1],[0,4],[0,2,5]]
@@ -231,7 +221,6 @@ theorem noActual_row2055_46 (R : TokenRun Site (Agent 7) 21) {off : Nat}
   obtain ⟨walk⟩ := physicalWalkBuilder R binary obs checked10 image
   exact Projection.contradiction_of_leaf walk.coherent
     (tracksStructural walk.tracks) leaf10 empty10
-#print axioms noActual_row2055_46
 
 /-- Manuscript line 2055, real left single support 56. -/
 def row2055_56 : Board := makeBoard 10 [6,4,5,0,2,1,3] [[2,3],[2,3,5],[1,4],[1,6],[0,1,5],[0],[0,2,4]]
@@ -250,5 +239,4 @@ theorem noActual_row2055_56 (R : TokenRun Site (Agent 7) 21) {off : Nat}
   obtain ⟨walk⟩ := physicalWalkBuilder R binary obs checked11 image
   exact Projection.contradiction_of_leaf walk.coherent
     (tracksStructural walk.tracks) leaf11 empty11
-#print axioms noActual_row2055_56
 end F7Manuscript.R21NormalEndpoint.BoundaryAtlas.PairedGap45Boards

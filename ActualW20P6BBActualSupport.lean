@@ -98,6 +98,4 @@ theorem bb_noncenter_cell_received
   rcases Finset.mem_image.mp himage with ⟨e, -, he⟩
   exact ⟨e, he⟩
 
-#print axioms bb_center_events_avoid_A
-#print axioms bb_noncenter_cell_received
 end F7Manuscript.ActualW20P6BBActualSupport

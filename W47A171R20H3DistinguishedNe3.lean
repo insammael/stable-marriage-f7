@@ -54,4 +54,3 @@ theorem A140_distinguished_actor_ne
 
 end F7Manuscript.SupportBridge
 
-#print axioms F7Manuscript.SupportBridge.A140_distinguished_actor_ne

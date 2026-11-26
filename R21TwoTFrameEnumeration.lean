@@ -42,5 +42,4 @@ theorem mem_frames_of_valid (f : SupportFrame) (hv : ValidLayout (stateOfFrame f
   apply List.mem_flatMap.mpr
   exact ⟨xs,List.mem_permutations.mpr hp,List.mem_map.mpr ⟨f.last,by simp,hc⟩⟩
 
-#print axioms mem_frames_of_valid
 end F7Manuscript.TripleCoordinateLattice.R21LooseRows

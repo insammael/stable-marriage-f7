@@ -84,9 +84,6 @@ theorem actual_X_mem_allPositiveRootsPartialSurvivorCatalogue
   refine ⟨entry, List.mem_filter.mpr ⟨hmem, ?_⟩, hu, hbefore, hafter, hcap, hq, hm, hcandidate⟩
   simpa [allPositiveRootsPartialSurvivorCatalogue] using! hboth
 
-#print axioms positiveRootsEntrySurvivesBothDirections
-#print axioms allPositiveRootsPartialSurvivorCatalogue
-#print axioms actual_X_mem_allPositiveRootsPartialSurvivorCatalogue
 
 end
 end F7Manuscript.ActualW14AllPositiveRootsPartialSurvivorCatalogue

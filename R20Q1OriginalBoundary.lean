@@ -109,6 +109,5 @@ theorem r20_five_rectangle_excludes_extremal_core
     · have hij : idx 4 < i := by change s+4 < i.val; omega
       exact (hm _ hiF).2 (hf4 ▸ shared hij hd hmi)
 
-#print axioms r20_five_rectangle_excludes_extremal_core
 end
 end F7Manuscript.TripleCoordinateLattice

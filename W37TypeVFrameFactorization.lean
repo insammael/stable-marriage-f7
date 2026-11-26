@@ -190,7 +190,5 @@ theorem typeV_frame_factorization
     exact typeV_frame_factorization_ordered f e c r true true hidle
       (by simpa using hleft) (by simpa using hright)
 
-#print axioms typeV_frame_factorization_ordered
-#print axioms typeV_frame_factorization
 
 end F7Manuscript.W37TypeVFrameFactorization

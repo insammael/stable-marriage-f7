@@ -37,5 +37,4 @@ theorem pure_of_no_two_paired {R : TokenRun Site (Agent 7) 21} {off len : Nat} {
         simpa only [List.cons_append,List.append_assoc,←List.map_append,List.take_append_drop] using! input
     · exact (noPair pre gap tail (by simpa only [source,second,List.cons_append,List.append_assoc])).elim
 
-#print axioms pure_of_no_two_paired
 end F7Manuscript.R21LongWindow.PairedSubpatterns

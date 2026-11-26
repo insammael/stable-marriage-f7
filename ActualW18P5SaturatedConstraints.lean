@@ -60,6 +60,5 @@ theorem p5_saturated_actual_constraints
   · simpa [cGlobal,oneGlobal] using! hspecial
   · simpa [cGlobal] using! hboth
 
-#print axioms p5_saturated_actual_constraints
 
 end F7Manuscript.ActualW18P5SaturatedConstraints

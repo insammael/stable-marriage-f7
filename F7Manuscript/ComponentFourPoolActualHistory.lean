@@ -139,9 +139,6 @@ theorem actual_component_four_pool_past
       R.state ⟨start+n,by omega⟩ o at heq
     exact heq
 
-#print axioms component_four_pool_covers
-#print axioms component_four_pool_boundary_covers
-#print axioms actual_component_four_pool_past
 
 end
 end F7Manuscript.ComponentFourPoolActualHistory

@@ -134,5 +134,4 @@ theorem actual_AABB_center_packet
   exact ⟨k0,k1,k2,k3,hlist,h01,h12,h23,hinit5,hfirst,hsecond,hthird,hfourth,
     hends0,hpre2,hpost2,hends1,hpre3,hpost3,hpre4,hpost4⟩
 
-#print axioms actual_AABB_center_packet
 end F7Manuscript.ActualW20P6AABBActualCenterPacket

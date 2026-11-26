@@ -202,6 +202,5 @@ theorem actual_bare_G_post_pair_increment_eq
   rw [hcross, Finset.card_empty] at h
   omega
 
-#print axioms actual_bare_G_post_pair_increment_eq
 end
 end F7Manuscript.TripleCoordinateLattice

@@ -95,6 +95,5 @@ theorem actual_outside_three_same_X_partial_catalogue
     exact ⟨hmem,by simpa using! hkeep⟩
   exact ⟨X,hq,hs,hm,entry,hnewmem,hu,hbefore,hafter,hcap,hqkey,hmkey,hcandidate⟩
 
-#print axioms actual_outside_three_same_X_partial_catalogue
 end
 end F7Manuscript.ActualW20Q0ActualPrecutWithBudgets

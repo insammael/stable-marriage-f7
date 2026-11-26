@@ -105,7 +105,6 @@ theorem route_and_initial_memory_of_prefix
   exact ⟨by simpa [plan] using! hroute,
     F7Manuscript.ActualMixedLastSupport.initial_frontier_memory R hq4 h1 h2 h3⟩
 
-#print axioms route_and_initial_memory_of_prefix
 
 end
 end F7Manuscript.ActualW7MixedTraceRouteMemory

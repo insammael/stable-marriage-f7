@@ -55,8 +55,6 @@ theorem actual_X_new112_legacy_oriented_source_false
   exact actual_X_any_return_root_oriented_source_false C hn hδ h221 h311 hG hT X
     new112_return_entry new112_color_facts dual j hfit
 
-#print axioms new112_color_facts
-#print axioms actual_X_new112_legacy_oriented_source_false
 
 #eval IO.eprintln "W12 NEW112 legacy actual checked"
 

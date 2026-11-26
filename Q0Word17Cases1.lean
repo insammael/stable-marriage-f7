@@ -816,7 +816,6 @@ theorem q0_word_17_prefix_04 (turns : Nat → Bool) (cuts : Q0Cuts turns 17)
               simp [prefixCost, hb1, hb2, hb3, hb4, hb5, hb6, hb7, hb8, hb9, hb10] <;> omega
           | true =>
             simp [prefixCost, hb1, hb2, hb3, hb4, hb5, hb6, hb7, hb8, hb9] <;> omega
-#print axioms q0_word_17_prefix_04
 
 theorem q0_word_17_prefix_05 (turns : Nat → Bool) (cuts : Q0Cuts turns 17)
     (hb1 : turns 1 = false)
@@ -1373,7 +1372,6 @@ theorem q0_word_17_prefix_05 (turns : Nat → Bool) (cuts : Q0Cuts turns 17)
         simp [localPivots, List.range, List.range.loop, hb1, hb2, hb3, hb4, hb5, hb6]
       rw [hp] at hf
       exact False.elim ((q0_cut_021_anchored t bits hn) hf)
-#print axioms q0_word_17_prefix_05
 
 theorem q0_word_17_prefix_06 (turns : Nat → Bool) (cuts : Q0Cuts turns 17)
     (hb1 : turns 1 = false)
@@ -2070,7 +2068,6 @@ theorem q0_word_17_prefix_06 (turns : Nat → Bool) (cuts : Q0Cuts turns 17)
             simp [prefixCost, hb1, hb2, hb3, hb4, hb5, hb6, hb7, hb8, hb9] <;> omega
         | true =>
           simp [prefixCost, hb1, hb2, hb3, hb4, hb5, hb6, hb7, hb8] <;> omega
-#print axioms q0_word_17_prefix_06
 
 theorem q0_word_17_prefix_07 (turns : Nat → Bool) (cuts : Q0Cuts turns 17)
     (hb1 : turns 1 = false)
@@ -2307,6 +2304,5 @@ theorem q0_word_17_prefix_07 (turns : Nat → Bool) (cuts : Q0Cuts turns 17)
           simp [prefixCost, hb1, hb2, hb3, hb4, hb5, hb6, hb7, hb8] <;> omega
       | true =>
         simp [prefixCost, hb1, hb2, hb3, hb4, hb5, hb6, hb7] <;> omega
-#print axioms q0_word_17_prefix_07
 
 end F7Local

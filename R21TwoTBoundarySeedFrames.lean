@@ -46,7 +46,4 @@ theorem seedFrame_cover (f : SupportFrame) (seeds : List Swap) (d : Site)
   · exact hidle
   · rfl
 
-#print axioms color_permutation_cover
-#print axioms bits_three_cover
-#print axioms seedFrame_cover
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

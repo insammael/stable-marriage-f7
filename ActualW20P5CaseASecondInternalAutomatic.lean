@@ -120,6 +120,5 @@ theorem p5_caseA_next_internal_automatically_uses_four_five
     hfprops.2 hminimal
   exact ⟨f, hfprops.1, hends⟩
 
-#print axioms p5_caseA_next_internal_automatically_uses_four_five
 
 end F7Manuscript.ActualW20P5CaseASecondInternalAutomatic

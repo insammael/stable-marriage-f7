@@ -373,6 +373,5 @@ lemma actual_previous_block_double_ne_one
   have htLater : tC.val + 3 ≤ tPrev.val := by rw [htC, htPrev]
   exact (hfreeze tPrev (by omega) hfuture)
 
-#print axioms actual_previous_block_double_ne_one
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW30R20PreviousDNotOne

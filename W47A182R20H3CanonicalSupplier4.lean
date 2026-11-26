@@ -76,7 +76,6 @@ theorem canonical_original_endpoint_geometry_of_no_T
     m08_h3_1_canonical_original_covers_endpoint_incs_and_outsider
       I C h221 h311 hnoT x hout hmixed hthree
 
-#print axioms canonical_original_endpoint_geometry_of_no_T
 
 end
 end F7Manuscript.ActualR20H3
@@ -266,7 +265,6 @@ private theorem canonical_original_row_witness_of_geometry
     hx1, hcross, hmatched, hsij, htij,
     hlt01, hlt12, hIcc, h01, h12, hx0, hx2, hend, hsupport⟩
 
-#print axioms canonical_original_row_witness_of_geometry
 
 theorem m08_h3_1_canonical_original_row_witness_of_no_T
     (I : Profile 7) [Nonempty (StableMatching I)]
@@ -294,4 +292,3 @@ theorem m08_h3_1_canonical_original_row_witness_of_no_T
 end
 end F7Manuscript.ActualR20H3
 
-#print axioms F7Manuscript.ActualR20H3.m08_h3_1_canonical_original_row_witness_of_no_T

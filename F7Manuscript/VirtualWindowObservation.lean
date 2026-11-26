@@ -97,6 +97,5 @@ def observed_source_prefix
     (4+F7Local.eventCount plan) hE le_rfl] at Hfull
   exact Hfull
 
-#print axioms observed_source_prefix
 end
 end F7Manuscript.PartnerGraph.Sized

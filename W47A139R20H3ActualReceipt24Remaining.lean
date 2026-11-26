@@ -197,7 +197,6 @@ theorem whole_pair12_34_execution_false
       omega)
     hreturn_at_step
 
-#print axioms whole_pair12_34_execution_false
 
 end
 

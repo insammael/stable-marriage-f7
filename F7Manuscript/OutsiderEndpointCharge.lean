@@ -59,6 +59,5 @@ theorem outsider_endpoint_charge_le
     simp only [endpointCharge,if_neg hzero]
     omega
 
-#print axioms outsider_endpoint_charge_le
 end
 end F7Manuscript.TripleCoordinateLattice

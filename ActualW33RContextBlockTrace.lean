@@ -124,7 +124,6 @@ theorem reverse_block_execution_exists
   exact ⟨g, ⟨.centerThenPairs b hrowMid' hmidValid
       (Classical.choice hroute)⟩, hfinal, hvalid, hgLast⟩
 
-#print axioms reverse_block_execution_exists
 
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW33RContextBlockTrace

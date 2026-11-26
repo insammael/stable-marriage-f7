@@ -164,7 +164,6 @@ theorem actual_X_ordinal45_reverse_carrier
     exact congrArg (fun n : Nat => 21-n) hc
   exact ⟨P,hcarrier0,⟨by simpa [extra] using! hplanprefix,hqclock⟩⟩
 
-#print axioms actual_X_ordinal45_reverse_carrier
 
 end
 end F7Manuscript.ActualW17Q1Saved45ReverseCarrier

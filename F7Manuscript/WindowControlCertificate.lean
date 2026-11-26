@@ -76,5 +76,4 @@ theorem selected_word {N : ℕ} (T : Table N) (plan : List Move)
   apply certified_word T plan ([false]++path t bits 1) (value t bits 1) hv bits
   simpa using! normalized_path_matches t bits h0
 
-#print axioms selected_word
 end F7Manuscript.WindowControlCertificate

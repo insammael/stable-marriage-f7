@@ -117,6 +117,5 @@ theorem original_G_selected_two_cut_history
     let a : Fin 21 := ⟨k.val,by have h := k.isLt; simpa only [Finset.card_univ,hn] using! h⟩
     exact ⟨a,hk.trans hj,hId'.trans hId⟩
 
-#print axioms original_G_selected_two_cut_history
 end
 end F7Manuscript.TripleCoordinateLattice.R21OneGHandActual

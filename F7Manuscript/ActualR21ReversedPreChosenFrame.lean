@@ -177,6 +177,5 @@ theorem r21_literal_reversed_PRE_route_on_old_row
   exact path_segment_reversed_route_from (I := I) inferInstance inferInstance
     C E R.left R.right R.ordered hP hn hp.2.2.1 hp.2.1 hz a f hTriple hv hm
 
-#print axioms r21_literal_reversed_PRE_route_on_old_row
 end
 end F7Manuscript.TripleCoordinateLattice

@@ -40,6 +40,5 @@ theorem paired_partition_four_site_cover
   revert T U hT hU hdis hunion hT23 hT45
   decide
 
-#print axioms paired_partition_four_site_cover
 
 end F7Local

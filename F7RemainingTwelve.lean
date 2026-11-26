@@ -31,7 +31,5 @@ theorem f7_eq_85_of_twelve_R21
     exact r21_two_outsiders_one_G_one_T_leaf I
   exact remaining I u b c (by simp [r21RemainingTwelve,hmem,h,g])
 
-#print axioms remaining_twelve_length
-#print axioms f7_eq_85_of_twelve_R21
 end
 end F7Manuscript.ActualPositiveDeficitCoverAssembly

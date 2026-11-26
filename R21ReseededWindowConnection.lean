@@ -82,9 +82,6 @@ theorem noActualTerminal_mass13_of_reseeded_reduction
   · exact not_actualTerminal_10_1 short
   · exact not_actualTerminal_11_2 short
 
-#print axioms WindowObservation.ofReseededRoute
-#print axioms binarySupports_commuteAdjacent
-#print axioms noActualTerminal_mass13_of_reseeded_reduction
 
 end F7Manuscript.R21NormalEndpoint
 
@@ -118,7 +115,6 @@ theorem actual_r21_normal_window_cost_of_reseeded_exclusions
     · exact noActualTerminal_mass13_of_reseeded_reduction all12 (reseed13 c (by omega) cap)
   exact actual_r21_normal_window_cost_of_long_exclusions C hn h221 h311 all12 all13 i
 
-#print axioms actual_r21_normal_window_cost_of_reseeded_exclusions
 
 end
 end F7Manuscript.TripleCoordinateLattice

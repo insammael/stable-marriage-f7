@@ -43,4 +43,3 @@ theorem q0_m_ge_twelve_s_le_one_zero
 end
 end F7Manuscript.W36QZeroSingleCostZero
 
-#print axioms F7Manuscript.W36QZeroSingleCostZero.q0_m_ge_twelve_s_le_one_zero

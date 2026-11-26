@@ -87,7 +87,6 @@ theorem actual_r20_zero_cost_post_center_slot_dynamic_frame
   change ((ConvexExecution.run I (U ∪ F) hconv H).toTokenRun).support i = _
   exact hrun.trans hslotEvent
 
-#print axioms actual_r20_zero_cost_post_center_slot_dynamic_frame
 
 end
 end F7Manuscript.TripleCoordinateLattice

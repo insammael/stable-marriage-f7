@@ -70,7 +70,5 @@ private theorem first_forces_bit4
     exact (noReturn_forbidden_incoming (new1011Plan c) bits 8 N
       (by simp [new1011Plan, eventCount]) 0 2 (by decide) (Or.inl hp) hs).elim
 
-#print axioms first_forces_bit3
-#print axioms first_forces_bit4
 
 end F7Manuscript.ActualW12New10New11FullHand

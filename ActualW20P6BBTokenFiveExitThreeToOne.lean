@@ -140,5 +140,4 @@ theorem bb_token5_exit_three_to_one
     exact hg.2
   · exact (swap_two_four T e hends24).1
 
-#print axioms bb_token5_exit_three_to_one
 end F7Manuscript.ActualW20P6BBTokenFiveExitThreeToOne

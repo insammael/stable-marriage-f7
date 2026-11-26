@@ -144,7 +144,6 @@ theorem actual_r20_gap_classifier_from_prefix
     (by intro c; rfl) fixed hfixed
   simpa only [Qpre, Bpre, Tpre] using! hclass
 
-#print axioms actual_r20_gap_classifier_from_prefix
 
 end
 end F7Manuscript.TripleCoordinateLattice

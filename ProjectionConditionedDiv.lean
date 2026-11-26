@@ -39,6 +39,4 @@ theorem divPilot_original : conditionedTree divPilot 8 divPilotNext=true := by
  rw [show (8:Nat)=2^3 from rfl,conditionedDivTree_pow_eq] at h
  exact h
 
-#print axioms conditionedDivTree_pow_eq
-#print axioms divPilot_original
 end F7Manuscript.R21NormalEndpoint.Projection.Snapshots

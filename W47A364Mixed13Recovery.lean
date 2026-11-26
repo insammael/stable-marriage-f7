@@ -41,4 +41,3 @@ theorem canonical_mixed_13_1_recovery
 
 end A362
 
-#print axioms A362.canonical_mixed_13_1_recovery

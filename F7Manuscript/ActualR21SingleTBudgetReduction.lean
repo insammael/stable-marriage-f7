@@ -95,6 +95,5 @@ theorem r21_single_T_original_budget_reduction
     omega
   · exact (hlong.elim h0 h1).elim
 
-#print axioms r21_single_T_original_budget_reduction
 end
 end F7Manuscript.TripleCoordinateLattice

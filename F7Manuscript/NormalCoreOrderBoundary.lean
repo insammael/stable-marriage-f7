@@ -160,7 +160,5 @@ noncomputable def normalCoreOrderBoundary
     exact h.trans hcenterAmbient
 set_option maxHeartbeats 200000
 
-#print axioms normalCoreOrderBlockCount_pos
-#print axioms normalCoreOrderBoundary
 end
 end F7Manuscript.TripleCoordinateLattice

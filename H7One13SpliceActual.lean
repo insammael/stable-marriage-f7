@@ -216,8 +216,6 @@ theorem original_post_checked_facts_and_remaining_obligation
 #print axioms
   F7Manuscript.W47PostUpperShadowGenericSplice.upperShadow_splice
 
-#print axioms wholePostBlock16_of_orderConvex
-#print axioms original_post_checked_facts_and_remaining_obligation
 
 end
 

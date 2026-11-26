@@ -120,5 +120,4 @@ theorem actual_BAA_coexistence_false
   exact p6_three_distinct_unused_false tr (6,0) (6,3) (5,1)
     (by decide) (by decide) (by decide) hu60 hu63 hu51
 
-#print axioms actual_BAA_coexistence_false
 end F7Manuscript.ActualW20P6BAACoexistenceContradiction

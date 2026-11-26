@@ -466,8 +466,6 @@ theorem actual_X_u4_cost_three_p167_false
     rw [hclock.2,hafter] at hrun
     omega
 
-#print axioms actual_X_p167_offset1_forward_p56_carrier
-#print axioms actual_X_u4_cost_three_p167_false
 
 end
 end F7Manuscript.ActualW16P167Offset1P56

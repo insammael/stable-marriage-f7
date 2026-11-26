@@ -24,6 +24,5 @@ theorem new1213_actual_saved_structural_threshold_le
   exact F7Manuscript.ActualW13New1213StructuralCarrierThreshold.new1213_actual_saved_structural_threshold_le
     C hnorm c hc hp b hledger
 
-#print axioms new1213_actual_saved_structural_threshold_le
 
 end F7Manuscript.ActualW13New1213CarrierThreshold

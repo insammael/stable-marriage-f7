@@ -144,6 +144,5 @@ theorem cuts_at_empty_T (D : Enumeration (thresholdEvents C)) (n : Fin (threshol
     obtain ⟨hc,hnp⟩ := Finset.mem_sdiff.mp (eqQ ▸ hq)
     exact hnp (predP x y hc hy hxy)
 
-#print axioms cuts_at_empty_T
 end
 end F7Manuscript.TripleCoordinateLattice.R21BareT

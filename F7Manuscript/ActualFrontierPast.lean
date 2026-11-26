@@ -137,7 +137,5 @@ theorem reverse_actual_antichain_frontier_past
     (fun x y a hx hy => Or.symm (support_share I x y a hx hy))
     t front hfront hbefore hanti hdom e hmap
 
-#print axioms actual_antichain_frontier_past
-#print axioms reverse_actual_antichain_frontier_past
 end
 end F7Manuscript.PartnerGraph.Sized

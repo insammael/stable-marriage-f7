@@ -78,6 +78,5 @@ theorem p5_no_special_holding_before_first_special_entry
     have hemin := hminimal e 6 (by simp [J]) he
     omega
 
-#print axioms p5_no_special_holding_before_first_special_entry
 
 end F7Manuscript.ActualW19P5NoEarlierSpecialInS

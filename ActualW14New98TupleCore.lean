@@ -44,8 +44,5 @@ theorem new98_positive_demand_implies_j_lt_four
   have hoff := new98_offset_ge_start W D dual j
   omega
 
-#print axioms new98TupleFit
-#print axioms new98TupleDemand
-#print axioms new98_positive_demand_implies_j_lt_four
 end
 end F7Manuscript.ActualW14New98TupleCore

@@ -109,6 +109,5 @@ theorem r21_original_G_only_by_weight (I : Profile 7) [Nonempty (StableMatching 
   clear * - haccount h hw
   omega
 
-#print axioms r21_original_G_only_by_weight
 end
 end F7Manuscript.ActualPositiveDeficitCoverAssembly

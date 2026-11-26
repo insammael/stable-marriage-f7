@@ -110,6 +110,5 @@ theorem actual_outsider_switch_or_neighbor_charge
     intro hj2
     exact hcharge hj2
 
-#print axioms actual_outsider_switch_or_neighbor_charge
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW28R20ActualSwitchAlternative

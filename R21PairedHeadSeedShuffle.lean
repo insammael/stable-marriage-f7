@@ -149,9 +149,6 @@ theorem actual_paired_head_seed_shuffle {W : Type*} [Fintype W]
       exact (swapAdjacentRun_support_after R2 i j E F (by simp [i,j]) s3 s4 apartEF
         k (by dsimp -failIfUnchanged [i] <;> omega)).trans (outside k hk)
 
-#print axioms pairedPreFrame_valid
-#print axioms actual_paired_head_seed_shuffle
 
-#print axioms move_first_after_two
 end
 end F7Manuscript.R21NormalEndpoint.ReseededObservation

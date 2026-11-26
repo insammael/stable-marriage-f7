@@ -52,5 +52,4 @@ theorem typeV_four_centers_false {n : ℕ} (R : TokenRun Site Site n) (hn : n = 
   · exact W38BothLongFourCenterActualFalse.both_long_four_center_actual_twenty_false
       R hn C D α β hm hmD ha hb _ _ _ hac hba hcb bits h0 h1 h2 h3 he hr
 
-#print axioms typeV_four_centers_false
 end F7Manuscript.R20OneTFourCenters

@@ -133,7 +133,5 @@ theorem central_upper_half_many {B C : Finset V} {x : V}
     (chainOn_dual (V := V) hchain) hq hk
   simpa only [crossEdges_dual (V := V)] using! h
 
-#print axioms central_lower_half_many
-#print axioms central_upper_half_many
 
 end ConditionalUL

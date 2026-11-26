@@ -54,8 +54,6 @@ theorem oriented_periodic_prefix_seven_data
     rw [hkey] at hsub
     exact Finset.subset_empty.mp hsub
 
-#print axioms pivotsOf_take_subset
-#print axioms oriented_periodic_prefix_seven_data
 
 end
 end F7Manuscript.ActualW11PeriodicPrefixSevenPure

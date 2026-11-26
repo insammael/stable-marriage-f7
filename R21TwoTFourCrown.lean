@@ -106,7 +106,5 @@ theorem original_realizes {A : Finset (Event I)} (hA : A=Finset.univ)
   exact hw.2 i
 
 
-#print axioms T_idle_preserved
-#print axioms original_realizes
 end
 end F7Manuscript.TripleCoordinateLattice.R21FourEndpoint

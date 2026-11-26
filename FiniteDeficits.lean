@@ -57,6 +57,4 @@ theorem good_deletion_bad (hClass : PairClass (V := V)) (P : Finset V)
   obtain ⟨_,_,ha2,hDpos⟩ := hP
   exact ⟨hn',aOn_nonnegative hClass _ hn',by omega,by omega⟩
 
-#print axioms good_deletion_bad
-#print axioms DOn_deletion
 end NeutralCore

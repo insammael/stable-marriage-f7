@@ -59,5 +59,4 @@ theorem p5_tail_one_at_four_freezes
     exact h5left (fixedTokenSwapTrace_initialTokenEarlier tr e.castSucc 5 hinit5 s5
       (by simp;omega))
 
-#print axioms p5_tail_one_at_four_freezes
 end F7Manuscript.ActualW20P5TailOneAtFourFreeze

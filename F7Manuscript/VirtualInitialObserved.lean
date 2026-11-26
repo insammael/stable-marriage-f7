@@ -72,5 +72,4 @@ def virtualInitialObserved {W : Type*} [Fintype W] {q : ℕ}
         _ = R.state t (swapSite (initialPair c) a) :=
           (hpres _ (initial_swap_mem c a ha)).symm
 
-#print axioms virtualInitialObserved
 end F7Manuscript.PartnerGraph.Sized

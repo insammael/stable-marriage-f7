@@ -93,5 +93,4 @@ theorem p5_both_special_tokens_seen_two_mutual_sites
           by simpa [hx, hyR] using! hentry6⟩
   exact ⟨r,hrS,hrL,hrR,hseen2,hseen6⟩
 
-#print axioms p5_both_special_tokens_seen_two_mutual_sites
 end F7Manuscript.ActualW20P5BothTokensSeenTwoMutualSites

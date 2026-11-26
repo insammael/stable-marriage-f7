@@ -102,7 +102,6 @@ theorem singleton_pre_events_avoided_by_post_segment
   · intro hx
     exact (Finset.disjoint_left.mp hdis) hfilter₂ hx
 
-#print axioms singleton_pre_events_avoided_by_post_segment
 
 end
 end F7Manuscript.TripleCoordinateLattice

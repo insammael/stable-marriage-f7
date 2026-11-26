@@ -54,7 +54,6 @@ theorem actual_r21_anchor_history_complement {I : Profile 7}
             j ≤ t ∧ (state I Finset.univ hU E j).val a = b) :=
   saturated_actual_history_complement (run I Finset.univ hU E) (by simpa using! hn) t a b
 
-#print axioms actual_r21_anchor_history_complement
 end
 end F7Manuscript.ConvexExecution
 
@@ -96,6 +95,5 @@ theorem enumerate_triple_in_coordinate_order {I : Profile 7}
   exact ⟨hP ▸ vertices_card T, enumerationOfOrderedImage 3 f hf ho P hq,
     enumerationOfOrderedImage_point 3 f hf ho P hq⟩
 
-#print axioms enumerate_triple_in_coordinate_order
 end
 end F7Manuscript.TripleCoordinateLattice

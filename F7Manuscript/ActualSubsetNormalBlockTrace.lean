@@ -165,8 +165,6 @@ theorem subsetNormal_block_execution_exists
   exact ⟨g, ⟨.introCenter b hcenter hmid (Classical.choice hroute)⟩,
     by simpa only [Nat.zero_add] using! hfinal, hvalid⟩
 
-#print axioms subsetNormal_paired_route_exists
-#print axioms subsetNormal_block_execution_exists
 
 end
 end F7Manuscript.TripleCoordinateLattice

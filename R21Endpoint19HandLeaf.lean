@@ -48,7 +48,5 @@ theorem r21_two_outsiders_no_macro_of_mass16
    rw [stableCount_eq_idealCount I]
    omega
 
-#check r21_two_outsiders_no_macro_of_mass16
-#print axioms r21_two_outsiders_no_macro_of_mass16
 end
 end F7Manuscript.ActualPositiveDeficitCoverAssembly

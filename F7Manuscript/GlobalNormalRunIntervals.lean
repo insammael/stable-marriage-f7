@@ -160,8 +160,5 @@ theorem actual_global_normal_run_geometry
   exact actual_normal_run_interval_geometry A hn h221 h311 _
 end Actual
 
-#print axioms globalNormalRunInterval
-#print axioms macroPositions_card
-#print axioms actual_global_normal_run_geometry
 end
 end F7Manuscript.TripleCoordinateLattice

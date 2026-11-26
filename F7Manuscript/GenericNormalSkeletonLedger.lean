@@ -79,6 +79,5 @@ theorem normalSkeleton_completion_ledger (hm : 2 ≤ normalBlockCount C) :
     extra_eq_directed_count (normalFiniteOrder C h221 h311 hz) _ hSP] at h
   exact h
 
-#print axioms normalSkeleton_completion_ledger
 end
 end F7Manuscript.TripleCoordinateLattice.GenericNormal

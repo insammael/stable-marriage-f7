@@ -162,8 +162,6 @@ theorem carrier_window28_run_bound
   have h := carrier_window28_suffix_le_six C
   omega
 
-#print axioms carrier_window28_suffix_le_six
-#print axioms carrier_window28_run_bound
 
 end
 end F7Manuscript.ActualW16Window28ActualCarrierBudget20

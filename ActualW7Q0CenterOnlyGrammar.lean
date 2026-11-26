@@ -62,8 +62,6 @@ theorem actual_X_q0_mixedPlan_no_paired
   exact mixedPlan_no_paired_of_zero_levels word _
     (naturalLevels_zero_of_q_zero _ hqS) _
 
-#print axioms naturalLevels_zero_of_q_zero
-#print axioms actual_X_q0_mixedPlan_no_paired
 
 end
 end F7Manuscript.ActualW7Q0CenterOnlyGrammar

@@ -139,6 +139,5 @@ theorem actual_q_two_terminal_budget_forbidden
           hcenters.1 hcenters.2.1 hcenters.2.2
     omega
 
-#print axioms actual_q_two_terminal_budget_forbidden
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW30R20QTwoTerminalBudget

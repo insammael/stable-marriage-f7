@@ -106,7 +106,6 @@ theorem singleton_G_prehistory_outside_post_segment
   · simpa [Qpost] using! hBparts
   · exact havoidU
 
-#print axioms singleton_G_prehistory_outside_post_segment
 
 end
 end F7Manuscript.TripleCoordinateLattice

@@ -41,6 +41,5 @@ theorem r21_leaf_original_from_deciders {I : Profile 7} [Nonempty (StableMatchin
   intro C htr h221 h311 hn hdel hu hb hc
   exact hh C htr h221 h311 hn hdel hu hb hc
 
-#print axioms r21_leaf_original_from_deciders
 end
 end F7Manuscript.ActualPositiveDeficitCoverAssembly

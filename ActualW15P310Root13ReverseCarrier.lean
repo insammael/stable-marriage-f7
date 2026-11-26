@@ -148,7 +148,6 @@ theorem actual_X_p310_root13_reverse_carrier
   obtain ⟨carrier⟩ := hcarrier
   exact ⟨P, carrier, hplanprefix⟩
 
-#print axioms actual_X_p310_root13_reverse_carrier
 
 end
 end F7Manuscript.ActualW15P310Root13ReverseCarrier

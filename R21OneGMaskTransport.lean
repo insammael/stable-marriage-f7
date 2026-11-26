@@ -75,5 +75,4 @@ theorem G_anchor_masks {W : Type*} [Fintype W] {n m : Nat}
       simp only [Seven.mk.injEq]
       exact ⟨allRows 0,allRows 1,allRows 2,allRows 3,allRows 4,allRows 5,allRows 6⟩
 
-#print axioms G_anchor_masks
 end F7Manuscript.R21OneGMachine

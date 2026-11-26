@@ -160,10 +160,6 @@ theorem actual_partial_new98_cut_requirement_endpoint
   refine ⟨max r ((new98ActualCutValues X dual).foldl max 0), ?_, max_le hbase hfold⟩
   simp [partialNew98CutRequirement, hr]
 
-#print axioms new98ActualCutValue
-#print axioms new98ActualCutValues
-#print axioms partialNew98CutRequirement
-#print axioms actual_partial_new98_cut_requirement_endpoint
 #eval IO.eprintln "W13 NEW98 positive partial requirement checked"
 
 end

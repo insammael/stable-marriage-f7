@@ -29,5 +29,4 @@ theorem actual_center_type_word_seven_cases
   · exact (p6_AA_actual_false tr hAA).elim
   all_goals simp_all
 
-#print axioms actual_center_type_word_seven_cases
 end F7Manuscript.ActualW20P6CenterTypeSevenCases

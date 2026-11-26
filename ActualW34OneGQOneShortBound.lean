@@ -115,7 +115,5 @@ theorem actual_oneG_q1_s0_m_le_five
     S hm6 hqS hsS A Aref
   exact hnot (by simpa only [S] using! hsmall)
 
-#print axioms q1_s0_actual_runs_m_le_five
-#print axioms actual_oneG_q1_s0_m_le_five
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW34OneGQOneShortBound

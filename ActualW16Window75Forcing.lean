@@ -20,6 +20,5 @@ theorem noReturn_identity_window75_false (bits : Nat → Bool)
   F7Manuscript.ActualW16Window75LateReturns.noReturn_window75_late_false
     id bits h0 h1 N
 
-#print axioms noReturn_identity_window75_false
 
 end F7Manuscript.ActualW16Window75Forcing

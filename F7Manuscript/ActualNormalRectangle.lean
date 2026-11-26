@@ -135,7 +135,6 @@ def normalPairedRectangle
     leftCover := normal_pair_actual_cover C h221 h311 hz j r 0 0
     rightCover := normal_pair_actual_cover C h221 h311 hz j r 1 0 }
 
-#print axioms normalPairedRectangle
 
 end
 end F7Manuscript.TripleCoordinateLattice

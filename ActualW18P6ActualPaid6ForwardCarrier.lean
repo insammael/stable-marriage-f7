@@ -322,8 +322,6 @@ theorem actual_X_paid6_p6_forward_false
     omega
   omega
 
-#print axioms actual_X_paid6_p6_forward_carrier
-#print axioms actual_X_paid6_p6_forward_false
 
 end
 end F7Manuscript.ActualW18P6ActualPaid6ForwardCarrier

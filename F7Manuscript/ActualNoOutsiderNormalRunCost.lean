@@ -64,6 +64,5 @@ theorem actual_no_outsider_normal_run_cost_with_corrections
       pairDeficit (tripleVertices C)
   omega
 
-#print axioms actual_no_outsider_normal_run_cost_with_corrections
 end
 end F7Manuscript.TripleCoordinateLattice

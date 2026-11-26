@@ -33,6 +33,5 @@ theorem actual_global_G_omitted_color_eq_fixed
     ((by simp only [isolatedDouble, byLabel, Finset.mem_filter, Finset.mem_univ, true_and] at hg; exact hg.1)) fixed _ hfixed
     (actualGlobalMacroFixedColor_omitted C E j hg)
 
-#print axioms actual_global_G_omitted_color_eq_fixed
 end
 end F7Manuscript.TripleCoordinateLattice

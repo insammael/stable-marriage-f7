@@ -142,6 +142,5 @@ theorem light_retired_center_reverse_frame
         rfl
   exact ⟨b, hrows⟩
 
-#print axioms light_retired_center_reverse_frame
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW33LightReverseCenterStep

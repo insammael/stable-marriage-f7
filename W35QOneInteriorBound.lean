@@ -80,7 +80,5 @@ theorem q1_double_endpoint_of_m_ge_ten
   · unfold Interior at hj
     omega
 
-#print axioms q1_interior_d_m_le_nine
-#print axioms q1_double_endpoint_of_m_ge_ten
 end
 end F7Manuscript.W35QOneInteriorBound

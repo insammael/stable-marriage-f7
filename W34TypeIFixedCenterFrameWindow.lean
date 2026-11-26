@@ -258,5 +258,4 @@ theorem fixed_center_two_paired_rows_of_frames
     R u i l a b z hUI hgap hab haz hbz hOld hmemA hmemB hFirst'
     hawayA hawayB hawayZ nextBit hLast'
 
-#print axioms fixed_center_two_paired_rows_of_frames
 end F7Manuscript.W34TypeIFixedCenterFrameWindow

@@ -273,8 +273,6 @@ theorem actual_pure_new7_requirement_endpoint
     (orientColumn X.before X.after X.levels) dual), ?_, max_le hbase hfold⟩
   simp [pureNew7Requirement, hr]
 
-#print axioms tuple_cut_value_le_endpoint
-#print axioms actual_pure_new7_requirement_endpoint
 
 end
 end F7Manuscript.ActualW14New7TupleEndpointProof

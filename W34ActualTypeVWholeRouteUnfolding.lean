@@ -152,6 +152,5 @@ theorem actual_typeV_whole_route_unfold_with_control_agreement
       Hpre' (by rfl) (by rfl) (hfinal.symm.trans hpreFinal) hno Hafter hg0 hg1
   exact ⟨newBits, by simpa only [List.append_assoc,List.cons_append,List.nil_append] using! Hwhole⟩
 
-#print axioms actual_typeV_whole_route_unfold_with_control_agreement
 end
 end F7Manuscript.TripleCoordinateLattice

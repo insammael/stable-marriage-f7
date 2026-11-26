@@ -48,7 +48,5 @@ theorem ordered_crown_unpaired_post_mass_le_six {n m : ℕ} {S T : NormalSkeleto
   · exact ordered_crown_canonical_post_mass_le_six R hn hm hs ht hzS hzT s hc
   · exact ordered_crown_mirror_post_mass_le_six R hn hm hs ht hzS hzT s hc
 
-#print axioms ordered_crown_mirror_post_mass_le_six
-#print axioms ordered_crown_unpaired_post_mass_le_six
 end
 end F7Manuscript.R21SingleTHand

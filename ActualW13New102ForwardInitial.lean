@@ -145,7 +145,6 @@ theorem actual_X_new102_forward_initial_structural_threshold
   rw [hclock] at hthreshold
   simpa [entry, extra, hlevels0] using! hthreshold
 
-#print axioms actual_X_new102_forward_initial_structural_threshold
 
 end
 end F7Manuscript.ActualW13New102ForwardInitial

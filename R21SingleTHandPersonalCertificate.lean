@@ -168,6 +168,5 @@ theorem PersonalCertificate.excludes_normalized (C : PersonalCertificate) {n m :
   exact checkNoComplement_sound C.incompatible _ _ _ _ hIL hIR
     (observed_ends_complement LT RT ht k l C.actor C.U hu)
 
-#print axioms PersonalCertificate.excludes_normalized
 end
 end F7Manuscript.R21SingleTHand

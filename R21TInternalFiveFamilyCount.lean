@@ -117,7 +117,5 @@ theorem actual_r21_internal_outsider_scalar_empty_families_count_le_85
   · exact actual_r21_internal_T_count_by_unique_slot A hn h221 h311 hdelta (by omega)
       (Or.inr h.2) (by omega) (by omega) hinner
 
-#print axioms actual_r21_internal_T_count_by_unique_slot
-#print axioms actual_r21_internal_outsider_scalar_empty_families_count_le_85
 end
 end F7Manuscript.TripleCoordinateLattice

@@ -69,8 +69,5 @@ theorem conjugateRun_reindex_state
   simp [conjugateRun, F7Manuscript.PartnerGraph.Periodic.reindex_state,
     Equiv.trans_apply]
 
-#print axioms conjugateRun
-#print axioms conjugateRun_reindex_support
-#print axioms conjugateRun_reindex_state
 
 end F7Manuscript.ActualD2TokenRunConjugate

@@ -55,7 +55,5 @@ theorem actual_zero_q_recolored_prefix_card
   rw [zero_q_recolored_plan_eventCount S hq a]
   omega
 
-#print axioms zero_q_recolored_plan_eventCount
-#print axioms actual_zero_q_recolored_prefix_card
 end
 end F7Manuscript.TripleCoordinateLattice

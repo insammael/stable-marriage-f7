@@ -75,7 +75,6 @@ theorem q0_sixteen_ABA_ge_four (turns : Nat → Bool) (cuts : Q0Cuts turns 16) :
           exact q0_word_16_prefix_14 turns cuts hb1 hb2 hb3 hb4
         | true =>
           exact q0_word_16_prefix_15 turns cuts hb1 hb2 hb3 hb4
-#print axioms q0_sixteen_ABA_ge_four
 
 theorem q0_seventeen_ABA_ge_six (turns : Nat → Bool) (cuts : Q0Cuts turns 17) :
     6 ≤ prefixCost turns 15 := by
@@ -140,6 +139,5 @@ theorem q0_seventeen_ABA_ge_six (turns : Nat → Bool) (cuts : Q0Cuts turns 17) 
           exact q0_word_17_prefix_14 turns cuts hb1 hb2 hb3 hb4
         | true =>
           exact q0_word_17_prefix_15 turns cuts hb1 hb2 hb3 hb4
-#print axioms q0_seventeen_ABA_ge_six
 
 end F7Local

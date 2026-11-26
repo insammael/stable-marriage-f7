@@ -105,6 +105,5 @@ theorem p5_caseA_first_two_internal_events
     hfirstpost5, hsecondbound, hsecondmin, hsecondpre3, hsecondpre4, hsecondpre5,
     hsecondends, hsecondpost3, hsecondpost4, hsecondpost5⟩
 
-#print axioms p5_caseA_first_two_internal_events
 
 end F7Manuscript.ActualW20P5CaseAAutomaticChronologyWithBounds

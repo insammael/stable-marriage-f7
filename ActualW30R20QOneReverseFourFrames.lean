@@ -209,7 +209,5 @@ theorem actual_q_one_reverse_four_predecessor_centers
     hvalid1 := hv1, hvalid2 := hv2, hvalid3 := hv3, hvalid4 := hv4,
     hlastZero := hcard, hrowsFinal := hfinal, hvalidFinal := hv4 }
 
-#print axioms q_one_reverse_predecessor_step
-#print axioms actual_q_one_reverse_four_predecessor_centers
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW30R20QOneReverseFourFrames

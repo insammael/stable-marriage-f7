@@ -206,8 +206,5 @@ theorem transport_after_two_actual_rows
     R eOld eNew P hOld' hNew' W n bound hTok hPast
   exact ⟨Wnew, htok, hWnew, hσ0, hσ6, hpast⟩
 
-#print axioms centerTok_actor_transport
-#print axioms centerTok_state_transport
-#print axioms transport_after_two_actual_rows
 
 end F7Manuscript.ActualD2ScheduledWitnessTransport

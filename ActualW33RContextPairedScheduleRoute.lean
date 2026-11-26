@@ -108,6 +108,5 @@ theorem reversePairedRunSchedule_supportsRoute {W : Type*} [Fintype W]
         (SupportsRoute.paired t f (List.replicate n F7Local.Move.paired)
           bits i ht hs₀ hs₁ htail')
 
-#print axioms reversePairedRunSchedule_supportsRoute
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW33RContextPairedScheduleRoute

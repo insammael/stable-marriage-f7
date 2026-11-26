@@ -62,6 +62,5 @@ theorem actual_mass15_cost_six_of_noDouble {length : Nat} (C : Chart)
  change R21Endpoint19Hand.localFeeFloor (Q.m+2*Q.q)<=Q.q+Q.s at postBound
  omega
 
-#print axioms actual_mass15_cost_six_of_noDouble
 end
 end F7Manuscript.R21PhysicalWindowWords

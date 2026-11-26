@@ -2278,5 +2278,4 @@ theorem c6_zero_cost_2_12_impossible (t : Matching) (bits : Nat → Bool)
       have heq : tokensAfter t (c6Prefix 2 12 7 5 bits 7) 1 = tokensAfter t (c6Prefix 2 12 7 5 bits 0) 1 := by
         simp [tokensAfter, hNow, hOld, tokenSwap, List.foldl]
       exact (h 6 (by decide) 1 hp 0 (by decide)) heq
-#print axioms c6_zero_cost_2_12_impossible
 end F7Local

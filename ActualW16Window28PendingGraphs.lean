@@ -74,9 +74,5 @@ theorem W28B0_pending_pair_shape :
   · intro y hy; fin_cases y <;> simp [W28B0_Graph, ofEdges] at hy ⊢
   constructor <;> decide
 
-#print axioms W28A1_prefixFresh_eq
-#print axioms W28B0_prefixFresh_eq
-#print axioms W28A1_pending_pair_shape
-#print axioms W28B0_pending_pair_shape
 
 end F7Manuscript.ActualW16Window28PendingGraphs

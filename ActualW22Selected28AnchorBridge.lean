@@ -990,5 +990,4 @@ theorem tableN_checked : ∀ i : Fin 40, Sized.ValidNode tableN i ∨ Sized.Node
   · exact Or.inl node_38_valid
   · exact Or.inr node_39_futureBound
 
-#print axioms tableN_checked
 end F7Manuscript.ActualW22Selected28AnchorBridge

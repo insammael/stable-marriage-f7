@@ -207,7 +207,6 @@ def shortFrame9_b0 : LastFrameCertificate where
   witness₀ := .inl 3
   witness₁ := .inl 5
   cover := by decide
-#print axioms shortFrame9_b0
 def shortFrame9_b3_r0_core : WordPersonInvariant where
   longWord := [(0,1),(2,3),(4,5),(6,0),(1,2),(3,6),(0,5),(2,4),(0,1)]
   shortWord := [(0,5),(1,2),(3,4),(6,3)]
@@ -407,7 +406,6 @@ def shortFrame9_b3 : LastFrameCertificate where
   witness₀ := .inl 3
   witness₁ := .inl 5
   cover := by decide
-#print axioms shortFrame9_b3
 def shortFrame9_b4_r0_core : WordPersonInvariant where
   longWord := [(0,1),(2,3),(4,5),(6,0),(1,2),(3,6),(0,5),(2,4),(0,1)]
   shortWord := [(0,5),(1,2),(3,4),(6,4)]
@@ -607,6 +605,5 @@ def shortFrame9_b4 : LastFrameCertificate where
   witness₀ := .inl 3
   witness₁ := .inl 5
   cover := by decide
-#print axioms shortFrame9_b4
 end
 end F7Manuscript.R21SingleTHand

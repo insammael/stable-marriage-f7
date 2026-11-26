@@ -66,9 +66,5 @@ theorem p6_budget_0_to_1 {K : ℕ}
     {n : ℕ} (h : Future (graphRel p6G1) 2 n) : n ≤ K :=
   bound0 n (p6_future_1_to_0 h)
 
-#print axioms p6_target_graphs_transpose_cells
-#print axioms p6_future_0_to_1
-#print axioms p6_future_1_to_0
-#print axioms p6_budget_0_to_1
 
 end F7Manuscript.ActualW18P6GraphSymmetry

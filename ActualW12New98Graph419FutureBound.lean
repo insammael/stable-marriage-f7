@@ -1,5 +1,6 @@
 module
 
+public import Mathlib
 public import F7Manuscript.SizedPartnerGraphCertificate
 
 @[expose] public section
@@ -297,6 +298,5 @@ theorem graph419_future_length_le_two {F : Rel} {n : ℕ}
           | three a b c => simp [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hcost
           | four a b c d => simp [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hcost
 
-#print axioms graph419_future_length_le_two
 
 end F7Manuscript.ActualW12New98Graph419FutureBound

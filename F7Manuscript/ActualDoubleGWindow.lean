@@ -172,7 +172,5 @@ theorem actual_fixed_slot_two_normalized_history {N : ℕ}
     actual_fixed_slot_two_normalized_history_with_fixed C hn p hmono hspan n fixed hfixed hcard
   exact ⟨x,y,hxy,hslot,e,H,hH⟩
 
-#print axioms actual_fixed_slot_two_normalized_history_with_fixed
-#print axioms actual_fixed_slot_two_normalized_history
 end
 end F7Manuscript.TripleCoordinateLattice

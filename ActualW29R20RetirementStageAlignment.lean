@@ -579,10 +579,6 @@ theorem retiredAt_reversePathFirstStage
       ((actualNormalSkeleton C h221 h311 hz).retiredAt j))
     hspan hcoord hi hstrict
 
-#print axioms actualLowerPathFin_lowerRow
-#print axioms actualLowerPathFin_upperRow
-#print axioms oldMoving_reversePathFirstStage
-#print axioms retiredAt_reversePathFirstStage
 
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW29R20RetirementStageAlignment

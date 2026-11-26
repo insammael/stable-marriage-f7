@@ -51,7 +51,6 @@ theorem carrier_plan310_run_bound
     simpa [bits, C'] using! hword
   exact plan310_actual_carrier_run_bound C hp hwordCase
 
-#print axioms carrier_plan310_run_bound
 
 end
 end F7Manuscript.ActualW15Plan310UnconditionalCarrierBound

@@ -55,8 +55,6 @@ theorem actual_pair_fresh_since_of_actual_past
   · intro w hw
     exact actualPast_member_realized_by_cut R finish k.castSucc hfinish b w hw
 
-#print axioms actualPast_member_realized_by_cut
-#print axioms actual_pair_fresh_since_of_actual_past
 
 end
 end F7Manuscript.ActualW27R20ActualFreshSince

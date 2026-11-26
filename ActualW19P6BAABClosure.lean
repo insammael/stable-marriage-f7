@@ -276,5 +276,4 @@ theorem actual_BAAB_center_word_false
   exact p6_three_distinct_unused_false tr (4,5) (0,4) (6,4)
     (by decide) (by decide) (by decide) hu45 hfinalUnused.1 hfinalUnused.2
 
-#print axioms actual_BAAB_center_word_false
 end F7Manuscript.ActualW19P6BAABClosure

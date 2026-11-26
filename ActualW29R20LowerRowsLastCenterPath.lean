@@ -173,7 +173,5 @@ theorem actual_lower_rows_last_center_path_nonempty :
     actualLowerRowsLastCenterPath C h221 h311 hz ≠ [] := by
   simp [actualLowerRowsLastCenterPath]
 
-#print axioms actual_lower_rows_last_center_path_chain
-#print axioms actual_lower_rows_last_center_path_nonempty
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW29R20LowerRowsLastCenterPath

@@ -59,6 +59,5 @@ theorem actual_u3_q1_s3_anchor4_extra56_or510_endpoints
     omega
   exact hcoordinates
 
-#print axioms actual_u3_q1_s3_anchor4_extra56_or510_endpoints
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW18Anchor4Extra56Or510Frontier

@@ -457,7 +457,6 @@ theorem actual_macro_q1_whole_observation_and_prehistory
         simpa only [F,U] using! hp
   · exact hlocal
 
-#print axioms actual_macro_q1_whole_observation_and_prehistory
 
 end
 end F7Manuscript.TripleCoordinateLattice

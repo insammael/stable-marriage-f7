@@ -144,6 +144,5 @@ theorem actual_one_T_binary_normalized_rows
   · intro c d
     simpa [E, j0, actualNewBoundaryRow, newRow, A] using! hAavoid c d
 
-#print axioms actual_one_T_binary_normalized_rows
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW36BinaryTNormalizedRows

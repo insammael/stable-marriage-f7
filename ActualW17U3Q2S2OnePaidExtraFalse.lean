@@ -458,7 +458,6 @@ theorem m11_one_paid_one_extra_oldfit_false
         rw [hnone] at hz
         cases hz
 
-#print axioms m11_one_paid_one_extra_oldfit_false
 
 end
 end F7Manuscript.ActualW17U3Q2S2OnePaidExtraFalse

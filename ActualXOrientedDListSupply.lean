@@ -137,8 +137,6 @@ theorem actual_X_oriented_word_and_dlist
   · simpa [D, flagged, paid] using! hsplit
   · simpa [D, paid] using! hs
 
-#print axioms index_bound_to_mem
-#print axioms actual_X_oriented_word_and_dlist
 
 end
 end W7ActualXOrientedDListSupply

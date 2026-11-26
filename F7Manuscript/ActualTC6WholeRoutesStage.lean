@@ -508,9 +508,6 @@ theorem actual_T_C6_whole_pre_gap_post_routes
     H, hUF, hwholeCard, hUcard, hPge4, hFsize, hFge2,
     holdWhole, hcenterWhole, hpreRoute', hpostRoute, hcenterSupport, hgapSupports⟩
 
-#print axioms actual_gap_points_of_whole_concatenation
-#print axioms actual_first_future_point_of_concatenation
-#print axioms actual_T_C6_whole_pre_gap_post_routes
 end
 end F7Manuscript.TripleCoordinateLattice
 /-! END VERBATIM SOURCE: F7Manuscript.ActualTC6WholeRoutes -/

@@ -72,6 +72,5 @@ theorem noReturn_identity_source15_C31_or_D31
           · exact False.elim (badD03_forbidden bits h0 h1 h2 h3 h4 h5 h6 N)
           · exact False.elim (badD04_forbidden bits h0 h1 h2 h3 h4 h5 h6 N)
 
-#print axioms noReturn_identity_source15_C31_or_D31
 
 end F7Manuscript.ActualW16Window31NoReturnForcesWords

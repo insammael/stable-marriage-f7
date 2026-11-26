@@ -110,8 +110,4 @@ theorem pairClass_deficit_transfer (hClass : PairClass (V:=V))
     (by simpa only [aOn_univ] using! ha2)
   simpa only [delta3On,delta3,Finset.card_univ,A3,aOn_univ] using! h
 
-#print axioms general_bad_card_le_nine
-#print axioms pairClass_deficit_transfer
-#check general_bad_card_le_nine
-#check pairClass_deficit_transfer
 end NeutralCore

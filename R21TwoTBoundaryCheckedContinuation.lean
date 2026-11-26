@@ -49,5 +49,4 @@ theorem realized_continuation_excluded_by_prefix_check
  exact rejectPrefix_sound n B f hcheck
    (continuation_to_localNextT B f plan bits i hfr hsafev hstop)
 
-#print axioms realized_continuation_excluded_by_prefix_check
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

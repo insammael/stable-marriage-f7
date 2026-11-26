@@ -290,8 +290,6 @@ theorem actual_r20_zero_cost_subset_typed_cut14_of_qs
       Q hQ B h221 h311 hz hm T hq hs a ha hQ17
   exact ⟨a, e, C, hword, hbits⟩
 
-#print axioms actual_r20_zero_cost_subset_typed_cut14
-#print axioms actual_r20_zero_cost_subset_typed_cut14_of_qs
 
 end
 end F7Manuscript.TripleCoordinateLattice

@@ -273,21 +273,7 @@ end
 
 end F7Manuscript.TripleCoordinateLattice
 
-#print axioms ConditionalUL.a303_no_induced221_subtype
-#print axioms ConditionalUL.a303_no_induced311_subtype
 
-#print axioms F7Manuscript.TripleCoordinateLattice.a303_subset_no_induced221
-#print axioms F7Manuscript.TripleCoordinateLattice.a303_subset_no_induced311
 
-#print axioms F7Manuscript.TripleCoordinateLattice.a303_subset_delta3_balance
-#print axioms F7Manuscript.TripleCoordinateLattice.a303_subset_delta3_zero_iff_triple_count
-#print axioms F7Manuscript.TripleCoordinateLattice.a303_subset_delta3_zero_iff_loss_balance
-#print axioms F7Manuscript.TripleCoordinateLattice.a303_empty_subset_delta3_ne_zero
 
-#print axioms F7Manuscript.TripleCoordinateLattice.a303_subset_delta3_zero_of_eq_triple_core
-#print axioms F7Manuscript.TripleCoordinateLattice.a303_normal_delta3_eq_outside
-#print axioms F7Manuscript.TripleCoordinateLattice.a303_normal_delta3_zero_iff_outside_empty
 
-#print axioms F7Manuscript.TripleCoordinateLattice.a260_normal_run_q0_order_convex
-#print axioms F7Manuscript.TripleCoordinateLattice.a303_normal_run_q0_order_convex
-#print axioms F7Manuscript.TripleCoordinateLattice.a303_normal_run_q0_order_convex_of_triple_count

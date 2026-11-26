@@ -1,6 +1,6 @@
 module
 
-public import Mathlib
+public import F7Manuscript.GraphFoundationImports
 
 @[expose] public section
 

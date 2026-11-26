@@ -137,7 +137,6 @@ theorem actual_T_ternary_singleton_two_paired_first_center_impossible
   exact actual_two_full_pools_T_initial_center_impossible R P.card hbound K hKmap
     hinit hcenter hpastK hpastW
 
-#print axioms actual_T_ternary_singleton_two_paired_first_center_impossible
 
 end
 end F7Manuscript.TripleCoordinateLattice

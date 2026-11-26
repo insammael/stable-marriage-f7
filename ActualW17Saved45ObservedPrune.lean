@@ -74,7 +74,5 @@ theorem saved45B33_future_from_observed_prefix
   rw [saved45B33_prefixFresh_eq] at transported
   exact saved45B33_prune_future (sized_future_of_core transported)
 
-#print axioms saved45A6_future_from_observed_prefix
-#print axioms saved45B13_future_from_observed_prefix
 
 end F7Manuscript.ActualW17Saved45ObservedPrune

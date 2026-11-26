@@ -165,5 +165,4 @@ theorem three_word_final_center_switch
               by simpa [center] using! hafter⟩⟩
         | cons _ _ => rw [hlist] at hlenEvents; simp at hlenEvents
 
-#print axioms three_word_final_center_switch
 end F7Manuscript.ActualW19P6ThreeWordFinalSwitch

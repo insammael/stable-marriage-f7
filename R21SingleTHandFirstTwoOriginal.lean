@@ -67,6 +67,5 @@ theorem ordered_crown_first_two_common_frame {n m : ℕ} {S T : NormalSkeleton.C
   · exact simultaneous_supportsRoute R.pre (crownSymm s) R.route₀
   · exact simultaneous_supportsRoute R.post (crownSymm s) R.route₁
 
-#print axioms ordered_crown_first_two_common_frame
 end
 end F7Manuscript.R21SingleTHand

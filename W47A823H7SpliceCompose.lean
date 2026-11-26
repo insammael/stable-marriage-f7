@@ -233,16 +233,9 @@ theorem h7_original_pure14_prefix_from_chart_and_literal_block
   exact ⟨hKcard, hexcl, hprefix⟩
 
 -- Inspect both public theorem types and their transitive axioms.
-#check periodic_local_reverse_to_spliced_prefix
-#check h7_original_pure14_prefix_from_chart_and_literal_block
 
-#print axioms periodic_local_reverse_to_spliced_prefix
-#print axioms h7_original_pure14_prefix_from_chart_and_literal_block
 
 -- Audit the checked ingredients used by the composition as well.
-#print axioms BinaryColorChart.toBinaryPrefix_of_periodic
-#print axioms transport_reverse_prefix_to_splice
-#print axioms h7_original_pure14_post_core_exclusion
 
 end
 

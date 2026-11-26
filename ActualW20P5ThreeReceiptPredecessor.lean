@@ -82,6 +82,4 @@ theorem p5_two_receipt_three_after_zero_then_five_displaces_five
   · exact False.elim ((tr.no_return m 3 hp6 e2.castSucc (by simp;omega))
       (hpost6.trans h6.symm))
 
-#print axioms p5_zero_receipt_three_after_five_displaces_five
-#print axioms p5_two_receipt_three_after_zero_then_five_displaces_five
 end F7Manuscript.ActualW20P5ThreeReceiptPredecessor

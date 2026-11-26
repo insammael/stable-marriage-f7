@@ -58,8 +58,6 @@ theorem actual_X_new22_legacy_oriented_source_false
   exact actual_X_any_return_root_oriented_source_false C hn hδ h221 h311 hG hT X
     new22_return_entry new22_color_facts dual j hfit
 
-#print axioms new22_color_facts
-#print axioms actual_X_new22_legacy_oriented_source_false
 
 #eval IO.eprintln "W12 NEW22 actual oriented nofit checked"
 

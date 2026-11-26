@@ -231,7 +231,6 @@ theorem actual_X_u4_cost_three_p478_false
     rw [hclock.2,hafter] at hrun
     omega
 
-#print axioms actual_X_u4_cost_three_p478_false
 
 end
 end F7Manuscript.ActualW16P478Offset1Caller

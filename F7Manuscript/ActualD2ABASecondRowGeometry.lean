@@ -235,6 +235,5 @@ theorem actual_d2_aba_center_next_pair_geometry
             (Prod.ext l2 r1)
   exact ⟨x, hselected, hcenter, hrows⟩
 
-#print axioms actual_d2_aba_center_next_pair_geometry
 
 end F7Manuscript.TripleCoordinateLattice

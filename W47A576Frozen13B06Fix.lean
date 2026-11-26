@@ -249,6 +249,5 @@ theorem B06_second_complete (c : CycleSpec)
   | four a b d e =>
       exact check_four a b d e hs hpost
 
-#print axioms B06_second_complete
 
 end F7Manuscript.A156Frozen13B06Piece

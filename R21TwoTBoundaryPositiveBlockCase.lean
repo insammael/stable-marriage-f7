@@ -105,6 +105,5 @@ theorem pure_five_positive_block_after_short_centers
      (List.replicate n Move.paired) bits index)
    cross label false hafter (by simp [afterCenter,hlast]) (Or.inr ⟨hfirst,hsecond⟩) noPair
 
-#print axioms pure_five_positive_block_after_short_centers
 end
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

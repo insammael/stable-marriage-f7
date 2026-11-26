@@ -130,7 +130,6 @@ theorem actual_X_block_canonical_packet
     firstActorWord := he1
     normal := N }⟩
 
-#print axioms actual_X_block_canonical_packet
 
 end
 end F7Manuscript.ActualW8SameXBlockCanonicalPacket

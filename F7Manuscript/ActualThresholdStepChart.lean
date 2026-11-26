@@ -127,7 +127,6 @@ def actualThresholdStepChart
       ((GenericThresholdPath.eventAt C E n).val.val c).val := by
   rfl
 
-#print axioms actualThresholdStepChart
 
 end
 end F7Manuscript.TripleCoordinateLattice

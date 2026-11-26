@@ -79,7 +79,5 @@ theorem actual_firstPaired_opposite_two_mass_le_four {n m : Nat}
  obtain ⟨last,trace,_,_⟩ := mixed_trace_of_anchored_route route t
    (fun st => graphGuard couplingOppCompatible (fun _=>false) (physical st)) guard hRs hRv hf hlast colors
  exact couplingOpp_tail_bound (crownMixedTrace_physical trace) root
-#print axioms couplingOppDAG_checked
-#print axioms actual_firstPaired_opposite_two_mass_le_four
 end
 end F7Manuscript.R21SingleTHand

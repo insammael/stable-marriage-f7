@@ -213,9 +213,5 @@ theorem actual_separation_restore (P : Finset V) (p : V) (d z : Triple P)
     have hd := (actual_support_membership P p d z hp hOnly hz hAdj hLeaf hRetain D x hxp).mpr hxD
     exact Finset.disjoint_left.mp (hSep (E C) (E D) (fun heq => hCD (E.injective heq))) hc hd
 
-#print axioms deletionIso
-#print axioms doubled_boundary_leaf
-#print axioms actual_support_membership
-#print axioms actual_separation_restore
 end ActualOverlap
 end NeutralCore

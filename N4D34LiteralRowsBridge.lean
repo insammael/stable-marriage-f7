@@ -35,8 +35,5 @@ theorem twoByTwoClosed_of_literalRowQ {A R : N4D34LiteralRows.Rows}
     N4FutureBarrier.TwoByTwoClosed A R :=
   N4FutureBarrier.twoByTwoClosed_of_rowQ (rowQBarrierLit_to_RowQBarrier h)
 
-#print axioms rowQBarrierLit_to_RowQBarrier
-#print axioms blockedCellsLit_eq_blockedCells
-#print axioms twoByTwoClosed_of_literalRowQ
 
 end F7Manuscript.N4D34LiteralRowsBridge

@@ -100,6 +100,5 @@ theorem actualNormalSkeleton_comap_eq :
       exact Fintype.ofFinite _
     exact Fintype.card_congr el
 
-#print axioms actualNormalSkeleton_comap_eq
 end
 end F7Manuscript.TripleCoordinateLattice

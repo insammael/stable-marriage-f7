@@ -39,5 +39,4 @@ theorem reverse_root_checked : ∀(p : Fin 6)(c : Fin 3)(bits : Fin 32), Reverse
  unfold ReverseRootChecked ValidLayout Function.Injective
  decide
 
-#print axioms reverse_root_checked
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

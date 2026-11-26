@@ -660,5 +660,4 @@ theorem plan11_eventCount : F7Local.eventCount plan11 = 10 := by decide +kernel
 theorem controlTree_valid : BinaryChoice.AllLeaves (WindowControlCertificate.BoundedValid ActualW22W11AnchorBridge.tableN plan11 17) [false] controlTree := by
   exact tree_0_valid
 
-#print axioms controlTree_valid
 end F7Manuscript.ActualW22W11TypedRootTree

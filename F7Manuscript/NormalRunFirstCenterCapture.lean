@@ -44,6 +44,5 @@ theorem normalRun_first_center_mem_futureSet
   exact normal_first_center_mem_futureSet C Q B h221 h311 hz pastRow (p R.left)
     H hcore hbotc j hj
 
-#print axioms normalRun_first_center_mem_futureSet
 end
 end F7Manuscript.TripleCoordinateLattice

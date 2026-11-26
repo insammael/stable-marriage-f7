@@ -157,7 +157,6 @@ theorem actual_r20_zero_cost_pre_route_normalization
       _ = mapSupportFrame e (recolorCenterFrame a (SubsetNormalMixedTrace.finalFrame T)) :=
             congrArg (fun f => mapSupportFrame e (recolorCenterFrame a f)) htrace
 
-#print axioms actual_r20_zero_cost_pre_route_normalization
 
 end
 end F7Manuscript.TripleCoordinateLattice

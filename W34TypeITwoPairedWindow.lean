@@ -110,6 +110,4 @@ theorem two_paired_rows_fixed_center_false
     R u i l a b z hUI (by omega) ha haz hbz hOld hmemA hmemB hFirst
     hMidA hMidB hMidZ keep hLast
 
-#print axioms two_paired_window_middle_receipts
-#print axioms two_paired_rows_fixed_center_false
 end F7Manuscript.W34TypeITwoPairedWindow

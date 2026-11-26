@@ -83,6 +83,5 @@ theorem actual_dual_normal_in_complete_run
   rw [hR]
   exact align t
 
-#print axioms actual_dual_normal_in_complete_run
 end
 end F7Manuscript.R21Mass17Original

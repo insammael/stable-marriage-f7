@@ -73,9 +73,6 @@ theorem new102_demand_zero_of_j_ge_three
       (new102Geometry.D[0]?.getD 0) = 0 := by omega
   simp [hsub]
 
-#print axioms new102TupleFit
-#print axioms new102TupleDemand
-#print axioms new102_positive_demand_implies_j_lt_three
 
 end
 end F7Manuscript.ActualW14New102TupleCore

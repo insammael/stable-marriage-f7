@@ -203,7 +203,6 @@ theorem actual_normal_core_backward_spacing_from_full_spacing
   exact normalBackwardSpacing_of_dual C₀ h221₀ h311₀ hz₀
     hdual j hj hcard
 
-#print axioms actual_normal_core_backward_spacing_from_full_spacing
 
 end
 end F7Manuscript.TripleCoordinateLattice

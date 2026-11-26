@@ -42,6 +42,5 @@ theorem p5_actual_rows_after_caseA
     exact (p5_caseA_actual_impossible T hRzero hb4).elim
   · exact ⟨a, b, c, d, r, ha, hb, hc, hd, hr, hrest⟩
 
-#print axioms p5_actual_rows_after_caseA
 
 end F7Manuscript.ActualW20P5RowsAfterCaseA

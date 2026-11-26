@@ -17,7 +17,6 @@ theorem pool_11_none_pool_encounter_1 : ∀ K : Finset Agent, K.card = 3 → Poo
   rw [hK]
   fin_cases a <;> fin_cases b <;> fin_cases c <;>
     simp_all [PoolEncounter] <;> decide
-#print axioms pool_11_none_pool_encounter_1
 
 theorem pool_11_none_pool_encounter_2 : ∀ K : Finset Agent, K.card = 3 → PoolEncounter K [(0,1),(2,3),(4,5),(0,6),(2,1),(5,3),(6,4),(1,0),(3,2),(4,5),(0,6),(2,1),(5,3),(6,4)] := by
   classical
@@ -26,7 +25,6 @@ theorem pool_11_none_pool_encounter_2 : ∀ K : Finset Agent, K.card = 3 → Poo
   rw [hK]
   fin_cases a <;> fin_cases b <;> fin_cases c <;>
     simp_all [PoolEncounter] <;> decide
-#print axioms pool_11_none_pool_encounter_2
 
 theorem pool_11_none_impossible (K : Finset Agent) (hc : K.card = 3)
     (t : Matching) (bits : Nat → Bool) (norm : bits 0 = false)
@@ -392,6 +390,5 @@ theorem pool_11_none_impossible (K : Finset Agent) (hc : K.card = 3)
                       simp only [atPrefix, heprefix]
                       rw [tokensAfter_origin, heq]
                     exact (pool e.val (by have he := e.isLt; norm_num at he; simpa [plan_pool_11_none, eventCount] using he) p hp hpk o hok) hEq
-#print axioms pool_11_none_impossible
 
 end F7Local

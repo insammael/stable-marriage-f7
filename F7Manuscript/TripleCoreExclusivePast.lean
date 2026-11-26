@@ -50,6 +50,5 @@ theorem core_tripleExclusivePast_card (t : Triple (corePartition C)) (c : Fin 3)
   rw [← core_tripleExclusivePast_image C t c,
     Finset.card_image_of_injective _ Subtype.val_injective]
 
-#print axioms core_tripleExclusivePast_card
 end
 end F7Manuscript.TripleCoordinateLattice

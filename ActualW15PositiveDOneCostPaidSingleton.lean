@@ -141,7 +141,6 @@ theorem paid_singleton_old0_false
     rw [hnone] at hz
     cases hz
 
-#print axioms paid_singleton_old0_false
 
 end
 end F7Manuscript.ActualW15PositiveDOneCostPaidSingleton

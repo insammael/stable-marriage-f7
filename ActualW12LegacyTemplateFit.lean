@@ -31,6 +31,5 @@ def TemplateFitAt
         pivotsOf row.colors
 
 
-#print axioms TemplateFitAt
 
 end F7Manuscript.ActualW12LegacyTemplateFit

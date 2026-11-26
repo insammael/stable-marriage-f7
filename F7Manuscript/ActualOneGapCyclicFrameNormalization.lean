@@ -92,8 +92,6 @@ theorem actual_gap_window_initial_three_of_pre_frame
   have h := hrowMap i
   fin_cases i <;> simpa [initialPair, oldGapFrame, pairSupport] using! h
 
-#print axioms actual_pre_frame_cyclic_normalization
-#print axioms actual_gap_window_initial_three_of_pre_frame
 
 end
 end F7Manuscript.TripleCoordinateLattice

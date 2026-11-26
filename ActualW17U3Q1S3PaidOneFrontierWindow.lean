@@ -138,8 +138,6 @@ theorem oriented_two_pivot_window_of_global_support
       · have hEq : i+p = b := by rw [← hcoordB] at hV; omega
         simpa [hEq] using! hbPiv
 
-#print axioms oriented_paid_start_D
-#print axioms oriented_two_pivot_window_of_global_support
 
 end
 end F7Manuscript.ActualW17U3Q1S3PaidOneFrontierWindow

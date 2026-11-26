@@ -171,6 +171,5 @@ theorem actual_q0_chosen_whole_typeV_pivot_word
   rw [← hplan]
   exact hstages
 
-#print axioms actual_q0_chosen_whole_typeV_pivot_word
 end
 end F7Manuscript.TripleCoordinateLattice

@@ -175,8 +175,5 @@ theorem two_rows_touch_at_least_five (R : TokenRun Site W 21) (cut : Nat)
     obtain ⟨r,hr⟩ := cover k hkT
     exact gap r (f.lt_iff_lt.mp (by rw [hr]; exact hki)) (f.lt_iff_lt.mp (by rw [hr]; exact hkj))
 
-#print axioms small_touch_shape
-#print axioms repeat_pair_without_marked_touch_impossible
-#print axioms two_rows_touch_at_least_five
 end
 end F7Manuscript.R21LongWindow.FourPoolCapacity

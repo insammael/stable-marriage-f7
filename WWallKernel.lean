@@ -119,10 +119,6 @@ theorem actual_terminal_q1_address
 
 end ActualTerminal
 
-#print axioms mixed_chart_wall_kernel
-#print axioms actual_core_wall_bounds
-#print axioms actual_q1_terminal_floor
-#print axioms actual_constant_sign_q1_terminal_floor
 
 end
 end F7Manuscript.WWallKernel

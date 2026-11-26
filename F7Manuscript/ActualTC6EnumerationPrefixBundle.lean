@@ -176,7 +176,6 @@ theorem c6_full_matching_classification (i k l : Fin 15)
   · exact first_13_chunk k l h
   · exact first_14_chunk k l h
 
-#print axioms c6_full_matching_classification
 
 end F7Manuscript.C6FullMatchingChoices
 /-! END VERBATIM SOURCE: F7Manuscript.C6FullMatchingChoices -/
@@ -315,7 +314,6 @@ theorem actual_T_six_actor_C6_matching_rows
   rw [hselected (σ c)] at h
   exact (hcode (σ c)).trans h
 
-#print axioms actual_T_six_actor_C6_matching_rows
 
 /-- The saved classification applied to support sets after a fixed actor
 relabeling. The new row order is retained as an explicit permutation. -/
@@ -444,8 +442,6 @@ theorem c6_matching_rows_in_dynamic_frame
     obtain ⟨d, _, had⟩ := Finset.mem_biUnion.mp (hcovered (σ c) ha)
     exact (Finset.disjoint_left.mp (validFrame_idle_disjoint f hv d)) had hi
 
-#print axioms c6_matching_rows_of_normalized_supports
-#print axioms c6_matching_rows_in_dynamic_frame
 
 /-- The binary actual T boundary supplies the dynamic-frame classifier's
 old-pair exclusion from its original no-return execution. -/
@@ -482,7 +478,6 @@ theorem actual_T_C6_rows_in_pre_frame
     apply actual_no_outsider_T_old_binary_pair_ne_new C hu E n hT d c (hOld d)
     exact (hrows d).trans he.symm
 
-#print axioms actual_T_C6_rows_in_pre_frame
 
 /-- Put the C6 row back into the original coordinate labels before
 constructing the actual following normal trace. -/
@@ -561,8 +556,6 @@ theorem actual_T_C6_post_frame_exists
     (fun c => ((GenericThresholdPath.path C E n.succ).val c).val)
     f r σ hnew
 
-#print axioms c6ActualPostFrame_valid
-#print axioms actual_T_C6_post_frame_exists
 end
 end F7Manuscript.TripleCoordinateLattice
 /-! END VERBATIM SOURCE: F7Manuscript.ActualTC6MatchingRows -/
@@ -766,9 +759,6 @@ theorem subsetNormal_initial_supports_any_order
       simp [subsetNormalCenterTime, pairsBefore]
     simpa only [ht] using! hh
 
-#print axioms actual_prefix_points_of_disjoint_whole_concatenation
-#print axioms actual_subset_normal_reordered_prefix_route
-#print axioms subsetNormal_initial_supports_any_order
 end
 end F7Manuscript.TripleCoordinateLattice
 /-! END VERBATIM SOURCE: F7Manuscript.ActualSubsetNormalReorderedPrefixRoute -/
@@ -955,8 +945,6 @@ theorem actual_T_C6_pre_post_trace_pair
     (c6ActualPostFrame_valid fa row σ hc6valid) hpostLower
   exact ⟨Tpre, hvalid, hpreRows, row, σ, hrows, Tpost, hpostEq⟩
 
-#print axioms actual_normal_run_lower_row_eq_global
-#print axioms actual_T_C6_pre_post_trace_pair
 
 end
 end F7Manuscript.TripleCoordinateLattice
@@ -1043,7 +1031,6 @@ theorem actual_T_introduction_enumeration
     rfl
   rw [hi]
 
-#print axioms actual_T_introduction_enumeration
 
 end
 end F7Manuscript.TripleCoordinateLattice
@@ -1501,7 +1488,6 @@ theorem actual_T_C6_whole_profile_enumeration
   exact ⟨Tpre, hv', hpreRows', row, σ, hrows', Tpost, hpostLower',
     EP, hEP, hc, EG, hEG, hwhole'⟩
 
-#print axioms actual_T_C6_whole_profile_enumeration
 end
 end F7Manuscript.TripleCoordinateLattice
 /-! END VERBATIM SOURCE: F7Manuscript.ActualTC6WholeEnumeration -/

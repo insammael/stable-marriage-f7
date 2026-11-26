@@ -147,6 +147,5 @@ theorem raw_paths_saturated (PA PB : RawIncreasingTrianglePath V)
   · simpa [RawIncreasingTrianglePath.support] using! hEA
   · simpa [RawIncreasingTrianglePath.support] using! hEB
 
-#print axioms raw_paths_saturated
 
 end NeutralCore

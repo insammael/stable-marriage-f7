@@ -25,6 +25,4 @@ theorem singleton_typeV_supplied : R20SingletonRouteContract.SuppliesSingletonTw
 theorem both_long_typeV_supplied : R20LongRouteContract.SuppliesLongTwenty C :=
   W38ActualLongPreTypeVWholeRouteTwenty.actual_long_pre_typeV_whole_route_twenty C
 
-#print axioms singleton_typeV_supplied
-#print axioms both_long_typeV_supplied
 end F7Manuscript.TripleCoordinateLattice.R20OneTActualRoutes

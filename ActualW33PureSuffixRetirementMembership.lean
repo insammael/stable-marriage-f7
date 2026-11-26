@@ -271,7 +271,6 @@ theorem pure_suffix_events_retirement_rank_iff (lo : Fin ((S).m))
     rw [hEq] at hx
     exact hx
 
-#print axioms pure_suffix_events_retirement_rank_iff
 
 end
 end F7Manuscript.ActualW33PureSuffixRetirementMembership

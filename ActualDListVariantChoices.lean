@@ -39,9 +39,5 @@ theorem mem_boolWords {n : Nat} {bits : List Bool}
           apply List.mem_flatMap.mpr
           exact ⟨b, hb, List.mem_map.mpr ⟨bs, ih htail, rfl⟩⟩
 
-#print axioms boundedExtraChoices
-#print axioms mem_boundedExtraChoices
-#print axioms boolWords
-#print axioms mem_boolWords
 
 end F7Manuscript.W7ActualDListVariantChoices

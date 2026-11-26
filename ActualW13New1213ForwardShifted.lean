@@ -154,7 +154,6 @@ theorem actual_X_new1213_forward_shifted_structural_threshold
   rw [hclock] at hthreshold
   simpa [entry, L, K, extra] using! hthreshold
 
-#print axioms actual_X_new1213_forward_shifted_structural_threshold
 
 end
 end F7Manuscript.ActualW13New1213ForwardShifted

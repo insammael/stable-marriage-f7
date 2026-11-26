@@ -80,7 +80,5 @@ theorem actual_q_one_previous_block_frame
   exact actual_previous_zero_block_frame A h221 h311 hG hT hm r hr
     (q_one_forces_other_doubles_zero (S) hq j hD r hrj) f hv hrow
 
-#print axioms actual_previous_zero_block_frame
-#print axioms actual_q_one_previous_block_frame
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW30R20ReverseZeroFrameStep

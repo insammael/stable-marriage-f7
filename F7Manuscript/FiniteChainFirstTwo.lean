@@ -44,6 +44,5 @@ theorem finset_chain_first_two (S : Finset V)
     have hyz : y ≤ z' := Finset.min'_le T z' hzT
     exact le_antisymm hzy hyz
 
-#print axioms finset_chain_first_two
 end
 end F7Manuscript

@@ -32,7 +32,5 @@ theorem f7_eq_85_of_fourteen_R21
     exact r21_one_G_no_outsider_original I
   exact remaining I u b c (by simp [r21RemainingFourteen,hmem,h,g])
 
-#print axioms remaining_fourteen_length
-#print axioms f7_eq_85_of_fourteen_R21
 end
 end F7Manuscript.ActualPositiveDeficitCoverAssembly

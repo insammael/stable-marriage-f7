@@ -377,7 +377,6 @@ theorem paid_two_support_has_registered_fit
             exact false_of_registered_fit W D legacyEntry_000 false entry000_member
               ⟨⟨i, by rw [hW]; omega⟩, hfit⟩ hforward
 
-#print axioms paid_two_support_has_registered_fit
 
 end
 end F7Manuscript.ActualW17U3Q2S2PaidTwoSupport

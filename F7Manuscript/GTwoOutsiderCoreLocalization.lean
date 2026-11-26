@@ -189,7 +189,5 @@ theorem actual_fixed_slot_two_core_neighbor_bounds {N : ℕ}
     actual_fixed_slot_two_core_reset_bounds C hn h311 p hmono hspan n fixed hfixed hcard
   exact ⟨x,y,hxy,hslot,hx,hy⟩
 
-#print axioms actual_fixed_slot_two_core_reset_bounds
-#print axioms actual_fixed_slot_two_core_neighbor_bounds
 end
 end F7Manuscript.TripleCoordinateLattice

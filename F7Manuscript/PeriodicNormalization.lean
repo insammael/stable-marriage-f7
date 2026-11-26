@@ -122,8 +122,5 @@ theorem normalize_pair {m : ℕ} (H : PeriodicRun m) (hm : 3 ≤ m)
     rw [normalize_late H n (by omega) (by omega), normalizeChoice, if_neg h3]
     simp only [retained_rename, rename_idle]
 
-#print axioms normalize_short
-#print axioms normalized_choice_forced
-#print axioms normalize_pair
 
 end F7Periodic

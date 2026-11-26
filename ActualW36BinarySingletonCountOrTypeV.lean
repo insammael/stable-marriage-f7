@@ -366,6 +366,5 @@ theorem actual_binary_singleton_count_or_typeV
       simpa [hj] using! hTypeV0
     exact Or.inr ⟨j, hTj, hTypeVj⟩
 
-#print axioms actual_binary_singleton_count_or_typeV
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW36BinarySingletonCountOrTypeV

@@ -8,7 +8,7 @@ public import F7Manuscript.ActualGlobalMixedExtraction
 @[expose] public section
 set_option backward.isDefEq.respectTransparency false
 
-/-! R2 S08/S11 arithmetic after actual mixed-plan extraction. The
+/-! R2 S08 arithmetic after actual mixed-plan extraction. The
 remaining caller input is the actual execution record, never a stable
 count bound or a skeleton-cost bound. -/
 
@@ -49,26 +49,5 @@ theorem r20_normal_actual_count_le_85_of_execution
   rw [hn,hz] at hcount
   omega
 
-theorem r21_normal_actual_count_le_85_of_execution
-    {W : Type*} [Fintype W]
-    (hn : Fintype.card (Event I) = 21)
-    (A : ActualNormalMixedRun W 21 (actualNormalSkeleton C h221 h311 hz).m
-      (actualNormalSkeleton C h221 h311 hz).naturalWord
-      (actualNormalSkeleton C h221 h311 hz).naturalLevels) : stableCount I ≤ 85 := by
-  let S : Chart := actualNormalSkeleton C h221 h311 hz
-  have hc : 11 ≤ S.q+S.s := actual_twenty_one_execution_cost_ge_eleven S A
-  have hm : 2 ≤ normalBlockCount C :=
-    actualMixedSkeleton_two_blocks C h221 h311 hz (by omega)
-  have hledger := actualMixedSkeleton_ledger C h221 h311 hz hm
-  change a (V := Event I) = ((S.q+S.s : ℕ) : ℤ)+_ at hledger
-  have ha : 11 ≤ a (V := Event I) := by omega
-  rw [stableCount_eq_idealCount I]
-  have hcount := ideal_deficit_accounting (V := Event I) (actual_pairClass I).1
-  unfold totalDeficit at hcount
-  rw [hn,hz] at hcount
-  omega
-
-#print axioms r20_normal_actual_count_le_85_of_execution
-#print axioms r21_normal_actual_count_le_85_of_execution
 end
 end F7Manuscript.TripleCoordinateLattice

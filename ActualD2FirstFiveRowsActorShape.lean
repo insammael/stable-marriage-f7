@@ -143,20 +143,5 @@ theorem actor_shape (b : Fin 5 → Bool) :
     actor b 0 = 0 ∧ actor b 1 = 1 ∧ actor b 6 = 6 := by
   fin_cases b <;> decide +kernel
 
-#print axioms word_length
-#print axioms row0
-#print axioms row1
-#print axioms row2
-#print axioms row3
-#print axioms row4
-#print axioms row5
-#print axioms row6
-#print axioms row7
-#print axioms row8
-#print axioms cross2_true_event6_origins_identity
-#print axioms cross2_true_not_fresh
-#print axioms fresh_implies_cross2_false
-#print axioms actor_sites_partition
-#print axioms actor_shape
 
 end F7Manuscript.ActualD2FirstFiveRowsActorShape

@@ -79,6 +79,5 @@ theorem actual_one_G_empty_count_le_85
         C h221 h311 hu E Rzero hmLong hqLong hs0
       omega
 
-#print axioms actual_one_G_empty_count_le_85
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW35OneGEmptyCount

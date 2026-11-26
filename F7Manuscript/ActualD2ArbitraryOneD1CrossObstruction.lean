@@ -252,7 +252,6 @@ theorem actual_arbitrary_offset_one_d1_false
           exact F7Manuscript.ActualD2OneD1ActualCrossObstruction.actual_one_D1_two_pair_cross_center_false
             P n₁ hroom₂ W' candidate hcandidate hcenterStart hpairs hcenter₂ hpast
 
-#print axioms actual_arbitrary_offset_one_d1_false
 
 /-- Compatibility wrapper retaining the earlier conditional interface.  The
 actual cross-center freshness contradiction does not require the extra
@@ -291,7 +290,6 @@ theorem actual_arbitrary_offset_one_d1_nonABA_false
   exact actual_arbitrary_offset_one_d1_false Q hQ B h221 h311 hz hm a p
     H₀ hd₀ S₀ M H₁ hd₁ S₁ htime₁ H₂ S₂ htime₂ hj₁ hj₂
 
-#print axioms actual_arbitrary_offset_one_d1_nonABA_false
 
 end
 end F7Manuscript.TripleCoordinateLattice

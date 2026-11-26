@@ -53,6 +53,5 @@ theorem actual_T_template_context_joint_charge_with_post
     (actual_T_template_context_transfer C E n hn h311 H D fallback e word hreal
       outs row sym pre post hcontext hcert hsym hpost hpre hpostcard)
 
-#print axioms actual_T_template_context_joint_charge_with_post
 end
 end F7Manuscript.TripleCoordinateLattice

@@ -192,6 +192,5 @@ theorem isolated_g_joint_pair_increment_le_three_of_neither_fixed
     rw [hempty,Finset.card_empty]
   omega
 
-#print axioms isolated_g_joint_pair_increment_le_three_of_neither_fixed
 end
 end F7Manuscript.TripleCoordinateLattice

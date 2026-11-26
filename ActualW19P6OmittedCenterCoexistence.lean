@@ -164,6 +164,5 @@ theorem p6_omitted_center_two_exclusive_pair_coexist
     refine ⟨t01, h01', ?_⟩
     simpa [hy6] using! hy
 
-#print axioms p6_omitted_center_two_exclusive_pair_coexist
 
 end F7Manuscript.ActualW19P6OmittedCenterCoexistence

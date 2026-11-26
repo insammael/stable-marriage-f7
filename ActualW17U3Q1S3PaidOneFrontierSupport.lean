@@ -90,8 +90,6 @@ theorem oriented_zero_pivot_window_of_global_support
     · have hAway : i+p ≠ b := by simpa [hd] using! hAwayB p hp hpEnd
       exact hAway hB
 
-#print axioms oriented_pivot_membership
-#print axioms oriented_zero_pivot_window_of_global_support
 
 end
 end F7Manuscript.ActualW17U3Q1S3PaidOneFrontierSupport

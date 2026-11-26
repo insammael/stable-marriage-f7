@@ -91,8 +91,4 @@ theorem no_dated_p_gap3_at_right_end
   no_dated_p_gap3_at_end R off len bound plan bits D a b c tail split binary true
     (by simpa [BoundaryCover.offset] using! budget)
 
-#print axioms execute_pattern_sound
-#print axioms no_dated_p_gap3_at_end
-#print axioms no_dated_p_gap3_at_left_end
-#print axioms no_dated_p_gap3_at_right_end
 end F7Manuscript.R21NormalEndpoint.PGap3EndDated

@@ -65,6 +65,4 @@ theorem normal_word_has_actual_pivot_phase
       congrArg (a.symm.trans b) hw
     _ = _ := hp _
 
-#print axioms normal_word_at_initial_colors_and_actual_pivots
-#print axioms normal_word_has_actual_pivot_phase
 end F7Manuscript.TripleCoordinateLattice

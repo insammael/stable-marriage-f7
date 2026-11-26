@@ -98,7 +98,6 @@ theorem postpaired_obstruction_with_full_history
   · simpa only [e] using! hpastFour
   · simpa only [e] using! hpastAll
 
-#print axioms postpaired_obstruction_with_full_history
 
 end
 end F7Manuscript.PostPairedFullHistory

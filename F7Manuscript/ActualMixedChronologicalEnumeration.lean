@@ -135,8 +135,5 @@ theorem actualMixedFullRun_support_at
   rw [actualMixedFullRun,enumerated_event_support,
     actualMixedChronologicalEnumeration_at]
 
-#print axioms actualMixedChronologicalEnumeration
-#print axioms actualMixedChronologicalEnumeration_at
-#print axioms actualMixedFullRun_support_at
 end
 end F7Manuscript.TripleCoordinateLattice

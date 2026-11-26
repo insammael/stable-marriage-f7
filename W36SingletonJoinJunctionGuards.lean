@@ -171,5 +171,4 @@ theorem singleton_join_junction_guards
       (bits (ctrl+2)) hLast
   exact ⟨hc, hdc⟩
 
-#print axioms singleton_join_junction_guards
 end F7Manuscript.W36SingletonJoinJunctionGuards

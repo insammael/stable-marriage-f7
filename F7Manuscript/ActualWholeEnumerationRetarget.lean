@@ -45,8 +45,5 @@ theorem route {A B : Finset (Event I)} (h : A = B)
   subst B
   exact H
 
-#print axioms point
-#print axioms support
-#print axioms route
 end
 end F7Manuscript.TripleCoordinateLattice.WholeEnumerationRetarget

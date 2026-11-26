@@ -96,7 +96,6 @@ theorem endpoint_D_two_pivot_partial_none
   rw [hnone] at hz
   cases hz
 
-#print axioms endpoint_D_two_pivot_partial_none
 
 end
 end F7Manuscript.ActualW15EndpointDTwoPivotFitFalse

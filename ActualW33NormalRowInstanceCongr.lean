@@ -44,5 +44,4 @@ theorem normalRowValue_congr_deciders
     rfl
   rw [hj]
 
-#print axioms normalRowValue_congr_deciders
 end F7Manuscript.TripleCoordinateLattice.ActualW33NormalRowInstanceCongr

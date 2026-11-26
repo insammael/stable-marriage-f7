@@ -260,8 +260,6 @@ theorem saved45_force_b4_b5 {t : Matching} {bits : Nat → Bool}
           exact False.elim h6
   exact ⟨h4, h5.trans h4⟩
 
-#print axioms saved45_force_b4_b5
 
-#print axioms force_b5
 
 end F7Manuscript.ActualW17Saved45CommonForcingStageA

@@ -66,7 +66,6 @@ theorem new102_residual_demand_two_early_cuts (D : List Nat) (j : Nat) :
       have hzero : tupleOffset D j 0 ≥ 2 := by omega
       simp [new102ResidualDemand, Nat.sub_eq_zero_of_le hzero, hj0, hj1]
 
-#print axioms new102_residual_demand_two_early_cuts
 
 end
 end F7Manuscript.ActualW14New102TwoEarlyCuts

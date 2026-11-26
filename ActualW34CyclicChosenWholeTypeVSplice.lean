@@ -220,6 +220,5 @@ theorem actual_cyclic_chosen_whole_typeV_splice
     hpostLower Hpre hfinal Hpost hg0' hg1' hc' h0 h1 h2 h3
   exact CyclicChosenWholeTypeVSpliceResult.intro ⟨e, Hwhole, bits, hnorm, hbit, hstages⟩
 
-#print axioms actual_cyclic_chosen_whole_typeV_splice
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW34CyclicChosenWholeTypeVSplice

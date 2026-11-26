@@ -50,6 +50,5 @@ theorem actual_normal_terminal_h2_unique
     (actualNormalTerminalBoundary C h221 h311 hG hT
       (normalCoreBlockCount_pos C h221 h311 hG hT hsize))
 
-#print axioms actual_normal_terminal_h2_unique
 end
 end F7Manuscript.TripleCoordinateLattice

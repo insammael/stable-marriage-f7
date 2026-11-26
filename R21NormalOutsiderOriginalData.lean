@@ -83,6 +83,5 @@ theorem original_normal_outsider_data (C : Partition (V := Event I)) [Nonempty (
   rw [← cardCore]
   exact ⟨R,off,bound,s,tr,cost.le.trans cap,obs,binary⟩
 
-#print axioms original_normal_outsider_data
 end
 end F7Manuscript.R21NormalEndpoint

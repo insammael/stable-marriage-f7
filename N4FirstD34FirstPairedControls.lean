@@ -295,6 +295,5 @@ theorem firstD34_first_paired_controls_A
         hw1, hw2, hw3, hw4']
     simpa [htarget] using! hnorm
 
-#print axioms firstD34_first_paired_controls_A
 
 end F7Manuscript.N4FirstD34FirstPairedControls

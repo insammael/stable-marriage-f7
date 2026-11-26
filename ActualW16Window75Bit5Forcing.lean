@@ -192,6 +192,5 @@ theorem window75_bit5_eq_not_bit2
       · exact False.elim (badD0613 t b N h0 h1 h2 h3' h4' h5 h6 h7)
       · exact False.elim (badD0643 t b N h0 h1 h2 h3' h4' h5 h6 h7)
 
-#print axioms window75_bit5_eq_not_bit2
 
 end F7Manuscript.ActualW16Window75Bit5Forcing

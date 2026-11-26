@@ -30,4 +30,3 @@ theorem a140_neighbor_incomparabilities
     · intro hzd
       exact hfd.1 (le_trans (le_of_lt hfz) hzd)
 
-#print axioms a140_neighbor_incomparabilities

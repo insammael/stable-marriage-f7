@@ -118,6 +118,5 @@ theorem p5_mixed_residual_receipt_contradiction
       · exact havoid.1 h
       · exact havoid.2 h
 
-#print axioms p5_mixed_residual_receipt_contradiction
 end F7Manuscript.ActualW20P5TypeBIIMixedReceiptContradiction
 

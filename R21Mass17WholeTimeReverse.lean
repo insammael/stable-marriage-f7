@@ -118,6 +118,5 @@ theorem DatedPlan.wholeTimeReverse
   · have eq := congrArg (List.map reflect12) word
     simpa [reflect12,List.map_append,List.map_map,Function.comp_def] using! eq
 
-#print axioms DatedPlan.wholeTimeReverse
 end
 end F7Manuscript.R21NormalEndpoint.ReseededObservation

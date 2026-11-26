@@ -84,7 +84,6 @@ theorem actual_u3_q0_s4_pivot_card_four
   have hcard : (pivotsOf W).card = X.s := by omega
   simpa [hs] using! hcard
 
-#print axioms actual_u3_q0_s4_pivot_card_four
 
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW17U3Q0S4QuadCoordinates

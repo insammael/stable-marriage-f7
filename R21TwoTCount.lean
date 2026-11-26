@@ -173,7 +173,5 @@ theorem original_two_T_count :
   refine ⟨by omega,hic,?_⟩
   omega
 
-#print axioms original_outer_cuts_strict
-#print axioms original_two_T_count
 end
 end F7Manuscript.TripleCoordinateLattice.R21TwoT

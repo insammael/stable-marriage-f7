@@ -67,6 +67,4 @@ theorem no_dated_pp_with_two_centers_each_side
   have obs' : WindowObservation R off 13 bound' out := by simpa only [size] using! obs
   exact blocked_impossible out hit R binary obs'
 
-#print axioms execute_pattern_sound
-#print axioms no_dated_pp_with_two_centers_each_side
 end F7Manuscript.R21NormalEndpoint.PPInteriorDated

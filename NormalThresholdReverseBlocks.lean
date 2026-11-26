@@ -117,10 +117,5 @@ theorem normalLeaves_card_thresholdDual
   rw [← normalCenter_thresholdDual_eq C h221 h311 hz j]
   exact (inc_thresholdDual C (normalCenter C h221 h311 hz j) h).symm
 
-#print axioms componentIndex_thresholdDual
-#print axioms normalReverseIndex_val
-#print axioms normalCenter_thresholdDual_eq
-#print axioms normalCenterColor_thresholdDual
-#print axioms normalLeaves_card_thresholdDual
 
 end F7Manuscript.TripleCoordinateLattice

@@ -20,6 +20,5 @@ theorem reflect_reflect (S : Chart) :
     simp only [F7Manuscript.N4Reflection.reflect,
       F7Manuscript.N4Reflection.mirrorIndex_involutive]
 
-#print axioms reflect_reflect
 
 end F7Manuscript.ActualW33ReflectionInvolution

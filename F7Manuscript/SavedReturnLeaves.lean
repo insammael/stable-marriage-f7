@@ -1,5 +1,6 @@
 module
 
+public import Mathlib
 public import F7Manuscript.ReturnCertificate
 
 @[expose] public section
@@ -74,9 +75,5 @@ theorem reject_empty_word :
 theorem reject_wrong_return_event :
     ¬ Valid { (savedLeaves[0]'(by decide)) with event := 0 } := by decide
 
-#print axioms savedLeaves_valid
-#print axioms saved_leaf_excludes_actual
-#print axioms reject_empty_word
-#print axioms reject_wrong_return_event
 
 end F7Manuscript.ReturnCertificate

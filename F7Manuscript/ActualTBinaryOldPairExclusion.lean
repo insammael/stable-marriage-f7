@@ -125,6 +125,5 @@ theorem actual_no_outsider_T_old_binary_pair_ne_new
   have hne := disjoint_rows_old_binary_pair_ne R hold hnew c d hbinR
   rwa [(hs c).1,(hs d).2] at hne
 
-#print axioms actual_no_outsider_T_old_binary_pair_ne_new
 end
 end F7Manuscript.TripleCoordinateLattice

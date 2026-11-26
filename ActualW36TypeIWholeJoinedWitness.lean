@@ -309,6 +309,5 @@ theorem actual_typeI_whole_joined_witness
       exact hbound
     · simpa [pre, post, centerColor, postCenterColor] using! hq
 
-#print axioms actual_typeI_whole_joined_witness
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW36TypeIWholeJoinedWitness

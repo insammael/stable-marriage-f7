@@ -77,7 +77,5 @@ theorem transport_saturated_full_actual_provenance
     simp only [actualPastBefore, Finset.mem_filter, Finset.mem_univ, true_and]
     simp [reindexRun]
 
-#print axioms transportSaturated
-#print axioms transport_saturated_full_actual_provenance
 end
 end F7Manuscript.ActualW28R20SaturatedRelabel

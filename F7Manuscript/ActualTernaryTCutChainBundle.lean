@@ -428,10 +428,6 @@ theorem actual_T_singleton_source_mixed_capacity
   exact OneGap.actual_mixed_capacity_of_disjoint_prehistory
     R plan bits ι hι hselected U hdis K hpre
 
-#print axioms singleton_ternary_prefix_history_of_actual_supports
-#print axioms singleton_ternary_prefix_participation_of_actual_supports
-#print axioms actual_T_singleton_source_pool_memory
-#print axioms actual_T_singleton_source_mixed_capacity
 
 end
 end F7Manuscript.TripleCoordinateLattice
@@ -654,8 +650,6 @@ theorem paired_block_prefix_source_uniform_capacity
     hselected U hdis (paired_block_prefix_participation_of_actual_supports
       Q B h221 h311 hz j hD hK D e R hsupport L hprefix)
 
-#print axioms paired_block_prefix_participation_of_actual_supports
-#print axioms paired_block_prefix_source_uniform_capacity
 
 end
 end F7Manuscript.TripleCoordinateLattice
@@ -698,7 +692,6 @@ theorem subset_q0_spanning_chart_same_decisions
   exact ⟨actualSubsetNormalQ0Chart Q B h221 h311 hz hq,
     actualSubsetNormalQ0Chart_events Q B h221 h311 hz hq, rfl⟩
 
-#print axioms subset_q0_spanning_chart_same_decisions
 
 theorem actual_T_singleton_post_cut_pool_data
     (C : Partition (V := Event I)) [Nonempty (Triple C)]
@@ -769,7 +762,6 @@ theorem actual_T_singleton_post_cut_pool_data
     simp only [bits, centerPlanBits, Nat.zero_add, hb1, Bool.not_true]
   exact ⟨hKmap, hbits, hcapacity, hmemory, hnoreturn⟩
 
-#print axioms actual_T_singleton_post_cut_pool_data
 
 end
 end F7Manuscript.TripleCoordinateLattice
@@ -911,8 +903,6 @@ theorem actual_T_ternary_singleton_q0_thirteen_impossible
   rw [hplan] at hcap hmem hno
   exact (saved_thirteen_pool_shapes_impossible _ hKmap ps hps _ hbits hcap hmem) hno
 
-#print axioms saved_thirteen_pool_shapes_impossible
-#print axioms actual_T_ternary_singleton_q0_thirteen_impossible
 
 end
 end F7Manuscript.TripleCoordinateLattice
@@ -1124,7 +1114,6 @@ theorem actual_T_ternary_singleton_q0_eleven_impossible
   exact saved_eleven_pool_shapes_impossible K (by simpa [K] using! hK) ps hps bits
     hbits0 hcap' hmem' hno'
 
-#print axioms actual_T_ternary_singleton_q0_eleven_impossible
 
 end
 end F7Manuscript.TripleCoordinateLattice

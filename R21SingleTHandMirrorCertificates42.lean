@@ -806,7 +806,5 @@ def mirrorF14 : PersonalCertificate where
   closedPre := by decide
   closedPost := by decide
   incompatible := by decide
-#print axioms mirrorA12
-#print axioms mirrorF14
 end
 end F7Manuscript.R21SingleTHand

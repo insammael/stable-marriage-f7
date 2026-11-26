@@ -91,5 +91,4 @@ theorem afterPaired_stateOfFrame_valid (f : F7Local.SupportFrame)
     exact hij
   exact pairedValiditySlotSource_injective f.last cross label (hv hbase)
 
-#print axioms afterPaired_stateOfFrame_valid
 end F7Manuscript.ActualPairedFrameValidity

@@ -50,7 +50,5 @@ theorem normalized_word_eq_macroColors
       (hadj k (by omega)) hza (hadj (k + 1) (by omega)).symm
     simpa [hp] using! hthird
 
-#print axioms pivotsOf
-#print axioms normalized_word_eq_macroColors
 
 end F7Manuscript.W7NormalizedWordMacroReconstruction

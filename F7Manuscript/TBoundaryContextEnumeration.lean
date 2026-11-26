@@ -104,6 +104,5 @@ theorem T_boundary_context_enumeration_points {N : ℕ}
       simp only [concatenateMap,dif_neg hiRQ,hcRQ] at hp
       simpa only [dif_neg hiR,dif_neg hiQ] using! hp
 
-#print axioms T_boundary_context_enumeration_points
 end
 end F7Manuscript.TripleCoordinateLattice

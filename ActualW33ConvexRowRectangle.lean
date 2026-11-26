@@ -262,9 +262,6 @@ theorem convexRowRectangle_data
   dsimp -failIfUnchanged only [convexRowRectangle]
   exact ⟨rfl, rfl, rfl, rfl⟩
 
-#print axioms convexRowRectangleFacts
-#print axioms convexRowRectangle
-#print axioms convexRowRectangle_data
 
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW33ConvexRowRectangle

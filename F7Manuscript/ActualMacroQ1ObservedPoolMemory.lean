@@ -449,7 +449,6 @@ theorem actual_macro_q1_observed_pool_memory
   run_tac Lean.logInfo "Q1ObservedPoolMemory: all eleven future slots aligned"
   exact ⟨D,e,f,hfixed,hKf,⟨H⟩,hprefixP,hpast,hcross,b,hmemory,htailAlignment,hlocal⟩
 
-#print axioms actual_macro_q1_observed_pool_memory
 
 end
 end F7Manuscript.TripleCoordinateLattice

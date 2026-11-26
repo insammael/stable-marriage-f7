@@ -87,7 +87,6 @@ theorem actual_X_u4_cost_three_P178_false
   rw [hmin, hsum] at hthreshold
   norm_num at hthreshold
 
-#print axioms actual_X_u4_cost_three_P178_false
 
 end
 end F7Manuscript.ActualW16U4P178PeriodicExclusion

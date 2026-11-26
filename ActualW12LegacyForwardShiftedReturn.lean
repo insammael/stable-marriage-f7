@@ -135,7 +135,6 @@ theorem actual_X_forward_shifted_return_root_false
   apply old_return_entry_false carrier entry ?_ hrootPlan
   rw [entry.norm_eq]
 
-#print axioms actual_X_forward_shifted_return_root_false
 
 end
 end F7Manuscript.ActualW12LegacyForwardShiftedReturn

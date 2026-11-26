@@ -95,8 +95,6 @@ theorem actual_X_p310_prefix_min_endpoint_zero_false
   exact F7Manuscript.ActualW15P310Root13MinTwoExclusion.actual_X_p310_root13_min_le_two_false
     C hn hδ h221 h311 hG hT X hprefix hDzero (by rw [hmin]; omega)
 
-#print axioms actual_X_p56_prefix_min_endpoint_zero_false
-#print axioms actual_X_p310_prefix_min_endpoint_zero_false
 
 end
 end F7Manuscript.ActualW16P56P310GenericThresholdFalse

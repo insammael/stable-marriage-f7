@@ -50,6 +50,5 @@ theorem actual_mirror_post_graphGuard {n m : ℕ}
       have hbad : mirrorRejectedSnapshot t=true := by rwa [mirrorRejected_physical_eq] at hr
       exact (mirrorRejectedSnapshot_excludes L R h hbL hbR k l s t hLs hLv hRs hRv hs hbad).elim
 
-#print axioms actual_mirror_post_graphGuard
 end
 end F7Manuscript.R21SingleTHand

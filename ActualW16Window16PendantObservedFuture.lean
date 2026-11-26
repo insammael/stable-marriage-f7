@@ -98,7 +98,5 @@ theorem W16B1_future_from_observed_prefix {W : Type*} [Fintype W] {q : ℕ}
   rw [W16B1_prefixFresh_eq] at transported
   exact W16B1_future_le_six transported
 
-#print axioms W16A0_future_from_observed_prefix
-#print axioms W16B1_future_from_observed_prefix
 
 end F7Manuscript.ActualW16Window16PendantObservedFuture

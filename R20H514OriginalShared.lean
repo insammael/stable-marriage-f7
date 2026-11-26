@@ -100,10 +100,6 @@ theorem original_14_0_same_original_execution_contradiction
       C h221 h311 hR20 houtside hG hnoT
       D hq hm0 hm1 hdef
 
-#print axioms CounterDeficitTransport.original_mixed_counter_hdef
-#print axioms original_14_0_pre_bridge_without_hdef
-#print axioms original_pre_14_0_low_deficit_contradiction
-#print axioms original_14_0_same_original_execution_contradiction
 
 end
 

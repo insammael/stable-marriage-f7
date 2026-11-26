@@ -87,6 +87,5 @@ theorem DatedPlan.reseedPairedHead {W : Type*} [Fintype W]
       (by rw [show afterCenter fpre 0 false=afterPaired initialSupport (bits 0) (bits 1) from pairedPreFrame_after _ _]; exact colors) bin
     exact ⟨reindexRun S e,newBound,P,bin'⟩
 
-#print axioms DatedPlan.reseedPairedHead
 end
 end F7Manuscript.R21NormalEndpoint.ReseededObservation

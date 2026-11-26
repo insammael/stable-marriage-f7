@@ -28,6 +28,5 @@ theorem noReturn_identity_source14_eight_words (bits : Nat → Bool)
     F7Manuscript.ActualW16Window0Returns.noReturn_source14_eight_words
       bits h0 h1 (by simpa [window0Plan] using! N)
 
-#print axioms noReturn_identity_source14_eight_words
 
 end F7Manuscript.ActualW16Window0ForcingAPI

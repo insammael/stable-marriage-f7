@@ -86,7 +86,6 @@ private theorem mixed13_literal_chart_whole_block_contradiction
     h7_sameW_tail13_binaryPrefix_contradiction
       (I := I) hR20 W b hb hspan hprefix
 
-#print axioms mixed13_literal_chart_whole_block_contradiction
 
 /--
 The original H7 mixed (1,13) branch is contradictory.
@@ -195,17 +194,10 @@ theorem h7_original_mixed13_contradiction
     mixed13_literal_chart_whole_block_contradiction
       (I := I) K hconv Edual hR20 H hperiodic hinitial hwhole
 
-#print axioms h7_original_mixed13_contradiction
 
 -- Composition audits.
-#print axioms h7_original_mixed13_post_same_K_literal_chart_exists
-#print axioms h7_original_mixed13_whole_post_block16
-#print axioms mixed13_chart_to_same_whole_reverse_prefix
-#print axioms h7_sameW_tail13_binaryPrefix_contradiction
 
 -- Original-data provenance.
-#print axioms OriginalSameKSource.enumeration
-#print axioms OriginalSameKSource.data
 
 end
 

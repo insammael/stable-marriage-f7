@@ -53,9 +53,5 @@ theorem B_future_from_observed_prefix {W : Type*} [Fintype W] {q : ℕ}
   rw [← B0_prefixFresh] at transported
   exact B_future_le_two transported
 
-#print axioms A0_prefixFresh
-#print axioms B0_prefixFresh
-#print axioms A_future_from_observed_prefix
-#print axioms B_future_from_observed_prefix
 
 end F7Manuscript.PartnerGraph.PureShortCut.TerminalFutureBinding

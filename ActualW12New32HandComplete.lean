@@ -103,6 +103,5 @@ theorem new32_bit5_true (bits : Nat → Bool)
               2 6 (by decide) (Or.inr hp) hs)
         | true => rfl
 
-#print axioms new32_bit5_true
 
 end F7Manuscript.ActualW12New32HandComplete

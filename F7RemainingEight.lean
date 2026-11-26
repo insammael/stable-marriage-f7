@@ -32,7 +32,5 @@ theorem f7_eq_85_of_eight_R21
     exact r21_one_outsider_two_G_leaf I
   exact remaining I u b c (by simp [r21RemainingEight,hmem,h,g])
 
-#print axioms remaining_eight_length
-#print axioms f7_eq_85_of_eight_R21
 end
 end F7Manuscript.ActualPositiveDeficitCoverAssembly

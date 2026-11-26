@@ -244,6 +244,5 @@ theorem actual_c6_support_splice_impossible
   exact actual_c6_zero_cost_observation_impossible R 0 k hk2 hk7 row phase bits norm
     hbound Hobs (by simpa only [word, hkn] using! hsupport)
 
-#print axioms actual_c6_support_splice_impossible
 end
 end F7Manuscript.PartnerGraph.Sized

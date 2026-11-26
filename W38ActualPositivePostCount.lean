@@ -68,7 +68,6 @@ theorem actual_positive_post_count_le_85
   exact W38ProFourActualCases.actual_four_diagram_run_false
     S A hmS hqS j hjS hjD hother hpivot
 
-#print axioms actual_positive_post_count_le_85
 
 end
 end F7Manuscript.TripleCoordinateLattice.W38ActualPositivePostCount

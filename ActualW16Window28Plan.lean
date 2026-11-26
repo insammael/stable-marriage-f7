@@ -20,7 +20,6 @@ def window28Plan : List Move :=
 theorem window28Plan_eventCount : eventCount window28Plan = 10 := by
   norm_num [window28Plan, eventCount]
 
-#print axioms window28Plan_eventCount
 
 /-- First HAND-forced 14-pair word (schedule 0000010000). -/
 def W28A0Word : List Pair :=

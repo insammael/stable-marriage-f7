@@ -28,6 +28,5 @@ theorem f7_eq_85_of_remaining_r20_and_r21
     (fun I _ => F7Manuscript.TripleCoordinateLattice.ActualW35R20Leaf010.actual_r20_leaf010)
     h200 h110 h001 r21rest
 
-#print axioms f7_eq_85_of_remaining_r20_and_r21
 end
 end F7Manuscript.ActualW35F7AfterOneGLeaf

@@ -101,6 +101,5 @@ theorem actual_budget_three_entry_final_switch
     · exact Or.inr ⟨j, r, hb, ha, hrzero, hd, hcharge, Or.inr (Or.inl hq2)⟩
     · exact Or.inr ⟨j, r, hb, ha, hrzero, hd, hcharge, Or.inr (Or.inr hq3)⟩
 
-#print axioms actual_budget_three_entry_final_switch
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW29R20ActualBudgetEntryFinalSwitch

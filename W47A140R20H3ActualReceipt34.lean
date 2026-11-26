@@ -137,6 +137,3 @@ end
 
 end F7Manuscript.OriginalStateReceipt.A131Section84
 
-#print axioms F7Manuscript.OriginalStateReceipt.A131Section84.whole_pair13_24_execution_false
-#print axioms F7Manuscript.OriginalStateReceipt.A131Section84.whole_pair12_34_execution_false
-#print axioms F7Manuscript.OriginalStateReceipt.A131Section84.whole_pair14_23_execution_false

@@ -60,10 +60,5 @@ theorem unorientedActualGlobalScalarKey_flags_at
     else actualGFixedCenterFlagsAtMacro A hn h221 h311 k
       (actualGlobalMacroFixedColor A E k)) j (false,false)
 
-#print axioms getD_ofFn_atFin
-#print axioms unorientedActualGlobalScalarKey_kind_at
-#print axioms unorientedActualGlobalScalarKey_group_at
-#print axioms unorientedActualGlobalScalarKey_length_at
-#print axioms unorientedActualGlobalScalarKey_flags_at
 end
 end F7Manuscript.TripleCoordinateLattice

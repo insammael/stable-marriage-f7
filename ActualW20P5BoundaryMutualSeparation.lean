@@ -81,7 +81,5 @@ theorem p5_mutual_event_not_boundary
   · subst x; subst y; exact hyOut hrightS
   · subst x; subst y; exact hyOut hleftS
 
-#print axioms p5_boundary_arrival_is_singleton
-#print axioms p5_mutual_event_not_boundary
 
 end F7Manuscript.ActualW20P5BoundaryMutualSeparation

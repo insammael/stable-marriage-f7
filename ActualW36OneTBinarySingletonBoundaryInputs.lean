@@ -103,6 +103,5 @@ theorem actual_one_T_binary_singleton_boundary_inputs
     simpa only [hRpostLeft] using! (hpostBin c).1
   exact ⟨j, hmacroT, hOld, hNew⟩
 
-#print axioms actual_one_T_binary_singleton_boundary_inputs
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW36OneTBinarySingletonBoundaryInputs

@@ -98,7 +98,6 @@ theorem actual_outside_three_surviving_query_key7
     exact hnot
   exact ⟨X,k,hmem7,hu,hq,hs,hm,hW,hD,hsk,huk,hvk⟩
 
-#print axioms actual_outside_three_surviving_query_key7
 
 end
 end F7Manuscript.ActualW21OutsideThreeAfterW9

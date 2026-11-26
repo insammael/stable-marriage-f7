@@ -73,6 +73,5 @@ theorem actual_budget_three_q_one_constant_sign
     have hfloorS : 4 ≤ S.q + S.s + e := hfloor
     omega
 
-#print axioms actual_budget_three_q_one_constant_sign
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW30R20BudgetThreeQOneConstantSign

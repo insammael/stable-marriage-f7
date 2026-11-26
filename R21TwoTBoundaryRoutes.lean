@@ -110,7 +110,6 @@ theorem short_path_endpoint_word
   rw [←right c]
   exact hend c
 
-#print axioms short_path_endpoint_word
 
 theorem short_path_word_deciders (de : DecidableEq (Event I)) (dl : DecidableLE (Event I)) :
     letI : DecidableEq (Event I) := de
@@ -141,7 +140,6 @@ theorem short_path_word_deciders (de : DecidableEq (Event I)) (dl : DecidableLE 
   letI : Nonempty (Triple B) := ht
   exact short_path_endpoint_word C hn E R Q rfl B rfl hQ aa cc zz hm
 
-#print axioms short_path_word_deciders
 
 end
 end F7Manuscript.TripleCoordinateLattice.R21FourEndpoint
@@ -195,7 +193,5 @@ theorem original_endpoint_word_all_centers (i : Fin (M+1)) :
   · exact original_endpoint_word C hn h221 h311 hu i h
   · exact original_short_endpoint_word C hn h221 h311 hu i (by omega)
 
-#print axioms original_short_endpoint_word
-#print axioms original_endpoint_word_all_centers
 end
 end F7Manuscript.TripleCoordinateLattice.R21FourEndpoint

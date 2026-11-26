@@ -175,6 +175,5 @@ theorem new7_positive_prefix_packet
         simp [new7Plan,sourcePrefix,routePrefix,initialSupport,initialWord,centerPair,afterCenter,pairedPairs,afterPaired,leftCoord,rightCoord,select,other,put,Fin.ofNat,h0,h1,h2,h3,h4',h5,h6',h7',h8,h9,wordX1Y1]
   exact ⟨h4,h5,h6,h7,h8,hword⟩
 
-#print axioms new7_positive_prefix_packet
 
 end F7Manuscript.ActualW12New7PositivePrefixHand

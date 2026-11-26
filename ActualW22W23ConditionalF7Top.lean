@@ -30,7 +30,6 @@ theorem f7_eq_85_of_nonempty_universal_upper
     rw [StableIdeals.stableCount_eq_zero_of_isEmpty I]
     omega
 
-#print axioms f7_eq_85_of_nonempty_universal_upper
 
 end
 end F7Manuscript.ActualW22W23ConditionalF7Top

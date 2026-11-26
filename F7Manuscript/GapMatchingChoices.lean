@@ -126,6 +126,4 @@ theorem gap_rows_relabel (A B D X Y : Finset Site)
     ((Finset.disjoint_map e.toEmbedding).mpr hXY) hXB' hXD' hYB' hYD'
   exact ⟨e,heA,heB,heD,t,label,ht⟩
 
-#print axioms gap_rows_exhaustive
-#print axioms gap_rows_relabel
 end F7Manuscript.OneGap

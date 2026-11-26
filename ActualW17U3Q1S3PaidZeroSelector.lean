@@ -644,7 +644,6 @@ theorem endpoint_root_metadata (i : Nat) (hi : i < 34) :
   · simpa [endpointRoot, endpointRootLength, endpointRootPivots] using! endpoint_root_metadata_032
   · simpa [endpointRoot, endpointRootLength, endpointRootPivots] using! endpoint_root_metadata_033
 
-#print axioms endpoint_root_metadata
 
 end
 end F7Manuscript.ActualW17U3Q1S3PaidZeroSelector

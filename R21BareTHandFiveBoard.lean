@@ -28,5 +28,4 @@ def rejectMass : Nat → Board → SupportFrame → Bool → Bool
 theorem fixed_free_five_A_no_mass_seven : ∀ (p : Fin 6) (bits : Fin 8) (last : Fin 3),
  rejectMass 7 endA (seedFrame seedRightA 1 p bits last) false=true := by decide +kernel
 
-#print axioms fixed_free_five_A_no_mass_seven
 end F7Manuscript.TripleCoordinateLattice.R21BareTHandFive

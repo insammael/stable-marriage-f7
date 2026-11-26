@@ -79,9 +79,6 @@ theorem actual_fourteen_normalized_third_color (H : FrontierChart I 14)
   generalize hc : a (H.word 2) = c at ha0 ha1 ⊢
   fin_cases c <;> simp_all
 
-#print axioms actual_fourteen_ABA_shape
-#print axioms actual_fourteen_word0_ne_word2
-#print axioms actual_fourteen_normalized_third_color
 
 end
 end F7Manuscript.ActualQ0FourteenShape

@@ -167,8 +167,6 @@ theorem paid_singleton_old0_false_m9_of_off_center
   exact paid_singleton_old0_false_of_two_sided_reach W D 9 i hreach hW hD hi
     hDpos hDzero hpiv hforward hreverse
 
-#print axioms paid_singleton_old0_false_of_two_sided_reach
-#print axioms paid_singleton_old0_false_m9_of_off_center
 
 end
 end F7Manuscript.ActualW16PaidSingletonTwoSidedReach

@@ -525,8 +525,5 @@ theorem isolated_g_joint_pair_increment_le_three_of_both_empty
     exact Nat.eq_zero_of_le_zero hc
   omega
 
-#print axioms isolated_g_joint_pair_increment_le_five
-#print axioms isolated_g_joint_pair_increment_le_four_of_empty_context
-#print axioms isolated_g_joint_pair_increment_le_three_of_both_empty
 end
 end F7Manuscript.TripleCoordinateLattice

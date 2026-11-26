@@ -102,6 +102,5 @@ theorem singleton_switch_rectangle_eq_five
       exact (mem_fourActorRectangleInterval a b c d d).mpr
         ⟨Or.inr (hj.1.trans hj.2).le,Or.inr le_rfl⟩
 
-#print axioms singleton_switch_rectangle_eq_five
 end
 end F7Manuscript.TripleCoordinateLattice

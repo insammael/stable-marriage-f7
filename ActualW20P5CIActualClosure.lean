@@ -288,5 +288,4 @@ theorem p5_actual_CI_chronology_impossible
     hNeitherCard hOne2 hOne6 hBothM hqne hpre2 hpre6 y2 y6 hends2' hends6'
     hy2 hy6 hylast hCI.2.2 hmends
 
-#print axioms p5_actual_CI_chronology_impossible
 end F7Manuscript.ActualW20P5CIActualClosure

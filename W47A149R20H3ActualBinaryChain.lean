@@ -157,9 +157,6 @@ theorem actual_chain_binary_support
 
 end Actual
 
-#print axioms cover_cards_eq_of_exclusions
-#print axioms three_support_cards_eq_three_false
-#print axioms actual_chain_binary_support
 
 end
 

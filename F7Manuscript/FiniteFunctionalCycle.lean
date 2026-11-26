@@ -1,5 +1,6 @@
 module
 
+public import Mathlib
 public import F7Manuscript.PartnerGraphCore
 public import Mathlib.Dynamics.PeriodicPts.Defs
 public import Mathlib.Data.Fintype.Pigeonhole
@@ -78,6 +79,5 @@ theorem finite_functional_cycle (X : Type*) [Fintype X] [DecidableEq X]
   rw [hgetNext, hmod, Function.iterate_succ_apply']
   exact congrArg f hget.symm
 
-#print axioms finite_functional_cycle
 
 end F7Manuscript.PartnerGraph

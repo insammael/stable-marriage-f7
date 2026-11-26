@@ -74,5 +74,4 @@ theorem actual_AABB_six_entry_three_is_origin
   exact ⟨by simpa [hy6] using! hends,horigin,
     fixedTokenSwapTrace_initialTokenEarlier tr u.castSucc 6 horigin⟩
 
-#print axioms actual_AABB_six_entry_three_is_origin
 end F7Manuscript.ActualW20P6AABBSixEntryOrigin

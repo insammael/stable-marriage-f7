@@ -129,7 +129,6 @@ theorem q0_all_windows_same_X_demand
       simp only [SavedQ0Demand, w, if_neg hbudgetNotReturn]
       omega
 
-#print axioms q0_all_windows_same_X_demand
 #eval IO.eprintln "W12 legacy Q0 all-windows actual checked"
 
 end

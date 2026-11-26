@@ -50,5 +50,4 @@ theorem p5_boundary_source_token_two_is_origin
     simpa [hy] using! hprey
   · exact False.elim (hyOut (p5_source_two_inside y hrel))
 
-#print axioms p5_boundary_source_token_two_is_origin
 end F7Manuscript.ActualW20P5SpecialBoundarySourceOrigin

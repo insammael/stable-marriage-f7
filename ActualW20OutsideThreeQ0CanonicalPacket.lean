@@ -68,6 +68,5 @@ theorem actual_outside_three_q0_canonical_packet
   exact ⟨X,⟨a,by omega⟩,⟨b,by omega⟩,⟨c,by omega⟩,⟨d,by omega⟩,
     hu,hq,hs,hm,hab,hbc,hcd,ha1,hd13,hW,hD,hendpoints,ha4,hzero,htail⟩
 
-#print axioms actual_outside_three_q0_canonical_packet
 end
 end F7Manuscript.ActualW20OutsideThreeQ0CanonicalPacket

@@ -151,9 +151,6 @@ theorem actorEquiv_oldObservation_memory
     rw [hback] at hmem
     exact ⟨⟨hobs⟩,hmem⟩
 
-#print axioms actor_old_support_factor
-#print axioms actor_factor_preservesInitialWord
-#print axioms actorEquiv_oldObservation_memory
 
 end
 end F7Manuscript.ActualW9D2ActorOldMemory

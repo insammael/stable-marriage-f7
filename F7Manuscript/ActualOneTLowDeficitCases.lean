@@ -105,7 +105,6 @@ theorem actual_one_T_low_deficit_short_long_cases
     · exact Or.inr (Or.inr (Or.inr (Or.inr (Or.inl ⟨hq1, hm1, by omega⟩))))
     · exact Or.inr (Or.inr (Or.inr (Or.inr (Or.inr ⟨hq2, hm1, by omega⟩))))
 
-#print axioms actual_one_T_low_deficit_short_long_cases
 
 end
 end F7Manuscript.TripleCoordinateLattice

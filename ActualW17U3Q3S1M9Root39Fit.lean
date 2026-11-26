@@ -138,7 +138,6 @@ theorem old39_root_fit_refutes_central_frontier
       exact h8
     exact root39_orientation_false W D true hWlen hDlen hDzero hrev hD4 hpiv hreverse
 
-#print axioms old39_root_fit_refutes_central_frontier
 
 end
 end F7Manuscript.ActualW17U3Q3S1M9Root39Fit

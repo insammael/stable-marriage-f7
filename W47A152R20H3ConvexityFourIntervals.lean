@@ -27,4 +27,3 @@ theorem orderConvex_of_four_intervals
 
 end F7Manuscript.SupportBridge
 
-#print axioms F7Manuscript.SupportBridge.orderConvex_of_four_intervals

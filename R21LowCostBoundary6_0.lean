@@ -11,5 +11,4 @@ namespace F7Manuscript.R21NormalEndpoint
 theorem not_actualTerminal_9_0 : ¬ ActualTerminal 9 0 :=
   BoundaryAtlas.no_exact_of_verified_coverage (x := 6) BoundaryAtlas.Case6_0.trace_coverage
 
-#print axioms not_actualTerminal_9_0
 end F7Manuscript.R21NormalEndpoint

@@ -56,6 +56,5 @@ theorem no_dated_first_paired_seven (n : Nat) :
       exact ih (pre.map p.perm) (by simpa using! count') S (off+1) (len-1) newBound
         (post.map p.perm) (by simpa using! seven) (recolorPlan p tail) (fun k => bits (k+1)) normalized bin
 
-#print axioms no_dated_first_paired_seven
 end
 end F7Manuscript.R21NormalEndpoint.ReseededObservation

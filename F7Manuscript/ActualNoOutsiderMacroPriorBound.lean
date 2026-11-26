@@ -126,7 +126,5 @@ theorem actual_r21_no_outsider_G_macro_credit_after_prior
   rw [hzero]
   simpa only [macroIntroductionCredit, n, sub_zero, Nat.cast_zero] using! hcredit
 
-#print axioms actual_no_outsider_next_run_prior_le_future_cross
-#print axioms actual_r21_no_outsider_G_macro_credit_after_prior
 end
 end F7Manuscript.TripleCoordinateLattice

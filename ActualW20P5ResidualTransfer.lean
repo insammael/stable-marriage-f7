@@ -51,5 +51,4 @@ theorem p5_residual_special_token_transfer
     refine ⟨T.rightSite q, T.left q, hends.2, hends.1,
       (T.distinct q).symm, hR, hpostL, Or.inr ⟨rfl,rfl⟩⟩
 
-#print axioms p5_residual_special_token_transfer
 end F7Manuscript.ActualW20P5ResidualTransfer

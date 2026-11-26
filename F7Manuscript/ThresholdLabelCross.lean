@@ -74,6 +74,5 @@ theorem double_label_cross_le
     simpa [w,wcoord,hij] using! hh
   exact threshold_label_not_le_ideal C D h hnot hi hwi
 
-#print axioms double_label_cross_le
 end
 end F7Manuscript.TripleCoordinateLattice

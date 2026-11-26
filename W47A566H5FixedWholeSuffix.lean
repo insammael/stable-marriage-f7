@@ -102,9 +102,6 @@ theorem fixedWhole17_suffix_suppliers
   · rw [fixedWhole17_costFrom]
     exact hcost
 
-#print axioms fixedWhole17_atomic
-#print axioms fixedWhole17_costFrom
-#print axioms fixedWhole17_suffix_suppliers
 
 end
 

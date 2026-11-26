@@ -30,7 +30,6 @@ theorem r21_two_outsiders_one_G_original (I : Profile 7) [Nonempty (StableMatchi
   letI := htr
   exact G2_window_of_table _ size (actual_r21_normal_window_cost C hn h221 h311 i)
 
-#print axioms r21_two_outsiders_one_G_original
 end
 end F7Manuscript.ActualPositiveDeficitCoverAssembly
 

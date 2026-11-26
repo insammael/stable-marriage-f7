@@ -71,8 +71,5 @@ theorem run_donor_cycle (I : Profile 7) [Nonempty (StableMatching I)]
   apply StableCoverCycle.cover_donor_cycle
   exact state_step_covBy I Q hQ E i
 
-#print axioms lowerSet_singleton_cover
-#print axioms state_step_covBy
-#print axioms run_donor_cycle
 end
 end F7Manuscript.ConvexCoverCycle

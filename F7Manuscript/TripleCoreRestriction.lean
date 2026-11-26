@@ -142,10 +142,5 @@ theorem core_delta_zero_of_normal
   simp only [Nat.cast_zero, add_zero, mul_zero] at hdef
   omega
 
-#print axioms coreTripleOrderIso
-#print axioms core_delta_sub_outsiders
-#print axioms core_no_induced221
-#print axioms core_no_induced311
-#print axioms core_delta_zero_of_normal
 end
 end F7Manuscript.TripleCoordinateLattice

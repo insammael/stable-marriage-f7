@@ -31,8 +31,6 @@ def actualTPostRow (E : Enumeration (thresholdEvents C))
     (n : Fin (thresholdLength C)) : Fin 3 → Event I :=
   fun c => ((GenericThresholdPath.path C E n.succ).val c).val
 
-#print axioms actualTPreRow
-#print axioms actualTPostRow
 
 end
 end F7Manuscript.TripleCoordinateLattice.W38ActualTRowAliasesParametric

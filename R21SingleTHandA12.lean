@@ -67,8 +67,5 @@ theorem A12_actual_person_impossible {n m : ℕ}
     (Fin.last m) (Fin.le_last _)
   exact A12_no_complement _ _ _ _ hIL hIR (observed_ends_complement L R h k l a A12U hu)
 
-#print axioms A12_pre_closed
-#print axioms A12_no_complement
-#print axioms A12_actual_person_impossible
 end
 end F7Manuscript.R21SingleTHand

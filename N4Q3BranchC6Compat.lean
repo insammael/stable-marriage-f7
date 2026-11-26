@@ -1005,7 +1005,6 @@ needs a separate d≤2 supplier; the actual structural
 normalLeaves_card_le_two_in_core does not apply to an arbitrary Chart.
 -/
 
-#print axioms actual_normal_core_q3_n19_cost_ge_four
 
 end
 end F7Manuscript.N4Q3Branch

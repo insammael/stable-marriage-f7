@@ -92,7 +92,5 @@ theorem perfect_matching_permutation (F : Finset (Fin 3 × Fin 3))
     change m i=j at hij
     exact hij ▸ hm i
 
-#print axioms matching_equality
-#print axioms perfect_matching_permutation
 
 end NeutralCore

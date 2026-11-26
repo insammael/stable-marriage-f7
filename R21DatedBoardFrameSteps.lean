@@ -72,5 +72,4 @@ structure TwoRouteContext (R : TokenRun Site Site 21) (off len : Nat)
   leftClosed : b.left.shut=true → off=0
   rightClosed : b.right.shut=true → off+len=21
 
-#print axioms checked_frame_update
 end F7Manuscript.R21LongWindow.DatedBoardSteps

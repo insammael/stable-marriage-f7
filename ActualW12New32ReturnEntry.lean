@@ -53,8 +53,6 @@ theorem new32_metadata :
     have hi' : i < 7 := by omega
     interval_cases i <;> decide
 
-#print axioms new32_return_entry
-#print axioms new32_metadata
 
 #eval IO.eprintln "W12 NEW32 return-entry checked"
 

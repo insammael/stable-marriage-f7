@@ -129,6 +129,5 @@ theorem original_bare_T_runs
     (r21_literal_post_route_on_new_row C hn h221 h311 (coordinatePermutation s) _ v1 rm1)
     (outer_pair_decisions (I := I) inferInstance inferInstance hn P Q hP hQ parts.2.2 (by omega))
 
-#print axioms original_bare_T_runs
 end
 end F7Manuscript.TripleCoordinateLattice.R21BareT

@@ -122,7 +122,6 @@ theorem actual_X_u4_cost_three_P56_prefix_false
     have hlevel0 := hDzeroReverse 0 (by omega)
     omega
 
-#print axioms actual_X_u4_cost_three_P56_prefix_false
 
 end
 end F7Manuscript.ActualW16U4P56PrefixExclusion

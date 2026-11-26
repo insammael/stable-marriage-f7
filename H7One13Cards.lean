@@ -66,4 +66,3 @@ end
 
 end F7Manuscript.TripleCoordinateLattice
 
-#print axioms F7Manuscript.TripleCoordinateLattice.a523_original_mixed_counter_1_13_run_cards

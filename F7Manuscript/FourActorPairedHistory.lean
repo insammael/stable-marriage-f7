@@ -90,7 +90,6 @@ theorem normalize_six_AXA {W : Type*} [Fintype W]
   · exact (sixStepWord_not_realized S _ _ last revLast hret hreal).elim
   · exact ⟨e,mid,hmid',revMid,revLast,hreal⟩
 
-#print axioms normalize_six_AXA
 end
 end F7Manuscript.FourActorWindowNormalization
 
@@ -146,6 +145,5 @@ theorem SixRectangleHistory.normalized_AXA
     rw [Finset.card_union_of_disjoint ho,hbin 0,hbin 1,H.fourActors]
   exact normalize_six_AXA R hbin ho (fun k => hpool.symm ▸ hsub k) hm hn
 
-#print axioms SixRectangleHistory.normalized_AXA
 end
 end F7Manuscript.ActualGlobalCoverAssembly

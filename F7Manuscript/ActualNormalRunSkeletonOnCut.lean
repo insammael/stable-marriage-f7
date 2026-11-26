@@ -43,7 +43,6 @@ theorem actual_normal_run_skeleton_on_cut
   delta actualOneGapNormalRunSkeleton
   congr 1 <;> apply Subsingleton.elim
 
-#print axioms actual_normal_run_skeleton_on_cut
 
 end
 end F7Manuscript.TripleCoordinateLattice

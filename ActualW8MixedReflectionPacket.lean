@@ -85,7 +85,6 @@ theorem reflect_packet {W : Type*} [Fintype W] {q : Nat}
   rw [hw]
   exact decode_controlWord _ _ _ _
 
-#print axioms reflect_packet
 
 end
 end F7Manuscript.ActualW8MixedReflectionPacket

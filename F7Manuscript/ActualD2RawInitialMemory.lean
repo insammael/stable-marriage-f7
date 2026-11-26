@@ -240,7 +240,6 @@ theorem actual_raw_first_frontier_memory
           _ = R.state (⟨3, by omega⟩ : Fin Q.card).castSucc x := (hout3).symm
           _ = R.state (last c).succ x := by rw [hlastSucc]
 
-#print axioms actual_raw_first_frontier_memory
 
 end
 end F7Manuscript.TripleCoordinateLattice

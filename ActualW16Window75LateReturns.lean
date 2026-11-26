@@ -265,6 +265,5 @@ theorem noReturn_window75_late_false (t : Matching) (bits : Nat → Bool)
       · exact tb_return_40 t bits N h0 h1 h2 h3' h4' h5' h6' h7' h8' h9 h10
     · exact tb_return_02 t bits N h0 h1 h2 h3' h4' h5' h6' h7' h8' h9
 
-#print axioms noReturn_window75_late_false
 
 end F7Manuscript.ActualW16Window75LateReturns

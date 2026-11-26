@@ -57,8 +57,6 @@ theorem r19_q0_actual_count_le_82 (C : Partition (V := Event I))
   rw [hn, hz] at hid
   omega
 
-#print axioms r20_q0_actual_count_le_85
-#print axioms r19_q0_actual_count_le_82
 
 end
 end F7Manuscript.ActualGlobalUnpairedBounds

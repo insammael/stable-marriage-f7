@@ -86,6 +86,5 @@ theorem actual_middle_root_with_crew (S : Chart) (f : SupportFrame) (b : ℕ→B
    · exact Or.inr ⟨by rw [hmap]; exact replay_mapped_root r _ _ _ _ h,
        by rw [hfinal]; exact hcrew,hid.trans h.1⟩
 
-#print axioms actual_middle_root_with_crew
 end
 end F7Manuscript.TripleCoordinateLattice.R21OneGHandCrew

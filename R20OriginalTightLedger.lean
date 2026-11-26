@@ -78,7 +78,5 @@ theorem r20_110_uniform_charge_iff_excludes_exact_two
   rw [hinc, heps]
   omega
 
-#print axioms r20_110_original_two_and_four_shapes
-#print axioms r20_110_uniform_charge_iff_excludes_exact_two
 end
 end F7Manuscript.ActualPositiveDeficitCoverAssembly

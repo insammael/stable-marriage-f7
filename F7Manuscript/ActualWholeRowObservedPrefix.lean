@@ -84,7 +84,6 @@ noncomputable def actual_whole_row_observed_prefix
     R
     e (fun i => (D.equiv i).val) hsupport horder row hanti k hlabel hkSupport t hkcut hdom
 
-#print axioms actual_whole_row_observed_prefix
 
 end
 end F7Manuscript.PartnerGraph.Sized

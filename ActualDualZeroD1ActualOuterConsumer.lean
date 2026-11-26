@@ -428,7 +428,6 @@ theorem actual_dual_zero_d1_actual_outer_false
                   (by simp [n₂]) hc₂actual hcenterStartOld hcenterStartNow
                   hpastOldFour hpastNowAt route₂ hd₂pos hroomBranch pairs₂
 
-#print axioms actual_dual_zero_d1_actual_outer_false
 
 end
 end F7Manuscript.ActualInputS11DualZeroD1ActualOuterConsumer

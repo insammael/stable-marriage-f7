@@ -37,6 +37,5 @@ theorem singleton_normal_paired_leaf_count
   · intro hnot
     exact False.elim (hnot (Finset.mem_univ _))
 
-#print axioms singleton_normal_paired_leaf_count
 end
 end F7Manuscript.TripleCoordinateLattice.GenericNormal

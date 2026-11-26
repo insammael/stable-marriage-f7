@@ -161,7 +161,6 @@ theorem actual_u3_q1_s3_paid8_extra27_all_orient_min_le_two_false
     exact actual_u3_q1_s3_paid8_extra27_reverse_min_le_two_false C hn hδ hdeficit hpos
       h221 h311 hG hT X hu hq hs hreverse hpaid hextra hafter
 
-#print axioms actual_u3_q1_s3_paid8_extra27_all_orient_min_le_two_false
 
 end
 end ActualW17Q1Saved45Anchor8Extra27AllOrientFalse

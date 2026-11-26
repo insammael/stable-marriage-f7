@@ -104,7 +104,6 @@ theorem new7_actual_saved_structural_threshold_le
         (sfuture.rename permX1Y1)
   omega
 
-#print axioms new7_actual_saved_structural_threshold_le
 #eval IO.eprintln "W12 NEW7 structural carrier threshold checked"
 
 end

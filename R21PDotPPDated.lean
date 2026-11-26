@@ -67,7 +67,4 @@ theorem no_dated_p_dot_pp
   have check : freshPass (p.map moveShape) initial=true := checked_p_dot_pp
   exact execute_fresh_impossible p bits 0 computed check
 
-#print axioms checked_p_dot_pp
-#print axioms execute_fresh_impossible
-#print axioms no_dated_p_dot_pp
 end F7Manuscript.R21NormalEndpoint.PDotPPDated

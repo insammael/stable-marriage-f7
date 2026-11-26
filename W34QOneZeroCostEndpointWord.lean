@@ -109,8 +109,5 @@ theorem naturalWord_eq_mod_three {S : Chart} (hs : S.s = 0)
       rw [hi, hmod] at hrec
       exact hrec
 
-#print axioms q1_zero_cost_double_endpoint
-#print axioms naturalWord_add_three_eq
-#print axioms naturalWord_eq_mod_three
 
 end F7Manuscript.W34QOneZeroCostEndpointWord

@@ -43,6 +43,5 @@ theorem CenterWord.safe_steps (R : TokenRun ReturnCertificate.Site ReturnCertifi
   · exact hs
   · simpa only [List.append_assoc,List.singleton_append,List.cons_append,List.nil_append,p] using! hsteps
 
-#print axioms CenterWord.safe_steps
 end
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

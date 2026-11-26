@@ -84,7 +84,6 @@ theorem actual_X_any_budget_root_flat_threshold
       rw [hoffset] at hbase'
       simpa only [if_neg hd, if_neg hj0] using! hbase' 
 
-#print axioms actual_X_any_budget_root_flat_threshold
 #eval IO.eprintln "W12 legacy any-budget-flat-threshold checked"
 
 end

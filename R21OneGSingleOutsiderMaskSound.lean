@@ -64,5 +64,4 @@ theorem overlapOnly_actual_masks {W : Type*} [Fintype W] {n m : Nat}
       rw [bit] at hf
       contradiction
 
-#print axioms overlapOnly_actual_masks
 end F7Manuscript.R21OneGMachine

@@ -157,5 +157,4 @@ theorem actual_BAA_firstB_one_false
   exact F7Manuscript.ActualW19P6CellAccounting.p6_three_distinct_unused_false tr
     (0,4) (5,4) (6,4) (by decide) (by decide) (by decide) h0 h5 h6
 
-#print axioms actual_BAA_firstB_one_false
 end F7Manuscript.ActualW20P6BAAFirstBOneHomeContradiction

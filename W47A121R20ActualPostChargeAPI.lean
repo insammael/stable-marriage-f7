@@ -110,7 +110,6 @@ theorem r20_a113_a121_a32_same_boundary_actual_post_charge_cost
   exact ⟨S, k, H, hSn, hSform, hScap, hPastOcc, hFutureOcc,
     hpostcharge, hcost⟩
 
-#print axioms r20_a113_a121_a32_same_boundary_actual_post_charge_cost
 
 end
 end F7Manuscript.TripleCoordinateLattice

@@ -22,6 +22,4 @@ theorem B_end_no_next_T (p : Fin 6) (bits : Fin 8) (last : Fin 3) :
  ¬LocalNextT endB (seedFrame seedRightB 2 p bits last) :=
  rejectPrefix_sound 3 _ _ (B_end_prefix_checked p bits last)
 
-#print axioms A_end_no_next_T
-#print axioms B_end_no_next_T
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

@@ -36,7 +36,6 @@ private theorem r20TransportDecidableEq
   cases he
   exact h
 
-#print axioms r20TransportDecidableEq
 
 /--
 Construct relation-decision transport while both the type and relation
@@ -53,7 +52,6 @@ private theorem r20TransportDecidableRel
   cases hd
   exact h
 
-#print axioms r20TransportDecidableRel
 
 def r20A227CountRule
     {I : Profile 7} [Nonempty (StableMatching I)]
@@ -92,7 +90,6 @@ private theorem r20A227CountRule_default
     @F7Manuscript.ActualR20H3.w47_a227_stableCount_le_85_of_original_mixed_no_T
       I hI C
 
-#print axioms r20A227CountRule_default
 
 -- Keep subsequent elaboration at the named-interface boundary.
 attribute [local irreducible] r20A227CountRule
@@ -118,7 +115,6 @@ private theorem r20A227CountRule_of_decEq
       e
       (@r20A227CountRule_default I hI C)
 
-#print axioms r20A227CountRule_of_decEq
 
 /--
 Change only DecidableLE.
@@ -141,7 +137,6 @@ theorem r20A227CountRule_of_decisions
       l
       (@r20A227CountRule_of_decEq I hI C e)
 
-#print axioms r20A227CountRule_of_decisions
 
 end
 

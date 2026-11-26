@@ -35,7 +35,5 @@ theorem insertAt_prefix_index_eq
     insertAt f x k ⟨q.val, by omega⟩ = f q := by
   simp [insertAt, hq]
 
-#print axioms insertAt_prefix_coordinate_bounds
-#print axioms insertAt_prefix_index_eq
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW30R20InsertedPrefixCoordinates

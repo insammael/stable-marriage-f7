@@ -259,6 +259,5 @@ theorem r21_literal_post_short_route_on_new_row
   exact path_segment_forward_short_route_from (I := I) inferInstance inferInstance
     C E R.left R.right R.ordered hQ hn hp.2.2.1 hp.2.1 hz a f hTriple hv hmatch hm
 
-#print axioms r21_literal_post_short_route_on_new_row
 end
 end F7Manuscript.TripleCoordinateLattice

@@ -55,6 +55,5 @@ theorem newSeed_oriented_correct : forall phase : Bool, forall s : Fin 6,
 theorem newSeed_correct : WordSnapshotCorrect newSeeds R21CrownBothPaired.newRows := by decide +kernel
 theorem newSeed_bound : seenBound R21CrownBothPaired.newRows := by unfold seenBound; decide +kernel
 
-#print axioms firstPaired_oriented_root_cover
 end
 end F7Manuscript.R21SingleTHand

@@ -152,20 +152,11 @@ theorem same_K_literal_chart_of_reverse_frontier_data
   exact same_K_reverse_frontier_literal_chart
     (I := I) K hconv F hRF hperiodic
 
-#check same_K_reverse_frontier_literal_chart
-#check same_K_literal_chart_of_reverse_frontier_data
 
-#print axioms same_K_reverse_frontier_literal_chart
-#print axioms same_K_literal_chart_of_reverse_frontier_data
 
 -- Audit the actual-execution and clock suppliers.
-#print axioms EventFrontierDual.reverse_binary_color_chart
-#print axioms EventFrontierDual.reverse_run_event_support
-#print axioms OrderFrontierEnumeration.enumeration_initial
 
 -- Audit the original same-K supplier and existing block producer.
-#print axioms F7Manuscript.TripleCoordinateLattice.h7_original_pure14_post_same_K_reverse_frontier_exists
-#print axioms h7_original_pure14_prefix_from_chart_exists_literal_block_no_hconv
 
 /-
 OPEN:

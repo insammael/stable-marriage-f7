@@ -104,9 +104,6 @@ theorem whole_initial_receipt_false
       omega)
     hreturn
 
-#print axioms whole_original_state_receipt_false
-#print axioms whole_actual_holding_receipt_false
-#print axioms whole_initial_receipt_false
 
 end
 

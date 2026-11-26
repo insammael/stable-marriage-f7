@@ -578,22 +578,6 @@ theorem actual_route_cut_source_noReturn
     (routeFrame A count) (actual_route_prefix_memory A count) e hmap
     plan bits hbound hsupport
 
-#print axioms actual_initial_frontier_memory
-#print axioms actual_route_prefix_memory
-#print axioms actual_route_cut_pair_rank
-#print axioms actual_route_cut_initialPast
-#print axioms actual_route_tail
-#print axioms actual_route_tail_support
-#print axioms actual_route_tail_rebased
-#print axioms supportsRoute_transport_relative
-#print axioms frontier_restart_noReturn_of_normalized_route
-#print axioms actual_cut_noReturn_of_mapped_after_first_route
-#print axioms actual_center_tail_noReturn_of_naming
-#print axioms frontierMemory_cyclic_recolor
-#print axioms mapped_afterCenter_zero_receipts
-#print axioms center_route_restart_noReturn
-#print axioms actual_center_tail_noReturn
-#print axioms actual_route_cut_source_noReturn
 
 end
 end F7Manuscript.N4ActualRouteMemory

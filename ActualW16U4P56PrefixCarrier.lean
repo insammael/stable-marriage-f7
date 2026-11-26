@@ -237,8 +237,6 @@ theorem actual_X_p56_reverse_prefix_threshold
 
 
 
-#print axioms actual_X_p56_forward_prefix_threshold
-#print axioms actual_X_p56_reverse_prefix_threshold
 
 end
 end F7Manuscript.ActualW16U4P56PrefixCarrier

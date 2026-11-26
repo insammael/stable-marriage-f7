@@ -116,7 +116,6 @@ theorem original_13_1_contradiction_without_hdef
       C h221 h311 hR20 hG hnoT x hout hmixed
       hcounter hdef hbranch
 
-#print axioms original_13_1_contradiction_without_hdef
 
 end
 

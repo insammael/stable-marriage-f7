@@ -70,8 +70,6 @@ theorem w47_a121_next_pre_cross_zero_of_row_zero
   exact w47_a121_pre_cross_zero_of_empty_initial_old_prefix C E
     (w47_a121_next_initial_old_prefix_of_row_zero C E hrow0)
 
-#print axioms w47_a121_next_initial_old_prefix_of_row_zero
-#print axioms w47_a121_next_pre_cross_zero_of_row_zero
 
 variable (h221 : NoInduced221 (V := Event I))
 variable (h311 : NoInduced311 (V := Event I))
@@ -172,7 +170,6 @@ theorem w47_a121_next_actual_r20_L0_DL_of_canonical_geometry
   exact ⟨S, k, H, hSn, hSform, hScap, hPastOcc, hFutureOcc,
     hcharge, hcost, hk, hledger⟩
 
-#print axioms w47_a121_next_actual_r20_L0_DL_of_canonical_geometry
 
 end
 end F7Manuscript.TripleCoordinateLattice

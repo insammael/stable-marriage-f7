@@ -56,7 +56,6 @@ theorem actual_u3_q1_s3_paid8_extra27_reverse_min_le_two_false
       h221 h311 hG hT X hu hq hs hreverse hpaid hextra
   exact ordinal45_reverse_carrier_after_le_two_false carrier hprefix hclock hafter
 
-#print axioms actual_u3_q1_s3_paid8_extra27_reverse_min_le_two_false
 
 end
 end ActualW17Q1Saved45ReverseBranchActualFalse

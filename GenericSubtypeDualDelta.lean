@@ -23,7 +23,6 @@ theorem finsetSubtype_delta3_dual (Q : Finset V)
   letI : DecidableLE (OrderDual V) := decDual
   exact neutral_delta3_dual (V := {x : V // x ∈ Q})
 
-#print axioms finsetSubtype_delta3_dual
 
 end
 end F7Manuscript.TripleCoordinateLattice

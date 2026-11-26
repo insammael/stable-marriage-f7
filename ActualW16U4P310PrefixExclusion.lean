@@ -71,7 +71,6 @@ theorem actual_X_u4_cost_three_P310_prefix_false
   exact F7Manuscript.ActualW15P310Root13MinTwoExclusion.actual_X_p310_root13_min_le_two_false
     C hn hδ h221 h311 hG hT X hprefix hDzero hmin2
 
-#print axioms actual_X_u4_cost_three_P310_prefix_false
 
 end
 end F7Manuscript.ActualW16U4P310PrefixExclusion

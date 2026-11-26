@@ -65,6 +65,5 @@ theorem two_route_action (R : TokenRun Site Site 21) (d : Bool) (e η : Equiv.Pe
     have cols' := admissible_map e cols
     exact ⟨left',controls,right',cols',act_binary _ _ _ _ R binary⟩
 
-#print axioms two_route_action
 end
 end F7Manuscript.R21LongWindow.RootSupportTransport

@@ -41,6 +41,5 @@ theorem pairAt_startingPairs (f : SupportFrame) (d : Fin 3) :
  pairAt (startingPairs f) d.val=f.frontier d := by
  fin_cases d <;> rfl
 
-#print axioms realizes_subword
 end
 end F7Manuscript.R21PhysicalWindowWords

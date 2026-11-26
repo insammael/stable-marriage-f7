@@ -286,9 +286,6 @@ theorem h7_original_mixed13_post_actual_skeleton_identities
 
   simpa only [hk] using! hcanonical
 
-#print axioms mixed13_scalar_counter_deficit_with_decisions
-#print axioms h7_original_run_subset_has_triple
-#print axioms h7_original_mixed13_post_actual_skeleton_identities
 
 end
 

@@ -85,5 +85,4 @@ theorem path_search {r : Nat} {g : Packed} {s : List Ticket} (h : Path r g s) :
 
 def initialPacked : Packed := (packedReplay packedDiag baseRow.word).getD packedDiag
 
-#print axioms path_search
 end F7Manuscript.TripleCoordinateLattice.R21LooseRows

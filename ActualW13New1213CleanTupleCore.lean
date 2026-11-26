@@ -90,9 +90,6 @@ theorem new1213_candidate_iff_early
   · rintro ⟨_, h⟩
     exact h
 
-#print axioms new1213TupleFit
-#print axioms new1213TupleDemand
-#print axioms new1213_positive_demand_implies_j_lt_three
 
 end
 end F7Manuscript.ActualW13New1213CleanTupleCore

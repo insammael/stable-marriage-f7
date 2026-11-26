@@ -61,5 +61,4 @@ theorem pure_route_geometry
         · simpa only [first,Nat.zero_add] using! next
       · simpa only [first,Nat.zero_add] using! nextColors
 
-#print axioms pure_route_geometry
 end F7Manuscript.R21LongWindow.RootSupportTransport

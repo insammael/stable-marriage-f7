@@ -36,6 +36,5 @@ theorem signed_center_pair_step (f g : SupportFrame) (c d : Color)
   · simp [centerPair, hselected, hidle]
   · exact hother
 
-#print axioms signed_center_pair_step
 
 end F7Manuscript.W7SignedFrameCenterAlgebra

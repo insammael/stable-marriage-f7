@@ -49,6 +49,5 @@ theorem actual_one_G_pre_q1_budget
   · rcases hright with ⟨hq0, _hq1, _hs0, _hs1, _hshort, _hsum⟩
     omega
 
-#print axioms actual_one_G_pre_q1_budget
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW34OneGPreQOneBudget

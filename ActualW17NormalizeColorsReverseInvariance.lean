@@ -103,6 +103,5 @@ theorem normalize_reverse_normalize_eq_reverse (xs : List Nat)
     _ = normalizeColors ((a :: b :: tail).reverse.map f) := by simp
     _ = normalizeColors (a :: b :: tail).reverse := hrev
 
-#print axioms normalize_reverse_normalize_eq_reverse
 
 end F7Manuscript.ActualW17NormalizeColorsReverseInvariance

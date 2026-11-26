@@ -57,6 +57,5 @@ theorem actual_r21_normal_twelve_zero_cost_impossible
   actual_r21_normal_pure_excluded_at_length C hn h221 h311 i 12 (by decide) hm hq hs
    twelve_center_all_positions
 
-#print axioms actual_r21_normal_twelve_zero_cost_impossible
 end
 end F7Manuscript.TripleCoordinateLattice

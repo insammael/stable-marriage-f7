@@ -19,5 +19,4 @@ open F7Manuscript.N4PositiveBranchesDraft
   cases h
   simpa only [Fin.cast_eq_self] using H
 
-#print axioms moveFirst
 end F7Manuscript.ActualW33FirstCostDChartTransport

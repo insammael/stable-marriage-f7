@@ -350,10 +350,6 @@ theorem actual_pure_prefix_forward_anchored
     · simpa only [Equiv.trans_apply] using! hsecond
     · simpa only [Equiv.trans_apply] using! H
 
-#print axioms reflectedCut
-#print axioms reflectedRun_old_past
-#print axioms rawCut_normalized_first_two_from_actual
-#print axioms actual_pure_prefix_forward_anchored
 
 end
 end F7Manuscript.N4RawCutRecolor

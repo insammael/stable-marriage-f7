@@ -63,5 +63,4 @@ theorem actual_chart_terminal {length n : Nat} (C : Chart)
       exact original_state_on_word R off bound plan A.bits hsize realWhole
         ⟨length,by omega⟩ a
 
-#print axioms actual_chart_terminal
 end F7Manuscript.R21NormalEndpoint

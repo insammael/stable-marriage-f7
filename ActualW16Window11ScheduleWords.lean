@@ -148,13 +148,5 @@ theorem source14_B11Word (bits : Nat → Bool)
     afterCenter, select, other, put, h0, h1, h2, h3, h4, h5, h6, h7, h8, h9]
   decide
 
-#print axioms source14_A00Word
-#print axioms source14_A01Word
-#print axioms source14_A10Word
-#print axioms source14_A11Word
-#print axioms source14_B00Word
-#print axioms source14_B01Word
-#print axioms source14_B10Word
-#print axioms source14_B11Word
 
 end F7Manuscript.ActualW16Window11ScheduleWords

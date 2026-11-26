@@ -61,11 +61,4 @@ theorem bad_neutral_every_point_in_triple (hBN : BadNeutral (V := V)) (x : V) :
   obtain ⟨p,q,hxp,hxq,hpq⟩ := hTriple
   exact ⟨{x,p,q},triple_of_inc hxp hxq hpq,by simp⟩
 
-#print axioms frontend_with_proved_pair_bound
-#print axioms pairClass_actual_two_antichain_bound
-#print axioms five_core_classification_three_inputs
-#print axioms bad_neutral_every_point_in_triple
-#check pairClass_ordered_pair_budget
-#check five_core_classification_three_inputs
-#check ThreeHumanInputs
 end NeutralCore

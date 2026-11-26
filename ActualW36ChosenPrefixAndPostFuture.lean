@@ -156,6 +156,5 @@ theorem actual_chosen_prefix_and_post_future
     hP Bpre h221P h311P hzP hm1 hmOne Tpre EG EF
   exact ⟨hc, EG, center, EF, hEG, hpost, hprefix⟩
 
-#print axioms actual_chosen_prefix_and_post_future
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW36ChosenPrefixAndPostFuture

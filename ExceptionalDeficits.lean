@@ -112,7 +112,6 @@ theorem bad_two_small (hClass : PairClass (V:=V)) (P : Finset V)
   let h := bad_two_invariant hClass P hP hD2
   ⟨h.1,h.2.1⟩
 
-#print axioms bad_zero_small
 theorem bad_two_six_a (hClass : PairClass (V:=V)) (P : Finset V)
     (hP : BadOn P) (hD2 : DOn P=2) (hn : P.card=6) : aOn P=2 := by
   obtain ⟨_,_,hSix⟩ := bad_two_invariant hClass P hP hD2
@@ -132,6 +131,4 @@ theorem bad_R_zero_small (hClass : PairClass (V:=V)) (P : Finset V)
   have ha2 := bad_two_six_a hClass P hP hD2 hn6
   omega
 
-#print axioms bad_R_zero_small
-#print axioms bad_two_small
 end NeutralCore

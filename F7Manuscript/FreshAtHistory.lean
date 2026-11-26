@@ -56,7 +56,4 @@ theorem historyOrigins_succ (word : List Swap) (t : ℕ) (a : Site) :
       insert (origins word (t + 1) a) (historyOrigins word t a) := by
   simp [historyOrigins, Nat.add_assoc, Finset.range_add_one]
 
-#print axioms freshAt_iff_history
-#print axioms historyOrigins_mono
-#print axioms historyOrigins_succ
 end F7Manuscript.FreshAtHistory

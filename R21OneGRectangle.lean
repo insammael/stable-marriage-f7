@@ -141,7 +141,5 @@ theorem one_G_normalized_rows
     · rw [hpi]; exact hX
     · rw [hpj]; exact hY
 
-#print axioms moving_covers
-#print axioms one_G_normalized_rows
 end
 end F7Manuscript.TripleCoordinateLattice.R21OneGRectangle

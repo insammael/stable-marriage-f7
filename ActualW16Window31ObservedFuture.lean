@@ -109,9 +109,5 @@ theorem D31_future_from_observed_prefix {W : Type*} [Fintype W] {q : ℕ}
   rw [d31Word_prefixFresh_eq] at transported
   exact D31_future_le_four (SizedFuture.ofCore transported)
 
-#print axioms c31Word_prefixFresh_eq
-#print axioms d31Word_prefixFresh_eq
-#print axioms C31_future_from_observed_prefix
-#print axioms D31_future_from_observed_prefix
 
 end F7Manuscript.ActualW16Window31ObservedFuture

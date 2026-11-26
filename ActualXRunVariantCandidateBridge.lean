@@ -77,7 +77,6 @@ theorem actual_X_run_variant_candidate_bridge
   exact ⟨hin.1, hin.2.1, hin.2.2, hW, hD, hsepF, hsepB,
     hcost, hflagsEq, hbefore, hafter⟩
 
-#print axioms actual_X_run_variant_candidate_bridge
 
 end
 end W7ActualXRunVariantCandidateBridge

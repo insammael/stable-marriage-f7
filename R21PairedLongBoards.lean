@@ -40,7 +40,6 @@ theorem noActualRow1985 (R : TokenRun Site (Agent 7) 21) {off : Nat}
   have impossible := tracksStructural walk.tracks 5
   rw [empty1985] at impossible
   exact List.not_mem_nil impossible
-#print axioms noActualRow1985
 
 /-- Printed P-plus-singles support word: 01 23 45 06 24 35 12 04 26 01 24 56 03. -/
 def row1986 : Board := makeBoard 10 [4,3,6,5,1,0,2] [[2],[2,4,6],[4],[0,1,6],[0,2],[1,3,6],[3,4,5]]
@@ -58,7 +57,6 @@ theorem noActualRow1986 (R : TokenRun Site (Agent 7) 21) {off : Nat}
   have impossible := tracksStructural walk.tracks 3
   rw [empty1986] at impossible
   exact List.not_mem_nil impossible
-#print axioms noActualRow1986
 
 /-- Printed P-plus-singles support word: 01 23 45 06 24 35 12 04 26 01 24 56 23. -/
 def row1987 : Board := makeBoard 10 [5,3,4,6,1,0,2] [[2,4],[2,4,6],[],[0,1,5],[0,2],[1,3,6],[3,4,5]]
@@ -76,7 +74,6 @@ theorem noActualRow1987 (R : TokenRun Site (Agent 7) 21) {off : Nat}
   have impossible := tracksStructural walk.tracks 9
   rw [empty1987] at impossible
   exact List.not_mem_nil impossible
-#print axioms noActualRow1987
 
 /-- Printed P-plus-singles support word: 01 23 45 06 24 35 12 04 26 01 45 03 15. -/
 def row1988 : Board := makeBoard 10 [4,6,1,5,2,3,0] [[2],[2,4],[4,6],[0,1,6],[0,1],[0,1],[2,3,4,5]]
@@ -94,7 +91,6 @@ theorem noActualRow1988 (R : TokenRun Site (Agent 7) 21) {off : Nat}
   have impossible := tracksStructural walk.tracks 6
   rw [empty1988] at impossible
   exact List.not_mem_nil impossible
-#print axioms noActualRow1988
 
 /-- Printed P-plus-singles support word: 01 23 45 06 24 35 12 04 26 01 45 36 25. -/
 def row1989 : Board := makeBoard 10 [5,3,6,0,2,1,4] [[2,4],[2,4,6],[4],[1,5,6],[0,1],[0,3],[2,3,5]]
@@ -112,7 +108,6 @@ theorem noActualRow1989 (R : TokenRun Site (Agent 7) 21) {off : Nat}
   have impossible := tracksStructural walk.tracks 4
   rw [empty1989] at impossible
   exact List.not_mem_nil impossible
-#print axioms noActualRow1989
 
 /-- Printed P-plus-singles support word: 01 23 45 06 24 35 12 04 26 13 45 01. -/
 def row1990 : Board := makeBoard 9 [4,3,1,5,2,6,0] [[2,5],[2,6],[4,6],[0,1,6],[0,1],[0,1,3],[2,3,4,5]]
@@ -130,7 +125,6 @@ theorem noActualRow1990 (R : TokenRun Site (Agent 7) 21) {off : Nat}
   have impossible := tracksStructural walk.tracks 11
   rw [empty1990] at impossible
   exact List.not_mem_nil impossible
-#print axioms noActualRow1990
 
 /-- Printed P-plus-singles support word: 01 23 45 06 24 35 12 04 26 13 05 24 56. -/
 def row1991 : Board := makeBoard 10 [2,4,6,5,1,0,3] [[4,5],[2,3,6],[4],[0,1,6],[0,2],[1,6],[2,4,5]]
@@ -148,7 +142,6 @@ theorem noActualRow1991 (R : TokenRun Site (Agent 7) 21) {off : Nat}
   have impossible := tracksStructural walk.tracks 3
   rw [empty1991] at impossible
   exact List.not_mem_nil impossible
-#print axioms noActualRow1991
 
 /-- Printed P-plus-singles support word: 01 23 45 06 24 35 12 04 26 13 56 24. -/
 def row1992 : Board := makeBoard 9 [3,4,6,5,1,0,2] [[2,4,5],[2,3,6],[4],[0,1,6],[0,2],[1,3,6],[3,4,5]]
@@ -166,7 +159,6 @@ theorem noActualRow1992 (R : TokenRun Site (Agent 7) 21) {off : Nat}
   have impossible := tracksStructural walk.tracks 3
   rw [empty1992] at impossible
   exact List.not_mem_nil impossible
-#print axioms noActualRow1992
 
 /-- Printed P-plus-singles support word: 01 23 45 06 24 35 12 04 36 45 01 26 35. -/
 def row1993 : Board := makeBoard 10 [5,3,4,6,2,1,0] [[2,4],[2,4,6],[1,6],[0,5],[0,1],[0,3],[2,3,5]]
@@ -184,7 +176,6 @@ theorem noActualRow1993 (R : TokenRun Site (Agent 7) 21) {off : Nat}
   have impossible := tracksStructural walk.tracks 6
   rw [empty1993] at impossible
   exact List.not_mem_nil impossible
-#print axioms noActualRow1993
 
 /-- Printed P-plus-singles support word: 01 23 45 06 24 35 12 04 36 45 01 23 16. -/
 def row1994 : Board := makeBoard 10 [5,4,1,0,2,6,3] [[2,4],[2,6],[4,6],[5,6],[0,1],[0,1,3],[0,2,5]]
@@ -202,7 +193,6 @@ theorem noActualRow1994 (R : TokenRun Site (Agent 7) 21) {off : Nat}
   have impossible := tracksStructural walk.tracks 1
   rw [empty1994] at impossible
   exact List.not_mem_nil impossible
-#print axioms noActualRow1994
 
 /-- Printed P-plus-singles support word: 01 23 45 06 24 35 12 04 36 45 06 23 01. -/
 def row1995 : Board := makeBoard 10 [5,4,1,0,2,6,3] [[2],[2,3,6],[4,6],[5,6],[0,1],[0,1,3],[0,2,5]]
@@ -220,7 +210,6 @@ theorem noActualRow1995 (R : TokenRun Site (Agent 7) 21) {off : Nat}
   have impossible := tracksStructural walk.tracks 1
   rw [empty1995] at impossible
   exact List.not_mem_nil impossible
-#print axioms noActualRow1995
 
 /-- Printed P-plus-singles support word: 01 23 45 06 24 35 12 04 36 05 24 16 34. -/
 def row1996 : Board := makeBoard 10 [2,4,6,0,1,3,5] [[4,5],[2,3,6],[1,4],[5,6],[2],[0,1,6],[0,2,3]]
@@ -238,7 +227,6 @@ theorem noActualRow1996 (R : TokenRun Site (Agent 7) 21) {off : Nat}
   have impossible := tracksStructural walk.tracks 8
   rw [empty1996] at impossible
   exact List.not_mem_nil impossible
-#print axioms noActualRow1996
 
 /-- Printed P-plus-singles support word: 01 23 45 06 24 35 12 04 36 05 24 16 23. -/
 def row1997 : Board := makeBoard 10 [2,4,1,6,0,3,5] [[4,5],[2,3,6],[4],[0,5],[1,2],[0,1,6],[0,2,3]]
@@ -256,7 +244,6 @@ theorem noActualRow1997 (R : TokenRun Site (Agent 7) 21) {off : Nat}
   have impossible := tracksStructural walk.tracks 8
   rw [empty1997] at impossible
   exact List.not_mem_nil impossible
-#print axioms noActualRow1997
 
 /-- Printed P-plus-singles support word: 01 23 45 06 24 35 12 04 56 13 24 06 25. -/
 def row1998 : Board := makeBoard 10 [2,4,1,5,0,6,3] [[4,5],[2,3,6],[4],[0,1,6],[1,2],[0,3],[0,4,5]]
@@ -274,7 +261,6 @@ theorem noActualRow1998 (R : TokenRun Site (Agent 7) 21) {off : Nat}
   have impossible := tracksStructural walk.tracks 8
   rw [empty1998] at impossible
   exact List.not_mem_nil impossible
-#print axioms noActualRow1998
 
 /-- Printed P-plus-singles support word: 01 23 45 06 24 35 12 04 56 13 24 06 45. -/
 def row1999 : Board := makeBoard 10 [2,4,6,5,1,0,3] [[4,5],[2,3,6],[1,4],[0,1,6],[2],[3,6],[0,4,5]]
@@ -292,7 +278,6 @@ theorem noActualRow1999 (R : TokenRun Site (Agent 7) 21) {off : Nat}
   have impossible := tracksStructural walk.tracks 8
   rw [empty1999] at impossible
   exact List.not_mem_nil impossible
-#print axioms noActualRow1999
 
 /-- Printed P-plus-singles support word: 01 23 45 06 24 35 12 04 56 23 01 45 16. -/
 def row2000 : Board := makeBoard 10 [5,2,4,0,1,6,3] [[2,4],[4,6],[1,6],[1,5,6],[0,2],[0,3],[0,4,5]]
@@ -310,7 +295,6 @@ theorem noActualRow2000 (R : TokenRun Site (Agent 7) 21) {off : Nat}
   have impossible := tracksStructural walk.tracks 9
   rw [empty2000] at impossible
   exact List.not_mem_nil impossible
-#print axioms noActualRow2000
 
 /-- Printed P-plus-singles support word: 01 23 45 06 24 35 12 04 56 23 16 45. -/
 def row2001 : Board := makeBoard 9 [3,2,4,0,1,6,5] [[2,4,5],[3,4,6],[1,6],[1,5,6],[0,2],[0,3],[0,3,4]]
@@ -328,7 +312,6 @@ theorem noActualRow2001 (R : TokenRun Site (Agent 7) 21) {off : Nat}
   have impossible := tracksStructural walk.tracks 9
   rw [empty2001] at impossible
   exact List.not_mem_nil impossible
-#print axioms noActualRow2001
 
 /-- Printed P-plus-singles support word: 01 23 45 06 24 35 12 45 13 26 04 56 24. -/
 def row2002 : Board := makeBoard 10 [2,4,6,5,1,0,3] [[3,4,5],[2,3,6],[4],[0,1,6],[0],[1,6],[2,4,5]]
@@ -346,7 +329,6 @@ theorem noActualRow2002 (R : TokenRun Site (Agent 7) 21) {off : Nat}
   have impossible := tracksStructural walk.tracks 3
   rw [empty2002] at impossible
   exact List.not_mem_nil impossible
-#print axioms noActualRow2002
 
 /-- Printed P-plus-singles support word: 01 23 45 06 24 35 12 45 13 26 05 46 25. -/
 def row2003 : Board := makeBoard 10 [3,4,6,5,0,1,2] [[2,4,5],[2,3,6],[4],[0,1,6],[1,6],[0],[3,4,5]]
@@ -364,5 +346,4 @@ theorem noActualRow2003 (R : TokenRun Site (Agent 7) 21) {off : Nat}
   have impossible := tracksStructural walk.tracks 3
   rw [empty2003] at impossible
   exact List.not_mem_nil impossible
-#print axioms noActualRow2003
 end F7Manuscript.R21NormalEndpoint.BoundaryAtlas.PairedLongBoards

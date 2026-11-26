@@ -125,7 +125,6 @@ theorem actual_X_window75_root14_min_endpoint_zero_false
     have hfalse := carrier_window75_false C'
     exact hfalse
 
-#print axioms actual_X_window75_root14_min_endpoint_zero_false
 
 end
 end F7Manuscript.ActualW16Window75GenericActualCaller

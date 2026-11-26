@@ -1,5 +1,6 @@
 module
 
+public import Mathlib
 public import F7Manuscript.PartnerGraphCertificate
 
 @[expose] public section
@@ -125,7 +126,3 @@ theorem p6_target_future_transfer {n : ℕ}
 
 end F7Manuscript.PartnerGraph.PureShortCut
 
-#print axioms F7Manuscript.PartnerGraph.Future.transpose_binary
-#print axioms F7Manuscript.PartnerGraph.PureShortCut.p6_target_graphs_transpose_cells
-#print axioms F7Manuscript.PartnerGraph.PureShortCut.p6_target_graphs_transpose_relation
-#print axioms F7Manuscript.PartnerGraph.PureShortCut.p6_target_future_transfer

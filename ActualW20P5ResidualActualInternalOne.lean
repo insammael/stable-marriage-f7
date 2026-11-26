@@ -68,5 +68,4 @@ theorem p5_residual_event_is_internal_one
         (T.state k.castSucc (T.rightSite k) ∈ ({2,6} : Finset Site))))
   exact Finset.mem_filter.mpr ⟨Finset.mem_univ _, hends.1, hends.2, hxor⟩
 
-#print axioms p5_residual_event_is_internal_one
 end F7Manuscript.ActualW20P5ResidualActualInternalOne

@@ -83,6 +83,5 @@ theorem fixedTokenSwapTrace_freeze_after_pool_visited
     exact Nat.add_sub_of_le hkl
   simpa [hindex] using! h
 
-#print axioms fixedTokenSwapTrace_freeze_after_pool_visited
 
 end F7Manuscript.PartnerGraph

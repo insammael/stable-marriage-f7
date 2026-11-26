@@ -28,6 +28,5 @@ theorem mem_capThreeEndpointRows_of_original_mem_and_cap
   rcases hrow with h | h | h | h | h | h | h | h | h | h | h
   all_goals simp_all <;> omega
 
-#print axioms mem_capThreeEndpointRows_of_original_mem_and_cap
 
 end F7Manuscript.ActualW15CapThreeEndpointRows

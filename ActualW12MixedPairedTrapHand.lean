@@ -90,6 +90,5 @@ theorem noReturn_crossPairedAtom_mixed_empty
   · exact useFirstY hcase.1
   · exact useSecondY hcase.1 hcase.2
 
-#print axioms noReturn_crossPairedAtom_mixed_empty
 
 end F7Manuscript.ActualW12MixedPairedTrapHand

@@ -254,7 +254,6 @@ theorem dualNormalSegmentPrefix_frontier_memory
                 blockPlan, tailPlan, hblockCount, t', Nat.add_assoc,
                 hfinalPrefix] using! Mtail
 
-#print axioms dualNormalSegmentPrefix_frontier_memory
 
 end
 end F7Manuscript.ActualDualSegmentPrefixMemory

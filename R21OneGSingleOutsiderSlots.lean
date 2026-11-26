@@ -100,6 +100,5 @@ theorem actual_single_outsider_endpoints :
     · exact Finset.disjoint_left.mp (outsiderSlotGroup_disjoint C p
         (fun _ _ h => path_mono C E h) htL) hx h
 
-#print axioms actual_single_outsider_endpoints
 end
 end F7Manuscript.TripleCoordinateLattice.R21OneGSingleOutsider

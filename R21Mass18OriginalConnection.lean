@@ -65,7 +65,5 @@ theorem r21_normal_actual_count_le_85_of_mass18_provider
   exact r21_normal_actual_count_le_85_of_cost C h221 h311 hz hn
     (lower (actualNormalSkeleton C h221 h311 hz) A')
 
-#print axioms r21_normal_actual_count_le_85_of_cost
-#print axioms r21_normal_actual_count_le_85_of_mass18_provider
 end
 end F7Manuscript.TripleCoordinateLattice.Mass18

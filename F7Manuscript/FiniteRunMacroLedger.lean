@@ -25,5 +25,4 @@ theorem telescope (m : ℕ) (left right : Fin (m+1) → ℤ) (macroCost : Fin m 
   rw [Finset.sum_sub_distrib,hleft,hright]
   ring
 
-#print axioms telescope
 end F7Manuscript.FiniteRunMacroLedger

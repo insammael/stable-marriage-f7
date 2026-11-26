@@ -69,6 +69,5 @@ theorem actual_normal_core_in_complete_run_fixed_offset
     rw [supp, Finset.card_map]
     exact SaturatedUnitSteps.actual_event_binary hn _
 
-#print axioms actual_normal_core_in_complete_run_fixed_offset
 end
 end F7Manuscript.R21Mass17Original

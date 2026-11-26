@@ -282,9 +282,6 @@ theorem W0L7_future_from_observed_prefix_le_five {W : Type*} [Fintype W] {q : â„
   rw [W0L7_prefixFresh_eq] at transported
   exact W0L7_future_le_five transported
 
-#print axioms dead_site_three_mark_edge_bound
-#print axioms W0L2_future_from_observed_prefix_le_five
-#print axioms W0L7_future_from_observed_prefix_le_five
 
 end
 end F7Manuscript.ActualW17Window0StrongDeadSite

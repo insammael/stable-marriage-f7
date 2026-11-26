@@ -52,8 +52,6 @@ theorem later_center_incomparables (C : Chart) (j : Fin C.m) (hj : 0 < j.val) :
     exact h.symm
   exact NormalMaskCounter.centerMissing_good _ _ hn _ _ _ (beforeCount_good C j hj)
 
-#print axioms first_center_incomparables
-#print axioms later_center_incomparables
 
 theorem pair_first_incomparables (C : Chart) (j : Fin C.m) (k : Fin (C.double j)) :
     (earlierIncomparables C (pairVertex C j k 0)).card = 2 := by
@@ -103,7 +101,5 @@ theorem initial_incomparables (C : Chart) (c : Color) :
     (by intro a b h; simpa [initial] using! h)]
   fin_cases c <;> decide
 
-#print axioms pair_level_incomparables
-#print axioms initial_incomparables
 end
 end F7Manuscript.NormalSkeleton.Chart

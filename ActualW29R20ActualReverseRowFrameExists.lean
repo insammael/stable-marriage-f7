@@ -75,6 +75,5 @@ theorem actual_lower_row_frame_exists
   · exact rowState_rowsMatch row hbin hinc (normalCenterColor D h221D h311D hzD j)
   · simp [f, frameOfState]
 
-#print axioms actual_lower_row_frame_exists
 end
 end F7Manuscript.TripleCoordinateLattice.CoreActual

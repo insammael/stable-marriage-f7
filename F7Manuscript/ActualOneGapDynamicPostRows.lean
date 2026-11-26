@@ -62,7 +62,6 @@ theorem actual_rows_match_after_typeV
       rw [hright]
       simp [afterTypeV, F7Local.put, gapLeft_ne_right]
 
-#print axioms actual_rows_match_after_typeV
 
 end
 end F7Manuscript.TripleCoordinateLattice

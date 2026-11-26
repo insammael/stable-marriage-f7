@@ -153,8 +153,5 @@ theorem normalized_color_word_unique_of_exact_set
     rw [hmemX, hmemY]
     simp [hk, hkY]
 
-#print axioms next_color_is_third
-#print axioms normalized_color_word_unique_from_aba_set
-#print axioms normalized_color_word_unique_of_exact_set
 
 end F7Manuscript.W7ActualSelectorComposition

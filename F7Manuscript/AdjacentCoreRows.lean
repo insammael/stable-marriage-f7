@@ -36,6 +36,5 @@ theorem adjacent_rows_core_before_or_after {N : ℕ}
     have hrow : ((p n.succ).val d).val ≤ ((p k).val d).val := hmono hk d
     exact hrow.trans hd.le
 
-#print axioms adjacent_rows_core_before_or_after
 end
 end F7Manuscript.TripleCoordinateLattice

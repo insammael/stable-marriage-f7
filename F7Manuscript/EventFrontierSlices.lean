@@ -129,8 +129,6 @@ theorem actual_slice_colored_run (H : FrontierChart I m) (hQ : OrderConvex (even
   exact actual_spanning_colored_run _ (slice_events_convex H hQ offset n hn)
     (slice H offset n hn) hn2 rfl
 
-#print axioms slice_events_convex
-#print axioms actual_slice_colored_run
 
 end
 end F7Manuscript.EventFrontierSlices

@@ -197,10 +197,5 @@ theorem actualRunFromCoreWithOutsider_support_at_inserted
   rw [actualRunFromCoreWithOutsider_support_at A n E x hout k hcore hbefore hafter k]
   simp [F7Manuscript.ActualW28R20ForwardSingletonInsertion.insertAt]
 
-#print axioms coreEquiv_image
-#print axioms coreEquiv_plus_outsider_cover
-#print axioms actualRunFromCoreWithOutsider
-#print axioms actualRunFromCoreWithOutsider_support_at
-#print axioms actualRunFromCoreWithOutsider_support_at_inserted
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW29R20RetirementFullRunBackend

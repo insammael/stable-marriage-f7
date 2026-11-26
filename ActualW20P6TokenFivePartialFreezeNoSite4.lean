@@ -147,5 +147,4 @@ theorem p6_token5_partial_freezes_at_one_from_23
     exact Nat.add_sub_of_le hkl
   simpa [hindex] using! h
 
-#print axioms p6_token5_partial_freezes_at_one_from_23
 end F7Manuscript.ActualW20P6TokenFivePartialFreezeNoSite4

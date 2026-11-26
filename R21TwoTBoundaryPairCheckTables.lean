@@ -13,6 +13,4 @@ theorem A_no_pair_after_centers_checked : ∀(p:Fin 6)(bits:Fin 8)(last:Fin 3),
 theorem B_no_pair_after_centers_checked : ∀(p:Fin 6)(bits:Fin 8)(last:Fin 3),
  noPairedAfterCenters 2 endB (seedFrame seedRightB 2 p bits last)=true := by decide
 
-#print axioms A_no_pair_after_centers_checked
-#print axioms B_no_pair_after_centers_checked
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

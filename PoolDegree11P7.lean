@@ -364,6 +364,5 @@ theorem pool_11_7_impossible (K : Finset Agent) (hc : K.card = 3)
                 have heq : atPrefix t plan_pool_11_7 bits 12 1 = atPrefix t plan_pool_11_7 bits 0 1 := by
                   simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
                 exact (h.fresh 11 (by decide) 1 hp 0 (by decide)) heq
-#print axioms pool_11_7_impossible
 
 end F7Local

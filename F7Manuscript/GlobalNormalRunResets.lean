@@ -39,6 +39,5 @@ theorem globalNormalRun_initial_exclusive_reset
     · exact global_isolated_G_exclusive_reset C E n hG c
     · exact global_T_exclusive_reset C E n (Finset.mem_filter.mp hT).2 c
 
-#print axioms globalNormalRun_initial_exclusive_reset
 end
 end F7Manuscript.TripleCoordinateLattice

@@ -60,7 +60,4 @@ theorem startingPairs_disjoint (f : SupportFrame) (hv : ValidLayout (stateOfFram
     subst p
     exact frame_disjoint f hv 1 2 (by decide)
 
-#print axioms frame_matching_covered
-#print axioms frame_matching_mem_crews
-#print axioms startingPairs_disjoint
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

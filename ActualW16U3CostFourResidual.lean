@@ -73,8 +73,6 @@ theorem actual_outside_three_cost_four_residual_rows
   exact ⟨X, actual_u3_cost_four_residual_rows C hn hδ hdeficit hpos
     h221 h311 hG hT X hu⟩
 
-#print axioms actual_u3_cost_four_residual_rows
-#print axioms actual_outside_three_cost_four_residual_rows
 
 end
 end F7Manuscript.ActualW16U3CostFourResidual

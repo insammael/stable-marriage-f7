@@ -231,7 +231,6 @@ theorem BinaryColorChart.toBinaryPrefix_of_periodic
       rw [hii, hjj, ← hfront]
       exact hsep.symm
 
-#print axioms BinaryColorChart.toBinaryPrefix_of_periodic
 
 end
 

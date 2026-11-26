@@ -492,9 +492,5 @@ theorem paired_support_frame_choice (G : Rectangle (I := I))
   simpa [frameOfState, F7Manuscript.PartnerGraph.originalPairedFrame] using!
     actual_paired_choices G s hv last hleft hright
 
-#print axioms rowState_valid
-#print axioms rowState_frontierSet
-#print axioms center_support_frame_choice
-#print axioms paired_support_frame_choice
 
 end F7Manuscript.ActualMixedFrameLayout

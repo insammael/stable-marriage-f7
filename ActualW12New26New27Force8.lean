@@ -784,5 +784,4 @@ theorem second_center_forced (c : Color) (hc : c = 0 ∨ c = 2)
                       | true =>
                         simp [h4,h8]
 
-#print axioms second_center_forced
 end F7Manuscript.ActualW12New26New27Force8

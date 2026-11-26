@@ -74,7 +74,6 @@ theorem move_last_center_past_paired_prefix {W : Type*} [Fintype W] {q : Nat}
           · intro k hk
             exact (hafter k (by omega)).trans (hafter0 k (by omega))
 
-#print axioms move_last_center_past_paired_prefix
 
 end
 end F7Manuscript.ActualW8MoveLastCenterPastPairedPrefix

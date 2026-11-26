@@ -107,7 +107,6 @@ theorem actual_X_p310_root13_min_le_two_false
     have hd0 := hz 0 (by omega)
     omega
 
-#print axioms actual_X_p310_root13_min_le_two_false
 
 end
 end F7Manuscript.ActualW15P310Root13MinTwoExclusion

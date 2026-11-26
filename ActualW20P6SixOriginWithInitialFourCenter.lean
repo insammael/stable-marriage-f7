@@ -83,5 +83,4 @@ theorem six_entry_three_is_initial_with_initial_four_center
   · exact Or.inr ⟨h.1.symm,h.2.symm.trans hy3⟩
   · exact Or.inl ⟨h.2.symm.trans hy3,h.1.symm⟩
 
-#print axioms six_entry_three_is_initial_with_initial_four_center
 end F7Manuscript.ActualW20P6SixOriginWithInitialFourCenter

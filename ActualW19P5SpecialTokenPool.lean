@@ -33,6 +33,5 @@ theorem p5_special_token_allowed_sites (j : Site) (hj : j ∈ J) :
     · change p5G0 x 6 = true at hx
       fin_cases x <;> simp [p5G0, ofEdges, S] at hx ⊢
 
-#print axioms p5_special_token_allowed_sites
 
 end F7Manuscript.ActualW19P5SpecialTokenPool

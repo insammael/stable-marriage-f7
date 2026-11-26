@@ -42,6 +42,5 @@ theorem actual_rectangle_six_token_execution
   have hs := EventFrontierSupport.enumerated_event_support Q hQ D ⟨k.val,by omega⟩
   exact hs.trans (congrArg (support I) (hpoints k))
 
-#print axioms actual_rectangle_six_token_execution
 end
 end F7Manuscript.ActualGlobalCoverAssembly

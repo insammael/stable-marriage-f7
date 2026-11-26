@@ -28,6 +28,5 @@ theorem ordered_crown_short_zero_impossible {n m : ℕ} {S T : NormalSkeleton.Ch
     have hq := chart_q_zero_of_short T ht hzT
     omega
 
-#print axioms ordered_crown_short_zero_impossible
 end
 end F7Manuscript.R21SingleTHand

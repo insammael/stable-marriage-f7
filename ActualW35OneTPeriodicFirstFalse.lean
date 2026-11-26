@@ -39,6 +39,5 @@ theorem actual_oneT_periodic_first_false
   exact W35ActualPeriodicNormalPrefix.actual_zero_cost_periodic_normal_prefix_false
     C h221 h311 hu (by omega) E Rfirst n hprefix hm hq hs
 
-#print axioms actual_oneT_periodic_first_false
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW35OneTPeriodicFirstFalse

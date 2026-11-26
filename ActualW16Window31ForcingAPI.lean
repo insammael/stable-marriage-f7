@@ -42,7 +42,5 @@ theorem window31Plan_D31 (bits : Nat → Bool)
   exact F7Manuscript.ActualW16Window31Forcing.plan31_D31_source15 bits
     h0 h1 h2 h3 h4 h5 h6 h7 h8 h9 h10
 
-#print axioms window31Plan_C31
-#print axioms window31Plan_D31
 
 end F7Manuscript.ActualW16Window31ForcingAPI

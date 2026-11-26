@@ -121,6 +121,5 @@ theorem r21_literal_reversed_PRE_route
   exact reversed_route_with_decisions (I := I) inferInstance inferInstance
     P B hP hn hp.2.2.1 hp.2.1 hz a hm
 
-#print axioms r21_literal_reversed_PRE_route
 end
 end F7Manuscript.TripleCoordinateLattice

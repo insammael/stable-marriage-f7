@@ -106,5 +106,4 @@ theorem bb_tokenA_freezes_at4
   exact fixedTokenSwapTrace_freeze_after_pool_visited T' S q 4 k.succ
     hpost4 hseen hstays
 
-#print axioms bb_tokenA_freezes_at4
 end F7Manuscript.ActualW20P6BBFreezeAt4

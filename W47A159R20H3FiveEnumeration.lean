@@ -158,4 +158,3 @@ end
 
 end F7Manuscript.ConvexExecution
 
-#print axioms F7Manuscript.ConvexExecution.a131_five_element_local_enumeration

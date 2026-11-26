@@ -131,6 +131,5 @@ theorem firstD34_pure_prefix_and_actual_row_fresh
     (mixedPlan w S.naturalLevels S.m) bits H e (4 + eventCount pre) hk
     (chosenPairs pre bits).1 (chosenPairs pre bits).2 hp hq (chosenPairs_disjoint pre bits)
 
-#print axioms firstD34_pure_prefix_and_actual_row_fresh
 
 end F7Manuscript.N4FirstD34RootNormalization

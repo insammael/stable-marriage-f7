@@ -116,7 +116,6 @@ theorem permuted_afterTypeV_actor_color_transport
   rw [hcancel]
   rw [afterTypeV_actor_color_transport]
 
-#print axioms afterTypeV_actor_color_transport
 
 end
 end F7Manuscript.TripleCoordinateLattice

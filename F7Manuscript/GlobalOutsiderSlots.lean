@@ -142,7 +142,5 @@ theorem global_outsider_slots (E : Enumeration (thresholdEvents C)) :
       (fun _ _ h => GenericThresholdPath.path_mono C E h)
       (GenericThresholdPath.path_zero C E) (GenericThresholdPath.path_last C E)
 
-#print axioms global_outsider_slots
-#print axioms incomparable_outsiders_same_slot
 end
 end F7Manuscript.TripleCoordinateLattice

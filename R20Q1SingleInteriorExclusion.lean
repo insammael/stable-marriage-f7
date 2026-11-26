@@ -117,6 +117,5 @@ theorem r20_q1_singleton_slot_excluded_of_four_cover_extrema
   · exact Or.inl (fun z hz => hl ⟨z,hz⟩)
   · exact Or.inr (fun z hz => hr ⟨z,hz⟩)
 
-#print axioms r20_q1_singleton_slot_excluded_of_four_cover_extrema
 end
 end F7Manuscript.TripleCoordinateLattice

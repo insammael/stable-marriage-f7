@@ -192,9 +192,6 @@ private theorem root182_mem : entry_182 ∈ combinedRegistry := by
   change entry_182 ∈ legacyRegistry ++ remainingRegistry122
   exact List.mem_append_right _ (by simp [remainingRegistry122])
 
-#print axioms root154_pivots
-#print axioms root154_entryD_zero
-#print axioms periodic_fit_of_empty_window_pivots
 
 private theorem reverse157_route_false
     (W D : List Nat) (hWlen : W.length = 13) (hDlen : D.length = 13)
@@ -399,6 +396,5 @@ theorem q0_two_pivot_partial_classification
       hWpivot (Or.inr rfl) hno hforward)
   | omega
 
-#print axioms q0_two_pivot_partial_classification
 end
 end F7Manuscript.ActualW15U5Cap2HandCover

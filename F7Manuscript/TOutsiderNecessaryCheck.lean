@@ -118,6 +118,5 @@ theorem necessaryCheck_of_NecessaryLocalWord (z : ℕ) (outs row : List Atom)
     rw [filtered_range_three_length]
     simpa only [newAncestorsAtLeastTwo, simAncestor] using hnew i hi' 
 
-#print axioms necessaryCheck_of_NecessaryLocalWord
 
 end F7Manuscript.TOutsiderNecessaryWord

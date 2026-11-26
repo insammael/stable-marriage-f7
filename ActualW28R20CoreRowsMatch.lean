@@ -124,9 +124,5 @@ theorem core_normal_paired_rowsMatch
       (F7Local.afterPaired f hcross hlabel) := by
   exact rowsMatch_afterPaired _ _ f hcross hlabel hrow hleft hright hrest
 
-#print axioms core_normal_center_coordinate_update
-#print axioms core_normal_center_rowsMatch
-#print axioms core_normal_paired_coordinate_update
-#print axioms core_normal_paired_rowsMatch
 end
 end F7Manuscript.TripleCoordinateLattice.CoreActual

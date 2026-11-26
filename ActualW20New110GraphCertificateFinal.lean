@@ -79,6 +79,5 @@ theorem table_valid (j : Fin 611) : PartnerGraph.Sized.ValidNode table j := by
               rw [heq]
               exact F7Manuscript.PartnerGraph.NormalQ123.valid_chunk06 i hi
 
-#print axioms F7Manuscript.PartnerGraph.NormalQ123.table_valid
 
 end F7Manuscript.PartnerGraph.NormalQ123

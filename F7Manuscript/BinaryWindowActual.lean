@@ -140,7 +140,5 @@ theorem binary_raw_cut_up_to_relabel (R : TokenRun Site W q) (m : ℕ)
       exact (Finset.disjoint_map (Equiv.toEmbedding e)).2 (H.apart i j hij hgap)
   exact ⟨e, canonical_binary_raw_cut R' m H' hinit⟩
 
-#print axioms canonical_binary_raw_cut
-#print axioms binary_raw_cut_up_to_relabel
 end
 end F7Manuscript.PartnerGraph.Periodic

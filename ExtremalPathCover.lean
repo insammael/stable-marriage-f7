@@ -122,7 +122,4 @@ theorem bad_neutral_actual_path_cover (h : BadNeutral (V:=V)) :
   regular_actual_path_cover Finset.univ h.2.1
     ⟨badNeutral_badOn h,neutralOn_univ.mpr h.2.2.2.2.2⟩
 
-#print axioms upperPeelingCover
-#print axioms regular_actual_path_cover
-#print axioms bad_neutral_actual_path_cover
 end NeutralCore.PathExtraction

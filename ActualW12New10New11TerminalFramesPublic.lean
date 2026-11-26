@@ -153,9 +153,5 @@ theorem close_frame_B4
   exact noReturn_crossPairedAtom_empty (new1011Plan c) bits 13 N
     (by simp [new1011Plan, eventCount]) (by simp [new1011Plan, eventCount]) 2 3 4 6 (by decide) (by decide) (by decide) (by decide) (by decide) (by decide) hm (Or.inl ⟨hx,hy⟩)
 
-#print axioms close_frame_A5
-#print axioms close_frame_A4
-#print axioms close_frame_B5
-#print axioms close_frame_B4
 
 end F7Manuscript.ActualW12New10New11TerminalFramesPublic

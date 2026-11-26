@@ -95,8 +95,5 @@ theorem reverse_cut_visits {k : ℕ} (R : TokenRun (Agent 7) (Agent 7) k) (a b :
   · rintro ⟨t,ht⟩
     exact ⟨t.rev, by rwa [reverse_cut_state, Fin.rev_rev]⟩
 
-#print axioms cut_visits_iff
-#print axioms cut_visits_union
-#print axioms reverse_cut_visits
 end
 end F7Manuscript.TripleCoordinateLattice.R21OneGCutVisits

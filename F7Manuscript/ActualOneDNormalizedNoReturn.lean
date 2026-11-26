@@ -528,8 +528,6 @@ theorem actual_oneD_normalized_noReturn
     noReturn_id_of_fresh_sourcePrefix (Move.paired :: Move.center 1 :: tail)
       bits' hfSource'⟩
 
-#print axioms actual_oneD_normalized_word
-#print axioms actual_oneD_normalized_noReturn
 
 end
 end F7Manuscript.ActualOneDNormalizedNoReturn

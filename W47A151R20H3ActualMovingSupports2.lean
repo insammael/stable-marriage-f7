@@ -64,4 +64,3 @@ end
 
 end F7Manuscript.NormalSupportRigidity
 
-#print axioms F7Manuscript.NormalSupportRigidity.actual_cover_moving_supports_both_rows

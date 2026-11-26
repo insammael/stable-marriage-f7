@@ -164,7 +164,6 @@ theorem canonical_three_window_support_confined
       rw [hrunT]
       exact hconf
 
-#print axioms canonical_three_window_support_confined
 
 end
 end F7Manuscript.ActualW28R20CanonicalBlockConfined

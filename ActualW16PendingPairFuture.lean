@@ -349,7 +349,6 @@ theorem pending_pair_edge_bound {F : Rel} {n : ℕ}
               simpa [p] using! hdec
             omega
 
-#print axioms pending_pair_edge_bound
 
 end
 end F7Manuscript.ActualW16PendingPairFuture

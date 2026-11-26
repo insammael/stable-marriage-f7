@@ -17,9 +17,7 @@ def witnesses_z3_0368 : List RowOrbitWitness := [
   ⟨[(1, 5), (2, 3), (4, 6)], 23, 37⟩
 ]
 theorem witnesses_z3_0368_rows : (witnesses_z3_0368.map RowOrbitWitness.row) = boundedSortedRows.filter (fun row => necessaryCheck 3 prefix_z3_0368 row) := by decide +kernel
-#print axioms witnesses_z3_0368_rows
 theorem witnesses_z3_0368_valid : (witnesses_z3_0368.all (rowOrbitWitnessCheck 3 prefix_z3_0368)) = true := by decide +kernel
-#print axioms witnesses_z3_0368_valid
 theorem prefix_z3_0368_covers_sorted_row (row : List Atom) (hr : row ∈ boundedSortedRows) (hn : necessaryCheck 3 prefix_z3_0368 row = true) : savedOrbitMember 3 prefix_z3_0368 row = true := by
   have hm : row ∈ witnesses_z3_0368.map RowOrbitWitness.row := by
     rw [witnesses_z3_0368_rows]
@@ -41,9 +39,7 @@ def witnesses_z3_0369 : List RowOrbitWitness := [
   ⟨[(1, 5), (2, 4), (3, 6)], 14, 37⟩
 ]
 theorem witnesses_z3_0369_rows : (witnesses_z3_0369.map RowOrbitWitness.row) = boundedSortedRows.filter (fun row => necessaryCheck 3 prefix_z3_0369 row) := by decide +kernel
-#print axioms witnesses_z3_0369_rows
 theorem witnesses_z3_0369_valid : (witnesses_z3_0369.all (rowOrbitWitnessCheck 3 prefix_z3_0369)) = true := by decide +kernel
-#print axioms witnesses_z3_0369_valid
 theorem prefix_z3_0369_covers_sorted_row (row : List Atom) (hr : row ∈ boundedSortedRows) (hn : necessaryCheck 3 prefix_z3_0369 row = true) : savedOrbitMember 3 prefix_z3_0369 row = true := by
   have hm : row ∈ witnesses_z3_0369.map RowOrbitWitness.row := by
     rw [witnesses_z3_0369_rows]
@@ -62,9 +58,7 @@ def witnesses_z3_0370 : List RowOrbitWitness := [
   ⟨[(1, 5), (2, 6), (3, 4)], 39, 37⟩
 ]
 theorem witnesses_z3_0370_rows : (witnesses_z3_0370.map RowOrbitWitness.row) = boundedSortedRows.filter (fun row => necessaryCheck 3 prefix_z3_0370 row) := by decide +kernel
-#print axioms witnesses_z3_0370_rows
 theorem witnesses_z3_0370_valid : (witnesses_z3_0370.all (rowOrbitWitnessCheck 3 prefix_z3_0370)) = true := by decide +kernel
-#print axioms witnesses_z3_0370_valid
 theorem prefix_z3_0370_covers_sorted_row (row : List Atom) (hr : row ∈ boundedSortedRows) (hn : necessaryCheck 3 prefix_z3_0370 row = true) : savedOrbitMember 3 prefix_z3_0370 row = true := by
   have hm : row ∈ witnesses_z3_0370.map RowOrbitWitness.row := by
     rw [witnesses_z3_0370_rows]
@@ -83,9 +77,7 @@ def witnesses_z3_0371 : List RowOrbitWitness := [
   ⟨[(1, 6), (2, 5), (3, 4)], 12, 37⟩
 ]
 theorem witnesses_z3_0371_rows : (witnesses_z3_0371.map RowOrbitWitness.row) = boundedSortedRows.filter (fun row => necessaryCheck 3 prefix_z3_0371 row) := by decide +kernel
-#print axioms witnesses_z3_0371_rows
 theorem witnesses_z3_0371_valid : (witnesses_z3_0371.all (rowOrbitWitnessCheck 3 prefix_z3_0371)) = true := by decide +kernel
-#print axioms witnesses_z3_0371_valid
 theorem prefix_z3_0371_covers_sorted_row (row : List Atom) (hr : row ∈ boundedSortedRows) (hn : necessaryCheck 3 prefix_z3_0371 row = true) : savedOrbitMember 3 prefix_z3_0371 row = true := by
   have hm : row ∈ witnesses_z3_0371.map RowOrbitWitness.row := by
     rw [witnesses_z3_0371_rows]
@@ -103,9 +95,7 @@ def witnesses_z3_0372 : List RowOrbitWitness := [
   ⟨[(0, 5), (1, 2), (4, 6)], 63, 36⟩
 ]
 theorem witnesses_z3_0372_rows : (witnesses_z3_0372.map RowOrbitWitness.row) = boundedSortedRows.filter (fun row => necessaryCheck 3 prefix_z3_0372 row) := by decide +kernel
-#print axioms witnesses_z3_0372_rows
 theorem witnesses_z3_0372_valid : (witnesses_z3_0372.all (rowOrbitWitnessCheck 3 prefix_z3_0372)) = true := by decide +kernel
-#print axioms witnesses_z3_0372_valid
 theorem prefix_z3_0372_covers_sorted_row (row : List Atom) (hr : row ∈ boundedSortedRows) (hn : necessaryCheck 3 prefix_z3_0372 row = true) : savedOrbitMember 3 prefix_z3_0372 row = true := by
   have hm : row ∈ witnesses_z3_0372.map RowOrbitWitness.row := by
     rw [witnesses_z3_0372_rows]
@@ -123,9 +113,7 @@ def witnesses_z3_0373 : List RowOrbitWitness := [
   ⟨[(0, 5), (1, 3), (4, 6)], 63, 37⟩
 ]
 theorem witnesses_z3_0373_rows : (witnesses_z3_0373.map RowOrbitWitness.row) = boundedSortedRows.filter (fun row => necessaryCheck 3 prefix_z3_0373 row) := by decide +kernel
-#print axioms witnesses_z3_0373_rows
 theorem witnesses_z3_0373_valid : (witnesses_z3_0373.all (rowOrbitWitnessCheck 3 prefix_z3_0373)) = true := by decide +kernel
-#print axioms witnesses_z3_0373_valid
 theorem prefix_z3_0373_covers_sorted_row (row : List Atom) (hr : row ∈ boundedSortedRows) (hn : necessaryCheck 3 prefix_z3_0373 row = true) : savedOrbitMember 3 prefix_z3_0373 row = true := by
   have hm : row ∈ witnesses_z3_0373.map RowOrbitWitness.row := by
     rw [witnesses_z3_0373_rows]
@@ -145,9 +133,7 @@ def witnesses_z3_0374 : List RowOrbitWitness := [
   ⟨[(1, 5), (2, 4), (3, 6)], 67, 36⟩
 ]
 theorem witnesses_z3_0374_rows : (witnesses_z3_0374.map RowOrbitWitness.row) = boundedSortedRows.filter (fun row => necessaryCheck 3 prefix_z3_0374 row) := by decide +kernel
-#print axioms witnesses_z3_0374_rows
 theorem witnesses_z3_0374_valid : (witnesses_z3_0374.all (rowOrbitWitnessCheck 3 prefix_z3_0374)) = true := by decide +kernel
-#print axioms witnesses_z3_0374_valid
 theorem prefix_z3_0374_covers_sorted_row (row : List Atom) (hr : row ∈ boundedSortedRows) (hn : necessaryCheck 3 prefix_z3_0374 row = true) : savedOrbitMember 3 prefix_z3_0374 row = true := by
   have hm : row ∈ witnesses_z3_0374.map RowOrbitWitness.row := by
     rw [witnesses_z3_0374_rows]
@@ -167,9 +153,7 @@ def witnesses_z3_0375 : List RowOrbitWitness := [
   ⟨[(1, 5), (2, 6), (3, 4)], 67, 37⟩
 ]
 theorem witnesses_z3_0375_rows : (witnesses_z3_0375.map RowOrbitWitness.row) = boundedSortedRows.filter (fun row => necessaryCheck 3 prefix_z3_0375 row) := by decide +kernel
-#print axioms witnesses_z3_0375_rows
 theorem witnesses_z3_0375_valid : (witnesses_z3_0375.all (rowOrbitWitnessCheck 3 prefix_z3_0375)) = true := by decide +kernel
-#print axioms witnesses_z3_0375_valid
 theorem prefix_z3_0375_covers_sorted_row (row : List Atom) (hr : row ∈ boundedSortedRows) (hn : necessaryCheck 3 prefix_z3_0375 row = true) : savedOrbitMember 3 prefix_z3_0375 row = true := by
   have hm : row ∈ witnesses_z3_0375.map RowOrbitWitness.row := by
     rw [witnesses_z3_0375_rows]
@@ -191,9 +175,7 @@ def witnesses_z3_0376 : List RowOrbitWitness := [
   ⟨[(1, 4), (2, 6), (3, 5)], 45, 37⟩
 ]
 theorem witnesses_z3_0376_rows : (witnesses_z3_0376.map RowOrbitWitness.row) = boundedSortedRows.filter (fun row => necessaryCheck 3 prefix_z3_0376 row) := by decide +kernel
-#print axioms witnesses_z3_0376_rows
 theorem witnesses_z3_0376_valid : (witnesses_z3_0376.all (rowOrbitWitnessCheck 3 prefix_z3_0376)) = true := by decide +kernel
-#print axioms witnesses_z3_0376_valid
 theorem prefix_z3_0376_covers_sorted_row (row : List Atom) (hr : row ∈ boundedSortedRows) (hn : necessaryCheck 3 prefix_z3_0376 row = true) : savedOrbitMember 3 prefix_z3_0376 row = true := by
   have hm : row ∈ witnesses_z3_0376.map RowOrbitWitness.row := by
     rw [witnesses_z3_0376_rows]
@@ -213,9 +195,7 @@ def witnesses_z3_0377 : List RowOrbitWitness := [
   ⟨[(1, 4), (2, 6), (3, 5)], 56, 36⟩
 ]
 theorem witnesses_z3_0377_rows : (witnesses_z3_0377.map RowOrbitWitness.row) = boundedSortedRows.filter (fun row => necessaryCheck 3 prefix_z3_0377 row) := by decide +kernel
-#print axioms witnesses_z3_0377_rows
 theorem witnesses_z3_0377_valid : (witnesses_z3_0377.all (rowOrbitWitnessCheck 3 prefix_z3_0377)) = true := by decide +kernel
-#print axioms witnesses_z3_0377_valid
 theorem prefix_z3_0377_covers_sorted_row (row : List Atom) (hr : row ∈ boundedSortedRows) (hn : necessaryCheck 3 prefix_z3_0377 row = true) : savedOrbitMember 3 prefix_z3_0377 row = true := by
   have hm : row ∈ witnesses_z3_0377.map RowOrbitWitness.row := by
     rw [witnesses_z3_0377_rows]
@@ -234,9 +214,7 @@ def witnesses_z3_0378 : List RowOrbitWitness := [
   ⟨[(1, 5), (2, 4), (3, 6)], 49, 36⟩
 ]
 theorem witnesses_z3_0378_rows : (witnesses_z3_0378.map RowOrbitWitness.row) = boundedSortedRows.filter (fun row => necessaryCheck 3 prefix_z3_0378 row) := by decide +kernel
-#print axioms witnesses_z3_0378_rows
 theorem witnesses_z3_0378_valid : (witnesses_z3_0378.all (rowOrbitWitnessCheck 3 prefix_z3_0378)) = true := by decide +kernel
-#print axioms witnesses_z3_0378_valid
 theorem prefix_z3_0378_covers_sorted_row (row : List Atom) (hr : row ∈ boundedSortedRows) (hn : necessaryCheck 3 prefix_z3_0378 row = true) : savedOrbitMember 3 prefix_z3_0378 row = true := by
   have hm : row ∈ witnesses_z3_0378.map RowOrbitWitness.row := by
     rw [witnesses_z3_0378_rows]
@@ -255,9 +233,7 @@ def witnesses_z3_0379 : List RowOrbitWitness := [
   ⟨[(1, 6), (2, 4), (3, 5)], 75, 36⟩
 ]
 theorem witnesses_z3_0379_rows : (witnesses_z3_0379.map RowOrbitWitness.row) = boundedSortedRows.filter (fun row => necessaryCheck 3 prefix_z3_0379 row) := by decide +kernel
-#print axioms witnesses_z3_0379_rows
 theorem witnesses_z3_0379_valid : (witnesses_z3_0379.all (rowOrbitWitnessCheck 3 prefix_z3_0379)) = true := by decide +kernel
-#print axioms witnesses_z3_0379_valid
 theorem prefix_z3_0379_covers_sorted_row (row : List Atom) (hr : row ∈ boundedSortedRows) (hn : necessaryCheck 3 prefix_z3_0379 row = true) : savedOrbitMember 3 prefix_z3_0379 row = true := by
   have hm : row ∈ witnesses_z3_0379.map RowOrbitWitness.row := by
     rw [witnesses_z3_0379_rows]
@@ -277,9 +253,7 @@ def witnesses_z3_0380 : List RowOrbitWitness := [
   ⟨[(1, 4), (2, 5), (3, 6)], 56, 37⟩
 ]
 theorem witnesses_z3_0380_rows : (witnesses_z3_0380.map RowOrbitWitness.row) = boundedSortedRows.filter (fun row => necessaryCheck 3 prefix_z3_0380 row) := by decide +kernel
-#print axioms witnesses_z3_0380_rows
 theorem witnesses_z3_0380_valid : (witnesses_z3_0380.all (rowOrbitWitnessCheck 3 prefix_z3_0380)) = true := by decide +kernel
-#print axioms witnesses_z3_0380_valid
 theorem prefix_z3_0380_covers_sorted_row (row : List Atom) (hr : row ∈ boundedSortedRows) (hn : necessaryCheck 3 prefix_z3_0380 row = true) : savedOrbitMember 3 prefix_z3_0380 row = true := by
   have hm : row ∈ witnesses_z3_0380.map RowOrbitWitness.row := by
     rw [witnesses_z3_0380_rows]
@@ -298,9 +272,7 @@ def witnesses_z3_0381 : List RowOrbitWitness := [
   ⟨[(1, 5), (2, 6), (3, 4)], 49, 37⟩
 ]
 theorem witnesses_z3_0381_rows : (witnesses_z3_0381.map RowOrbitWitness.row) = boundedSortedRows.filter (fun row => necessaryCheck 3 prefix_z3_0381 row) := by decide +kernel
-#print axioms witnesses_z3_0381_rows
 theorem witnesses_z3_0381_valid : (witnesses_z3_0381.all (rowOrbitWitnessCheck 3 prefix_z3_0381)) = true := by decide +kernel
-#print axioms witnesses_z3_0381_valid
 theorem prefix_z3_0381_covers_sorted_row (row : List Atom) (hr : row ∈ boundedSortedRows) (hn : necessaryCheck 3 prefix_z3_0381 row = true) : savedOrbitMember 3 prefix_z3_0381 row = true := by
   have hm : row ∈ witnesses_z3_0381.map RowOrbitWitness.row := by
     rw [witnesses_z3_0381_rows]
@@ -319,9 +291,7 @@ def witnesses_z3_0382 : List RowOrbitWitness := [
   ⟨[(1, 6), (2, 5), (3, 4)], 75, 37⟩
 ]
 theorem witnesses_z3_0382_rows : (witnesses_z3_0382.map RowOrbitWitness.row) = boundedSortedRows.filter (fun row => necessaryCheck 3 prefix_z3_0382 row) := by decide +kernel
-#print axioms witnesses_z3_0382_rows
 theorem witnesses_z3_0382_valid : (witnesses_z3_0382.all (rowOrbitWitnessCheck 3 prefix_z3_0382)) = true := by decide +kernel
-#print axioms witnesses_z3_0382_valid
 theorem prefix_z3_0382_covers_sorted_row (row : List Atom) (hr : row ∈ boundedSortedRows) (hn : necessaryCheck 3 prefix_z3_0382 row = true) : savedOrbitMember 3 prefix_z3_0382 row = true := by
   have hm : row ∈ witnesses_z3_0382.map RowOrbitWitness.row := by
     rw [witnesses_z3_0382_rows]
@@ -343,9 +313,7 @@ def witnesses_z3_0383 : List RowOrbitWitness := [
   ⟨[(1, 6), (2, 5), (3, 4)], 60, 36⟩
 ]
 theorem witnesses_z3_0383_rows : (witnesses_z3_0383.map RowOrbitWitness.row) = boundedSortedRows.filter (fun row => necessaryCheck 3 prefix_z3_0383 row) := by decide +kernel
-#print axioms witnesses_z3_0383_rows
 theorem witnesses_z3_0383_valid : (witnesses_z3_0383.all (rowOrbitWitnessCheck 3 prefix_z3_0383)) = true := by decide +kernel
-#print axioms witnesses_z3_0383_valid
 theorem prefix_z3_0383_covers_sorted_row (row : List Atom) (hr : row ∈ boundedSortedRows) (hn : necessaryCheck 3 prefix_z3_0383 row = true) : savedOrbitMember 3 prefix_z3_0383 row = true := by
   have hm : row ∈ witnesses_z3_0383.map RowOrbitWitness.row := by
     rw [witnesses_z3_0383_rows]

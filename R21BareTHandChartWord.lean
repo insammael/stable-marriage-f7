@@ -29,5 +29,4 @@ theorem chart_continuation_data (T : Chart) (f : SupportFrame) (bits : Nat→Boo
     rw [hplan] at h
     simpa [eventCount,Nat.add_comm] using! h
 
-#print axioms chart_continuation_data
 end F7Manuscript.TripleCoordinateLattice.R21BareTHandSplice

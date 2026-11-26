@@ -45,7 +45,4 @@ theorem mass18_cost_of_gap_three_exclusions (S : Chart)
   have qzero:=original_qzero_of_gap_three_exclusions S A R 0 (by omega) alignment binary (by omega) (by omega) (by omega) near
   exact PureRootCoverage.mass18_cost_of_qzero S A R align binary qzero
 
-#print axioms original_qzero_of_gap_three_exclusions
-#print axioms mass17_cost_of_gap_three_exclusions
-#print axioms mass18_cost_of_gap_three_exclusions
 end F7Manuscript.R21LongWindow.PairedSubpatterns

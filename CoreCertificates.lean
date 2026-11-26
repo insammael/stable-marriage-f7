@@ -73,10 +73,5 @@ theorem signature_injective : Function.Injective signature := by
   obtain ⟨h6,h7l,h7u,h8a,h8s⟩ := signatures
   cases k <;> cases l <;> simp_all
 
-#print axioms core_pairClass
-#print axioms core_neutral
-#print axioms core_counts
-#print axioms core_badNeutral
-#print axioms signatures
 
 end NeutralCore

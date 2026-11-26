@@ -97,8 +97,5 @@ theorem virtualTime_hstep
       · apply Fin.le_iff_val_le_val.mpr
         simp [virtualTime] <;> omega
 
-#print axioms virtualTime_mono
-#print axioms virtualTime_finish
-#print axioms virtualTime_hstep
 end
 end F7Manuscript.ActualW28R20VirtualH012Clock

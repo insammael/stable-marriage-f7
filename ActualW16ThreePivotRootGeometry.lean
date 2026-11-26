@@ -155,8 +155,5 @@ theorem named_root_classifier (p : Nat × Nat × Nat)
     rw [hmatch] at hfalse
     contradiction
 
-#print axioms projected43_covered
-#print axioms listed_hits_match
-#print axioms named_root_classifier
 
 end F7Manuscript.ActualW16ThreePivotRootGeometry

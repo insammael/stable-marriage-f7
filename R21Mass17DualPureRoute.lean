@@ -76,6 +76,5 @@ theorem pure_route_dual
         · simpa only [first,Nat.zero_add] using! next
       · simpa only [first,Nat.zero_add] using! nextColors
 
-#print axioms pure_route_dual
 end
 end F7Manuscript.R21NormalEndpoint.ReseededObservation

@@ -80,6 +80,5 @@ theorem saturated_actual_disjoint_successors_impossible
       omega) person origin hactive
   exact hfuture hreturned
 
-#print axioms saturated_actual_disjoint_successors_impossible
 end
 end F7Manuscript.ActualW28R20SaturatedDisjointSuccessors

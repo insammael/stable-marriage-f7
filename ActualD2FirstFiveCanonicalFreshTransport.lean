@@ -176,6 +176,5 @@ theorem actual_mapped_prefix_fresh_to_canonicalized
   exact (F7Manuscript.ActualSupportFreshTransport.fresh_iff_of_pointwise_support
     _ _ hlen hs).mp hactual
 
-#print axioms actual_mapped_prefix_fresh_to_canonicalized
 
 end F7Manuscript.ActualD2FirstFiveCanonicalFreshTransport

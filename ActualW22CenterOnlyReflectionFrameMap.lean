@@ -58,6 +58,5 @@ theorem canonical_actor_after_center_reflection_eq :
   · simpa [actorReflection, Equiv.swap_apply_def] using! congrArg Fin.val h05
   · simpa [actorReflection, Equiv.swap_apply_def] using! congrArg Fin.val h06
 
-#print axioms canonical_actor_after_center_reflection_eq
 
 end F7Manuscript.ActualW22CenterOnlyReflectionFrameMap

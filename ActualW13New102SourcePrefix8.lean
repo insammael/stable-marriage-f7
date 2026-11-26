@@ -33,7 +33,5 @@ theorem sourcePrefix0_empty (bits : Nat → Bool) :
     sourcePrefix new102Plan bits 0 = [] := by
   simp [sourcePrefix, initialWord, F7Manuscript.ActualPlanNoReturn.routePrefix_zero]
 
-#print axioms sourcePrefix8_explicit
-#print axioms sourcePrefix0_empty
 
 end F7Manuscript.ActualW13New102SourcePrefix8

@@ -78,6 +78,5 @@ theorem original_deficit_double :
   unfold a A2
   omega
 
-#print axioms original_deficit_double
 
 end NeutralCore

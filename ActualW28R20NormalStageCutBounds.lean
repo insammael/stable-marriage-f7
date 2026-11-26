@@ -134,6 +134,5 @@ theorem actualNormal_stage_cut_bounds
             dsimp -failIfUnchanged [E, n] at hrank ⊢
             omega
 
-#print axioms actualNormal_stage_cut_bounds
 end
 end F7Manuscript.TripleCoordinateLattice.GenericNormal

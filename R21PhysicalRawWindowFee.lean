@@ -92,6 +92,5 @@ theorem raw_normal_word_fee_floor (C : Chart) (positive : 1<=C.m)
  rw [runEq]
  rfl
 
-#print axioms raw_normal_word_fee_floor
 end
 end F7Manuscript.R21PhysicalWindowWords

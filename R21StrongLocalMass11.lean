@@ -72,5 +72,4 @@ end Mass11
 theorem no_actual_terminal_mass11_fee_le_three (c : Nat) (hc : c≤3) :
  ¬ActualTerminal 14 c :=
  actual_terminal_excluded Mass11.table_good hc Mass11.coverage
-#print axioms no_actual_terminal_mass11_fee_le_three
 end F7Manuscript.R21StrongLocal

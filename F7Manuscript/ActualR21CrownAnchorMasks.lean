@@ -143,6 +143,4 @@ theorem SharedAnchor.final_masks_are_complement
       Nat.testBit_two_pow_of_ne (by have := a.isLt; omega)]
     rfl
 
-#print axioms SharedAnchor.compatible_prefixes
-#print axioms SharedAnchor.final_masks_are_complement
 end F7Manuscript.R21PureInitialCrown

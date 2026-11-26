@@ -159,7 +159,5 @@ theorem four_pool_requires_both_sides {W : Type*} [Fintype W] {q : ℕ}
       rw [hhit] at hle
       omega
 
-#print axioms six_changes_of_four_move
-#print axioms four_pool_requires_both_sides
 end
 end F7Manuscript.R20FivePoolCycle

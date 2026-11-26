@@ -112,6 +112,5 @@ theorem r21_one_outsider_one_G_one_T_leaf (I : Profile 7) [Nonempty (StableMatch
   letI := htr
   exact actual_r21_one_outsider_one_G_one_T_count C hn h221 h311 hdelta hu hb hc
 
-#print axioms r21_one_outsider_one_G_one_T_leaf
 end
 end F7Manuscript.ActualPositiveDeficitCoverAssembly

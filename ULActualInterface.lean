@@ -209,7 +209,5 @@ theorem actual_cover_interface_budget {A B : Finset V}
   rw [←hM] at hBound
   exact ⟨flagA,flagB,hBound,hSomeA,hSomeB⟩
 
-#print axioms actual_full_channel_alone
-#print axioms actual_cover_interface_budget
 
 end ConditionalUL

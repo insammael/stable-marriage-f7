@@ -184,6 +184,5 @@ theorem new1011_noReturn_impossible
       · exact close_frame_A5 1 bits hfirst N h3 h4 h6 h7 h8 hA
       · exact close_frame_A4 1 bits hfirst N h3 h4 h6 h7 h8 hA
 
-#print axioms new1011_noReturn_impossible
 
 end F7Manuscript.ActualW12New10New11CompleteHand

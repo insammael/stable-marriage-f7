@@ -122,8 +122,6 @@ theorem norm3_actual_packet_of_canonical
   exact norm3_actual_cut_packet N.S tail' N.out hbound Hroute
     Hobs Hfirst M N.binary
 
-#print axioms d2_actual_packet_of_canonical
-#print axioms norm3_actual_packet_of_canonical
 
 end
 end F7Manuscript.ActualW9CanonicalPairedPrefixNormalization

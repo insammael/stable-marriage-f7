@@ -94,7 +94,5 @@ theorem isolated_gap_retired_compares_new
   · exact hxi
   · exact hxj
 
-#print axioms double_threshold_retired_compares_new
-#print axioms isolated_gap_retired_compares_new
 end
 end F7Manuscript.TripleCoordinateLattice

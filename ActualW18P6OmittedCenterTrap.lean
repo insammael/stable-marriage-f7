@@ -93,6 +93,5 @@ theorem p6_omitted_center_B_pair_permanent {n : ℕ}
   exact fixedToken_twoTokenTwoSite_occupancy T' 0 6 1 4 h06 (by decide)
     h1out h4out hpool1 hpool4 k h1 h4 t hkt
 
-#print axioms p6_omitted_center_B_pair_permanent
 
 end F7Manuscript.ActualW18P6OmittedCenterTrap

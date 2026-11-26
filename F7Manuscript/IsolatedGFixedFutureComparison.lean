@@ -100,7 +100,6 @@ theorem isolated_g_fixed_future_comparison
     c i hi hci.symm w hnotOld (by simp only [w, wcoord, dif_neg hci.symm, old])
   exact hfalse
 
-#print axioms isolated_g_fixed_future_comparison
 
 end
 end F7Manuscript.TripleCoordinateLattice

@@ -169,6 +169,5 @@ theorem two_actual_installers_give_saturation
     f e R' k hk beta hbeta mate hmate hcoherence hpair hprefix' hno hcenter
     k₁ k₂ hk₁ hk₂ hnew₁ hnew₂ hnew
 
-#print axioms two_actual_installers_give_saturation
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW28R20TwoInstallerSaturation

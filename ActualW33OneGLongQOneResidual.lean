@@ -90,6 +90,5 @@ theorem actual_one_G_long_long_q_one_residual
           C h221 h311 hu E Rone hm1 hq1 hs1
         exact Or.inr (Or.inr ⟨hq0, hq1, hs0, hs1, hbound.2, hmsum⟩)
 
-#print axioms actual_one_G_long_long_q_one_residual
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW33OneGLongQOneResidual

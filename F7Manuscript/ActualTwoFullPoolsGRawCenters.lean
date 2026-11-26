@@ -2329,7 +2329,6 @@ theorem actual_two_full_pools_G_raw_two_centers_impossible
     exact (past_ne_after R t w.actor hmem u hu')
       (hstate.trans htoken.symm)
 
-#print axioms actual_two_full_pools_G_raw_two_centers_impossible
 
 end
 end F7Manuscript.TripleCoordinateLattice

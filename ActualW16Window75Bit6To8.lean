@@ -367,8 +367,5 @@ theorem window75_bit8_forced
       have hk' : b 8 = true := hk
       exact False.elim (badD8 t b N h0 h1 h2 h3' h4' h5' h6' h7' hk')
 
-#print axioms window75_bit6_forced
-#print axioms window75_bit7_forced
-#print axioms window75_bit8_forced
 
 end F7Manuscript.ActualW16Window75Bit6To8

@@ -90,6 +90,5 @@ theorem p5_boundary_entry_not_displace_initial_four_five
     subst x
     exact entry_displacing_five_impossible T k 5 y rfl hxS hyOut hxy hb hpre5 hfuture5
 
-#print axioms p5_boundary_entry_not_displace_initial_four_five
 
 end F7Manuscript.ActualW19P5BoundaryEntryNoInitial45

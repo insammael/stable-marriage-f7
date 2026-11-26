@@ -79,6 +79,5 @@ theorem q1_typeV_actual_joined_route_false
     R C D a b g0 g1 (by omega) (by omega) ha
     (by omega) bits h0 h1 h2 h3 hsize H hguard
 
-#print axioms q1_typeV_actual_joined_route_false
 end
 end F7Manuscript.W34QOneTypeVActualRouteExclusion

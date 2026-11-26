@@ -58,7 +58,6 @@ theorem paid_start_endpoint_fit_adapter
     exact endpoint_unit_two_pivot_some_false W D dual j u v hWlen hDlen havail
       hu huv hne12 hne16 hD0 (by intro q hq hqn; exact hDtail q hq (by omega)) hpiv hSome
 
-#print axioms paid_start_endpoint_fit_adapter
 
 end
 end F7Manuscript.ActualW17U3Q1S3PaidOneFrontier

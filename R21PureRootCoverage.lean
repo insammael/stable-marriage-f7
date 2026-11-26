@@ -184,7 +184,4 @@ theorem every_input_has_root (input : Input) (o : Output)
   | none => simp [found] at h
   | some im => exact ⟨im,of_decide_eq_true (by simpa [found] using! h)⟩
 
-#print axioms choice_roundtrip
-#print axioms checked_all
-#print axioms every_input_has_root
 end F7Manuscript.R21LongWindow.PureRootCoverage

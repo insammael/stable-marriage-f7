@@ -107,9 +107,6 @@ theorem actual_seed_matching (B : Board) (d : ReturnCertificate.Site) (seeds : L
       simpa [normPair,h] using! eq
     exact Prod.ext (congrArg Prod.snd ee) (congrArg Prod.fst ee)
 
-#print axioms A_seed_matching_checked
-#print axioms B_seed_matching_checked
-#print axioms actual_seed_matching
 
 
 theorem frame_disjoint (f : SupportFrame) (hv : ValidLayout (stateOfFrame f))
@@ -214,7 +211,4 @@ theorem actual_B_seed_frame (f : SupportFrame) (hv : ValidLayout (stateOfFrame f
   rw [he]
   exact B_seed_replay_checked p bits f.last
 
-#print axioms seed_fresh_individual
-#print axioms actual_A_seed_frame
-#print axioms actual_B_seed_frame
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

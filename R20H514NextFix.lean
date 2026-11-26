@@ -70,7 +70,6 @@ theorem original_14_0_pre_bridge_without_hdef
       simp only [hout, Finset.card_singleton])
     hG hnoT _ hq hm0 hm1 hdef
 
-#print axioms original_14_0_pre_bridge_without_hdef
 
 end
 

@@ -277,13 +277,6 @@ theorem outside_iff (R : TokenRun Site W 21) {off len : Nat} (bound : off+len â‰
       rw [hj,hr] at contra
       exact lt_irrefl _ contra
 
-#print axioms slotCell_injective
-#print axioms slotCell_surjective_21
-#print axioms card_nameVisits
-#print axioms mask_eq_nameVisits
-#print axioms normalized_last
-#print axioms outside_iff
-#print axioms left_ne_right
 
 end
 end F7Manuscript.R21NormalEndpoint.BoundaryCover

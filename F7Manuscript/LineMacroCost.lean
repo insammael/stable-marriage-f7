@@ -98,6 +98,4 @@ theorem two_gap_pair_deficit_ge_four
     split_ifs at hEta0 hEta1 <;> omega
   omega
 
-#print axioms total_deficit_ge_eleven_of_three_macros
-#print axioms two_gap_pair_deficit_ge_four
 end F7Manuscript.LineMacroCost

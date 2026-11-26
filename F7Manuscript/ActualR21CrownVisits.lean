@@ -81,5 +81,4 @@ theorem exchange_complete_visits (R : TokenRun Site W q) (i : Fin q)
         have hout := R.HOUT i x (by simp [hs, hxa, hxb])
         exact hc x w ⟨i.castSucc, le_rfl, hout.trans hp⟩
 
-#print axioms exchange_complete_visits
 end F7Manuscript.R21PureInitialCrown

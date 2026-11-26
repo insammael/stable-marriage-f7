@@ -234,7 +234,6 @@ theorem board_after_transformation (R : TokenRun Site Site 21) {off len : Nat}
     rw [eq] at h
     exact (projection_hole b p t).trans h.symm
 
-#print axioms board_after_transformation
 end
 end F7Manuscript.R21NormalEndpoint.BoundaryCover
 
@@ -286,7 +285,6 @@ theorem physicalWalkBuilder : PhysicalWalkBuilder := by
 end
 end BoundaryAtlas
 
-#print axioms BoundaryAtlas.physicalWalkBuilder
 end F7Manuscript.R21NormalEndpoint
 
 end

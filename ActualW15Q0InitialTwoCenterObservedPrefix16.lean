@@ -139,7 +139,6 @@ def observed_prefix16_of_initial_two_center_carrier
   rw [htake] at H
   simpa [P, word] using! H
 
-#print axioms observed_prefix16_of_initial_two_center_carrier
 
 end
 end F7Manuscript.ActualW15Q0InitialTwoCenterObservedPrefix16

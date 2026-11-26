@@ -87,6 +87,5 @@ theorem p5_first_internal_from_three_uses_five
       · exact h
     exact Or.inr ⟨hL5, hR⟩
 
-#print axioms p5_first_internal_from_three_uses_five
 
 end F7Manuscript.ActualW19P5FirstInternalMove

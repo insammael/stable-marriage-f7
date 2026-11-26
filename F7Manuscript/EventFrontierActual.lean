@@ -74,8 +74,6 @@ theorem actual_colored_run {Q : Finset (Event I)} (hQ : OrderConvex Q)
   obtain ⟨e, C, hw⟩ := actual_colored_cut hQ E H hm2 hm hinit hadd
   exact ⟨C.toColored _, hw⟩
 
-#print axioms actual_colored_cut
-#print axioms actual_colored_run
 
 end
 end F7Manuscript.EventFrontierActual

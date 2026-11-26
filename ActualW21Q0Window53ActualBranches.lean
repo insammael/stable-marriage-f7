@@ -57,6 +57,5 @@ theorem actual_q0_window53_pivot_branches_impossible
       h221 h311 hG hT X hq hm {2,9,11,12} hP window53_return_entry
       window53_metadata (by rfl) true 1 (by decide) (by decide)
 
-#print axioms actual_q0_window53_pivot_branches_impossible
 end
 end F7Manuscript.ActualW21Q0Window53ActualBranches

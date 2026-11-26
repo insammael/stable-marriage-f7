@@ -56,5 +56,4 @@ theorem p5_CII_A4_boundary_packet
       exact hpre.2
   exact ⟨hends24,hpre.1,hpre.2,hpost2⟩
 
-#print axioms p5_CII_A4_boundary_packet
 end F7Manuscript.ActualW20P5CIIA4BoundaryPacket

@@ -33,7 +33,6 @@ theorem noActual0 (R : TokenRun Site (Agent 7) 21) {off : Nat}
     (budget : offset w.rev off 13 ≤ 1) : False := by
   exact noActualOfBoundedLeaf R binary obs checked0 image 1 21 leaf0 empty0 budget (by omega)
 
-#print axioms noActual0
 
 /-- Manuscript board and adjacent left/right supports A, 36, 15. -/
 def board1 : Board := makeBoard [5,2,3,1,0,6,4] [[2,4],[3,4],[1,4],[0,5],[1,2],[0,1,3],[0,2,5]]
@@ -53,7 +52,6 @@ theorem noActual1 (R : TokenRun Site (Agent 7) 21) {off : Nat}
     (budget : offset w.rev off 13 ≤ 1) : False := by
   exact noActualOfBoundedLeaf R binary obs checked1 image 1 21 leaf1 empty1 budget (by omega)
 
-#print axioms noActual1
 
 /-- Manuscript board and adjacent left/right supports A, 56, 45. -/
 def board2 : Board := makeBoard [6,3,5,1,2,0,4] [[2,4],[2,4,5],[1,4],[0,5,6],[1],[1,3],[0,2,3]]
@@ -73,7 +71,6 @@ theorem noActual2 (R : TokenRun Site (Agent 7) 21) {off : Nat}
     (budget : offset w.rev off 13 ≤ 1) : False := by
   exact noActualOfBoundedLeaf R binary obs checked2 image 1 21 leaf2 empty2 budget (by omega)
 
-#print axioms noActual2
 
 /-- Manuscript board and adjacent left/right supports A, 56, 15. -/
 def board3 : Board := makeBoard [6,2,5,1,0,3,4] [[2,4],[4,5],[1,4],[0,5,6],[1,2],[0,1],[0,2,3]]
@@ -93,7 +90,6 @@ theorem noActual3 (R : TokenRun Site (Agent 7) 21) {off : Nat}
     (budget : offset w.rev off 13 ≤ 1) : False := by
   exact noActualOfBoundedLeaf R binary obs checked3 image 1 21 leaf3 empty3 budget (by omega)
 
-#print axioms noActual3
 
 /-- Manuscript board and adjacent left/right supports B, 36, 03. -/
 def board4 : Board := makeBoard [4,6,3,5,0,1,2] [[2],[2,3,4],[1,4],[0,1],[1,2],[0,3,6],[0,4,5]]
@@ -113,7 +109,6 @@ theorem noActual4 (R : TokenRun Site (Agent 7) 21) {off : Nat}
     (budget : offset w.rev off 13 ≤ 1) : False := by
   exact noActualOfBoundedLeaf R binary obs checked4 image 1 21 leaf4 empty4 budget (by omega)
 
-#print axioms noActual4
 
 /-- Manuscript board and adjacent left/right supports B, 56, 23. -/
 def board5 : Board := makeBoard [6,3,4,5,0,1,2] [[2,4],[2,4,5],[1],[0,1,6],[1,2],[0,3],[0,3,4]]
@@ -133,7 +128,6 @@ theorem noActual5 (R : TokenRun Site (Agent 7) 21) {off : Nat}
     (budget : offset w.rev off 13 ≤ 1) : False := by
   exact noActualOfBoundedLeaf R binary obs checked5 image 1 21 leaf5 empty5 budget (by omega)
 
-#print axioms noActual5
 
 /-- Manuscript board and adjacent left/right supports B, 56, 03. -/
 def board6 : Board := makeBoard [4,3,5,6,0,1,2] [[2],[2,4,5],[1,4],[0,1,5],[1,2],[0,3],[0,3,4]]
@@ -153,7 +147,6 @@ theorem noActual6 (R : TokenRun Site (Agent 7) 21) {off : Nat}
     (budget : offset w.rev off 13 ≤ 1) : False := by
   exact noActualOfBoundedLeaf R binary obs checked6 image 1 21 leaf6 empty6 budget (by omega)
 
-#print axioms noActual6
 
 /-- Manuscript board and adjacent left/right supports E, 26, 25. -/
 def board7 : Board := makeBoard [6,4,1,5,2,0,3] [[3,4,5],[2,3,6],[4],[0,1,2],[0,1],[2],[0,4,5]]
@@ -173,7 +166,6 @@ theorem noActual7 (R : TokenRun Site (Agent 7) 21) {off : Nat}
     (budget : offset w.rev off 13 ≤ 1) : False := by
   exact noActualOfBoundedLeaf R binary obs checked7 image 1 21 leaf7 empty7 budget (by omega)
 
-#print axioms noActual7
 
 /-- Manuscript board and adjacent left/right supports E, 56, 24. -/
 def board8 : Board := makeBoard [2,4,5,6,0,1,3] [[3,4,6],[2,3,5],[1,4],[0,1,5],[1],[0],[0,2,4]]
@@ -193,7 +185,6 @@ theorem noActual8 (R : TokenRun Site (Agent 7) 21) {off : Nat}
     (budget : offset w.rev off 13 ≤ 1) : False := by
   exact noActualOfBoundedLeaf R binary obs checked8 image 1 21 leaf8 empty8 budget (by omega)
 
-#print axioms noActual8
 
 /-- Manuscript board and adjacent left/right supports E, 56, 25. -/
 def board9 : Board := makeBoard [2,4,1,6,5,0,3] [[3,4,6],[2,3,5],[4,5],[0,1,5],[0,1],[],[0,2,4]]
@@ -213,7 +204,6 @@ theorem noActual9 (R : TokenRun Site (Agent 7) 21) {off : Nat}
     (budget : offset w.rev off 13 ≤ 1) : False := by
   exact noActualOfBoundedLeaf R binary obs checked9 image 1 21 leaf9 empty9 budget (by omega)
 
-#print axioms noActual9
 
 /-- Manuscript board and adjacent left/right supports F, 36, 25. -/
 def board10 : Board := makeBoard [6,4,3,5,1,0,2] [[2,4,5],[2,3,6],[1,4],[0,1],[0,3],[1],[0,4,5]]
@@ -233,7 +223,6 @@ theorem noActual10 (R : TokenRun Site (Agent 7) 21) {off : Nat}
     (budget : offset w.rev off 13 ≤ 1) : False := by
   exact noActualOfBoundedLeaf R binary obs checked10 image 1 21 leaf10 empty10 budget (by omega)
 
-#print axioms noActual10
 
 /-- Manuscript board and adjacent left/right supports F, 36, 24. -/
 def board11 : Board := makeBoard [6,4,1,5,0,3,2] [[2,4,5],[2,3,6],[3,4],[0,1],[3],[0,1],[0,4,5]]
@@ -253,7 +242,6 @@ theorem noActual11 (R : TokenRun Site (Agent 7) 21) {off : Nat}
     (budget : offset w.rev off 13 ≤ 1) : False := by
   exact noActualOfBoundedLeaf R binary obs checked11 image 1 21 leaf11 empty11 budget (by omega)
 
-#print axioms noActual11
 
 /-- Manuscript board and adjacent left/right supports F, 46, 25. -/
 def board12 : Board := makeBoard [3,6,4,5,1,0,2] [[2,5,6],[2,3,4],[1,6],[0,1,4],[0],[1],[0,3,5]]
@@ -273,7 +261,6 @@ theorem noActual12 (R : TokenRun Site (Agent 7) 21) {off : Nat}
     (budget : offset w.rev off 13 ≤ 1) : False := by
   exact noActualOfBoundedLeaf R binary obs checked12 image 1 21 leaf12 empty12 budget (by omega)
 
-#print axioms noActual12
 
 /-- Manuscript board and adjacent left/right supports F, 46, 24. -/
 def board13 : Board := makeBoard [3,6,1,5,0,4,2] [[2,5,6],[2,3,4],[4,6],[0,1,4],[],[0,1],[0,3,5]]
@@ -293,5 +280,4 @@ theorem noActual13 (R : TokenRun Site (Agent 7) 21) {off : Nat}
     (budget : offset w.rev off 13 ≤ 1) : False := by
   exact noActualOfBoundedLeaf R binary obs checked13 image 1 21 leaf13 empty13 budget (by omega)
 
-#print axioms noActual13
 end F7Manuscript.R21NormalEndpoint.BoundaryAtlas.PGap3BothEndBoards

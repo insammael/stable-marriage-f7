@@ -53,6 +53,5 @@ theorem saved45_force_b3_eq_b2 {t : Matching} {bits : Nat → Bool}
     · have hw' : bits 3 = true := Bool.eq_true_of_not_eq_false hw
       simp [hx', hw']
 
-#print axioms saved45_force_b3_eq_b2
 
 end F7Manuscript.ActualW17Saved45CommonForcingV4

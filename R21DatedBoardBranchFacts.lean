@@ -74,7 +74,5 @@ theorem checked_selected_support : ∀ (i : Fin 155) (right : Bool) (c : F7Local
     selectedEdge (endAt (node i).board right) c keep ∈
       DatedPureTable.choices (endAt (node i).board right) := by
   decide +kernel
-#print axioms checked_selected_support
 
-#print axioms branch_facts
 end F7Manuscript.R21LongWindow.DatedBoardSteps

@@ -116,7 +116,6 @@ theorem h7_original_pure14_post_order_convex
   change OrderConvex (w47_a228_run (I := I) C E D.k.succ)
   simpa only [w47_a228_run] using! hconv
 
-#print axioms h7_original_pure14_post_order_convex
 
 end Original
 

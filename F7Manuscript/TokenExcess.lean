@@ -115,11 +115,5 @@ theorem interval_excess_le_two_of_twenty (R : TokenRun Site W q)
   (costFrom_interval_le_total R start n hsize).trans
     (total_excess_le_two_of_twenty R hq)
 
-#print axioms costFrom_eq_range_costAt
-#print axioms costFrom_eq_range_support_excess
-#print axioms support_excess_identity
-#print axioms costFrom_interval_le_total
-#print axioms total_excess_le_two_of_twenty
-#print axioms interval_excess_le_two_of_twenty
 
 end F7Manuscript.PartnerGraph.Periodic

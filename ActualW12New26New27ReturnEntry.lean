@@ -82,10 +82,6 @@ theorem new27_metadata :
     new27_return_entry.D.length = new27_return_entry.colors.length ∧
     new27_return_entry.D[0]! ≤ 2 := metadata_shape new27_return_entry (Or.inr rfl)
 
-#print axioms new26_return_entry
-#print axioms new27_return_entry
-#print axioms new26_metadata
-#print axioms new27_metadata
 
 #eval IO.eprintln "W12 NEW26/NEW27 return-entry checked"
 

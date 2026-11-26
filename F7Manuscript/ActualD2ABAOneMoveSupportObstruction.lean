@@ -311,9 +311,6 @@ theorem actual_aba_center_scheduled_first_move_false
   exact actual_aba_center_first_move_false P W keep u v hu hv' huv
     hpr hstart' hrows' hpast'
 
-#print axioms subsetNormalPairedFirstMoveSchedule_supports
-#print axioms actual_aba_center_first_move_false
-#print axioms actual_aba_center_scheduled_first_move_false
 
 end
 end F7Manuscript.TripleCoordinateLattice

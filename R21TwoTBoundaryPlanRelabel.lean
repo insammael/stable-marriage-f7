@@ -36,5 +36,4 @@ theorem continueWord_mapped (e : Equiv.Perm Site) (f : SupportFrame)
    rw [hp]
    exact congrArg (List.cons _) (congrArg (List.cons _) (ih _ _))
 
-#print axioms continueWord_mapped
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

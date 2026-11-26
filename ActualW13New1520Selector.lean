@@ -55,7 +55,5 @@ theorem bit3_forced (c : Bool) (bits : Nat → Bool)
   exact False.elim (noReturn_forbidden_incoming (Plan c) bits 7 N hbound
     3 4 (by decide) hp hs)
 
-#print axioms sourcePrefix_eq_terminal_of_constraints
-#print axioms bit3_forced
 
 end F7Manuscript.ActualW13New1520Selector

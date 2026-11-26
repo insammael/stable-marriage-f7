@@ -180,6 +180,5 @@ theorem actual_any_leaf_old_row_installer
   refine ⟨beta, hbefore, hfrontier, ?_⟩
   simpa [E] using! hlast
 
-#print axioms actual_any_leaf_old_row_installer
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW28R20AnyLeafOldInstaller

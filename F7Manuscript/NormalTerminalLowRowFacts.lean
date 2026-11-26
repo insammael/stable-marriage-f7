@@ -51,6 +51,5 @@ theorem normalTerminalLow_row_facts (hm : 0 < normalBlockCount B) (fixed : Fin 3
     exact inc_symm hb.2.2.1
   exact ⟨hmem,hlt,hi0,hi1⟩
 
-#print axioms normalTerminalLow_row_facts
 end
 end F7Manuscript.TripleCoordinateLattice

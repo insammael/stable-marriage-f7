@@ -165,7 +165,6 @@ theorem actual_two_full_pools_T_initial_center_impossible
     exact TwoPoolCrossCenterExclusion.cross_center_exclusion R ⟨L+3,by omega⟩
       crew pool 1 0 6 0 hw h6 hcenter (Or.inr rfl) hkpool hidlepool hpoolpast
 
-#print axioms actual_two_full_pools_T_initial_center_impossible
 
 end
 end F7Manuscript.TripleCoordinateLattice

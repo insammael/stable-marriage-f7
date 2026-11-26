@@ -136,7 +136,6 @@ theorem m08_h3_1_original_outsider_adjacent_switch
     rw [hi]
     exact hkabove
 
-#print axioms m08_h3_1_original_outsider_adjacent_switch
 
 end
 end F7Manuscript.ActualR20H3

@@ -176,7 +176,6 @@ theorem subsetNormalSegment_drop_scheduled_prefix
                   omega]
                 exact h
 
-#print axioms subsetNormalSegment_drop_scheduled_prefix
 
 end
 end F7Manuscript.TripleCoordinateLattice

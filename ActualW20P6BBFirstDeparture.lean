@@ -272,5 +272,4 @@ theorem bb_first_departure_4_is_24
       · exact False.elim (hyne4 hy4)
       · exact False.elim (hyne6 hy6)
 
-#print axioms bb_first_departure_4_is_24
 end F7Manuscript.ActualW20P6BBFirstDeparture

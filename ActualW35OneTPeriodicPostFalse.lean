@@ -134,6 +134,5 @@ theorem actual_oneT_periodic_post_false
       have h20Swap : 20 ≤ Fintype.card (Event I.swap) := by omega
       simpa using! h20Swap) hpoints
 
-#print axioms actual_oneT_periodic_post_false
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW35OneTPeriodicPostFalse

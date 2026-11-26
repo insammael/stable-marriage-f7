@@ -85,8 +85,5 @@ theorem pathSegment_induced_A3 {N : ℕ}
   rw [NeutralCore.Induced.A3_eq]
   exact pathSegment_triples_card C p hmono hspan left right hlr
 
-#print axioms vertices_subset_pathSegment_iff
-#print axioms pathSegment_triples_card
-#print axioms pathSegment_induced_A3
 end
 end F7Manuscript.TripleCoordinateLattice

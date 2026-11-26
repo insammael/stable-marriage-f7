@@ -167,6 +167,5 @@ noncomputable def singleton_typeV_whole_route_statement_twenty
               ⟨3, by rw [Finset.card_univ, hn20]; decide⟩ = ({(0 : Site),6} : Finset Site)
 
 theorem w38_type_probe_kernel_report : True := trivial
-#print axioms w38_type_probe_kernel_report
 end
 end F7Manuscript.TripleCoordinateLattice.W38ActualTypeVSingletonWholeRouteTwentySpec

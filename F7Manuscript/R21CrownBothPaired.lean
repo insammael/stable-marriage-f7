@@ -88,6 +88,4 @@ theorem both_first_paired_cannot_continue
   have hd := Bool.and_eq_true_iff.mp hdead
   exact ⟨dead_options _ hd.1, dead_options _ hd.2⟩
 
-#print axioms crown_anchored_seed_states
-#print axioms both_first_paired_cannot_continue
 end F7Manuscript.R21CrownBothPaired

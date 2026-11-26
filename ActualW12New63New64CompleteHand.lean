@@ -211,6 +211,5 @@ theorem new6364_noReturn_impossible (c : Color) (bits : Nat → Bool)
     have h4' : bits 4 = true := by simpa [h3] using! h4
     exact close_final_paired c bits hfirst N h3 h4' h5 h6'
 
-#print axioms new6364_noReturn_impossible
 
 end F7Manuscript.ActualW12New63New64CompleteHand

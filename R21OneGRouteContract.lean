@@ -53,6 +53,4 @@ structure OrderedGRuns (n₀ n₁ : ℕ) (S₀ S₁ : Chart) where
     (mixedPlanFrom S₁.naturalWord S₁.naturalLevels 0 S₁.m) bits₁ 0
   anchor : GSharedAnchor pre post
 
-#print axioms oldFrame_valid
-#print axioms newFrame_valid
 end F7Manuscript.R21OneG

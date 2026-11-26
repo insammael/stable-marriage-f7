@@ -32,4 +32,3 @@ theorem classify_B (c : CycleSpec)
 
 end F7Manuscript.A156Frozen14ShortExtension
 
-#print axioms F7Manuscript.A156Frozen14ShortExtension.classify_B

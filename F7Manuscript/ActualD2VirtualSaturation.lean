@@ -781,8 +781,6 @@ noncomputable def actual_d2_virtual_saturated_witness
     e (by simpa [A] using! hmapA) (by simpa [C] using! hmapC)
     cross₀ label₀ cross₁ label₁ hf₁ hD₂bound hD₀ hD₁ hD₂ hD₃
 
-#print axioms actual_d2_virtual_saturated_witness_of_relabel
-#print axioms actual_d2_virtual_saturated_witness
 
 end
 end F7Manuscript.TripleCoordinateLattice

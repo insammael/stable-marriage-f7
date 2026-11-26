@@ -253,15 +253,5 @@ theorem actual_two_centers_normalized_noReturn
     R reverse tail hq h0 h1 h2 h3 bits H
   exact ⟨bits', hb0, hb1, hnr⟩
 
-#print axioms reindex_participationSteps_fixed
-#print axioms actual_two_centers_normalized_route
-#print axioms actual_two_centers_normalized_noReturn
 end
-#print axioms norm2_fixes
-#print axioms norm2_initial_supports
-#print axioms norm2_first_pair
-#print axioms norm2_second_pair
-#print axioms norm2_after_two
-#print axioms supportsRoute_bits_congr
-#print axioms supportsRoute_center_head
 end F7Manuscript.OneTFourTailNormalization

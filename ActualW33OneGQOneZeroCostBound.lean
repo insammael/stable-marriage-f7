@@ -106,7 +106,5 @@ theorem actual_oneG_q1_s0_bounds
     have hform : S.n = 3 + S.m + 2 * S.q := rfl
     omega
 
-#print axioms q1_s0_reflected_run_n_le_fourteen
-#print axioms actual_oneG_q1_s0_bounds
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW33OneGQOneZeroCostBound

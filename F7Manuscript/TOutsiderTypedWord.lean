@@ -52,9 +52,5 @@ theorem realizes_typedWord_of_supports {W : Type*} [Fintype W] {q : ℕ}
   · intro i
     rw [hsupport i, pairAt_typedWord]
 
-#print axioms simAtom_typedAtom_of_lt
-#print axioms map_simAtom_typedWord
-#print axioms pairAt_typedWord
-#print axioms realizes_typedWord_of_supports
 
 end F7Manuscript.TOutsiderTokenSemantics

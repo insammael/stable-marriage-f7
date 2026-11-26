@@ -18,5 +18,4 @@ theorem first_center_cannot_have_two_paired_levels
   fin_cases c <;> cases keep <;> cases cross₁ <;> cases label₁ <;>
     cases cross₂ <;> cases label₂ <;> decide
 
-#print axioms first_center_cannot_have_two_paired_levels
 end F7Manuscript.R21PureInitialCrown

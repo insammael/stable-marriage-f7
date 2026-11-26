@@ -87,6 +87,5 @@ theorem switch_lower_row_faces
     exact hh
   exact ⟨⟨_, _, hne, hold 0, hold 1⟩, ⟨_, _, hne, hnew 0, hnew 1⟩⟩
 
-#print axioms switch_lower_row_faces
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW29R20ReverseSwitchFaces

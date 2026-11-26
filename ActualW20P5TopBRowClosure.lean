@@ -106,5 +106,4 @@ theorem p5_actual_rows_after_B
   · exact (p5_actual_B_row_impossible T hsat a b c d r ha hb hc hd hr hB).elim
   · exact ⟨a,b,c,d,r,ha,hb,hc,hd,hr,hC⟩
 
-#print axioms p5_actual_B_row_impossible
 end F7Manuscript.ActualW20P5TopBRowClosure

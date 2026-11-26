@@ -27,7 +27,6 @@ theorem selected16_carrier_endpoint_plus_offset
   have hq := selected16_root_carrier_bound C
   omega
 
-#print axioms selected16_carrier_endpoint_plus_offset
 
 end
 end F7Manuscript.ActualW22Selected16CarrierThreshold

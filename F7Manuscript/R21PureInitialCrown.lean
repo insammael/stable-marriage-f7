@@ -151,8 +151,5 @@ theorem no_periodic_single_T {m : Nat} {s t u : State} (hm : m ≤ 15)
   rw [List.isEmpty_iff.mp he] at hmem
   exact List.not_mem_nil hmem
 
-#print axioms afterRows_eq
-#print axioms centers_le_thirteen
-#print axioms no_periodic_single_T
 
 end F7Manuscript.R21PureInitialCrown

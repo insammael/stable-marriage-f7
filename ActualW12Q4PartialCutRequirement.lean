@@ -123,9 +123,6 @@ theorem actual_partial_q4_cut_requirement_endpoint
   refine ⟨r, ?_, hbound⟩
   simp [partialQ4CutRequirement, hq4actual, hr]
 
-#print axioms q4ReturnHit
-#print axioms partialQ4CutRequirement
-#print axioms actual_partial_q4_cut_requirement_endpoint
 
 end
 end F7Manuscript.ActualW12Q4PartialCutRequirement

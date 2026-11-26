@@ -238,7 +238,6 @@ theorem long_cost_five {length : Nat} (C : Chart)
   · exact Mass12Fee34.noActualTerminal_mass12_feeAtMostFour s.cost fee terminal
   · exact Mass13Fee34.noActualTerminal_mass13_feeAtMostFour s.cost fee terminal
 
-#print axioms long_cost_five
 #print long_cost_five
 /-- The small part of the physical cost table, with no original-cut restriction. -/
 theorem small_cost {length : Nat} (C : Chart)
@@ -281,7 +280,5 @@ theorem cost_table {length : Nat} (C : Chart)
     simpa only [windowCost,below,notSix,notSeven,short,within,if_false,if_true] using! five
   · simp [windowCost,below,notSix,notSeven,short,within]
 
-#print axioms small_cost
-#print axioms cost_table
 #print cost_table
 end F7Manuscript.R21OneGHandPhysicalWindow

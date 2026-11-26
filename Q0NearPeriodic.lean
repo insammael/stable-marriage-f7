@@ -1054,7 +1054,6 @@ theorem q0_15_small_cost_zero (turns : Nat → Bool) (cuts : Q0Cuts turns 15)
         have hlarge : 3 ≤ prefixCost turns 13 := by
           simp [prefixCost, hb1, hb2, hb3] <;> omega
         omega
-#print axioms q0_15_small_cost_zero
 
 theorem q0_14_small_cost_zero (turns : Nat → Bool) (cuts : Q0Cuts turns 14)
     (small : prefixCost turns 12 ≤ 1) : prefixCost turns 12 = 0 := by
@@ -1353,6 +1352,5 @@ theorem q0_14_small_cost_zero (turns : Nat → Bool) (cuts : Q0Cuts turns 14)
       have hlarge : 2 ≤ prefixCost turns 12 := by
         simp [prefixCost, hb1, hb2] <;> omega
       omega
-#print axioms q0_14_small_cost_zero
 
 end F7Local

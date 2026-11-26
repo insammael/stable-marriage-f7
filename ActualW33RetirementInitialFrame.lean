@@ -73,7 +73,5 @@ theorem terminal_upper_row_eq_top
     exact ht
   exact congrArg Subtype.val he
 
-#print axioms retirement_top_initial_frame
-#print axioms terminal_upper_row_eq_top
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW33RetirementInitialFrame

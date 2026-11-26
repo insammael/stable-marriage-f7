@@ -219,7 +219,5 @@ theorem d4_q1_full_noReturn_label_normalization
   rw [← hnorm]
   exact hfresh
 
-#print axioms d4_q1_full_sourcePrefix_label_normalization
-#print axioms d4_q1_full_noReturn_label_normalization
 
 end F7Manuscript.N4QOneCenterTailLabelNormalization

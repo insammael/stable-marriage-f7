@@ -199,9 +199,6 @@ theorem q12_kernel_of_independent_supplies
         have hbound := q2_bilateral_firstD_n_le_sixteen hq2 hs hj hlast W
         omega
 
-#print axioms lastCostD_of_q1_firstABA_internal
-#print axioms firstABA_q12_n19_false
-#print axioms q12_kernel_of_independent_supplies
 
 end
 end F7Manuscript.N4Assembly

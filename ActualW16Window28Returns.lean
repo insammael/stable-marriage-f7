@@ -889,6 +889,5 @@ theorem noReturn_source14_four_words (bits : Nat → Bool)
             · exact False.elim (ret_28 bits h0 h1 h2 h3 h4 h5 h6 h7 N)
           · exact False.elim (ret_29 bits h0 h1 h2 h3 h4 h5 h6 N)
 
-#print axioms noReturn_source14_four_words
 
 end F7Manuscript.ActualW16Window28Returns

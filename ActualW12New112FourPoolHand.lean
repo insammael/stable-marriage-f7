@@ -392,4 +392,3 @@ theorem new112_noReturn_impossible (bits : Nat → Bool)
 
 end F7Manuscript.ActualW12New112FourPoolHand
 
-#print axioms F7Manuscript.ActualW12New112FourPoolHand.new112_noReturn_impossible

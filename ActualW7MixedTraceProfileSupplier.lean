@@ -123,9 +123,6 @@ theorem normalCore_nonABA_of_word_ne
   rw [h2', h0']
   exact he
 
-#print axioms actual_profile_mixed_trace_supplier
-#print axioms normalCore_word_eq_centerColor
-#print axioms normalCore_nonABA_of_word_ne
 
 end
 end F7Manuscript.ActualW7MixedTraceProfileSupplier

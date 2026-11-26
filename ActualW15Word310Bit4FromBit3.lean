@@ -140,6 +140,5 @@ theorem plan310_bit4_eq_bit3
     · exact False.elim (reject24_x1 t bits h0 h1 h2 h3 h4 N)
   · rfl
 
-#print axioms plan310_bit4_eq_bit3
 
 end F7Manuscript.ActualW15Word310Bit4FromBit3

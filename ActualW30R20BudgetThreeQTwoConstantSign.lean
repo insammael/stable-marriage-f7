@@ -84,6 +84,5 @@ theorem actual_budget_three_q_two_constant_sign
     · have hq3' := hq3.1
       omega
 
-#print axioms actual_budget_three_q_two_constant_sign
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW30R20BudgetThreeQTwoConstantSign

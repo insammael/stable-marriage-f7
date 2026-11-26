@@ -75,8 +75,5 @@ theorem secondFrame_complement_support_eq (b : Fin 5 → Bool)
   rw [hform]
   exact role3_bits16 _ _ _ _
 
-#print axioms selectedSite_eq_center
-#print axioms secondFrame_other_eq_oldMate
-#print axioms secondFrame_complement_support_eq
 
 end F7Manuscript.ActualD2FirstFiveFrameRoles

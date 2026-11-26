@@ -183,7 +183,6 @@ theorem q4_no_fit_of_source_callbacks
   · exact direct_no_fit_of_source_no_fit m W D 3 29 true 3
       hWlen hDlen edge_29_match (hsource 3 (by simp [q4SourceIDs])) dual j
 
-#print axioms q4_no_fit_of_source_callbacks
 
 #eval IO.eprintln "W12 legacy Q4 template coverage checked"
 

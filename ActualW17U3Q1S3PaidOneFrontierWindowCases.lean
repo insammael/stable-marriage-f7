@@ -90,7 +90,6 @@ theorem oriented_one_pivot_window_of_global_support
       have hbase : i+p ∈ pivotsOf W := by simpa [hEq] using! haPiv
       simpa [hd, hj'] using! hbase
 
-#print axioms oriented_one_pivot_window_of_global_support
 
 end
 end F7Manuscript.ActualW17U3Q1S3PaidOneFrontierWindowCases

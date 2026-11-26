@@ -79,5 +79,4 @@ theorem actual_BAA_firstB4_zero_entry_freezes_token4
       exact hpool t hkt y hy)
   exact ⟨e,k0,k1,k2,hlist,h01,h12,he,hpre6,hpart,hsupport,hpre0,hpost0,hfreeze⟩
 
-#print axioms actual_BAA_firstB4_zero_entry_freezes_token4
 end F7Manuscript.ActualW20P6BAAFirstFourZeroFreeze

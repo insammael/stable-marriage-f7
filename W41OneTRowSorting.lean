@@ -60,6 +60,5 @@ theorem exists_sorted_reindex (f : Fin 3 → Atom)
         · simpa [Equiv.swap_apply_def] using h21
         · simpa [Equiv.swap_apply_def] using h10
 
-#print axioms exists_sorted_reindex
 end
 end F7Manuscript.W41OneTRowSorting

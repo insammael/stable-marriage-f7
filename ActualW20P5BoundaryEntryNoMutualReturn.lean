@@ -39,6 +39,5 @@ theorem p5_boundary_entry_avoids_later_return_site
   have hpostx : T.state m.succ x = j := by simpa [hxz] using! hpost
   exact hnr (hpostx.trans hentry.symm)
 
-#print axioms p5_boundary_entry_avoids_later_return_site
 
 end F7Manuscript.ActualW20P5BoundaryEntryNoMutualReturn

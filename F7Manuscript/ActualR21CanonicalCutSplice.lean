@@ -130,7 +130,5 @@ theorem r21_literal_T_canonical_crown_supports :
     rw [hL]
     exact hnew c
 
-#print axioms r21_literal_T_canonical_state_history
-#print axioms r21_literal_T_canonical_crown_supports
 end
 end F7Manuscript.TripleCoordinateLattice

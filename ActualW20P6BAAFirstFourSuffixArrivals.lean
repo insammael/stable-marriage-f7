@@ -99,6 +99,4 @@ theorem B_fresh_arrival_after_switch_in_06
     · exact False.elim (hnot.2 (by simpa using! h4))
   · simpa [h6]
 
-#print axioms center_arrival_after_switch_not_B
-#print axioms B_fresh_arrival_after_switch_in_06
 end F7Manuscript.ActualW20P6BAAFirstFourSuffixArrivals

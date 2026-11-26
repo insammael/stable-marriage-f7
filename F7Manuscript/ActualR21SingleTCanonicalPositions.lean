@@ -64,7 +64,6 @@ theorem r21_single_T_canonical_cut_positions
     dsimp -failIfUnchanged only
     rw [hL1, hR1]
 
-#print axioms r21_single_T_canonical_cut_positions
 
 end
 end F7Manuscript.TripleCoordinateLattice

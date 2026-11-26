@@ -34,6 +34,5 @@ theorem binary_type_patterns
   · cases a <;> cases b <;> cases c <;> cases d <;> simp_all
   · simp at hhi
 
-#print axioms binary_type_patterns
 
 end F7Manuscript.ActualW19P6BinaryTypePatterns

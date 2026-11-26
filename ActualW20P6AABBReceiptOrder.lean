@@ -47,5 +47,4 @@ theorem actual_AABB_five_at_three_before_six
     have hstate := hfreeze r.succ (by simp;omega)
     exact (by decide : (5 : Site) ≠ 2) (hr5.symm.trans hstate)
 
-#print axioms actual_AABB_five_at_three_before_six
 end F7Manuscript.ActualW20P6AABBReceiptOrder

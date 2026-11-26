@@ -96,7 +96,6 @@ theorem plan56_bit3_eq_bit2
   · exact False.elim (true_false_contradicts_fresh t bits h0 h1 h2 h3 N)
   · rfl
 
-#print axioms plan56_bit3_eq_bit2
 
 end F7Manuscript.ActualW16P569BranchControls
 
@@ -192,7 +191,6 @@ theorem plan56_bit4_eq_bit2
     exact False.elim (x1_bad4_contradicts_fresh t bits h0 h1 h2 h3' h4 N)
   · rfl
 
-#print axioms plan56_bit4_eq_bit2
 
 end F7Manuscript.ActualW16P569CommonForcing
 
@@ -359,7 +357,6 @@ theorem plan56_bit5_eq_bit2
   · rfl
   · rfl
 
-#print axioms plan56_bit5_eq_bit2
 
 end F7Manuscript.ActualW16P569TailSelectorForcing
 
@@ -459,6 +456,5 @@ theorem plan56_bit6_eq_bit2
       (by rw [h2] at h34; exact h34) (by rw [h2] at h35; exact h35) h6 N)
   · rfl
 
-#print axioms plan56_bit6_eq_bit2
 
 end F7Manuscript.ActualW16P569Bit6Forcing

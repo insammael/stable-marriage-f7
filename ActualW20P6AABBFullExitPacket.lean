@@ -69,5 +69,4 @@ theorem actual_AABB_five_exit_packet
   · exact ⟨k0.succ,by simp only [Fin.val_succ] at hrf ⊢;omega,hpost2⟩
   · exact ⟨r.succ,by simp only [Fin.val_succ] at hrf ⊢;omega,hr5⟩
 
-#print axioms actual_AABB_five_exit_packet
 end F7Manuscript.ActualW20P6AABBFullExitPacket

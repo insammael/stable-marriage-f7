@@ -116,6 +116,5 @@ theorem long_pre_first_center_ne_last
         before bits Hpre i hi l hil (word (m - 1)) firstBit hFirst'
         (levels (m - 1)) bits (n + 1) Hpad hl nextBit hLast'
 
-#print axioms long_pre_first_center_ne_last
 
 end F7Manuscript.W38LongPreFirstCenterGuard

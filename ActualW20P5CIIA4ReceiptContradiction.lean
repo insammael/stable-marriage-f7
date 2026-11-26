@@ -109,5 +109,4 @@ theorem p5_CII_A4_actual_receipt_contradiction
     have hfreezeAtB6 := hfreeze3 b6.succ (by simp only [Fin.val_succ]; omega)
     exact (by decide : (5 : Site) ≠ 6) (hfreezeAtB6.symm.trans hb6post3)
 
-#print axioms p5_CII_A4_actual_receipt_contradiction
 end F7Manuscript.ActualW20P5CIIA4ReceiptContradiction

@@ -1,5 +1,6 @@
 module
 
+public import Mathlib
 public import F7Manuscript.Definitions
 
 @[expose] public section
@@ -181,9 +182,5 @@ theorem f7_eq_85_of_universal_upper
     (upper : ∀ I : Profile 7, stableCount I ≤ 85) : f 7 = 85 := by
   exact Nat.le_antisymm (f_le_of_universal_upper upper) f7_at_least_85
 
-#print axioms profile_has_at_least_85
-#print axioms exists_profile_with_at_least_85
-#print axioms f7_at_least_85
-#print axioms f7_eq_85_of_universal_upper
 
 end F7Manuscript.Lower85

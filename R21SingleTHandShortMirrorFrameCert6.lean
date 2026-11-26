@@ -207,7 +207,6 @@ def mirrorShortFrame6_b0 : LastFrameCertificate where
   witness₀ := .inl 3
   witness₁ := .inl 6
   cover := by decide
-#print axioms mirrorShortFrame6_b0
 def mirrorShortFrame6_b3_t1_core : WordPersonInvariant where
   longWord := [(0,1),(2,3),(4,5),(6,0),(1,4),(5,0),(6,3),(0,2)]
   shortWord := [(0,5),(1,2),(3,4),(6,3)]
@@ -407,7 +406,6 @@ def mirrorShortFrame6_b3 : LastFrameCertificate where
   witness₀ := .inl 3
   witness₁ := .inl 6
   cover := by decide
-#print axioms mirrorShortFrame6_b3
 def mirrorShortFrame6_b4_t1_core : WordPersonInvariant where
   longWord := [(0,1),(2,3),(4,5),(6,0),(1,4),(5,0),(6,3),(0,2)]
   shortWord := [(0,5),(1,2),(3,4),(6,4)]
@@ -607,6 +605,5 @@ def mirrorShortFrame6_b4 : LastFrameCertificate where
   witness₀ := .inl 3
   witness₁ := .inl 6
   cover := by decide
-#print axioms mirrorShortFrame6_b4
 end
 end F7Manuscript.R21SingleTHand

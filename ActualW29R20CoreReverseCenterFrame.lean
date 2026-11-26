@@ -160,7 +160,5 @@ theorem core_normal_retired_center_reverse_frame_actual_r20
         rfl
   exact ⟨b, hchoiceF, hrows⟩
 
-#print axioms retired_center_actual_frontier_address
-#print axioms core_normal_retired_center_reverse_frame_actual_r20
 end
 end F7Manuscript.TripleCoordinateLattice.CoreActual

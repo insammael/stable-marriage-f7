@@ -156,7 +156,6 @@ theorem center_distribution_update (C : Chart) (j : Fin C.m) :
   unfold NormalMaskCounter.centerStep
   rw [MaskCount.distribution_push _ _ _ _ (center_reachMask_update C j)]
 
-#print axioms center_distribution_update
 
 end
 end F7Manuscript.NormalSkeleton.Chart

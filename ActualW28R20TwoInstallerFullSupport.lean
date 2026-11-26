@@ -212,6 +212,5 @@ theorem two_actual_installers_force_full_support
     rw [hcenterFull, holdPoolMap]
   exact Finset.map_injective e.toEmbedding hmapCenter
 
-#print axioms two_actual_installers_force_full_support
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW28R20TwoInstallerFullSupport

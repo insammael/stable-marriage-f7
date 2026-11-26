@@ -163,6 +163,5 @@ theorem core_normal_paired_rowsMatch_of_suffix_rectangle
     · exact afterPaired_idle_disjoint f hv cross label
   exact ⟨cross, label, hrowNext, hvalid⟩
 
-#print axioms core_normal_paired_rowsMatch_of_suffix_rectangle
 end
 end F7Manuscript.TripleCoordinateLattice.CoreActual

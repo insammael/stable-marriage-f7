@@ -21,6 +21,5 @@ def p569Plan : List Move :=
 theorem p569Plan_eventCount : eventCount p569Plan = 10 := by
   norm_num [p569Plan, eventCount]
 
-#print axioms p569Plan_eventCount
 
 end F7Manuscript.ActualW16P569Plan

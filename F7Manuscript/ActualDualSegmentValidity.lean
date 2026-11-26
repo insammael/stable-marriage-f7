@@ -275,8 +275,6 @@ theorem dualNormalSegmentSchedule_validity
       have hproof : supportsRoute_append H₀ H₁' = Hwhole := Subsingleton.elim _ _
       simpa only [hproof] using! Vwhole
 
-#print axioms supportsRouteValidity_append
-#print axioms dualNormalSegmentSchedule_validity
 
 end
 end F7Manuscript.ActualDualSegmentValidity

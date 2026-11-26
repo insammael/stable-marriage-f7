@@ -67,7 +67,5 @@ theorem actual_full_word_in_whole {length : Nat} (C : Chart)
  obtain ⟨pre,post,hpre,hpost,hR⟩:=actual_chart_word_in_whole C A R off bound align binary
  exact ⟨pre,post,hpre,hpost,by simpa only [actual_source_eq_full C A] using! hR⟩
 
-#print axioms actual_source_eq_full
-#print axioms actual_full_word_in_whole
 end
 end F7Manuscript.R21PhysicalWindowWords

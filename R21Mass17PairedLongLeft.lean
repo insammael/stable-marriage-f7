@@ -142,7 +142,5 @@ theorem no_dated_paired_long_pure_prefix
     simpa [recolorPlan,recolorMove] using! P
   exact P'.noPairedLongActualLeft S _ _ b _ _ ls H (by omega) bin
 
-#print axioms DatedPlan.noPairedLongActualLeft
-#print axioms no_dated_paired_long_pure_prefix
 end
 end F7Manuscript.R21NormalEndpoint.ReseededObservation

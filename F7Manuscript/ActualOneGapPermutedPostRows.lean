@@ -166,7 +166,6 @@ theorem actual_rows_match_permuted_after_typeV
     rw [hright]
     simp [permuteSupportFrame, afterTypeV, F7Local.put, hσinv1]
 
-#print axioms actual_rows_match_permuted_after_typeV
 
 end
 end F7Manuscript.TripleCoordinateLattice

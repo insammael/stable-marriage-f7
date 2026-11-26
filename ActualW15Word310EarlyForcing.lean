@@ -91,6 +91,5 @@ theorem plan310_bit4_eq_bit2_of_bit3
   · exact False.elim (x1_bad4 t bits h0 h1 h2 (by rw [h2] at h3; exact h3) h4 N)
   · rfl
 
-#print axioms plan310_bit4_eq_bit2_of_bit3
 
 end F7Manuscript.ActualW15Word310EarlyForcing

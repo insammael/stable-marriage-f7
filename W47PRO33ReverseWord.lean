@@ -35,6 +35,5 @@ theorem reverseWord_backtrackFree
     rw [hidx] at hh
     exact hh.symm
 
-#print axioms reverseWord_backtrackFree
 
 end F7Periodic

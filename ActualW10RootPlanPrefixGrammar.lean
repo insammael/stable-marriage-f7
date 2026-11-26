@@ -82,8 +82,6 @@ theorem saved_root_plan_prefix
   rw [mixedPlanFrom_shift word levels start 1 (m-1-start)] at hprefix'
   exact hprefix'
 
-#print axioms mixedPlanFrom_shift
-#print axioms saved_root_plan_prefix
 
 #eval IO.eprintln "W10 root-plan grammar checked"
 

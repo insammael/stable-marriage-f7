@@ -70,6 +70,5 @@ theorem saturated_witness_refit
     simp only [actualPastBefore, Finset.mem_filter, Finset.mem_univ, true_and]
     simp [reindexRun, hactor]
 
-#print axioms saturated_witness_refit
 end
 end F7Manuscript.ActualW28R20SaturatedRefit

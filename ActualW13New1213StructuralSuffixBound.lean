@@ -65,6 +65,4 @@ theorem observed_Z1_actual_suffix_bound
   have hn := observed_Z1_future_length_le_four R t H ((sfut.rename permZ1))
   omega
 
-#print axioms observed_Z0_actual_suffix_bound
-#print axioms observed_Z1_actual_suffix_bound
 end F7Manuscript.ActualW13New1213StructuralSuffixBound

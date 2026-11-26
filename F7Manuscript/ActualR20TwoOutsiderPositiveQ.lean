@@ -109,8 +109,5 @@ theorem r20_two_outsider_q1_bad_count_saturation
     outsiderIncSum C + outsiderEpsilon C = 4 ∧ stableCount I = 86
   refine ⟨?_, ?_, ?_, ?_, ?_⟩ <;> omega
 
-#print axioms r20_two_outsider_q_ge_two_of_charge
-#print axioms r20_two_outsider_q_ge_two_count_le_85
-#print axioms r20_two_outsider_q1_bad_count_saturation
 end
 end F7Manuscript.TripleCoordinateLattice

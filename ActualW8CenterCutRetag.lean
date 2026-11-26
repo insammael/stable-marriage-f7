@@ -52,7 +52,6 @@ theorem drop_to_retagged_center {W : Type*} [Fintype W] {q : Nat}
   rw [hshape] at hroute
   exact ⟨hclock, center_route_withLast hroute, memory_withLast hmem c, rfl⟩
 
-#print axioms drop_to_retagged_center
 
 end
 end F7Manuscript.ActualW8CenterCutRetag

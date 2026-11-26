@@ -153,9 +153,6 @@ theorem carrier_saved45_run_bound_k18
   have h := carrier_saved45_suffix_le_four C hwordCase
   omega
 
-#print axioms saved45_carrier_shape
-#print axioms carrier_saved45_suffix_le_four
-#print axioms carrier_saved45_run_bound_k18
 
 end
 end F7Manuscript.ActualW17Saved45ActualCarrierK18

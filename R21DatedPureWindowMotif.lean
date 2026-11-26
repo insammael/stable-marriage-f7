@@ -42,5 +42,4 @@ theorem DatedPlan.noFiveWindow {R : TokenRun Site Site 21} {off len : Nat} {boun
     rw [word,prelen]
     exact motif
 
-#print axioms DatedPlan.noFiveWindow
 end F7Manuscript.R21LongWindow.PureRootCoverage

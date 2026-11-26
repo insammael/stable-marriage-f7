@@ -62,6 +62,4 @@ theorem ActualPathCover.end_of_maxima {P : Finset V} (H : ActualPathCover P)
   rw [←hEq,Finset.inter_self,(H.path C).three j (by omega)] at hAdj
   omega
 
-#print axioms ActualPathCover.enumeration
-#print axioms ActualPathCover.end_of_maxima
 end NeutralCore.PathExtraction

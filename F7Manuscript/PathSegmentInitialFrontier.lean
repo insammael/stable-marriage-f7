@@ -45,6 +45,5 @@ theorem pathSegment_left_row_is_bottom (left right : Fin (thresholdLength C+1))
   rw [hzi] at hb
   exact hb
 
-#print axioms pathSegment_left_row_is_bottom
 end
 end F7Manuscript.TripleCoordinateLattice

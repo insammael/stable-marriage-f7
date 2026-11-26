@@ -90,5 +90,4 @@ theorem no_deficit_for_anchored_crown_routes
   exact no_deficit_endpoints_of_check hcheck hx hy (by omega) (by omega)
     (hanchor.final_masks_are_complement hxM hyM hxV hyV)
 
-#print axioms no_deficit_for_anchored_crown_routes
 end F7Manuscript.R21PureInitialCrown

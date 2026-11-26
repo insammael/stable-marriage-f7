@@ -62,7 +62,5 @@ theorem r20_q0_two_outsider_count_le_85 : stableCount I ≤ 85 := by
   rw [stableCount_eq_idealCount I]
   omega
 
-#print axioms r20_q0_two_outsider_core_deficit_ge_three
-#print axioms r20_q0_two_outsider_count_le_85
 end
 end F7Manuscript.TripleCoordinateLattice

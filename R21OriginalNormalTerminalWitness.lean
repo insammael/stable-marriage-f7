@@ -100,6 +100,5 @@ theorem actual_r21_global_normal_terminal_witness
   rw [hl]
   exact hh B (inferInstance : Nonempty (Triple B)) hp.2.2.1 hp.2.1 hf.2 hblock
 
-#print axioms actual_r21_global_normal_terminal_witness
 end
 end F7Manuscript.TripleCoordinateLattice

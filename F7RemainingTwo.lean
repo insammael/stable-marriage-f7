@@ -29,6 +29,5 @@ theorem f7_eq_85_of_two_R21
   · exact r21_zero_outsiders_two_macros_original I 1 1 (by decide)
   · exact remaining I 0 0 2 (by decide)
 
-#print axioms f7_eq_85_of_two_R21
 end
 end F7Manuscript.ActualPositiveDeficitCoverAssembly

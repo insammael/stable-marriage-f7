@@ -210,8 +210,6 @@ theorem
 #print axioms
   h7_original_pure14_prefix_from_chart_and_literal_block_no_hconv
 
-#print axioms upperShadow_splice
-#print axioms post_exclusion_reverse_block
 
 end
 

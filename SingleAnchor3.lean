@@ -181,7 +181,6 @@ theorem singleanchor3_01 (t : Matching) (bits : Nat → Bool)
                 simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
               exact (h.fresh 12 (by decide) 1 hp 0 (by decide)) hEq
 
-#print axioms singleanchor3_01
 
 def plan_singleanchor3_02 : List Move := [Move.paired,Move.center (1 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (1 : Color)]
 theorem singleanchor3_02 (t : Matching) (bits : Nat → Bool)
@@ -356,7 +355,6 @@ theorem singleanchor3_02 (t : Matching) (bits : Nat → Bool)
           simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
         exact (h.fresh 9 (by decide) 2 hp 0 (by decide)) hEq
 
-#print axioms singleanchor3_02
 
 def plan_singleanchor3_03 : List Move := [Move.paired,Move.center (1 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color)]
 theorem singleanchor3_03 (t : Matching) (bits : Nat → Bool)
@@ -579,7 +577,6 @@ theorem singleanchor3_03 (t : Matching) (bits : Nat → Bool)
           simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
         exact (h.fresh 9 (by decide) 2 hp 0 (by decide)) hEq
 
-#print axioms singleanchor3_03
 
 def plan_singleanchor3_04 : List Move := [Move.paired,Move.center (1 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (1 : Color)]
 theorem singleanchor3_04 (t : Matching) (bits : Nat → Bool)
@@ -802,7 +799,6 @@ theorem singleanchor3_04 (t : Matching) (bits : Nat → Bool)
           simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
         exact (h.fresh 9 (by decide) 2 hp 0 (by decide)) hEq
 
-#print axioms singleanchor3_04
 
 def plan_singleanchor3_05 : List Move := [Move.paired,Move.center (1 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color)]
 theorem singleanchor3_05 (t : Matching) (bits : Nat → Bool)
@@ -1025,7 +1021,6 @@ theorem singleanchor3_05 (t : Matching) (bits : Nat → Bool)
           simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
         exact (h.fresh 9 (by decide) 2 hp 0 (by decide)) hEq
 
-#print axioms singleanchor3_05
 
 def plan_singleanchor3_06 : List Move := [Move.paired,Move.center (1 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (2 : Color)]
 theorem singleanchor3_06 (t : Matching) (bits : Nat → Bool)
@@ -1248,7 +1243,6 @@ theorem singleanchor3_06 (t : Matching) (bits : Nat → Bool)
           simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
         exact (h.fresh 9 (by decide) 2 hp 0 (by decide)) hEq
 
-#print axioms singleanchor3_06
 
 def plan_singleanchor3_07 : List Move := [Move.paired,Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color)]
 theorem singleanchor3_07 (t : Matching) (bits : Nat → Bool)
@@ -1543,7 +1537,6 @@ theorem singleanchor3_07 (t : Matching) (bits : Nat → Bool)
           simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
         exact (h.fresh 9 (by decide) 4 hp 0 (by decide)) hEq
 
-#print axioms singleanchor3_07
 
 def plan_singleanchor3_08 : List Move := [Move.paired,Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color)]
 theorem singleanchor3_08 (t : Matching) (bits : Nat → Bool)
@@ -1790,7 +1783,6 @@ theorem singleanchor3_08 (t : Matching) (bits : Nat → Bool)
           simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
         exact (h.fresh 9 (by decide) 4 hp 0 (by decide)) hEq
 
-#print axioms singleanchor3_08
 
 def plan_singleanchor3_09 : List Move := [Move.paired,Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color)]
 theorem singleanchor3_09 (t : Matching) (bits : Nat → Bool)
@@ -2181,7 +2173,6 @@ theorem singleanchor3_09 (t : Matching) (bits : Nat → Bool)
           simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
         exact (h.fresh 9 (by decide) 4 hp 0 (by decide)) hEq
 
-#print axioms singleanchor3_09
 
 def plan_singleanchor3_10 : List Move := [Move.paired,Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (1 : Color)]
 theorem singleanchor3_10 (t : Matching) (bits : Nat → Bool)
@@ -2500,7 +2491,6 @@ theorem singleanchor3_10 (t : Matching) (bits : Nat → Bool)
           simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
         exact (h.fresh 9 (by decide) 4 hp 0 (by decide)) hEq
 
-#print axioms singleanchor3_10
 
 def plan_singleanchor3_11 : List Move := [Move.paired,Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color)]
 theorem singleanchor3_11 (t : Matching) (bits : Nat → Bool)
@@ -2747,7 +2737,6 @@ theorem singleanchor3_11 (t : Matching) (bits : Nat → Bool)
             simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
           exact (h.fresh 10 (by decide) 0 hp 0 (by decide)) hEq
 
-#print axioms singleanchor3_11
 
 def plan_singleanchor3_12 : List Move := [Move.paired,Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color)]
 theorem singleanchor3_12 (t : Matching) (bits : Nat → Bool)
@@ -3114,7 +3103,6 @@ theorem singleanchor3_12 (t : Matching) (bits : Nat → Bool)
             simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
           exact (h.fresh 10 (by decide) 0 hp 0 (by decide)) hEq
 
-#print axioms singleanchor3_12
 
 def plan_singleanchor3_13 : List Move := [Move.paired,Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (0 : Color)]
 theorem singleanchor3_13 (t : Matching) (bits : Nat → Bool)
@@ -3361,7 +3349,6 @@ theorem singleanchor3_13 (t : Matching) (bits : Nat → Bool)
               simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
             exact (h.fresh 11 (by decide) 3 hp 0 (by decide)) hEq
 
-#print axioms singleanchor3_13
 
 def plan_singleanchor3_14 : List Move := [Move.paired,Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color)]
 theorem singleanchor3_14 (t : Matching) (bits : Nat → Bool)
@@ -3752,7 +3739,6 @@ theorem singleanchor3_14 (t : Matching) (bits : Nat → Bool)
                     simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
                   exact (h.fresh 14 (by decide) 3 hp 0 (by decide)) hEq
 
-#print axioms singleanchor3_14
 
 def plan_singleanchor3_15 : List Move := [Move.paired,Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (0 : Color)]
 theorem singleanchor3_15 (t : Matching) (bits : Nat → Bool)
@@ -4119,7 +4105,6 @@ theorem singleanchor3_15 (t : Matching) (bits : Nat → Bool)
                   simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
                 exact (h.fresh 13 (by decide) 4 hp 3 (by decide)) hEq
 
-#print axioms singleanchor3_15
 
 def plan_singleanchor3_16 : List Move := [Move.paired,Move.center (1 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color)]
 theorem singleanchor3_16 (t : Matching) (bits : Nat → Bool)
@@ -4282,7 +4267,6 @@ theorem singleanchor3_16 (t : Matching) (bits : Nat → Bool)
               simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
             exact (h.fresh 11 (by decide) 1 hp 0 (by decide)) hEq
 
-#print axioms singleanchor3_16
 
 def plan_singleanchor3_17 : List Move := [Move.paired,Move.center (1 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color)]
 theorem singleanchor3_17 (t : Matching) (bits : Nat → Bool)
@@ -4565,7 +4549,6 @@ theorem singleanchor3_17 (t : Matching) (bits : Nat → Bool)
               simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
             exact (h.fresh 11 (by decide) 2 hp 2 (by decide)) hEq
 
-#print axioms singleanchor3_17
 
 def plan_singleanchor3_18 : List Move := [Move.paired,Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (0 : Color)]
 theorem singleanchor3_18 (t : Matching) (bits : Nat → Bool)
@@ -4728,7 +4711,6 @@ theorem singleanchor3_18 (t : Matching) (bits : Nat → Bool)
                 simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
               exact (h.fresh 12 (by decide) 1 hp 0 (by decide)) hEq
 
-#print axioms singleanchor3_18
 
 def plan_singleanchor3_19 : List Move := [Move.paired,Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (2 : Color),Move.center (1 : Color)]
 theorem singleanchor3_19 (t : Matching) (bits : Nat → Bool)
@@ -4939,6 +4921,5 @@ theorem singleanchor3_19 (t : Matching) (bits : Nat → Bool)
                   simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
                 exact (h.fresh 13 (by decide) 5 hp 0 (by decide)) hEq
 
-#print axioms singleanchor3_19
 
 end F7Local

@@ -76,6 +76,4 @@ theorem future_pair_is_donor (R : TokenRun (Fin 7) (Fin 7) n)
         exact he (state_eq_of_rank_eq R j t k.castSucc before equal)
       exact strict
 
-#print axioms state_eq_of_rank_eq
-#print axioms future_pair_is_donor
 end F7Manuscript.R21OneGHandDonor

@@ -85,6 +85,5 @@ theorem L_from_raw_ordered_paths
   change PB.support.card=PB.last+3 at hBcard
   exact ⟨by omega,by omega,hEight⟩
 
-#print axioms L_from_raw_ordered_paths
 
 end ConditionalUL

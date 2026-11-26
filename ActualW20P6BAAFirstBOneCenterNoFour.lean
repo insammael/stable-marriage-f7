@@ -77,5 +77,4 @@ theorem center_event_post_ne_four_firstB_one
       simp at hmem
     exact hnot (by simpa [centerToken] using! hpost)
 
-#print axioms center_event_post_ne_four_firstB_one
 end F7Manuscript.ActualW20P6BAAFirstBOneCenterNoFour

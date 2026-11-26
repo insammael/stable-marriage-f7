@@ -184,9 +184,6 @@ theorem actual_normal_final_marks_impossible
     rw [he,A.initial2]
     decide
 
-#print axioms actual_normal_final_marks_impossible
 
-#print axioms pure_route_literal_supports
-#print axioms actual_normal_pure_supports
 end
 end F7Manuscript.R21LongWindow.Mass18Endpoint

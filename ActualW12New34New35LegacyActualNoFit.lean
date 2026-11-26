@@ -73,10 +73,6 @@ theorem actual_X_new35_legacy_oriented_source_false
   exact actual_X_any_return_root_oriented_source_false C hn hδ h221 h311 hG hT X
     new35_return_entry new35_color_facts dual j hfit
 
-#print axioms new34_color_facts
-#print axioms new35_color_facts
-#print axioms actual_X_new34_legacy_oriented_source_false
-#print axioms actual_X_new35_legacy_oriented_source_false
 
 #eval IO.eprintln "W12 NEW34/NEW35 actual oriented nofit checked"
 

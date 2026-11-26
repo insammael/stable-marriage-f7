@@ -145,8 +145,5 @@ theorem PersonalCertificate.excludes_snapshots (C : PersonalCertificate) {n m : 
     simpa only [RN,e,h.1] using! hh
   exact C.excludes_boards LN RN ha hbL hbR k l hbl hbr
 
-#print axioms PersonalCertificate.excludes_at
-#print axioms wordBoardAt_of_snapshot
-#print axioms PersonalCertificate.excludes_snapshots
 end
 end F7Manuscript.R21SingleTHand

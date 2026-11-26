@@ -118,7 +118,6 @@ theorem same_K_reverse_frontier_literal_chart
       (support_disjoint (actualSupportModel I)
         (F.anti 13 le_rfl c d hcd))
 
-#print axioms same_K_reverse_frontier_literal_chart
 
 end Mixed13LiteralReverseLift
 
@@ -181,7 +180,6 @@ private theorem mixed13_same_K_literal_chart_of_reverse_frontier_data
     Mixed13LiteralReverseLift.same_K_reverse_frontier_literal_chart
       (I := I) K hconv F hRF hperiodic
 
-#print axioms mixed13_same_K_literal_chart_of_reverse_frontier_data
 
 section Original
 
@@ -326,21 +324,12 @@ theorem h7_original_mixed13_post_same_K_literal_chart_exists
     mixed13_same_K_literal_chart_of_reverse_frontier_data
       (I := I) K hconv hfrontier
 
-#print axioms h7_original_mixed13_post_same_K_literal_chart_exists
 
 end Original
 
 -- Audit the original suppliers and the actual-execution lift.
-#print axioms h7_original_mixed13_post_same_K_reverse_frontier_exists
-#print axioms h7_original_mixed13_post_order_convex
-#print axioms EventFrontierDual.reverse_binary_color_chart
-#print axioms EventFrontierDual.reverse_run_event_support
-#print axioms OrderFrontierEnumeration.enumeration_initial
 
 -- Audit original-source provenance.
-#print axioms OriginalSameKSource.enumeration
-#print axioms OriginalSameKSource.data
-#print axioms OriginalSameKSource.mixed13PostRun
 
 end
 

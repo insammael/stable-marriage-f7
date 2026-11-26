@@ -74,9 +74,6 @@ theorem recolored_frameActorRelabels_align
       (recolorSupportFrame pF f) = recolorSupportFrame pG g :=
   frameActorRelabels_align_frames _ _ _ _ hF hG
 
-#print axioms frameActorRelabels_align_frames
-#print axioms pairSupport_mapSupportFrame
-#print axioms recolored_frameActorRelabels_align
 
 end
 end F7Manuscript.TripleCoordinateLattice

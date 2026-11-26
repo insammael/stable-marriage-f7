@@ -34,7 +34,5 @@ theorem physical_mass13_alternatives
     exact Or.inr ((D.lowCostBoundary cap (by omega)).to_actualTerminal binary)
 
 -- The mass-eight consumer is imported from R21Mass12DatedHand.
-#print axioms physical_mass13_alternatives
-#print axioms fee_three_on_dated_mass_eight
 
 end F7Manuscript.R21NormalEndpoint.ReseededObservation

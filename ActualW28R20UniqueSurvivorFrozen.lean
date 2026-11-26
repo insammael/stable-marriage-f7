@@ -51,6 +51,5 @@ theorem unique_survivor_frozen
     k hfinish person origin hactive
   exact hnoReturn horigin.symm
 
-#print axioms unique_survivor_frozen
 end
 end F7Manuscript.ActualW28R20UniqueSurvivorFrozen

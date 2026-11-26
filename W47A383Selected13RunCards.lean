@@ -65,7 +65,6 @@ theorem a381_a228_selected_13_1_run_cards
     (D.n_card D.k.succ).symm.trans (D.n_eq D.k.succ)
   constructor <;> omega
 
-#print axioms a381_a228_selected_13_1_run_cards
 
 end
 

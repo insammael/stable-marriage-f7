@@ -170,7 +170,5 @@ theorem actual_oriented_colors_single_permutation
   intro i hi
   simpa only [orientAndNormalizeColors, cs, w] using! he i hi
 
-#print axioms actual_oriented_raw_columns
-#print axioms actual_oriented_colors_single_permutation
 end
 end F7Manuscript.TripleCoordinateLattice

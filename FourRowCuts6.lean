@@ -253,7 +253,6 @@ theorem four_row_cut_18 (t : Matching) (bits : Nat → Bool)
           simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
         exact (h.fresh 9 (by decide) 4 hp 0 (by decide)) hEq
 
-#print axioms four_row_cut_18
 
 def plan_four_row_cut_19 : List Move := [Move.paired,Move.center (1 : Color),Move.paired,Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.paired,Move.center (2 : Color),Move.paired]
 theorem four_row_cut_19 (t : Matching) (bits : Nat → Bool)
@@ -621,7 +620,6 @@ theorem four_row_cut_19 (t : Matching) (bits : Nat → Bool)
             simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
           exact (h.fresh 10 (by decide) 5 hp 0 (by decide)) hEq
 
-#print axioms four_row_cut_19
 
 def plan_four_row_cut_20 : List Move := [Move.paired,Move.center (1 : Color),Move.paired,Move.center (0 : Color),Move.center (1 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.paired,Move.center (2 : Color),Move.paired]
 theorem four_row_cut_20 (t : Matching) (bits : Nat → Bool)
@@ -989,6 +987,5 @@ theorem four_row_cut_20 (t : Matching) (bits : Nat → Bool)
           simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
         exact (h.fresh 9 (by decide) 4 hp 0 (by decide)) hEq
 
-#print axioms four_row_cut_20
 
 end F7Local

@@ -101,6 +101,4 @@ theorem actual_BAA_cell_60_has_receipt
     refine ⟨r,Or.inr hx,?_⟩
     simpa [hx] using! hy
 
-#print axioms actual_BAA_cell_61_has_receipt
-#print axioms actual_BAA_cell_60_has_receipt
 end F7Manuscript.ActualW20P6BAACriticalReceipts

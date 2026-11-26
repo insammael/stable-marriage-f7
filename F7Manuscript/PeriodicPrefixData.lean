@@ -83,16 +83,5 @@ theorem normalizePerm_initial_pair (a b c : Bool) (i : Fin 3) :
     swapSupport (ReturnCertificate.pairAt [(0, 1), (2, 3), (4, 5)] i.val) := by
   cases a <;> cases b <;> cases c <;> fin_cases i <;> decide
 
-#print axioms modeWord_length
-#print axioms modeWord_support_eq_root_prefix
-#print axioms modeWord_endpoints_ne
-#print axioms modeWord_prefix_origins
-#print axioms rootOf_valid
-#print axioms rootOf_target_budget_four
-#print axioms rootOf_prefix_length
-#print axioms modeWord_pairAt_support_eq_root
-#print axioms modeWord_pairAt_first
-#print axioms modeWord_pairAt_center
-#print axioms normalizePerm_initial_pair
 
 end F7Manuscript.PartnerGraph.Periodic

@@ -126,7 +126,6 @@ theorem actual_X_u4_cost_three_five_root_projection
     omega
   exact gap_clauses_imply_projection a x y ha ha5 hx hy hcap hgap
 
-#print axioms actual_X_u4_cost_three_five_root_projection
 
 end
 end F7Manuscript.ActualW16FiveRootGapActualX

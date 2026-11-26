@@ -19,5 +19,4 @@ theorem leaf1_ok : Closed 9 leaf1 := by
 def leaf2 : State := ⟨(0, 3), (2, 1), (5, 6), ⟨2, 3, 0, 6, 5, 1, 4⟩, ⟨71, 11, 13, 76, 48, 50, 82⟩, 4, 2, 0, true, false, 1⟩
 theorem leaf2_ok : Closed 9 leaf2 := by
   exact ofCheck (by decide +kernel)
-#print axioms leaf0_ok
 end F7Manuscript.R21NormalEndpoint.Mass13Fee34

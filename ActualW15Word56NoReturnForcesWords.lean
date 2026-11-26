@@ -61,6 +61,5 @@ theorem plan56_source16_eq_A_or_B
     exact Or.inr (F7Manuscript.ActualW15Word56TailControls.plan56_source16_B
       bits h0 h1 h2 h3' h4' h5' h6' h7' h8' h9' h10' h11')
 
-#print axioms plan56_source16_eq_A_or_B
 
 end F7Manuscript.ActualW15Word56NoReturnForcesWords

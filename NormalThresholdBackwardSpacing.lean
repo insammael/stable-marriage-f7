@@ -91,6 +91,5 @@ theorem normalBackwardSpacing_of_dual
     rw [hsource2]
     simpa [k2] using! hsteps.2
 
-#print axioms normalBackwardSpacing_of_dual
 
 end F7Manuscript.TripleCoordinateLattice

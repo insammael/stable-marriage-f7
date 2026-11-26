@@ -67,7 +67,6 @@ theorem pivotsOf_reverse_mem_15
       _ = W[13-p]! := hEq'
       _ = W.reverse[p+1]! := hright.symm
 
-#print axioms pivotsOf_reverse_mem_15
 
 end
 end F7Manuscript.ActualW16U3ReversePivotTransport

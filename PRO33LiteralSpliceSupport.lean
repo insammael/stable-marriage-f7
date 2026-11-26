@@ -192,9 +192,6 @@ theorem transport_reverse_prefix_to_splice
       hfit hspan hKn hblock iK
   simpa [iK] using! hs
 
-#print axioms splice_block_subRun_support
-#print axioms splice_block_matches_local_reverse_support
-#print axioms transport_reverse_prefix_to_splice
 
 end
 

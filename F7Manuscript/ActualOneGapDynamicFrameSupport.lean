@@ -70,6 +70,5 @@ theorem actual_typeV_pairs_in_dynamic_frame
   rw [hframe] at hmap
   exact hmap
 
-#print axioms actual_typeV_pairs_in_dynamic_frame
 
 end F7Manuscript.TripleCoordinateLattice

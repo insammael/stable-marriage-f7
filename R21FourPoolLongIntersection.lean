@@ -86,7 +86,5 @@ theorem marked_row_token_overlap_le (R : TokenRun Site W 21)
       exact False.elim (hn (by simpa only [he] using! jj.2.1))
   exact Finset.card_le_card_of_injOn f maps inj
 
-#print axioms pool_row_token_joint_first_departure
-#print axioms marked_row_token_overlap_le
 end
 end F7Manuscript.R21LongWindow.FourPoolCapacity

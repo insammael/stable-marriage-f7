@@ -826,14 +826,12 @@ theorem q0_cut_012 (t : Matching) (bits : Nat → Bool)
                   simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
                 exact (h.fresh 11 (by decide) 5 hp 0 (by decide)) hEq
 
-#print axioms q0_cut_012
 
 theorem q0_cut_012_anchored (t : Matching) (bits : Nat → Bool)
     (norm : ∀ i, i < 1 → bits i = false) : ¬ NoReturn t (anchoredPlan 0 [1,3,4,7] 11) bits := by
   have hp : anchoredPlan 0 [1,3,4,7] 11 = plan_q0_cut_012 := by decide
   rw [hp]
   exact q0_cut_012 t bits norm
-#print axioms q0_cut_012_anchored
 
 def plan_q0_cut_013 : List Move := [Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (1 : Color)]
 theorem q0_cut_013 (t : Matching) (bits : Nat → Bool)
@@ -1654,14 +1652,12 @@ theorem q0_cut_013 (t : Matching) (bits : Nat → Bool)
                   simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
                 exact (h.fresh 11 (by decide) 2 hp 0 (by decide)) hEq
 
-#print axioms q0_cut_013
 
 theorem q0_cut_013_anchored (t : Matching) (bits : Nat → Bool)
     (norm : ∀ i, i < 1 → bits i = false) : ¬ NoReturn t (anchoredPlan 0 [4,5,8] 14) bits := by
   have hp : anchoredPlan 0 [4,5,8] 14 = plan_q0_cut_013 := by decide
   rw [hp]
   exact q0_cut_013 t bits norm
-#print axioms q0_cut_013_anchored
 
 def plan_q0_cut_014 : List Move := [Move.center (1 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (1 : Color)]
 theorem q0_cut_014 (t : Matching) (bits : Nat → Bool)
@@ -2242,14 +2238,12 @@ theorem q0_cut_014 (t : Matching) (bits : Nat → Bool)
               simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
             exact (h.fresh 9 (by decide) 2 hp 0 (by decide)) hEq
 
-#print axioms q0_cut_014
 
 theorem q0_cut_014_anchored (t : Matching) (bits : Nat → Bool)
     (norm : ∀ i, i < 1 → bits i = false) : ¬ NoReturn t (anchoredPlan 0 [2,5,9] 12) bits := by
   have hp : anchoredPlan 0 [2,5,9] 12 = plan_q0_cut_014 := by decide
   rw [hp]
   exact q0_cut_014 t bits norm
-#print axioms q0_cut_014_anchored
 
 def plan_q0_cut_015 : List Move := [Move.center (1 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color)]
 theorem q0_cut_015 (t : Matching) (bits : Nat → Bool)
@@ -2926,14 +2920,12 @@ theorem q0_cut_015 (t : Matching) (bits : Nat → Bool)
                 simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
               exact (h.fresh 10 (by decide) 1 hp 0 (by decide)) hEq
 
-#print axioms q0_cut_015
 
 theorem q0_cut_015_anchored (t : Matching) (bits : Nat → Bool)
     (norm : ∀ i, i < 1 → bits i = false) : ¬ NoReturn t (anchoredPlan 0 [2,8,9] 14) bits := by
   have hp : anchoredPlan 0 [2,8,9] 14 = plan_q0_cut_015 := by decide
   rw [hp]
   exact q0_cut_015 t bits norm
-#print axioms q0_cut_015_anchored
 
 def plan_q0_cut_016 : List Move := [Move.center (1 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (2 : Color)]
 theorem q0_cut_016 (t : Matching) (bits : Nat → Bool)
@@ -3658,14 +3650,12 @@ theorem q0_cut_016 (t : Matching) (bits : Nat → Bool)
                 simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
               exact (h.fresh 10 (by decide) 2 hp 0 (by decide)) hEq
 
-#print axioms q0_cut_016
 
 theorem q0_cut_016_anchored (t : Matching) (bits : Nat → Bool)
     (norm : ∀ i, i < 1 → bits i = false) : ¬ NoReturn t (anchoredPlan 0 [2,4,7,8] 12) bits := by
   have hp : anchoredPlan 0 [2,4,7,8] 12 = plan_q0_cut_016 := by decide
   rw [hp]
   exact q0_cut_016 t bits norm
-#print axioms q0_cut_016_anchored
 
 def plan_q0_cut_017 : List Move := [Move.center (1 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (1 : Color)]
 theorem q0_cut_017 (t : Matching) (bits : Nat → Bool)
@@ -3982,13 +3972,11 @@ theorem q0_cut_017 (t : Matching) (bits : Nat → Bool)
                 simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
               exact (h.fresh 10 (by decide) 1 hp 0 (by decide)) hEq
 
-#print axioms q0_cut_017
 
 theorem q0_cut_017_anchored (t : Matching) (bits : Nat → Bool)
     (norm : ∀ i, i < 1 → bits i = false) : ¬ NoReturn t (anchoredPlan 0 [1,2,6,7] 9) bits := by
   have hp : anchoredPlan 0 [1,2,6,7] 9 = plan_q0_cut_017 := by decide
   rw [hp]
   exact q0_cut_017 t bits norm
-#print axioms q0_cut_017_anchored
 
 end F7Local

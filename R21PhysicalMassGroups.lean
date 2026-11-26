@@ -58,7 +58,5 @@ theorem level_le_charge_internal (C : Chart) (j : Fin C.m)
    simp only [chargeAt,left,right,true_and,positive,true_or,if_true]
    exact noDouble
 
-#print axioms mass_group_cover_prefix
-#print axioms slice_suffix_mass
 end
 end F7Manuscript.R21PhysicalChartSlices

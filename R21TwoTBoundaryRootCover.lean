@@ -716,5 +716,4 @@ theorem canonical_root_representative (p : Fin 6) (c : Fin 3) (bits : Fin 32)
    · exact Or.inl (by simpa only [hb, Bool.false_eq_true, ↓reduceIte] using! h)
    · exact Or.inr (by simpa only [hb, ↓reduceIte] using! h)
 
-#print axioms canonical_root_representative
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

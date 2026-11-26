@@ -62,6 +62,5 @@ theorem actual_consecutive_disjoint_false
     (E.consecutive_cover hQ i j hnext hlt)
   exact Finset.disjoint_left.mp hdis hm hm'
 
-#print axioms actual_consecutive_disjoint_false
 end
 end F7Manuscript.SaturatedCoverSegments

@@ -44,5 +44,4 @@ theorem p5_CII_A4_token_two_pool_visited
     subst y2
     exact ⟨q2.succ,by simp only [Fin.val_succ]; omega,hq2atY⟩
 
-#print axioms p5_CII_A4_token_two_pool_visited
 end F7Manuscript.ActualW20P5CIIA4TokenTwoPool

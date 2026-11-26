@@ -96,6 +96,4 @@ def freeCount : List Op → ℕ
     cases a <;> simp [ofPlan,ordinaryCount,rowCount,freeCount,eventCount,(ih _).1,
       (ih _).2.1,(ih _).2.2,Nat.add_comm]
 
-#print axioms expand_ofPlan
-#print axioms cutWord_eq_expand
 end F7Manuscript.TripleCoordinateLattice.R21LooseRows

@@ -123,4 +123,3 @@ end
 
 end F7Manuscript.NormalSupportRigidity
 
-#print axioms F7Manuscript.NormalSupportRigidity.actual_two_row_complement_data

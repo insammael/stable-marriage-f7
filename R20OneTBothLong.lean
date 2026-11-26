@@ -77,6 +77,5 @@ theorem actual_one_T_endpoint_both_long_obligation :
     exact F7Manuscript.TripleCoordinateLattice.ActualW35OneTOrientation.one_T_orientation_wlog
       P hP C hn h221 h311 hu hG hT hreverse
 
-#print axioms actual_one_T_endpoint_both_long_obligation
 end
 end F7Manuscript.TripleCoordinateLattice.R20OneTBothLong

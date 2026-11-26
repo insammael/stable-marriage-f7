@@ -52,7 +52,6 @@ theorem actual_binary_G_window_gap_choices
     actual_binary_G_window_cyclic_choices C E n hG hempty hOldBinary hNewBinary
   exact ⟨fixed,hfixed,α,hα,hc,hQ,H,e,k,label,hfirst,hX,hY⟩
 
-#print axioms actual_binary_G_window_gap_choices
 
 end
 end F7Manuscript.TripleCoordinateLattice

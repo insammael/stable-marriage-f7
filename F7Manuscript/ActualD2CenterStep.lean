@@ -93,6 +93,5 @@ theorem actual_d2_center_step_eq_centerTok
         (tokenSwap_apply_swapSite ((reindexRun R e).state n.castSucc) x).symm
     _ = F7Paired.centerTok ((reindexRun R e).state n.castSucc) x := rfl
 
-#print axioms actual_d2_center_step_eq_centerTok
 
 end F7Manuscript.TripleCoordinateLattice

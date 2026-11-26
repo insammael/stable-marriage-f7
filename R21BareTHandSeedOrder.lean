@@ -36,5 +36,4 @@ theorem new_seed_order_commute (s : Fin 6) :
   · change DisjointWordCommute [a,b,c] [c,b,a]
     exact (ab [c]).trans ((DisjointWordCommute.cons b (ac [])).trans (bc [a]))
 
-#print axioms new_seed_order_commute
 end F7Manuscript.TripleCoordinateLattice.R21BareTHandSplice

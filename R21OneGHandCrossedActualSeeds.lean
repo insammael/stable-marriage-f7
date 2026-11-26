@@ -133,7 +133,5 @@ theorem actual_root_A_fixed_and_moving_supports
   · subst k
     exact Or.inr ⟨hk.symm,hpair⟩
 
-#print axioms actual_G_crossed_seed_supports
-#print axioms actual_root_A_fixed_and_moving_supports
 end
 end F7Manuscript.TripleCoordinateLattice.R21OneGHandActual

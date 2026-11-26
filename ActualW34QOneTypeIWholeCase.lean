@@ -149,6 +149,5 @@ theorem actual_r20_q1_typeI_whole_case
       d0 d1 hslot0 hslot1 hnewLower cross σ hσfixed hσleft hσright hpostLower
 
 
-#print axioms actual_r20_q1_typeI_whole_case
 end
 end F7Manuscript.TripleCoordinateLattice

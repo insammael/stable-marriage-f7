@@ -67,7 +67,5 @@ theorem actual_post_graphGuard {n m : ℕ}
       have hbad : rejectedSnapshot t=true := by rwa [handRejected_physical_eq] at hr
       exact (rejectedSnapshot_excludes L R h hbL hbR k l s t hLs hLv hRs hRv hs hbad).elim
 
-#print axioms handRejectKeys_correct
-#print axioms actual_post_graphGuard
 end
 end F7Manuscript.R21SingleTHand

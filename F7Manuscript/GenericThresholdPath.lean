@@ -151,7 +151,5 @@ theorem perfect_path_spans (h221 : ConditionalUL.NoInduced221 (V := V))
   rw [path_union]
   exact (zero_triple_deficit_components C h221 h311 hz).1
 
-#print axioms path_step_coordinate
-#print axioms perfect_path_spans
 end
 end F7Manuscript.TripleCoordinateLattice.GenericThresholdPath

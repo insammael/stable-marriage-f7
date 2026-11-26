@@ -114,6 +114,5 @@ theorem actual_typed_normal_exclusion_of_disjoint_prehistory
       exact checked_tree_excludes_fresh (typedNormalPlan C.word) true rootTree_4002
         hvalid (typedCutBits C) hfresh (fun _ => hprofile)
 
-#print axioms actual_typed_normal_exclusion_of_disjoint_prehistory
 
 end F7Manuscript.OneGapActualTypedNormalExclusion

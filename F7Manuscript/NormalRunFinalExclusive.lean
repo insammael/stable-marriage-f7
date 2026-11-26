@@ -69,8 +69,6 @@ theorem globalNormalRun_final_exclusive_subset_pathSegment
     (globalNormalRunInterval C E i).ordered
     (globalNormalRun_initial_exclusive_reset C E i) c
 
-#print axioms rowExclusive_final_subset_pathSegment_of_initial_reset
-#print axioms globalNormalRun_final_exclusive_subset_pathSegment
 
 end
 end F7Manuscript.TripleCoordinateLattice

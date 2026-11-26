@@ -228,7 +228,6 @@ theorem actual_X_u3_q1_s3_saved45_reverse_branch
   exact actual_X_ordinal45_reverse_carrier C hn hδ h221 h311 hG hT X
     (by rw [hm]; omega) hnorm hDzeroRaw hD8Raw
 
-#print axioms actual_X_u3_q1_s3_saved45_reverse_branch
 
 end
 end ActualW17Q1Saved45ReverseBranchActual

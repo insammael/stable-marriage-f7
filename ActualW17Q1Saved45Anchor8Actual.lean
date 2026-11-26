@@ -145,7 +145,6 @@ theorem actual_X_ordinal45_anchor8_carrier
     hfit hfirst hcolor hinterior hlast
   exact ⟨P, hcar⟩
 
-#print axioms actual_X_ordinal45_anchor8_carrier
 
 end
 end F7Manuscript.ActualW17Q1Saved45Anchor8Actual

@@ -153,7 +153,6 @@ theorem actual_X_P6_oriented_initial_zero_guard
         (by intro k hk; simpa using! hlevels k hk) hpivRaw
     simpa [hreverse, min_eq_right hreverse] using! hphysical
 
-#print axioms actual_X_P6_oriented_initial_zero_guard
 
 end
 end F7Manuscript.ActualW14P6OrientedInitialZeroGuard

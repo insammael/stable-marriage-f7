@@ -73,7 +73,6 @@ theorem actual_u3_q1_s3_paid_one_frontier_pruned8
     exact False.elim (actual_u3_q1_s3_paid8_extra27_or67_allorient_false
       C hn hδ hdeficit hpos h221 h311 hG hT X hu hq hs hpaid8 hextraCases)
 
-#print axioms actual_u3_q1_s3_paid_one_frontier_pruned8
 
 end
 end ActualW17U3Q1S3PaidOneFrontierPruned8

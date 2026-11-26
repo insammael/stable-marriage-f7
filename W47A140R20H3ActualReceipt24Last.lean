@@ -229,7 +229,6 @@ theorem whole_pair14_23_execution_false
       omega)
     hreturn_at_step
 
-#print axioms whole_pair14_23_execution_false
 
 end
 

@@ -69,8 +69,5 @@ theorem PrefixWord.simultaneousRename {n : ℕ} (R : TokenRun Site Site n)
   ext a
   simp [mapSwap]
 
-#print axioms first_two_pre_common_symmetry
-#print axioms simultaneous_sharedAnchor
-#print axioms PrefixWord.simultaneousRename
 end
 end F7Manuscript.R21SingleTHand

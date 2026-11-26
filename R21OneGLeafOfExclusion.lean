@@ -92,7 +92,5 @@ theorem r21LeafObligation_zero_one_zero_of_ordered_exclusion
   exact one_G_count_with_event_decisions hex (eventDecEq I) (eventDecLe I)
     C hn h221 h311 hu hG hT
 
-#print axioms r21_one_G_count_of_ordered_exclusion
-#print axioms r21LeafObligation_zero_one_zero_of_ordered_exclusion
 end
 end F7Manuscript.ActualPositiveDeficitCoverAssembly

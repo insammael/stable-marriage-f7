@@ -157,8 +157,5 @@ theorem bad_neutral_iso (E : V ≃o W) (h : BadNeutral (V := V)) : BadNeutral (V
 theorem core_representation_implies_badNeutral (k : CoreKind) (E : V ≃o Core k) :
     BadNeutral (V := V) := bad_neutral_iso E.symm (core_badNeutral k)
 
-#print axioms A3_iso
-#print axioms bad_neutral_iso
-#print axioms core_representation_implies_badNeutral
 
 end NeutralCore

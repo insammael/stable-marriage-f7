@@ -156,16 +156,10 @@ theorem r20_original_mixed_stableCount_le_85_shared
       E hE hcoreCard hmacro x hout hmixed h140)
 
 -- Imported original-execution leaf.
-#print axioms F7Manuscript.TripleCoordinateLattice.PreAlignmentClosureBridge.original_14_0_same_original_execution_contradiction
 
 -- Original-data and composition audits.
-#print axioms w47_a228_original_data
-#print axioms w47_a228_original_four_exclusions_of_remaining_14_0
-#print axioms w47_a228_actual_stableCount_le_85_of_remaining_14_0
 
 -- Final exclusion and count audits.
-#print axioms w47_a228_original_remaining_14_0_exclusion_shared
-#print axioms r20_original_mixed_stableCount_le_85_shared
 
 end
 

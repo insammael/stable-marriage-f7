@@ -46,6 +46,5 @@ theorem f7_eq_85_of_r20_remaining_and_r21_rest
   exact F7Manuscript.ActualW22W23F7ResidualLeafTop.f7_eq_85_of_r20_and_r21_remaining_leaves
     r20 r21rest
 
-#print axioms f7_eq_85_of_r20_remaining_and_r21_rest
 end
 end F7Manuscript.ActualW33F7AfterOneOutsiderLeaf

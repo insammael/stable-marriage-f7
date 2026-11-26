@@ -106,7 +106,5 @@ theorem traceReceiptCount_eq_firstCoordinateCells_of_saturated
   rw [← hcard, ← himage]
   rw [Finset.card_image_of_injective _ (receiptCell_injective T)]
 
-#print axioms traceReceiptCount_eq_two_both_add_one
-#print axioms traceReceiptCount_eq_firstCoordinateCells_of_saturated
 
 end F7Manuscript.ActualW18TraceSubsetReceiptCount

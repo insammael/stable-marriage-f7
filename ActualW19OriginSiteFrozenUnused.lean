@@ -47,6 +47,5 @@ theorem fixedTokenSwapTrace_origin_site_frozen_unused
       apply hnever r (Or.inr hs.symm)
       simpa [hs] using! ht
 
-#print axioms fixedTokenSwapTrace_origin_site_frozen_unused
 
 end F7Manuscript.PartnerGraph

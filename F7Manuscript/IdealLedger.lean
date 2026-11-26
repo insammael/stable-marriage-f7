@@ -97,11 +97,4 @@ theorem r19_ideal_count_le_85_of_frontier_adapter
     (IdealCounting.idealSets (V := V)).card ≤ 85 :=
   r19_human_ideal_count_le_85 hClass hn hDelta adapter
 
-#print axioms ideal_deficit_accounting
-#print axioms small_poset_ideal_count_le_sixteen
-#print axioms five_to_eighteen_ideal_count_le_eighty_one
-#print axioms r20_high_triple_ideal_count_le_85
-#print axioms r21_high_triple_ideal_count_le_84
-#print axioms r21_delta_six_ideal_count_le_85_of_equality_exclusion
-#print axioms r19_ideal_count_le_85_of_frontier_adapter
 end F7Manuscript

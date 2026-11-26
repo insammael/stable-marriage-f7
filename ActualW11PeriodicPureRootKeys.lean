@@ -109,8 +109,5 @@ theorem normalizeColors_eq_periodic_of_noABA
   apply normalizeColors_eq_periodic_of_pivots_empty raw n hrawval hrawadj hlen hn
   exact pivotsOf_eq_empty_of_noABA raw hnoABA
 
-#print axioms pivotsOf_eq_empty_of_noABA
-#print axioms normalizeColors_eq_periodic_of_pivots_empty
-#print axioms normalizeColors_eq_periodic_of_noABA
 
 end F7Manuscript.ActualW11PeriodicPureRootKeys

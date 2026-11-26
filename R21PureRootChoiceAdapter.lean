@@ -66,8 +66,4 @@ theorem motif_encodeFour (c0 c1 c2 c3 : Fin 3) (bits : Nat → Bool) :
         [0 == c1.val,c0.val == c2.val,c1.val == c3.val] := by
   simp [inputMotif,inputChoices,encodeFour,choice_roundtrip]
 
-#print axioms plan_encodeFour
-#print axioms bits_encodeFour
-#print axioms DatedPlan.encodeFour
-#print axioms motif_encodeFour
 end F7Manuscript.R21LongWindow.PureRootCoverage

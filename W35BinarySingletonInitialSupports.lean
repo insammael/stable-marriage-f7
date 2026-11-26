@@ -204,7 +204,6 @@ theorem initial_supports {hm1 : 1 ≤ normalBlockCount B}
     rw [hcenter]
     exact h₃
 
-#print axioms initial_supports
 
 end
 end F7Manuscript.TripleCoordinateLattice.BinarySingletonNormalTrace

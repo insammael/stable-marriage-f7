@@ -162,9 +162,3 @@ end
 
 end F7Manuscript.TripleCoordinateLattice
 
-#print axioms F7Manuscript.TripleCoordinateLattice.a225_actual_no_four
-#print axioms F7Manuscript.TripleCoordinateLattice.a225_outsiderEpsilon_zero
-#print axioms F7Manuscript.TripleCoordinateLattice.a225_specialized_deficit_ledger
-#print axioms F7Manuscript.TripleCoordinateLattice.a225_subtraction_free_identity_of_prefix_accounting
-#print axioms F7Manuscript.TripleCoordinateLattice.a225_stableCount_le_iff_of_prefix_accounting
-#print axioms F7Manuscript.TripleCoordinateLattice.a225_stableCount_le_85_of_prefix_accounting

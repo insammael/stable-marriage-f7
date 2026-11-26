@@ -37,6 +37,5 @@ theorem p5_required_initial_future_visits
     simpa only [Fin.val_succ] using! Nat.succ_le_succ hr5
   exact ⟨⟨r4.succ, htime4, hvisit4⟩, ⟨r5.succ, htime5, hvisit5⟩⟩
 
-#print axioms p5_required_initial_future_visits
 
 end F7Manuscript.ActualW19P5RequiredVisits

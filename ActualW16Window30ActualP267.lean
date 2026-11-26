@@ -226,8 +226,6 @@ theorem actual_X_window30_root11_reverse_carrier
   obtain ⟨carrier⟩ := hcarrier
   exact ⟨P, carrier, hplanprefix⟩
 
-#print axioms actual_X_window30_root11_forward_carrier
-#print axioms actual_X_window30_root11_reverse_carrier
 
 end
 end F7Manuscript.ActualW16Window30ActualP267

@@ -14,6 +14,4 @@ theorem fixed_free_five_B_no_mass_seven : ∀ (p : Fin 6) (bits : Fin 8) (last :
 /-- A paired level may skip seven. -/
 theorem fixed_free_five_B_no_mass_eight : ∀ (p : Fin 6) (bits : Fin 8) (last : Fin 3),
  rejectMass 8 endB (seedFrame seedRightB 2 p bits last) false=true := by decide +kernel
-#print axioms fixed_free_five_B_no_mass_seven
-#print axioms fixed_free_five_B_no_mass_eight
 end F7Manuscript.TripleCoordinateLattice.R21BareTHandFive

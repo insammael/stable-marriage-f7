@@ -42,4 +42,3 @@ theorem canonical_reverse_pure14_recovery
 
 end A372
 
-#print axioms A372.canonical_reverse_pure14_recovery

@@ -23,7 +23,4 @@ theorem six_no_neutral_extension : ∀s∈sixSeeds,∀t∈(Finset.univ : Finset 
     npairs (extend s t) (Fin.last 6)=1 → valid (extend s t) → False := by decide +kernel
 
 
-#print axioms zero_no_neutral_extension
-#print axioms two_extension_certificate
-#print axioms six_no_neutral_extension
 end NeutralCore.SmallSeed

@@ -103,6 +103,5 @@ theorem actual_prefix_installers_give_virtual_pool_saturation
   exact actual_virtual_pool_saturation R k hk betaFull hbetaFull mate hupdate
     hparticipates hcenter k₁ hk₁ k₂ hk₂ hnew₁ hnew₂ hnew
 
-#print axioms actual_prefix_installers_give_virtual_pool_saturation
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW28R20SaturationFromInstallers

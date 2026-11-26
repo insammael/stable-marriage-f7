@@ -80,7 +80,6 @@ theorem dual_d2_block_four_rows
       · simpa [hmid] using! hD₂
       · simpa [hmid] using! hD₃
 
-#print axioms dual_d2_block_four_rows
 
 end
 end F7Manuscript.DualBlockScheduleProjections

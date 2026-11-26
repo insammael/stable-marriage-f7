@@ -40,6 +40,5 @@ theorem event_word_pair_mapped_supports
   simp -failIfUnchanged only [Finset.image_insert,Finset.image_singleton,h0,h1] at images
   simpa only [pairSupport,mapSupportPair,Finset.map_insert,Finset.map_singleton] using! images.symm
 
-#print axioms event_word_pair_mapped_supports
 end
 end F7Manuscript.TripleCoordinateLattice.R21OneGHandActual

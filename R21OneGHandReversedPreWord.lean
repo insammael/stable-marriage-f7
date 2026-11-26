@@ -79,6 +79,5 @@ theorem original_reversed_pre_word
   rw [Periodic.reverseRun_support,Fin.rev_rev,EventFrontierSupport.enumerated_event_support] at hs
   rw [R21TwoTBoundary.pairAt_reverse _ _ size]
   exact hs
-#print axioms original_reversed_pre_word
 end
 end F7Manuscript.TripleCoordinateLattice.R21OneGHandActual

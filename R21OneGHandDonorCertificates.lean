@@ -33,7 +33,6 @@ theorem no_path_fixed05_01_token3 (path : List (Fin 7)) (hp : path.Perm [4,5,6])
   apply no_path_of_check (Donor p_fixed05_01_token3 H_fixed05_01_token3 3) 0 [4,5,6] _ path hp
   decide +kernel
 
-#print axioms no_path_fixed05_01_token3
 
 private def p_fixed05_15_row3 : Fin 7 → Fin 7 := ![4,6,5,1,0,3,2]
 private def H_fixed05_15_row3 : Fin 7 → Finset (Fin 7) := ![{2,3,5},{2,4,5},{4,6},{0,4,6},{1,3,6},{0,1,2},{3,4,5}]
@@ -44,7 +43,6 @@ theorem no_path_fixed05_15_row3 (path : List (Fin 7)) (hp : path.Perm [0,4,6]) :
   apply no_path_of_check (Donor p_fixed05_15_row3 H_fixed05_15_row3 3) 1 [0,4,6] _ path hp
   decide +kernel
 
-#print axioms no_path_fixed05_15_row3
 
 private def p_fixed05_16_45_row3 : Fin 7 → Fin 7 := ![4,2,5,1,6,0,3]
 private def H_fixed05_16_45_row3 : Fin 7 → Finset (Fin 7) := ![{2,3,5},{4,5,6},{4,6},{0,4,6},{1,3},{1,2,3},{4,5}]
@@ -55,7 +53,6 @@ theorem no_path_fixed05_16_45_row3 (path : List (Fin 7)) (hp : path.Perm [0,4,6]
   apply no_path_of_check (Donor p_fixed05_16_45_row3 H_fixed05_16_45_row3 3) 1 [0,4,6] _ path hp
   decide +kernel
 
-#print axioms no_path_fixed05_16_45_row3
 
 private def p_fixed05_16_34_row5 : Fin 7 → Fin 7 := ![4,2,5,0,1,6,3]
 private def H_fixed05_16_34_row5 : Fin 7 → Finset (Fin 7) := ![{2,3,5},{4,5,6},{4,6},{4,6},{3,6},{0,1,2,3},{4,5}]
@@ -66,7 +63,6 @@ theorem no_path_fixed05_16_34_row5 (path : List (Fin 7)) (hp : path.Perm [0,1,2,
   apply no_path_of_check (Donor p_fixed05_16_34_row5 H_fixed05_16_34_row5 5) 6 [0,1,2,3] _ path hp
   decide +kernel
 
-#print axioms no_path_fixed05_16_34_row5
 
 private def p_fixed05_16_02_35_row3 : Fin 7 → Fin 7 := ![5,2,4,6,0,1,3]
 private def H_fixed05_16_02_35_row3 : Fin 7 → Finset (Fin 7) := ![{2,3},{4,5,6},{6},{0,4},{1,3,6},{0,2,3},{4,5}]
@@ -77,7 +73,6 @@ theorem no_path_fixed05_16_02_35_row3 (path : List (Fin 7)) (hp : path.Perm [0,4
   apply no_path_of_check (Donor p_fixed05_16_02_35_row3 H_fixed05_16_02_35_row3 3) 6 [0,4] _ path hp
   decide +kernel
 
-#print axioms no_path_fixed05_16_02_35_row3
 
 private def p_fixed26_01_token2 : Fin 7 → Fin 7 := ![6,2,5,0,3,1,4]
 private def H_fixed26_01_token2 : Fin 7 → Finset (Fin 7) := ![{3,4,5},{3,4,5},{0,1,6},{4,5,6},{1,2,6},{2,6},{1,2,3}]
@@ -88,7 +83,6 @@ theorem no_path_fixed26_01_token2 (path : List (Fin 7)) (hp : path.Perm [0,1,6])
   apply no_path_of_check (Donor p_fixed26_01_token2 H_fixed26_01_token2 2) 5 [0,1,6] _ path hp
   decide +kernel
 
-#print axioms no_path_fixed26_01_token2
 
 private def p_fixed26_15_24_row3 : Fin 7 → Fin 7 := ![5,2,6,4,1,3,0]
 private def H_fixed26_15_24_row3 : Fin 7 → Finset (Fin 7) := ![{2,3},{4,5,6},{4,5},{0,1,6},{0,3},{0,1},{2,3,4,5}]
@@ -99,7 +93,6 @@ theorem no_path_fixed26_15_24_row3 (path : List (Fin 7)) (hp : path.Perm [0,1,6]
   apply no_path_of_check (Donor p_fixed26_15_24_row3 H_fixed26_15_24_row3 3) 4 [0,1,6] _ path hp
   decide +kernel
 
-#print axioms no_path_fixed26_15_24_row3
 
 private def p_fixed26_14_56_token3 : Fin 7 → Fin 7 := ![5,2,6,4,3,0,1]
 private def H_fixed26_14_56_token3 : Fin 7 → Finset (Fin 7) := ![{3,4},{3,4,5},{0,1},{0,5,6},{1,2,6},{1,2,6},{2,3}]
@@ -110,6 +103,5 @@ theorem no_path_fixed26_14_56_token3 (path : List (Fin 7)) (hp : path.Perm [0,5,
   apply no_path_of_check (Donor p_fixed26_14_56_token3 H_fixed26_14_56_token3 3) 4 [0,5,6] _ path hp
   decide +kernel
 
-#print axioms no_path_fixed26_14_56_token3
 
 end F7Manuscript.R21OneGHandDonor

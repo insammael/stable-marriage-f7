@@ -248,6 +248,4 @@ private theorem bb_source3_impossible
         have hfr := hfreeze r.succ hlate
         exact hpq (by rw [hpost] at hfr; exact hfr)
 
-#print axioms token_A_freezes_at_3
-#print axioms bb_source3_impossible
 end F7Manuscript.ActualW20P6BBFirstCenter

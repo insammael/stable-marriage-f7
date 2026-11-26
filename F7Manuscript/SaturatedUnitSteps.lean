@@ -159,8 +159,5 @@ theorem actual_event_binary {I : Profile 7} [Nonempty (StableMatching I)]
   rw [← hs]
   exact R.saturated_binary j
 
-#print axioms full_encounter
-#print axioms actual_event_unit
-#print axioms actual_event_binary
 end
 end F7Manuscript.SaturatedUnitSteps

@@ -38,6 +38,5 @@ theorem actual_observed_window_excludes
   · exact atomic
   · exact budget
 
-#print axioms actual_observed_window_excludes
 end
 end F7Manuscript.WindowControlCertificate

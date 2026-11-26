@@ -49,5 +49,4 @@ theorem valid_excludes {W : Type*} [Fintype W] {q : ℕ}
     state_eq_origins R L.word h i.succ L.person]
   exact congrArg (R.state 0) hL.2.2.2.symm
 
-#print axioms valid_excludes
 end F7Manuscript.HistoryReturnCertificate

@@ -69,6 +69,5 @@ theorem new229_budget_root_entry_metadata : EntryMetadata new229_budget_root_ent
 def q0BudgetRegistryPart : List (Nat × BudgetRootEntry) :=
   [ (229, new229_budget_root_entry) ]
 
-#print axioms q0BudgetRegistryPart
 end
 end F7Manuscript.ActualW12LegacyQ0BudgetRegistry05

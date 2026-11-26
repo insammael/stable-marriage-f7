@@ -65,5 +65,4 @@ theorem sourcePrefix_congr_bits (plan : List Move) (a b : ℕ → Bool) (k : ℕ
   congr 1
   exact routePrefix_congr_bits initialSupport plan a b 0 (k-4) (by simpa using! hab)
 
-#print axioms sourcePrefix_congr_bits
 end F7Local

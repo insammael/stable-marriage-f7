@@ -34,7 +34,6 @@ theorem selected29_carrier_endpoint_plus_offset
     selected29_checked 18 controlTree controlTree_valid selected29_old_frontier
   omega
 
-#print axioms selected29_carrier_endpoint_plus_offset
 
 end
 end F7Manuscript.ActualW21Selected29CarrierThreshold

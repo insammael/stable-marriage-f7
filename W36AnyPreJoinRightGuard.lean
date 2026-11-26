@@ -95,5 +95,4 @@ theorem any_pre_join_right_guard
     pre bits Hpre i hi' l hil c firstBit hFirst 1 bits ctrl Hpad
     (by simpa using! hl) (bits (ctrl+2)) hLast
 
-#print axioms any_pre_join_right_guard
 end F7Manuscript.W36AnyPreJoinRightGuard

@@ -90,6 +90,5 @@ theorem new1520_actual_saved_structural_threshold_le
   have hq : q ≤ L+17 := by omega
   omega
 
-#print axioms new1520_actual_saved_structural_threshold_le
 
 end F7Manuscript.ActualW13New1520StructuralCarrierThreshold

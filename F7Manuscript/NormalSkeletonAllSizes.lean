@@ -49,7 +49,5 @@ theorem a_eq_q_add_min_add_s_sub_two (C : Chart) :
   unfold n at hv
   omega
 
-#print axioms center_sum_add_s_add_min
-#print axioms a_eq_q_add_min_add_s_sub_two
 end
 end F7Manuscript.NormalSkeleton.Chart

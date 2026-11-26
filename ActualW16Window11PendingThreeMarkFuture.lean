@@ -137,7 +137,5 @@ theorem W11L7_future_from_observed_prefix {W : Type*} [Fintype W] {q : ℕ}
   rw [W11L7_prefixFresh_eq] at transported
   exact W11L7_future_le_five transported
 
-#print axioms W11L2_future_from_observed_prefix
-#print axioms W11L7_future_from_observed_prefix
 
 end F7Manuscript.ActualW16Window11PendingThreeMarkFuture

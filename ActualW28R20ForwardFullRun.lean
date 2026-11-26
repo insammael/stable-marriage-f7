@@ -58,7 +58,5 @@ theorem forwardRun20_support_at
   exact ConvexExecution.step_support I (fullEvents (I := I))
     (fullEventOrderConvex (I := I)) E (Fin.cast hcard.symm i)
 
-#print axioms forwardRun20
-#print axioms forwardRun20_support_at
 end
 end F7Manuscript.ActualW28R20ForwardFullRun

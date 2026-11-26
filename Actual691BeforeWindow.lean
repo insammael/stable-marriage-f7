@@ -53,7 +53,6 @@ theorem before_tripleVertices_eq_beforeOutsiders_of_constant_signs
 
 end GenericEndpoint
 
-#print axioms before_tripleVertices_eq_beforeOutsiders_of_constant_signs
 
 end
 end F7Manuscript.TripleCoordinateLattice

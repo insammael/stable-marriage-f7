@@ -59,5 +59,4 @@ theorem safe_step_two {budget n : Nat} {s : State}
   · simp only [List.all_cons, List.all_nil, h00, h01, h10, h11, h20, h21,
       hp00, hp01, hp10, hp11, Bool.and_true, Bool.true_and]
 
-#print axioms safe_step_two
 end F7Manuscript.NormalBlockBudgetFive

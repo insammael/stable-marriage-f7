@@ -147,7 +147,6 @@ theorem actual_gap_type_row_in_dynamic_frame
         · simpa [U,f',typeVPairs,hlabel] using! hdyn.1
         · simpa [U,f',typeVPairs,hlabel] using! hdyn.2
 
-#print axioms actual_gap_type_row_in_dynamic_frame
 
 end
 end F7Manuscript.TripleCoordinateLattice

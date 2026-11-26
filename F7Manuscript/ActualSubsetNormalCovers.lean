@@ -136,16 +136,12 @@ def subsetNormalPairedRectangle
     rightCover := subset_covBy_to_ambient Q hQ
       (GenericNormal.normal_pair_actual_cover B h221 h311 hz j r 1 0) }
 
-#print axioms subsetNormalPairedRectangle
 
 theorem subsetNormalEventSupportBinary
     (hn : Fintype.card (Event I) = 21) (e : Event I) :
     (support I e).card = 2 :=
   F7Manuscript.SaturatedUnitSteps.actual_event_binary hn e
 
-#print axioms F7Manuscript.TripleCoordinateLattice.subset_covBy_to_ambient
-#print axioms subsetNormalPairedRectangle
-#print axioms subsetNormalEventSupportBinary
 
 end
 end F7Manuscript.TripleCoordinateLattice

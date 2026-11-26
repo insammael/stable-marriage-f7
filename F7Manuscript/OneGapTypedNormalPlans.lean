@@ -73,6 +73,5 @@ theorem typedNormalPlan_eq_saved
       have hLiteral : typedNormalPlan (pivotColor [6, 7]) = plan_4002 := by decide
       exact hplan.trans hLiteral
 
-#print axioms typedNormalPlan_eq_saved
 
 end F7Manuscript.OneGapTypedNormalPlans

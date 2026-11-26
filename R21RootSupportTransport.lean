@@ -50,6 +50,4 @@ theorem LeftCenterTrace.map {W V : Type*} [Fintype W] [Fintype V]
       exact congrArg pairSupport hp
     · simpa only [mapSupportFrame_afterCenter] using! ih
 
-#print axioms route_map
-#print axioms LeftCenterTrace.map
 end F7Manuscript.R21LongWindow.RootSupportTransport

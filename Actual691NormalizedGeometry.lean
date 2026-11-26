@@ -95,6 +95,5 @@ theorem actual691_normalized_geometry_package
   exact ⟨e, hWlen, hdlen, hdsum, hdle, hforward, hbackward, he,
     hcost, X.size_eq, X.cost_le, X.cap_eq, X.budgetRow⟩
 
-#print axioms actual691_normalized_geometry_package
 end
 end F7Manuscript.TripleCoordinateLattice

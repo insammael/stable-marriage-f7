@@ -99,6 +99,5 @@ theorem actual_one_G_q0_pre_singleton_metadata
     threshold_prefix_four_singleton_metadata C E (macroPosition C E j) hfour
   exact ⟨n, hn0, c, hsingleton⟩
 
-#print axioms actual_one_G_q0_pre_singleton_metadata
 end
 end F7Manuscript.TripleCoordinateLattice

@@ -79,7 +79,6 @@ theorem common_card_le_six {a b : Event I} (hab : a < b) :
     (supportUnion (support I) Q) (run_confined I Q hQ E)
     (common_support_card_le_four hab)
 
-#print axioms common_card_le_six
 
 end
 end F7Manuscript.ActualCommonIncomparability

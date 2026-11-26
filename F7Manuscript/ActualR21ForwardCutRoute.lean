@@ -60,6 +60,5 @@ theorem actual_forward_cut_route_from_first_center
     simp [mixedPlanFrom, mixedPlan, hc]
   exact ⟨bits, hplan.symm ▸ hroute⟩
 
-#print axioms actual_forward_cut_route_from_first_center
 end
 end F7Manuscript.TripleCoordinateLattice

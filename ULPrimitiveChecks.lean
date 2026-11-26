@@ -173,13 +173,5 @@ theorem conditional_U_L_arithmetic (a c u lambdaA lambdaB : ℤ)
 
 end Budgets
 
-#print axioms overlap_no_between
-#print axioms no_forward_sign_change
-#print axioms no_reverse_sign_change
-#print axioms outsider_numeric_budget
-#print axioms outsider_pair_deficit
-#print axioms cover_pair_deficit
-#print axioms uniform_pair_deficit
-#print axioms conditional_U_L_arithmetic
 
 end ConditionalUL

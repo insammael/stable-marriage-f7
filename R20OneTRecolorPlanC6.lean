@@ -35,5 +35,4 @@ theorem recolor_mixedPlan (p : Equiv.Perm Color)
   simp only [mixedPlan, List.map_append, List.map_replicate,
     recolorCenterMove, recolor_mixedPlanFrom]
 
-#print axioms recolor_mixedPlan
 end F7Manuscript.R20OneTRecolorPlanC6

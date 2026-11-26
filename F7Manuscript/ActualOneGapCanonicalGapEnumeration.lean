@@ -302,7 +302,6 @@ theorem actual_gap_canonical_type_row_in_dynamic_frame
         ⟨k,false,?_,Or.inr ⟨r,hr3',hr4'⟩⟩⟩
       simpa [hlabel] using! hgap
 
-#print axioms actual_gap_canonical_type_row_in_dynamic_frame
 
 end
 end F7Manuscript.TripleCoordinateLattice

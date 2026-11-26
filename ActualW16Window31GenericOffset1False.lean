@@ -198,8 +198,6 @@ theorem actual_X_window31_offset1_min_endpoint_zero_false
     rw [hclock,hafter] at hbudget
     omega
 
-#print axioms actual_X_window31_reverse_offset1_carrier_generic
-#print axioms actual_X_window31_offset1_min_endpoint_zero_false
 
 end
 end F7Manuscript.ActualW16Window31GenericOffset1False

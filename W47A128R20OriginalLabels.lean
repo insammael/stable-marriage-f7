@@ -84,7 +84,6 @@ theorem w47_a128_canonical_labels_of_single_g_no_t
   intro k
   exact (congrArg (labels C) (hcanonical k)).trans hpair
 
-#print axioms w47_a128_canonical_labels_of_single_g_no_t
 
 end General
 
@@ -175,7 +174,6 @@ theorem w47_a128_original_r20_L0_DL_of_single_g_no_t
     C h221 h311 hR20 houtside hGcard hTcard
     i j c hij hci hcj hlab
 
-#print axioms w47_a128_original_r20_L0_DL_of_single_g_no_t
 
 end Actual
 

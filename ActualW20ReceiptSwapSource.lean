@@ -36,5 +36,4 @@ theorem fixedTokenSwapTrace_receipt_swap_source
     · rw [tr.step e (tr.left e)]
       simpa [Equiv.swap_apply_def,hr,tr.distinct e]
 
-#print axioms fixedTokenSwapTrace_receipt_swap_source
 end F7Manuscript.PartnerGraph

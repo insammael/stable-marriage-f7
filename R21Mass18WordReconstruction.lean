@@ -65,5 +65,4 @@ theorem final_marks_reconstruct_word (word : Nat → Color)
       exact eq_comm.trans h
     exact third_color_unique _ _ _ _ hab hxb hyb (hwABA.trans hyABA.symm)
 
-#print axioms final_marks_reconstruct_word
 end F7Manuscript.R21LongWindow.Mass18Endpoint

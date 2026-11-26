@@ -242,10 +242,5 @@ theorem actual_two_D_rows_block_following_center
   rw [hcenterState] at hcenterFresh
   exact F7Paired.SaturatedWitness.two_D_rows_block_third W candidate hcandidate hcenterFresh
 
-#print axioms second_row_event_not_cross_pool
-#print axioms second_row_event_within_one_pool
-#print axioms second_paired_move_supports_are_within_pool
-#print axioms second_paired_move_state
-#print axioms actual_two_D_rows_block_following_center
 
 end F7Manuscript.ActualD2SecondRowActual

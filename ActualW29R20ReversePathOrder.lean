@@ -278,14 +278,5 @@ theorem actual_core_path_reverse_inversion_disjoint
 end
 end ActualOrderComparison
 
-#print axioms reverseDualPath_monotone
-#print axioms reverseDualPath_pathUnion
-#print axioms originalPathOrder
-#print axioms reverseDualPathOrder
-#print axioms actual_dual_enumeration_inversion_disjoint
-#print axioms actual_reverse_path_inversion_disjoint
-#print axioms projectCorePath_monotone
-#print axioms projectCorePath_span
-#print axioms actual_core_path_reverse_inversion_disjoint
 
 end F7Manuscript.TripleCoordinateLattice.ActualW29R20ReversePathOrder

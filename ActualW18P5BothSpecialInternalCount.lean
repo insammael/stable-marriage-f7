@@ -63,5 +63,4 @@ theorem p5_both_special_events_are_internal
       T.state k.castSucc (T.rightSite k) ∈ J)).card = (p5InternalBoth (T := T)).card
   rw [hset]
 
-#print axioms p5_both_special_events_are_internal
 end F7Manuscript.ActualW18P5BothSpecialInternalCount

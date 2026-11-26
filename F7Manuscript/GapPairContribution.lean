@@ -98,7 +98,5 @@ theorem gap_pair_contribution_le_four_of_retired_comparison
     unfold gapPairContribution
     omega
 
-#print axioms gap_pair_contribution_le_three
-#print axioms gap_pair_contribution_le_four_of_retired_comparison
 end
 end F7Manuscript.TripleCoordinateLattice

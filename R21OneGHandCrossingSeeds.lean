@@ -28,5 +28,4 @@ theorem crossed_A_new_seeds : ∀ (fixed : Fin 3) (a b c d : Fin 7),
   intro fixed
   fin_cases fixed <;> decide +kernel
 
-#print axioms crossed_A_new_seeds
 end F7Manuscript.TripleCoordinateLattice.R21OneGHandCrew

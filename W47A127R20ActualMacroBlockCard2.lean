@@ -48,7 +48,6 @@ theorem w47_a121_canonical_macro_block_card_two_of_no_t
     thresholdNewVertices_card]
   exact hlabels
 
-#print axioms w47_a121_canonical_macro_block_card_two_of_no_t
 
 end General
 
@@ -81,7 +80,6 @@ theorem w47_a121_actual_macro_block_card_two_of_single_g_no_t
   exact w47_a121_canonical_macro_block_card_two_of_no_t
     C (globalThresholdEnumeration C h221 h311) hTcard k
 
-#print axioms w47_a121_actual_macro_block_card_two_of_single_g_no_t
 
 end Actual
 

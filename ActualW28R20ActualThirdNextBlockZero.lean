@@ -475,6 +475,5 @@ theorem actual_singleton_switch_third_block_has_zero_level
   exact no_two_event_cover_of_saturated_survivors
     R' t.castSucc W hpast' htok' q1 hq1room hfinishQ1 hcoverSurvivors
 
-#print axioms actual_singleton_switch_third_block_has_zero_level
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW28R20ActualThirdNextBlockZero

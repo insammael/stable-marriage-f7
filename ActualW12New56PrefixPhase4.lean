@@ -136,6 +136,5 @@ theorem new56_force_bit8
       · have : False := by simpa [h6,h7] using! hl
         exact False.elim this
 
-#print axioms new56_force_bit8
 
 end F7Manuscript.ActualW12New56PrefixPhase4

@@ -1003,5 +1003,4 @@ theorem new2627_noReturn_impossible (c : Color) (hc : c = 0 ∨ c = 2)
                 exact terminal_c2_x1_l1_y1 bits hfirst h3 h4 h5 h6 (by simpa [h4] using! h7') (by simpa [h4] using! h8') N
 
 
-#print axioms new2627_noReturn_impossible
 end F7Manuscript.ActualW12New26New27ThreeCenterHandComplete

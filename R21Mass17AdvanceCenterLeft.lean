@@ -84,6 +84,5 @@ theorem DatedPlan.advanceCenterWithLeft
   have finalLeft := mapped.ofGeometry (geometry.symm.valid normalSeedFrame_valid) geometry
   exact ⟨reindexRun S2 e,newBound,dated,bin,finalLeft⟩
 
-#print axioms DatedPlan.advanceCenterWithLeft
 end
 end F7Manuscript.R21NormalEndpoint.ReseededObservation

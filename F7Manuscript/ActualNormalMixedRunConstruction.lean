@@ -787,9 +787,5 @@ theorem actual_normal_mixed_execution (hm : 2 ≤ normalBlockCount C) :
   obtain ⟨T⟩ := actual_normal_full_trace C h221 h311 hz hm
   exact T.mixedRun_of_actual_route T.actual_route
 
-#print axioms actual_paired_run_schedule
-#print axioms actual_normal_full_trace
-#print axioms RetainedActualNormalTrace.mixedRun_of_actual_route
-#print axioms actual_normal_mixed_execution
 end
 end F7Manuscript.TripleCoordinateLattice

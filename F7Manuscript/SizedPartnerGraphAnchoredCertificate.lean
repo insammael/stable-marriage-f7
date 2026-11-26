@@ -70,7 +70,5 @@ theorem checked_table_bound_of_anchors {n : ℕ} (T : Table n)
         omega
     · exact hbound future used env
 
-#print axioms nodeFutureBound_of_checked_table
-#print axioms checked_table_bound_of_anchors
 
 end F7Manuscript.PartnerGraph.Sized

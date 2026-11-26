@@ -168,6 +168,5 @@ theorem final_bit_equalities
       · rfl
   exact ⟨h9, h3eq⟩
 
-#print axioms final_bit_equalities
 
 end F7Manuscript.ActualW13New1213Freshness

@@ -66,12 +66,4 @@ theorem holding_token_six_sites {n : Nat}
   rw [h] at hp
   fin_cases x <;> simp [graphRel,p6G0,ofEdges] at hp ⊢
 
-#print axioms fresh_token_one_sites
-#print axioms holding_token_zero_sites
-#print axioms holding_token_one_sites
-#print axioms holding_token_two_sites
-#print axioms holding_token_three_sites
-#print axioms holding_token_four_sites
-#print axioms holding_token_five_sites
-#print axioms holding_token_six_sites
 end F7Manuscript.ActualW20P6HoldingColumns

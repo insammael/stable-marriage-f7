@@ -98,6 +98,5 @@ theorem allTriple_double_coordinate_cover (E : Enumeration (thresholdEvents C))
       exact hij hec
   exact allTriple_coordinate_cover C E hu n i j hxy hne
 
-#print axioms allTriple_double_coordinate_cover
 end
 end F7Manuscript.TripleCoordinateLattice

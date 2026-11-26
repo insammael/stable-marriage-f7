@@ -219,5 +219,3 @@ end
 
 end F7Manuscript.OriginalStateReceipt
 
-#print axioms F7Manuscript.OriginalStateReceipt.A197_original_actual_supports_false_of_old_order
-#print axioms F7Manuscript.OriginalStateReceipt.A197_original_actual_supports_false

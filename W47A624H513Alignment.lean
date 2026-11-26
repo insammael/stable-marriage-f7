@@ -209,11 +209,6 @@ theorem actual_zero_cost_cut13_same_original_dated
       (cutDate Q) e C hword
       hQ16 h20 hd halign hatomic hexcess
 
-#print axioms originalSpan16
-#print axioms frozen_event_support16
-#print axioms local_support16_to_same_original
-#print axioms selected_run_enumeration_support
-#print axioms actual_zero_cost_cut13_same_original_dated
 
 end
 

@@ -73,6 +73,5 @@ theorem projected_outsider_sign_alternative
     · simpa [P, hn] using! hb
     · simpa [P, hn] using! ha
 
-#print axioms projected_outsider_sign_alternative
 end
 end F7Manuscript.ActualW28R20ProjectedSignAlternative

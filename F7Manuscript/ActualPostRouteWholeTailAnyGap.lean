@@ -263,7 +263,6 @@ theorem actual_post_route_from_whole_tail_any_gap
       omega) hroute hsup
   simpa only [Rwhole, U, F, hshiftStart] using! hshift
 
-#print axioms actual_post_route_from_whole_tail_any_gap
 
 end
 end F7Manuscript.TripleCoordinateLattice

@@ -127,6 +127,5 @@ theorem actual_q1_typeV_whole_case_false
     R hq20 Spre Spost a b g0 g1 hmPre hmPost ha0 hqPre hsPre hqPost hsPost
     hmSum hne (Classical.choice hpacket)
 
-#print axioms actual_q1_typeV_whole_case_false
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW34QOneTypeVWholeCase

@@ -91,7 +91,6 @@ theorem move_last_center_past_pair {W : Type*} [Fintype W] {q : Nat}
               exact hp1
             · simpa only [h0, h1, h2] using! HrestOut
 
-#print axioms move_last_center_past_pair
 
 end
 end F7Manuscript.ActualW8MoveLastCenterPastPair

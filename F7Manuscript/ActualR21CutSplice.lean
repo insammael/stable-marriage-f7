@@ -268,12 +268,6 @@ theorem actual_T_prefix_post_state_splice
     rw [he] at h
     exact state_eq_of_windowPrefix_eq h
 
-#print axioms F7Manuscript.ConvexExecution.windowPrefix_whole_of_block
-#print axioms F7Manuscript.ConvexExecution.partner_history_at_second_cut
-#print axioms F7Manuscript.ConvexExecution.partner_history_overlap_is_boundary
-#print axioms actual_T_cut_before_sets
-#print axioms actual_T_cut_convex
-#print axioms actual_T_prefix_post_state_splice
 
 end
 end F7Manuscript.TripleCoordinateLattice

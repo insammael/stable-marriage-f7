@@ -28,6 +28,5 @@ theorem r19_count_le_85_of_nonzero_deficits
   rw [stableCount_eq_idealCount I]
   omega
 
-#print axioms r19_count_le_85_of_nonzero_deficits
 end
 end F7Manuscript

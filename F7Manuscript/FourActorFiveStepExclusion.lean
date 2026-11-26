@@ -98,8 +98,5 @@ theorem fiveStep_support_chronology_excluded {W : Type*} [Fintype W]
     exact ⟨hlen, hsupport⟩
   exact fiveStepWord_not_realized R m r rev hreal
 
-#print axioms fiveStepWord_has_return
-#print axioms fiveStepWord_not_realized
-#print axioms fiveStep_support_chronology_excluded
 
 end F7Manuscript.FourActorFiveStepExclusion

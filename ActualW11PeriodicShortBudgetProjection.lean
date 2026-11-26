@@ -21,6 +21,5 @@ theorem rootFor_budget (k : ℕ) (hk : 7 ≤ k ∧ k ≤ 10) (b : Bool) :
   obtain ⟨hklo, hkhi⟩ := hk
   interval_cases k <;> cases b <;> decide +kernel
 
-#print axioms rootFor_budget
 
 end F7Manuscript.ActualW11PeriodicShortBudgetProjection

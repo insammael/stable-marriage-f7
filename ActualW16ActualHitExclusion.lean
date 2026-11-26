@@ -176,7 +176,5 @@ theorem actual_hit_refuted
     rw [hnone] at hr
     cases hr
 
-#print axioms shiftedFilterMembership
-#print axioms actual_hit_refuted
 
 end F7Manuscript.ActualW16ActualHitExclusion

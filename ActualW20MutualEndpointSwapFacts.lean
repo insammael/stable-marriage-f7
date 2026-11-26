@@ -22,6 +22,5 @@ theorem fixedTokenSwapTrace_endpoint_swap {F : Rel} {n : ℕ}
   · rw [T.step k (T.rightSite k)]
     simp [Equiv.swap_apply_def, T.distinct k]
 
-#print axioms fixedTokenSwapTrace_endpoint_swap
 
 end F7Manuscript.ActualW20MutualEndpointSwapFacts

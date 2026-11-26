@@ -51,5 +51,4 @@ theorem fresh_of_realizes {W : Type*} [Fintype W] {q : ℕ}
   intro event
   exact freshAt_of_realizes R word h event.val event.isLt
 
-#print axioms fresh_of_realizes
 end F7Manuscript.HistoryFreshWord

@@ -91,9 +91,6 @@ theorem label_coordinate_not_le {h k : ThresholdEvent C}
   apply (threshold_le_iff C v _).mpr
   exact (threshold_exact C v).symm.le.trans (by simpa only [hv] using! hik)
 
-#print axioms predecessor_lt
-#print axioms label_iff_predecessor_coordinate_lt
-#print axioms label_coordinate_not_le
 
 end
 end F7Manuscript.TripleCoordinateLattice

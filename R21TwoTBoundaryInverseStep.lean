@@ -92,7 +92,5 @@ theorem inverse_first_paired_supports
  · exact Or.inl ⟨hi.1.symm.trans hx.1,hi.2.symm.trans hx.2⟩
  · exact Or.inr ⟨hi.1.symm.trans hx.1,hi.2.symm.trans hx.2⟩
 
-#print axioms actual_inverse_center_step
-#print axioms inverse_first_paired_supports
 end
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

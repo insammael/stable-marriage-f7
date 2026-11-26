@@ -28,7 +28,6 @@ theorem receipt_contradiction (t : F7Paired.Matching) (plan : List Move)
     (he : atPrefix t plan bits (i+1) a = atPrefix t plan bits j a) : False :=
   (H.fresh i hi a ha j hj) he
 
-#print axioms receipt_contradiction
 end F7Manuscript.OneTFourLocal
 
 namespace F7Manuscript.OneTFourTailReverse

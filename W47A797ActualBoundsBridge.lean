@@ -85,8 +85,6 @@ theorem bounds_with_decisions
 
 end ActualBoundsBridge
 
-#print axioms actual_subset_normal_chart_bounds
-#print axioms ActualBoundsBridge.bounds_with_decisions
 
 end
 

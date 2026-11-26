@@ -1,5 +1,6 @@
 module
 
+public import Mathlib
 public import F7Manuscript.NormalQ0GraphData
 public import F7Manuscript.NormalQ0GraphValid00
 public import F7Manuscript.NormalQ0GraphValid01

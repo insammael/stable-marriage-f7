@@ -118,7 +118,6 @@ theorem actual_X_p310_root13_forward_carrier
   obtain ⟨carrier⟩ := hcarrier
   exact ⟨P, N, carrier, hplanprefix⟩
 
-#print axioms actual_X_p310_root13_forward_carrier
 
 end
 end F7Manuscript.ActualW15P310Root13ForwardThreshold

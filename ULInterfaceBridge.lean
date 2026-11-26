@@ -112,11 +112,5 @@ theorem outsider_roots_comparable {A B : Set V} {ai bj x : V}
   · exact lt_of_le_not_ge h hnot
   · exact (hnot h).elim
 
-#print axioms cross_inc_one_fiber
-#print axioms missing_pair_lifts_to_roots
-#print axioms no_two_missing_roots_in_column
-#print axioms outsider_inc_chain
-#print axioms cross_missing_touches_outsider
-#print axioms outsider_roots_comparable
 
 end ConditionalUL

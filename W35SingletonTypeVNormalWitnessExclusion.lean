@@ -60,7 +60,5 @@ theorem singleton_typeV_actual_normal_witness_false
     R S T a.perm b g0 g1 packet.bits hmS hmT ha hbudget hne
     packet.h0 packet.h1 packet.h2 packet.h3 hq H
 
-#print axioms typeV_gap_colors_distinct
-#print axioms singleton_typeV_actual_normal_witness_false
 end
 end F7Manuscript.TripleCoordinateLattice.W35SingletonTypeVNormalWitnessExclusion

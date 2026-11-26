@@ -26,6 +26,5 @@ theorem actual_group_interval_fee_floor {length : Nat} (C : Chart)
  exact group_interval_fee_floor_of_full_word C (canonicalFrame 0) canonical_seed_valid
   A.colorPerm (prependBit false A.bits) R pre post hR start n positive bound
 
-#print axioms actual_group_interval_fee_floor
 end
 end F7Manuscript.R21PhysicalWindowWords

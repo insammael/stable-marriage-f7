@@ -193,6 +193,5 @@ theorem periodicRun_of_fresh_word (bits : ℕ → Bool) (m : ℕ)
     · simpa [p, hnext₁, hprior₁] using! HJ1
     · simpa [p, hnext₂, hprior₂] using! HJ2
 
-#print axioms periodicRun_of_fresh_word
 
 end F7Manuscript.ActualW10PeriodicFreshWordRun

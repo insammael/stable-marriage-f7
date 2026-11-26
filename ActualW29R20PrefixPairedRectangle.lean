@@ -173,6 +173,5 @@ def actualPrefixPairedRectangle
     leftCover := hlift 0 0
     rightCover := hlift 1 0 }
 
-#print axioms actualPrefixPairedRectangle
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW29R20PrefixPairedRectangle

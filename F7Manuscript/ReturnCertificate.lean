@@ -120,8 +120,5 @@ theorem valid_excludes_actual (L : ReturnLeaf) (hL : Valid L)
     (I : Profile 7) (R : ActualTrajectory.Run I q) :
     ¬ Realizes R.toTokenRun L.word := valid_excludes L hL R.toTokenRun
 
-#print axioms state_eq_origins
-#print axioms valid_excludes
-#print axioms valid_excludes_actual
 
 end F7Manuscript.ReturnCertificate

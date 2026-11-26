@@ -99,7 +99,5 @@ theorem pure_five_bounded_prefix_impossible_of_word_prefix
  exact pure_five_bounded_prefix_impossible A root next b whole tail X hv hvNext hidle hX
    (by simpa only [List.append_assoc] using! hsplit) hprefix hfive
 
-#print axioms pure_five_bounded_prefix_impossible_of_word_prefix
-#print axioms pure_five_bounded_prefix_impossible
 end
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

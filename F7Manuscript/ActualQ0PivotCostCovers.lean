@@ -1557,7 +1557,6 @@ theorem q0_m13_pivot_cost_cover (turns : Nat → Bool) (cuts : F7Local.Q0Cuts tu
           simp [F7Local.prefixCost, h1, h2, h3] at hcost' <;> omega
         exact False.elim hfalse
 
-#print axioms q0_m13_pivot_cost_cover
 
 theorem q0_m11_pivot_cost_cover (turns : Nat → Bool) (cuts : F7Local.Q0Cuts turns 11)
     (hcost : F7Local.prefixCost turns 9 ≤ 1) :
@@ -1866,7 +1865,6 @@ theorem q0_m11_pivot_cost_cover (turns : Nat → Bool) (cuts : F7Local.Q0Cuts tu
         simp [F7Local.prefixCost, h1, h2] at hcost' <;> omega
       exact False.elim hfalse
 
-#print axioms q0_m11_pivot_cost_cover
 
 theorem q0_m12_pivot_cost_cover (turns : Nat → Bool) (cuts : F7Local.Q0Cuts turns 12)
     (hcost : F7Local.prefixCost turns 10 ≤ 1) :
@@ -2248,6 +2246,5 @@ theorem q0_m12_pivot_cost_cover (turns : Nat → Bool) (cuts : F7Local.Q0Cuts tu
         simp [F7Local.prefixCost, h1, h2] at hcost' <;> omega
       exact False.elim hfalse
 
-#print axioms q0_m12_pivot_cost_cover
 
 end F7Manuscript.ActualQ0PivotCostCovers

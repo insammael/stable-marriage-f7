@@ -54,6 +54,5 @@ theorem actual_one_D1_two_pair_cross_center_false
       obtain ⟨u, hu, hs⟩ := hpast' person w hw
       exact ⟨u, hu, hs⟩)
 
-#print axioms actual_one_D1_two_pair_cross_center_false
 
 end F7Manuscript.ActualD2OneD1ActualCrossObstruction

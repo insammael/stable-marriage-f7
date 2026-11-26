@@ -133,8 +133,3 @@ end Restriction
 end
 end F7Manuscript.TripleCoordinateLattice
 
-#print axioms F7Manuscript.TripleCoordinateLattice.mem_isolatedDouble_dual
-#print axioms F7Manuscript.TripleCoordinateLattice.mem_isolatedDouble_comap
-#print axioms F7Manuscript.TripleCoordinateLattice.reversedPreimage_card
-#print axioms F7Manuscript.TripleCoordinateLattice.subsetPartition_reversed
-#print axioms F7Manuscript.TripleCoordinateLattice.normalBlockCount_subset_reversed

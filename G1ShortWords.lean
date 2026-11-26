@@ -136,14 +136,5 @@ def fresh13B : Rel := fresh13 false
 def fresh14A : Rel := fresh14 true
 def fresh14B : Rel := fresh14 false
 
-#print axioms swapSite_symm
-#print axioms word13_pairAt_first
-#print axioms word14_pairAt_first
-#print axioms word13_pairAt_center
-#print axioms word14_pairAt_center
-#print axioms word13_support_first
-#print axioms word14_support_first
-#print axioms word13_support_center
-#print axioms word14_support_center
 
 end F7Manuscript.G1ShortWords

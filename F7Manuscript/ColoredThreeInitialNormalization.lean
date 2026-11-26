@@ -81,8 +81,5 @@ def RawColoredCut.normalizeFirstThree (R : TokenRun Site W q) (C : RawColoredCut
     simpa only [Finset.map_insert, Finset.map_singleton] using!
       congrArg (fun p : Site × Site => ({p.1, p.2} : Finset Site)) hp
 
-#print axioms normalized_three_state
-#print axioms normalized_three_center_pair
-#print axioms RawColoredCut.normalizeFirstThree
 
 end F7Manuscript.PartnerGraph.Periodic

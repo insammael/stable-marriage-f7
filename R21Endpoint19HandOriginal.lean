@@ -89,6 +89,5 @@ theorem original_two_outsider_core_contradiction (physical : PhysicalMass16Lower
     exact physical (tripleVertices C).card S A R off bound cardCore align binary
   omega
 
-#print axioms original_two_outsider_core_contradiction
 end
 end F7Manuscript.R21Endpoint19Hand

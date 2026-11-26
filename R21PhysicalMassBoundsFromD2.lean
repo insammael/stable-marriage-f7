@@ -50,8 +50,5 @@ theorem original_two_outsiders_of_D2
  ActualPositiveDeficitCoverAssembly.R21LeafObligation I 2 0 0 :=
  original_two_outsiders_of_overlap_ledgers (physical_mass16_overlap_ledgers_of_D2 exclude) I
 
-#print axioms actual_mass15_cost_six_of_D2
-#print axioms actual_mass16_cost_seven_of_D2
-#print axioms original_two_outsiders_of_D2
 end
 end F7Manuscript.R21PhysicalWindowWords

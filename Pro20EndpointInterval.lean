@@ -33,4 +33,3 @@ theorem between_of_endpoint_choices
 
 end F7Manuscript.Pro20
 
-#print axioms F7Manuscript.Pro20.between_of_endpoint_choices

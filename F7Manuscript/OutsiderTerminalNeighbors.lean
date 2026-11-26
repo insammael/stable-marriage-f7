@@ -125,8 +125,5 @@ theorem after_two_neighbors_lower (h311 : NoInduced311 (V := V))
   change (incNeighbors (tripleVertices C) y).card ≤ 2 at hybound
   omega
 
-#print axioms after_two_neighbors_eq_terminalExclusive
-#print axioms after_two_neighbors_chain
-#print axioms after_two_neighbors_lower
 end
 end F7Manuscript.TripleCoordinateLattice

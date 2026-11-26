@@ -70,8 +70,5 @@ theorem canonical_low_score_split
   exact low_score_mass_split _ _ _ _ (by unfold mass; omega)
     (canonical_cut_fee C hn h221 h311 0) (canonical_cut_fee C hn h221 h311 (Fin.last M)) low
 
-#print axioms low_score_mass_split
-#print axioms canonical_cut_fee
-#print axioms canonical_low_score_split
 end
 end F7Manuscript.TripleCoordinateLattice.R21OneGHandScore

@@ -22,6 +22,5 @@ theorem rootFor_valid (k : ℕ) (hk : 7 ≤ k ∧ k ≤ 10) (b : Bool) :
     simp [rootFor, root7A_valid, root7B_valid, root8A_valid, root8B_valid,
       root9A_valid, root9B_valid, root10A_valid, root10B_valid]
 
-#print axioms rootFor_valid
 
 end F7Manuscript.ActualW11PeriodicShortRootLinks

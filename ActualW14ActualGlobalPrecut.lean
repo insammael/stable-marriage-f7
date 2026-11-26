@@ -104,7 +104,6 @@ theorem actual_X_mem_globalPrecutCatalogue
   refine ⟨witness, hglobal, rfl, rfl, rfl, ?_, rfl, rfl, rfl⟩
   exact hcap.symm
 
-#print axioms actual_X_mem_globalPrecutCatalogue
 
 end
 end W14ActualGlobalPrecut

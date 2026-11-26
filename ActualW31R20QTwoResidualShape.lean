@@ -120,7 +120,6 @@ theorem q2_firstD_residual_shape {S : Chart}
     omega
   exact ⟨hjzero, hjtwo, hother, hexaba⟩
 
-#print axioms q2_firstD_residual_shape
 
 end
 end F7Manuscript.ActualW31R20QTwoResidualShape

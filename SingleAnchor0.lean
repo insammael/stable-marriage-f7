@@ -97,6 +97,5 @@ theorem anchored_zero_cost_six_impossible (t : Matching) (bits : Nat → Bool)
             simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
           exact (h.fresh 10 (by decide) 2 hp 0 (by decide)) hEq
 
-#print axioms anchored_zero_cost_six_impossible
 
 end F7Local

@@ -45,6 +45,4 @@ theorem p6_pure_budget10_reindexed_of_abb_exclusion
   intro n h
   exact p6_budget_0_to_1 (p6_pure_budget10_of_abb_exclusion hABBClose) h
 
-#print axioms p6_pure_budget10_of_abb_exclusion
-#print axioms p6_pure_budget10_reindexed_of_abb_exclusion
 end F7Manuscript.ActualW20P6PureBudget10Fix

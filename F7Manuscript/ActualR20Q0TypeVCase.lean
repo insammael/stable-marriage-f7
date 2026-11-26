@@ -177,6 +177,5 @@ theorem actual_r20_q0_typeV_short_left_case_impossible
   exact actual_q0_typeV_saved_impossible (reindexRun R e) g hg
     (a fixed) (recoloredTypeVRow a fixed r) phase bits hnormG hadmG Hraw
 
-#print axioms actual_r20_q0_typeV_short_left_case_impossible
 end
 end F7Manuscript.TripleCoordinateLattice

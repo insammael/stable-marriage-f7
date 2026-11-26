@@ -58,8 +58,6 @@ theorem supportsRoute_drop_with_memory {W : Type*} [Fintype W] {q : Nat}
   have hmemory := mixed_prefix_frontier_memory (count := count) H M
   exact ⟨hmemory.within, hroute, hmemory⟩
 
-#print axioms supportsRoute_drop
-#print axioms supportsRoute_drop_with_memory
 
 end
 end F7Manuscript.ActualW8MixedRouteDrop

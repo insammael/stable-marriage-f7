@@ -56,8 +56,6 @@ theorem nineteen_chart_pair_positive {r : Nat} {a : Int}
   have bound := periodic_length_le_fifteen (H.toPeriodic hf h0 h1 h2)
   omega
 
-#print axioms no_ABA_of_count_zero
-#print axioms nineteen_chart_pair_positive
 end F7Periodic
 
 namespace NeutralCore
@@ -98,7 +96,4 @@ theorem r19_human_ideal_count_le_85 (hClass : PairClass (V:=V)) (hn : Fintype.ca
   rw [IdealCounting.ideal_count_width_three hClass.1]
   exact r19_human_count_le_85 hClass hn hDelta hChart
 
-#print axioms r19_human_total_deficit_ge_one
-#print axioms r19_human_count_le_85
-#print axioms r19_human_ideal_count_le_85
 end NeutralCore

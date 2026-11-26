@@ -175,6 +175,5 @@ theorem actual_cover_has_shared_actor
   have h := actual_cover_support_not_disjoint hn hρσ
   simpa only [Finset.disjoint_left,not_forall,not_not,exists_prop] using! h
 
-#print axioms actual_cover_has_shared_actor
 end
 end F7Manuscript.SaturatedCoverSegments

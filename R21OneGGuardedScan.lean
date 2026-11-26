@@ -150,6 +150,4 @@ theorem no_low_guarded_G_endpoints (checked : checkGuardedG = true)
   simp [present] at absent
 
 
-#print axioms G_prefix_guards_of_overlap
-#print axioms scan_G_half_with_guard
 end F7Manuscript.R21OneGMachine

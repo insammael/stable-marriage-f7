@@ -22,4 +22,3 @@ theorem fin7_equiv_of_nodup
   refine ⟨Equiv.ofBijective f ⟨hf, hs⟩, ?_⟩
   exact ⟨rfl, rfl, rfl, rfl, rfl, rfl, rfl⟩
 
-#print axioms fin7_equiv_of_nodup

@@ -29,6 +29,5 @@ theorem new1213_full_word_packet
   exact ⟨hlast.2, hcontrol.1, hcontrol.2.1, hcontrol.2.2.1,
     hcontrol.2.2.2, hlast.1, hword⟩
 
-#print axioms new1213_full_word_packet
 
 end F7Manuscript.ActualW13New1213FullPacket

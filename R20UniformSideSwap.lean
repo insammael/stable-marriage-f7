@@ -133,10 +133,5 @@ theorem swapPartition_above_of_below [Nonempty (Triple C)] (x : Event I)
     rw [OrderIso.apply_symm_apply]
     exact hj
 
-#print axioms swapPartition_core_mem
-#print axioms swapPartition_singleton
-#print axioms swapPartition_corePairDeficit
-#print axioms swapPartition_core_neighbors
-#print axioms swapPartition_above_of_below
 end
 end F7Manuscript.ActualPositiveDeficitCoverAssembly

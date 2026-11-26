@@ -103,8 +103,4 @@ theorem p5_four_from_one_into_five_displaces_initial_five {n : Nat}
     exact False.elim ((by decide : (1 : Site) ≠ 5) hbad)
   · exact h5
 
-#print axioms p5_swap_two_four_uses_initial_two_and_token_five
-#print axioms p5_swap_two_five_uses_both_initial_tokens
-#print axioms p5_five_from_one_into_four_displaces_initial_four
-#print axioms p5_four_from_one_into_five_displaces_initial_five
 end F7Manuscript.ActualW20P5OriginSwapGates

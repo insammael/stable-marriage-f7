@@ -48,7 +48,5 @@ theorem pairedOppState_bound (mirror : Bool) (f : SupportFrame) : seenBound (pai
  change seenBound (wordSnapshot (pairedOppWord mirror))
  cases mirror <;> unfold seenBound <;> decide +kernel
 
-#print axioms firstPaired_root_snapshot
-#print axioms snapshots_words_compatible
 end
 end F7Manuscript.R21SingleTHand

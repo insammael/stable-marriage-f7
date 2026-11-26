@@ -54,6 +54,5 @@ theorem actual_G_joint_charge_ge_three_times_group
   rw [hblock]
   exact G_group_arithmetic _ _ _ _ _ hincs heps hcore
 
-#print axioms actual_G_joint_charge_ge_three_times_group
 end
 end F7Manuscript.TripleCoordinateLattice

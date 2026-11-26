@@ -101,6 +101,5 @@ theorem actual_low_cost_switch_locations_sharp
       C h221 h311 hG hT hQ19 hx hout a p j r hb ha e hq3 hcost
     exact Or.inr (Or.inr ⟨hq3, hm10, hs0, he0, hlast⟩)
 
-#print axioms actual_low_cost_switch_locations_sharp
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW28R20ActualLowCostLocationsSharp

@@ -395,7 +395,6 @@ theorem actual_r20_one_G_whole_profile_enumeration
   exact ⟨tail,hfutureEq,htail,Dtail,hpts,hcard,Dfuture,hfuturePts,
     hPG,HPG,hptsPG,H,hUF,hptsWhole,hprefix⟩
 
-#print axioms actual_r20_one_G_whole_profile_enumeration
 
 end
 end F7Manuscript.TripleCoordinateLattice

@@ -201,6 +201,5 @@ theorem bit6_forced (c : Bool) (bits : Nat → Bool)
   · exact False.elim (bad_b6_U c bits N h0 h1 h2 h3 h4 hx h6)
   · exact False.elim (bad_b6_V c bits N h0 h1 h2 h3 h4 hx h6)
   · rfl
-#print axioms bit6_forced
 
 end F7Manuscript.ActualW13New1520SelectorB6

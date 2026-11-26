@@ -134,11 +134,5 @@ theorem paid_extra_flag_decomposition {k : Nat} (d : Nat → Nat)
     P.card = (extra ∪ flagged).card := congrArg Finset.card hrep
     _ = extra.card + flagged.card := Finset.card_union_of_disjoint hdisjoint
 
-#print axioms dlist_recurrence_complete
-#print axioms dlist_recurrence_sound
-#print axioms dInterior
-#print axioms dPaid
-#print axioms dFree
-#print axioms paid_extra_flag_decomposition
 
 end F7Manuscript.W7ActualDListRecurrenceAndFlags

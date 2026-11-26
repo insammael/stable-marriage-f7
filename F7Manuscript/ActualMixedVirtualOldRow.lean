@@ -49,6 +49,5 @@ theorem frontierMemory_initialFrontierPast
     have hstate := M.state_eq c (e.symm a) hx
     simpa [reindex_state] using! hstate
 
-#print axioms frontierMemory_initialFrontierPast
 
 end F7Manuscript.PartnerGraph.Sized

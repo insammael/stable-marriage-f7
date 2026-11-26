@@ -51,7 +51,5 @@ theorem mixedPlan_lastSplit (word : ℕ → Color) (levels : ℕ → ℕ)
   rw [hsplit, hidx, hsub]
   simp only [List.append_assoc]
 
-#print axioms mixedPlanFrom_lastSplit
-#print axioms mixedPlan_lastSplit
 
 end F7Manuscript.TripleCoordinateLattice.W36MixedPlanLastSplit

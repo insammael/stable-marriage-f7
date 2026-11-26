@@ -428,6 +428,5 @@ theorem actual_singleton_switch_fourth_center_returns_second
     hfourthLiteral
   exact False.elim hforbidden
 
-#print axioms actual_singleton_switch_fourth_center_returns_second
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW29R20ActualFourthReturn

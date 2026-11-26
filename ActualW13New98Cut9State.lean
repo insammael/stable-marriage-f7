@@ -32,6 +32,5 @@ theorem new98_cut9_state (bits : Nat → Bool)
       centerPair,leftCoord,rightCoord,select,other,put,Fin.ofNat,F7Paired.tokenSwap,
       h0,h3,hx,hy]
 
-#print axioms new98_cut9_state
 
 end F7Manuscript.ActualW13New98Cut9State

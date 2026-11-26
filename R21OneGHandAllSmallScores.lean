@@ -99,8 +99,5 @@ theorem count_of_physical_long_bounds
   rw [rev.1,rev.2.1,rev.2.2]
   unfold score at good
   omega
-#print axioms canonical_right_five_eleven_score
-#print axioms canonical_score_of_physical_long_bounds
-#print axioms count_of_physical_long_bounds
 end
 end F7Manuscript.TripleCoordinateLattice.R21OneGHandScore

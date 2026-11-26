@@ -43,4 +43,3 @@ theorem r20_one_outsider_leaf_of_core_deficit
 end
 end F7Manuscript.ActualPositiveDeficitCoverAssembly
 
-#print axioms F7Manuscript.ActualPositiveDeficitCoverAssembly.r20_one_outsider_leaf_of_core_deficit

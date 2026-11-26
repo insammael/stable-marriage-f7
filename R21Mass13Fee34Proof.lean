@@ -45,6 +45,5 @@ theorem excludes_original (cert : Closed 12 initial) (c : Nat) (lower : 3 ≤ c)
   have endCheck := cert trace (fee.symm ▸ lower) (fee.symm ▸ upper)
   exact all_exteriors_exclude_original R bound obs binary (positions_sound 5 s endCheck)
 
-#print axioms excludes_original
 
 end F7Manuscript.R21NormalEndpoint.Mass13Fee34

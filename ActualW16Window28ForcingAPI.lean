@@ -23,6 +23,5 @@ theorem noReturn_identity_source14_four_words (bits : Nat → Bool)
     sourcePrefix window28Plan bits 14 = W28B1FixedWord := by
   exact ActualW16Window28Returns.noReturn_source14_four_words bits h0 h1 N
 
-#print axioms noReturn_identity_source14_four_words
 
 end F7Manuscript.ActualW16Window28ForcingAPI

@@ -125,6 +125,4 @@ theorem five_pool_all_visits {W : Type*} [Fintype W] {q : ℕ}
   exact ⟨ComponentFourPoolActualHistory.component_four_pool_covers R K hc hcomponent parts,
     ComponentFourPoolActualHistory.component_four_pool_boundary_covers R K hc hcomponent parts⟩
 
-#print axioms middle_support_covers
-#print axioms five_pool_all_visits
 end F7Manuscript.R20FivePoolCycle

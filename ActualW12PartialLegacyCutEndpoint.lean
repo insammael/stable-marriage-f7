@@ -208,6 +208,5 @@ theorem actual_partial_cut_requirement_endpoint
   · simp [partialOrientedCutRequirement, W, D, holdFalse, hq0ReturnFalse]
   · exact max_le hq0fold hperiodicfold
 
-#print axioms actual_partial_cut_requirement_endpoint
 end
 end F7Manuscript.ActualW12PartialLegacyCutEndpoint

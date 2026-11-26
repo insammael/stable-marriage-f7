@@ -94,6 +94,5 @@ theorem actual_canonical_successor_center_event
   apply Fin.ext
   exact htime.symm
 
-#print axioms actual_canonical_successor_center_event
 end
 end F7Manuscript.ActualW28R20CanonicalSuccessorEvent

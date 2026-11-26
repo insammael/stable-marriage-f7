@@ -213,5 +213,4 @@ theorem five_point_ordered_pair_bound (P : Finset V) (hP : P.card=5)
   rw [hP] at h
   omega
 
-#print axioms five_point_ordered_pair_bound
 end NeutralCore

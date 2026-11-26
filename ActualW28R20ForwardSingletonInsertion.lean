@@ -210,12 +210,5 @@ theorem forwardInsertedRun20_support_after
   simp [g, insertedListing, insertAt, show ¬ i.val < k.val by omega,
     show ¬ i.val = k.val by omega]
 
-#print axioms insertAt_order_reflecting
-#print axioms insertAt_injective
-#print axioms insertAt_image
-#print axioms forwardInsertedRun20
-#print axioms forwardInsertedRun20_support_before
-#print axioms forwardInsertedRun20_support_at
-#print axioms forwardInsertedRun20_support_after
 end
 end F7Manuscript.ActualW28R20ForwardSingletonInsertion

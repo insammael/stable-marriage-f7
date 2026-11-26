@@ -65,6 +65,5 @@ theorem one_T_orientation_wlog (P : ℕ → ℕ → Prop)
   rw [stableCount_swap] at hswap
   exact hswap
 
-#print axioms one_T_orientation_wlog
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW35OneTOrientation

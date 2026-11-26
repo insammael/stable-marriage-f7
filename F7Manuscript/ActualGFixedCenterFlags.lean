@@ -68,7 +68,5 @@ theorem actualFollowingFixedCenterFlag_true_iff
       (actualGlobalNormalRunSkeleton A hn h221 h311 i).center ⟨0, by omega⟩ = fixed := by
   simp [actualFollowingFixedCenterFlag, hm]
 
-#print axioms actualPrecedingFixedCenterFlag_true_iff
-#print axioms actualFollowingFixedCenterFlag_true_iff
 end
 end F7Manuscript.TripleCoordinateLattice

@@ -151,8 +151,5 @@ theorem actual_fixed_slot_two_idle_comparisons {N : ℕ}
     (fixed_outsider_slot_incomparable C p n fixed hfixed hy) e H heA hH
   exact ⟨x,y,hxy,hslot,hcomparisons⟩
 
-#print axioms actual_double_G_idle_comparisons
-#print axioms actual_double_G_fixed_neighbor_comparisons
-#print axioms actual_fixed_slot_two_idle_comparisons
 end
 end F7Manuscript.TripleCoordinateLattice

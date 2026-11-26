@@ -177,5 +177,4 @@ theorem p5_actual_CII_opposite_geometry
       · exact False.elim (hAC (hA.trans h.symm))
   exact ⟨hAvoid.1,hAvoid.2,hC3,hDA⟩
 
-#print axioms p5_actual_CII_opposite_geometry
 end F7Manuscript.ActualW20P5CIIActualGeometryFix

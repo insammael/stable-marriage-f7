@@ -98,8 +98,5 @@ def dualRun (R : TokenRun A B n) : TokenRun B A n where
   · intro h
     rw [← h,Equiv.symm_apply_apply]
 
-#print axioms renameRun
-#print axioms dualRun
-#print axioms dualRun_cell
 end
 end F7Manuscript.R21NormalEndpoint.BoundaryCover

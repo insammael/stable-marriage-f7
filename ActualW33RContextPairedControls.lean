@@ -91,10 +91,5 @@ theorem labelSideOrder_first_second (label : Bool) :
     labelSideOrder label (if label then (0 : Side) else 1) = 1 := by
   cases label <;> simp [labelSideOrder]
 
-#print axioms sideOrder
-#print axioms controls_length
-#print axioms sideOrder_step_last
-#print axioms sideOrder_step_tail
-#print axioms labelSideOrder_first_second
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW33RContextPairedControls

@@ -61,5 +61,4 @@ theorem bb_token5_exit_three_sends_zero
   refine ⟨e,f,r,u,hends24,hpre4,hpre2,hpost4,hpost2,hcell5,her,hru,hcell6,hrf,hfu,hends13,hpre3,hpre1,hpost1,?_⟩
   simpa [hpre1] using! hpost3
 
-#print axioms bb_token5_exit_three_sends_zero
 end F7Manuscript.ActualW20P6BBTokenFiveExitSourceZero

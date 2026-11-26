@@ -135,6 +135,5 @@ theorem r21_literal_post_route_on_new_row
     C E R.left R.right R.ordered hQ hp.2.2.1 hp.2.1 hz a f hTriple hv hmatch
     (by change 2 ≤ S.m; omega)
 
-#print axioms r21_literal_post_route_on_new_row
 end
 end F7Manuscript.TripleCoordinateLattice

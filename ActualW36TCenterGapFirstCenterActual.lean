@@ -83,6 +83,5 @@ theorem actual_center_gap_first_center_geometry
   exact ⟨d,c,e,k,label,bit,hnew,hmove₀,hmove₁,hpost₀,hpost₁,hfixed,
     hcenter,hidele,hLast⟩
 
-#print axioms actual_center_gap_first_center_geometry
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW36TCenterGapFirstCenterActual

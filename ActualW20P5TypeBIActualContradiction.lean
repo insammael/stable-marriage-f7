@@ -162,6 +162,5 @@ theorem p5_typeB_I_actual_impossible
     · omega
   · omega
 
-#print axioms p5_typeB_I_actual_impossible
 
 end F7Manuscript.ActualW20P5TypeBIActualContradiction

@@ -47,7 +47,5 @@ theorem dlist_mem_dsWords {k q : Nat} {ds : List Nat}
         apply List.mem_flatMap.mpr
         exact ⟨d, hdmem, List.mem_map.mpr ⟨tail, ih htail, rfl⟩⟩
 
-#print axioms dsWords
-#print axioms dlist_mem_dsWords
 
 end F7Manuscript.W7ActualDListWords

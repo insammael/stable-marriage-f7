@@ -59,7 +59,5 @@ def new102SavedWord (x y t h : Bool) : List Swap := new102WordOf x y t h
 theorem new102SavedWord_length (x y t h : Bool) : (new102SavedWord x y t h).length = 14 := by
   cases x <;> cases y <;> cases t <;> cases h <;> decide +kernel
 
-#print axioms new102SavedWord
-#print axioms new102SavedWord_length
 
 end F7Manuscript.ActualW13New102Q2Local31WordCore

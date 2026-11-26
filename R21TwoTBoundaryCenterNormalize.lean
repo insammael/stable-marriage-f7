@@ -66,7 +66,5 @@ theorem undo_center_chain_truncated_prefix
  have hp:=hword.prefix R pre rest (by simpa only [List.append_assoc] using! hR) depth (by omega)
  exact ⟨w++rest,by simpa only [List.append_assoc] using! hR,hp⟩
 
-#print axioms undo_center_chain_truncated_prefix
-#print axioms undo_center_chain_normalize
 end
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

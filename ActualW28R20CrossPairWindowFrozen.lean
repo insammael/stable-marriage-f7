@@ -190,6 +190,5 @@ theorem cross_pair_window_frozen
       simp [e, Equiv.swap_apply_def]
     exact hfreeze i hi hmapped
 
-#print axioms cross_pair_window_frozen
 end
 end F7Manuscript.ActualW28R20CrossPairWindowFrozen

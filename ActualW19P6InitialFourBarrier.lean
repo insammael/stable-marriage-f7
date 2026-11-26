@@ -34,6 +34,5 @@ theorem initial_four_cannot_swap_with_zero
   generalize hj : tr.state k.castSucc 0 = j at harr hhold
   fin_cases j <;> simp [graphRel,p6G0,ofEdges] at harr hhold
 
-#print axioms initial_four_cannot_swap_with_zero
 
 end F7Manuscript.ActualW19P6InitialFourBarrier

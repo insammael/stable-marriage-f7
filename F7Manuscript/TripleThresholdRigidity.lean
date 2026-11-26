@@ -120,9 +120,6 @@ theorem not_three_incomparable (h221 : NoInduced221 (V := V))
   have h3 := incomparable_label_sizes C h221 hkl
   omega
 
-#print axioms no_incomparable_singleton_labels
-#print axioms incomparable_label_sizes
-#print axioms not_three_incomparable
 
 end
 end F7Manuscript.TripleCoordinateLattice

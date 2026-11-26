@@ -54,8 +54,5 @@ theorem original_left_cut_no_five :
     (S (firstMacro C h221 h311 hG hT).succ) (S (Fin.last M)) at hist
   exact R21TwoTBoundaryFinite.left_pure_five_impossible _ _ _ hist hpure
 
-#print axioms original_left_cut_no_five
-#print axioms original_three_boundary_history
-#print axioms original_two_T_no5_of_board_cover
 end
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundary

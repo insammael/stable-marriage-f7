@@ -65,6 +65,5 @@ theorem actual_G_core_introduction_after_correction_ge_one
   rw [hblock]
   exact G_credit_arithmetic _ _ _ _ hjoint hbase
 
-#print axioms actual_G_core_introduction_after_correction_ge_one
 end
 end F7Manuscript.TripleCoordinateLattice

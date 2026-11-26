@@ -74,10 +74,6 @@ theorem new64_color_facts : ReturnRootColorFacts new64_return_entry := by
     have hi' : i < 6 := by omega
     interval_cases i <;> decide
 
-#print axioms new63_return_entry
-#print axioms new64_return_entry
-#print axioms new63_color_facts
-#print axioms new64_color_facts
 
 #eval IO.eprintln "W12 NEW63/64 return-entry checked"
 

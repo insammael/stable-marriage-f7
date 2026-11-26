@@ -52,6 +52,5 @@ theorem saturated_pool_survivors_antitone_on_interval
   have hEndEq : (⟨v.val, by omega⟩ : Fin (n + 1)) = v := Fin.ext rfl
   simpa only [hEndEq] using hEnd
 
-#print axioms saturated_pool_survivors_antitone_on_interval
 end
 end F7Manuscript.ActualW28R20PoolSurvivorInterval

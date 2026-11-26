@@ -295,4 +295,3 @@ theorem actual_r20_leaf001_of_remaining_cases
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW35OneTLeafReduction
 
-#print axioms F7Manuscript.TripleCoordinateLattice.ActualW35OneTLeafReduction.actual_r20_leaf001_of_remaining_cases

@@ -85,6 +85,5 @@ theorem six_centers_then_D_normalized_false
                 afterCenter, pairedPairs, afterPaired, leftCoord, rightCoord, select,
                 other, put, Fin.ofNat, hb0,hb1,hb2,hb3,hb4,hb5]
 
-#print axioms six_centers_then_D_normalized_false
 
 end F7Manuscript.N4DWallNormalized

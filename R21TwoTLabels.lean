@@ -66,8 +66,5 @@ theorem cut_label_terminal (i : Fin (M+1)) (c : Fin 3) :
   rw [h]
   exact congrArg (fun t : Triple (B i) => ((t.val c).val).val) hrow.symm
 
-#print axioms cut_label_reflects
-#print axioms cut_label_initial
-#print axioms cut_label_terminal
 end
 end F7Manuscript.TripleCoordinateLattice.R21TwoT

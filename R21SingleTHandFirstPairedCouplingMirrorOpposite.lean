@@ -75,7 +75,5 @@ theorem actual_firstPaired_mirror_opposite_two_mass_le_four {n m : Nat}
  obtain ⟨last,trace,_,_⟩ := mixed_trace_of_anchored_route route t
    (fun st => graphGuard couplingMirrorOppCompatible (fun _=>false) (physical st)) guard hRs hRv hf hlast colors
  exact couplingMirrorOpp_tail_bound (crownMixedTrace_physical trace) root
-#print axioms couplingMirrorOppDAG_checked
-#print axioms actual_firstPaired_mirror_opposite_two_mass_le_four
 end
 end F7Manuscript.R21SingleTHand

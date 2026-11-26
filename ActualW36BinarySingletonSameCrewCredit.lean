@@ -124,7 +124,5 @@ theorem actual_one_T_binary_singleton_same_crew_credit_ge_one
   rw [hcard]
   omega
 
-#print axioms actual_one_T_binary_singleton_same_crew_credit_ge_one
-#print axioms actual_one_T_binary_singleton_same_crew_retired_lt_next_center
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW36BinarySingletonSameCrewCredit

@@ -217,10 +217,6 @@ theorem selected_segment_actual_projection
 
   exact ⟨hqActual, hsActual, hmActual, hmBlocks⟩
 
-#print axioms preWindow627
-#print axioms selected_run_eq_preWindow627
-#print axioms original_pre_14_0_low_deficit_bridge
-#print axioms selected_segment_actual_projection
 
 end
 

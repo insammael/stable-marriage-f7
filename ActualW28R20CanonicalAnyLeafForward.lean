@@ -168,6 +168,5 @@ theorem actual_core_singleton_canonical_any_leaf_forward
   · intro i hi
     exact forwardInsertedRun20_support_after (I := I) f x k hcore hbefore hafter hcover i hi
 
-#print axioms actual_core_singleton_canonical_any_leaf_forward
 end
 end F7Manuscript.ActualW28R20CanonicalAnyLeafForward

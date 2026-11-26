@@ -58,8 +58,5 @@ theorem d4L1_R_subset_A_lit : ∀ a, d4L1R a ⊆ d4L1A a := by decide
 
 theorem d4L1_missing_count_lit : 5 ≤ (blockedCellsLit d4L1A d4L1R).card := by decide
 
-#print axioms d4L1_rowQ_lit
-#print axioms d4L1_R_subset_A_lit
-#print axioms d4L1_missing_count_lit
 
 end F7Manuscript.N4D34LiteralRows

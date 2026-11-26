@@ -47,6 +47,5 @@ theorem actual_ternary_singleton_pre_count_le_85
     exact W38ActualPositivePostCount.actual_positive_post_count_le_85
       C h221 h311 hu hG0 hT1 hn hmPre hmPost hqPos
 
-#print axioms actual_ternary_singleton_pre_count_le_85
 end
 end F7Manuscript.TripleCoordinateLattice.W38ActualTernarySingletonPreCount

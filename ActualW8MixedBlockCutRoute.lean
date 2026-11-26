@@ -57,7 +57,6 @@ theorem actual_mixed_block_cut {W : Type*} [Fintype W] {q : Nat}
   have hpack := supportsRoute_drop_with_memory H M pre.length
   simpa only [htake,hdrop,Fin.val_mk,htime,hindex] using! hpack
 
-#print axioms actual_mixed_block_cut
 
 end
 end F7Manuscript.ActualW8MixedBlockCutRoute

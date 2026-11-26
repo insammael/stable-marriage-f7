@@ -63,6 +63,5 @@ theorem actual_mass17_core_with_outsider_on_left
     intro t
     simpa only [leftOne] using! align t
 
-#print axioms actual_mass17_core_with_outsider_on_left
 end
 end F7Manuscript.R21Mass17Original

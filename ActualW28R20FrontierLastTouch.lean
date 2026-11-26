@@ -55,7 +55,5 @@ theorem frontier_no_later_contact
     have hi' := Fin.le_iff_val_le_val.mp hi
     omega
 
-#print axioms triple_coordinate_maximal
-#print axioms frontier_no_later_contact
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW28R20FrontierLastTouch

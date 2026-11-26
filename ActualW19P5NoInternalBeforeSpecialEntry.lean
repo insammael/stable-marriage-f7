@@ -44,6 +44,5 @@ theorem p5_no_internal_event_before_first_special_entry
   rw [hempty] at heR
   simp at heR
 
-#print axioms p5_no_internal_event_before_first_special_entry
 
 end F7Manuscript.ActualW19P5NoInternalBeforeSpecialEntry

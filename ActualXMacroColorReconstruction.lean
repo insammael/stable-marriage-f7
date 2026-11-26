@@ -148,7 +148,6 @@ theorem actual_X_colors_eq_macroColors
     exact heq
   exact normalized_word_eq_macroColors X.colors h0 h1 hval hadj
 
-#print axioms actual_X_colors_eq_macroColors
 
 end
 end W7ActualXMacroColorReconstruction

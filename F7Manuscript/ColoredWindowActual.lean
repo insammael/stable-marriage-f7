@@ -167,8 +167,5 @@ noncomputable def RawColoredCut.toPeriodic (R : TokenRun Site W q) {m : ℕ}
   exact H.toPeriodic hb (hword 0 (by omega)) (hword 1 (by omega))
     (hword 2 (by omega))
 
-#print axioms rawColored_actual_state
-#print axioms RawColoredCut.toColored
-#print axioms RawColoredCut.toPeriodic
 
 end F7Manuscript.PartnerGraph.Periodic

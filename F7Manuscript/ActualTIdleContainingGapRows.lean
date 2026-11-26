@@ -111,6 +111,5 @@ theorem actual_T_idle_containing_gap_rows
       (hne i x) (hne j x) (hne i y) (hne j y)
   exact ⟨c,e,heA,heB,heD,k,label,hX,hY⟩
 
-#print axioms actual_T_idle_containing_gap_rows
 end
 end F7Manuscript.TripleCoordinateLattice

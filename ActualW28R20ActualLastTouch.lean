@@ -87,6 +87,5 @@ theorem actual_core_first_leaf_last_touch
   exact F7Manuscript.TripleCoordinateLattice.ActualW28R20FrontierLastTouch.frontier_no_later_contact
     C f horder cut t hspan beta c hidentity
 
-#print axioms actual_core_first_leaf_last_touch
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW28R20ActualLastTouch

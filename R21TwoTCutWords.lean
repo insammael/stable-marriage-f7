@@ -98,6 +98,5 @@ theorem original_canonical_cut_word (i : Fin (M+1)) :
   obtain ⟨bits,H,hk⟩ := selected_cut_word (S i) (h.1.symm.trans h.2.1) _ f hrows hr
   exact ⟨f,bits,H,hv,hk⟩
 
-#print axioms original_canonical_cut_word
 end
 end F7Manuscript.TripleCoordinateLattice.R21TwoT

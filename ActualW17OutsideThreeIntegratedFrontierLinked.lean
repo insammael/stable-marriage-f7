@@ -151,7 +151,6 @@ theorem actual_outside_three_integrated_frontier_linked
         exact hpaid1
       exact Or.inr ⟨X, hq, hs, hm, hpaidResult, hgeometry⟩
 
-#print axioms actual_outside_three_integrated_frontier_linked
 
 end
 end F7Manuscript.ActualW17OutsideThreeIntegratedFrontierLinked

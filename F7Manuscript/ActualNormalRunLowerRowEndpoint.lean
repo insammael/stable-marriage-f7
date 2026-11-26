@@ -75,6 +75,5 @@ theorem actual_normal_run_lower_row_eq_global
   exact hrow.trans hlabel
 end LowerRow
 
-#print axioms actual_normal_run_lower_row_eq_global
 end
 end F7Manuscript.TripleCoordinateLattice

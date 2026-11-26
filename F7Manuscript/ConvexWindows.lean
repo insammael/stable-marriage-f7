@@ -58,7 +58,5 @@ theorem no_backward_stage (Q : Finset V)
   have hxbefore := before_isLowerSet Q hconvex hxy hy
   exact (Finset.mem_sdiff.mp hxbefore).2 hx
 
-#print axioms before_isLowerSet
-#print axioms no_backward_stage
 
 end F7Manuscript.ConvexWindows

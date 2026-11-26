@@ -127,6 +127,4 @@ noncomputable def reducedPathCover {P : Finset V} (hClass : PairClass (V:=V))
     subst R
     exact (graph P).irrefl hAdj
 
-#print axioms ActualPathCover.reverse
-#print axioms reducedPathCover
 end NeutralCore.PathExtraction

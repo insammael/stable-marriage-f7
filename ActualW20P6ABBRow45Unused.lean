@@ -43,5 +43,4 @@ theorem actual_ABB_cell45_unused
         exact p6_three_distinct_unused_false tr (3,6) (4,6) (5,6)
           (by decide) (by decide) (by decide) hthree.1 hthree.2.1 hthree.2.2
 
-#print axioms actual_ABB_cell45_unused
 end F7Manuscript.ActualW20P6ABBRow45Unused

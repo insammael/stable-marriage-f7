@@ -9,7 +9,6 @@ set_option maxHeartbeats 800000
 namespace F7Local
 open F7Paired
 
-#print axioms twoanchor3_24
 
 def plan_twoanchor3_25 : List Move := [Move.paired,Move.center (1 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.paired]
 theorem twoanchor3_25 (t : Matching) (bits : Nat → Bool)
@@ -88,7 +87,6 @@ theorem twoanchor3_25 (t : Matching) (bits : Nat → Bool)
           simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
         exact (h.fresh 9 (by decide) 4 hp 0 (by decide)) hEq
 
-#print axioms twoanchor3_25
 
 def plan_twoanchor3_26 : List Move := [Move.paired,Move.center (1 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (2 : Color),Move.paired]
 theorem twoanchor3_26 (t : Matching) (bits : Nat → Bool)
@@ -191,7 +189,6 @@ theorem twoanchor3_26 (t : Matching) (bits : Nat → Bool)
           simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
         exact (h.fresh 9 (by decide) 2 hp 0 (by decide)) hEq
 
-#print axioms twoanchor3_26
 
 def plan_twoanchor3_27 : List Move := [Move.paired,Move.center (1 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.paired]
 theorem twoanchor3_27 (t : Matching) (bits : Nat → Bool)
@@ -342,7 +339,6 @@ theorem twoanchor3_27 (t : Matching) (bits : Nat → Bool)
           simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
         exact (h.fresh 9 (by decide) 2 hp 0 (by decide)) hEq
 
-#print axioms twoanchor3_27
 
 def plan_twoanchor3_28 : List Move := [Move.paired,Move.center (1 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.paired]
 theorem twoanchor3_28 (t : Matching) (bits : Nat → Bool)
@@ -517,7 +513,6 @@ theorem twoanchor3_28 (t : Matching) (bits : Nat → Bool)
           simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
         exact (h.fresh 9 (by decide) 2 hp 0 (by decide)) hEq
 
-#print axioms twoanchor3_28
 
 def plan_twoanchor3_29 : List Move := [Move.paired,Move.center (1 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (2 : Color),Move.paired]
 theorem twoanchor3_29 (t : Matching) (bits : Nat → Bool)
@@ -716,7 +711,6 @@ theorem twoanchor3_29 (t : Matching) (bits : Nat → Bool)
           simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
         exact (h.fresh 9 (by decide) 2 hp 0 (by decide)) hEq
 
-#print axioms twoanchor3_29
 
 def plan_twoanchor3_30 : List Move := [Move.paired,Move.center (1 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.paired]
 theorem twoanchor3_30 (t : Matching) (bits : Nat → Bool)
@@ -939,7 +933,6 @@ theorem twoanchor3_30 (t : Matching) (bits : Nat → Bool)
           simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
         exact (h.fresh 9 (by decide) 2 hp 0 (by decide)) hEq
 
-#print axioms twoanchor3_30
 
 def plan_twoanchor3_31 : List Move := [Move.paired,Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.paired,Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (1 : Color)]
 theorem twoanchor3_31 (t : Matching) (bits : Nat → Bool)
@@ -1426,7 +1419,6 @@ theorem twoanchor3_31 (t : Matching) (bits : Nat → Bool)
           simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
         exact (h.fresh 9 (by decide) 4 hp 0 (by decide)) hEq
 
-#print axioms twoanchor3_31
 
 def plan_twoanchor3_32 : List Move := [Move.paired,Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.paired,Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color)]
 theorem twoanchor3_32 (t : Matching) (bits : Nat → Bool)
@@ -1913,7 +1905,6 @@ theorem twoanchor3_32 (t : Matching) (bits : Nat → Bool)
           simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
         exact (h.fresh 9 (by decide) 4 hp 0 (by decide)) hEq
 
-#print axioms twoanchor3_32
 
 def plan_twoanchor3_33 : List Move := [Move.paired,Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.paired]
 theorem twoanchor3_33 (t : Matching) (bits : Nat → Bool)
@@ -2112,7 +2103,6 @@ theorem twoanchor3_33 (t : Matching) (bits : Nat → Bool)
           simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
         exact (h.fresh 9 (by decide) 4 hp 0 (by decide)) hEq
 
-#print axioms twoanchor3_33
 
 def plan_twoanchor3_34 : List Move := [Move.paired,Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (2 : Color),Move.paired]
 theorem twoanchor3_34 (t : Matching) (bits : Nat → Bool)
@@ -2383,7 +2373,6 @@ theorem twoanchor3_34 (t : Matching) (bits : Nat → Bool)
           simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
         exact (h.fresh 9 (by decide) 4 hp 0 (by decide)) hEq
 
-#print axioms twoanchor3_34
 
 def plan_twoanchor3_35 : List Move := [Move.paired,Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.paired]
 theorem twoanchor3_35 (t : Matching) (bits : Nat → Bool)
@@ -2678,7 +2667,6 @@ theorem twoanchor3_35 (t : Matching) (bits : Nat → Bool)
           simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
         exact (h.fresh 9 (by decide) 4 hp 0 (by decide)) hEq
 
-#print axioms twoanchor3_35
 
 def plan_twoanchor3_36 : List Move := [Move.paired,Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (2 : Color),Move.paired]
 theorem twoanchor3_36 (t : Matching) (bits : Nat → Bool)
@@ -2877,7 +2865,6 @@ theorem twoanchor3_36 (t : Matching) (bits : Nat → Bool)
             simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
           exact (h.fresh 10 (by decide) 0 hp 0 (by decide)) hEq
 
-#print axioms twoanchor3_36
 
 def plan_twoanchor3_37 : List Move := [Move.paired,Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.paired]
 theorem twoanchor3_37 (t : Matching) (bits : Nat → Bool)
@@ -3124,7 +3111,6 @@ theorem twoanchor3_37 (t : Matching) (bits : Nat → Bool)
             simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
           exact (h.fresh 10 (by decide) 0 hp 0 (by decide)) hEq
 
-#print axioms twoanchor3_37
 
 def plan_twoanchor3_38 : List Move := [Move.paired,Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.paired,Move.center (2 : Color),Move.center (0 : Color)]
 theorem twoanchor3_38 (t : Matching) (bits : Nat → Bool)
@@ -3467,7 +3453,6 @@ theorem twoanchor3_38 (t : Matching) (bits : Nat → Bool)
               simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
             exact (h.fresh 11 (by decide) 3 hp 0 (by decide)) hEq
 
-#print axioms twoanchor3_38
 
 def plan_twoanchor3_39 : List Move := [Move.paired,Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.paired,Move.center (0 : Color),Move.center (2 : Color)]
 theorem twoanchor3_39 (t : Matching) (bits : Nat → Bool)
@@ -3810,7 +3795,6 @@ theorem twoanchor3_39 (t : Matching) (bits : Nat → Bool)
               simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
             exact (h.fresh 11 (by decide) 3 hp 0 (by decide)) hEq
 
-#print axioms twoanchor3_39
 
 def plan_twoanchor3_40 : List Move := [Move.paired,Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.paired]
 theorem twoanchor3_40 (t : Matching) (bits : Nat → Bool)
@@ -4153,7 +4137,6 @@ theorem twoanchor3_40 (t : Matching) (bits : Nat → Bool)
                   simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
                 exact (h.fresh 14 (by decide) 3 hp 0 (by decide)) hEq
 
-#print axioms twoanchor3_40
 
 def plan_twoanchor3_41 : List Move := [Move.paired,Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.paired]
 theorem twoanchor3_41 (t : Matching) (bits : Nat → Bool)
@@ -4520,7 +4503,6 @@ theorem twoanchor3_41 (t : Matching) (bits : Nat → Bool)
                   simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
                 exact (h.fresh 13 (by decide) 4 hp 3 (by decide)) hEq
 
-#print axioms twoanchor3_41
 
 def plan_twoanchor3_42 : List Move := [Move.paired,Move.center (1 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.paired]
 theorem twoanchor3_42 (t : Matching) (bits : Nat → Bool)
@@ -4659,7 +4641,6 @@ theorem twoanchor3_42 (t : Matching) (bits : Nat → Bool)
               simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
             exact (h.fresh 11 (by decide) 2 hp 2 (by decide)) hEq
 
-#print axioms twoanchor3_42
 
 def plan_twoanchor3_43 : List Move := [Move.paired,Move.center (1 : Color),Move.center (2 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.paired]
 theorem twoanchor3_43 (t : Matching) (bits : Nat → Bool)
@@ -4846,7 +4827,6 @@ theorem twoanchor3_43 (t : Matching) (bits : Nat → Bool)
               simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
             exact (h.fresh 11 (by decide) 2 hp 2 (by decide)) hEq
 
-#print axioms twoanchor3_43
 
 def plan_twoanchor3_44 : List Move := [Move.paired,Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.paired]
 theorem twoanchor3_44 (t : Matching) (bits : Nat → Bool)
@@ -5009,7 +4989,6 @@ theorem twoanchor3_44 (t : Matching) (bits : Nat → Bool)
                 simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
               exact (h.fresh 12 (by decide) 2 hp 2 (by decide)) hEq
 
-#print axioms twoanchor3_44
 
 def plan_twoanchor3_45 : List Move := [Move.paired,Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (2 : Color),Move.paired]
 theorem twoanchor3_45 (t : Matching) (bits : Nat → Bool)
@@ -5220,7 +5199,6 @@ theorem twoanchor3_45 (t : Matching) (bits : Nat → Bool)
                   simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
                 exact (h.fresh 14 (by decide) 0 hp 1 (by decide)) hEq
 
-#print axioms twoanchor3_45
 
 def plan_twoanchor3_46 : List Move := [Move.paired,Move.paired,Move.center (1 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (2 : Color)]
 theorem twoanchor3_46 (t : Matching) (bits : Nat → Bool)
@@ -5325,6 +5303,5 @@ theorem twoanchor3_46 (t : Matching) (bits : Nat → Bool)
             simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
           exact (h.fresh 12 (by decide) 5 hp 0 (by decide)) hEq
 
-#print axioms twoanchor3_46
 
 end F7Local

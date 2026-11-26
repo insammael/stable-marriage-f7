@@ -806,4 +806,3 @@ theorem table_valid (j : Fin 600) : PartnerGraph.Sized.ValidNode table j := by
 
 end F7Manuscript.PartnerGraph.PeriodicShort
 
-#print axioms F7Manuscript.PartnerGraph.PeriodicShort.table_valid

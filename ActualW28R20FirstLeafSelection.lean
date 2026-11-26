@@ -95,6 +95,5 @@ theorem actual_adjacent_switch_selects_first_leaf
     C h221 h311 hG hT hQ19 a p j r0 hrpos R k hcutExpanded hstrong
     hbefore hafter hFullX hNewUnion
 
-#print axioms actual_adjacent_switch_selects_first_leaf
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW28R20FirstLeafSelection

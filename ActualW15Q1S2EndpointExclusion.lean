@@ -161,7 +161,6 @@ theorem actual_X_q1_s2_endpoint_false
     exact endpoint_D_two_pivot_partial_none W D true X.m hm hWlen hDlen
       (by simpa using! hD0) (by simpa using! htail) hpivRev hsomeR
 
-#print axioms actual_X_q1_s2_endpoint_false
 
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW15Q1S2EndpointExclusion

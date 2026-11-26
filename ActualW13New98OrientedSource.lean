@@ -228,8 +228,6 @@ theorem actual_X_new98_oriented_structural_threshold
     physicalDual j hfitActual
   simpa [physicalDual] using! hthreshold
 
-#print axioms New98OrientedFitAt
-#print axioms actual_X_new98_oriented_structural_threshold
 #eval IO.eprintln "W13 NEW98 oriented source checked"
 
 end

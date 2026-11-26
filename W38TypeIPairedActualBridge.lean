@@ -362,6 +362,5 @@ theorem actual_typeI_paired_frame_bridge
     hcenter,hidle,hLast,hpaired⟩
 
 
-#print axioms actual_typeI_paired_frame_bridge
 end
 end F7Manuscript.TripleCoordinateLattice.W38TypeIPairedActualBridge

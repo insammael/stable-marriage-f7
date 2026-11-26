@@ -156,5 +156,4 @@ theorem bb_token5_site3_precedes_token6_site3
       refine ⟨c,e,r,Sum.inr u,hcell5,hsite6,horder,?_,heends,hepost4,hepost2⟩
       · simpa [rt] using! hru
 
-#print axioms bb_token5_site3_precedes_token6_site3
 end F7Manuscript.ActualW20P6BBTokenSixAfterFiveThree

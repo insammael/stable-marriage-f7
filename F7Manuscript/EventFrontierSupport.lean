@@ -139,8 +139,6 @@ def mapped_binary_color_chart {Q : Finset (Event I)} (hQ : OrderConvex Q)
     rw [hs]
     exact hmap
 
-#print axioms selected_support_different
-#print axioms mapped_binary_color_chart
 
 end
 end F7Manuscript.EventFrontierSupport

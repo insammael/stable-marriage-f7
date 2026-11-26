@@ -56,8 +56,4 @@ theorem no_gap_six_anywhere {R : TokenRun Site (Agent 7) 21} {off len : Nat} {bo
   · simp only [recolorPlan,recolorMove,List.map_append,List.map_cons,List.map_map,Function.comp_def]
   · exact bin
 
-#print axioms no_double_anywhere
-#print axioms no_triple_anywhere
-#print axioms no_p_dot_pp_anywhere
-#print axioms no_gap_six_anywhere
 end F7Manuscript.R21LongWindow.PairedSubpatterns

@@ -90,6 +90,5 @@ theorem no_next_pair_fresh_since
     intro hfresh
     exact hfresh.1 (by simpa [hpost_idle] using hmem)
 
-#print axioms no_next_pair_fresh_since
 
 end F7Manuscript.ActualW28R20BinaryOldMateObstruction

@@ -260,20 +260,6 @@ theorem normalRun_subsetTripleProject_bot
     GenericThresholdPath.path C E R.left
   rw [← hlift, subsetTripleProject_lift]
 
-#check NormalRunInterval.complete
-#check vertices_subset_pathSegment_iff
-#check threshold_le_iff
-#check threshold_exact
-#check threshold_supIrred
-#check threshold_introduction_G_eq
-#check zero_deficit_double_has_neighbor
-#check mem_activeDouble
-#check mem_normalLeaves_iff
-#check normalLeafRank
-#check normalLeaf_eq_at_rank
-#check GenericNormal.actualNormalSkeleton
-#check GenericNormal.actualNormalLabel_pair
-#check GenericNormal.actualNormalLabelEquiv
 
 /-
 Exact target declaration after the literal threshold-transfer block is encoded:
@@ -313,17 +299,6 @@ Equality of images gives equality of normalLeafAt, then equality after
 subsetTripleProject, and finally equality of enumeration ranks.
 -/
 
-#print axioms chart_q_pos_of_double_pos
-#print axioms threshold_double_actual_events
-#print axioms normalRun_internal_double_active
-#print axioms normalRun_path_left_le_eventAt
-#print axioms normalRun_internal_event_vertices_subset
-#print axioms normalRun_internal_event_lift_project
-#print axioms normalRun_internal_double_actual_events_mem_segment
-#print axioms subsetTripleProject_lift
-#print axioms subsetTripleProject_le_iff
-#print axioms subsetTripleProject_injective
-#print axioms normalRun_subsetTripleProject_bot
 
 end
 end F7Manuscript.TripleCoordinateLattice

@@ -67,6 +67,4 @@ theorem freshWord_suffix (B : Board) (u v : List Swap) (h : freshWord B (u++v)=t
     simpa only [freshWord_append,Bool.and_eq_true] using! h
   exact hh.2
 
-#print axioms actual_word_fresh
-#print axioms actual_word_safe
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

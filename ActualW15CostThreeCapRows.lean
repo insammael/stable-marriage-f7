@@ -84,7 +84,6 @@ theorem actual_X_cost_three_cap_row
     have hcostUpperNat : X.q + X.s ≤ 3 := by exact_mod_cast hcostUpper
     exact ⟨hv, hw, hcapEq, by omega⟩
 
-#print axioms actual_X_cost_three_cap_row
 
 end
 end F7Manuscript.ActualW15CostThreeCapRows

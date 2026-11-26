@@ -188,7 +188,5 @@ theorem force_cross_true (bits : Nat → Bool)
         ⟨0, by omega, hs⟩)
   · rfl
 
-#print axioms force_delta_eq_gamma
-#print axioms force_cross_true
 
 end F7Manuscript.ActualW12New112PoolForce

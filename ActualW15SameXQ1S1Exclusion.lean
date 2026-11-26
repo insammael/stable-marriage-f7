@@ -592,7 +592,6 @@ theorem actual_X_q1_s1_false
         hentryD0 hentryTail hsourceP ⟨hr0, hrnz⟩ hsourceD0 hsourceDtail
         (by rw [hWlen]; omega) hDW hmem hsomeDual
 
-#print axioms actual_X_q1_s1_false
 
 end
 end F7Manuscript.ActualW15SameXQ1S1Exclusion

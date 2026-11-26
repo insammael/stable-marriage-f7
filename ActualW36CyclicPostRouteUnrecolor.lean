@@ -67,11 +67,6 @@ theorem recolor_inverse_mixedPlan (p : CyclicColorPerm)
   simpa [inverseCyclicColorPerm] using!
     (recolor_mixedPlan (inverseCyclicColorPerm p) word levels m)
 
-#print axioms inverseCyclicColorPerm
-#print axioms recolorSupportFrame_inverse
-#print axioms recolorPlan_inverse
-#print axioms supportsRoute_unrecolor
-#print axioms recolor_inverse_mixedPlan
 
 end
 end F7Manuscript.TripleCoordinateLattice

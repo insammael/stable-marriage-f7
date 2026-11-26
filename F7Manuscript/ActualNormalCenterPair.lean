@@ -68,7 +68,5 @@ theorem actual_next_center_pair
   exact ⟨idle,keep,hout,hkeepF,pair_eq_of_two_members _ (actual_event_binary hn s)
     idle keep hidle hkeepS hne⟩
 
-#print axioms actual_retired_center_pair
-#print axioms actual_next_center_pair
 end
 end F7Manuscript.ActualNormalCenterPair

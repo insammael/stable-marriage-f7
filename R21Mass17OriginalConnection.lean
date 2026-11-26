@@ -104,7 +104,5 @@ theorem r21_one_outsider_no_macro_original_of_mass17
     rw [stableCount_eq_idealCount I]
     omega
 
-#print axioms original_mass17_low_deficit_impossible
-#print axioms r21_one_outsider_no_macro_original_of_mass17
 end
 end F7Manuscript.R21Mass17Original

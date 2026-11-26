@@ -65,7 +65,6 @@ theorem dual_afterCenter_movingPool
   fin_cases c <;> cases b <;> cases d <;>
     simp [movingPool, afterCenter, leftCoord, rightCoord, put]
 
-#print axioms dual_afterCenter_movingPool
 
 theorem dual_block_end_pool
     {j : Fin (normalBlockCount B)} {f g : SupportFrame}
@@ -82,7 +81,6 @@ theorem dual_block_end_pool
           dual_afterCenter_movingPool f _ actualBit bit
 
 
-#print axioms dual_block_end_pool
 
 end
 end F7Manuscript.DualBlockScheduleProjections

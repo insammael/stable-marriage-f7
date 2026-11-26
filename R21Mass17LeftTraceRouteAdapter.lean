@@ -65,6 +65,5 @@ theorem LeftCenterTrace.to_reverse_route
     · refine ⟨(fun eq=>different (Fin.ext eq)),?_⟩
       simpa only [firstBit,Nat.zero_add] using! rebasedColors
 
-#print axioms LeftCenterTrace.to_reverse_route
 end
 end F7Manuscript.R21NormalEndpoint.ReseededObservation

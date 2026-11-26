@@ -131,7 +131,4 @@ theorem bad_neutral_internal_deletion_restoration (h : BadNeutral (V:=V)) (v : V
   exact ⟨by simpa [aOn_univ] using! hRestore.1,
     by simpa [DOn_univ] using! hRestore.2.1,hRestore.2.2,hMinEq,hMaxEq⟩
 
-#print axioms three_boundaries_automatic_neutrality
-#print axioms neutral_deletion_restoration
-#print axioms bad_neutral_internal_deletion_restoration
 end NeutralCore

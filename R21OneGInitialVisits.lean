@@ -84,6 +84,4 @@ theorem G_frames_match (p : Fin 6) :
     FrameMatches (orderSeed gNewSeed p) (newFrame p) := by
   fin_cases p <;> constructor <;> exact ⟨fun c => by fin_cases c <;> rfl,rfl⟩
 
-#print axioms new_G_seed_visits
-#print axioms G_frames_match
 end F7Manuscript.R21OneGMachine

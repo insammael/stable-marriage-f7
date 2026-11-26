@@ -156,7 +156,5 @@ theorem actual_outside_three_q0_nineteen_patterns
   exact ⟨X,a,b,c,d,hu,hq,hs,hm,ha1,hab,hbc,hcd,hd13,hP,hW,hD,hend,
     ha4,hzero,htail,h19⟩
 
-#print axioms q0NineteenPatterns_length
-#print axioms actual_outside_three_q0_nineteen_patterns
 end
 end F7Manuscript.ActualW21OutsideThreeQ0NineteenPatterns

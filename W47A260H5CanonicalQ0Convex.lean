@@ -44,5 +44,3 @@ end
 
 end F7Manuscript.TripleCoordinateLattice
 
-#print axioms F7Manuscript.TripleCoordinateLattice.GenericThresholdPath.path_union
-#print axioms F7Manuscript.TripleCoordinateLattice.a260_normal_run_q0_order_convex

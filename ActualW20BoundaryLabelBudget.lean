@@ -82,7 +82,4 @@ theorem boundaryArrival_of_crossing_post {F : Rel} {n : Nat}
       exact propext ⟨fun _ => by simpa [hR] using! hx,fun _ => hl⟩
     exact ⟨x,tr.left e,hx,hleft,Or.inr ⟨hR,rfl⟩,hnew⟩
 
-#print axioms boundaryArrival_crosses_and_labels
-#print axioms boundary_arrivals_unique_from_label_cover
-#print axioms boundaryArrival_of_crossing_post
 end F7Manuscript.ActualW20BoundaryLabelBudget

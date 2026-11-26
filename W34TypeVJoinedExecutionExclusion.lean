@@ -53,6 +53,5 @@ theorem typeV_joined_actual_twenty_false
   change runCost ⟨0,0,false,false⟩ plan ≤ C.q+C.s+D.q+D.s+4 at hu
   omega
 
-#print axioms typeV_joined_actual_twenty_false
 end
 end F7Manuscript.W34TypeVJoinedExecutionExclusion

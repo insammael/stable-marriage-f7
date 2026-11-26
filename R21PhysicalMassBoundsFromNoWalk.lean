@@ -25,7 +25,5 @@ theorem original_two_outsiders_of_no_walk
  ActualPositiveDeficitCoverAssembly.R21LeafObligation I 2 0 0 :=
  original_two_outsiders_of_D2 (canonical_double_pair_excluded_of_no_walk noWalk) I
 
-#print axioms canonical_double_pair_excluded_of_no_walk
-#print axioms original_two_outsiders_of_no_walk
 end
 end F7Manuscript.R21PhysicalWindowWords

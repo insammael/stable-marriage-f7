@@ -37,6 +37,5 @@ theorem new56_positive_prefix_classification
       cases h3 : bits 3 <;> cases h6 : bits 6 <;> simp_all [h3,h6]
   exact ⟨h4,h5,h6,h7,h8⟩
 
-#print axioms new56_positive_prefix_classification
 
 end F7Manuscript.ActualW12New56PositivePrefixComplete

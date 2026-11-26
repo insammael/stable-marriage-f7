@@ -76,6 +76,5 @@ theorem fixedTokenSwapTrace_first_departure
       · rw [tr.step e (tr.left e)]
         simpa [Equiv.swap_apply_def,tr.distinct e,hr] using! hpre
 
-#print axioms fixedTokenSwapTrace_first_departure
 
 end F7Manuscript.PartnerGraph

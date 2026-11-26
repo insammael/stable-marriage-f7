@@ -291,7 +291,6 @@ theorem actual_typeI_post_trace_from_gap_window
     (permuteSupportFrame σ (afterPaired base cross label)) hvPost hlower
   exact ⟨σ,cross,hσfixed,hσL',hσR',T,hT⟩
 
-#print axioms actual_typeI_post_trace_from_gap_window
 
 end
 end F7Manuscript.TripleCoordinateLattice

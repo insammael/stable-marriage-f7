@@ -237,7 +237,5 @@ theorem U_from_neutral_extrema_and_pair_bound [Fintype V]
   exact U_from_independent_foundations hbudget hwidth h311 h221 h33
     upper lower hsmall x hnot
 
-#print axioms neutral_global_maxima_card_three
-#print axioms U_from_neutral_extrema_and_pair_bound
 
 end ConditionalUL

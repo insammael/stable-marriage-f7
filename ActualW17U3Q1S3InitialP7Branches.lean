@@ -220,8 +220,6 @@ theorem actual_q1_anchor4_extras56_reverse_max_le_two_false
   have hbound' : 3 ≤ max X.before X.after := by simpa using! hbound
   omega
 
-#print axioms actual_q1_anchor8_extras67_min_le_two_false
-#print axioms actual_q1_anchor4_extras56_reverse_max_le_two_false
 
 end
 end ActualW17U3Q1S3InitialP7Branches

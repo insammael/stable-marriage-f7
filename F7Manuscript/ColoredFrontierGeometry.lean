@@ -49,9 +49,5 @@ theorem rawColoredState_update_before (word : ℕ → Color) (bits : ℕ → Boo
     simp only [rawColoredState]
     rw [Function.update_of_ne htn, hprev]
 
-#print axioms rawColoredState_valid
-#print axioms rawColoredState_frontier_same
-#print axioms rawColoredState_frontier_other
-#print axioms rawColoredState_update_before
 
 end F7Manuscript.PartnerGraph.Periodic

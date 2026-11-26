@@ -239,5 +239,4 @@ theorem long_cost_four {length : Nat} (C : Chart)
   · exact R21StrongLocal.no_actual_terminal_mass10_fee_le_three s.cost fee terminal
   · exact R21StrongLocal.no_actual_terminal_mass11_fee_le_three s.cost fee terminal
 
-#print axioms long_cost_four
 end F7Manuscript.R21StrongLocalPhysicalWindow

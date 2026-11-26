@@ -87,6 +87,5 @@ theorem centers_plan_inverse_prefix (depth : Nat)
  exact undo_center_chain_prefix depth R pre rest _ _ _ f next
    (centers_plan_undo_chain f plan bits i hc) ⟨rfl,fun _=>rfl⟩ hnext hidle hw
 
-#print axioms centers_plan_inverse_prefix
 end
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

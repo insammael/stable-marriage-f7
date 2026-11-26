@@ -132,7 +132,5 @@ theorem G443B_le_three {n : Nat} (future : Sized.Future G443B 2 n) : n ≤ 3 := 
       exact G443B16_loopFree a hrel
     exact triangle_future_le_two (by decide) (by decide) (by decide) hf htri
 
-#print axioms G443A_future_le_two
-#print axioms G443B_le_three
 
 end F7Manuscript.ActualW13New102G443Components

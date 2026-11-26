@@ -75,7 +75,5 @@ theorem fixedTokenSwapTrace_initialTokenEarlier
     ∀ s : Fin (n+1), s.val ≤ t.val → T.state s j = j :=
   (initialTokenPrefix T j t.val t rfl hj).2
 
-#print axioms fixedTokenSwapTrace_initialTokenUntouched
-#print axioms fixedTokenSwapTrace_initialTokenEarlier
 
 end F7Manuscript.PartnerGraph

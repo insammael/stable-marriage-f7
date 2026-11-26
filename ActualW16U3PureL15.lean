@@ -172,8 +172,6 @@ theorem u3_length15_pivots_in_retained15
     change (a,b,c) ∈ retained13 ++ [(3,10,13)]
     exact List.mem_append_left _ hret'
 
-#print axioms pivots_take14_split
-#print axioms u3_length15_pivots_in_retained15
 
 end
 end F7Manuscript.ActualW16U3PureL15

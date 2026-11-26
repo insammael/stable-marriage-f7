@@ -76,7 +76,5 @@ theorem actual_no_outsider_normal_run_all_events_binary
   have hmB : 2 ≤ normalBlockCount B0 := hm
   exact subsetNormal_all_events_binary Q0 hg.1 B0 hp.2.2.1 hp.2.1 hg.2 hmB ⟨z,hzmem⟩
 
-#print axioms subsetNormal_all_events_binary
-#print axioms actual_no_outsider_normal_run_all_events_binary
 end
 end F7Manuscript.TripleCoordinateLattice

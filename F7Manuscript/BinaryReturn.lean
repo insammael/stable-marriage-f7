@@ -41,5 +41,4 @@ theorem no_repeat_after_two (R : TokenRun Site W q) (n : ℕ) (hn : n + 4 ≤ q)
     _ = R.state i₂.succ b := out₂
     _ = R.state i₃.succ a := swap₃.1.symm
 
-#print axioms no_repeat_after_two
 end F7Manuscript.PartnerGraph.Periodic

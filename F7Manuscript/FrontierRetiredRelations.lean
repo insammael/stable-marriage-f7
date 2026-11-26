@@ -54,6 +54,5 @@ theorem retired_le_next_added (H : FrontierChart I m) (n : ℕ) (hn : n+1 < m) :
   have hya : ¬ y ≤ a := fun h => hby.2 (h.trans hab.le)
   exact (actual_pairClass I).2.2.1 a b x y z hab hxy hax ⟨hay,hya⟩ hbx hby hza hzb hzx hzy
 
-#print axioms retired_le_next_added
 end
 end F7Manuscript.EventFrontierEnumeration

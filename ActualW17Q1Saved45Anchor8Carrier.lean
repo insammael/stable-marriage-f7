@@ -55,7 +55,6 @@ theorem same_X_forward_packet_columns
   · simpa only [orientAndNormalizeColors, orientColumn, if_pos hforward] using! hcolors
   · simpa only [orientColumn, if_pos hforward] using! X.levels_get j hj
 
-#print axioms same_X_forward_packet_columns
 
 
 /-- Frozen selected76 ordinal45 root: D has its sole unit at the final
@@ -155,9 +154,6 @@ theorem carrier_of_actual_packet_prefix_facts
   exact carrier_of_actual_mixed_packet (W := Agent 7) P hp
 
 
-#print axioms ordinal45_plan_prefix
-#print axioms carrier_of_actual_mixed_packet
-#print axioms carrier_of_actual_packet_prefix_facts
 
 end
 end F7Manuscript.ActualW17Q1Saved45Anchor8Carrier

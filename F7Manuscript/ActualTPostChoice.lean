@@ -117,6 +117,5 @@ theorem actual_post_atom_support
   change ({(e keep).val,(e idle).val} : Finset ℕ) = {(e idle).val,(e keep).val}
   exact Finset.pair_comm _ _
 
-#print axioms actual_post_atom_support
 end
 end F7Manuscript.ActualTPostChoice

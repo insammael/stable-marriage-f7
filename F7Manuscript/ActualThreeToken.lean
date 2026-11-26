@@ -114,9 +114,5 @@ theorem no_three_then_two_of_support_union (R : Run I 2)
   apply no_three_then_two_confined R B hconf ?_ hfirst hsecond
   simpa [B] using! hunion
 
-#print axioms reindexRun
-#print axioms confined_support_card_eq_changed
-#print axioms no_three_then_two_confined
-#print axioms no_three_then_two_of_support_union
 
 end F7Manuscript.ActualThreeToken

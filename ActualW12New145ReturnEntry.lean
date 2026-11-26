@@ -52,8 +52,6 @@ theorem new145_metadata :
     have hi' : i < 8 := by omega
     interval_cases i <;> decide
 
-#print axioms new145_return_entry
-#print axioms new145_metadata
 
 #eval IO.eprintln "W12 NEW145 return-entry checked"
 

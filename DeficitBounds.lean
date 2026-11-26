@@ -65,6 +65,4 @@ theorem five_two_seed (hClass : PairClass (V:=V)) (P : Finset V)
     (by simpa [E.dval] using! hDpos) (E.valid hClass)
   exact h.2.2.2 (by simpa [E.dval] using! hD)
 
-#print axioms bad_deficit_bounds
-#print axioms bad_R_bounds
 end NeutralCore

@@ -48,9 +48,5 @@ theorem r21_high_triple_actual_count_le_84 (hn : Fintype.card (Event I) = 21)
   rw [stableCount_eq_idealCount I]
   exact r21_high_triple_ideal_count_le_84 (actual_pairClass I) hn hDelta
 
-#print axioms saved_return_excludes_convex
-#print axioms small_actual_count_le_sixteen
-#print axioms r20_high_triple_actual_count_le_85
-#print axioms r21_high_triple_actual_count_le_84
 
 end F7Manuscript.ActualCertificateBridge

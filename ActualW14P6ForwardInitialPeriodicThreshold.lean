@@ -134,7 +134,6 @@ theorem actual_X_forward_initial_P6_periodic_threshold
     exact_mod_cast hNatX
   omega
 
-#print axioms actual_X_forward_initial_P6_periodic_threshold
 
 end
 end F7Manuscript.ActualW14P6ForwardInitialPeriodicThreshold

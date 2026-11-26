@@ -36,6 +36,5 @@ theorem p5_two_slots_cover_endpoints_and_third
     · rw [← h]; exact hx2
   exact p5_third_mutual_site L R hL hR hLR
 
-#print axioms p5_two_slots_cover_endpoints_and_third
 
 end F7Manuscript.ActualW20P5TwoSlotsCoverEndpoints

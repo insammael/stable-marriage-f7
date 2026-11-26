@@ -114,6 +114,5 @@ theorem full_segment_plan_eq_reflected_mixedPlan
     (RS).naturalWord (RS).naturalLevels hword hlevels
   simpa [hmRS] using! hplan
 
-#print axioms full_segment_plan_eq_reflected_mixedPlan
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW33RContextSegmentPlanReflectionActual

@@ -105,7 +105,6 @@ theorem pair_distribution_update (C : Chart) (j : Fin C.m) (k : Fin (C.double j)
   simp only [NormalMaskCounter.pairStep, movingColor, Fin.val_zero, Nat.add_zero,
     Fin.val_one, Nat.add_assoc, Nat.reduceAdd]
 
-#print axioms pair_distribution_update
 
 end
 end F7Manuscript.NormalSkeleton.Chart

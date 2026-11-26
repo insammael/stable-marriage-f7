@@ -261,8 +261,5 @@ theorem T_boundary_window_enumeration
   simpa only [Equiv.refl_apply] using!
     T_boundary_window_enumeration_permuted C E n hT D (Equiv.refl _)
 
-#print axioms T_boundary_window_enumeration
-#print axioms T_boundary_window_enumeration_permuted
-#print axioms T_boundary_window_enumeration_bipermuted
 end
 end F7Manuscript.TripleCoordinateLattice

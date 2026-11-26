@@ -41,6 +41,5 @@ theorem actual_one_D_cross_center_false
   rw [hstate] at hfresh
   exact W.one_D_blocks_third candidate hcandidate hfresh
 
-#print axioms actual_one_D_cross_center_false
 
 end F7Manuscript.ActualD2OneD1CrossObstruction

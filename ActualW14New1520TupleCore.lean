@@ -45,8 +45,5 @@ theorem new1520_positive_demand_implies_j_lt_four
   have hoff := new1520_offset_ge_start W D c dual j
   omega
 
-#print axioms new1520TupleFit
-#print axioms new1520TupleDemand
-#print axioms new1520_positive_demand_implies_j_lt_four
 end
 end F7Manuscript.ActualW14New1520TupleCore

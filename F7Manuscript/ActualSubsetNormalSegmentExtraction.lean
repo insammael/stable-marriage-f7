@@ -164,11 +164,6 @@ theorem subsetNormal_segment_run_schedule
           ) htailSide
       exact ⟨SubsetNormalBlockSegmentRunSchedule.more hj t hroom hs' hstail⟩
 
-#print axioms subsetNormalCenterTime_next
-#print axioms subsetNormalSegmentPairSideOrders_one
-#print axioms subsetNormalSegmentPairSideOrders_more_head
-#print axioms subsetNormalSegmentPairSideOrders_more_tail
-#print axioms subsetNormal_segment_run_schedule
 
 end
 end F7Manuscript.TripleCoordinateLattice

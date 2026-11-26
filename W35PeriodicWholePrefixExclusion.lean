@@ -81,7 +81,5 @@ theorem actual_periodic_whole_prefix_false
         (by intro x hx z hz y hxy hyz; exact Finset.mem_univ _) Hwhole i)
   · exact ⟨Hraw⟩
 
-#print axioms rawCut_prefix_transfer
-#print axioms actual_periodic_whole_prefix_false
 end
 end F7Manuscript.TripleCoordinateLattice.W35PeriodicWholePrefixExclusion

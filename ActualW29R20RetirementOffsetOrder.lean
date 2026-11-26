@@ -72,6 +72,5 @@ theorem lowerPath_block_offset_gap
     1 + (lengths.take j.val).sum
   omega
 
-#print axioms lowerPath_block_offset_gap
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW29R20RetirementOffsetOrder

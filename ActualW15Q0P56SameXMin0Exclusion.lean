@@ -100,7 +100,6 @@ theorem actual_X_q0_u5_p56_min0_false
     have hlevel0 := hDzeroRev 0 (by omega)
     omega
 
-#print axioms actual_X_q0_u5_p56_min0_false
 
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW15Q0P56SameXMin0Exclusion

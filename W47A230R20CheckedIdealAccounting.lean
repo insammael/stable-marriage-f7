@@ -68,5 +68,3 @@ end
 
 end F7Manuscript.TripleCoordinateLattice
 
-#print axioms F7Manuscript.TripleCoordinateLattice.a230_actual_ideal_deficit_accounting
-#print axioms F7Manuscript.TripleCoordinateLattice.a230_stableCount_le_85

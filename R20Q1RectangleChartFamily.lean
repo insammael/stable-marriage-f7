@@ -59,6 +59,5 @@ theorem edgeChart_rectangles (p : Fin 6) (last : Bool) :
     RectangleAtEnds (edgeChart p last) := by
   apply rectangleCheck_sound
   fin_cases p <;> cases last <;> decide
-#print axioms edgeChart_rectangles
 end F7Manuscript.R20Q1RectangleChart
 

@@ -58,7 +58,6 @@ theorem h7_actual_subset_q_zero_of_card_cost
       _ _ _ _ _ _ hb hcard hcost
   exact hq
 
-#print axioms h7_actual_subset_q_zero_of_card_cost
 
 /--
 Convert the cardinality and scalar cost bound of the literal POST run
@@ -117,7 +116,6 @@ theorem h7_post_order_convex_of_card_cost
   exact a260_normal_run_q0_order_convex
     C E h221 R h221Q h311Q hzQ hqActual
 
-#print axioms h7_post_order_convex_of_card_cost
 
 /--
 Recover convexity of the literal POST segment from the original scalar
@@ -156,7 +154,6 @@ theorem h7_post_order_convex_of_cards
   exact h7_post_order_convex_of_card_cost
     (I := I) C E h221 h311 k0 hpost hcost
 
-#print axioms h7_post_order_convex_of_cards
 
 end
 

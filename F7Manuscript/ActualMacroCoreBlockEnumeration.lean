@@ -116,7 +116,6 @@ theorem actual_macro_core_block_enumeration
     exact (EPG.equiv ⟨i.val, i.isLt⟩).property
   exact ⟨hPG,hdisj,hUF,hdisjUF,hPGforward,hUFforward,Hraw,hprefix⟩
 
-#print axioms actual_macro_core_block_enumeration
 
 /-- The actual macro prefix/block/future concatenation with caller-selected
 component chronologies.  The point equations are retained, so local routes
@@ -199,7 +198,6 @@ theorem actual_macro_core_block_enumeration_with_inputs
     simpa only [EPG, Dfinal] using! hptUF
   exact ⟨hPG',HPG,hptPG,H,hUF,hptUF',hprefix⟩
 
-#print axioms actual_macro_core_block_enumeration_with_inputs
 
 end
 end F7Manuscript.TripleCoordinateLattice

@@ -143,6 +143,5 @@ theorem switch_forces_moving_signs {x : V} (t u : Triple C) (a : Fin 3)
     · subst s
       exact ⟨hjl, hxs⟩
 
-#print axioms switch_forces_moving_signs
 end
 end F7Manuscript.ActualW28R20SwitchMovingSigns

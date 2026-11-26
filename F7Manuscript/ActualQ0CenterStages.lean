@@ -82,8 +82,5 @@ theorem q0_actual_initial_choice_count_eq
   · simp only [normalQ0InitialChoiceCount,q0InitialChoices,hm3,false_and,if_false]
     decide
 
-#print axioms q0_selected_pre_stages_with_actual_pivots
-#print axioms q0_post_stages_have_actual_pivot_phase
-#print axioms q0_actual_initial_choice_count_eq
 end
 end F7Manuscript.TripleCoordinateLattice

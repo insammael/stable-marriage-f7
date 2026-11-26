@@ -86,5 +86,4 @@ theorem actual_chart_local_rule {length : Nat} (S : Chart)
   rw [whole_centerList word S.m (by omega) A.firstColor,word_triple_weight word S.m i room] at lower
   exact lower
 
-#print axioms actual_chart_local_rule
 end F7Manuscript.R21LongWindow.PureRootCoverage

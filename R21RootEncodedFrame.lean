@@ -53,6 +53,4 @@ theorem encoded_frame_geometry (c0 c1 c2 c3 : Color) (bits : Nat→Bool) (o : Ou
     bits_encodeFour c0 c1 c2 c3 bits 2 (by decide),
     bits_encodeFour c0 c1 c2 c3 bits 3 (by decide),List.map_cons,List.map_nil] using! h
 
-#print axioms encoded_frame_geometry
-#print axioms encoded_output_colors
 end F7Manuscript.R21LongWindow.PureRootCoverage

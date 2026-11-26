@@ -35,7 +35,5 @@ theorem fresh_after_relabelled_initial_stem (suffix : List Swap)
     (4, 5) (2, 3) hdisj (by simpa [List.append_assoc] using! hf)
   simpa [List.append_assoc] using! h
 
-#print axioms fresh_after_relabelled_initial_stem
-#print axioms actor_reflection_initial_word
 
 end F7Manuscript.ActualW22CenterOnlyStemFreshReflection

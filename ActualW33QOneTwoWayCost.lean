@@ -90,8 +90,5 @@ theorem q1_floor_of_two_words
       have hbound := q1_bilateral_firstD_n_le_fourteen hq hj hlast W
       omega
 
-#print axioms cuts_reflectChart_to_reflect
-#print axioms q1_reflected_cuts_of_actual_suffixes
-#print axioms q1_floor_of_two_words
 end
 end F7Manuscript.ActualW33QOneTwoWayCost

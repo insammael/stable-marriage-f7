@@ -146,7 +146,6 @@ theorem actual_raw_first_three_scheduled_blocks
     run_tac Lean.logInfo "FIRSTBLOCK_TRACE_SCHEDULED"
     exact ⟨T,H,t3,rfl,S,hmemory⟩
 
-#print axioms actual_raw_first_three_scheduled_blocks
 
 theorem actual_raw_shape_first_block_d2_spacing
     {C : Partition (V := Event I)} [Nonempty (Triple C)]
@@ -310,7 +309,6 @@ theorem actual_raw_shape_first_block_d2_spacing
     exact (X.levels_get 2 hj2X).trans hlevels
   exact ⟨hlevel1,hlevel2⟩
 
-#print axioms actual_raw_shape_first_block_d2_spacing
 
 end
 end F7Manuscript.TripleCoordinateLattice

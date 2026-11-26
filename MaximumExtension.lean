@@ -85,5 +85,4 @@ noncomputable def Presentation.addMaximum (E : Presentation (P.erase v) n)
     (hv : MaximalIn (P : Set V) v) : (E.addMaximum hv).lab (Fin.last n)=v := by
   simp [Presentation.addMaximum]
 
-#print axioms Presentation.addMaximum
 end NeutralCore.SmallSeed

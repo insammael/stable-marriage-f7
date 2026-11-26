@@ -87,6 +87,5 @@ theorem actual_budget_three_entry_sharp
       C h221 h311 hG hT hQ19 hx hout a p j r hb ha e hcost hq
     exact Or.inr ⟨j, r, hb, ha, hrzero, hd, hcharge, hloc⟩
 
-#print axioms actual_budget_three_entry_sharp
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW28R20ActualBudgetEntrySharp

@@ -180,7 +180,6 @@ theorem actual_q2s2_paid_two_support_false
         · exact Or.inr hpa
         · exact Or.inl hpb) hforward hreverse
 
-#print axioms actual_q2s2_paid_two_support_false
 
 end
 end F7Manuscript.ActualW17U3Q2S2PaidTwoSupportActual

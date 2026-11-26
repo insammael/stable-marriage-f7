@@ -345,7 +345,5 @@ theorem actual_ordered_retirement_event_order
   apply actual_ordered_retirement_dual_order_reflecting C h221 h311 hz
   simpa only [Equiv.apply_symm_apply] using! hyx
 
-#print axioms actual_ordered_retirement_dual_order_reflecting
-#print axioms actual_ordered_retirement_event_order
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW29R20RetirementWordOrder

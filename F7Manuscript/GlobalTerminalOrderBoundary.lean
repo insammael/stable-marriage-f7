@@ -102,6 +102,5 @@ theorem global_terminal_order_boundary_exists
     have h := after_two_neighbors_eq_terminalExclusive C t (fun _ => le_top) c hprofile' hy hy2
     exact h.trans (hexc.symm.trans hpair)
 
-#print axioms global_terminal_order_boundary_exists
 end
 end F7Manuscript.TripleCoordinateLattice

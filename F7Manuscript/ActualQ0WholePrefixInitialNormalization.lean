@@ -116,7 +116,6 @@ theorem actual_q0_whole_prefix_normalization_from_first_color
   · simpa only [R, hnorm] using! hmap
   · simpa only [R] using! hinit
 
-#print axioms actual_q0_whole_prefix_normalization_from_first_color
 
 end
 end F7Manuscript.TripleCoordinateLattice

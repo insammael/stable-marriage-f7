@@ -252,9 +252,5 @@ theorem observed_word11_graph419_envelope {W : Type*} [Fintype W] {q : ℕ}
   have hm := source11_cut_maps (perm11.symm a) (perm11.symm b) hc
   simpa only [map11_inverse] using! hm
 
-#print axioms observed_word00_graph419_envelope
-#print axioms observed_word01_graph419_envelope
-#print axioms observed_word10_graph419_envelope
-#print axioms observed_word11_graph419_envelope
 
 end F7Manuscript.ActualW13New98Graph419Envelope

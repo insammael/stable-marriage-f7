@@ -94,6 +94,5 @@ theorem actual_old_row_pool_relabel
     (hdis c0 c1 hne) (hdis c0 c (movingColor_ne _ _))
     (hdis c1 c (movingColor_ne _ _))
 
-#print axioms actual_old_row_pool_relabel
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW28R20OldPoolRelabel

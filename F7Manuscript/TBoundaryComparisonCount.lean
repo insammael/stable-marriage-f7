@@ -57,7 +57,6 @@ theorem seven_edges_of_rectangle : ∀ M : Fin 3 × Fin 3 → Bool,
   rw [heq] at hrow hcol hrect ⊢
   exact six_boolean_seven_edges _ _ _ _ _ _ hrow hcol hrect
 
-#print axioms seven_edges_of_rectangle
 end F7Manuscript.TBoundaryComparisonCount
 
 namespace F7Manuscript.TripleCoordinateLattice
@@ -160,8 +159,5 @@ theorem triple_threshold_outsider_seven_comparisons
       decide_eq_true (ha.trans hc).le,decide_eq_true (ha.trans hd).le,
       decide_eq_true (hb.trans hc).le,decide_eq_true (hb.trans hd).le⟩
 
-#print axioms triple_threshold_outsider_seven_comparisons
-#print axioms triple_threshold_past_below_two_new
-#print axioms triple_threshold_exclusive_reset
 end
 end F7Manuscript.TripleCoordinateLattice

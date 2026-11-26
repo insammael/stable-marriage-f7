@@ -62,6 +62,5 @@ theorem actual_r20_one_G_ternary_short_left_post_q0_count_le_85
   · exact hcount (actual_r20_one_G_ternary_short_left_q2_count_le_85
       C h221 h311 hu hG hT hn hmPre hmPost hqPre (by change (Spre).q + (Spost).q = 2; omega) hlarge)
 
-#print axioms actual_r20_one_G_ternary_short_left_post_q0_count_le_85
 end
 end F7Manuscript.TripleCoordinateLattice.W35TernaryCompat

@@ -80,5 +80,4 @@ theorem initial_one_enters_zero_before_five_receipt
   · simpa [hy0] using! hnewy
   · simpa [hy0] using! hpost1
 
-#print axioms initial_one_enters_zero_before_five_receipt
 end F7Manuscript.ActualW20P6OneOriginEntryZero

@@ -60,5 +60,4 @@ theorem vertex_between_center_and_leaf_is_pair
       dsimp [blockStart] at hhi
       omega
 
-#print axioms vertex_between_center_and_leaf_is_pair
 end F7Manuscript.NormalSkeleton.Chart

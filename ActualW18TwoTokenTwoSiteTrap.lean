@@ -119,7 +119,5 @@ theorem fixedToken_twoTokenTwoSite_noBoundary {F : Rel} {n : ℕ}
     exact fixedTokenSwapTrace_token_stays_in_pool T {a, b} v hvS hpoolV
       e.castSucc e.succ x y hxS hxv (by simp [Fin.val_succ]) hyS hpost
 
-#print axioms fixedToken_twoTokenTwoSite_occupancy
-#print axioms fixedToken_twoTokenTwoSite_noBoundary
 
 end F7Manuscript.PartnerGraph

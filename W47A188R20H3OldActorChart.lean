@@ -52,4 +52,3 @@ theorem actorChart_of_oldPairs
 
 end A131_43
 
-#print axioms A131_43.actorChart_of_oldPairs

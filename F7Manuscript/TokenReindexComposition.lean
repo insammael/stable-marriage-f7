@@ -44,7 +44,5 @@ theorem reindexRun_comp (R : TokenRun Site W q) (e f : Equiv.Perm Site) :
       incomingOrigin (reindexRun R (e.trans f)) t := by
   rw [reindexRun_comp]
 
-#print axioms reindexRun_comp
-#print axioms incomingOrigin_reindexRun_comp
 
 end F7Manuscript.PartnerGraph.Periodic

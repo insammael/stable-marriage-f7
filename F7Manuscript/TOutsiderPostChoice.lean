@@ -108,9 +108,5 @@ theorem row_unused_iff (row : List Atom) (hrow : row.length = 3)
       simpa only [Finset.mem_insert, Finset.mem_singleton, not_or] using! hnot
     exact decide_eq_true_eq.mpr ⟨Ne.symm hne.1, Ne.symm hne.2⟩
 
-#print axioms contextWord_some_eq_append
-#print axioms find_range_eq_of_unique
-#print axioms row_endpoint_has_choice
-#print axioms row_unused_iff
 
 end F7Manuscript.TOutsiderPostChoice

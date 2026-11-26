@@ -266,8 +266,6 @@ theorem actual_X_reverse_shifted_return_root_false
   apply old_return_entry_false carrier entry ?_ hrootPlan
   rw [entry.norm_eq]
 
-#print axioms actual_X_reverse_initial_return_root_false
-#print axioms actual_X_reverse_shifted_return_root_false
 
 end
 end F7Manuscript.ActualW12LegacyReverseReturn

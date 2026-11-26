@@ -164,6 +164,5 @@ theorem all_exteriors_exclude_original (R : TokenRun Site W n) {off len : Nat}
   exact rejected_future_impossible R obs binary off (n-len-off) (off+len) le_rfl (by omega)
     le_rfl (finalNames s) obs.last [] (by intro cell hc; cases hc) hh
 
-#print axioms all_exteriors_exclude_original
 end F7Manuscript.R21NormalEndpoint
 

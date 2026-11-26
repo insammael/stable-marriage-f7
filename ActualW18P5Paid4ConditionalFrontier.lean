@@ -96,6 +96,5 @@ theorem actual_outside_three_frontier_pruned8_paid4_conditional_p5
       exact Or.inr ⟨X,hq,hs,hm,hpaidCount,
         ⟨i,a,b,hab,hpaid,hextra,⟨hi6,ha5,hb7⟩⟩⟩
 
-#print axioms actual_outside_three_frontier_pruned8_paid4_conditional_p5
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW18P5Paid4ConditionalFrontier

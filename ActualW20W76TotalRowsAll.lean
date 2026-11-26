@@ -36,6 +36,4 @@ theorem all_cover_rows_total_valid :
 
 theorem cover_rows_count : coverRows.length = 689 := by decide +kernel
 
-#print axioms all_cover_rows_total_valid
-#print axioms cover_rows_count
 end F7Manuscript.ActualW20W76TotalRowsAll

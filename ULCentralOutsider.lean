@@ -132,10 +132,5 @@ theorem empty_double_support_charged (s1 s2 d e : ℕ)
   rcases h2 with ⟨h20,h22⟩
   interval_cases s1 <;> interval_cases s2 <;> norm_num at * <;> omega
 
-#print axioms central_tail_card_le_one
-#print axioms central_head_card_le_one
-#print axioms central_chain_sum_bound
-#print axioms central_outsider_pair_deficit
-#print axioms empty_double_support_charged
 
 end ConditionalUL

@@ -126,7 +126,5 @@ theorem actual_three_support_excluded
   rw [← hpost_old] at hpast
   exact hpost_not_past hpast
 
-#print axioms post_token_not_in_actual_past
-#print axioms actual_three_support_excluded
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW28R20ThreeSupportExclusion

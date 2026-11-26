@@ -97,6 +97,5 @@ theorem actual_singleton_switch_has_single_leaf_block
     exact hcard
   exact ⟨hdouble, hr0⟩
 
-#print axioms actual_singleton_switch_has_single_leaf_block
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW28R20ActualSingleLeaf

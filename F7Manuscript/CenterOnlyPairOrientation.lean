@@ -158,7 +158,6 @@ theorem supportsRoute_center_only_reorient
   | paired t f tail bits i ht hs₀ hs₁ rest ih =>
       exact False.elim (hcenterOnly (List.mem_cons_self))
 
-#print axioms supportsRoute_center_only_reorient
 
 /-- The token-history freshness predicate is exactly enough to obtain the
 source-plan no-return conclusion for the matching initial-word prefixBits. -/
@@ -196,6 +195,5 @@ theorem noReturn_id_of_fresh_sourcePrefix
   · rcases Finset.mem_singleton.mp hp₂ with rfl
     exact hf.2 heq
 
-#print axioms noReturn_id_of_fresh_sourcePrefix
 
 end F7Manuscript.CenterOnlyPairOrientation

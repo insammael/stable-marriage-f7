@@ -46,7 +46,4 @@ def freshSparseBits : List Nat := [215,177,54,9,0]
 theorem freshSparse_desc : SparseDescending freshSparseBits := by decide +kernel
 theorem freshSparse_value (m : Nat) : sparseAndDiv m freshSparseBits = m &&& sparseMask freshSparseBits :=
  sparseAndDiv_eq m freshSparseBits freshSparse_desc
-#print axioms and_top_bit_div
-#print axioms sparseAndDiv_eq
-#print axioms freshSparse_value
 end F7Manuscript.R21NormalEndpoint.Projection.Snapshots

@@ -87,6 +87,5 @@ theorem p5_actual_residual_event
     p5_singleton_has_residual_event T j hj m b hmmem hbmem hmb
   exact ⟨b, q, harr, hbmem, hq, hqm, hqb⟩
 
-#print axioms p5_actual_residual_event
 
 end F7Manuscript.ActualW20P5ResidualEventActualWrapper

@@ -84,7 +84,6 @@ theorem actual_zero_cost_cut13_same_original_dated
       ((Finset.univ : Finset (Event I)).card - (cutDate Q + 16))
       (by omega)
 
-#print axioms actual_zero_cost_cut13_same_original_dated
 
 end
 

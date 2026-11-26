@@ -481,6 +481,5 @@ theorem actual_oneD_mixed_tail_noReturn
     refine ⟨bits', hbits, ?_⟩
     exact noReturn_of_normalized_mixed_word_fresh tail bits' oldRev dRev q hq hbits hfCanon
 
-#print axioms actual_oneD_mixed_tail_noReturn
 end
 end F7Manuscript.ActualOneDMixedTailNoReturnActual

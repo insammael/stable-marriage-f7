@@ -221,13 +221,7 @@ theorem actual_short_wing_two_fixed_rows_tokens
   obtain ⟨ah,haK⟩ := Finset.mem_erase.mp ha'
   exact marked_row_token_fixed_on_short_wing R K h origin a hh ho haK ah ao binary noOffdiag charged
 
-#print axioms actual_short_wing_two_fixed_rows_tokens
 
-#print axioms marked_row_backward_step
-#print axioms marked_row_token_fixed_on_short_wing
 
-#print axioms actual_cell_between_equal
-#print axioms actual_pool_no_offdiag_before
-#print axioms six_prefix_all_charged
 end
 end F7Manuscript.R21LongWindow.FourPoolCapacity

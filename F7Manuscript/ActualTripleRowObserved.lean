@@ -91,7 +91,5 @@ noncomputable def actual_triple_row_observed
     (actual_triple_row_initial_frontier_past R e L hsupport horder row hanti
       k hklabel hkSupport t hkcut hdom)
 
-#print axioms actual_triple_row_initial_frontier_past
-#print axioms actual_triple_row_observed
 end
 end F7Manuscript.PartnerGraph.Sized

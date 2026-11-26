@@ -43,6 +43,5 @@ theorem inactive_survivors_preserved
     rw [← hout]
     exact hpre
 
-#print axioms inactive_survivors_preserved
 end
 end F7Manuscript.ActualW28R20InactiveSurvivors

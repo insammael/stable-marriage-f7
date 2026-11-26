@@ -77,7 +77,6 @@ theorem a32_same_boundary_actual_post_charge_step
 
   omega
 
-#print axioms a32_same_boundary_actual_post_charge_step
 
 end
 end F7Manuscript.TripleCoordinateLattice

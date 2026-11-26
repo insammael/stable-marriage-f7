@@ -30,6 +30,4 @@ theorem zero_s_no_ABA (S : Chart) (hs : S.s=0) (j : Fin S.m)
       (0<S.double j ∨ S.naturalWord (j.val-1)=S.naturalWord (j.val+1)))).card=0 at hs
   exact (Finset.notMem_empty j) ((Finset.card_eq_zero.mp hs) ▸ mem)
 
-#print axioms mass_five_low_fee
-#print axioms zero_s_no_ABA
 end F7Manuscript.TripleCoordinateLattice.R21OneGHandScore

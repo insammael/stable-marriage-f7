@@ -85,7 +85,5 @@ theorem actual_T_pre_context_retired_nat_support
   rw [hpair,Finset.map_insert,Finset.map_singleton]
   rfl
 
-#print axioms actual_T_old_context_row_order
-#print axioms actual_T_pre_context_retired_nat_support
 end
 end F7Manuscript.TripleCoordinateLattice

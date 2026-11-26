@@ -90,6 +90,5 @@ theorem fourth_other_center_supports_forbidden
       k3 hfinish recv origin hrecv
   exact hspent hpost
 
-#print axioms fourth_other_center_supports_forbidden
 end
 end F7Manuscript.ActualW28R20FourthOtherObstruction

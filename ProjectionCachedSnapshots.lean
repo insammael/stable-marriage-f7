@@ -81,6 +81,4 @@ theorem keep_projected_of_peer
  have mem : liveIn allowed py=true := by simpa only [hpy] using hp
  simpa only [hpx,eq,mem,Bool.not_true,Bool.false_or] using hq
 
-#print axioms projection_correct_of_check
-#print axioms keep_projected_of_peer
 end F7Manuscript.R21NormalEndpoint.Projection.Snapshots

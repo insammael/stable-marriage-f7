@@ -70,5 +70,4 @@ theorem p5_residual_event_non_special_swap
     exact ⟨T.rightSite q,T.left q,t,hyS,hxS,(T.distinct q).symm,hLnotJ,
       Or.inr ⟨rfl,rfl⟩,hR,rfl,hpostR,hpostL⟩
 
-#print axioms p5_residual_event_non_special_swap
 end F7Manuscript.ActualW20P5ResidualNonSpecialSwap

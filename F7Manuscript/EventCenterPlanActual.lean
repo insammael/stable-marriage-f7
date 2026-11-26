@@ -78,9 +78,6 @@ theorem actual_reverse_center_plan (H : FrontierChart I m) (hm : 2 ≤ m)
   refine ⟨a, bits, h0, h1, hb, ?_⟩
   simpa only [hw] using! hr
 
-#print axioms normalized_plan_of_cut
-#print axioms actual_forward_center_plan
-#print axioms actual_reverse_center_plan
 
 end
 end F7Manuscript.EventCenterPlanActual

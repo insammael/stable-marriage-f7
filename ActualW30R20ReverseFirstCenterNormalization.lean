@@ -130,6 +130,5 @@ theorem actual_reverse_first_center_normalized_frame
     · simpa [cNext] using! hρNext
     · simpa [cPrev] using! hpoolUnion
 
-#print axioms actual_reverse_first_center_normalized_frame
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW30R20ReverseFirstCenterNormalization

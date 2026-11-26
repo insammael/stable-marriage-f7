@@ -28,5 +28,4 @@ theorem two_seed_no_singleton_upset : ∀ s ∈ twoSeeds,
   unfold upsetOn
   decide +kernel
 
-#print axioms two_seed_no_singleton_upset
 end NeutralCore.SmallSeed

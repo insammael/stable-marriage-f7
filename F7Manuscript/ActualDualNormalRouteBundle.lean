@@ -328,9 +328,6 @@ theorem dual_normal_center_rowsMatch_actual
     simpa [F7Local.afterCenter, F7Local.put] using! hchoice
   · simp [hd, F7Local.afterCenter, F7Local.put, hrow d]
 
-#print axioms dual_center_support_frame_choice
-#print axioms dual_normal_center_frame_choice
-#print axioms dual_normal_center_rowsMatch_actual
 
 end
 end F7Manuscript.ActualDualCenterFrameChoice
@@ -843,10 +840,6 @@ theorem dual_normal_paired_route_exists
       intro c
       simpa only [hidx] using! hg c
 
-#print axioms dual_normal_paired_support_frame_choice
-#print axioms dual_normal_paired_rowsMatch_actual
-#print axioms dual_normal_paired_state_valid
-#print axioms dual_normal_paired_route_exists
 
 end
 end F7Manuscript.ActualDualPairedFrameChoice
@@ -1022,16 +1015,6 @@ theorem routeSideOrderAt_step_suffix {j : Fin (normalBlockCount B)}
   exact routeSideOrder_step_succ cross label hlast hrow hnext rest
     ⟨k.val - (start+1), by omega⟩
 
-#print axioms routeSideOrder
-#print axioms routeSideOrderFamily
-#print axioms labelOrder_first_second
-#print axioms routeSideOrder_step
-#print axioms routeSideOrderAt
-#print axioms routeFrameAt
-#print axioms routeSideOrder_step_succ
-#print axioms routeFrameAt_step_zero
-#print axioms routeFrameAt_step_succ
-#print axioms routeSideOrderAt_step_suffix
 
 end F7Manuscript.ActualDualRouteSideOrder
 /-! END VERBATIM OWNER F7Manuscript.ActualDualRouteSideOrder -/
@@ -1114,7 +1097,6 @@ theorem dual_normal_block_route_exists
     simpa only [Nat.zero_add] using! hrowEnd
   exact ⟨bit,g,hcenterRow,hroute,hrowEnd',hvEnd,hlastEnd⟩
 
-#print axioms dual_normal_block_route_exists
 
 end
 end F7Manuscript.ActualDualNormalBlockTrace
@@ -1295,9 +1277,6 @@ theorem dual_normal_actual_block_trace
   intro r s
   exact dual_normal_actual_pair_support Q hQ B h221 h311 hz a p j r s
 
-#print axioms dual_normal_actual_center_support
-#print axioms dual_normal_actual_pair_support
-#print axioms dual_normal_actual_block_trace
 
 end
 end F7Manuscript.ActualDualNormalRunBlockSupports
@@ -1372,8 +1351,6 @@ theorem dual_normal_component_boundary_value
       normalRowValue B h221 h311 hz ⟨j.val + 1, hj⟩ 0 c := by
   rw [GenericNormal.componentValue_block_start B h221 h311 hz ⟨j.val + 1, hj⟩]
 
-#print axioms dual_normal_block_boundary_rowsMatch
-#print axioms dual_normal_component_boundary_value
 
 end
 end F7Manuscript.ActualDualNormalBlockContinuation
@@ -1509,7 +1486,6 @@ theorem dual_normal_first_pair_supports
   · exact hrunSecond.trans
       (hnext' (movingColor (normalCenterColor B h221 h311 hz j) sSecond))
 
-#print axioms dual_normal_first_pair_supports
 
 end
 end F7Manuscript.ActualDualNormalFirstPair
@@ -1684,7 +1660,6 @@ theorem dual_normal_route_actual_supports
           have hrest' := hrest i'
           simpa only [hindex, routeFrameAt_step_succ, Fin.val_succ] using! hrest'
 
-#print axioms dual_normal_route_actual_supports
 
 end
 end F7Manuscript.ActualDualNormalRouteSchedule
@@ -1826,7 +1801,6 @@ theorem dual_normal_actual_block_support_schedule
     · simpa only [Nat.zero_add] using! hsecond
   exact ⟨bit, g, H, hcenterRow, hrowEnd, hvEnd, hlastEnd, p, hp, hsched'⟩
 
-#print axioms dual_normal_actual_block_support_schedule
 
 end
 end F7Manuscript.ActualDualNormalBlockActualTrace
@@ -1975,8 +1949,6 @@ theorem dual_normal_block_segment_exists
           (h221 := h221) (h311 := h311) (hz := hz)
           hj block hboundary tail⟩⟩
 
-#print axioms dual_normal_block_execution_exists
-#print axioms dual_normal_block_segment_exists
 
 end
 end F7Manuscript.ActualDualNormalBlockSegment
@@ -2459,8 +2431,6 @@ theorem dualNormalBlockSegmentRunSchedule_supportsRoute {W : Type*} [Fintype W]
       simpa [dualSegmentPlan, dualSegmentControls, blockPlan] using!
         (supportsRoute_append H0 hrest')
 
-#print axioms dualNormalBlockRunSchedule_supportsRoute
-#print axioms dualNormalBlockSegmentRunSchedule_supportsRoute
 
 end
 end
@@ -2959,11 +2929,6 @@ theorem dual_actual_segment_route_exists
   · exact dual_actual_segment_supportsRoute Q hQ B h221 h311 hz hQ' a p H hb
       (by intro k hklo hkhi r; rfl)
 
-#print axioms dual_actual_paired_run_schedule
-#print axioms dual_actual_normal_block_run_schedule
-#print axioms dual_actual_segment_run_schedule
-#print axioms dual_actual_segment_supportsRoute
-#print axioms dual_actual_segment_route_exists
 
 end
 end
@@ -3037,7 +3002,6 @@ theorem dual_normal_segment_plan_eq_mixedPlanFrom {n : Nat}
           rw [ih]
           simp [dualNormalPlanWord, dualNormalPlanLevels, hj]
 
-#print axioms dual_normal_segment_plan_eq_mixedPlanFrom
 
 end
 end
@@ -3091,7 +3055,6 @@ theorem supportsRoute_rebase {W : Type*} [Fintype W] {q : Nat}
     SupportsRoute R t f plan (fun k => bits (k+offset)) i := by
   exact supportsRoute_rebase_at H offset i rfl
 
-#print axioms supportsRoute_rebase
 
 end
 end F7Manuscript.SupportsRouteControlRebase
@@ -3200,7 +3163,6 @@ theorem dual_actual_segment_from_row_exists
     Q hQ B h221 h311 hz hn hQ a n j f hb hv hrows
   exact ⟨f,hv,hrows,g,H,p,hside,hroute⟩
 
-#print axioms dual_actual_segment_from_row_exists
 
 end
 end
@@ -3531,8 +3493,6 @@ theorem actual_dual_normal_postcenter_route
       actual_dual_normal_postcenter_route_with_schedule Q hQ B h221 h311 hz hn hm
   exact ⟨R, word, levels, m, bits, hm', hword, hlevels, h0, h1, h2, h3, hroute⟩
 
-#print axioms actual_dual_normal_postcenter_route
-#print axioms actual_dual_normal_postcenter_route_with_schedule
 
 end
 end F7Manuscript.ActualDualNormalPostCenterRoute
@@ -3622,7 +3582,6 @@ theorem actual_dual_normal_mixed_plan_noReturn
     dualNormalPlanLevels Q B h221 h311 hz, Classical.choose hnr,
     Classical.choose_spec hnr⟩
 
-#print axioms actual_dual_normal_mixed_plan_noReturn
 
 end
 end
@@ -3782,7 +3741,6 @@ theorem dualNormalSegment_first_three_scheduled_blocks
                   dsimp -failIfUnchanged only [j₁]
                   omega
 
-#print axioms dualNormalSegment_first_three_scheduled_blocks
 
 end
 end

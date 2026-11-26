@@ -112,7 +112,6 @@ theorem norm3_mixed_tail_route
       intro i hi
       simpa using! hprefix i hi
 
-#print axioms norm3_mixed_tail_route
 
 end
 end F7Manuscript.ActualW9Norm3MixedTailRoute

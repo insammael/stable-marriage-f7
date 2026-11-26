@@ -39,7 +39,5 @@ theorem sum_normalRunPriorCross_eq_succ :
   rw [normalRunPriorCross_zero C E]
   simp
 
-#print axioms normalRunPriorCross_zero
-#print axioms sum_normalRunPriorCross_eq_succ
 end
 end F7Manuscript.TripleCoordinateLattice

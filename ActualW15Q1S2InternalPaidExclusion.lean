@@ -219,7 +219,6 @@ theorem actual_X_q1_s2_internal_paid_false
     W D X.m i a hm hWlen hDlen hiBounds.1 hiBounds.2 haBounds.1 haBounds.2 hne
     hiD hDint hpivSub haPiv hforward hreverse
 
-#print axioms actual_X_q1_s2_internal_paid_false
 
 end
 end ActualW15Q1S2InternalPaidExclusion

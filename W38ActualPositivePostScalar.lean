@@ -72,6 +72,5 @@ theorem actual_positive_post_scalar_residual
     Spre Spost hmPre hsize hbudget hqPos A
   exact hres
 
-#print axioms actual_positive_post_scalar_residual
 end
 end F7Manuscript.TripleCoordinateLattice.W38ActualPositivePostScalar

@@ -148,10 +148,6 @@ def segmentSideOrder {n : Nat} {j : Fin (normalBlockCount B)}
         exact blockSideOrder Q B h221 h311 hz block r
       else segmentSideOrder tail j' r
 
-#print axioms segment_plan_eventCount
-#print axioms segment_controls_length
-#print axioms segment_controls_length_eq_plan
-#print axioms segmentSideOrder
 
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW33RContextBlockSegmentExtraction

@@ -90,7 +90,6 @@ def raw_colored_cut_of_center_route
       simpa only [Fin.val_mk, htime, pairSupport] using!
         hroute.trans (congrArg pairSupport hpair)
 
-#print axioms raw_colored_cut_of_center_route
 
 end
 end F7Manuscript.TripleCoordinateLattice

@@ -70,8 +70,6 @@ theorem old276_entry_oriented_fit_false
   exact actual_X_any_return_root_oriented_source_false C hn hδ h221 h311 hG hT X
     entry (legacy_return_root_color_facts_of_mem entry hentry) dual j hfit
 
-#print axioms legacy_return_root_color_facts_of_mem
-#print axioms old276_entry_oriented_fit_false
 #eval IO.eprintln "W12 legacy OLD-276 actual adapter checked"
 
 end

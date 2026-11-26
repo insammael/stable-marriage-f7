@@ -52,5 +52,4 @@ theorem actual_BAA_center_word_false
       rw [hh.1]
       exact h4)
 
-#print axioms actual_BAA_center_word_false
 end F7Manuscript.ActualW20P6BAAClosure

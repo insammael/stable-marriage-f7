@@ -231,9 +231,6 @@ theorem subsetNormalSegmentPlan_eq_mixedPlanFrom {n : ℕ}
         GenericNormal.ActualMixedBlockData.toNormalSkeleton,
         NormalSkeleton.Chart.naturalWord, NormalSkeleton.Chart.naturalLevels, j.isLt]
 
-#print axioms subsetNormalSegmentControls_length
-#print axioms subsetNormalBlockSegmentRunSchedule_supportsRoute
-#print axioms subsetNormalSegmentPlan_eq_mixedPlanFrom
 
 end
 end F7Manuscript.TripleCoordinateLattice

@@ -337,7 +337,6 @@ theorem actual_arbitrary_offset_zero_d1_next_d2_eq_zero
                 R pf₂ hpairValid c1 hc1pf b₁ b₂ Wnew c2 hC2color
                 route₂ pairs₂ hd2pos' (center := n₂) rfl hcenterStart₂ hcenter2 hpastRoute
 
-#print axioms actual_arbitrary_offset_zero_d1_next_d2_eq_zero
 
 end
 end F7Manuscript.TripleCoordinateLattice

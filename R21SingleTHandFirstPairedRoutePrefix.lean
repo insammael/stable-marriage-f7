@@ -153,6 +153,5 @@ theorem firstPaired_from_route (R : TokenRun Site W q)
    · exact hlv.trans hlu
    · simpa only [i,Nat.add_assoc] using! rest
 
-#print axioms firstPaired_from_route
 end
 end F7Manuscript.R21SingleTHand

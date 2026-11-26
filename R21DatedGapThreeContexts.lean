@@ -47,6 +47,4 @@ theorem gap_three_interior_anywhere (interior : GapThreeInteriorRule)
   apply interior S _ _ bound' (p.perm a) (p.perm b) (p.perm c) (p.perm d) (p.perm e) (p.perm f) (p.perm g)
     (recolorPlan p tail) _ (by simpa only [recolorPlan,recolorMove,List.map_cons] using! P) bin
 
-#print axioms no_gap_three_both_right_anywhere
-#print axioms gap_three_interior_anywhere
 end F7Manuscript.R21LongWindow.PairedSubpatterns

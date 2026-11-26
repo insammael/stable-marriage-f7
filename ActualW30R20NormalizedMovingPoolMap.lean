@@ -48,6 +48,4 @@ theorem normalization_preserves_actual_moving_pool
   rw [moving_pool_eq_two_other_colors f cOld cNext (ρ.symm 1) hno hto htn.symm]
   exact hpool
 
-#print axioms moving_pool_eq_two_other_colors
-#print axioms normalization_preserves_actual_moving_pool
 end F7Manuscript.ActualW30R20NormalizedMovingPoolMap

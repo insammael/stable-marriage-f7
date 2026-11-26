@@ -43,6 +43,5 @@ def W0L7Word : List Pair :=
 def W0L8Word : List Pair :=
   [(0,1), (2,3), (4,5), (0,6), (2,1), (4,3), (6,5), (3,0), (5,4), (1,6), (3,2), (1,0), (5,6), (2,4)]
 
-#print axioms window0_eventCount
 
 end F7Manuscript.ActualW16Window0Plan

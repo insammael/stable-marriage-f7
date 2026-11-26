@@ -254,8 +254,5 @@ theorem carrier_p6_future_bound
   simp [t] at htail
   omega
 
-#print axioms p6ObservedWord_prefixFresh_eq_graph
-#print axioms carrier_has_observed_p6_prefix
-#print axioms carrier_p6_future_bound
 
 end F7Manuscript.ActualW18P6ObservedAdapter

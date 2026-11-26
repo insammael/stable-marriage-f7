@@ -75,7 +75,6 @@ theorem group_interval_actual_window_of_full_word (C : Chart) (f : SupportFrame)
   simpa only [full_normal_word_eq_raw S positive] using! hY'
  exact raw_normal_word_has_actual_window S positive f1 f1valid a _ _ Y _ _ hraw
 
-#print axioms group_interval_actual_window_of_full_word
 end
 end F7Manuscript.R21PhysicalWindowWords
 
@@ -102,6 +101,5 @@ theorem actual_group_interval_window {length : Nat} (C : Chart)
  exact group_interval_actual_window_of_full_word C (canonicalFrame 0) canonical_seed_valid
   A.colorPerm (prependBit false A.bits) R pre post hR start n positive bound
 
-#print axioms actual_group_interval_window
 end
 end F7Manuscript.R21PhysicalWindowWords

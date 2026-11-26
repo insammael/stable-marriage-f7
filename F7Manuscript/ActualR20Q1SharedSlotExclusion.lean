@@ -123,7 +123,6 @@ theorem SixRectangleHistory.excluded_of_ordered_middle
   · exact hN3 h
   · exact hN4ne h
 
-#print axioms SixRectangleHistory.excluded_of_ordered_middle
 end
 end F7Manuscript.ActualGlobalCoverAssembly
 
@@ -168,9 +167,7 @@ theorem r20_q1_both_internal_count_le_85
   have hsat := r20_two_outsider_q1_bad_count_saturation C h221 h311 hG hT hn hu hcharge hq hbad
   exact r20_q1_both_internal_charge_four_excluded C h221 h311 hG hT hq hu hsat.2.2.2.1 hint
 
-#print axioms r20_q1_both_internal_count_le_85
 
-#print axioms r20_q1_both_internal_charge_four_excluded
 end
 end F7Manuscript.TripleCoordinateLattice
 

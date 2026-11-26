@@ -145,6 +145,5 @@ theorem actual_macro_whole_chronology_points
     have hsub : P.card+2+i.val-U.card = i.val := by rw [hUcard]; omega
     simpa [concatenateMap,hge,hsub] using! ht
 
-#print axioms actual_macro_whole_chronology_points
 end
 end F7Manuscript.TripleCoordinateLattice

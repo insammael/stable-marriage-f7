@@ -66,4 +66,3 @@ end
 
 end F7Manuscript.ConvexExecution
 
-#print axioms F7Manuscript.ConvexExecution.convex_window_whole_state

@@ -203,8 +203,6 @@ theorem actual_zero_cost_cut14_same_original_contradiction
   exact normalized_original_cut14_contradiction
     Q hQ17 EStar hcard20 hdate alpha Cut hCutCanonical
 
-#print axioms normalized_original_cut14_contradiction
-#print axioms actual_zero_cost_cut14_same_original_contradiction
 
 end
 

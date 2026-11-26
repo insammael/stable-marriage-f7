@@ -120,7 +120,5 @@ theorem reduced_support_separation {P : Finset V} (hClass : PairClass (V:=V))
   · have hTR : T=R := Subtype.ext (hT.trans hR'.symm)
     exact hCD (hTC.symm.trans ((congrArg (graph P).connectedComponentMk hTR).trans hRD))
 
-#print axioms reduced_triples_boundary
-#print axioms reduced_support_separation
 end ActualOverlap
 end NeutralCore

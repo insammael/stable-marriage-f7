@@ -35,9 +35,5 @@ theorem actual_mass16_cost_seven {length : Nat} (C : Chart)
 theorem physical_mass16_overlap_ledgers : PhysicalMass16OverlapLedgers :=
  physical_mass16_overlap_ledgers_of_D2 canonical_double_pair_excluded
 
-#print axioms canonical_double_pair_excluded
-#print axioms actual_mass15_cost_six
-#print axioms actual_mass16_cost_seven
-#print axioms physical_mass16_overlap_ledgers
 end
 end F7Manuscript.R21PhysicalWindowWords

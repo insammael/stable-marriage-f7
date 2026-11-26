@@ -167,6 +167,5 @@ theorem actual_T_context_word_of_supports
   refine ⟨G,?_⟩
   simpa only [← hword] using! hreal
 
-#print axioms actual_T_context_word_of_supports
 end
 end F7Manuscript.TripleCoordinateLattice

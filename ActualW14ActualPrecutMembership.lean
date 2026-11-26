@@ -93,7 +93,6 @@ theorem actual_X_mem_runVariantPrecut
   rw [← hcolors', ← hcost] at hmem
   simpa [W, D, b] using! hmem
 
-#print axioms actual_X_mem_runVariantPrecut
 
 end
 end W14ActualPrecutMembership

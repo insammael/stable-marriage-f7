@@ -151,6 +151,5 @@ theorem actual_binary_singleton_typeV_whole_case_false
     R hq20 Spre Spost a b g0 g1 hmS hmT ha hqPost hbudget hsize hne
     (Classical.choice hpacket)
 
-#print axioms actual_binary_singleton_typeV_whole_case_false
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW35BinarySingletonTypeVWholeCase

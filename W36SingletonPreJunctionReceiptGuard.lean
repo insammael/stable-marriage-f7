@@ -126,5 +126,4 @@ theorem singleton_pre_junction_return_false
   exact three_actor_return_interval_false R u i l 0 1 6 hui hil (by decide)
     (by decide) (by decide) hOld hmem0 hmem1 hFirst haway nextBit hLast
 
-#print axioms singleton_pre_junction_return_false
 end F7Manuscript.W36SingletonPreJunctionReceiptGuard

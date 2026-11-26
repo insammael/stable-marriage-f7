@@ -151,13 +151,6 @@ theorem actual_post_reverse_original_labels {Q : Finset (Event I)}
   · exact hevent.trans (hD i.rev)
   · exact hsupport.trans (congrArg (support I) (hD i.rev))
 
-#print axioms reverseEnumeration
-#print axioms forwardOfDual_reverseEnumeration
-#print axioms original_actual_run_unchanged
-#print axioms actual_reverse_support_clock
-#print axioms reverseBlockIndex_rev
-#print axioms actual_post_reverse_clock
-#print axioms actual_post_reverse_original_labels
 
 end
 

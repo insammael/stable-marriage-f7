@@ -61,4 +61,3 @@ theorem supportsRoute_split
 
 end F7Manuscript.W36SupportsRouteSplit
 
-#print axioms F7Manuscript.W36SupportsRouteSplit.supportsRoute_split

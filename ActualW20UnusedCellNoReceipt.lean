@@ -30,5 +30,4 @@ theorem fixedTokenUnusedRelationCells_no_receipt
     · exact h.symm
     · simpa [h] using! hnew
 
-#print axioms fixedTokenUnusedRelationCells_no_receipt
 end F7Manuscript.PartnerGraph

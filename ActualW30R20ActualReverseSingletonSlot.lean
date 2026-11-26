@@ -120,7 +120,6 @@ theorem actual_singleton_reverse_insertion_slot
     exact hnot (hxq.trans hcV)
   exact ⟨k, hkval, hbefore, hafter⟩
 
-#print axioms actual_singleton_reverse_insertion_slot
 
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW30R20ActualReverseSingletonSlot

@@ -339,9 +339,6 @@ theorem actual_X_u3_q0s4_quad347k_min_le_one_false
     h221 h311 hG hT X (by rw [hm15]; omega) hmin
     (by simpa [W] using! hnorm) (by simpa [D] using! hD11)
 
-#print axioms actual_X_window0_root11_min_endpoint_le_one_false
-#print axioms actual_X_u3_cost_three_pivots347_min_endpoint_le_one_false
-#print axioms actual_X_u3_q0s4_quad347k_min_le_one_false
 
 end
 end F7Manuscript.ActualW17Window0GenericActualCaller

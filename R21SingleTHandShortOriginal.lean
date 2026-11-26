@@ -87,6 +87,5 @@ theorem ordered_crown_short_unpaired_impossible {n m : ℕ} {S T : NormalSkeleto
   · exact oriented_short_unpaired_impossible (oriented_swap_ordered R hn hm) hm hn (by omega) hs hzT hzS
   · exact oriented_short_unpaired_impossible (oriented_of_ordered R hn hm) hn hm hsum ht hzS hzT
 
-#print axioms ordered_crown_short_unpaired_impossible
 end
 end F7Manuscript.R21SingleTHand

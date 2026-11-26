@@ -38,6 +38,4 @@ theorem q_two_forces_other_doubles_zero_or_one
   have hle := q_two_bounds_other_doubles S hq j hj r hrj
   omega
 
-#print axioms q_two_bounds_other_doubles
-#print axioms q_two_forces_other_doubles_zero_or_one
 end F7Manuscript.TripleCoordinateLattice.ActualW30R20QTwoOtherLevels

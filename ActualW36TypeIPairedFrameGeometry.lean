@@ -234,5 +234,4 @@ theorem typeI_paired_frame_factorization
         true true hleft hright
 
 
-#print axioms typeI_paired_frame_factorization
 end F7Manuscript.ActualW36TypeIPairedFrameGeometry

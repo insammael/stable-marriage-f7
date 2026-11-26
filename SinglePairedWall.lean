@@ -232,12 +232,5 @@ theorem WallMemory.general_fifth_blocked {t : Matching} {past : Past}
       tokenSwap] at fresh
     exact fresh bad
 
-#print axioms WallMemory.general_second_forced
-#print axioms WallMemory.general_fourth_forced
-#print axioms WallMemory.general_fifth_blocked
 
-#print axioms WallMemory.second_forced
-#print axioms WallMemory.fourth_forced
-#print axioms WallMemory.fifth_blocked
-#print axioms single_paired_cyclic_five_impossible
 end F7Paired

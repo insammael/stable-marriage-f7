@@ -38,5 +38,4 @@ theorem pivotsOf_macroColors (P : Finset Nat) (m : Nat)
       simpa only [show p-1+1=p by omega] using! hp)
     simpa only [show p-1+2=p+1 by omega] using! h
 
-#print axioms pivotsOf_macroColors
 end F7Manuscript.ActualW21MacroPivotInverse

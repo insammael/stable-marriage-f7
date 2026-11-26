@@ -35,7 +35,5 @@ theorem reflect_eq_reflectChart (S : Chart) :
       · apply heq_of_eq
         funext j
         exact congrArg double (mirrorIndex_eq_finRev m j)
-#print axioms mirrorIndex_eq_finRev
-#print axioms reflect_eq_reflectChart
 
 end F7Manuscript.ActualW33ReflectionChartCompat

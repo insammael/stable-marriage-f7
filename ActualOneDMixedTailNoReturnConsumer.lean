@@ -117,6 +117,5 @@ theorem noReturn_of_normalized_mixed_word_fresh
   exact noReturn_id_of_fresh_sourcePrefix (Move.paired :: Move.center 1 :: tail)
     bits hfSource'
 
-#print axioms noReturn_of_normalized_mixed_word_fresh
 end
 end F7Manuscript.ActualOneDMixedTailNoReturnConsumer

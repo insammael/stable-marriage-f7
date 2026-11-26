@@ -408,9 +408,6 @@ theorem actual_X_p478_offset1_min_endpoint_zero_false
     omega
 
 
-#print axioms actual_X_p478_offset1_forward_p367_carrier_generic
-#print axioms actual_X_p478_offset1_reverse_p367_carrier_generic
-#print axioms actual_X_p478_offset1_min_endpoint_zero_false
 
 end
 end F7Manuscript.ActualW16P478Offset1Generic

@@ -135,6 +135,5 @@ theorem g22_future_length_le_four {F : Rel} {n : ℕ}
     (by intro F' m h e; have h0 := after35_bound h e; omega)
     (by intro F' m h e; exact after56_bound h e)
 
-#print axioms g22_future_length_le_four
 
 end F7Manuscript.ActualW13G22HandBound

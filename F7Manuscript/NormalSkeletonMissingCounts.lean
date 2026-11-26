@@ -71,7 +71,6 @@ theorem centerMissing_eq_card (C : Chart) (j : Fin C.m) :
   simp [reachMask, MaskCount.ubit_maskFrom, MaskCount.retired_maskFrom,
     blockStart, chronologicalIndex, centerVertex]
 
-#print axioms centerMissing_eq_card
 
 theorem pairMissing_eq_card (C : Chart) (j : Fin C.m) (k : Fin (C.double j)) :
     NormalMaskCounter.pairMissing (C.center j)
@@ -109,7 +108,5 @@ theorem pair_second_missing_card (C : Chart) (j : Fin C.m) (k : Fin (C.double j)
   rw [hbefore, Finset.filter_insert, if_pos hP]
   exact Finset.card_insert_of_notMem hnot
 
-#print axioms pairMissing_eq_card
-#print axioms pair_second_missing_card
 end
 end F7Manuscript.NormalSkeleton.Chart

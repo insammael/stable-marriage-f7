@@ -121,7 +121,6 @@ theorem actual_outside_three_surviving_query_key5_cover_packet
     exact hnot
   exact ⟨X,k,hmem5,r,hu,hq,hs,hm,hr,hri,hvalid,hW,hD,hsk,huk,hvk⟩
 
-#print axioms actual_outside_three_surviving_query_key5_cover_packet
 
 end
 end F7Manuscript.ActualW21OutsideThreeAfterSelected30

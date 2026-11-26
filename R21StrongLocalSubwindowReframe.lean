@@ -28,6 +28,5 @@ theorem realized_prefix_reseed
    Y.state t=R.state t) := by
  exact (plan_reframe f valid part bits i).realizes_context_boundaries pre post R hR
 
-#print axioms realized_prefix_reseed
 end
 end F7Manuscript.R21StrongLocal

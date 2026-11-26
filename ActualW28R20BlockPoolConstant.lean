@@ -140,9 +140,6 @@ theorem actual_leaf_moving_support_subset_initial_pool
   rw [hrowValue] at hrow
   simpa [center] using! hrow
 
-#print axioms actual_moving_pool_constant
-#print axioms actual_moving_row_support_subset_initial_pool
-#print axioms actual_leaf_moving_support_subset_initial_pool
 
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW28R20BlockPoolConstant

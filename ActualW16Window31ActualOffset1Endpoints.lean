@@ -273,9 +273,6 @@ theorem actual_X_u4_cost_three_pivots1310_min_endpoint_zero_false
       exact actual_X_window31_pivots1310_reverse_false C hn hδ h221 h311 hG hT X
         (by omega) hbefore ha hP hlevelsZero
 
-#print axioms actual_X_window31_reverse_offset1_carrier
-#print axioms actual_X_window31_pivots1310_reverse_false
-#print axioms actual_X_u4_cost_three_pivots1310_min_endpoint_zero_false
 
 end
 end F7Manuscript.ActualW16Window31ActualOffset1Endpoints

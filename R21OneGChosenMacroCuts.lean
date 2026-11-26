@@ -65,7 +65,6 @@ theorem r21_single_G_cuts_at_chosen_macro
     dsimp -failIfUnchanged only
     rw [hL1, hR1]
 
-#print axioms r21_single_G_cuts_at_chosen_macro
 
 end
 end F7Manuscript.TripleCoordinateLattice

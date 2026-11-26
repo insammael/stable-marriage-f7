@@ -139,8 +139,5 @@ theorem r20_q0_core_boundary_attach
     exact ⟨i, Finset.mem_sdiff.mpr ⟨Finset.mem_univ _, hout⟩,
       Or.inl (show L - 1 + 1 = L by omega), ConvexCoverCycle.run_donor_cycle I U hU H i⟩
 
-#print axioms normalCore_q0_outsider_constant_sign
-#print axioms normalCore_q0_convex
-#print axioms r20_q0_core_boundary_attach
 end
 end F7Manuscript.TripleCoordinateLattice

@@ -81,9 +81,4 @@ theorem centerWord_entries_allowed (T : FixedTokenSwapTrace (graphRel p6G0) 11) 
   rcases List.mem_map.mp hx with ⟨k,hk,rfl⟩
   exact centerToken_allowed T ((Finset.mem_sort (fun a b => a ≤ b)).mp hk)
 
-#print axioms centerToken_injective_on_events
-#print axioms centerToken_allowed
-#print axioms centerWord_nodup
-#print axioms centerWord_length
-#print axioms centerWord_entries_allowed
 end F7Manuscript.ActualW19P6CenterWord

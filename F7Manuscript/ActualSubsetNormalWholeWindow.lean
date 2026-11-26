@@ -123,8 +123,6 @@ theorem subsetNormal_whole_window_exists
   exact subsetNormal_whole_window Q hQ B h221 h311 hz hn hm T
     (subsetNormal_actual_route Q hQ B h221 h311 hz hm T)
 
-#print axioms subsetNormal_whole_window
-#print axioms subsetNormal_whole_window_exists
 
 end
 end F7Manuscript.TripleCoordinateLattice

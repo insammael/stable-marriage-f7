@@ -115,6 +115,5 @@ theorem emptyBoundary_G_no_fixed_past
     simpa only [w,wcoord,dif_pos rfl] using! he
   exact hxlt.not_ge hcx
 
-#print axioms emptyBoundary_G_no_fixed_past
 end
 end F7Manuscript.TripleCoordinateLattice

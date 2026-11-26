@@ -138,7 +138,6 @@ theorem original_selected_13_1_dating_obstruction
   exact hfinish EStar hdated
     (by simpa only [Finset.card_univ] using! hR20) hd
 
-#print axioms original_selected_13_1_dating_obstruction
 
 end
 

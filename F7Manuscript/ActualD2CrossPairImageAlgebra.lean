@@ -83,7 +83,5 @@ theorem image_of_ordered_45_23 (e : Equiv.Perm Site) (g : SupportFrame)
       _ = ({5,2} : Finset Site) := pairSupport_map_ordered e _ 5 2 hpd
       _ = ({2,5} : Finset Site) := Finset.pair_comm _ _
 
-#print axioms image_of_ordered_23_45
-#print axioms image_of_ordered_45_23
 
 end F7Manuscript.ActualD2CrossPairImageAlgebra

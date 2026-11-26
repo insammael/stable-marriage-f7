@@ -154,8 +154,6 @@ theorem actual_dual_raw_all_windows_full_spacing_finset
         (h221 := h221) (h311 := h311) (hz := hz) j2) := hinst2.symm
       _ = 0 := hsteps.2
 
-#print axioms actual_dual_raw_all_windows_full_spacing
-#print axioms actual_dual_raw_all_windows_full_spacing_finset
 
 end
 end F7Manuscript.ActualInputS11DualD2NextZero

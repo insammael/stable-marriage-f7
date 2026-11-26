@@ -72,7 +72,5 @@ theorem join_ordered {A B : Finset (Event I)} {EA : Enumeration A} {EB : Enumera
     ∃ E : Enumeration (A∪B), EventWord (A∪B) E (u++v) :=
   join_event_words hA hB (Finset.disjoint_left.mpr fun x hx hy => hab x hx x hy le_rfl) hab
 
-#print axioms word_for_set
-#print axioms join_ordered
 end
 end F7Manuscript.TripleCoordinateLattice.R21EventBlocks

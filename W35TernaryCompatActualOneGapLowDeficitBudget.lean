@@ -135,7 +135,6 @@ theorem actual_one_G_low_core_deficit_run_cost
     omega
   simpa only [E,i0,i1,S] using! hbound
 
-#print axioms actual_one_G_low_core_deficit_run_cost
 
 end
 end F7Manuscript.TripleCoordinateLattice.W35TernaryCompat

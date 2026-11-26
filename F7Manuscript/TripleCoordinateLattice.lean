@@ -194,10 +194,6 @@ theorem triple_card_eq_A3 (C : Partition (V := V)) :
 
 end Counting
 
-#print axioms isTriple_sup
-#print axioms isTriple_inf
-#print axioms vertices_injective
-#print axioms triple_card_eq_A3
 
 end
 end F7Manuscript.TripleCoordinateLattice

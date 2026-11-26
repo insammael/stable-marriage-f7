@@ -53,8 +53,5 @@ theorem core_cover_lifts_from_above_row
   rw [hbi]
   exact aboveTriple_not_ge C ha i
 
-#print axioms induced_cover_lifts_of_source_not_le_outsider
-#print axioms core_contains_every_other_of_single_outsider
-#print axioms core_cover_lifts_from_above_row
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW28R20SignCoverLift

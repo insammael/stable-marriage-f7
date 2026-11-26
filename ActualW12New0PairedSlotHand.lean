@@ -321,7 +321,6 @@ theorem new0_noReturn_impossible (bits : Nat → Bool)
             rightCoord, select, other, put, Fin.ofNat, new0Plan, h0, h1, h2, h3, h4, hb5, h6, h7, hb8]
         exact False.elim (noReturn_forbidden_incoming new0Plan bits 13 N (hi 13 (by omega))
           6 3 (by decide) (Or.inl hp) hs)
-#print axioms new0_noReturn_impossible
 #eval IO.eprintln "W12 NEW0 hand proof checked"
 
 end F7Manuscript.ActualW12New0PairedSlotHand

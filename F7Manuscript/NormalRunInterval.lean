@@ -114,9 +114,5 @@ theorem actual_normal_run_interval_geometry
     NormalRunInterval.delta_zero A _ h221 h311 R⟩
 end Actual
 
-#print axioms same_component_rank_side_of_isolated
-#print axioms NormalRunInterval.complete
-#print axioms NormalRunInterval.delta_zero
-#print axioms actual_normal_run_interval_geometry
 end
 end F7Manuscript.TripleCoordinateLattice

@@ -236,6 +236,5 @@ run_cmd Lean.Elab.Command.liftIO do
   h.putStrLn "W31_Q3_TWO_CENTER_CLOCK_THEOREM_DONE"
   h.flush
 
-#print axioms actual_q_three_two_center_supports
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW31R20QThreeReverseTwoCenterClock

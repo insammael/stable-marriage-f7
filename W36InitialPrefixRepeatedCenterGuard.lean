@@ -61,5 +61,4 @@ theorem initial_prefix_repeated_center_paired_pad_false
     (supportsRouteFinal initialSupport pre preBits 0) Mstart c firstBit hFirst
     k bits ctrl Hpad hLength nextBit hLast
 
-#print axioms initial_prefix_repeated_center_paired_pad_false
 end F7Manuscript.W36InitialPrefixRepeatedCenterGuard

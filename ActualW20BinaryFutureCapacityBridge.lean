@@ -21,6 +21,5 @@ theorem binaryFuture_bound_of_no_fixed_trace
   let tr := fixedTokenSwapTrace_of_Future loopless hfuture
   exact hforbidden (fixedTokenSwapTrace_prefix tr (K+1) hprefix)
 
-#print axioms binaryFuture_bound_of_no_fixed_trace
 
 end F7Manuscript.PartnerGraph

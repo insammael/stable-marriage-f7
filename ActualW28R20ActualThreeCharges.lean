@@ -134,6 +134,5 @@ theorem actual_switch_three_charges
   change 4 ≤ S.q + S.s
   omega
 
-#print axioms actual_switch_three_charges
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW28R20ActualThreeCharges

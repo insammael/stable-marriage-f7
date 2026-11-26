@@ -41,6 +41,5 @@ theorem fin_interval_induction
         simp only [Fin.val_succ] at htz
         omega
 
-#print axioms fin_interval_induction
 
 end F7Manuscript.ActualW20FinIntervalInduction

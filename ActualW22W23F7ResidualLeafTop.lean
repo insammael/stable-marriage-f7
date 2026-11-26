@@ -26,6 +26,5 @@ theorem f7_eq_85_of_r20_and_r21_remaining_leaves
   intro I _
   exact r21_positive_delta_of_leaves_except_outside_three I (r21rest I)
 
-#print axioms f7_eq_85_of_r20_and_r21_remaining_leaves
 end
 end F7Manuscript.ActualW22W23F7ResidualLeafTop

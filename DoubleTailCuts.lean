@@ -134,7 +134,6 @@ theorem double_tail_00 (t : Matching) (bits : Nat → Bool)
               simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
             exact (h.fresh 13 (by decide) 1 hp 0 (by decide)) hEq
 
-#print axioms double_tail_00
 
 def plan_double_tail_01 : List Move := [Move.paired,Move.paired,Move.center (1 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (2 : Color),Move.center (0 : Color)]
 theorem double_tail_01 (t : Matching) (bits : Nat → Bool)
@@ -312,7 +311,6 @@ theorem double_tail_01 (t : Matching) (bits : Nat → Bool)
                 simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
               exact (h.fresh 14 (by decide) 2 hp 0 (by decide)) hEq
 
-#print axioms double_tail_01
 
 def plan_double_tail_02 : List Move := [Move.paired,Move.paired,Move.center (1 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (0 : Color),Move.center (1 : Color),Move.center (2 : Color),Move.center (1 : Color)]
 theorem double_tail_02 (t : Matching) (bits : Nat → Bool)
@@ -490,6 +488,5 @@ theorem double_tail_02 (t : Matching) (bits : Nat → Bool)
                 simp [atPrefix, tokensAfter, hNow, hOld, tokenSwap, List.foldl]
               exact (h.fresh 14 (by decide) 4 hp 0 (by decide)) hEq
 
-#print axioms double_tail_02
 
 end F7Local

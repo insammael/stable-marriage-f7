@@ -120,6 +120,5 @@ theorem r21_literal_T_ordered_crown_runs :
     (r21_literal_post_route_on_new_row C hn h221 h311 (coordinatePermutation s) _ hv₁ hrow₁)
     (r21_literal_T_canonical_state_history C hn h221 h311 hu hG hT hP hQ)
 
-#print axioms r21_literal_T_ordered_crown_runs
 end
 end F7Manuscript.TripleCoordinateLattice

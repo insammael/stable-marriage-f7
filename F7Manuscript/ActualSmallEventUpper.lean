@@ -25,6 +25,5 @@ theorem actual_count_le_85_of_event_card_le_nineteen (I : Profile 7)
     · have hs := actual_count_le_81_of_event_card_le_eighteen I (by omega)
       omega
 
-#print axioms actual_count_le_85_of_event_card_le_nineteen
 end
 end F7Manuscript

@@ -212,7 +212,6 @@ theorem subsetNormalSegmentPrefix_frontier_memory
                 exact Mtail
               exact key
 
-#print axioms subsetNormalSegmentPrefix_frontier_memory
 
 end
 end F7Manuscript.TripleCoordinateLattice

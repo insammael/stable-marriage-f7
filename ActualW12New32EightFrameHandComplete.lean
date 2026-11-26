@@ -618,6 +618,5 @@ theorem new32_noReturn_impossible (bits : Nat → Bool)
       | false => exact new32_noReturn_case_110 bits h0 h1 h2 h5 h3 h4 h6 N
       | true => exact new32_noReturn_case_111 bits h0 h1 h2 h5 h3 h4 h6 N
 
-#print axioms new32_noReturn_impossible
 
 end F7Manuscript.ActualW12New32EightFrameHandComplete

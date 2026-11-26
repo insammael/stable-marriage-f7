@@ -25,4 +25,3 @@ theorem binaryPrefix14_normalized_transport
 
 end F7Manuscript.PartnerGraph.Periodic
 
-#print axioms F7Manuscript.PartnerGraph.Periodic.binaryPrefix14_normalized_transport

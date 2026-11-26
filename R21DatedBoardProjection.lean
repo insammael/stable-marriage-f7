@@ -84,7 +84,5 @@ theorem BoundaryModel.actual_projection_walks
   refine ⟨walk,?_,?_⟩ <;>
     simp [walk,physicalWalksOfPartition,Projection.OutwardWalks.ofTimelines,rayHits,rayLength]
 
-#print axioms BoundaryModel.to_normalized_projection
-#print axioms BoundaryModel.actual_projection_walks
 end
 end F7Manuscript.R21LongWindow.DatedBoardSteps

@@ -89,7 +89,5 @@ theorem actual_chart_word_in_whole {length : Nat} (C : NormalSkeleton.Chart)
   exact (align k).trans (aw.2 k))
  exact ⟨pre,post,hpre,by simpa only [hlen] using! hpost,hR⟩
 
-#print axioms aligned_word_in_whole
-#print axioms actual_chart_word_in_whole
 end
 end F7Manuscript.R21PhysicalWindowWords

@@ -122,6 +122,5 @@ theorem p5_phase1_internal_event_uses_four_five
   · exact Or.inr ⟨hleft5, hright4⟩
   · exact False.elim (T.distinct k (hleft5.trans hright5.symm))
 
-#print axioms p5_phase1_internal_event_uses_four_five
 
 end F7Manuscript.ActualW20P5CaseAPhase1NextInternal

@@ -46,5 +46,4 @@ theorem p5_internal_one_event_eq_residual
   have he' : e ∈ ({q2,q6} : Finset (Fin 13)) := by rw [← hset]; exact he
   simpa only [Finset.mem_insert, Finset.mem_singleton] using! he'
 
-#print axioms p5_internal_one_event_eq_residual
 end F7Manuscript.ActualW20P5ResidualInternalOneExhaustion

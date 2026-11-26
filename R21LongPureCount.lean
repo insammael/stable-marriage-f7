@@ -107,7 +107,4 @@ theorem mass18_of_local_rules (w : Nat → Bool)
   have low : weight w 16 ≤ 10 := by omega
   exact endpoint (mass18_low_cost_unique w triples low)
 
-#print axioms mass17_of_local_rules
-#print axioms mass18_low_cost_unique
-#print axioms mass18_of_local_rules
 end F7Manuscript.R21LongWindow.PureCount

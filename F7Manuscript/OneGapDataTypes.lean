@@ -68,5 +68,4 @@ inductive PrefixNode where
   | append (parent : ℕ) (swap : Swap)
   deriving DecidableEq
 
-#print axioms ProfileLeaf.excludes
 end F7Manuscript.OneGap

@@ -144,8 +144,5 @@ theorem saturated_empty_T_retired_lt_first_center
     (GenericThresholdPath.path_mono C E (Fin.le_iff_val_le_val.mpr (by simp)))
     (emptyBoundary_T_support_union C hn E n hempty ht) c d r s hr hri hs hsi
 
-#print axioms actual_retired_lt_next_center_of_same_triple_crew
-#print axioms saturated_allTriple_T_retired_lt_first_center
-#print axioms saturated_empty_T_retired_lt_first_center
 end
 end F7Manuscript.TripleCoordinateLattice

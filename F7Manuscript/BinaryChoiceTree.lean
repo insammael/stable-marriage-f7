@@ -71,6 +71,4 @@ theorem path_matches {α : Type*} (t : Tree α) (bits : ℕ → Bool) (n : ℕ) 
         have hi' : i < (path r bits (n+1)).length := by simpa [path,hb] using hi
         simpa [path,hb,Nat.add_assoc,Nat.add_comm,Nat.add_left_comm] using ihr (n+1) i hi'
 
-#print axioms selected_leaf_valid
-#print axioms path_matches
 end F7Manuscript.BinaryChoice

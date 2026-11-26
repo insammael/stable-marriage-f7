@@ -84,7 +84,5 @@ theorem fixedTokenSwapTrace_two_token_pair_occupancy
       subst y
       exact False.elim (hjk (hx.symm.trans hy))
 
-#print axioms fixedTokenSwapTrace_pool_after_cut
-#print axioms fixedTokenSwapTrace_two_token_pair_occupancy
 
 end F7Manuscript.PartnerGraph

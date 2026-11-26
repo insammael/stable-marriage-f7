@@ -99,5 +99,4 @@ theorem p5_residual_event_endpoints_internal
       have hbz : b = z := Finset.mem_singleton.mp (hz ▸ hbmem)
       exact False.elim (hqb (hqz.trans hbz.symm))
 
-#print axioms p5_residual_event_endpoints_internal
 end F7Manuscript.ActualW20P5ResidualInternalEndpoints

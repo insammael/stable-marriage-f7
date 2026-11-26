@@ -32,5 +32,4 @@ theorem actual_binary_future_of_twenty_one (R : TokenRun Site W q) (hq : 21 ≤ 
   apply actual_future R start n 2 hn atomic
   rw [interval_excess_eq_zero_of_twenty_one R hq start n hn]
 
-#print axioms actual_binary_future_of_twenty_one
 end F7Manuscript.PartnerGraph.Periodic

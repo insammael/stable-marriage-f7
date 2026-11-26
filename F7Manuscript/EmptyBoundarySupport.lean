@@ -108,7 +108,5 @@ theorem emptyBoundary_G_moving_union
   simp only [actual_event_binary hn]
   exact le_rfl
 
-#print axioms emptyBoundary_T_support_union
-#print axioms emptyBoundary_G_moving_union
 end
 end F7Manuscript.TripleCoordinateLattice

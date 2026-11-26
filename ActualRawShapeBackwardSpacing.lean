@@ -93,7 +93,6 @@ theorem actual_raw_shape_backward_spacing
     rw [dif_pos (show j - 2 < S.m by omega)]
     exact hdouble2
 
-#print axioms actual_raw_shape_backward_spacing
 
 end
 end F7Manuscript.TripleCoordinateLattice

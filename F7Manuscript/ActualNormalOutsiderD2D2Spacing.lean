@@ -141,8 +141,6 @@ theorem actual_normal_outsider_raw_shape_with_D2_D2_spacing
   obtain ⟨X⟩ := actual_normal_outsider_raw_shape C h221 h311 hG hT hn hδ hD hpos
   exact ⟨X, actual_normal_outsider_raw_D2_D2_forbidden_for C h221 h311 hG hT X hn hδ⟩
 
-#print axioms actual_normal_outsider_raw_D2_D2_forbidden_for
-#print axioms actual_normal_outsider_raw_shape_with_D2_D2_spacing
 
 /-! Full forward S11 spacing on the actual raw chart: an interior D₂ row
 forces the next two rows to be zero.  The first zero follows from the actual
@@ -241,7 +239,6 @@ theorem actual_normal_outsider_raw_forward_spacing_for
     exact hthirdS
   exact hthirdNe0 hthirdX
 
-#print axioms actual_normal_outsider_raw_forward_spacing_for
 
 theorem actual_normal_outsider_raw_shape_with_forward_spacing
     (hn : Fintype.card (Event I)=21) (hδ : delta3 (V:=Event I)≤5)
@@ -255,7 +252,6 @@ theorem actual_normal_outsider_raw_shape_with_forward_spacing
   exact ⟨X, actual_normal_outsider_raw_forward_spacing_for
     C h221 h311 hG hT X hn hδ hD hpos⟩
 
-#print axioms actual_normal_outsider_raw_shape_with_forward_spacing
 
 end
 end F7Manuscript.TripleCoordinateLattice

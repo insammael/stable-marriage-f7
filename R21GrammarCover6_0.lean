@@ -2386,5 +2386,4 @@ private theorem node0_ok : TraceCovered 6 0 5 node0 := by
       exact node216_ok
 
 theorem trace_coverage : TraceCovered 6 0 5 initial := node0_ok
-#print axioms trace_coverage
 end F7Manuscript.R21NormalEndpoint.BoundaryAtlas.Case6_0

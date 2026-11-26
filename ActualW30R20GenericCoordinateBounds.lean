@@ -239,7 +239,5 @@ theorem actual_retirement_bound_after_singleton_pair_cut
         normalRowValue C h221 h311 hz j 0 c := by
   exact (lower_path_coordinate_bounds C h221 h311 hz j hD q).2 hq
 
-#print axioms actual_retirement_bound_before_singleton_pair_cut
-#print axioms actual_retirement_bound_after_singleton_pair_cut
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW30R20GenericCoordinateBounds

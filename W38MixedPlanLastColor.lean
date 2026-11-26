@@ -91,6 +91,5 @@ theorem supportsRouteFinal_mixedPlan_lastColor (f : SupportFrame)
     rw [hind]
 
 
-#print axioms supportsRouteFinal_mixedPlan_lastColor
 end
 end F7Manuscript.W38MixedPlanLastColor

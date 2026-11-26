@@ -54,7 +54,6 @@ theorem h7_produced_tail_atomic_cost
       (literalWholeReverse (I := I) W) (by omega)
       b (17 + (3 - b)) hspan
 
-#print axioms h7_produced_tail_atomic_cost
 
 end
 end F7Manuscript.PRO33

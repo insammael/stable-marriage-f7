@@ -281,19 +281,12 @@ theorem actual_G_bare_post_increment_all_deciders
     (Classical.decRel (fun x y : Event I => x ≤ y)) @hclass
 
 
-#print axioms actual_G_two_local_bounds_all_deciders
 
-#print axioms actual_G_two_neighbor_subsets_all_deciders
 
-#print axioms actual_G_two_post_increment_all_deciders
 
-#print axioms actual_G_bare_fixed_past_all_deciders
 
-#print axioms actual_G_bare_fixed_future_all_deciders
 
-#print axioms actual_G_bare_introduction_all_deciders
 
-#print axioms actual_G_bare_post_increment_all_deciders
 
 end
 end F7Manuscript.TripleCoordinateLattice

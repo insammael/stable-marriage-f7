@@ -138,6 +138,5 @@ theorem original_two_T_bad_cost (hbad : 85 < stableCount I) :
   norm_num at hledger hd
   split <;> split <;> rename_i h₁' h₂' <;> simp only [h₁',h₂',if_pos,if_false] at h₀ h₁ <;> omega
 
-#print axioms original_two_T_bad_cost
 end
 end F7Manuscript.TripleCoordinateLattice.R21TwoT

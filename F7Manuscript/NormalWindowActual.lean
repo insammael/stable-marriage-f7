@@ -183,8 +183,5 @@ theorem RawCut.root_prefix (R : TokenRun Site W q) (C : RawCut R 11) :
   let k : Fin 14 := ⟨j.val, hj⟩
   exact (supports k).trans (modeWord_pairAt_support_eq_root b k)
 
-#print axioms raw_actual_state
-#print axioms RawCut.toPeriodic
-#print axioms RawCut.root_prefix
 
 end F7Manuscript.PartnerGraph.Periodic

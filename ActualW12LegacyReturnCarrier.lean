@@ -37,7 +37,6 @@ theorem old_return_entry_false
   exact entry.excludes C.out hfalse
     (noReturn_of_normalized_carrier_prefix C entry.plan hp)
 
-#print axioms old_return_entry_false
 
 end
 end F7Manuscript.ActualW12LegacyReturnCarrier

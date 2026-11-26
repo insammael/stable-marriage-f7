@@ -88,6 +88,5 @@ theorem five_event_G_window_excluded {W : Type*} [Fintype W]
         by simpa only [hq] using h2V,by simpa only [hp] using h4U⟩
   exact oneG_run_excluded_five S h0 h1 h2 p q hadmissible hp hq
 
-#print axioms five_event_G_window_excluded
 end
 end F7Manuscript.SmallGSingleReturn

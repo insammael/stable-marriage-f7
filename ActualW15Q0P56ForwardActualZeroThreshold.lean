@@ -126,7 +126,6 @@ theorem actual_X_p56_forward_actual_zero_threshold
     simpa [b, extra, hlevels0, hclock] using! hNat
   exact hNatX
 
-#print axioms actual_X_p56_forward_actual_zero_threshold
 
 end
 end F7Manuscript.ActualW15Q0P56ForwardActualZeroThreshold

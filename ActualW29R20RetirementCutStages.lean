@@ -89,7 +89,5 @@ theorem stage_key_ge_after_singleton_pair_cut
       pair, jr, k0, reflectChart, hD]
   omega
 
-#print axioms stage_key_le_before_singleton_pair_cut
-#print axioms stage_key_ge_after_singleton_pair_cut
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW29R20RetirementCutStages

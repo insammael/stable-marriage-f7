@@ -28,6 +28,5 @@ theorem new98_noReturn_sourcePrefix_is_wordOf (bits : Nat → Bool)
   have h8' : bits 8 = bits 1 := hi.2.2.trans hf.1
   exact sourcePrefix_eq_new98WordOf bits h0 h3 hf.1 hi.1 h6' hi.2.1 h8' hf.2
 
-#print axioms new98_noReturn_sourcePrefix_is_wordOf
 
 end F7Manuscript.ActualW13New98FourWord

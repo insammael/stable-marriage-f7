@@ -39,5 +39,4 @@ theorem both_long_post_zero
   exact F7Manuscript.W35PositivePairedZeroCostBound.positive_paired_zero_cost_run_impossible
     D hmD hqpos hDs A
 
-#print axioms both_long_post_zero
 end F7Manuscript.W38BothLongPostZero

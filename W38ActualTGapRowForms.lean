@@ -55,7 +55,5 @@ def ActualTypeVRowForm (old new : Fin 3 → Event I) : Prop :=
     ((support I (old c)).map e.toEmbedding = {0,6} ∨
      (support I (old c)).map e.toEmbedding = {1,6})
 
-#print axioms ActualTCenterGapRowForm
-#print axioms ActualTypeVRowForm
 end
 end F7Manuscript.TripleCoordinateLattice.W38ActualTGapRowForms

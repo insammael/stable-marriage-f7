@@ -74,6 +74,5 @@ theorem future_le_succ_of_three_mutual_options {F G : Rel} {n k : ℕ}
           | three a b c => simp [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hcost
           | four a b c d => simp [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hcost
 
-#print axioms future_le_succ_of_three_mutual_options
 
 end F7Manuscript.ActualW12Q4Node22Node43FutureTools

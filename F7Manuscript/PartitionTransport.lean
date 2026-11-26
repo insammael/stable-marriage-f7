@@ -233,6 +233,3 @@ theorem macroCensus_comap :
 end
 end F7Manuscript.TripleCoordinateLattice
 
-#print axioms F7Manuscript.TripleCoordinateLattice.threshold_comap
-#print axioms F7Manuscript.TripleCoordinateLattice.labels_thresholdComap
-#print axioms F7Manuscript.TripleCoordinateLattice.macroCensus_comap

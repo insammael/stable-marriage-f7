@@ -340,8 +340,6 @@ theorem actual_X_paid4_p5_reverse_false
   rw [hzero] at hrunbound'
   omega
 
-#print axioms actual_X_paid4_p5_reverse_carrier
-#print axioms actual_X_paid4_p5_reverse_false
 
 end
 end F7Manuscript.ActualW18P5ActualPaid4ReverseCarrier

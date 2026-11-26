@@ -108,4 +108,3 @@ theorem actual_singleton_middle_rows
 end
 end F7Manuscript.TripleCoordinateLattice.W35BinarySingletonActualEndpointRows
 
-#print axioms F7Manuscript.TripleCoordinateLattice.W35BinarySingletonActualEndpointRows.actual_singleton_middle_rows

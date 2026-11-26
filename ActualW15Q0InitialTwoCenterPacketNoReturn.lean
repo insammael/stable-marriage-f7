@@ -41,7 +41,6 @@ theorem no_return_and_fresh_of_initial_two_center_carrier
   exact noReturn_and_fresh_of_observed_route P.S' L fullPlan P.out'
     hbound P.observed P.first06 P.route
 
-#print axioms no_return_and_fresh_of_initial_two_center_carrier
 
 end
 end F7Manuscript.ActualW15Q0InitialTwoCenterPacketNoReturn

@@ -70,6 +70,5 @@ theorem T_post_cross_le_future_of_retired_lt
     _ = F.card := by simp
 end Generic
 
-#print axioms T_post_cross_le_future_of_retired_lt
 end
 end F7Manuscript.TripleCoordinateLattice

@@ -43,6 +43,4 @@ theorem keep_tree_of_peer {A B next allowed : Dict} {x y shared : Nat}
  have hq:=allKeys_lookup (fun m _ => !liveIn allowed (m &&& shared) || liveIn next m) A ht hi
  simpa only [hxy,hp,Bool.not_true,Bool.false_or] using hq
 
-#print axioms live_tree_select
-#print axioms keep_tree_of_peer
 end F7Manuscript.R21NormalEndpoint.Projection.Snapshots

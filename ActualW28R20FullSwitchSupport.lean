@@ -89,7 +89,6 @@ theorem actual_support_is_full_pool
   rw [hcard]
   omega
 
-#print axioms actual_support_is_full_pool
 
 end
 end F7Manuscript.ActualW28R20FullSwitchSupport

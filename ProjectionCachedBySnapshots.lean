@@ -33,6 +33,4 @@ theorem projection_correct_by_of_check
  rw [<-projectionOKBy_eq_projectionOK root projected shared computeKey correct]
  exact checked
 
-#print axioms projectionOKBy_eq_projectionOK
-#print axioms projection_correct_by_of_check
 end F7Manuscript.R21NormalEndpoint.Projection.Snapshots

@@ -87,8 +87,5 @@ theorem actual_outsider_charge_eq_endpoint_macro_sum
       (actual_nonmacro_slot_empty A hn h221 h311 n hnmacro))
   exact htotal.symm.trans hslots
 
-#print axioms actual_nonmacro_slot_empty
-#print axioms actual_outsider_count_eq_endpoint_macro_sum
-#print axioms actual_outsider_charge_eq_endpoint_macro_sum
 end
 end F7Manuscript.TripleCoordinateLattice

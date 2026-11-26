@@ -54,7 +54,5 @@ theorem reorder_three_seed_supports
   have dis : seeds.Pairwise (fun a b => Disjoint (pairSupport a) (pairSupport b)) :=
     ((List.reverse_perm (startingPairs f)).symm.trans p.symm).pairwise (startingPairs_disjoint f hv) (fun h => h.symm)
   exact (matching_perm_commute p dis).realizes_context pre post R hr
-#print axioms fixed_seed_first
-#print axioms reorder_three_seed_supports
 end
 end F7Manuscript.TripleCoordinateLattice.R21OneGHandActual

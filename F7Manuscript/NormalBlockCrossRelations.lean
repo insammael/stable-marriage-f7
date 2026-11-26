@@ -61,6 +61,5 @@ theorem normalRow_moving_cross_le (j : Fin (normalBlockCount C))
       _ _ (fun he => hst (movingColor_injective _ he))
       (normalLeaf_labels_eq_moving_pair C h221 h311 hz j r s t hst)
 
-#print axioms normalRow_moving_cross_le
 end
 end F7Manuscript.TripleCoordinateLattice

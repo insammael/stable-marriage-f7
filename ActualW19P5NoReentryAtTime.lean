@@ -124,6 +124,5 @@ theorem p5_token_no_reentry_after_outside
   have hjout := p5_boundary_arrival_token_outside T hb harr
   exact hjout hjS
 
-#print axioms p5_token_no_reentry_after_outside
 
 end F7Manuscript.ActualW19P5NoReentryAtTime

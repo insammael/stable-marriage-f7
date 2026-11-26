@@ -22,5 +22,4 @@ theorem firstPaired_tail_bound {plan : List Move} {s t : PhysicalState}
  exact handGraph_trace_bound firstPairedDAG firstPairedCompatible firstPairedRejected 8
   firstPairedDAG_checked firstPairedDAG_mass_bound trace 0 root
 
-#print axioms firstPaired_tail_bound
 end F7Manuscript.R21SingleTHand

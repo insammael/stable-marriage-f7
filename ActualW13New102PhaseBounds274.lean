@@ -221,5 +221,4 @@ theorem future_le_three_274 {F : Rel} {n : ℕ} (future : Sized.Future F 2 n) (e
     (by intro F' m h e; exact P274_35_bound h e)
     (by intro F' m h e; exact P274_45_bound h e)
 
-#print axioms future_le_three_274
 end F7Manuscript.ActualW13New102PhaseBounds274

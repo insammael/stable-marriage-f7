@@ -116,9 +116,6 @@ theorem no_firstABA_at_s_zero {S : Chart} (hs : S.s = 0) :
   have hc := firstABA_cost_positive hp
   omega
 
-#print axioms first_cost_alternative
-#print axioms positive_budget_three_shapes
-#print axioms firstABA_budget_three_shapes
 
 end
 end F7Manuscript.N4FirstCostClassification

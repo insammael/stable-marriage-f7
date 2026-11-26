@@ -148,7 +148,5 @@ theorem three_center_window_freezes_actor
     intro i hi
     exact hfreeze i (Fin.le_iff_val_le_val.mpr (by simpa using! hi))
 
-#print axioms three_event_state
-#print axioms three_center_window_freezes_actor
 end
 end F7Manuscript.ActualW28R20ThreeCenterWindowFrozen

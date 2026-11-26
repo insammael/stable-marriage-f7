@@ -37,6 +37,5 @@ theorem new98_w_equals_t_or_exception (bits : Nat → Bool)
       · exact False.elim (bad_i10_w0_ur_x1 bits h0 N ht hz hw hx)
   · exact Or.inl rfl
 
-#print axioms new98_w_equals_t_or_exception
 
 end F7Manuscript.ActualW13New98PoolControl

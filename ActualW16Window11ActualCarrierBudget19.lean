@@ -203,8 +203,6 @@ theorem carrier_window11_run_bound
   have h := carrier_window11_suffix_le_five C
   omega
 
-#print axioms carrier_window11_suffix_le_five
-#print axioms carrier_window11_run_bound
 
 end
 end F7Manuscript.ActualW16Window11ActualCarrierBudget19

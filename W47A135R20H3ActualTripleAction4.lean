@@ -122,7 +122,6 @@ theorem step_three_cycle_of_support_triple
     a b c hab hac hbc
     ((step_support I Q hQ E i).trans hs)
 
-#print axioms step_three_cycle_of_support_triple
 
 end
 

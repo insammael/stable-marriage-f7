@@ -120,7 +120,6 @@ theorem actual_u3_q0_s4_p7_frontier
     omega
   exact ⟨(by simpa [W] using! hnotFront), (by simpa [W] using! hnotReverse)⟩
 
-#print axioms actual_u3_q0_s4_p7_frontier
 
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW17U3Q0S4P7EndpointConsumers

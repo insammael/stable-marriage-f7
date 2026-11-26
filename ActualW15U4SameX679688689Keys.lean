@@ -281,7 +281,6 @@ theorem actual_X_cost2_u4_supplies_679_688_689
       · rw [hi]; change 2 = min X.before X.after; exact hv2.symm
       · rw [hi]; change 2 = X.coreCap.toNat; exact hcoreNat.symm
 
-#print axioms actual_X_cost2_u4_supplies_679_688_689
 end
 end ActualW15U4SameX679688689Keys
 end F7Manuscript.TripleCoordinateLattice

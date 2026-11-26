@@ -214,7 +214,6 @@ theorem actual_u3_q1_s3_paid_one_frontier
         hiBounds.1 (by omega) hbBounds.1 hbBounds.2 haBounds.1 haBounds.2 hba hib hia
         hDi hDother hSupportBA hbPiv haPiv hSomeF hSomeR)
 
-#print axioms actual_u3_q1_s3_paid_one_frontier
 
 end
 end ActualW17U3Q1S3PaidOneFrontierActual

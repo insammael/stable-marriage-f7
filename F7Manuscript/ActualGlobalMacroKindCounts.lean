@@ -121,7 +121,5 @@ theorem actualGlobalMacroKind_count_T :
   · intro h hh
     exact Or.inr hh
 
-#print axioms actualGlobalMacroKind_count_G
-#print axioms actualGlobalMacroKind_count_T
 end
 end F7Manuscript.TripleCoordinateLattice

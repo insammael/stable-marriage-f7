@@ -113,6 +113,5 @@ theorem q1_firstD4_all_colors_impossible
         Equiv.swap_apply_def]
     exact q1_firstD4_A_impossible hn hq hj hj4 rhoA bitsA Hcanonical hcolorsA
 
-#print axioms q1_firstD4_all_colors_impossible
 
 end F7Manuscript.N4QOneFirstD4AllColors

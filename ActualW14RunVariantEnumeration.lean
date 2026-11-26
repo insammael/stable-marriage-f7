@@ -111,10 +111,6 @@ theorem canonical_variant_mem_runVariantPrecut
          levels := ds
          s := paid.card + extra.card } : PrecutTuple)) hdecode
 
-#print axioms runVariantPrecut
-#print axioms decodeFlags
-#print axioms flags_decode_eq_of_selected_subset
-#print axioms canonical_variant_mem_runVariantPrecut
 
 end
 end F7Manuscript.W14ActualRunVariantEnumeration

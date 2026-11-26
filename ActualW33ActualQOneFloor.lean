@@ -59,7 +59,5 @@ theorem actual_r20_one_outsider_leaf :
     F7Manuscript.ActualPositiveDeficitCoverAssembly.R20LeafObligation I 1 0 0 :=
   actual_r20_one_outsider_leaf_of_actual_q1 I actual_constant_sign_q1_floor
 
-#print axioms actual_constant_sign_q1_floor
-#print axioms actual_r20_one_outsider_leaf
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW33ActualQOneFloor

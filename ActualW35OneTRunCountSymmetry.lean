@@ -79,6 +79,5 @@ theorem one_T_swap_runs_m (C : Partition (V := Event I)) [Nonempty (Triple C)]
     rw [normalBlockCount_subset_congr (swapPartition I C) hQ1'']
     exact normalBlockCount_subset_reversed (swapEventDualIso I) C _
 
-#print axioms one_T_swap_runs_m
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW35OneTRunCountSymmetry

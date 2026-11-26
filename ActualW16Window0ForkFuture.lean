@@ -157,7 +157,5 @@ theorem W0ForkL5_future_from_observed_prefix {W : Type*} [Fintype W] {q : ℕ}
   rw [W0ForkL5_prefixFresh_eq] at transported
   exact W0ForkL5_future_le_six_transpose transported
 
-#print axioms W0ForkL4_future_from_observed_prefix
-#print axioms W0ForkL5_future_from_observed_prefix
 
 end F7Manuscript.ActualW16Window0ForkFuture

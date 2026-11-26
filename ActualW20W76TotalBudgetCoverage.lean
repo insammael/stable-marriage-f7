@@ -71,8 +71,4 @@ theorem actual_total_length_contradiction (r : CoverRow)
   have hmargin := hr.2
   omega
 
-#print axioms coverRow0_total_valid
-#print axioms coverRow482_total_valid
-#print axioms coverRow603_total_valid
-#print axioms actual_total_length_contradiction
 end F7Manuscript.ActualW20W76TotalBudgetCoverage

@@ -45,5 +45,4 @@ theorem p5_actual_CI_removed_from_trace
   · exact ⟨m,b2,q2,b6,q6,hmut,harr2,harr6,hb2,hq2,hb6,hq6,
       hb2m,hb6m,hset2,hset6,hCII.1,hCII.2⟩
 
-#print axioms p5_actual_CI_removed_from_trace
 end F7Manuscript.ActualW20P5CIFinalSelector

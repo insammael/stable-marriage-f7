@@ -89,6 +89,5 @@ theorem actual_later_paired_suffix_preserves_idle
       · simpa [afterPaired] using! hgidle
       · simpa [afterPaired, hlast] using! hglast
 
-#print axioms actual_later_paired_suffix_preserves_idle
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW28R20SuffixPairedIdle

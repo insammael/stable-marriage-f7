@@ -21,7 +21,6 @@ theorem r21_one_outsider_no_macro_original_mass17_unconditional
   exact r21_one_outsider_no_macro_original_of_left_mass17
     R21LongWindow.PairedSubpatterns.mass17_dated_cost_ge_nine I
 
-#print axioms r21_one_outsider_no_macro_original_mass17_unconditional
 
 end
 end F7Manuscript.R21Mass17Original

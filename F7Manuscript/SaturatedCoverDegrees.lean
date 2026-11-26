@@ -71,7 +71,5 @@ theorem actual_cover_successors_le_two (hn : Fintype.card (Event I) = 21)
   rw [actual_event_binary hn ρ] at h
   exact h
 
-#print axioms actual_cover_predecessors_le_two
-#print axioms actual_cover_successors_le_two
 end
 end F7Manuscript.SaturatedCoverSegments

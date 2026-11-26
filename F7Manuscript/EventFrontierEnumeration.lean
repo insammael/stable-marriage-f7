@@ -187,11 +187,6 @@ theorem ofPath_events (H : IntervalPath (Event I)) :
     rw [← hc]
     exact front_mem_events C n hn' c
 
-#print axioms introduction_respects
-#print axioms introduction_injective
-#print axioms enumeration_initial
-#print axioms enumeration_added
-#print axioms ofPath_events
 
 end
 end F7Manuscript.EventFrontierEnumeration

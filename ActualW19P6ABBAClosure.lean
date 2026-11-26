@@ -188,5 +188,4 @@ theorem actual_ABBA_center_word_false
   exact B_to_A_token_one_visited_zero_impossible tr k3
     (center_event_participates tr hk3) hbefore3 hafter3 hpre3 hvisit0
 
-#print axioms actual_ABBA_center_word_false
 end F7Manuscript.ActualW19P6ABBAClosure

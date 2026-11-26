@@ -71,6 +71,5 @@ theorem p5_boundary_arrival_before_visit
   have her : e = r := hez.trans hrz.symm
   simpa [her] using! het
 
-#print axioms p5_boundary_arrival_before_visit
 
 end F7Manuscript.ActualW18P5BoundaryBeforeVisit

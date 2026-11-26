@@ -222,12 +222,6 @@ theorem actual_generic_pure_prefix_cuts
 
 end GenericActualGeometry
 
-#print axioms genericPrefixFront
-#print axioms actualGenericPurePrefixChart
-#print axioms actualGenericPurePrefixChart_events_rank
-#print axioms actualGenericPurePrefixChart_events_subset
-#print axioms actualGenericPurePrefixChart_convex
-#print axioms actual_generic_pure_prefix_cuts
 
 end
 end F7Manuscript.N4ActualPurePrefixCuts.W35SubsetPurePrefixCuts

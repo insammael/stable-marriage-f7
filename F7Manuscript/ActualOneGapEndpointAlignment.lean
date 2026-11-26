@@ -152,9 +152,6 @@ theorem actualOneGap_G_endpoint_equalities
     · exact Or.inl (Or.inr hq)
     · exact Or.inr ⟨hp,hq⟩
 
-#print axioms actualOneGapRun_center_label
-#print axioms actualOneGapRun_center_color
-#print axioms actualOneGap_G_endpoint_equalities
 
 end
 end F7Manuscript.TripleCoordinateLattice

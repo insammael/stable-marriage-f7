@@ -67,7 +67,5 @@ theorem paired_reorient {f g : SupportFrame} (h : SameBoundary f g) (hlast : f.l
          simp [afterPaired,put,pairedPairs,select,other,hc,hd,hne,hne.symm,hr,hs,flipPair,pairSupport,Finset.pair_comm]
      · simpa [afterPaired,put,hc,hd,hl,hh] using! h.2 d
 
-#print axioms center_reorient
-#print axioms paired_reorient
 end
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

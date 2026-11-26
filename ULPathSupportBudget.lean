@@ -134,8 +134,5 @@ theorem L_from_path_and_matching_inputs
     omega
   exact ⟨hzero.1,hzero.2,hA4,hB4,by omega⟩
 
-#print axioms triangle_path_union_card
-#print axioms local_path_support_charge
-#print axioms L_from_path_and_matching_inputs
 
 end ConditionalUL

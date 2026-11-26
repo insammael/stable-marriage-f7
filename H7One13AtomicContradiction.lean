@@ -81,10 +81,6 @@ theorem h7_sameW_tail13_binaryPrefix_contradiction
       _root_.F7Manuscript.PartnerGraph.G1Frozen13.periodic_short_extension_after_13_le_two
       lower
 
-#print axioms h7_produced_tail13_atomic_cost_and_suffix
-#print axioms F7Manuscript.PartnerGraph.Periodic.binaryPrefix13_contradiction
-#print axioms F7Manuscript.PartnerGraph.G1Frozen13.periodic_short_extension_after_13_le_two
-#print axioms h7_sameW_tail13_binaryPrefix_contradiction
 
 end
 

@@ -46,6 +46,5 @@ theorem p5_saturated_actual_rows
     exact hcInternal
   exact p5_saturated_actual_rows_of_global_both_count_le_one T hglobal
 
-#print axioms p5_saturated_actual_rows
 
 end F7Manuscript.ActualW19P5ActualRows

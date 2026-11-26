@@ -71,6 +71,5 @@ theorem expose_current_center_as_seed
     change (if t.val=i2.val+1 then _ else R.state t)=R.state t
     rw [if_neg (by simpa [i2] using! b)]
 
-#print axioms expose_current_center_as_seed
 end
 end F7Manuscript.R21NormalEndpoint.ReseededObservation

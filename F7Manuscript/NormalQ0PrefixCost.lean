@@ -44,6 +44,5 @@ theorem prefixCost_wordTurns_naturalWord_eq_s (C : Chart) (hq0 : C.q = 0) :
       simp [Chart.naturalLevels, hdouble]
     _ = C.s := (Chart.s_eq_costCount C).symm
 
-#print axioms prefixCost_wordTurns_naturalWord_eq_s
 end
 end F7Manuscript.NormalSkeleton.Chart

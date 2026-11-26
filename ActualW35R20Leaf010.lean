@@ -28,7 +28,5 @@ theorem actual_r20_leaf010 {I : Profile 7} [Nonempty (StableMatching I)] :
   ActualW35OneGBinarySingletonReduction.r20_010_of_binary_singleton_pre_obligation
     actual_binary_singleton_pre_obligation
 
-#print axioms actual_binary_singleton_pre_obligation
-#print axioms actual_r20_leaf010
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW35R20Leaf010

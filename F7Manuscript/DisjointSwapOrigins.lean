@@ -112,6 +112,4 @@ theorem origins_adjacent_disjoint_swap (pre : List Swap) (p q : Swap)
         _ = origins pre pre.length (swapSite q (swapSite p a)) :=
           F7Manuscript.PartnerGraph.Sized.origins_append_last pre q (swapSite p a)
 
-#print axioms swapSite_commute_of_disjoint
-#print axioms origins_adjacent_disjoint_swap
 end F7Manuscript.DisjointSwapOrigins

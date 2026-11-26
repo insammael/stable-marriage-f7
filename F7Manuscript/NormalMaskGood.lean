@@ -38,6 +38,4 @@ theorem pair_good (last : Color) (prev : Option Color) (paired : Bool)
       funext_iff, Fin.forall_fin_succ] at *
     simp_all
 
-#print axioms center_good
-#print axioms pair_good
 end F7Manuscript.NormalMaskCounter

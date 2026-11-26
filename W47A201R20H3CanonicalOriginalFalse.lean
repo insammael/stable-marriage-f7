@@ -332,4 +332,3 @@ end
 
 end F7Manuscript.ActualR20H3
 
-#print axioms F7Manuscript.ActualR20H3.m08_h3_1_canonical_original_false_of_no_T

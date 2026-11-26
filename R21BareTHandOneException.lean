@@ -50,5 +50,4 @@ theorem hand_score_one_ordered_exception (ml ql sl mr qr sr : Nat)
     norm_num [windowFee,windowCost] at rfee
     omega
 
-#print axioms hand_score_one_ordered_exception
 end F7Manuscript.TripleCoordinateLattice.R21BareT

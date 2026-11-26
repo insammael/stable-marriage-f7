@@ -82,6 +82,5 @@ theorem actual_periodic_fifteen_prefix_no_future
   exact W34RawCutPrefixTransfer.no_extension_of_raw_fifteen_support_prefix
     (reindexRun S e) (reindexRun R e) Cut hPQ hq hsupp
 
-#print axioms actual_periodic_fifteen_prefix_no_future
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW35PeriodicPrefixTerminal

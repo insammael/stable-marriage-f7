@@ -95,7 +95,6 @@ theorem reverse_paired_rows_frame
   exact ⟨cross, label, hrows,
     ActualPairedFrameValidity.afterPaired_stateOfFrame_valid f hv cross label⟩
 
-#print axioms reverse_paired_rows_frame
 
 end
 end F7Manuscript.ActualW33ReversePairedRectangleFrame

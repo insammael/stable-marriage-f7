@@ -36,6 +36,5 @@ theorem reflected_after_paired_frontiers (a b : Pair) (εa εb cross label : Boo
   cases εa <;> cases εb <;> cases cross <;> cases label <;>
     simp [xorBit, signedFlipPair, select, other]
 
-#print axioms reflected_after_paired_frontiers
 
 end F7Manuscript.W7SignedFrameAfterPairedAlgebra

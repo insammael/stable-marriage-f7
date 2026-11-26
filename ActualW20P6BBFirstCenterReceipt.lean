@@ -225,6 +225,4 @@ theorem bb_actual_receipt45_is_initial
       obtain ⟨hends,hpre4,hpre5,hpost5,hprior⟩ := bb_cell45_receipt_is_origin45 T hBB k hpart hpost
       exact ⟨k,hends,hpre4,hpre5,hpost,hpost5,hprior⟩
 
-#print axioms bb_cell45_receipt_is_origin45
-#print axioms bb_actual_receipt45_is_initial
 end F7Manuscript.ActualW20P6BBFirstCenterReceipt

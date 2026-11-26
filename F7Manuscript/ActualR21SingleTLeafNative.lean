@@ -49,7 +49,5 @@ theorem r21LeafObligation_zero_zero_one_native (I : Profile 7)
     [Nonempty (StableMatching I)] : R21LeafObligation I 0 0 1 :=
   r21LeafObligation_zero_zero_one_hand I
 
-#print axioms r21LeafObligation_zero_zero_one_of_check
-#print axioms r21LeafObligation_zero_zero_one_native
 end
 end F7Manuscript.ActualPositiveDeficitCoverAssembly

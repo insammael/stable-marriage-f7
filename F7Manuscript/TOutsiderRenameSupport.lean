@@ -45,5 +45,4 @@ theorem atomSupport_context_compose (pre : Bool) (g s : List ℕ)
     contextActor_compose pre g s hs p.2 h₂]
   rfl
 
-#print axioms atomSupport_context_compose
 end F7Manuscript.TOutsiderRenameSupport

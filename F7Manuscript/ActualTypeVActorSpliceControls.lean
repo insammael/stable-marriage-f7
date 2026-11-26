@@ -143,6 +143,5 @@ theorem actual_typeV_actor_splice_with_control_agreement
     postIndex hpostIndex Hpre' hframe Hpost' hg0 hg1 hc hinit0 hinit1 hinit2 hinit3
   exact ⟨bits, (by intro k hk; exact (hleft k hk).symm), hfirst, hsplice⟩
 
-#print axioms actual_typeV_actor_splice_with_control_agreement
 end
 end F7Manuscript.TripleCoordinateLattice

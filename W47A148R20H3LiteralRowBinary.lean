@@ -38,4 +38,3 @@ theorem cover_moving_supports (S : SupportModel V (Agent 7))
 
 end F7Manuscript.NormalSupportRigidity
 
-#print axioms F7Manuscript.NormalSupportRigidity.cover_moving_supports

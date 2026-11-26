@@ -777,11 +777,5 @@ theorem plan310_bit11_forced
     ·
       simp [h2, hk]
 
-#print axioms plan310_bit6_forced
-#print axioms plan310_bit7_forced
-#print axioms plan310_bit8_forced
-#print axioms plan310_bit9_forced
-#print axioms plan310_bit10_forced
-#print axioms plan310_bit11_forced
 
 end F7Manuscript.ActualW15Word310LateForcing

@@ -64,6 +64,5 @@ theorem right_pure_five_impossible_of_middle_q_zero
  · exact hprefix
  · exact ⟨rfl,rfl,by decide⟩
 
-#print axioms right_pure_five_impossible_of_middle_q_zero
 end
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundaryFinite

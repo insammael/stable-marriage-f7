@@ -31,6 +31,5 @@ theorem actual_firstPaired_mirror_opposite_two_mass_le_seven {n m : Nat}
  obtain ⟨last,trace,_,_⟩ := mixed_trace_of_anchored_route route s
    (fun st => graphGuard couplingMirrorCompatible couplingMirrorRejected (physical st)) guard hLs hLv hf hlast colors
  exact firstPaired_mirror_coupling_tail_bound (crownMixedTrace_physical trace) root
-#print axioms actual_firstPaired_mirror_opposite_two_mass_le_seven
 end
 end F7Manuscript.R21SingleTHand

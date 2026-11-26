@@ -60,6 +60,5 @@ theorem actual_both_long_budget_le_one
   rw [hmin0, hmin1] at hcost
   omega
 
-#print axioms actual_both_long_budget_le_one
 end
 end F7Manuscript.TripleCoordinateLattice.W38ActualBothLongBudget

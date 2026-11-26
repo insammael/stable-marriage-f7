@@ -73,7 +73,6 @@ theorem actual_X_cost_three_q_le_one
       exact False.elim (F7Manuscript.AllPositiveZeroSCostAnchorExclusion.actual_X_s0_m7_false
         C hn hδ hdeficit hpos h221 h311 hG hT X hm hs)
 
-#print axioms actual_X_cost_three_q_le_one
 
 end
 end ActualW15CostThreeQle1

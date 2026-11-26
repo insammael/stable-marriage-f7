@@ -88,8 +88,5 @@ theorem actual_initial_supports_of_top_rows
   rw [hi] at hs
   exact hs.trans (hrows c)
 
-#print axioms selected_reverse_side_order_at_original
-#print axioms selectedReverseSideOrder
-#print axioms actual_initial_supports_of_top_rows
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW33RContextFullSideOrder

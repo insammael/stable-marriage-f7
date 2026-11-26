@@ -1,5 +1,6 @@
 module
 
+public import Mathlib
 public import F7Manuscript.SizedPartnerGraphCertificate
 
 @[expose] public section
@@ -392,7 +393,6 @@ theorem q4_node26_future_length_le_two {F : Rel} {n : ℕ}
           | three a b c => simp [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hcost
           | four a b c d => simp [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hcost
 
-#print axioms q4_node26_future_length_le_two
 
 /-- Pure Q4 node 46 hand bound: only its literal graph relation is used. -/
 theorem q4_node46_future_length_le_two {F : Rel} {n : ℕ}
@@ -492,6 +492,5 @@ theorem q4_node46_future_length_le_two {F : Rel} {n : ℕ}
           | three a b c => simp [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hcost
           | four a b c d => simp [CycleSpec.cost, CycleSpec.size, CycleSpec.sites] at hcost
 
-#print axioms q4_node46_future_length_le_two
 
 end F7Manuscript.ActualW12Q4Node26Node46HandBound

@@ -35,5 +35,4 @@ theorem actual_center_type_word_four_cases
   · exact False.elim (actual_ABBA_center_word_false tr hABBA)
   · exact False.elim (actual_BAAB_center_word_false tr hBAAB)
 
-#print axioms actual_center_type_word_four_cases
 end F7Manuscript.ActualW20P6CenterTypeFourCases

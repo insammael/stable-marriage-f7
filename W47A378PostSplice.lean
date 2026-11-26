@@ -387,13 +387,6 @@ theorem post_exclusion_reverse_block
 
 end Actual
 
-#print axioms postUpperShadow
-#print axioms mem_postUpperShadow
-#print axioms upperShadow_splice
-#print axioms outsideTripleVertices_mem_of_not_mem
-#print axioms postUpperShadow_subset_outside
-#print axioms post_exclusion_splice
-#print axioms post_exclusion_reverse_block
 
 end
 

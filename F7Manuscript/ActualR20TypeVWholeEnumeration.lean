@@ -407,7 +407,6 @@ theorem actual_r20_typeV_whole_enumeration_from_gap
       ⟨hlower, ⟨EG', ⟨hEG'', ⟨tail,hfutureEq,htail,Dtail,hpts,hcard,Dfuture,
         hfuturePts,Hwhole,hPG',HPG,hPGpoints,hUF,hptsWhole,hprefix⟩⟩⟩⟩⟩
 
-#print axioms actual_r20_typeV_whole_enumeration_from_gap
 
 end
 end F7Manuscript.TripleCoordinateLattice

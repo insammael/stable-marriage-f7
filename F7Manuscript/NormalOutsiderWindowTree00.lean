@@ -689,7 +689,6 @@ theorem tree0_valid : BinaryChoice.AllLeaves (WindowControlCertificate.BoundedVa
   simpa only [tree0] using! tree0_n0_valid
 
 
-#print axioms tree0_valid
 
 theorem cover_budget0 : ∀ c ∈ F7Manuscript.PartnerGraph.NormalOutsider.Windows.window0.cover, c.leftEvents + budget0 < 21 := by
   decide

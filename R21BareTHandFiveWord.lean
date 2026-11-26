@@ -33,6 +33,4 @@ theorem first_center_word_to_massPath (B : Board) (f last : SupportFrame)
     simpa only [freshWord,Bool.and_eq_true] using! fresh
   exact .center c b hh.1 (normalWord_to_massPath word _ hh.2)
 
-#print axioms normalWord_to_massPath
-#print axioms first_center_word_to_massPath
 end F7Manuscript.TripleCoordinateLattice.R21BareTHandFive

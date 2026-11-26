@@ -69,6 +69,5 @@ theorem carrier_periodic_short_table_budget
     F7Manuscript.ActualW11PeriodicShortBudgetProjection.rootFor_budget k hk b
   exact ⟨b, by simpa [t, hbudget] using! hresult⟩
 
-#print axioms carrier_periodic_short_table_budget
 
 end F7Manuscript.ActualW11CarrierPeriodicShortTableBudget

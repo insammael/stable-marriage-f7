@@ -690,7 +690,5 @@ theorem q0EntryMatchesWindow : ∀ i, Q0EntryMatchesWindow i (q0WindowAt i) (q0E
   · exact q0_match_58
   · exact q0_match_59
 
-#print axioms selected_length
-#print axioms q0EntryMatchesWindow
 end
 end F7Manuscript.ActualW12LegacyQ0WindowSelector

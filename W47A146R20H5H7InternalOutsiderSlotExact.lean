@@ -50,7 +50,6 @@ theorem a142_internal_outsider_slot_forces_double_or_triple
     simpa only [outsiderSlotRight, Fin.val_mk] using! hslot.above hle
   exact outsider_threshold_path_switch_double_or_triple C hxout E n hb ha
 
-#print axioms a142_internal_outsider_slot_forces_double_or_triple
 
 end
 end F7Manuscript.TripleCoordinateLattice

@@ -107,6 +107,5 @@ theorem oriented_first_paired_other_two_impossible {phase order n m S T}
     (Or.inr rfl) rightColors rootQ
    omega
 
-#print axioms oriented_first_paired_other_two_impossible
 end
 end F7Manuscript.R21SingleTHand

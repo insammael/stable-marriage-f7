@@ -98,6 +98,5 @@ theorem no_two_event_cover_of_saturated_survivors
       rw [hidx]
     exact hstate.symm.trans htoken.symm
 
-#print axioms no_two_event_cover_of_saturated_survivors
 end
 end F7Manuscript.ActualW28R20SurvivorCoverObstruction

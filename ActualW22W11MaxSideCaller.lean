@@ -400,7 +400,6 @@ theorem actual_u3_q0s4_selected11_max_two_false
     rw [hL,hclock,hbefore] at hbudget
     omega
 
-#print axioms actual_u3_q0s4_selected11_max_two_false
 
 end
 end F7Manuscript.ActualW22W11MaxSideCaller

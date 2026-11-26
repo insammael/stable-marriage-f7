@@ -104,6 +104,5 @@ theorem actual_reverse_paired_rows_frame_supports
       _ = pairSupport (if label then (pairedPairs f cross).1 else (pairedPairs f cross).2) :=
         congrArg pairSupport hfront₁
 
-#print axioms actual_reverse_paired_rows_frame_supports
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW30R20ReversePairedFrameSupports

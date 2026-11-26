@@ -65,6 +65,5 @@ theorem actual_both_long_count_or_typeV
   · exact hfalse.elim
   · exact Or.inr ⟨j, hT, hV⟩
 
-#print axioms actual_both_long_count_or_typeV
 end
 end F7Manuscript.TripleCoordinateLattice.W39ActualBothLongCountOrTypeV

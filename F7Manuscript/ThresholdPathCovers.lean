@@ -82,7 +82,5 @@ theorem perfect_thresholdPath_pair_cover
   rw [hlabels]
   simp
 
-#print axioms perfect_thresholdPath_coordinate_cover
-#print axioms perfect_thresholdPath_pair_cover
 end
 end F7Manuscript.TripleCoordinateLattice

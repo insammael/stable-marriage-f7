@@ -41,6 +41,5 @@ private theorem final_atom_empty
     (by simp [new1011Plan, eventCount]) (by simp [new1011Plan, eventCount])
     p q x y hpq hxy hpx hpy hqx hqy hm hblocked
 
-#print axioms final_atom_empty
 
 end F7Manuscript.ActualW12New10New11FinalAtomHelpers

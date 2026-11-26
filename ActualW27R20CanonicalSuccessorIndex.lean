@@ -41,6 +41,4 @@ theorem single_insertion_next_center_index_eq_add_four
   have hnext := next_center_chronologicalIndex_eq_add_three C j h hd
   constructor <;> omega
 
-#print axioms next_center_chronologicalIndex_eq_add_three
-#print axioms single_insertion_next_center_index_eq_add_four
 end F7Manuscript.ActualW27R20CanonicalSuccessorIndex

@@ -63,7 +63,5 @@ theorem expected19_as_finset :
       (expected25.filter (fun P => decide (P ∉ excludedFromExpected19))).toFinset := by
   decide
 
-#print axioms query_key_exists_of_nineteen
-#print axioms expected19_as_finset
 
 end F7Manuscript.ActualW21Q0QueryKeyCoverage

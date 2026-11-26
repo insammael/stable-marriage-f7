@@ -76,7 +76,5 @@ theorem chosen_gap_points_on_whole_event_set
     (chosen_gap_points_of_whole_concatenation P G U F EP EG HPG hPG hdisjPG
       hdisjUF H EF hptsPG hptsWhole i)
 
-#print axioms chosen_future_first_center_point
-#print axioms chosen_gap_points_on_whole_event_set
 end
 end F7Manuscript.TripleCoordinateLattice

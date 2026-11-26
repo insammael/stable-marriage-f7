@@ -161,6 +161,4 @@ theorem regular_card_le_eight (hClass : PairClass (V:=V)) (P : Finset V)
   have hn := bad_neutral_card_le_eight (Induced.badNeutral_of_regular P hClass h)
   simpa only [Fintype.card_coe] using! hn
 
-#print axioms regular_card_le_eight
-#check regular_card_le_eight
 end NeutralCore

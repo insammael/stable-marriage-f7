@@ -85,7 +85,6 @@ theorem three_outsiders_all_at_G (hu : (outsideTripleVertices C).card=3)
   clear * - hd haccount
   omega
 
-#print axioms three_outsiders_all_at_G
 end
 end F7Manuscript.TripleCoordinateLattice.R21OneGOccupied
 

@@ -49,7 +49,6 @@ theorem carrier_saved45_run_bound_k18_complete
     noReturn_saved45_source14_four_words hnorm hnr'
   exact carrier_saved45_run_bound_k18 C hwordCase
 
-#print axioms carrier_saved45_run_bound_k18_complete
 
 end
 end F7Manuscript.ActualW17Saved45ActualCarrierK18Complete

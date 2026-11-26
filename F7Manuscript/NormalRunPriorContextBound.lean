@@ -220,7 +220,5 @@ theorem pathSegment_prior_cross_le_future_context_abstract
   Finset.card_le_card (pathSegment_prior_cross_subset_future_context C E left right hlr
     h221 h311 hz hreset t H)
 
-#print axioms pathSegment_prior_cross_subset_future_context
-#print axioms pathSegment_prior_cross_le_future_context_abstract
 end
 end F7Manuscript.TripleCoordinateLattice

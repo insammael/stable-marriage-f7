@@ -171,7 +171,5 @@ theorem typeI_introduction_order_rows
           simp [afterPaired, put, hLR]
 
 
-#print axioms typeIIntroductionOrder_slots
-#print axioms typeI_introduction_order_rows
 
 end F7Manuscript.W36TypeIIntroductionOrder

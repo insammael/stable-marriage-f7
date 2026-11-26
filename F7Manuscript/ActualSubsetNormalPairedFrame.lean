@@ -364,11 +364,6 @@ theorem subsetNormal_paired_state_valid
 
 
 
-#print axioms subsetNormal_paired_coordinate_update
-#print axioms subsetNormal_paired_rowsMatch
-#print axioms subsetNormal_paired_rowsMatch_of_rectangle
-#print axioms subsetNormal_paired_step_supports_exact
-#print axioms subsetNormal_paired_state_valid
 
 end
 end F7Manuscript.TripleCoordinateLattice

@@ -382,7 +382,6 @@ theorem actual_cut_packet
     cycles := hcycles
   }⟩
 
-#print axioms actual_cut_packet
 
 end
 end F7Manuscript.ActualW9D2ActualCutPacket

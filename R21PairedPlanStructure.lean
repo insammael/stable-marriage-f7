@@ -75,6 +75,4 @@ theorem original_qzero_of_pure_plan (S : Chart) (a : Equiv.Perm F7Local.Color)
   rw [←q_eq_pairedTotal S] at events
   omega
 
-#print axioms first_paired_split
-#print axioms original_qzero_of_pure_plan
 end F7Manuscript.R21LongWindow.PairedSubpatterns

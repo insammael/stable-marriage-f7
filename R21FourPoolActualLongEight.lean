@@ -51,6 +51,5 @@ theorem actual_four_pool_short_six_requires_long_eight
       (fun i hi => (fixed a ha i hi).2)
   exact covered_pool_marked_long_eight R cut K marked sub two E atCut covered binary rowThree tokenThree
 
-#print axioms actual_four_pool_short_six_requires_long_eight
 end
 end F7Manuscript.R21LongWindow.FourPoolCapacity

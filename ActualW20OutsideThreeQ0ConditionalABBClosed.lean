@@ -70,6 +70,5 @@ theorem actual_outside_three_q0_conditional_without_p6_bound
       exact False.elim (actual_X_paid6_reverse_false C hn hδ h221 h311 hG hT
         X hu hq hs hpaid6 hchoice hstrict)
 
-#print axioms actual_outside_three_q0_conditional_without_p6_bound
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW20OutsideThreeQ0ConditionalABBClosed

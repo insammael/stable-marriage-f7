@@ -95,8 +95,6 @@ theorem original_three_four_windows_by_idle
   · exact h₁
   · exact h₂
 
-#print axioms original_two_T_not_three_pure_four
-#print axioms original_three_four_windows_by_idle
 end
 end F7Manuscript.TripleCoordinateLattice.R21FourEndpoint
 

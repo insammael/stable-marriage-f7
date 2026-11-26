@@ -50,6 +50,5 @@ theorem R20FiveRectangleHistory.full_middle
     (hdate 0) (hdate 1) (hdate 2) H.old_binary.1 H.old_binary.2 hdis H.old_pool
     hsub H.middle_cycle H.middle_large
 
-#print axioms R20FiveRectangleHistory.full_middle
 end
 end F7Manuscript.TripleCoordinateLattice

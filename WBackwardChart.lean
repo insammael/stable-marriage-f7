@@ -399,12 +399,6 @@ theorem actual_backward_wall
     (A.colorPerm (S.naturalWord (lo.val+1)))
     (A.colorPerm (S.naturalWord (lo.val+2))) hn ht htn A.bits H
 
-#print axioms mixedPlan_lastD_five_split
-#print axioms beforeLastD_control_address
-#print axioms actual_lastD_following_route
-#print axioms actual_lastD_anchor
-#print axioms backward_six_colors
-#print axioms actual_backward_wall
 
 end
 end F7Manuscript.WBackwardChart

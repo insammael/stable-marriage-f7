@@ -343,19 +343,9 @@ theorem seventh_idle_is_first_output_renamed {W : Type*} [Fintype W]
   exact state_eq_of_no_support R row 4 9 (by decide) (by decide)
     (fun k hk4 hk9 => gap k (by omega) hk9)
 
-#print axioms actual_wire_to_next_renamed
-#print axioms seventh_idle_is_first_output_renamed
 
-#print axioms stamp_four_first_wire
-#print axioms seventh_idle_is_first_output
 
-#print axioms actual_wire_preserves_stamp
-#print axioms producer_schedule_next
-#print axioms actual_wire_to_next
 
-#print axioms actual_frame_provenance
-#print axioms actual_center_input_producers
 
-#print axioms frameStamp_afterCenter
 end
 end F7Manuscript.R21LongWindow.Mass18Endpoint

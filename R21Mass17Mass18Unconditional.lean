@@ -47,8 +47,4 @@ theorem mass18_dated_cost_ge_eleven (S : Chart)
   have qzero:=original_paired_count_zero S A R 0 (by omega) alignment binary (by omega) (by omega) (by omega)
   exact PureRootCoverage.mass18_cost_of_qzero S A R align binary qzero
 
-#print axioms actual_gap_three_interior
-#print axioms original_paired_count_zero
-#print axioms mass17_dated_cost_ge_nine
-#print axioms mass18_dated_cost_ge_eleven
 end F7Manuscript.R21LongWindow.PairedSubpatterns

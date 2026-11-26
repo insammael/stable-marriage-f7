@@ -94,6 +94,5 @@ theorem normal_core_outsider_neighbor_bound
       rw [Finset.card_eq_zero.mp hT] at hm
       exact False.elim (Finset.notMem_empty _ hm)
 
-#print axioms normal_core_outsider_neighbor_bound
 end
 end F7Manuscript.TripleCoordinateLattice

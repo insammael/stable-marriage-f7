@@ -450,7 +450,6 @@ theorem actual_dual_two_d2_scheduled_false
     (by have := t₂.isLt; rw [htime₂] at this; omega)
     hpair0 hpair1 hcover hcandidate hPcenterFollowing hpastSecond
 
-#print axioms actual_dual_two_d2_scheduled_false
 
 end
 end F7Manuscript.ActualDualTwoD2Scheduled

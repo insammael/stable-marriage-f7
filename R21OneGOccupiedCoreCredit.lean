@@ -115,7 +115,6 @@ theorem occupied_G_cross_core
       have hcs : f ≤ s := (congrArg Subtype.val hfix).le.trans (hac ▸ had)
       exact (lt_of_le_of_ne hrc hrF).trans_le hcs
 
-#print axioms occupied_G_cross_core
 end
 end F7Manuscript.TripleCoordinateLattice.R21OneGOccupied
 

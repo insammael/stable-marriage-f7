@@ -178,7 +178,6 @@ theorem initial_supports
 
 end SubsetNormalMixedTrace
 
-#print axioms SubsetNormalMixedTrace.initial_supports
 
 end
 end F7Manuscript.TripleCoordinateLattice

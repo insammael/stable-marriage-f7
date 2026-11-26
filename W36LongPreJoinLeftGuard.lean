@@ -116,6 +116,5 @@ theorem mixed_pre_last_center_ne_join_left
         before bits Hpre i hi l hil (word (m - 1)) firstBit hFirst'
         (levels (m - 1)) bits (n + 1) Hpad hl nextBit hLast'
 
-#print axioms mixed_pre_last_center_ne_join_left
 
 end F7Manuscript.W36LongPreJoinLeftGuard

@@ -34,7 +34,5 @@ theorem wholePrefixPast_append_left (t : F7Paired.Matching)
     omega
   exact congrFun (atPrefix_append_left t pre post bits k (by omega)) a
 
-#print axioms atPrefix_append_left
-#print axioms wholePrefixPast_append_left
 
 end F7Manuscript.N4WholePrefixAppend

@@ -37,6 +37,4 @@ theorem realizes_reindex {q : ℕ} (R : TokenRun Site Site q) (w : List Swap)
     R21TwoTBoundaryFinite.pairAt_mapped_word e w i.val (by simpa [hw.1] using! i.isLt)]
   simp [mapSupportPair]
 
-#print axioms realizes_reindex
-#print axioms realizes_reverse
 end F7Manuscript.TripleCoordinateLattice.R21TwoTBoundary

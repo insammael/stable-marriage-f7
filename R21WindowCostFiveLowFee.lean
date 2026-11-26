@@ -25,7 +25,5 @@ theorem noActualTerminal_mass13_lowFee (c : Nat) (fee : c ≤ 2) :
   have checked : check 13 2 = true := by decide +kernel
   exact exclude_window checked rfl fee
 
-#print axioms noActualTerminal_mass12_lowFee
-#print axioms noActualTerminal_mass13_lowFee
 
 end F7Manuscript.R21NormalEndpoint.CostFiveHand

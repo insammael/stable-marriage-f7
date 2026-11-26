@@ -142,8 +142,4 @@ theorem chart_plan_mixed_colors (S : NormalSkeleton.Chart) :
       apply mixedColors_through_pairs
       exact chart_colors_after_first S 1 n (by decide) (by omega)
 
-#print axioms CrownMixedTrace.chart_cost
-#print axioms chart_plan_event_count
-#print axioms chart_plan_mixed_colors
-#print axioms chart_naturalLevels_le_two
 end F7Manuscript.R21PureInitialCrown

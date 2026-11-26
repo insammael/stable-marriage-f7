@@ -157,7 +157,6 @@ theorem saturated_square {A B : Finset V}
   rw [hEq] at hm
   simpa [Finset.mem_erase,hMem,hp,hq,Prod.ext_iff,hLo,hHi] using! hm.symm
 
-#print axioms saturated_square
 
 theorem saturated_cross_order {A B : Finset V}
     {GA : ThreeMaxBoundary A} {GB : ThreeMaxBoundary (V := OrderDual V) B}
@@ -218,6 +217,5 @@ theorem saturated_cross_order {A B : Finset V}
       exact hMatch ((hπ _ _).mp (mem_missingRoots.mpr hRoot))
     simp [hLe,hMatch]
 
-#print axioms saturated_cross_order
 
 end NeutralCore

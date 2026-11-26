@@ -819,6 +819,5 @@ theorem d4_opposite_full_normalize
     · exact hfresh
   · exact hrootbits
 
-#print axioms d4_opposite_full_normalize
 
 end F7Manuscript.N4D4OppositeFullHistory

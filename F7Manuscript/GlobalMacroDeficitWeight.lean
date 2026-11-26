@@ -36,6 +36,5 @@ theorem macro_introduction_deficit_weight_sum :
   push_cast at hm
   omega
 
-#print axioms macro_introduction_deficit_weight_sum
 end
 end F7Manuscript.TripleCoordinateLattice

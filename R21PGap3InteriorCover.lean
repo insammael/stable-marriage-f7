@@ -444,6 +444,4 @@ theorem blocked_impossible (s : State) (check : blocked s = true)
   have obs' : WindowObservation R off (3+b.x) bound' s := by simpa only [size] using! obs
   exact noBoard b (List.mem_of_getElem? atIndex) R binary obs' (by simpa only [size] using! image)
 
-#print axioms checked_all_interior
-#print axioms blocked_impossible
 end F7Manuscript.R21NormalEndpoint.BoundaryAtlas.PGap3InteriorCover

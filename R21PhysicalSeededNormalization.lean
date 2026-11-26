@@ -74,6 +74,5 @@ theorem seeded_normal_run {length : Nat} (C : Chart)
   route:=routeMap }
  exact ⟨e,A,rfl⟩
 
-#print axioms seeded_normal_run
 end
 end F7Manuscript.R21PhysicalSeededNormalization

@@ -111,7 +111,5 @@ theorem extremal_of_chart_labels (S : Chart) (E : S.Vertex ≃ V)
       fun h => h.ne (E.symm.injective (no_outgoing S _ (fun t => (hmax t).2) ((ord _ _).mp h.le)))⟩
 end Labels
 
-#print axioms zero_cost_chart_family
-#print axioms extremal_of_chart_labels
 end F7Manuscript.R20Q1RectangleChart
 

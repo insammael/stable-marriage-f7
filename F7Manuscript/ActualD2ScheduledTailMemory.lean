@@ -68,7 +68,6 @@ theorem subsetNormalSegment_drop_scheduled_prefix_memory
     exact M'
   exact ⟨n', j', f', g', H', t', S', hn', hj', ht', hf', hbits', M''⟩
 
-#print axioms subsetNormalSegment_drop_scheduled_prefix_memory
 
 end
 end F7Manuscript.TripleCoordinateLattice

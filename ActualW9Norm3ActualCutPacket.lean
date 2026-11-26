@@ -283,7 +283,6 @@ theorem norm3_actual_cut_packet
     cycles := hcycles
   }⟩
 
-#print axioms norm3_actual_cut_packet
 
 end
 end F7Manuscript.ActualW9Norm3ActualCutPacket

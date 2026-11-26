@@ -140,7 +140,5 @@ theorem rowExclusive_single_double_profile
       exact hex ⟨d,by omega⟩
     split_ifs <;> omega
 
-#print axioms rowExclusive_card_le_two
-#print axioms rowExclusive_single_double_profile
 end
 end F7Manuscript.TripleCoordinateLattice

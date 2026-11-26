@@ -69,7 +69,6 @@ theorem actual_r21_run_cost_ge_occupied_add_one
       (((isolatedDouble C).card+(byLabel C 3).card+1 : ℕ) : ℤ) := by rw [hm]
   exact hlen.trans_lt hraw
 
-#print axioms actual_r21_run_cost_ge_occupied_add_one
 end
 end F7Manuscript.TripleCoordinateLattice
 

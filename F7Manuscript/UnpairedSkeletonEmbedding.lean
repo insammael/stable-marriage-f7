@@ -86,7 +86,5 @@ def vertexEquiv (H : FrontierChart I m) (hspan : events H = Finset.univ) :
     (skeleton H).Vertex ≃ Event I :=
   Equiv.ofBijective (label H) ⟨label_injective H,label_surjective H hspan⟩
 
-#print axioms vertexEquiv
-#print axioms label_frontier
 end
 end F7Manuscript.UnpairedSkeletonEmbedding

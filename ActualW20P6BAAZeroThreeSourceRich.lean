@@ -101,5 +101,4 @@ theorem actual_BAA_three_zero_source_rich
   exact ⟨e,k0,k1,k2,f,hlist,h01,h12,he,hpre6,hpart,hpost6e,hpost0,hfreeze,
     hf,hF0,hpost3,hsource⟩
 
-#print axioms actual_BAA_three_zero_source_rich
 end F7Manuscript.ActualW20P6BAAZeroThreeSourceRich

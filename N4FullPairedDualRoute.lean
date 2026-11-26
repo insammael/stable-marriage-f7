@@ -78,7 +78,5 @@ theorem paired_row_frame
   exact congrArg (mapSupportFrame e)
     (dualFrame_afterPaired M f hv cross label)
 
-#print axioms paired_row_fresh
-#print axioms paired_row_frame
 
 end F7Manuscript.N4FullPairedDualRoute

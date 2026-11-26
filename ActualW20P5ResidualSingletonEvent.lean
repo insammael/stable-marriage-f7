@@ -40,6 +40,5 @@ theorem p5_singleton_has_residual_event
   rcases Finset.mem_erase.mp hqerase with ⟨hqb, hqE⟩
   exact ⟨q, hqE, hqm, hqb⟩
 
-#print axioms p5_singleton_has_residual_event
 
 end F7Manuscript.ActualW20P5ResidualSingletonEvent

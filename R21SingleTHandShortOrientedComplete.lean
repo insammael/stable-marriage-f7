@@ -32,6 +32,5 @@ theorem ordered_crown_either_short_zero_impossible {n m : ℕ} {S T : NormalSkel
   · exact oriented_short_zero_impossible (oriented_swap_ordered R hn hm) hm hn (by omega) hs hzS
   · exact oriented_short_zero_impossible (oriented_of_ordered R hn hm) hn hm hsum ht hzT
 
-#print axioms ordered_crown_either_short_zero_impossible
 end
 end F7Manuscript.R21SingleTHand

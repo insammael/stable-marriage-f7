@@ -182,8 +182,6 @@ theorem reorient_actual_with_history
   have keep := chain.prefix t (by rfl)
   exact ⟨S,out,chain,hpre,route,⟨keep.observed oldWord Hobs⟩,keep.memory M⟩
 
-#print axioms reorient_actual_finite_plan
-#print axioms reorient_actual_with_history
 end
 end F7Manuscript.ActualW9MixedActualReorientation
 

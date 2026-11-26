@@ -147,8 +147,5 @@ theorem firstD4_actual_full_root_supply
       rw [d4APlan_eventCount])]
     exact hword.2.2
 
-#print axioms firstD34_actual_plan_append_A
-#print axioms firstD3_actual_full_root_supply
-#print axioms firstD4_actual_full_root_supply
 
 end F7Manuscript.N4FirstD34FullRootSupply

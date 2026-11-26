@@ -60,7 +60,5 @@ theorem rejectedSnapshot_excludes {n m : ℕ}
     simpa only [WordSnapshotCorrect,htok,hseen] using! (handSnapshot_correct C hC).2
   exact C.excludes_snapshots L R h hbL hbR k l s t hLs hLv hRs hRv hpreC hpostC
 
-#print axioms handSnapshotCheck_true
-#print axioms rejectedSnapshot_excludes
 end
 end F7Manuscript.R21SingleTHand

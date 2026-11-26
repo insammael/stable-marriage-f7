@@ -279,8 +279,6 @@ theorem actual_X_q0_p5_reverse_false
   have hrunupper : qrun ≤ 20 := by simpa [qrun, hzero] using! hrunbound
   omega
 
-#print axioms actual_X_q0_p5_reverse_carrier
-#print axioms actual_X_q0_p5_reverse_false
 
 end
 end F7Manuscript.ActualW18Q0P5ZeroEndpointReverse

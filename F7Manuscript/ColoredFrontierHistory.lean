@@ -82,5 +82,4 @@ theorem RawColoredCut.last_frontier_exchange (R : TokenRun Site W q)
             R.state k.castSucc a := (R.HOUT k a hnot).symm
         _ = R.state i.succ a := hpres a ha
 
-#print axioms RawColoredCut.last_frontier_exchange
 end F7Manuscript.PartnerGraph.Periodic

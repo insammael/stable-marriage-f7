@@ -40,5 +40,4 @@ theorem new102_actual_root_carrier_threshold_le
       bits h0 N R tok H F
   exact new102_actual_saved_structural_threshold_le C hnorm hp b hledger provider
 
-#print axioms new102_actual_root_carrier_threshold_le
 end F7Manuscript.ActualW13New102ActualCarrierThreshold

@@ -58,6 +58,5 @@ theorem p5_caseA_second_internal_uses_four_five
   exact p5_phase1_internal_event_uses_four_five T f hpre.1 hpre.2.1
     hnextFirst.1 hnextFirst.2
 
-#print axioms p5_caseA_second_internal_uses_four_five
 
 end F7Manuscript.ActualW20P5CaseASecondInternal

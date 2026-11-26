@@ -70,8 +70,4 @@ theorem BudgetContext.outside_right_is_not_closed
     have dates := C.rightDates
     omega
 
-#print axioms BudgetContext.stepRight
-#print axioms BudgetContext.stepLeft
-#print axioms BudgetContext.outside_left_is_not_closed
-#print axioms BudgetContext.outside_right_is_not_closed
 end F7Manuscript.R21LongWindow.DatedBoardSteps

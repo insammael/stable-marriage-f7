@@ -210,6 +210,5 @@ theorem actual_q1_typeI_whole_gap_exclusion
     jFixed hmacroIndex hfixed hv d0' d1' hslot0' hslot1' hnewLower
     cross σ hσfixed hσleft hσright hpostLower
 
-#print axioms actual_q1_typeI_whole_gap_exclusion
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW34QOneTypeIWholeGapExclusion

@@ -678,14 +678,6 @@ theorem original_fixed_cut_h5_history_bridge
 
 end Result
 
-#print axioms datedBlock_of_prefixSource
-#print axioms forced_modes_thirteen
-#print axioms forced_choice_thirteen
-#print axioms OriginalH5HistoryProducer.toNormalizedRun
-#print axioms producer_realizes
-#print axioms producer_receipt
-#print axioms actualFresh_subset_synthetic
-#print axioms original_fixed_cut_h5_history_bridge
 
 end
 

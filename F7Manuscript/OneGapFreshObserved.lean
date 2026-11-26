@@ -108,8 +108,5 @@ theorem checked_tree_excludes_observed_old_frontier
     · exact hraw i.val i.isLt _ (by simp) earlier.val (by omega)
   exact checked_tree_excludes_fresh plan required tree hvalid bits hfresh hprofile
 
-#print axioms history_return_excludes_fresh_prefix
-#print axioms checked_tree_excludes_fresh
-#print axioms checked_tree_excludes_observed_old_frontier
 end
 end F7Manuscript.OneGap

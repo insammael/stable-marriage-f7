@@ -136,5 +136,4 @@ theorem p5_CI_short_actual_impossible
         (Finset.mem_sdiff.mp hunused).2
       exact hnot hhit
 
-#print axioms p5_CI_short_actual_impossible
 end F7Manuscript.ActualW20P5CIShortContradiction

@@ -124,7 +124,6 @@ def actual_plan56_packet
   }
   · simpa [wordA, wordB] using! hword
 
-#print axioms actual_plan56_packet
 
 end
 end F7Manuscript.ActualW15Q0Plan56RestrictedCarrier

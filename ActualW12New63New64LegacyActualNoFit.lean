@@ -71,10 +71,6 @@ theorem actual_X_new64_legacy_oriented_source_false
   exact actual_X_any_return_root_oriented_source_false C hn hδ h221 h311 hG hT X
     new64_return_entry new64_color_facts_actual dual j hfit
 
-#print axioms new63_color_facts_actual
-#print axioms new64_color_facts_actual
-#print axioms actual_X_new63_legacy_oriented_source_false
-#print axioms actual_X_new64_legacy_oriented_source_false
 
 #eval IO.eprintln "W12 NEW63/64 legacy actual nofit checked"
 

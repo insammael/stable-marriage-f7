@@ -56,6 +56,5 @@ theorem canonical_endpoint_score {size score : ℕ} (checked : checkSharedBudget
   change score ≤ F.q + S.q + F.s + S.s + min F.m 2 + min S.m 2
   rwa [hrev.1,hrev.2.1,hrev.2.2] at hs
 
-#print axioms canonical_endpoint_score
 end
 end F7Manuscript.ActualPositiveDeficitCoverAssembly.R21OneGEndpoint

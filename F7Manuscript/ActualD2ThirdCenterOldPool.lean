@@ -82,6 +82,5 @@ theorem third_center_support_subset_old_pool
     · exact hidle h
   simpa [hpool] using! hsub
 
-#print axioms third_center_support_subset_old_pool
 
 end F7Manuscript.ActualD2ThirdCenterOldPool

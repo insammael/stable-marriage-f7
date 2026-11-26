@@ -268,8 +268,6 @@ theorem actual_X_q0_p5_forward_false
   have hrunupper : qrun ≤ 20 := by simpa [qrun, hfirst] using! hrunbound
   omega
 
-#print axioms actual_X_q0_p5_forward_carrier
-#print axioms actual_X_q0_p5_forward_false
 
 
 end

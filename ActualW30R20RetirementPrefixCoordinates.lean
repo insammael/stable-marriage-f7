@@ -66,6 +66,5 @@ theorem actual_retirement_prefix_coordinate_bound
   exact actual_retirement_bound_before_singleton_pair_cut
     D h221D h311D hzD j hD q hqcut
 
-#print axioms actual_retirement_prefix_coordinate_bound
 end
 end F7Manuscript.TripleCoordinateLattice.ActualW30R20RetirementPrefixCoordinates

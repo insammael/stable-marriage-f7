@@ -422,6 +422,5 @@ theorem actual_typeV_singleton_whole_route_twenty
       F7Manuscript.TripleCoordinateLattice.recoloredTypeVRow_left,
       F7Manuscript.TripleCoordinateLattice.recoloredTypeVRow_right] using! Hfull
 
-#print axioms actual_typeV_singleton_whole_route_twenty
 end
 end F7Manuscript.TripleCoordinateLattice.W39ActualTypeVSingletonWholeRouteTwenty

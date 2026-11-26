@@ -210,12 +210,5 @@ theorem actual_plan_no_return (plan : List Move) (bits : Nat → Bool)
     ⟨j, by omega⟩ hjstate
   exact hpast hstates.symm
 
-#print axioms routePrefix_length
-#print axioms routePrefix_take
-#print axioms sourcePrefix_length
-#print axioms sourcePrefix_eq_take
-#print axioms lastPair_eq_pairAt
-#print axioms tokensAfter_id_eq_origins
-#print axioms actual_plan_no_return
 
 end F7Manuscript.ActualPlanNoReturn

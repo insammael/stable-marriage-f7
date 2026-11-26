@@ -124,10 +124,6 @@ theorem actual_one_gap_normal_run_outgoing_context_color_of_row_eq
   subst postRow
   exact actual_one_gap_normal_run_outgoing_context_color C h221 h311 hu E R pastRow H hm
 
-#print axioms actual_one_gap_normal_run_incoming_context_color_of_row_eq
-#print axioms actual_one_gap_normal_run_outgoing_context_color_of_row_eq
 
-#print axioms actual_one_gap_normal_run_incoming_context_color
-#print axioms actual_one_gap_normal_run_outgoing_context_color
 end
 end F7Manuscript.TripleCoordinateLattice

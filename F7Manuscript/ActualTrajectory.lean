@@ -191,11 +191,6 @@ theorem confined_capacity_three {I : Profile n} (R : Run I q)
   apply TokenRun.THREE_SITE_CAPACITY (R.toConfinedTokenRun B hB)
   simpa using hc
 
-#print axioms Run.seven_length
-#print axioms Run.saturated_binary
-#print axioms partner_mem_incoming
-#print axioms confined_capacity_two
-#print axioms confined_capacity_three
 
 end ActualTrajectory
 end F7Manuscript

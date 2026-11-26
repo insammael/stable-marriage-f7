@@ -61,7 +61,6 @@ theorem actual_q0_pivots23613_min_zero_false
   exact F7Manuscript.ActualW1616GenericActualCaller.actual_X_window16_root11_min_endpoint_zero_false
     C hn hδ h221 h311 hG hT X (by rw [hm]; omega) hmin hW11 hD11
 
-#print axioms actual_q0_pivots23613_min_zero_false
 
 end
 end F7Manuscript.ActualW21Q0Window16PatternExclusion

@@ -262,10 +262,5 @@ theorem oneG_run_excluded_five {W : Type*} [Fintype W]
         (by rw [h3, hc.2]; decide) (by rw [h4, hc.1]; decide) (by rfl)
       exact single_G_five_word_excluded R shortWord2645Rev hR (by simp [shortSixWords])
 
-#print axioms classify_oneG_new_rows
-#print axioms normalize_boundary_outsider
-#print axioms boundary_pair_flips_preserve_rows
-#print axioms oneG_run_excluded
-#print axioms oneG_run_excluded_five
 
 end F7Manuscript.SmallGSingleReturn

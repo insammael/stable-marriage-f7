@@ -517,13 +517,6 @@ Boundary requirements for a future proof of the semantic targets:
 These are generic support-word requirements, not actual-profile/P^op claims.
 -/
 
-#print axioms mirrorIndex_involutive
-#print axioms reflect_q
-#print axioms reflect_s
-#print axioms reflect_n
-#print axioms firstCostD_reflect_iff
-#print axioms NoReturn_trimmed_prefix
-#print axioms NoReturn_segment_from_zero
 
 end
 end F7Manuscript.N4Reflection

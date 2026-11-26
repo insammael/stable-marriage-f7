@@ -46,6 +46,5 @@ theorem partial_crown_free_five_opposite_bound_right {n m : Nat} {S T : Chart}
     simp [chartPlan,zero,mixedPlanFrom,eventCount] at count
     omega
 
-#print axioms partial_crown_free_five_opposite_bound_right
 end
 end F7Manuscript.TripleCoordinateLattice.R21BareT

@@ -1,6 +1,13 @@
 module
 
-public import Mathlib
+public import Mathlib.Algebra.Order.Ring.Star
+public import Mathlib.Data.Nat.Bitwise
+public import Mathlib.RingTheory.WittVector.IsPoly
+public import Mathlib.Tactic.ENatToNat
+public import Mathlib.Tactic.Polynomial.Basic
+public import Mathlib.Tactic.ReduceModChar
+public import Std.Tactic.BVDecide.Normalize.BitVec
+public import Std.Tactic.BVDecide.Normalize.Prop
 
 @[expose] public section
 
@@ -96,8 +103,4 @@ theorem contradiction_of_producer_cases {I : Incidence} {D : Domains} {f : Actor
   obtain ⟨k,hk,hs⟩ := hit
   exact contradiction_of_leaf hc (tracks_condition h hs) (leaf k) (he k hk)
 
-#print axioms tracks_revise
-#print axioms tracks_replay
-#print axioms contradiction_of_leaf
-#print axioms contradiction_of_producer_cases
 end F7Manuscript.R21NormalEndpoint.Projection

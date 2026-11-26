@@ -192,7 +192,6 @@ theorem actual_typeI_actor_splice_with_controls
       hpreFinal hcenterNorm hgap0Norm hgap1Norm hpostCenterJoined
   exact hjoined
 
-#print axioms actual_typeI_actor_splice_with_controls
 
 end
 end F7Manuscript.TripleCoordinateLattice.W36TypeIActorSpliceWithControls

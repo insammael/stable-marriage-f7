@@ -24,6 +24,5 @@ theorem witness_with_total_validity (i : Fin 691)
       i h495 h525
   exact ⟨r, hr, hri, F7Manuscript.ActualW20W76TotalRowsAll.all_cover_rows_total_valid r hr⟩
 
-#print axioms witness_with_total_validity
 
 end F7Manuscript.ActualW21CoverRowsWithTotalValidity

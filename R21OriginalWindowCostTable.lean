@@ -22,6 +22,5 @@ theorem actual_r21_normal_window_cost (i : Fin ((macroPositions C E).card+1)) :
     windowCost (S.m+2*S.q) ≤ S.q+S.s :=
   actual_r21_normal_window_cost_kernel C hn h221 h311 i
 
-#print axioms actual_r21_normal_window_cost
 end
 end F7Manuscript.TripleCoordinateLattice

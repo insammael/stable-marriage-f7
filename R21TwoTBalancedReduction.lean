@@ -101,7 +101,5 @@ theorem original_two_T_balanced_from_costs
     (original_two_T_count C h221 h311 hG hT hn hu).1
     (original_two_T_bad_cost C h221 h311 hG hT hn hu hcounter)
 
-#print axioms three_bare_charts_balanced
-#print axioms original_two_T_balanced_from_costs
 end
 end F7Manuscript.TripleCoordinateLattice.R21TwoT

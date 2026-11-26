@@ -91,13 +91,5 @@ theorem W30B1_future_from_observed_prefix {W : Type*} [Fintype W] {q : ℕ}
   rw [W30B1_prefixFresh_eq] at transported
   exact W30D_future_le_six (SizedFuture.ofCore transported)
 
-#print axioms W30A0_prefixFresh_eq
-#print axioms W30A1_prefixFresh_eq
-#print axioms W30B0_prefixFresh_eq
-#print axioms W30B1_prefixFresh_eq
-#print axioms W30A0_future_from_observed_prefix
-#print axioms W30A1_future_from_observed_prefix
-#print axioms W30B0_future_from_observed_prefix
-#print axioms W30B1_future_from_observed_prefix
 
 end F7Manuscript.ActualW16Window30ObservedFuture

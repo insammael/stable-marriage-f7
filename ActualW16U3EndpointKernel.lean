@@ -80,7 +80,6 @@ theorem actual_u3_endpoint_kernel
   refine ⟨hcore, ?_, hsize, hmin⟩
   omega
 
-#print axioms actual_u3_endpoint_kernel
 
 end
 end F7Manuscript.ActualW16U3EndpointKernel

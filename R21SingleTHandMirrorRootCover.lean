@@ -48,5 +48,4 @@ theorem mirror_post_trace_bound {c d : Color} {tail : List Move} {s t : Physical
       simp only [eventCount]
       omega
 
-#print axioms mirror_post_trace_bound
 end F7Manuscript.R21SingleTHand

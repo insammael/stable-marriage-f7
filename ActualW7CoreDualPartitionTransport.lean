@@ -46,8 +46,6 @@ theorem coreDual_partition_is_comap (C : Partition (V := V)) [Nonempty (Triple C
   intro x
   rfl
 
-#print axioms w7ComapPartition
-#print axioms coreDual_partition_is_comap
 
 end
 end F7Manuscript.ActualW7CoreDualPartitionTransport

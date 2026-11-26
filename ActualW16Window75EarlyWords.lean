@@ -76,7 +76,5 @@ theorem noReturn_source13_TA_or_TB (t : Matching) (bits : Nat → Bool)
     have h8' : bits 8 = false := by simpa [h2] using h8
     exact Or.inr (source13_TB bits h0 h1 h2 h3' h4' h5' h6' h7' h8')
 
-#print axioms early_bits_forced
-#print axioms noReturn_source13_TA_or_TB
 
 end F7Manuscript.ActualW16Window75EarlyWords

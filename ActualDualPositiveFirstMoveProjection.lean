@@ -99,8 +99,6 @@ theorem actual_dual_positive_block_first_pair
           · simpa only [Fin.val_mk] using! h₀
           · simpa only [Fin.val_mk, Nat.add_assoc] using! h₁
 
-#print axioms dual_paired_positive_schedule_first_supports
-#print axioms actual_dual_positive_block_first_pair
 
 end
 end F7Manuscript.ActualInputS11DualPositiveFirstMoveProjection

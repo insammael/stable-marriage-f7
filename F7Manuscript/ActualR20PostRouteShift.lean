@@ -87,6 +87,5 @@ theorem SupportsRoute.transport_shifted_window
         simp [eventCount] at hnhi ⊢
         omega
 
-#print axioms SupportsRoute.transport_shifted_window
 
 end F7Manuscript.TripleCoordinateLattice

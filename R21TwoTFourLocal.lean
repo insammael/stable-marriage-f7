@@ -152,6 +152,5 @@ theorem actual_frame_pure_four_balance (s : Matching) (S : Chart) (f : SupportFr
     exact hx
   simpa only [hl,hr] using! h
 
-#print axioms actual_frame_pure_four_balance
 end F7Manuscript.R21FourConservation
 

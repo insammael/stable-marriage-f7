@@ -199,5 +199,4 @@ theorem actual_BAA_firstB4_false
     exact p6_three_distinct_unused_false tr (5,1) (0,1) (1,3)
       (by decide) (by decide) (by decide) hu51 hu01 hu13
 
-#print axioms actual_BAA_firstB4_false
 end F7Manuscript.ActualW20P6BAAFinalSourceContradiction

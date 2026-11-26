@@ -311,7 +311,6 @@ theorem actual_X_sameX_reverse_initial_paired_prefix
     firstChoiceWord := heFirst
     normal := N }⟩
 
-#print axioms actual_X_sameX_reverse_initial_paired_prefix
 
 end
 end F7Manuscript.ActualW9SameXReverseInitialPairedPrefix

@@ -56,9 +56,5 @@ theorem delta3_sub_a_le_one_of_A3_pos
   rw [← difference_deficit_identity]
   omega
 
-#print axioms actual_A3_zero_of_D_eq_two
-#print axioms r21_delta_six_actual_count_le_85
-#print axioms r21_delta_at_least_six_actual_count_le_85
-#print axioms delta3_sub_a_le_one_of_A3_pos
 
 end F7Manuscript.ActualCertificateBridge

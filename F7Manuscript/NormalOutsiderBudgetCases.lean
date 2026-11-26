@@ -55,5 +55,4 @@ theorem normal_outsider_budget_cases_unoriented (u v w : ℕ)
     simpa only [min_eq_right h',max_eq_left h',normalOutsiderCoreBudget_swap u w v] using!
       normal_outsider_budget_cases u w v hpos hmax (by omega) h'
 
-#print axioms normal_outsider_budget_cases_unoriented
 end F7Manuscript.TripleCoordinateLattice

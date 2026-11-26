@@ -53,7 +53,5 @@ theorem normal_core_skeleton_cost_le
   have h := normal_core_completion_cost_ledger C h221 h311 hG hT hm
   omega
 
-#print axioms normal_core_completion_cost_ledger
-#print axioms normal_core_skeleton_cost_le
 end
 end F7Manuscript.TripleCoordinateLattice

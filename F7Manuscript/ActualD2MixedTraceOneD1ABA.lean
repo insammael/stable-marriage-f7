@@ -149,7 +149,6 @@ theorem actual_mixed_trace_offset_D2_then_D1_false
   exact actual_arbitrary_offset_one_d1_false Q hQ B h221 h311 hz hm a p
     H₀ hd₀' S₀' M' H₁ hd₁' S₁ htime₁ H₂ S₂ htime₂ hj₁ hj₂
 
-#print axioms actual_mixed_trace_offset_D2_then_D1_false
 
 /-- Compatibility consequence: under the same hypotheses, the ABA equality
 holds vacuously because the purported D=1 continuation is impossible. -/
@@ -167,7 +166,6 @@ theorem actual_mixed_trace_offset_D2_then_D1_forces_ABA
   exact False.elim (actual_mixed_trace_offset_D2_then_D1_false
     Q hQ B h221 h311 hz hm T k hk hd₂ hd₁)
 
-#print axioms actual_mixed_trace_offset_D2_then_D1_forces_ABA
 
 end
 end F7Manuscript.TripleCoordinateLattice

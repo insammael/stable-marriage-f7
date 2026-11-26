@@ -209,9 +209,5 @@ theorem third_center_35_freezes_two
   have hsingle := third_center_35_has_unique_survivor R finish cut W htok hafter
   exact unique_survivor_frozen R finish cut W hpast htok hfinishCut 2 hsingle
 
-#print axioms third_center_25_has_unique_survivor
-#print axioms third_center_35_has_unique_survivor
-#print axioms third_center_25_freezes_three
-#print axioms third_center_35_freezes_two
 end
 end F7Manuscript.ActualW28R20ThirdCenterFrozen

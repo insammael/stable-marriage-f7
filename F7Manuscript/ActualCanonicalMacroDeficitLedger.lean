@@ -79,7 +79,5 @@ theorem actual_canonical_global_macro_deficit_ledger
   rw [hsum]
   omega
 
-#print axioms actualGlobalMacroContext
-#print axioms actual_canonical_global_macro_deficit_ledger
 end
 end F7Manuscript.TripleCoordinateLattice

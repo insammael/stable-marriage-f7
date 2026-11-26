@@ -108,8 +108,6 @@ theorem actual_X_extra_hand_return_no_fit
       (entry_fit_of_template_fit new112_return_entry 112 (by decide +kernel)
         (by decide +kernel) dual j hfit)
 
-#print axioms extraHandReturnIDs
-#print axioms actual_X_extra_hand_return_no_fit
 #eval IO.eprintln "W12 extra-hand return nofit checked"
 
 end

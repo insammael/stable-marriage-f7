@@ -140,6 +140,4 @@ theorem no_dated_paired_gap45_with_left_center
       have obs' : WindowObservation R off (3+(6+cs.length)) bound' out := by simpa only [size] using! obs
       exact PairedGap45LeftCover.blocked_impossible (6+cs.length) out hit R binary obs'
 
-#print axioms no_dated_paired_gap45_at_left_end
-#print axioms no_dated_paired_gap45_with_left_center
 end F7Manuscript.R21NormalEndpoint.PairedGap45Dated

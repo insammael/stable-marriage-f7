@@ -273,9 +273,5 @@ theorem d4Counter_sourcePrefix10 :
     initialSupport, centerPair, afterCenter, pairedPairs, select, other, put,
     leftCoord, rightCoord, d4CounterBits, d4AlternateWord] <;> decide
 
-#print axioms d3_literal_root_cases
-#print axioms d4_literal_root_cases
-#print axioms d4Counter_noReturn
-#print axioms d4Counter_sourcePrefix10
 
 end F7Manuscript.N4FirstD34LiteralRootCases

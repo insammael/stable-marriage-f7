@@ -93,5 +93,4 @@ theorem canonical_frame_layout (f : SupportFrame) (hf : ValidLayout (stateOfFram
 theorem canonical_row (c : Fin 3) : rowOf (canonicalFrame c)=baseRow := rfl
 theorem canonical_pairs (c : Fin 3) : startingPairs (canonicalFrame c)=baseRow.word := rfl
 
-#print axioms canonical_frame_layout
 end F7Manuscript.TripleCoordinateLattice.R21LooseRows

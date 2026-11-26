@@ -151,11 +151,6 @@ theorem constant_sign_q2_firstABA_cost_ge_four
   exact actual_q2_firstABA_cost_ge_four C h221 h311 hG hT
     (constant_sign_core_convex C hout hsign) hn hq p hp
 
-#print axioms actual_q2_firstABA_cost_ge_four
-#print axioms actual_q1_internal_prefix_le_eleven
-#print axioms actual_q1_internal_reflected_address_of_walls
-#print axioms actual_q1_terminal_bound_of_wall_and_K
-#print axioms constant_sign_q2_firstABA_cost_ge_four
 
 end
 end F7Manuscript.TripleCoordinateLattice.N4ActualPositivePrefixCallers

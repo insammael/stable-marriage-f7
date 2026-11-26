@@ -85,6 +85,4 @@ theorem contextWord_prefix_pairCount (pre : Bool) (sym : List ℕ)
   obtain ⟨tail,htail⟩ := contextWord_has_prefix pre sym outs row post
   rw [htail,pairCount_contextPrefix_append]
 
-#print axioms run_append_rows_take
-#print axioms contextWord_prefix_pairCount
 end F7Manuscript.TOutsiderContextPrefix

@@ -67,7 +67,5 @@ theorem final_typeV_join_distinct
   exact F7Manuscript.TripleCoordinateLattice.W34AdjacentCenterReturn.adjacent_centers_after_valid_mixed_prefix_false
     R t f bits i (pre ++ [.center g0]) post c H' M
 
-#print axioms first_typeV_join_distinct_at_endpoint
-#print axioms final_typeV_join_distinct
 end
 end F7Manuscript.TripleCoordinateLattice.W34TypeVCrossJoinActuality

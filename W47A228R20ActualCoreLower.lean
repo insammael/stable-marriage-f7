@@ -321,13 +321,6 @@ theorem w47_a228_actual_core_lower_of_four
     C h221 h311 hR20 houtside hGcard hTcard E hE hcore hmacro
     (w47_a228_hNo_of_four C E _ hfour)
 
-#print axioms w47_a228_original_data
-#print axioms w47_a228_hNo_of_four
-#print axioms w47_a228_checked_size
-#print axioms w47_a228_a121_core
-#print axioms w47_a228_checked_core_lower
-#print axioms w47_a228_actual_core_lower
-#print axioms w47_a228_actual_core_lower_of_four
 
 end
 end F7Manuscript.TripleCoordinateLattice

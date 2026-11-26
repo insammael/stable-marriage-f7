@@ -468,7 +468,6 @@ theorem actual_X_combined_cost_at_least_two
     exact (root_cut_fit_forces_no_partial_requirement W D hentry hmem false
       ⟨0, hj0⟩ hfit) hsomePartial
 
-#print axioms actual_X_combined_cost_at_least_two
 
 end
 end F7Manuscript.ActualW14AllPositiveActualCostFloor

@@ -249,7 +249,6 @@ theorem binary_singleton_normal_trace_exists
     middle := g
     firstRoute := Classical.choice hroute }⟩
 
-#print axioms binary_singleton_normal_trace_exists
 
 end
 end F7Manuscript.TripleCoordinateLattice.W35BinaryNormalBlockTrace

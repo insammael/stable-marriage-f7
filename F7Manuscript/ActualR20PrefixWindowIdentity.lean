@@ -94,7 +94,6 @@ theorem actual_r20_first_run_window_eq_prefix
         simpa only [hP0] using! hz0
       exact Finset.mem_union_right _ (Finset.mem_sdiff.mpr ⟨hz,hzrow⟩)
 
-#print axioms actual_r20_first_run_window_eq_prefix
 
 end
 end F7Manuscript.TripleCoordinateLattice

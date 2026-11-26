@@ -226,7 +226,6 @@ theorem actual_chart_low_cost_boundary {length n : Nat} (C : Chart)
     ObservedLowCostBoundary R off length :=
   actual_chart_observed_prefix C A R off bound align (select_low_cost_boundary low bad)
 
-#print axioms actual_chart_low_cost_boundary
 
 
 theorem ObservedLowCostBoundary.to_actualTerminal {off length : Nat}
@@ -244,7 +243,6 @@ theorem ObservedLowCostBoundary.to_actualTerminal {off length : Nat}
   · exact Or.inr (Or.inl (terminal 7 1 h₇.1 h₇.2))
   · exact Or.inr (Or.inr (terminal 8 2 h₈.1 h₈.2))
 
-#print axioms ObservedLowCostBoundary.to_actualTerminal
 
 end F7Manuscript.R21NormalEndpoint
 
@@ -356,7 +354,6 @@ theorem actual_r21_global_normal_low_cost_boundary
   exact actual_r21_global_normal_observed_prefix LowCostBoundary C hn h221 h311 i hm
     (select_low_cost_boundary low bad)
 
-#print axioms actual_r21_global_normal_low_cost_boundary
 
 /-- The cost table on masses six through eleven follows from excluding the
 three boundary terminals in the same complete run of the original cut. -/
@@ -386,7 +383,6 @@ theorem actual_r21_normal_cost_small_of_boundary_exclusions
   · exact exclude₇ h₇
   · exact exclude₈ h₈
 
-#print axioms actual_r21_normal_cost_small_of_boundary_exclusions
 
 /-- In every canonical window of mass at least twelve, a cost at most four
 would give a mass-twelve or mass-thirteen prefix in the same complete run. -/
@@ -418,7 +414,6 @@ theorem actual_r21_normal_cost_five_of_boundary_exclusions
   · exact exclude₁₂ s.cost fee terminal
   · exact exclude₁₃ s.cost fee terminal
 
-#print axioms actual_r21_normal_cost_five_of_boundary_exclusions
 
 end
 end F7Manuscript.TripleCoordinateLattice

@@ -53,6 +53,5 @@ theorem actual_pre_typeV_post_unfolds
     exact htEq ▸ Htail
   exact ⟨bits,hagree,supportsRoute_append Hpre' Htail'⟩
 
-#print axioms actual_pre_typeV_post_unfolds
 end
 end F7Manuscript.TripleCoordinateLattice.W34TypeVWholeRouteUnfolding

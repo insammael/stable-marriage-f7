@@ -69,6 +69,4 @@ theorem q1_s0_endpoint_plan_split {S : Chart}
   exact ⟨d, hend, hlevels, hd, hfirst,
     F7Manuscript.N4QOneCenterTail.q1_actual_plan_center_tail hq hfirst rho⟩
 
-#print axioms q1_s0_endpoint_is_first_cost
-#print axioms q1_s0_endpoint_plan_split
 end F7Manuscript.W34QOneEndpointPlan

@@ -18,6 +18,5 @@ theorem gap_colors_pairwise_distinct (c : Color) (row : Fin 8) :
       gapLeft c row ≠ gapRight c row := by
   fin_cases c <;> fin_cases row <;> decide
 
-#print axioms gap_colors_pairwise_distinct
 
 end F7Manuscript.W38TypeVGapColors

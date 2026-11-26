@@ -33,7 +33,6 @@ theorem actual_q0_two_run_shapes {L R : ℕ}
     (ActualQ0Cuts.actual_q0_cuts HL hLconvex)
     (ActualQ0Cuts.actual_q0_cuts HR hRconvex) hcost
 
-#print axioms actual_q0_two_run_shapes
 
 end
 end F7Manuscript.ActualQ0TwoRunShapes

@@ -141,6 +141,5 @@ theorem noReturn_of_observed_old_frontier
     tokensAfter_id_eq_origins word j (by rw [hlen]; omega)]
   exact hneq
 
-#print axioms noReturn_of_observed_old_frontier
 end
 end F7Manuscript.PartnerGraph.Sized

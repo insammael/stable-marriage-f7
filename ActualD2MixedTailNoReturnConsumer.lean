@@ -19,7 +19,6 @@ open F6SmallBlockTokenCapacity
 open scoped Classical
 noncomputable section
 
-#print axioms F7Manuscript.CenterOnlyPairOrientation.noReturn_id_of_fresh_sourcePrefix
 
 /-- Exact frame after two false paired rows and a false color-1 center. -/
 def d2CanonicalAfterCenter : SupportFrame where
@@ -152,6 +151,5 @@ theorem noReturn_of_normalized_d2_mixed_word_fresh
   exact noReturn_id_of_fresh_sourcePrefix
     (Move.paired :: Move.paired :: Move.center 1 :: tail) bits hfSource'
 
-#print axioms noReturn_of_normalized_d2_mixed_word_fresh
 end
 end F7Manuscript.ActualD2MixedTailNoReturnConsumer
