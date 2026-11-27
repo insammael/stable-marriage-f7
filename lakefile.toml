@@ -3051,13 +3051,10 @@ globs = [
   "F7Manuscript.NormalQ0WindowTree28",
   "F7Manuscript.NormalQ0WindowTree29",
   "F7Manuscript.NormalQ0WindowTree30",
-  "F7Manuscript.NormalQ0WindowTree31",
-  "F7Manuscript.NormalQ0WindowTree32",
   "F7Manuscript.NormalQ0WindowTree33",
   "F7Manuscript.NormalQ0WindowTree34",
   "F7Manuscript.NormalQ0WindowTree35",
   "F7Manuscript.NormalQ0WindowTree36",
-  "F7Manuscript.NormalQ0WindowTree37",
   "F7Manuscript.NormalQ0WindowTree38",
   "F7Manuscript.NormalQ0WindowTree39",
   "F7Manuscript.NormalQ0WindowTree40",
@@ -7541,6 +7538,24 @@ globs = [
   "WNoReturnRealization",
   "WWallKernel",
 ]
+
+[[lean_lib]]
+name = "F7Q0Tree31Build"
+roots = []
+globs = ["F7Manuscript.NormalQ0WindowTree31"]
+needs = ["F7Mass11Build:leanArts"]
+
+[[lean_lib]]
+name = "F7Q0Tree32Build"
+roots = []
+globs = ["F7Manuscript.NormalQ0WindowTree32"]
+needs = ["F7Q0Tree31Build:leanArts"]
+
+[[lean_lib]]
+name = "F7Q0Tree37Build"
+roots = []
+globs = ["F7Manuscript.NormalQ0WindowTree37"]
+needs = ["F7Q0Tree32Build:leanArts"]
 
 [[lean_lib]]
 name = "Challenge"
